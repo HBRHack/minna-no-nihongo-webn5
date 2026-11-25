@@ -1490,14 +1490,14 @@ body.hide-romaji .romaji { display: none; }
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 0;
+    top: var(--topbar-h);
     z-index: 48;
     background: var(--color-surface);
-    border-top: 1px solid var(--color-border-strong);
-    padding: 4px 4px calc(4px + env(safe-area-inset-bottom));
+    border-bottom: 1px solid var(--color-border-strong);
+    padding: 4px;
   }
   .mnav-btn {
-    min-height: 50px;
+    min-height: 46px;
     padding: 4px 2px;
     border: 0;
     border-radius: var(--radius-sm);
@@ -1525,10 +1525,11 @@ body.hide-romaji .romaji { display: none; }
     font-weight: 700;
   }
   .workspace {
-    padding: var(--space-4) var(--space-3) calc(84px + env(safe-area-inset-bottom));
+    padding: 72px var(--space-3) var(--space-8);
   }
   .sidebar {
-    bottom: calc(58px + env(safe-area-inset-bottom));
+    top: calc(var(--topbar-h) + 55px);
+    bottom: 0;
   }
   .stat-mini-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
