@@ -1,0 +1,1454 @@
+/* AUTO-GENERATED dari bab-25.json — jangan edit manual. */
+window.MNN_BANK = window.MNN_BANK || {};
+window.MNN_BANK[25] = [
+  {
+    "id": "b25-01",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Kosakata かんがえます",
+    "prompt": "「かんがえます」の いみは どれですか。",
+    "promptRomaji": "Kangaemasu no imi wa dore desu ka.",
+    "sub": "Pilih arti kata kerja yang tepat.",
+    "options": [
+      {
+        "jp": "tiba / sampai",
+        "romaji": ""
+      },
+      {
+        "jp": "berusaha keras",
+        "romaji": ""
+      },
+      {
+        "jp": "mencukupi",
+        "romaji": ""
+      },
+      {
+        "jp": "berpikir / mempertimbangkan",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "かんがえます (考えます) adalah kata kerja Kelompok II yang berarti berpikir atau mempertimbangkan."
+  },
+  {
+    "id": "b25-02",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Kosakata つきます",
+    "prompt": "「えきに つきます」の 「つきます」の いみは どれですか。",
+    "promptRomaji": "Eki ni tsukimasu no \"tsukimasu\" no imi wa dore desu ka.",
+    "sub": "Perhatikan partikelnya memakai に (えきに).",
+    "options": [
+      {
+        "jp": "tiba / sampai",
+        "romaji": ""
+      },
+      {
+        "jp": "berangkat",
+        "romaji": ""
+      },
+      {
+        "jp": "menunggu",
+        "romaji": ""
+      },
+      {
+        "jp": "melewati",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "つきます (着きます) berarti tiba atau sampai di suatu tempat, dan tempat tujuannya ditandai partikel に (えきに つきます)."
+  },
+  {
+    "id": "b25-03",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Kosakata とります（としを～）",
+    "prompt": "「としを とります」は どんな いみですか。",
+    "promptRomaji": "Toshi o torimasu wa donna imi desu ka.",
+    "sub": "Pilih arti ungkapan yang tepat.",
+    "options": [
+      {
+        "jp": "mengambil cuti",
+        "romaji": ""
+      },
+      {
+        "jp": "bertambah usia / menua",
+        "romaji": ""
+      },
+      {
+        "jp": "merayakan tahun baru",
+        "romaji": ""
+      },
+      {
+        "jp": "pindah ke desa",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "としを とります (年を 取ります) berarti bertambah tua atau menua."
+  },
+  {
+    "id": "b25-04",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Kosakata たります",
+    "prompt": "「おかねが たります」の 「たります」の いみは どれですか。",
+    "promptRomaji": "Okane ga tarimasu no \"tarimasu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata kerja Kelompok II ini.",
+    "options": [
+      {
+        "jp": "menghabiskan",
+        "romaji": ""
+      },
+      {
+        "jp": "meminjamkan",
+        "romaji": ""
+      },
+      {
+        "jp": "cukup / mencukupi",
+        "romaji": ""
+      },
+      {
+        "jp": "berkurang",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "たります (足ります) adalah kata kerja Kelompok II (bentuk-ない: たりない) yang berarti cukup atau mencukupi."
+  },
+  {
+    "id": "b25-05",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Kosakata いなか",
+    "prompt": "Kata bahasa Jepang untuk 「pedesaan / kampung halaman」 adalah yang mana?",
+    "promptRomaji": "Terjemahan Jepang (Bab 25: kata benda)",
+    "sub": "Pilih kosakata yang tepat.",
+    "options": [
+      {
+        "jp": "てんきん",
+        "romaji": "tenkin"
+      },
+      {
+        "jp": "チャンス",
+        "romaji": "chansu"
+      },
+      {
+        "jp": "たいしかん",
+        "romaji": "taishikan"
+      },
+      {
+        "jp": "いなか",
+        "romaji": "inaka"
+      }
+    ],
+    "answer": 3,
+    "explain": "いなか (田舎) berarti pedesaan atau kampung halaman. たいしかん = kedutaan besar, てんきん = mutasi kerja."
+  },
+  {
+    "id": "b25-06",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Kosakata たいしかん",
+    "prompt": "「たいしかん」の いみは どれですか。",
+    "promptRomaji": "Taishikan no imi wa dore desu ka.",
+    "sub": "Pilih arti kata benda yang tepat.",
+    "options": [
+      {
+        "jp": "kedutaan besar",
+        "romaji": ""
+      },
+      {
+        "jp": "balai kota",
+        "romaji": ""
+      },
+      {
+        "jp": "universitas luar negeri",
+        "romaji": ""
+      },
+      {
+        "jp": "kantor imigrasi",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "たいしかん (大使館) berarti kedutaan besar."
+  },
+  {
+    "id": "b25-07",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Kosakata てんきん",
+    "prompt": "「ちちは おおさかへ てんきんします」の 「てんきんします」の いみは どれですか。",
+    "promptRomaji": "Chichi wa Oosaka e tenkin shimasu.",
+    "sub": "Pilih arti kata kerja yang tepat.",
+    "options": [
+      {
+        "jp": "pindah rumah saja",
+        "romaji": ""
+      },
+      {
+        "jp": "pindah tugas / mutasi kerja",
+        "romaji": ""
+      },
+      {
+        "jp": "berlibur bersama keluarga",
+        "romaji": ""
+      },
+      {
+        "jp": "belajar di luar negeri",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "てんきん (転勤) berarti pindah tugas kerja atau mutasi ke cabang/kota lain."
+  },
+  {
+    "id": "b25-08",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Kosakata りゅうがくします",
+    "prompt": "Kata bahasa Jepang untuk 「belajar / kuliah di luar negeri」 adalah yang mana?",
+    "promptRomaji": "Terjemahan Jepang (Bab 25: kata kerja)",
+    "sub": "Pilih kosakata yang tepat.",
+    "options": [
+      {
+        "jp": "がんばります",
+        "romaji": "ganbarimasu"
+      },
+      {
+        "jp": "てんきんします",
+        "romaji": "tenkin shimasu"
+      },
+      {
+        "jp": "りゅうがくします",
+        "romaji": "ryuugaku shimasu"
+      },
+      {
+        "jp": "さんぽします",
+        "romaji": "sanpo shimasu"
+      }
+    ],
+    "answer": 2,
+    "explain": "りゅうがくします (留学します) berarti belajar/kuliah di luar negeri."
+  },
+  {
+    "id": "b25-09",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Kosakata おく",
+    "prompt": "「１おくえん」は インドネシアごで いくらですか。",
+    "promptRomaji": "Ichi oku en wa Indoneshiago de ikura desu ka.",
+    "sub": "Pilih nilai bilangan おく (億) yang tepat.",
+    "options": [
+      {
+        "jp": "seratus ribu yen",
+        "romaji": ""
+      },
+      {
+        "jp": "satu juta yen",
+        "romaji": ""
+      },
+      {
+        "jp": "sepuluh juta yen",
+        "romaji": ""
+      },
+      {
+        "jp": "seratus juta yen",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "１おく (一億) berarti seratus juta (100.000.000)."
+  },
+  {
+    "id": "b25-10",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Kosakata チャンス",
+    "prompt": "Kata bahasa Jepang untuk 「kesempatan / peluang」 adalah yang mana?",
+    "promptRomaji": "Terjemahan Jepang (Bab 25: kata serapan)",
+    "sub": "Pilih kata katakana yang tepat.",
+    "options": [
+      {
+        "jp": "チャンス",
+        "romaji": "chansu"
+      },
+      {
+        "jp": "グループ",
+        "romaji": "guruupu"
+      },
+      {
+        "jp": "サイズ",
+        "romaji": "saizu"
+      },
+      {
+        "jp": "ホームステイ",
+        "romaji": "hoomusutei"
+      }
+    ],
+    "answer": 0,
+    "explain": "チャンス berasal dari 'chance' yang berarti kesempatan atau peluang."
+  },
+  {
+    "id": "b25-11",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Ungkapan おせわに なりました",
+    "prompt": "Saat berpisah karena pindah kerja atau pulang ke negara asal, ungkapan 「いろいろ おせわに なりました。」 berarti...",
+    "promptRomaji": "Iroiro osewa ni narimashita.",
+    "sub": "Pilih arti ungkapan salam perpisahan ini.",
+    "options": [
+      {
+        "jp": "Semoga kita segera bertemu lagi besok.",
+        "romaji": ""
+      },
+      {
+        "jp": "Terima kasih banyak atas segala bantuan Anda selama ini.",
+        "romaji": ""
+      },
+      {
+        "jp": "Maaf saya sudah merepotkan hari ini.",
+        "romaji": ""
+      },
+      {
+        "jp": "Mari kita minum bersama malam ini.",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "いろいろ おせわに なりました dipakai untuk berterima kasih atas segala bantuan/perhatian seseorang selama ini."
+  },
+  {
+    "id": "b25-12",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Ungkapan どうぞ おげんきで",
+    "prompt": "Ungkapan 「どうぞ おげんきで。」 diucapkan kepada orang yang akan berpisah lama. Artinya adalah...",
+    "promptRomaji": "Douzo ogenki de.",
+    "sub": "Pilih arti yang paling tepat.",
+    "options": [
+      {
+        "jp": "Selamat makan bersama.",
+        "romaji": ""
+      },
+      {
+        "jp": "Tolong tunggu sebentar.",
+        "romaji": ""
+      },
+      {
+        "jp": "Semoga sehat selalu.",
+        "romaji": ""
+      },
+      {
+        "jp": "Sampai jumpa nanti malam.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "どうぞ おげんきで berarti 'Semoga sehat selalu' saat melepas seseorang pergi jauh atau berpisah lama."
+  },
+  {
+    "id": "b25-13",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Kosakata がんばります",
+    "prompt": "「にほんごの べんきょうを がんばります」の いみは どれですか。",
+    "promptRomaji": "Nihongo no benkyou o ganbarimasu.",
+    "sub": "Pilih arti kata kerja がんばります.",
+    "options": [
+      {
+        "jp": "menghentikan belajar bahasa Jepang",
+        "romaji": ""
+      },
+      {
+        "jp": "mengulangi ujian bahasa Jepang",
+        "romaji": ""
+      },
+      {
+        "jp": "memikirkan cara belajar bahasa Jepang",
+        "romaji": ""
+      },
+      {
+        "jp": "berusaha sebaik mungkin belajar bahasa Jepang",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "がんばります (頑張ります) berarti berusaha sebaik mungkin atau berjuang."
+  },
+  {
+    "id": "b25-14",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pola ～たら (V-たら Positif)",
+    "prompt": "もし １おくえん （　）、うちを かいたいです。",
+    "promptRomaji": "Moshi ichi oku en _____, uchi o kaitai desu.",
+    "sub": "Bentuk pengandaian ～たら dari あります (kalau ada).",
+    "options": [
+      {
+        "jp": "あったら",
+        "romaji": "attara"
+      },
+      {
+        "jp": "あるたら",
+        "romaji": "arutara"
+      },
+      {
+        "jp": "ありたら",
+        "romaji": "aritara"
+      },
+      {
+        "jp": "あっても",
+        "romaji": "atte mo"
+      }
+    ],
+    "answer": 0,
+    "explain": "～たら dibentuk dari bentuk lampau biasa (V-た) + ら. あります → あった + ら = あったら."
+  },
+  {
+    "id": "b25-15",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pola ～たら (Urutan Masa Depan)",
+    "prompt": "えきに （　）、でんわを かけて ください。",
+    "promptRomaji": "Eki ni _____, denwa o kakete kudasai.",
+    "sub": "Bentuk ～たら dari つきます (begitu/setelah sampai di stasiun).",
+    "options": [
+      {
+        "jp": "つくたら",
+        "romaji": "tsukutara"
+      },
+      {
+        "jp": "ついたら",
+        "romaji": "tsuitara"
+      },
+      {
+        "jp": "つきたら",
+        "romaji": "tsukitara"
+      },
+      {
+        "jp": "ついても",
+        "romaji": "tsuite mo"
+      }
+    ],
+    "answer": 1,
+    "explain": "つきます (Kel. I berakhiran -きます) bentuk-た nya adalah ついた, sehingga menjadi ついたら (begitu tiba)."
+  },
+  {
+    "id": "b25-16",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pola ～たら (Kata Kerja Negatif)",
+    "prompt": "ともだちが （　）、ひとりで えいがを みます。",
+    "promptRomaji": "Tomodachi ga _____, hitori de eiga o mimasu.",
+    "sub": "Bentuk pengandaian negatif dari きます ('kalau teman tidak datang').",
+    "options": [
+      {
+        "jp": "きなかったら",
+        "romaji": "kinakattara"
+      },
+      {
+        "jp": "こないたら",
+        "romaji": "konaitara"
+      },
+      {
+        "jp": "こなかったら",
+        "romaji": "konakattara"
+      },
+      {
+        "jp": "こなくても",
+        "romaji": "konakute mo"
+      }
+    ],
+    "answer": 2,
+    "explain": "きます (Kel. III) → Bentuk-ない: こない → Lampau negatif biasa: こなかった + ら = こなかったら."
+  },
+  {
+    "id": "b25-17",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pola ～たら (KS-い いい)",
+    "prompt": "あした てんきが （　）、やまへ いきましょう。",
+    "promptRomaji": "Ashita tenki ga _____, yama e ikimashou.",
+    "sub": "Bentuk ～たら dari いい ('kalau cuacanya bagus').",
+    "options": [
+      {
+        "jp": "いかったら",
+        "romaji": "ikattara"
+      },
+      {
+        "jp": "いいだったら",
+        "romaji": "ii dattara"
+      },
+      {
+        "jp": "いいったら",
+        "romaji": "iittara"
+      },
+      {
+        "jp": "よかったら",
+        "romaji": "yokattara"
+      }
+    ],
+    "answer": 3,
+    "explain": "Kata sifat いい bentuk lampau biasanya adalah よかった, sehingga bentuk ～たら nya wajib よかったら."
+  },
+  {
+    "id": "b25-18",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pola ～たら (KS-い Positif)",
+    "prompt": "ねだんが （　）、この カメラを かいます。",
+    "promptRomaji": "Nedan ga _____, kono kamera o kaimasu.",
+    "sub": "Bentuk ～たら dari やすい ('kalau harganya murah').",
+    "options": [
+      {
+        "jp": "やすかったら",
+        "romaji": "yasukattara"
+      },
+      {
+        "jp": "やすいだったら",
+        "romaji": "yasui dattara"
+      },
+      {
+        "jp": "やすくたら",
+        "romaji": "yasukutara"
+      },
+      {
+        "jp": "やすくても",
+        "romaji": "yasukute mo"
+      }
+    ],
+    "answer": 0,
+    "explain": "KS-い mengganti い dengan かった + ら: やすい → やすかったら."
+  },
+  {
+    "id": "b25-19",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pola ～たら (KS-な)",
+    "prompt": "にちようび （　）、いっしょに テニスを しませんか。",
+    "promptRomaji": "Nichiyoubi _____, issho ni tenisu o shimasen ka.",
+    "sub": "Bentuk ～たら dari ひまです ('kalau hari Minggu senggang').",
+    "options": [
+      {
+        "jp": "ひまなたら",
+        "romaji": "hima natara"
+      },
+      {
+        "jp": "ひまだったら",
+        "romaji": "hima dattara"
+      },
+      {
+        "jp": "ひまかったら",
+        "romaji": "himakattara"
+      },
+      {
+        "jp": "ひまでも",
+        "romaji": "hima demo"
+      }
+    ],
+    "answer": 1,
+    "explain": "KS-な dan Kata Benda memakai bentuk lampau biasa だった + ら: ひま → ひまだったら."
+  },
+  {
+    "id": "b25-20",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pola ～たら (Kata Benda)",
+    "prompt": "あした （　）、サッカーの しあいは やすみです。",
+    "promptRomaji": "Ashita _____, sakkaa no shiai wa yasumi desu.",
+    "sub": "Bentuk ～たら dari あめです ('kalau besok hujan').",
+    "options": [
+      {
+        "jp": "あめのたら",
+        "romaji": "ame no tara"
+      },
+      {
+        "jp": "あめかったら",
+        "romaji": "ame kattara"
+      },
+      {
+        "jp": "あめだったら",
+        "romaji": "ame dattara"
+      },
+      {
+        "jp": "あめでも",
+        "romaji": "ame demo"
+      }
+    ],
+    "answer": 2,
+    "explain": "あめ adalah kata benda, sehingga bentuk lampau biasa + ら menjadi あめだったら."
+  },
+  {
+    "id": "b25-21",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pola ～たら (Negatif KS-な/N)",
+    "prompt": "あした やすみじゃ （　）、しごとに いかなければ なりません。",
+    "promptRomaji": "Ashita yasumi ja _____, shigoto ni ikanakereba narimasen.",
+    "sub": "Bentuk ～たら negatif dari やすみです ('kalau besok bukan hari libur').",
+    "options": [
+      {
+        "jp": "ないたら",
+        "romaji": "naitara"
+      },
+      {
+        "jp": "ありなかったら",
+        "romaji": "arinakattara"
+      },
+      {
+        "jp": "なかった",
+        "romaji": "nakatta"
+      },
+      {
+        "jp": "なかったら",
+        "romaji": "nakattara"
+      }
+    ],
+    "answer": 3,
+    "explain": "Negatif kata benda やすみじゃない → lampau biasa: やすみじゃなかった + ら = やすみじゃなかったら."
+  },
+  {
+    "id": "b25-22",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pola ～ても (Kata Kerja Positif)",
+    "prompt": "あめが （　）、わたしは まいにち ジョギングします。",
+    "promptRomaji": "Ame ga _____, watashi wa mainichi jogingu shimasu.",
+    "sub": "Bentuk kontradiksi ～ても dari ふります ('walaupun hujan turun').",
+    "options": [
+      {
+        "jp": "ふっても",
+        "romaji": "futte mo"
+      },
+      {
+        "jp": "ふったら",
+        "romaji": "futtara"
+      },
+      {
+        "jp": "ふるても",
+        "romaji": "furutemo"
+      },
+      {
+        "jp": "ふりても",
+        "romaji": "furitemo"
+      }
+    ],
+    "answer": 0,
+    "explain": "～ても untuk kata kerja memakai Bentuk-て + も. ふります → ふって + も = ふっても."
+  },
+  {
+    "id": "b25-23",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pola ～ても (Kata Kerja Kelompok II)",
+    "prompt": "いくら （　）、この もんだいの こたえが わかりません。",
+    "promptRomaji": "Ikura _____, kono mondai no kotae ga wakarimasen.",
+    "sub": "Bentuk ～ても dari かんがえます ('seberapa pun berpikir').",
+    "options": [
+      {
+        "jp": "かんがえたら",
+        "romaji": "kangaetara"
+      },
+      {
+        "jp": "かんがえても",
+        "romaji": "kangaete mo"
+      },
+      {
+        "jp": "かんがえるても",
+        "romaji": "kangaerutemo"
+      },
+      {
+        "jp": "かんがえでも",
+        "romaji": "kangaedemo"
+      }
+    ],
+    "answer": 1,
+    "explain": "かんがえます adalah Kelompok II → Bentuk-て: かんがえて + も = かんがえても."
+  },
+  {
+    "id": "b25-24",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pola ～ても (Kata Kerja Negatif)",
+    "prompt": "あしたは やすみですから、かいしゃへ （　） いいですよ。",
+    "promptRomaji": "Ashita wa yasumi desu kara, kaisha e _____ ii desu yo.",
+    "sub": "Lengkapi bentuk 'walaupun tidak pergi' (～なくても) dari いきます.",
+    "options": [
+      {
+        "jp": "いかないても",
+        "romaji": "ikanaitemo"
+      },
+      {
+        "jp": "いかなかったら",
+        "romaji": "ikanakattara"
+      },
+      {
+        "jp": "いかなくても",
+        "romaji": "ikanakute mo"
+      },
+      {
+        "jp": "いきなくても",
+        "romaji": "ikinakute mo"
+      }
+    ],
+    "answer": 2,
+    "explain": "Untuk ～ても negatif kata kerja, ubah ke Bentuk-ない lalu ganti い dengan くても: いきます → いかない → いかなくても."
+  },
+  {
+    "id": "b25-25",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pola ～ても (KS-い)",
+    "prompt": "いくら （　）、へやが せまい アパートには すみたくないです。",
+    "promptRomaji": "Ikura _____, heya ga semai apaato ni wa sumitakunai desu.",
+    "sub": "Bentuk ～ても dari やすい ('semurah apa pun').",
+    "options": [
+      {
+        "jp": "やすいでも",
+        "romaji": "yasui demo"
+      },
+      {
+        "jp": "やすかったら",
+        "romaji": "yasukattara"
+      },
+      {
+        "jp": "やすいとても",
+        "romaji": "yasui to temo"
+      },
+      {
+        "jp": "やすくても",
+        "romaji": "yasukute mo"
+      }
+    ],
+    "answer": 3,
+    "explain": "KS-い membentuk ～ても dengan mengganti い menjadi くても: やすい → やすくても."
+  },
+  {
+    "id": "b25-26",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pola ～ても (KS-い いい)",
+    "prompt": "あたまが （　）、テストの てんが わるい ときも あります。",
+    "promptRomaji": "Atama ga _____, tesuto no ten ga warui toki mo arimasu.",
+    "sub": "Bentuk ～ても dari いい ('walaupun pintar / kepalanya bagus').",
+    "options": [
+      {
+        "jp": "よくても",
+        "romaji": "yokute mo"
+      },
+      {
+        "jp": "いくても",
+        "romaji": "ikute mo"
+      },
+      {
+        "jp": "いいても",
+        "romaji": "iite mo"
+      },
+      {
+        "jp": "よかったら",
+        "romaji": "yokattara"
+      }
+    ],
+    "answer": 0,
+    "explain": "Kata sifat いい berkonjugasi dari akar よ-: いい → よくて + も = よくても."
+  },
+  {
+    "id": "b25-27",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pola ～ても (KS-な)",
+    "prompt": "こうつうが （　）、しずかな ところに すみたいです。",
+    "promptRomaji": "Koutsuu ga _____, shizuka na tokoro ni sumitai desu.",
+    "sub": "Bentuk ～ても dari ふべん［な］ ('walaupun tidak praktis').",
+    "options": [
+      {
+        "jp": "ふべんくても",
+        "romaji": "fubenkute mo"
+      },
+      {
+        "jp": "ふべんでも",
+        "romaji": "fuben demo"
+      },
+      {
+        "jp": "ふべんなても",
+        "romaji": "fuben na temo"
+      },
+      {
+        "jp": "ふべんだったら",
+        "romaji": "fuben dattara"
+      }
+    ],
+    "answer": 1,
+    "explain": "KS-な membentuk pola kontradiksi dengan menambahkan でも langsung: ふべん + でも = ふべんでも."
+  },
+  {
+    "id": "b25-28",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pola ～ても (Kata Benda)",
+    "prompt": "（　）、この かんじは よむ ことが できますよ。",
+    "promptRomaji": "_____, kono kanji wa yomu koto ga dekimasu yo.",
+    "sub": "Bentuk ～ても dari こども ('walaupun anak-anak').",
+    "options": [
+      {
+        "jp": "こどものも",
+        "romaji": "kodomo no mo"
+      },
+      {
+        "jp": "こどもくても",
+        "romaji": "kodomokute mo"
+      },
+      {
+        "jp": "こどもでも",
+        "romaji": "kodomo demo"
+      },
+      {
+        "jp": "こどもだったら",
+        "romaji": "kodomo dattara"
+      }
+    ],
+    "answer": 2,
+    "explain": "Kata benda memakai でも untuk menyatakan 'walaupun / bahkan': こども + でも = こどもでも."
+  },
+  {
+    "id": "b25-29",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pasangan もし ～たら",
+    "prompt": "（　） りゅうがくの チャンスが あったら、にほんへ いきたいです。",
+    "promptRomaji": "_____ ryuugaku no chansu ga attara, Nihon e ikitai desu.",
+    "sub": "Pilih kata penegas pengandaian yang berpasangan dengan ～たら.",
+    "options": [
+      {
+        "jp": "いくら",
+        "romaji": "ikura"
+      },
+      {
+        "jp": "とても",
+        "romaji": "totemo"
+      },
+      {
+        "jp": "かならず",
+        "romaji": "kanarazu"
+      },
+      {
+        "jp": "もし",
+        "romaji": "moshi"
+      }
+    ],
+    "answer": 3,
+    "explain": "もし ('seandainya / jika') berpasangan dengan klausa pengandaian ～たら, sedangkan いくら berpasangan dengan ～ても."
+  },
+  {
+    "id": "b25-30",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pasangan いくら ～ても",
+    "prompt": "（　） ねだんが たかくても、この くつは ほしいです。",
+    "promptRomaji": "_____ nedan ga takakute mo, kono kutsu wa hoshii desu.",
+    "sub": "Pilih kata penegas kontradiksi yang berpasangan dengan ～ても.",
+    "options": [
+      {
+        "jp": "いくら",
+        "romaji": "ikura"
+      },
+      {
+        "jp": "もし",
+        "romaji": "moshi"
+      },
+      {
+        "jp": "だれか",
+        "romaji": "dareka"
+      },
+      {
+        "jp": "もうすぐ",
+        "romaji": "mou sugu"
+      }
+    ],
+    "answer": 0,
+    "explain": "いくら berpasangan dengan ～ても untuk menegaskan 'seberapa pun / betapa pun ... tetap ...'."
+  },
+  {
+    "id": "b25-31",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pola ～たら (Urutan Waktu)",
+    "prompt": "しごとが （　）、みんなで いっぱい のみましょう。",
+    "promptRomaji": "Shigoto ga _____, minna de ippai nomimashou.",
+    "sub": "Bentuk ～たら dari おわります ('setelah pekerjaan selesai').",
+    "options": [
+      {
+        "jp": "おわるたら",
+        "romaji": "owarutara"
+      },
+      {
+        "jp": "おわったら",
+        "romaji": "owattara"
+      },
+      {
+        "jp": "おわりたら",
+        "romaji": "owaritara"
+      },
+      {
+        "jp": "おわっても",
+        "romaji": "owatte mo"
+      }
+    ],
+    "answer": 1,
+    "explain": "おわります (Kel. I) bentuk-た nya adalah おわった → おわったら (setelah selesai)."
+  },
+  {
+    "id": "b25-32",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Negatif ～なくても",
+    "prompt": "おかねが （　）、たのしい せいかつは できます。",
+    "promptRomaji": "Okane ga _____, tanoshii seikatsu wa dekimasu.",
+    "sub": "Lengkapi 'walaupun tidak ada uang' (あります → ありません).",
+    "options": [
+      {
+        "jp": "なかったら",
+        "romaji": "nakattara"
+      },
+      {
+        "jp": "ないても",
+        "romaji": "naitemo"
+      },
+      {
+        "jp": "なくても",
+        "romaji": "nakute mo"
+      },
+      {
+        "jp": "あっても",
+        "romaji": "atte mo"
+      }
+    ],
+    "answer": 2,
+    "explain": "あります bentuk negatif biasanya adalah ない, dan bentuk ～ても nya adalah なくても ('walaupun tidak ada')."
+  },
+  {
+    "id": "b25-33",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Terjemahan Kalimat",
+    "prompt": "「じかんが なかったら、タクシーで いって ください。」の いみは どれですか。",
+    "promptRomaji": "Jikan ga nakattara, takushii de itte kudasai.",
+    "sub": "Pilih terjemahan bahasa Indonesia yang tepat.",
+    "options": [
+      {
+        "jp": "Walaupun tidak ada waktu, silakan berjalan kaki saja.",
+        "romaji": ""
+      },
+      {
+        "jp": "Karena ada waktu, silakan naik taksi.",
+        "romaji": ""
+      },
+      {
+        "jp": "Sebelum waktunya habis, jangan naik taksi.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kalau tidak ada waktu, silakan pergi naik taksi.",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "じかんが なかったら berarti 'kalau tidak ada waktu', dan タクシーで いって ください berarti 'silakan pergi naik taksi'."
+  },
+  {
+    "id": "b25-34",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Terjemahan Kalimat",
+    "prompt": "「おかねが なくても、かぞくが げんきだったら、いいです。」の 「おかねが なくても」の いみは どれですか。",
+    "promptRomaji": "Okane ga nakute mo, kazoku ga genki dattara, ii desu.",
+    "sub": "Jangan tertukar arti ～ても dengan 'karena'!",
+    "options": [
+      {
+        "jp": "Walaupun tidak punya uang...",
+        "romaji": ""
+      },
+      {
+        "jp": "Karena tidak punya uang...",
+        "romaji": ""
+      },
+      {
+        "jp": "Kalau tidak punya uang...",
+        "romaji": ""
+      },
+      {
+        "jp": "Saat masih punya uang...",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "～なくても menyatakan kontradiksi ('walaupun tidak ~ / meskipun tidak ~'), bukan sebab-akibat."
+  },
+  {
+    "id": "b25-35",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Terjemahan Kalimat",
+    "prompt": "「６０さいに なったら、いなかへ かえりたいです。」の いみは どれですか。",
+    "promptRomaji": "Rokujissai ni nattara, inaka e kaeritai desu.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      {
+        "jp": "Meskipun sudah berumur 60 tahun, saya tetap bekerja.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kalau/nanti setelah berumur 60 tahun, saya ingin pulang ke kampung halaman.",
+        "romaji": ""
+      },
+      {
+        "jp": "Sebelum berumur 60 tahun, saya pulang dari desa.",
+        "romaji": ""
+      },
+      {
+        "jp": "Saat berumur 60 tahun, keluarga saya pindah ke kota.",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "６０さいに なったら berarti 'kalau/setelah mencapai umur 60 tahun'; いなかへ かえりたいです = ingin pulang ke kampung halaman."
+  },
+  {
+    "id": "b25-36",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Terjemahan Kalimat",
+    "prompt": "「いくら いそがしくても、あさごはんは かならず たべます。」の いみは どれですか。",
+    "promptRomaji": "Ikura isogashikute mo, asagohan wa kanarazu tabemasu.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      {
+        "jp": "Kalau sibuk, saya tidak sempat sarapan pagi.",
+        "romaji": ""
+      },
+      {
+        "jp": "Setelah pekerjaan sibuk selesai, saya makan pagi.",
+        "romaji": ""
+      },
+      {
+        "jp": "Sesibuk apa pun, saya pasti makan sarapan pagi.",
+        "romaji": ""
+      },
+      {
+        "jp": "Ketika tidak sibuk, saya selalu sarapan bersama.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "いくら いそがしくても berarti 'sesibuk apa pun / meskipun sangat sibuk'; かならず たべます = pasti makan."
+  },
+  {
+    "id": "b25-37",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Terjemahan ke Jepang",
+    "prompt": "Terjemahkan: 「Kalau sudah jam 10 (10じに なります), mari kita pulang.」",
+    "promptRomaji": "Terjemahan Jepang (Bab 25: urutan masa depan ～たら)",
+    "sub": "Pilih terjemahan yang memakai ～たら dengan tepat.",
+    "options": [
+      {
+        "jp": "10じに なるたら、かえりましょう。",
+        "romaji": "Juuji ni narutara, kaerimashou."
+      },
+      {
+        "jp": "10じに なっても、かえりましょう。",
+        "romaji": "Juuji ni natte mo, kaerimashou."
+      },
+      {
+        "jp": "10じに なると、かえりましょう。",
+        "romaji": "Juuji ni naru to, kaerimashou."
+      },
+      {
+        "jp": "10じに なったら、かえりましょう。",
+        "romaji": "Juuji ni nattara, kaerimashou."
+      }
+    ],
+    "answer": 3,
+    "explain": "Untuk kondisi 'setelah/nanti kalau sudah jam 10' yang diikuti ajakan ～ましょう, wajib memakai なったら (bukan なると dan bukan なるたら)."
+  },
+  {
+    "id": "b25-38",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Terjemahan ke Jepang",
+    "prompt": "Terjemahkan: 「Walaupun hari Minggu (にちようび), saya bekerja.」",
+    "promptRomaji": "Terjemahan Jepang (Bab 25: Kata Benda + でも)",
+    "sub": "Pilih kalimat dengan bentuk konsesif kata benda yang tepat.",
+    "options": [
+      {
+        "jp": "にちようびでも、はたらきます。",
+        "romaji": "Nichiyoubi demo, hatarakimasu."
+      },
+      {
+        "jp": "にちようびくても、はたらきます。",
+        "romaji": "Nichiyoubikute mo, hatarakimasu."
+      },
+      {
+        "jp": "にちようびだったら、はたらきます。",
+        "romaji": "Nichiyoubi dattara, hatarakimasu."
+      },
+      {
+        "jp": "にちようびても、はたらきます。",
+        "romaji": "Nichiyoubi temo, hatarakimasu."
+      }
+    ],
+    "answer": 0,
+    "explain": "Kata benda にちようび + でも = にちようびでも ('walaupun hari Minggu')."
+  },
+  {
+    "id": "b25-39",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Terjemahan ke Jepang",
+    "prompt": "Terjemahkan: 「Walaupun rasanya tidak enak (おいしくない), karena obat, saya meminumnya.」",
+    "promptRomaji": "Terjemahan Jepang (Bab 25: KS-い negatif + ても)",
+    "sub": "Ubah おいしくない ke bentuk ～ても.",
+    "options": [
+      {
+        "jp": "おいしくないても、くすりですから、のみます。",
+        "romaji": "Oishikunaitemo, kusuri desu kara, nomimasu."
+      },
+      {
+        "jp": "おいしくなくても、くすりですから、のみます。",
+        "romaji": "Oishikunakute mo, kusuri desu kara, nomimasu."
+      },
+      {
+        "jp": "おいしくなかったら、くすりですから、のみます。",
+        "romaji": "Oishikunakattara, kusuri desu kara, nomimasu."
+      },
+      {
+        "jp": "おいしくても、くすりですから、のみます。",
+        "romaji": "Oishikute mo, kusuri desu kara, nomimasu."
+      }
+    ],
+    "answer": 1,
+    "explain": "おいしくない → おいしくなくて + も = おいしくなくても ('walaupun tidak enak')."
+  },
+  {
+    "id": "b25-40",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pemahaman Bacaan",
+    "prompt": "「この レストランは いくら たかくても、いつも おきゃくさんが おおいです。りょうりが とても おいしいですから。」の いみは どれですか。",
+    "promptRomaji": "Kono resutoran wa ikura takakute mo, itsumo okyakusan ga ooi desu. Ryouri ga totemo oishii desu kara.",
+    "sub": "Pilih ringkasan makna yang tepat.",
+    "options": [
+      {
+        "jp": "Restoran ini sepi karena harganya mahal.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kalau restoran ini murah, tamunya akan menjadi banyak.",
+        "romaji": ""
+      },
+      {
+        "jp": "Restoran ini semahal apa pun selalu ramai tamu karena masakannya sangat enak.",
+        "romaji": ""
+      },
+      {
+        "jp": "Restoran ini hanya ramai saat harganya didiskon.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "いくら たかくても = semahal apa pun; いつも おきゃくさんが おおいです = selalu banyak tamu."
+  },
+  {
+    "id": "b25-41",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Terjemahan ke Jepang",
+    "prompt": "Terjemahkan: 「Kalau tidak mengerti (わかりません), silakan bertanya kepada guru.」",
+    "promptRomaji": "Terjemahan Jepang (Bab 25: V-なかったら)",
+    "sub": "Gabungkan bentuk negatif ～たら dengan kalimat permintaan.",
+    "options": [
+      {
+        "jp": "わかりなかったら、せんせいに きいて ください。",
+        "romaji": "Wakarinakattara, sensei ni kiite kudasai."
+      },
+      {
+        "jp": "わからなくても、せんせいに きいて ください。",
+        "romaji": "Wakaranakute mo, sensei ni kiite kudasai."
+      },
+      {
+        "jp": "わからないと、せんせいに きいて ください。",
+        "romaji": "Wakaranai to, sensei ni kiite kudasai."
+      },
+      {
+        "jp": "わからなかったら、せんせいに きいて ください。",
+        "romaji": "Wakaranakattara, sensei ni kiite kudasai."
+      }
+    ],
+    "answer": 3,
+    "explain": "わかります → わからない → わからなかった + ら = わからなかったら. Karena diikuti permintaan (きいて ください), pakai ～たら, bukan ～と."
+  },
+  {
+    "id": "b25-42",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Pemahaman Bacaan",
+    "prompt": "「としを とったら、いなかで ゆっくり すみたいと かんがえています。」の いみは どれですか。",
+    "promptRomaji": "Toshi o tottara, inaka de yukkuri sumitai to kangaete imasu.",
+    "sub": "Pilih terjemahan yang paling akurat.",
+    "options": [
+      {
+        "jp": "Saya berpikir ingin tinggal santai di desa setelah bertambah tua nanti.",
+        "romaji": ""
+      },
+      {
+        "jp": "Walaupun sudah tua, saya tidak mau tinggal di desa.",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya menyesal karena pindah ke desa saat masih muda.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kalau tinggal di desa, umur akan menjadi panjang.",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "としを とったら = nanti kalau/setelah bertambah tua; いなかで ゆっくり すみたいと かんがえています = berpikir ingin tinggal santai di desa."
+  },
+  {
+    "id": "b25-43",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Deteksi Kesalahan (～たら vs ～と)",
+    "prompt": "Manakah kalimat yang BENAR secara tata bahasa?",
+    "promptRomaji": "Perhatikan aturan kalimat setelah ～と vs ～たら!",
+    "sub": "Cek kalimat keinginan/ajakan/permintaan!",
+    "options": [
+      {
+        "jp": "じかんが あると、コーヒーを のみたいです。",
+        "romaji": "Jikan ga aru to, koohii o nomitai desu."
+      },
+      {
+        "jp": "じかんが あったら、コーヒーを のみたいです。",
+        "romaji": "Jikan ga attara, koohii o nomitai desu."
+      },
+      {
+        "jp": "じかんが あるたら、コーヒーを のみたいです。",
+        "romaji": "Jikan ga arutara, koohii o nomitai desu."
+      },
+      {
+        "jp": "じかんが あっても、コーヒーを のみたいです。",
+        "romaji": "Jikan ga atte mo, koohii o nomitai desu."
+      }
+    ],
+    "answer": 1,
+    "explain": "Kalimat keinginan (のみたいです) boleh mengikuti ～たら (あったら), tetapi TIDAK boleh mengikuti ～と (あると). Bentuk あるたら salah konjugasi, dan あっても ('walaupun ada waktu') tidak logis."
+  },
+  {
+    "id": "b25-44",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Deteksi Kesalahan Konjugasi",
+    "prompt": "Manakah bentuk ～ても atau ～たら yang SALAH?",
+    "promptRomaji": "Cari konjugasi yang keliru di antara 4 kalimat berikut!",
+    "sub": "Periksa bentuk KS-い, KS-な, dan Kata Kerja.",
+    "options": [
+      {
+        "jp": "てんきが よかったら、さんぽしましょう。",
+        "romaji": "Tenki ga yokattara, sanpo shimashou."
+      },
+      {
+        "jp": "しずかでも、この へやは ちょっと さびしいです。",
+        "romaji": "Shizuka demo, kono heya wa chotto sabishii desu."
+      },
+      {
+        "jp": "いそがしいくても、まいにち れんしゅうします。",
+        "romaji": "Isogashiikute mo, mainichi renshuu shimasu."
+      },
+      {
+        "jp": "くにへ かえっても、わたしは にほんごを わすれません。",
+        "romaji": "Kuni e kaette mo, watashi wa nihongo o wasuremasen."
+      }
+    ],
+    "answer": 2,
+    "explain": "いそがしいくても salah karena huruf い di akhir kata sifat-い wajib dibuang sebelum くても: yang benar adalah いそがしくても."
+  },
+  {
+    "id": "b25-45",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Mini Dialog (Pengandaian vs Fakta)",
+    "prompt": "A：おなかが いっぱいですね。もう たべませんか。\nB：ええ。でも、おいしい ケーキが （　）、すこし たべます。",
+    "promptRomaji": "A: Onaka ga ippai desu ne. Mou tabemasen ka. B: Ee. Demo, oishii keeki ga _____, sukoshi tabemasu.",
+    "sub": "Lengkapi: 'kalau ada kue yang enak, saya makan sedikit' (あります).",
+    "options": [
+      {
+        "jp": "あっても",
+        "romaji": "atte mo"
+      },
+      {
+        "jp": "なかったら",
+        "romaji": "nakattara"
+      },
+      {
+        "jp": "あるたら",
+        "romaji": "arutara"
+      },
+      {
+        "jp": "あったら",
+        "romaji": "attara"
+      }
+    ],
+    "answer": 3,
+    "explain": "Maknanya adalah syarat pengandaian 'kalau ada kue yang enak', jadi memakai あったら."
+  },
+  {
+    "id": "b25-46",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Mini Dialog (Perpisahan / Mutasi)",
+    "prompt": "A：らいしゅう おおさかへ てんきんします。いろいろ おせわに なりました。\nB：そうですか。おおさかへ （　）、また れんらくして くださいね。",
+    "promptRomaji": "A: Raishuu Oosaka e tenkin shimasu. Iroiro osewa ni narimashita. B: Sou desu ka. Oosaka e _____, mata renraku shite kudasai ne.",
+    "sub": "Lengkapi: 'setelah pergi ke Osaka' (いきます).",
+    "options": [
+      {
+        "jp": "いったら",
+        "romaji": "ittara"
+      },
+      {
+        "jp": "いっても",
+        "romaji": "itte mo"
+      },
+      {
+        "jp": "いくたら",
+        "romaji": "ikutara"
+      },
+      {
+        "jp": "いかなかったら",
+        "romaji": "ikanakattara"
+      }
+    ],
+    "answer": 0,
+    "explain": "Untuk menyatakan urutan masa depan 'nanti setelah pergi ke Osaka, tolong hubungi lagi', gunakan いったら."
+  },
+  {
+    "id": "b25-47",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Mini Dialog (Kontras ～ても)",
+    "prompt": "A：この じしょ、たかかったでしょう。\nB：いいえ、あまり たかく なかったですよ。でも、いくら （　）、ぜんぶの かんじは わかりません。",
+    "promptRomaji": "A: Kono jisho, takakatta deshou. B: Iie, amari takaku nakatta desu yo. Demo, ikura _____, zenbu no kanji wa wakarimasen.",
+    "sub": "Lengkapi dengan kata kerja しらべます ('seberapa pun dicari/dicek di kamus').",
+    "options": [
+      {
+        "jp": "しらべたら",
+        "romaji": "shirabetara"
+      },
+      {
+        "jp": "しらべても",
+        "romaji": "shirabete mo"
+      },
+      {
+        "jp": "しらべるても",
+        "romaji": "shiraberutemo"
+      },
+      {
+        "jp": "しらべなくても",
+        "romaji": "shirabenakute mo"
+      }
+    ],
+    "answer": 1,
+    "explain": "Kata いくら berpasangan dengan ～ても: しらべます → しらべて + も = しらべても ('seberapa pun dicari')."
+  },
+  {
+    "id": "b25-48",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Kontras Makna ～たら vs ～ても",
+    "prompt": "「スイッチを おしたら、うごきます」 dan 「スイッチを おしても、うごきません」. Perbedaan kedua kalimat tersebut adalah...",
+    "promptRomaji": "Suicchi o oshitara, ugokimasu vs Suicchi o oshite mo, ugokimasen.",
+    "sub": "Pilih penjelasan kontras tata bahasa yang paling tepat.",
+    "options": [
+      {
+        "jp": "Kalimat pertama untuk masa lalu, kalimat kedua untuk masa depan.",
+        "romaji": ""
+      },
+      {
+        "jp": "Keduanya berarti 'walaupun menekan sakelar'.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kalimat pertama berarti 'kalau ditekan akan bekerja', kalimat kedua berarti 'walaupun ditekan tetap tidak bekerja'.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kalimat pertama salah karena bentuk oshitara tidak bisa dipakai untuk mesin.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "～たら menyatakan syarat/kondisi ('kalau ditekan, bergerak'), sedangkan ～ても menyatakan hasil yang berlawanan dari harapan ('walaupun ditekan, tetap tidak bergerak')."
+  },
+  {
+    "id": "b25-49",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Mini Dialog (Syarat Cukup)",
+    "prompt": "A：この おかねで たりますか。\nB：ええ、これだけ あったら、じゅうぶんです。もし （　）、また いいます。",
+    "promptRomaji": "A: Kono okane de tarimasu ka. B: Ee, kore dake attara, juubun desu. Moshi _____, mata iimasu.",
+    "sub": "Lengkapi: 'kalau tidak cukup' dari たります (Kel. II → たりない).",
+    "options": [
+      {
+        "jp": "たらなかったら",
+        "romaji": "taranakattara"
+      },
+      {
+        "jp": "たりなくても",
+        "romaji": "tarinakute mo"
+      },
+      {
+        "jp": "たりたら",
+        "romaji": "taritara"
+      },
+      {
+        "jp": "たりなかったら",
+        "romaji": "tarinakattara"
+      }
+    ],
+    "answer": 3,
+    "explain": "たります adalah kata kerja Kelompok II, sehingga bentuk-ない nya たりない (bukan たらない). Lampau negatif + ら menjadi たりなかったら."
+  },
+  {
+    "id": "b25-50",
+    "bab": 25,
+    "type": "mcq",
+    "badge": "Bab 25 · Konteks Percakapan (いなか・チャンス)",
+    "prompt": "A：にほんの だいがくへ りゅうがくしたいですか。\nB：はい、チャンスが （　）、ぜひ いきたいです。",
+    "promptRomaji": "A: Nihon no daigaku e ryuugaku shitai desu ka. B: Hai, chansu ga _____, zehi ikitai desu.",
+    "sub": "Lengkapi syarat 'kalau ada kesempatan'.",
+    "options": [
+      {
+        "jp": "あったら",
+        "romaji": "attara"
+      },
+      {
+        "jp": "あっても",
+        "romaji": "atte mo"
+      },
+      {
+        "jp": "あると",
+        "romaji": "aru to"
+      },
+      {
+        "jp": "なかったら",
+        "romaji": "nakattara"
+      }
+    ],
+    "answer": 0,
+    "explain": "チャンスが あったら ('kalau ada kesempatan'), zehi ikitai desu ('tentu saja ingin pergi')."
+  }
+];

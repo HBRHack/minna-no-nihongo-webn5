@@ -1,0 +1,1452 @@
+[
+  {
+    "id": "b11-01",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Kosakata かかります",
+    "prompt": "「かかります」の いみは どれですか。",
+    "promptRomaji": "\"Kakarimasu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "berjalan kaki",
+        "romaji": ""
+      },
+      {
+        "jp": "membayar dengan kartu",
+        "romaji": ""
+      },
+      {
+        "jp": "memakan waktu atau biaya",
+        "romaji": ""
+      },
+      {
+        "jp": "menunggu di stasiun",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "かかります dipakai untuk waktu atau biaya yang diperlukan."
+  },
+  {
+    "id": "b11-02",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Kosakata きって",
+    "prompt": "「きって」の いみは どれですか。",
+    "promptRomaji": "\"Kitte\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "amplop",
+        "romaji": ""
+      },
+      {
+        "jp": "tiket kereta",
+        "romaji": ""
+      },
+      {
+        "jp": "kartu pos",
+        "romaji": ""
+      },
+      {
+        "jp": "perangko",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "きって berarti perangko, sedangkan tiket adalah きっぷ."
+  },
+  {
+    "id": "b11-03",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Kosakata はがき",
+    "prompt": "「はがき」の いみは どれですか。",
+    "promptRomaji": "\"Hagaki\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "perangko",
+        "romaji": ""
+      },
+      {
+        "jp": "amplop",
+        "romaji": ""
+      },
+      {
+        "jp": "kartu pos",
+        "romaji": ""
+      },
+      {
+        "jp": "surat",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "はがき berarti kartu pos."
+  },
+  {
+    "id": "b11-04",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Kosakata ふうとう",
+    "prompt": "「ふうとう」の いみは どれですか。",
+    "promptRomaji": "\"Fuutou\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "amplop",
+        "romaji": ""
+      },
+      {
+        "jp": "kotak surat",
+        "romaji": ""
+      },
+      {
+        "jp": "kartu pos",
+        "romaji": ""
+      },
+      {
+        "jp": "perangko",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "ふうとう berarti amplop."
+  },
+  {
+    "id": "b11-05",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Kosakata りょうしん",
+    "prompt": "「りょうしん」の いみは どれですか。",
+    "promptRomaji": "\"Ryoushin\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "saudara kandung",
+        "romaji": ""
+      },
+      {
+        "jp": "anak",
+        "romaji": ""
+      },
+      {
+        "jp": "kakek dan nenek",
+        "romaji": ""
+      },
+      {
+        "jp": "orang tua",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "りょうしん berarti orang tua (ayah dan ibu)."
+  },
+  {
+    "id": "b11-06",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Kosakata きょうだい",
+    "prompt": "「きょうだい」の いみは どれですか。",
+    "promptRomaji": "\"Kyoudai\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "orang tua",
+        "romaji": ""
+      },
+      {
+        "jp": "teman kerja",
+        "romaji": ""
+      },
+      {
+        "jp": "keluarga besar",
+        "romaji": ""
+      },
+      {
+        "jp": "saudara kandung",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "きょうだい berarti saudara kandung."
+  },
+  {
+    "id": "b11-07",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Kosakata あに",
+    "prompt": "「あに」の いみは どれですか。",
+    "promptRomaji": "\"Ani\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat. (Keluarga sendiri)",
+    "options": [
+      {
+        "jp": "kakak perempuan",
+        "romaji": ""
+      },
+      {
+        "jp": "kakak laki-laki",
+        "romaji": ""
+      },
+      {
+        "jp": "adik perempuan",
+        "romaji": ""
+      },
+      {
+        "jp": "adik laki-laki",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "あに berarti kakak laki-laki."
+  },
+  {
+    "id": "b11-08",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Kosakata あね",
+    "prompt": "「あね」の いみは どれですか。",
+    "promptRomaji": "\"Ane\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat. (Keluarga sendiri)",
+    "options": [
+      {
+        "jp": "kakak perempuan",
+        "romaji": ""
+      },
+      {
+        "jp": "adik laki-laki",
+        "romaji": ""
+      },
+      {
+        "jp": "adik perempuan",
+        "romaji": ""
+      },
+      {
+        "jp": "kakak laki-laki",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "あね berarti kakak perempuan."
+  },
+  {
+    "id": "b11-09",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Kosakata おとうと",
+    "prompt": "「おとうと」の いみは どれですか。",
+    "promptRomaji": "\"Otouto\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat. (Keluarga sendiri)",
+    "options": [
+      {
+        "jp": "kakak perempuan",
+        "romaji": ""
+      },
+      {
+        "jp": "kakak laki-laki",
+        "romaji": ""
+      },
+      {
+        "jp": "adik perempuan",
+        "romaji": ""
+      },
+      {
+        "jp": "adik laki-laki",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "おとうと berarti adik laki-laki."
+  },
+  {
+    "id": "b11-10",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Kosakata いもうと",
+    "prompt": "「いもうと」の いみは どれですか。",
+    "promptRomaji": "\"Imouto\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat. (Keluarga sendiri)",
+    "options": [
+      {
+        "jp": "kakak perempuan",
+        "romaji": ""
+      },
+      {
+        "jp": "adik laki-laki",
+        "romaji": ""
+      },
+      {
+        "jp": "kakak laki-laki",
+        "romaji": ""
+      },
+      {
+        "jp": "adik perempuan",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "いもうと berarti adik perempuan."
+  },
+  {
+    "id": "b11-11",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Kosakata どのくらい",
+    "prompt": "「どのくらい」の いみは どれですか。",
+    "promptRomaji": "\"Donokurai\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "berapa lama atau berapa banyak",
+        "romaji": ""
+      },
+      {
+        "jp": "berapa harga",
+        "romaji": ""
+      },
+      {
+        "jp": "hari apa",
+        "romaji": ""
+      },
+      {
+        "jp": "jam berapa",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "どのくらい menanyakan lama waktu atau jumlah."
+  },
+  {
+    "id": "b11-12",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Kosakata ぜんぶで",
+    "prompt": "「ぜんぶで」の いみは どれですか。",
+    "promptRomaji": "\"Zenbu de\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "hanya",
+        "romaji": ""
+      },
+      {
+        "jp": "seluruhnya, total",
+        "romaji": ""
+      },
+      {
+        "jp": "kira-kira",
+        "romaji": ""
+      },
+      {
+        "jp": "sebagian",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "ぜんぶで berarti seluruhnya atau totalnya."
+  },
+  {
+    "id": "b11-13",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Kosakata ぐらい",
+    "prompt": "「ぐらい」の いみは どれですか。",
+    "promptRomaji": "\"Gurai\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "sama dengan",
+        "romaji": ""
+      },
+      {
+        "jp": "kira-kira",
+        "romaji": ""
+      },
+      {
+        "jp": "lebih dari",
+        "romaji": ""
+      },
+      {
+        "jp": "hanya",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "ぐらい berarti kira-kira setelah jumlah."
+  },
+  {
+    "id": "b11-14",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Kosakata います",
+    "prompt": "「こどもが います」の いみは どれですか。",
+    "promptRomaji": "\"Kodomo ga imasu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "anak sedang tidur",
+        "romaji": ""
+      },
+      {
+        "jp": "anak sakit",
+        "romaji": ""
+      },
+      {
+        "jp": "anak pergi",
+        "romaji": ""
+      },
+      {
+        "jp": "mempunyai anak",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "います di sini berarti mempunyai anggota keluarga yang hidup."
+  },
+  {
+    "id": "b11-15",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Kosakata とお",
+    "prompt": "「とお」は なんの かぞえかたですか。",
+    "promptRomaji": "\"Too\" wa nan no kazoekata desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "delapan buah",
+        "romaji": ""
+      },
+      {
+        "jp": "sepuluh orang",
+        "romaji": ""
+      },
+      {
+        "jp": "sepuluh buah",
+        "romaji": ""
+      },
+      {
+        "jp": "sembilan buah",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "とお berarti sepuluh buah dan ditulis tanpa akhiran つ."
+  },
+  {
+    "id": "b11-16",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Kosakata なんにん",
+    "prompt": "「なんにん」の いみは どれですか。",
+    "promptRomaji": "\"Nannin\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "berapa buah",
+        "romaji": ""
+      },
+      {
+        "jp": "berapa orang",
+        "romaji": ""
+      },
+      {
+        "jp": "berapa kali",
+        "romaji": ""
+      },
+      {
+        "jp": "berapa lembar",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "なんにん menanyakan jumlah orang."
+  },
+  {
+    "id": "b11-17",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Partikel だけ",
+    "prompt": "あさごはんは パン（　） たべました。",
+    "promptRomaji": "Asagohan wa pan ( ) tabemashita.",
+    "sub": "Hanya makan roti.",
+    "options": [
+      {
+        "jp": "も",
+        "romaji": "mo"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "だけ",
+        "romaji": "dake"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      }
+    ],
+    "answer": 2,
+    "explain": "だけ berarti hanya dan menggantikan partikel を."
+  },
+  {
+    "id": "b11-18",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Partikel だけ",
+    "prompt": "やすみは にちようび（　）です。",
+    "promptRomaji": "Yasumi wa nichiyoubi ( ) desu.",
+    "sub": "Liburnya hanya hari Minggu.",
+    "options": [
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "も",
+        "romaji": "mo"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "だけ",
+        "romaji": "dake"
+      }
+    ],
+    "answer": 3,
+    "explain": "だけ menempel langsung pada kata benda tanpa partikel lain."
+  },
+  {
+    "id": "b11-19",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Partikel に (frekuensi)",
+    "prompt": "1しゅうかん（　） 2かい テニスを します。",
+    "promptRomaji": "Isshuukan ( ) nikai tenisu o shimasu.",
+    "sub": "Bermain tenis dua kali dalam satu minggu.",
+    "options": [
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      }
+    ],
+    "answer": 2,
+    "explain": "に menandai kurun waktu pada pola frekuensi: 1しゅうかんに 2かい."
+  },
+  {
+    "id": "b11-20",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Partikel から",
+    "prompt": "くに（　） にほんまで ひこうきで 7じかん かかります。",
+    "promptRomaji": "Kuni ( ) Nihon made hikouki de nanajikan kakarimasu.",
+    "sub": "Dari negara asal sampai Jepang naik pesawat tujuh jam.",
+    "options": [
+      {
+        "jp": "から",
+        "romaji": "kara"
+      },
+      {
+        "jp": "まで",
+        "romaji": "made"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "より",
+        "romaji": "yori"
+      }
+    ],
+    "answer": 0,
+    "explain": "から menandai titik awal rentang perjalanan."
+  },
+  {
+    "id": "b11-21",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Partikel まで",
+    "prompt": "くにから にほん（　） ひこうきで 7じかん かかります。",
+    "promptRomaji": "Kuni kara Nihon ( ) hikouki de nanajikan kakarimasu.",
+    "sub": "Dari negara asal sampai Jepang naik pesawat tujuh jam.",
+    "options": [
+      {
+        "jp": "まで",
+        "romaji": "made"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "から",
+        "romaji": "kara"
+      }
+    ],
+    "answer": 0,
+    "explain": "まで menandai titik akhir rentang."
+  },
+  {
+    "id": "b11-22",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Partikel で (total)",
+    "prompt": "ぜんぶ（　） いくらですか。",
+    "promptRomaji": "Zenbu ( ) ikura desu ka.",
+    "sub": "Kalau semuanya total berapa yen?",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      }
+    ],
+    "answer": 1,
+    "explain": "ぜんぶで berarti totalnya dan memakai partikel で."
+  },
+  {
+    "id": "b11-23",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Partikel を",
+    "prompt": "スーパーで りんご（　） みっつ かいました。",
+    "promptRomaji": "Suupaa de ringo ( ) mittsu kaimashita.",
+    "sub": "Membeli tiga buah apel di supermarket.",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      }
+    ],
+    "answer": 2,
+    "explain": "Objek りんご ditandai を, lalu kata bilangan diletakkan sebelum kata kerja."
+  },
+  {
+    "id": "b11-24",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Partikel が",
+    "prompt": "がっこうに せんせい（　） ふたり います。",
+    "promptRomaji": "Gakkou ni sensei ( ) futari imasu.",
+    "sub": "Di sekolah ada dua orang guru.",
+    "options": [
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      }
+    ],
+    "answer": 1,
+    "explain": "います memakai が untuk menandai orang yang keberadaannya disebut."
+  },
+  {
+    "id": "b11-25",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Bentuk 1かい",
+    "prompt": "「1かい」の ただしい よみかたは どれですか。",
+    "promptRomaji": "1-kai no tadashii yomikata wa dore desu ka.",
+    "sub": "Bacaan untuk satu kali.",
+    "options": [
+      {
+        "jp": "いっかい",
+        "romaji": "ikkai"
+      },
+      {
+        "jp": "ひとつ",
+        "romaji": "hitotsu"
+      },
+      {
+        "jp": "いちまい",
+        "romaji": "ichimai"
+      },
+      {
+        "jp": "いちかい",
+        "romaji": "ichikai"
+      }
+    ],
+    "answer": 0,
+    "explain": "1かい dibaca いっかい karena いち berubah menjadi いっ."
+  },
+  {
+    "id": "b11-26",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Bentuk 6かい",
+    "prompt": "「6かい」の ただしい よみかたは どれですか。",
+    "promptRomaji": "6-kai no tadashii yomikata wa dore desu ka.",
+    "sub": "Bacaan untuk enam kali.",
+    "options": [
+      {
+        "jp": "ろくまい",
+        "romaji": "rokumai"
+      },
+      {
+        "jp": "ろっかい",
+        "romaji": "rokkai"
+      },
+      {
+        "jp": "むっかい",
+        "romaji": "mukkai"
+      },
+      {
+        "jp": "ろくかい",
+        "romaji": "rokukai"
+      }
+    ],
+    "answer": 1,
+    "explain": "6かい dibaca ろっかい dengan perubahan bunyi く menjadi っ."
+  },
+  {
+    "id": "b11-27",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Bentuk 8かい",
+    "prompt": "「8かい」の ただしい よみかたは どれですか。",
+    "promptRomaji": "8-kai no tadashii yomikata wa dore desu ka.",
+    "sub": "Bacaan untuk delapan kali.",
+    "options": [
+      {
+        "jp": "はちかい",
+        "romaji": "hachikai"
+      },
+      {
+        "jp": "やっかい",
+        "romaji": "yakkai"
+      },
+      {
+        "jp": "はっかい",
+        "romaji": "hakkai"
+      },
+      {
+        "jp": "はちまい",
+        "romaji": "hachimai"
+      }
+    ],
+    "answer": 2,
+    "explain": "8かい dibaca はっかい."
+  },
+  {
+    "id": "b11-28",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Bentuk 10かい",
+    "prompt": "「10かい」の ただしい よみかたは どれですか。",
+    "promptRomaji": "\"Juukkai\" no tadashii yomikata wa dore desu ka.",
+    "sub": "Bacaan untuk sepuluh kali.",
+    "options": [
+      {
+        "jp": "じゅっまい",
+        "romaji": "jumai"
+      },
+      {
+        "jp": "とおかい",
+        "romaji": "tookai"
+      },
+      {
+        "jp": "じゅうかい",
+        "romaji": "juukai"
+      },
+      {
+        "jp": "じゅっかい",
+        "romaji": "jukkai"
+      }
+    ],
+    "answer": 3,
+    "explain": "10かい dibaca じゅっかい, bukan じゅうかい."
+  },
+  {
+    "id": "b11-29",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Bentuk 4にん",
+    "prompt": "「4にん」の ただしい よみかたは どれですか。",
+    "promptRomaji": "4-nin no tadashii yomikata wa dore desu ka.",
+    "sub": "Bacaan untuk empat orang.",
+    "options": [
+      {
+        "jp": "よったり",
+        "romaji": "yottari"
+      },
+      {
+        "jp": "しにん",
+        "romaji": "shinin"
+      },
+      {
+        "jp": "よんにん",
+        "romaji": "yonnin"
+      },
+      {
+        "jp": "よにん",
+        "romaji": "yonin"
+      }
+    ],
+    "answer": 3,
+    "explain": "Empat orang dibaca よにん, bukan よんにん."
+  },
+  {
+    "id": "b11-30",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Bentuk 1にん",
+    "prompt": "「1にん」の ただしい よみかたは どれですか。",
+    "promptRomaji": "1-nin no tadashii yomikata wa dore desu ka.",
+    "sub": "Bacaan untuk satu orang.",
+    "options": [
+      {
+        "jp": "ひとつ",
+        "romaji": "hitotsu"
+      },
+      {
+        "jp": "ふたり",
+        "romaji": "futari"
+      },
+      {
+        "jp": "ひとり",
+        "romaji": "hitori"
+      },
+      {
+        "jp": "いちにん",
+        "romaji": "ichinin"
+      }
+    ],
+    "answer": 2,
+    "explain": "Satu orang dibaca ひとり dan dua orang dibaca ふたり."
+  },
+  {
+    "id": "b11-31",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Hitungan 4 buah",
+    "prompt": "スーパーで りんごを 4（　） かいました。",
+    "promptRomaji": "Suupaa de ringo o 4-( ) kaimashita.",
+    "sub": "Membeli empat buah apel.",
+    "options": [
+      {
+        "jp": "よっかい",
+        "romaji": "yokkai"
+      },
+      {
+        "jp": "しつ",
+        "romaji": "shitsu"
+      },
+      {
+        "jp": "よんつ",
+        "romaji": "yontsu"
+      },
+      {
+        "jp": "よっつ",
+        "romaji": "yottsu"
+      }
+    ],
+    "answer": 3,
+    "explain": "Empat buah dalam seri ～つ adalah よっつ."
+  },
+  {
+    "id": "b11-32",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Hitungan 3 buah",
+    "prompt": "くだものやで みかんを 3（　） かいました。",
+    "promptRomaji": "Kudamonoya de mikan o 3-( ) kaimashita.",
+    "sub": "Membeli tiga buah jeruk.",
+    "options": [
+      {
+        "jp": "みっつ",
+        "romaji": "mittsu"
+      },
+      {
+        "jp": "みつ",
+        "romaji": "mitsu"
+      },
+      {
+        "jp": "さんかい",
+        "romaji": "sankai"
+      },
+      {
+        "jp": "さんつ",
+        "romaji": "santsu"
+      }
+    ],
+    "answer": 0,
+    "explain": "Tiga buah dibaca みっつ, bukan さんつ."
+  },
+  {
+    "id": "b11-33",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Hitungan 10 buah",
+    "prompt": "たまごを 10（　） かいました。",
+    "promptRomaji": "Tamago o 10-( ) kaimashita.",
+    "sub": "Membeli sepuluh butir telur.",
+    "options": [
+      {
+        "jp": "とお",
+        "romaji": "too"
+      },
+      {
+        "jp": "ここのつ",
+        "romaji": "kokonotsu"
+      },
+      {
+        "jp": "じゅうつ",
+        "romaji": "juutsu"
+      },
+      {
+        "jp": "とおつ",
+        "romaji": "tootsu"
+      }
+    ],
+    "answer": 0,
+    "explain": "Sepuluh buah dibaca とお tanpa akhiran つ."
+  },
+  {
+    "id": "b11-34",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Satuan まい",
+    "prompt": "80えんの きってを 5（　） ください。",
+    "promptRomaji": "80-en no kitte o 5-( ) kudasai.",
+    "sub": "Minta lima lembar perangko 80 yen.",
+    "options": [
+      {
+        "jp": "にん",
+        "romaji": "nin"
+      },
+      {
+        "jp": "かい",
+        "romaji": "kai"
+      },
+      {
+        "jp": "だい",
+        "romaji": "dai"
+      },
+      {
+        "jp": "まい",
+        "romaji": "mai"
+      }
+    ],
+    "answer": 3,
+    "explain": "まい adalah satuan untuk benda tipis seperti perangko."
+  },
+  {
+    "id": "b11-35",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Satuan だい",
+    "prompt": "この かいしゃに くるまが 3（　） あります。",
+    "promptRomaji": "Kono kaisha ni kuruma ga 3-( ) arimasu.",
+    "sub": "Di perusahaan ini ada tiga unit mobil.",
+    "options": [
+      {
+        "jp": "だい",
+        "romaji": "dai"
+      },
+      {
+        "jp": "まい",
+        "romaji": "mai"
+      },
+      {
+        "jp": "にん",
+        "romaji": "nin"
+      },
+      {
+        "jp": "つ",
+        "romaji": "tsu"
+      }
+    ],
+    "answer": 0,
+    "explain": "だい adalah satuan untuk mesin dan kendaraan."
+  },
+  {
+    "id": "b11-36",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Satuan にん",
+    "prompt": "わたしの かぞくは 4（　）です。",
+    "promptRomaji": "Watashi no kazoku wa 4-( ) desu.",
+    "sub": "Keluarga saya empat orang.",
+    "options": [
+      {
+        "jp": "つ",
+        "romaji": "tsu"
+      },
+      {
+        "jp": "にん",
+        "romaji": "nin"
+      },
+      {
+        "jp": "まい",
+        "romaji": "mai"
+      },
+      {
+        "jp": "だい",
+        "romaji": "dai"
+      }
+    ],
+    "answer": 1,
+    "explain": "Jumlah orang memakai ～にん dan empat orang dibaca よにん."
+  },
+  {
+    "id": "b11-37",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Frekuensi かい",
+    "prompt": "1かげつに 2（　） えいがを みます。",
+    "promptRomaji": "Ikkagetsu ni 2-( ) eiga o mimasu.",
+    "sub": "Menonton film dua kali dalam sebulan.",
+    "options": [
+      {
+        "jp": "まい",
+        "romaji": "mai"
+      },
+      {
+        "jp": "かい",
+        "romaji": "kai"
+      },
+      {
+        "jp": "にん",
+        "romaji": "nin"
+      },
+      {
+        "jp": "だい",
+        "romaji": "dai"
+      }
+    ],
+    "answer": 1,
+    "explain": "かい menyatakan frekuensi atau jumlah kali."
+  },
+  {
+    "id": "b11-38",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Durasi ねん",
+    "prompt": "にほんに 1（　） います。",
+    "promptRomaji": "Nihon ni 1-( ) imasu.",
+    "sub": "Tinggal di Jepang selama satu tahun.",
+    "options": [
+      {
+        "jp": "がつ",
+        "romaji": "gatsu"
+      },
+      {
+        "jp": "ねん",
+        "romaji": "nen"
+      },
+      {
+        "jp": "じかん",
+        "romaji": "jikan"
+      },
+      {
+        "jp": "しゅうかん",
+        "romaji": "shuukan"
+      }
+    ],
+    "answer": 1,
+    "explain": "Durasi satu tahun adalah 1ねん dan tidak memakai partikel に."
+  },
+  {
+    "id": "b11-39",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Durasi かげつ",
+    "prompt": "にほんごを 6（　） べんきょうしました。",
+    "promptRomaji": "Nihongo o 6-( ) benkyou shimashita.",
+    "sub": "Belajar bahasa Jepang selama enam bulan.",
+    "options": [
+      {
+        "jp": "がつ",
+        "romaji": "gatsu"
+      },
+      {
+        "jp": "かげつ",
+        "romaji": "kagetsu"
+      },
+      {
+        "jp": "ねん",
+        "romaji": "nen"
+      },
+      {
+        "jp": "じかん",
+        "romaji": "jikan"
+      }
+    ],
+    "answer": 1,
+    "explain": "Durasi enam bulan adalah ろっかげつ, sedangkan 6がつ berarti bulan Juni."
+  },
+  {
+    "id": "b11-40",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Durasi じかん",
+    "prompt": "とうきょうから おおさかまで しんかんせんで 2（　）はん かかります。",
+    "promptRomaji": "Toukyou kara Oosaka made shinkansen de 2-( )han kakarimasu.",
+    "sub": "Dari Tokyo ke Osaka naik Shinkansen dua setengah jam.",
+    "options": [
+      {
+        "jp": "ねん",
+        "romaji": "nen"
+      },
+      {
+        "jp": "かい",
+        "romaji": "kai"
+      },
+      {
+        "jp": "がつ",
+        "romaji": "gatsu"
+      },
+      {
+        "jp": "じかん",
+        "romaji": "jikan"
+      }
+    ],
+    "answer": 3,
+    "explain": "2じかんはん berarti dua setengah jam."
+  },
+  {
+    "id": "b11-41",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · どのくらい かかります",
+    "prompt": "うちから えきまで どのくらい（　）か。",
+    "promptRomaji": "Uchi kara eki made donokurai ( ) ka.",
+    "sub": "Berapa lama dari rumah ke stasiun?",
+    "options": [
+      {
+        "jp": "あります",
+        "romaji": "arimasu"
+      },
+      {
+        "jp": "います",
+        "romaji": "imasu"
+      },
+      {
+        "jp": "かかります",
+        "romaji": "kakarimasu"
+      },
+      {
+        "jp": "します",
+        "romaji": "shimasu"
+      }
+    ],
+    "answer": 2,
+    "explain": "どのくらい かかりますか menanyakan lama waktu yang diperlukan."
+  },
+  {
+    "id": "b11-42",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · ぐらい",
+    "prompt": "にほんごを 3かげつ（　） べんきょうしました。",
+    "promptRomaji": "Nihongo o sankagetsu ( ) benkyou shimashita.",
+    "sub": "Belajar bahasa Jepang sekitar tiga bulan.",
+    "options": [
+      {
+        "jp": "ぐらい",
+        "romaji": "gurai"
+      },
+      {
+        "jp": "から",
+        "romaji": "kara"
+      },
+      {
+        "jp": "まで",
+        "romaji": "made"
+      },
+      {
+        "jp": "だけ",
+        "romaji": "dake"
+      }
+    ],
+    "answer": 0,
+    "explain": "ぐらい berarti kira-kira dan diletakkan setelah jumlah."
+  },
+  {
+    "id": "b11-43",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Arti Frekuensi",
+    "prompt": "「1ねんに 4かい くにへ かえります」の いみは どれですか。",
+    "promptRomaji": "\"Ichinen ni yonkai kuni e kaerimasu\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      {
+        "jp": "Empat tahun tinggal di negara asal",
+        "romaji": ""
+      },
+      {
+        "jp": "Pulang ke negara asal setelah empat tahun",
+        "romaji": ""
+      },
+      {
+        "jp": "Dalam satu tahun pulang ke negara asal empat kali",
+        "romaji": ""
+      },
+      {
+        "jp": "Selama empat tahun pulang ke negara asal sekali",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "1ねんに 4かい berarti empat kali dalam satu tahun."
+  },
+  {
+    "id": "b11-44",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · 2じ vs 2じかん",
+    "prompt": "「2じかん」と「2じ」の ちがいは なんですか。",
+    "promptRomaji": "\"Nijikan\" to \"niji\" no chigai wa nan desu ka.",
+    "sub": "Pilih penjelasan yang tepat.",
+    "options": [
+      {
+        "jp": "Keduanya berarti dua hari",
+        "romaji": ""
+      },
+      {
+        "jp": "2じかん = selama dua jam; 2じ = pukul dua",
+        "romaji": "2-jikan = selama dua jam; 2-ji = pukul dua"
+      },
+      {
+        "jp": "Keduanya berarti pukul dua",
+        "romaji": ""
+      },
+      {
+        "jp": "2じかん = pukul dua; 2じ = selama dua jam",
+        "romaji": "2-jikan = pukul dua; 2-ji = selama dua jam"
+      }
+    ],
+    "answer": 1,
+    "explain": "じかん menyatakan durasi, sedangkan じ menyatakan pukul."
+  },
+  {
+    "id": "b11-45",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Urutan Kata Bilangan",
+    "prompt": "「Membeli dua lembar kertas」の ただしい いいかたは どれですか。",
+    "promptRomaji": "\"Membeli dua lembar kertas\" no tadashii iikata wa dore desu ka.",
+    "sub": "Pilih urutan kalimat yang benar.",
+    "options": [
+      {
+        "jp": "2まいを かみ かいました。",
+        "romaji": "Nimai o kami kaimashita."
+      },
+      {
+        "jp": "かみ 2まいに かいました。",
+        "romaji": "Kami nimai ni kaimashita."
+      },
+      {
+        "jp": "かみを 2まい かいました。",
+        "romaji": "Kami o nimai kaimashita."
+      },
+      {
+        "jp": "かみを 2まいを かいました。",
+        "romaji": "Kami o nimai o kaimashita."
+      }
+    ],
+    "answer": 2,
+    "explain": "Kata bilangan diletakkan sebelum kata kerja tanpa partikel tambahan."
+  },
+  {
+    "id": "b11-46",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Arti だけ",
+    "prompt": "「りんごが ひとつだけ あります」の いみは どれですか。",
+    "promptRomaji": "\"Ringo ga hitotsu dake arimasu\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      {
+        "jp": "Tidak ada apel",
+        "romaji": ""
+      },
+      {
+        "jp": "Ada satu apel dan satu lagi",
+        "romaji": ""
+      },
+      {
+        "jp": "Ada banyak apel",
+        "romaji": ""
+      },
+      {
+        "jp": "Hanya ada satu apel",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "だけ membatasi jumlah menjadi hanya satu."
+  },
+  {
+    "id": "b11-47",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Arti Frekuensi",
+    "prompt": "「1しゅうかんに 3かい ジョギングします」の いみは どれですか。",
+    "promptRomaji": "\"Isshuukan ni sankai jogingu shimasu\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      {
+        "jp": "Jogging tiga kali dalam satu minggu",
+        "romaji": ""
+      },
+      {
+        "jp": "Jogging setiap tiga hari",
+        "romaji": ""
+      },
+      {
+        "jp": "Jogging satu kali dalam tiga minggu",
+        "romaji": ""
+      },
+      {
+        "jp": "Jogging selama tiga minggu",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "Pola kurun waktu に jumlah かい menyatakan frekuensi."
+  },
+  {
+    "id": "b11-48",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · かかります (biaya)",
+    "prompt": "くうこうまで バスで 500えん（　）。",
+    "promptRomaji": "Kuukou made basu de 500-en ( ).",
+    "sub": "Ke bandara naik bus biayanya 500 yen.",
+    "options": [
+      {
+        "jp": "あります",
+        "romaji": "arimasu"
+      },
+      {
+        "jp": "います",
+        "romaji": "imasu"
+      },
+      {
+        "jp": "かかります",
+        "romaji": "kakarimasu"
+      },
+      {
+        "jp": "なります",
+        "romaji": "narimasu"
+      }
+    ],
+    "answer": 2,
+    "explain": "かかります juga dipakai untuk biaya yang diperlukan."
+  },
+  {
+    "id": "b11-49",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Satuan まい (kemeja)",
+    "prompt": "デパートで シャツを 2（　） かいました。",
+    "promptRomaji": "Depaato de shatsu o 2-( ) kaimashita.",
+    "sub": "Membeli dua lembar kemeja.",
+    "options": [
+      {
+        "jp": "まい",
+        "romaji": "mai"
+      },
+      {
+        "jp": "にん",
+        "romaji": "nin"
+      },
+      {
+        "jp": "かい",
+        "romaji": "kai"
+      },
+      {
+        "jp": "だい",
+        "romaji": "dai"
+      }
+    ],
+    "answer": 0,
+    "explain": "Kemeja dihitung dengan まい karena termasuk benda tipis."
+  },
+  {
+    "id": "b11-50",
+    "bab": 11,
+    "type": "mcq",
+    "badge": "Bab 11 · Arti どのくらい",
+    "prompt": "「どのくらい にほんに いますか」の いみは どれですか。",
+    "promptRomaji": "\"Donokurai Nihon ni imasu ka\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      {
+        "jp": "Berapa lama Anda tinggal di Jepang?",
+        "romaji": ""
+      },
+      {
+        "jp": "Di mana Anda tinggal di Jepang?",
+        "romaji": ""
+      },
+      {
+        "jp": "Sejak kapan Anda tinggal di Jepang?",
+        "romaji": ""
+      },
+      {
+        "jp": "Berapa kali Anda ke Jepang?",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "どのくらい menanyakan lama durasi, bukan tempat atau frekuensi."
+  }
+]

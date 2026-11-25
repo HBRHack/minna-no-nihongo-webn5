@@ -1,0 +1,1454 @@
+/* AUTO-GENERATED dari bab-04.json — jangan edit manual. */
+window.MNN_BANK = window.MNN_BANK || {};
+window.MNN_BANK[4] = [
+  {
+    "id": "b4-01",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Kosakata Kata Kerja",
+    "prompt": "「おきます」の いみは どれですか。",
+    "promptRomaji": "Okimasu no imi wa dore desu ka.",
+    "sub": "Pilih arti kata kerja yang tepat.",
+    "options": [
+      {
+        "jp": "bekerja",
+        "romaji": ""
+      },
+      {
+        "jp": "bangun tidur",
+        "romaji": ""
+      },
+      {
+        "jp": "belajar",
+        "romaji": ""
+      },
+      {
+        "jp": "tidur",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "おきます berarti bangun tidur."
+  },
+  {
+    "id": "b4-02",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Kosakata Kata Kerja",
+    "prompt": "「ねます」の いみは どれですか。",
+    "promptRomaji": "Nemasu no imi wa dore desu ka.",
+    "sub": "Pilih arti kata kerja yang tepat.",
+    "options": [
+      {
+        "jp": "beristirahat",
+        "romaji": ""
+      },
+      {
+        "jp": "bekerja",
+        "romaji": ""
+      },
+      {
+        "jp": "selesai",
+        "romaji": ""
+      },
+      {
+        "jp": "tidur",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "ねます berarti tidur."
+  },
+  {
+    "id": "b4-03",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Kosakata Kata Kerja",
+    "prompt": "「はたらきます」の いみは どれですか。",
+    "promptRomaji": "Hatarakimasu no imi wa dore desu ka.",
+    "sub": "Pilih arti kata kerja yang tepat.",
+    "options": [
+      {
+        "jp": "selesai",
+        "romaji": ""
+      },
+      {
+        "jp": "belajar",
+        "romaji": ""
+      },
+      {
+        "jp": "beristirahat",
+        "romaji": ""
+      },
+      {
+        "jp": "bekerja",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "はたらきます berarti bekerja."
+  },
+  {
+    "id": "b4-04",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Kosakata Kata Kerja",
+    "prompt": "「やすみます」の いみは どれですか。",
+    "promptRomaji": "Yasumimasu no imi wa dore desu ka.",
+    "sub": "Pilih arti kata kerja yang tepat.",
+    "options": [
+      {
+        "jp": "beristirahat / libur",
+        "romaji": ""
+      },
+      {
+        "jp": "belajar",
+        "romaji": ""
+      },
+      {
+        "jp": "bekerja",
+        "romaji": ""
+      },
+      {
+        "jp": "bangun tidur",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "やすみます berarti beristirahat atau libur."
+  },
+  {
+    "id": "b4-05",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Kosakata Kata Kerja",
+    "prompt": "「べんきょうします」の いみは どれですか。",
+    "promptRomaji": "Benkyou shimasu no imi wa dore desu ka.",
+    "sub": "Pilih arti kata kerja yang tepat.",
+    "options": [
+      {
+        "jp": "bekerja",
+        "romaji": ""
+      },
+      {
+        "jp": "tidur",
+        "romaji": ""
+      },
+      {
+        "jp": "belajar",
+        "romaji": ""
+      },
+      {
+        "jp": "selesai",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "べんきょうします berarti belajar."
+  },
+  {
+    "id": "b4-06",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Kosakata Kata Kerja",
+    "prompt": "「おわります」の いみは どれですか。",
+    "promptRomaji": "Owarimasu no imi wa dore desu ka.",
+    "sub": "Pilih arti kata kerja yang tepat.",
+    "options": [
+      {
+        "jp": "bangun tidur",
+        "romaji": ""
+      },
+      {
+        "jp": "belajar",
+        "romaji": ""
+      },
+      {
+        "jp": "bekerja",
+        "romaji": ""
+      },
+      {
+        "jp": "selesai",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "おわります berarti selesai."
+  },
+  {
+    "id": "b4-07",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Kosakata Waktu",
+    "prompt": "「いま」の いみは どれですか。",
+    "promptRomaji": "Ima no imi wa dore desu ka.",
+    "sub": "Pilih arti kata waktu yang tepat.",
+    "options": [
+      {
+        "jp": "besok",
+        "romaji": ""
+      },
+      {
+        "jp": "sekarang",
+        "romaji": ""
+      },
+      {
+        "jp": "setiap hari",
+        "romaji": ""
+      },
+      {
+        "jp": "kemarin",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "いま berarti sekarang."
+  },
+  {
+    "id": "b4-08",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Kosakata Waktu",
+    "prompt": "「ごご」の いみは どれですか。",
+    "promptRomaji": "Gogo no imi wa dore desu ka.",
+    "sub": "Pilih arti kata waktu yang tepat.",
+    "options": [
+      {
+        "jp": "sekarang",
+        "romaji": ""
+      },
+      {
+        "jp": "kemarin",
+        "romaji": ""
+      },
+      {
+        "jp": "siang/sore (PM)",
+        "romaji": ""
+      },
+      {
+        "jp": "pagi (AM)",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "ごご berarti siang atau sore (PM), sedangkan ごぜん adalah AM."
+  },
+  {
+    "id": "b4-09",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Kosakata Waktu",
+    "prompt": "「きのう」の いみは どれですか。",
+    "promptRomaji": "Kinou no imi wa dore desu ka.",
+    "sub": "Pilih arti kata waktu yang tepat.",
+    "options": [
+      {
+        "jp": "besok",
+        "romaji": ""
+      },
+      {
+        "jp": "setiap hari",
+        "romaji": ""
+      },
+      {
+        "jp": "hari ini",
+        "romaji": ""
+      },
+      {
+        "jp": "kemarin",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "きのう berarti kemarin."
+  },
+  {
+    "id": "b4-10",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Kosakata Waktu",
+    "prompt": "Kata Jepang untuk 「setiap pagi」 adalah どれですか。",
+    "promptRomaji": "Pilih kosakata bahasa Jepang yang tepat.",
+    "sub": "Pilih kata bahasa Jepang yang tepat.",
+    "options": [
+      {
+        "jp": "まいばん",
+        "romaji": "maiban"
+      },
+      {
+        "jp": "まいあさ",
+        "romaji": "maiasa"
+      },
+      {
+        "jp": "ごぜん",
+        "romaji": "gozen"
+      },
+      {
+        "jp": "まいにち",
+        "romaji": "mainichi"
+      }
+    ],
+    "answer": 1,
+    "explain": "まいあさ berarti setiap pagi."
+  },
+  {
+    "id": "b4-11",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Partikel に (waktu)",
+    "prompt": "わたしは まいあさ 6じ （　） おきます。",
+    "promptRomaji": "Watashi wa maiasa rokuji ( ) okimasu.",
+    "sub": "Pilih partikel untuk waktu jam. (Saya setiap pagi bangun jam 6.)",
+    "options": [
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "へ",
+        "romaji": "e"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      }
+    ],
+    "answer": 2,
+    "explain": "Waktu berupa jam spesifik memakai partikel に."
+  },
+  {
+    "id": "b4-12",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Partikel に (hari)",
+    "prompt": "わたしは にちようび （　） はたらきます。",
+    "promptRomaji": "Watashi wa nichiyoubi ( ) hatarakimasu.",
+    "sub": "Pilih partikel untuk hari. (Saya bekerja pada hari Minggu.)",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      }
+    ],
+    "answer": 0,
+    "explain": "Hari dalam seminggu boleh memakai に."
+  },
+  {
+    "id": "b4-13",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Partikel に (waktu)",
+    "prompt": "あした 9じ （　） べんきょうします。",
+    "promptRomaji": "Ashita kuji ( ) benkyou shimasu.",
+    "sub": "Pilih partikel waktu. (Besok saya belajar pada jam 9.)",
+    "options": [
+      {
+        "jp": "から",
+        "romaji": "kara"
+      },
+      {
+        "jp": "まで",
+        "romaji": "made"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      }
+    ],
+    "answer": 2,
+    "explain": "Jam spesifik ditandai dengan に, sedangkan あした sendiri tidak memakai に."
+  },
+  {
+    "id": "b4-14",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Partikel に (waktu)",
+    "prompt": "かいぎは 3じ （　） おわります。",
+    "promptRomaji": "Kaigi wa sanji ( ) owarimasu.",
+    "sub": "Pilih partikel waktu. (Rapat selesai pada jam 3.)",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      }
+    ],
+    "answer": 0,
+    "explain": "3じ adalah waktu spesifik, jadi memakai に."
+  },
+  {
+    "id": "b4-15",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Partikel に (waktu)",
+    "prompt": "まいにち 11じ （　） ねます。",
+    "promptRomaji": "Mainichi juuichiji ( ) nemasu.",
+    "sub": "Pilih partikel waktu. (Setiap hari saya tidur jam 11.)",
+    "options": [
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "から",
+        "romaji": "kara"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      }
+    ],
+    "answer": 1,
+    "explain": "まいにち tidak memakai に, tetapi 11じ tetap memakai に."
+  },
+  {
+    "id": "b4-16",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Partikel から",
+    "prompt": "わたしは 9じ （　） はたらきます。",
+    "promptRomaji": "Watashi wa kuji ( ) hatarakimasu.",
+    "sub": "Pilih partikel 'dari'. (Saya bekerja dari jam 9.)",
+    "options": [
+      {
+        "jp": "から",
+        "romaji": "kara"
+      },
+      {
+        "jp": "まで",
+        "romaji": "made"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      }
+    ],
+    "answer": 0,
+    "explain": "から menandai titik awal: dari jam 9."
+  },
+  {
+    "id": "b4-17",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Partikel から",
+    "prompt": "ひるやすみは 12じ （　） です。",
+    "promptRomaji": "Hiruyasumi wa juuniji ( ) desu.",
+    "sub": "Pilih partikel 'dari'. (Istirahat siang mulai jam 12.)",
+    "options": [
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "まで",
+        "romaji": "made"
+      },
+      {
+        "jp": "から",
+        "romaji": "kara"
+      }
+    ],
+    "answer": 3,
+    "explain": "から menunjukkan waktu mulai."
+  },
+  {
+    "id": "b4-18",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Partikel まで",
+    "prompt": "わたしは 5じ （　） はたらきます。",
+    "promptRomaji": "Watashi wa goji ( ) hatarakimasu.",
+    "sub": "Pilih partikel 'sampai'. (Saya bekerja sampai jam 5.)",
+    "options": [
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "から",
+        "romaji": "kara"
+      },
+      {
+        "jp": "まで",
+        "romaji": "made"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      }
+    ],
+    "answer": 2,
+    "explain": "まで menandai titik akhir: sampai jam 5."
+  },
+  {
+    "id": "b4-19",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Partikel まで",
+    "prompt": "べんきょうは 10じ （　） です。",
+    "promptRomaji": "Benkyou wa juuji ( ) desu.",
+    "sub": "Pilih partikel 'sampai'. (Belajarnya sampai jam 10.)",
+    "options": [
+      {
+        "jp": "から",
+        "romaji": "kara"
+      },
+      {
+        "jp": "まで",
+        "romaji": "made"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      }
+    ],
+    "answer": 1,
+    "explain": "まで menunjukkan batas akhir waktu."
+  },
+  {
+    "id": "b4-20",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Partikel と",
+    "prompt": "ぎんこうの やすみは どようび （　） にちようびです。",
+    "promptRomaji": "Ginkou no yasumi wa doyoubi ( ) nichiyoubi desu.",
+    "sub": "Pilih partikel 'dan'. (Libur bank adalah hari Sabtu dan Minggu.)",
+    "options": [
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "も",
+        "romaji": "mo"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "から",
+        "romaji": "kara"
+      }
+    ],
+    "answer": 0,
+    "explain": "と menghubungkan dua kata benda setara: Sabtu dan Minggu."
+  },
+  {
+    "id": "b4-21",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Partikel と",
+    "prompt": "かいぎは 2じ （　） 4じです。",
+    "promptRomaji": "Kaigi wa niji ( ) yoji desu.",
+    "sub": "Pilih partikel 'dan'. (Rapatnya jam 2 dan jam 4.)",
+    "options": [
+      {
+        "jp": "も",
+        "romaji": "mo"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "まで",
+        "romaji": "made"
+      }
+    ],
+    "answer": 2,
+    "explain": "と menggabungkan dua kata benda: 2じと 4じ."
+  },
+  {
+    "id": "b4-22",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Tanpa に",
+    "prompt": "あした （　） やすみます。",
+    "promptRomaji": "Ashita ( ) yasumimasu.",
+    "sub": "Pilih partikel yang tepat. (Besok saya libur.)",
+    "options": [
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "は",
+        "romaji": "wa"
+      }
+    ],
+    "answer": 3,
+    "explain": "あした adalah waktu relatif sehingga tidak memakai に; は menandai topik."
+  },
+  {
+    "id": "b4-23",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · V-ません",
+    "prompt": "わたしは にちようびに （　）。",
+    "promptRomaji": "Watashi wa nichiyoubi ni ( ).",
+    "sub": "Pilih bentuk yang tepat. (Saya tidak bekerja pada hari Minggu.)",
+    "options": [
+      {
+        "jp": "はたらきません",
+        "romaji": "hatarakimasen"
+      },
+      {
+        "jp": "はたらきます",
+        "romaji": "hatarakimasu"
+      },
+      {
+        "jp": "はたらきませんでした",
+        "romaji": "hatarakimasen deshita"
+      },
+      {
+        "jp": "はたらきました",
+        "romaji": "hatarakimashita"
+      }
+    ],
+    "answer": 0,
+    "explain": "Negatif non-lampau dibentuk dengan ～ません."
+  },
+  {
+    "id": "b4-24",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · V-ました",
+    "prompt": "きのうの ばん （　）。",
+    "promptRomaji": "Kinou no ban ( ).",
+    "sub": "Pilih bentuk yang tepat. (Kemarin malam saya belajar.)",
+    "options": [
+      {
+        "jp": "べんきょうします",
+        "romaji": "benkyou shimasu"
+      },
+      {
+        "jp": "べんきょうしませんでした",
+        "romaji": "benkyou shimasen deshita"
+      },
+      {
+        "jp": "べんきょうしません",
+        "romaji": "benkyou shimasen"
+      },
+      {
+        "jp": "べんきょうしました",
+        "romaji": "benkyou shimashita"
+      }
+    ],
+    "answer": 3,
+    "explain": "きのう menunjukkan lampau, jadi memakai ～ました."
+  },
+  {
+    "id": "b4-25",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · V-ませんでした",
+    "prompt": "きのう 6じに （　）。",
+    "promptRomaji": "Kinou rokuji ni ( ).",
+    "sub": "Pilih bentuk yang tepat. (Kemarin saya tidak bangun jam 6.)",
+    "options": [
+      {
+        "jp": "おきます",
+        "romaji": "okimasu"
+      },
+      {
+        "jp": "おきませんでした",
+        "romaji": "okimasen deshita"
+      },
+      {
+        "jp": "おきません",
+        "romaji": "okimasen"
+      },
+      {
+        "jp": "おきました",
+        "romaji": "okimashita"
+      }
+    ],
+    "answer": 1,
+    "explain": "Negatif lampau memakai ～ませんでした."
+  },
+  {
+    "id": "b4-26",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · V-ました",
+    "prompt": "きのうの ばん 11じに （　）。",
+    "promptRomaji": "Kinou no ban juuichiji ni ( ).",
+    "sub": "Pilih bentuk yang tepat. (Kemarin malam saya tidur jam 11.)",
+    "options": [
+      {
+        "jp": "ねません",
+        "romaji": "nemasen"
+      },
+      {
+        "jp": "ねませんでした",
+        "romaji": "nemasen deshita"
+      },
+      {
+        "jp": "ねました",
+        "romaji": "nemashita"
+      },
+      {
+        "jp": "ねます",
+        "romaji": "nemasu"
+      }
+    ],
+    "answer": 2,
+    "explain": "Kejadian kemarin memakai bentuk lampau ～ました."
+  },
+  {
+    "id": "b4-27",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · V-ません",
+    "prompt": "かいぎは 5じに （　）。",
+    "promptRomaji": "Kaigi wa goji ni ( ).",
+    "sub": "Pilih bentuk yang tepat. (Rapat tidak selesai jam 5.)",
+    "options": [
+      {
+        "jp": "おわりません",
+        "romaji": "owarimasen"
+      },
+      {
+        "jp": "おわりました",
+        "romaji": "owarimashita"
+      },
+      {
+        "jp": "おわります",
+        "romaji": "owarimasu"
+      },
+      {
+        "jp": "おわりませんでした",
+        "romaji": "owarimasen deshita"
+      }
+    ],
+    "answer": 0,
+    "explain": "Pernyataan negatif non-lampau memakai ～ません."
+  },
+  {
+    "id": "b4-28",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · V-ました",
+    "prompt": "きのう わたしは （　）。",
+    "promptRomaji": "Kinou watashi wa ( ).",
+    "sub": "Pilih bentuk yang tepat. (Kemarin saya beristirahat.)",
+    "options": [
+      {
+        "jp": "やすみました",
+        "romaji": "yasumimashita"
+      },
+      {
+        "jp": "やすみませんでした",
+        "romaji": "yasumimasen deshita"
+      },
+      {
+        "jp": "やすみません",
+        "romaji": "yasumimasen"
+      },
+      {
+        "jp": "やすみます",
+        "romaji": "yasumimasu"
+      }
+    ],
+    "answer": 0,
+    "explain": "きのう menandakan lampau positif, jadi ～ました."
+  },
+  {
+    "id": "b4-29",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · V-ます",
+    "prompt": "まいあさ 6じに （　）。",
+    "promptRomaji": "Maiasa rokuji ni ( ).",
+    "sub": "Pilih bentuk yang tepat. (Setiap pagi saya bangun jam 6.)",
+    "options": [
+      {
+        "jp": "おきませんでした",
+        "romaji": "okimasen deshita"
+      },
+      {
+        "jp": "おきません",
+        "romaji": "okimasen"
+      },
+      {
+        "jp": "おきました",
+        "romaji": "okimashita"
+      },
+      {
+        "jp": "おきます",
+        "romaji": "okimasu"
+      }
+    ],
+    "answer": 3,
+    "explain": "Kebiasaan non-lampau memakai bentuk ～ます."
+  },
+  {
+    "id": "b4-30",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · V-ました",
+    "prompt": "きのう 9じから 5じまで （　）。",
+    "promptRomaji": "Kinou kuji kara goji made ( ).",
+    "sub": "Pilih bentuk yang tepat. (Kemarin saya bekerja dari jam 9 sampai jam 5.)",
+    "options": [
+      {
+        "jp": "はたらきません",
+        "romaji": "hatarakimasen"
+      },
+      {
+        "jp": "はたらきました",
+        "romaji": "hatarakimashita"
+      },
+      {
+        "jp": "はたらきませんでした",
+        "romaji": "hatarakimasen deshita"
+      },
+      {
+        "jp": "はたらきます",
+        "romaji": "hatarakimasu"
+      }
+    ],
+    "answer": 1,
+    "explain": "きのう dan rentang waktu lampau menuntut ～ました."
+  },
+  {
+    "id": "b4-31",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · V-ません",
+    "prompt": "あしたは （　）。",
+    "promptRomaji": "Ashita wa ( ).",
+    "sub": "Pilih bentuk yang tepat. (Besok saya tidak belajar.)",
+    "options": [
+      {
+        "jp": "べんきょうします",
+        "romaji": "benkyou shimasu"
+      },
+      {
+        "jp": "べんきょうしました",
+        "romaji": "benkyou shimashita"
+      },
+      {
+        "jp": "べんきょうしませんでした",
+        "romaji": "benkyou shimasen deshita"
+      },
+      {
+        "jp": "べんきょうしません",
+        "romaji": "benkyou shimasen"
+      }
+    ],
+    "answer": 3,
+    "explain": "あした adalah masa depan, jadi negatifnya ～ません."
+  },
+  {
+    "id": "b4-32",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · V-ませんでした",
+    "prompt": "にちようびの ばん （　）。",
+    "promptRomaji": "Nichiyoubi no ban ( ).",
+    "sub": "Pilih bentuk yang tepat. (Minggu malam saya tidak tidur.)",
+    "options": [
+      {
+        "jp": "ねません",
+        "romaji": "nemasen"
+      },
+      {
+        "jp": "ねました",
+        "romaji": "nemashita"
+      },
+      {
+        "jp": "ねませんでした",
+        "romaji": "nemasen deshita"
+      },
+      {
+        "jp": "ねます",
+        "romaji": "nemasu"
+      }
+    ],
+    "answer": 2,
+    "explain": "Peristiwa lampau negatif memakai ～ませんでした."
+  },
+  {
+    "id": "b4-33",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · V-ました",
+    "prompt": "かいぎは 4じに （　）。",
+    "promptRomaji": "Kaigi wa yoji ni ( ).",
+    "sub": "Pilih bentuk yang tepat. (Rapat selesai jam 4.)",
+    "options": [
+      {
+        "jp": "おわりました",
+        "romaji": "owarimashita"
+      },
+      {
+        "jp": "おわります",
+        "romaji": "owarimasu"
+      },
+      {
+        "jp": "おわりません",
+        "romaji": "owarimasen"
+      },
+      {
+        "jp": "おわりませんでした",
+        "romaji": "owarimasen deshita"
+      }
+    ],
+    "answer": 0,
+    "explain": "Rapat yang sudah selesai dinyatakan dengan ～ました."
+  },
+  {
+    "id": "b4-34",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Bentuk Negatif Lampau",
+    "prompt": "「やすみます」の ひてい かこけい（bentuk negatif lampau）は どれですか。",
+    "promptRomaji": "Yasumimasu no hitei kako-kei wa dore desu ka.",
+    "sub": "Pilih bentuk negatif lampau yang benar.",
+    "options": [
+      {
+        "jp": "やすみません",
+        "romaji": "yasumimasen"
+      },
+      {
+        "jp": "やすみますでした",
+        "romaji": "yasumimasu deshita"
+      },
+      {
+        "jp": "やすみました",
+        "romaji": "yasumimashita"
+      },
+      {
+        "jp": "やすみませんでした",
+        "romaji": "yasumimasen deshita"
+      }
+    ],
+    "answer": 3,
+    "explain": "Negatif lampau dibentuk ～ません + でした."
+  },
+  {
+    "id": "b4-35",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Bentuk Lampau",
+    "prompt": "「おきます」の かこけい（bentuk lampau positif）は どれですか。",
+    "promptRomaji": "Okimasu no kako-kei wa dore desu ka.",
+    "sub": "Pilih bentuk lampau positif yang benar.",
+    "options": [
+      {
+        "jp": "おきました",
+        "romaji": "okimashita"
+      },
+      {
+        "jp": "おきます",
+        "romaji": "okimasu"
+      },
+      {
+        "jp": "おきませんでした",
+        "romaji": "okimasen deshita"
+      },
+      {
+        "jp": "おきません",
+        "romaji": "okimasen"
+      }
+    ],
+    "answer": 0,
+    "explain": "Lampau positif dibentuk ～ます → ～ました."
+  },
+  {
+    "id": "b4-36",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Bentuk Negatif",
+    "prompt": "「べんきょうします」の ネガティブ（bentuk negatif non-lampau）は どれですか。",
+    "promptRomaji": "Benkyou shimasu no negatibu wa dore desu ka.",
+    "sub": "Pilih bentuk negatif non-lampau yang benar.",
+    "options": [
+      {
+        "jp": "べんきょうしません",
+        "romaji": "benkyou shimasen"
+      },
+      {
+        "jp": "べんきょうしませんでした",
+        "romaji": "benkyou shimasen deshita"
+      },
+      {
+        "jp": "べんきょうします",
+        "romaji": "benkyou shimasu"
+      },
+      {
+        "jp": "べんきょうしました",
+        "romaji": "benkyou shimashita"
+      }
+    ],
+    "answer": 0,
+    "explain": "Negatif non-lampau dibentuk ～ます → ～ません."
+  },
+  {
+    "id": "b4-37",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · なんじ",
+    "prompt": "いま （　） ですか。…ごぜん 8じです。",
+    "promptRomaji": "Ima ( ) desu ka. ...Gozen hachiji desu.",
+    "sub": "Menanyakan jam.",
+    "options": [
+      {
+        "jp": "いつ",
+        "romaji": "itsu"
+      },
+      {
+        "jp": "なんじ",
+        "romaji": "nanji"
+      },
+      {
+        "jp": "なんぷん",
+        "romaji": "nanpun"
+      },
+      {
+        "jp": "なんにち",
+        "romaji": "nannichi"
+      }
+    ],
+    "answer": 1,
+    "explain": "なんじ menanyakan jam, bukan menit atau tanggal."
+  },
+  {
+    "id": "b4-38",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Jam はん",
+    "prompt": "「09:30」の いいかたは どれですか。",
+    "promptRomaji": "09:30 no iikata wa dore desu ka.",
+    "sub": "Pilih cara membaca jam yang tepat.",
+    "options": [
+      {
+        "jp": "はん9じ",
+        "romaji": "han kuji"
+      },
+      {
+        "jp": "9じ30はん",
+        "romaji": "kuji sanjuu han"
+      },
+      {
+        "jp": "10じはん",
+        "romaji": "juuji han"
+      },
+      {
+        "jp": "9じはん",
+        "romaji": "kuji han"
+      }
+    ],
+    "answer": 3,
+    "explain": "はん diletakkan setelah jam yang sedang berjalan: 9じはん."
+  },
+  {
+    "id": "b4-39",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Bacaan Jam",
+    "prompt": "「4時」の よみかたは どれですか。",
+    "promptRomaji": "4-ji no yomikata wa dore desu ka.",
+    "sub": "Perhatikan bacaan jam khusus.",
+    "options": [
+      {
+        "jp": "しじ",
+        "romaji": "shiji"
+      },
+      {
+        "jp": "よじ",
+        "romaji": "yoji"
+      },
+      {
+        "jp": "よんじ",
+        "romaji": "yonji"
+      },
+      {
+        "jp": "よんじか",
+        "romaji": "yonjika"
+      }
+    ],
+    "answer": 1,
+    "explain": "Jam 4 dibaca よじ, bukan よんじ."
+  },
+  {
+    "id": "b4-40",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Bacaan Jam",
+    "prompt": "「7時」の よみかたは どれですか。",
+    "promptRomaji": "7-ji no yomikata wa dore desu ka.",
+    "sub": "Perhatikan bacaan jam khusus.",
+    "options": [
+      {
+        "jp": "ななじか",
+        "romaji": "nanajika"
+      },
+      {
+        "jp": "ひちじ",
+        "romaji": "hichiji"
+      },
+      {
+        "jp": "しちじ",
+        "romaji": "shichiji"
+      },
+      {
+        "jp": "ななじ",
+        "romaji": "nanaji"
+      }
+    ],
+    "answer": 2,
+    "explain": "Jam 7 dibaca しちじ."
+  },
+  {
+    "id": "b4-41",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Bacaan Jam",
+    "prompt": "「9時」の よみかたは どれですか。",
+    "promptRomaji": "9-ji no yomikata wa dore desu ka.",
+    "sub": "Perhatikan bacaan jam khusus.",
+    "options": [
+      {
+        "jp": "きゅうじ",
+        "romaji": "kyuuji"
+      },
+      {
+        "jp": "くじ",
+        "romaji": "kuji"
+      },
+      {
+        "jp": "きゅじ",
+        "romaji": "kyuji"
+      },
+      {
+        "jp": "ここのじ",
+        "romaji": "kokonoji"
+      }
+    ],
+    "answer": 1,
+    "explain": "Jam 9 dibaca くじ, bukan きゅうじ."
+  },
+  {
+    "id": "b4-42",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Bacaan Menit",
+    "prompt": "「1分」の よみかたは どれですか。",
+    "promptRomaji": "1-pun no yomikata wa dore desu ka.",
+    "sub": "Perhatikan bacaan menit khusus.",
+    "options": [
+      {
+        "jp": "いちぷん",
+        "romaji": "ichipun"
+      },
+      {
+        "jp": "いっぷん",
+        "romaji": "ippun"
+      },
+      {
+        "jp": "いちぶん",
+        "romaji": "ichibun"
+      },
+      {
+        "jp": "いちふん",
+        "romaji": "ichifun"
+      }
+    ],
+    "answer": 1,
+    "explain": "1 menit dibaca いっぷん."
+  },
+  {
+    "id": "b4-43",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Bacaan Menit",
+    "prompt": "「6分」の よみかたは どれですか。",
+    "promptRomaji": "6-pun no yomikata wa dore desu ka.",
+    "sub": "Perhatikan bacaan menit khusus.",
+    "options": [
+      {
+        "jp": "ろっふん",
+        "romaji": "roffun"
+      },
+      {
+        "jp": "ろくふん",
+        "romaji": "rokufun"
+      },
+      {
+        "jp": "ろっぷん",
+        "romaji": "roppun"
+      },
+      {
+        "jp": "ろくぷん",
+        "romaji": "rokupun"
+      }
+    ],
+    "answer": 2,
+    "explain": "6 menit dibaca ろっぷん."
+  },
+  {
+    "id": "b4-44",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Bacaan Menit",
+    "prompt": "「10分」の よみかたは どれですか。",
+    "promptRomaji": "10-pun no yomikata wa dore desu ka.",
+    "sub": "Perhatikan bacaan menit khusus.",
+    "options": [
+      {
+        "jp": "じゅうぷん",
+        "romaji": "juupun"
+      },
+      {
+        "jp": "じゅっぷん",
+        "romaji": "juppun"
+      },
+      {
+        "jp": "じゅうぶん",
+        "romaji": "juubun"
+      },
+      {
+        "jp": "じゅうふん",
+        "romaji": "juufun"
+      }
+    ],
+    "answer": 1,
+    "explain": "10 menit dibaca じゅっぷん."
+  },
+  {
+    "id": "b4-45",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · なんじに",
+    "prompt": "まいあさ （　） おきますか。…6じに おきます。",
+    "promptRomaji": "Maiasa ( ) okimasu ka. ...Rokuji ni okimasu.",
+    "sub": "Menanyakan waktu melakukan kegiatan.",
+    "options": [
+      {
+        "jp": "なんじに",
+        "romaji": "nanji ni"
+      },
+      {
+        "jp": "なんぷん",
+        "romaji": "nanpun"
+      },
+      {
+        "jp": "なんじ",
+        "romaji": "nanji"
+      },
+      {
+        "jp": "いつ",
+        "romaji": "itsu"
+      }
+    ],
+    "answer": 0,
+    "explain": "Karena jawabannya 6じに, pertanyaannya memakai なんじに."
+  },
+  {
+    "id": "b4-46",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · から～まで",
+    "prompt": "べんきょうは 7じ （　） 9じ （　） です。",
+    "promptRomaji": "Benkyou wa shichiji ( ) kuji ( ) desu.",
+    "sub": "Belajar dari jam 7 sampai jam 9.",
+    "options": [
+      {
+        "jp": "と ・ も",
+        "romaji": "to · mo"
+      },
+      {
+        "jp": "から ・ まで",
+        "romaji": "kara · made"
+      },
+      {
+        "jp": "に ・ で",
+        "romaji": "ni · de"
+      },
+      {
+        "jp": "まで ・ から",
+        "romaji": "made · kara"
+      }
+    ],
+    "answer": 1,
+    "explain": "Rentang waktu memakai から (dari) dan まで (sampai)."
+  },
+  {
+    "id": "b4-47",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Bacaan Menit",
+    "prompt": "「8分」の よみかたは どれですか。",
+    "promptRomaji": "8-pun no yomikata wa dore desu ka.",
+    "sub": "Perhatikan bacaan menit khusus dengan bunyi rangkap (っ).",
+    "options": [
+      {
+        "jp": "はちふん",
+        "romaji": "hachifun"
+      },
+      {
+        "jp": "はっふん",
+        "romaji": "haffun"
+      },
+      {
+        "jp": "はっぷん",
+        "romaji": "happun"
+      },
+      {
+        "jp": "はちぷん",
+        "romaji": "hachipun"
+      }
+    ],
+    "answer": 2,
+    "explain": "8 menit dibaca はっぷん (happun), memakai bunyi rangkap っ + ぷん."
+  },
+  {
+    "id": "b4-48",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Bacaan Menit",
+    "prompt": "「3分」の よみかたは どれですか。",
+    "promptRomaji": "3-pun no yomikata wa dore desu ka.",
+    "sub": "Perhatikan bacaan menit khusus dengan bunyi 'p'.",
+    "options": [
+      {
+        "jp": "さんふん",
+        "romaji": "sanfun"
+      },
+      {
+        "jp": "さんぶん",
+        "romaji": "sanbun"
+      },
+      {
+        "jp": "さっぷん",
+        "romaji": "sappun"
+      },
+      {
+        "jp": "さんぷん",
+        "romaji": "sanpun"
+      }
+    ],
+    "answer": 3,
+    "explain": "3 menit dibaca さんぷん (sanpun), berubah menjadi 'p' setelah ん."
+  },
+  {
+    "id": "b4-49",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Jawaban Lampau Negatif",
+    "prompt": "A:「きのう べんきょうしましたか。」 B:「いいえ、（　）。」",
+    "promptRomaji": "Kinou benkyou shimashita ka. ...Iie, ( ).",
+    "sub": "Jawab bahwa kemarin tidak belajar.",
+    "options": [
+      {
+        "jp": "べんきょうしませんでした",
+        "romaji": "benkyou shimasen deshita"
+      },
+      {
+        "jp": "べんきょうしません",
+        "romaji": "benkyou shimasen"
+      },
+      {
+        "jp": "べんきょうします",
+        "romaji": "benkyou shimasu"
+      },
+      {
+        "jp": "べんきょうしました",
+        "romaji": "benkyou shimashita"
+      }
+    ],
+    "answer": 0,
+    "explain": "Pertanyaannya lampau, jadi jawaban negatifnya ～ませんでした."
+  },
+  {
+    "id": "b4-50",
+    "bab": 4,
+    "type": "mcq",
+    "badge": "Bab 4 · Arti Kalimat",
+    "prompt": "「わたしは まいあさ 6じに おきます。」の いみは どれですか。",
+    "promptRomaji": "Watashi wa maiasa rokuji ni okimasu.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      {
+        "jp": "Saya kemarin bangun jam 6.",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya setiap pagi tidak bangun jam 6.",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya setiap pagi bangun jam 6.",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya setiap malam tidur jam 6.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "まいあさ = setiap pagi; 6じに おきます = bangun jam 6."
+  }
+];

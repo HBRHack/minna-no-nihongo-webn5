@@ -1,0 +1,1454 @@
+/* AUTO-GENERATED dari bab-18.json — jangan edit manual. */
+window.MNN_BANK = window.MNN_BANK || {};
+window.MNN_BANK[18] = [
+  {
+    "id": "b18-01",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Bentuk Kamus (Kel. I)",
+    "prompt": "Bentuk Kamus (辞書形) dari 「かきます」 (menulis / menggambar) adalah...",
+    "promptRomaji": "kakimasu → _____",
+    "sub": "Pilih bentuk kamus Kelompok I (き → く).",
+    "options": [
+      {
+        "jp": "かきる",
+        "romaji": "kakiru"
+      },
+      {
+        "jp": "かく",
+        "romaji": "kaku"
+      },
+      {
+        "jp": "かける",
+        "romaji": "kakeru"
+      },
+      {
+        "jp": "かいた",
+        "romaji": "kaita"
+      }
+    ],
+    "answer": 1,
+    "explain": "かきます adalah kata kerja Kelompok I. Bunyi baris -i (き) sebelum ます diubah ke baris -u menjadi く → かく."
+  },
+  {
+    "id": "b18-02",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Bentuk Kamus (Kel. I)",
+    "prompt": "まちます (menunggu) → Bentuk Kamus:",
+    "promptRomaji": "machimasu → _____",
+    "sub": "Perhatikan perubahan baris -i dari ち ke baris -u.",
+    "options": [
+      {
+        "jp": "まちる",
+        "romaji": "machiru"
+      },
+      {
+        "jp": "まちう",
+        "romaji": "machiu"
+      },
+      {
+        "jp": "まつ",
+        "romaji": "matsu"
+      },
+      {
+        "jp": "また",
+        "romaji": "mata"
+      }
+    ],
+    "answer": 2,
+    "explain": "Dalam deret hiragana た・ち・つ・て・と, bunyi -u dari ち (chi) adalah つ (tsu). Jadi まちます → まつ."
+  },
+  {
+    "id": "b18-03",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Bentuk Kamus (Kel. I)",
+    "prompt": "あらいます (mencuci) → Bentuk Kamus:",
+    "promptRomaji": "araimasu → _____",
+    "sub": "Ubah huruf い sebelum ます ke baris -u.",
+    "options": [
+      {
+        "jp": "あらう",
+        "romaji": "arau"
+      },
+      {
+        "jp": "あらい",
+        "romaji": "arai"
+      },
+      {
+        "jp": "あられる",
+        "romaji": "arareru"
+      },
+      {
+        "jp": "あらいる",
+        "romaji": "arairu"
+      }
+    ],
+    "answer": 0,
+    "explain": "Pada Kelompok I berakhiran います, huruf い berubah menjadi う (bukan る!). Jadi あらいます → あらう."
+  },
+  {
+    "id": "b18-04",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Bentuk Kamus (Kel. I)",
+    "prompt": "およぎます (berenang) → Bentuk Kamus:",
+    "promptRomaji": "oyogimasu → _____",
+    "sub": "Pertahankan tanda dakuten (゛) saat mengubah ぎ.",
+    "options": [
+      {
+        "jp": "およぎる",
+        "romaji": "oyogiru"
+      },
+      {
+        "jp": "およく",
+        "romaji": "oyoku"
+      },
+      {
+        "jp": "およげる",
+        "romaji": "oyogeru"
+      },
+      {
+        "jp": "およぐ",
+        "romaji": "oyogu"
+      }
+    ],
+    "answer": 3,
+    "explain": "およぎます adalah Kelompok I: ぎ (gi) berubah menjadi ぐ (gu) → およぐ."
+  },
+  {
+    "id": "b18-05",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Bentuk Kamus (Kel. I)",
+    "prompt": "うたいます (menyanyi) → Bentuk Kamus:",
+    "promptRomaji": "utaimasu → _____",
+    "sub": "Pilih bentuk kamus Kelompok I yang tepat.",
+    "options": [
+      {
+        "jp": "うたいる",
+        "romaji": "utairu"
+      },
+      {
+        "jp": "うたう",
+        "romaji": "utau"
+      },
+      {
+        "jp": "うたわ",
+        "romaji": "utawa"
+      },
+      {
+        "jp": "うたる",
+        "romaji": "utaru"
+      }
+    ],
+    "answer": 1,
+    "explain": "うたいます termasuk Kelompok I: い sebelum ます berubah menjadi う → うたう."
+  },
+  {
+    "id": "b18-06",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Bentuk Kamus (Kel. I)",
+    "prompt": "はなします (berbicara) → Bentuk Kamus:",
+    "promptRomaji": "hanashimasu → _____",
+    "sub": "し (shi) berubah ke baris -u.",
+    "options": [
+      {
+        "jp": "はなしる",
+        "romaji": "hanashiru"
+      },
+      {
+        "jp": "はなせる",
+        "romaji": "hanaseru"
+      },
+      {
+        "jp": "はなす",
+        "romaji": "hanasu"
+      },
+      {
+        "jp": "はなつ",
+        "romaji": "hanatsu"
+      }
+    ],
+    "answer": 2,
+    "explain": "はなします adalah Kelompok I: し (shi) berubah menjadi す (su) → はなす."
+  },
+  {
+    "id": "b18-07",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Bentuk Kamus (Kel. II)",
+    "prompt": "あつめます (mengumpulkan) → Bentuk Kamus:",
+    "promptRomaji": "atsumemasu → _____",
+    "sub": "Ingat rumus Kelompok II: buang ます + る.",
+    "options": [
+      {
+        "jp": "あつめる",
+        "romaji": "atsumeru"
+      },
+      {
+        "jp": "あつむ",
+        "romaji": "atsumu"
+      },
+      {
+        "jp": "あつまる",
+        "romaji": "atsumaru"
+      },
+      {
+        "jp": "あつめう",
+        "romaji": "atsumeu"
+      }
+    ],
+    "answer": 0,
+    "explain": "あつめます berakhiran bunyi -e (め) sebelum ます (Kelompok II). Cukup buang ます lalu tambah る → あつめる."
+  },
+  {
+    "id": "b18-08",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Bentuk Kamus (Kel. II)",
+    "prompt": "すてます (membuang) → Bentuk Kamus:",
+    "promptRomaji": "sutemasu → _____",
+    "sub": "Pilih bentuk kamus untuk kata kerja Kelompok II ini.",
+    "options": [
+      {
+        "jp": "すつ",
+        "romaji": "sutsu"
+      },
+      {
+        "jp": "すてる",
+        "romaji": "suteru"
+      },
+      {
+        "jp": "すてう",
+        "romaji": "suteu"
+      },
+      {
+        "jp": "すてす",
+        "romaji": "sutesu"
+      }
+    ],
+    "answer": 1,
+    "explain": "すてます adalah Kelompok II (bunyi -e sebelum ます), jadi buang ます + る → すてる."
+  },
+  {
+    "id": "b18-09",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Bentuk Kamus (Pengecualian Kel. II)",
+    "prompt": "みます (melihat) dan かります (meminjam) → Bentuk Kamus:",
+    "promptRomaji": "mimasu & karimasu → _____",
+    "sub": "Kedua kata ini adalah pengecualian Kelompok II (bunyi -i sebelum ます).",
+    "options": [
+      {
+        "jp": "む ・ かる",
+        "romaji": "mu · karu"
+      },
+      {
+        "jp": "みる ・ かる",
+        "romaji": "miru · karu"
+      },
+      {
+        "jp": "みう ・ かりう",
+        "romaji": "miu · kariu"
+      },
+      {
+        "jp": "みる ・ かりる",
+        "romaji": "miru · kariru"
+      }
+    ],
+    "answer": 3,
+    "explain": "みます dan かります termasuk Kelompok II meski berakhiran -i sebelum ます. Jadi keduanya cukup membuang ます + る → みる dan かりる."
+  },
+  {
+    "id": "b18-10",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Bentuk Kamus (Kel. III)",
+    "prompt": "もって きます (membawa datang) → Bentuk Kamus:",
+    "promptRomaji": "motte kimasu → _____",
+    "sub": "Perhatikan perubahan Kelompok III untuk きます (datang).",
+    "options": [
+      {
+        "jp": "もって きる",
+        "romaji": "motte kiru"
+      },
+      {
+        "jp": "もって く",
+        "romaji": "motte ku"
+      },
+      {
+        "jp": "もって くる",
+        "romaji": "motte kuru"
+      },
+      {
+        "jp": "もって する",
+        "romaji": "motte suru"
+      }
+    ],
+    "answer": 2,
+    "explain": "きます (datang) adalah Kelompok III; bentuk kamusnya adalah くる. Jadi もって きます → もって くる."
+  },
+  {
+    "id": "b18-11",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Bentuk Kamus (Kel. III)",
+    "prompt": "うんてんします (menyetir) → Bentuk Kamus:",
+    "promptRomaji": "unten shimasu → _____",
+    "sub": "Ubah kata kerja Kelompok III ～します ke Bentuk Kamus.",
+    "options": [
+      {
+        "jp": "うんてんする",
+        "romaji": "unten suru"
+      },
+      {
+        "jp": "うんてんす",
+        "romaji": "untensu"
+      },
+      {
+        "jp": "うんてんしる",
+        "romaji": "untenshiru"
+      },
+      {
+        "jp": "うんてんくる",
+        "romaji": "unten kuru"
+      }
+    ],
+    "answer": 0,
+    "explain": "します (Kelompok III) bentuk kamusnya adalah する. Jadi うんてんします → うんてんする."
+  },
+  {
+    "id": "b18-12",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Deteksi Kesalahan Bentuk Kamus",
+    "prompt": "Manakah pasangan V-ます → Bentuk Kamus yang SALAH?",
+    "promptRomaji": "Pilih pasangan bentuk kamus yang keliru.",
+    "sub": "Periksa kelompok kata kerja masing-masing!",
+    "options": [
+      {
+        "jp": "かえます (menukar) → かえる",
+        "romaji": "kaemasu → kaeru"
+      },
+      {
+        "jp": "かえります (pulang) → かえりる",
+        "romaji": "kaerimasu → kaeriru"
+      },
+      {
+        "jp": "ひきます (main piano) → ひく",
+        "romaji": "hikimasu → hiku"
+      },
+      {
+        "jp": "よやくします (memesan) → よやくする",
+        "romaji": "yoyaku shimasu → yoyaku suru"
+      }
+    ],
+    "answer": 1,
+    "explain": "かえります (pulang) adalah kata kerja Kelompok I, bukan Kelompok II! Jadi り berubah menjadi る → かえる (bukan かえりる)."
+  },
+  {
+    "id": "b18-13",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Bentuk Kamus (Kel. I)",
+    "prompt": "あそびます (bermain) dan よみます (membaca) → Bentuk Kamus:",
+    "promptRomaji": "asobimasu & yomimasu → _____",
+    "sub": "び → ぶ | み → む.",
+    "options": [
+      {
+        "jp": "あそぶ ・ よむ",
+        "romaji": "asobu · yomu"
+      },
+      {
+        "jp": "あそびる ・ よみる",
+        "romaji": "asobiru · yomiru"
+      },
+      {
+        "jp": "あそぶ ・ よみる",
+        "romaji": "asobu · yomiru"
+      },
+      {
+        "jp": "あそぷ ・ よむ",
+        "romaji": "asopu · yomu"
+      }
+    ],
+    "answer": 0,
+    "explain": "Keduanya Kelompok I: び (bi) berubah menjadi ぶ (bu) → あそぶ, dan み (mi) berubah menjadi む (mu) → よむ."
+  },
+  {
+    "id": "b18-14",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Bentuk Kamus (Kel. II)",
+    "prompt": "できます (bisa) → Bentuk Kamus:",
+    "promptRomaji": "dekimasu → _____",
+    "sub": "できます adalah kata kerja Kelompok II.",
+    "options": [
+      {
+        "jp": "できう",
+        "romaji": "dekiu"
+      },
+      {
+        "jp": "でく",
+        "romaji": "deku"
+      },
+      {
+        "jp": "できる",
+        "romaji": "dekiru"
+      },
+      {
+        "jp": "できす",
+        "romaji": "dekisu"
+      }
+    ],
+    "answer": 2,
+    "explain": "できます termasuk Kelompok II (pengecualian bunyi -i sebelum ます). Buang ます lalu tambah る → できる."
+  },
+  {
+    "id": "b18-15",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · ことができます",
+    "prompt": "ミラーさんは かんじを よむ （　）が できます。 (Sdr. Miller bisa membaca kanji.)",
+    "promptRomaji": "Miraa-san wa kanji o yomu _____ ga dekimasu.",
+    "sub": "Pilih kata pembenda yang wajib dipakai setelah kata kerja.",
+    "options": [
+      {
+        "jp": "もの",
+        "romaji": "mono"
+      },
+      {
+        "jp": "こと",
+        "romaji": "koto"
+      },
+      {
+        "jp": "とき",
+        "romaji": "toki"
+      },
+      {
+        "jp": "ひと",
+        "romaji": "hito"
+      }
+    ],
+    "answer": 1,
+    "explain": "Untuk membendakan kata kerja (aktivitas abstrak) sebelum が できます, wajib memakai こと (bukan もの yang berarti barang fisik)."
+  },
+  {
+    "id": "b18-16",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · ことができます",
+    "prompt": "わたしは ピアノを （　） ことが できます。 (Saya bisa bermain piano.)",
+    "promptRomaji": "Watashi wa piano o _____ koto ga dekimasu.",
+    "sub": "Sebelum ことが できます, kata kerja harus dalam Bentuk Kamus.",
+    "options": [
+      {
+        "jp": "ひきます",
+        "romaji": "hikimasu"
+      },
+      {
+        "jp": "ひいて",
+        "romaji": "hiite"
+      },
+      {
+        "jp": "ひかない",
+        "romaji": "hikanai"
+      },
+      {
+        "jp": "ひく",
+        "romaji": "hiku"
+      }
+    ],
+    "answer": 3,
+    "explain": "Rumus kemampuan adalah [V Bentuk Kamus] + ことが できます. Bentuk kamus dari ひきます adalah ひく → ひく ことが できます."
+  },
+  {
+    "id": "b18-17",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Partikel ことができます",
+    "prompt": "くるまを うんてんする こと（　） できます。 (Saya bisa menyetir mobil.)",
+    "promptRomaji": "Kuruma o unten suru koto _____ dekimasu.",
+    "sub": "Pilih partikel yang tepat sebelum できます.",
+    "options": [
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      }
+    ],
+    "answer": 2,
+    "explain": "Kata kerja できます (bisa) menandai objek kemampuannya dengan partikel が: [V-る こと] が できます."
+  },
+  {
+    "id": "b18-18",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Kemampuan Kata Benda",
+    "prompt": "サントスさんは サッカー（　） できます。 (Sdr. Santos bisa bermain sepak bola.)",
+    "promptRomaji": "Santosu-san wa sakkaa _____ dekimasu.",
+    "sub": "Jika sudah berupa Kata Benda langsung, tidak perlu こと.",
+    "options": [
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "ことが",
+        "romaji": "koto ga"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "ので",
+        "romaji": "node"
+      }
+    ],
+    "answer": 0,
+    "explain": "Jika kemampuan langsung berupa Kata Benda (サッカー, りょうり, にほんご), cukup pakai pola [Kata Benda] が できます tanpa こと."
+  },
+  {
+    "id": "b18-19",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · ことができます",
+    "prompt": "この コンビニでは カードで （　） ことが できます。 (Di minimarket ini bisa membayar dengan kartu.)",
+    "promptRomaji": "Kono konbini dewa kaado de _____ koto ga dekimasu.",
+    "sub": "はらいます (membayar) diubah ke Bentuk Kamus.",
+    "options": [
+      {
+        "jp": "はらい",
+        "romaji": "harai"
+      },
+      {
+        "jp": "はらわない",
+        "romaji": "harawanai"
+      },
+      {
+        "jp": "はらって",
+        "romaji": "haratte"
+      },
+      {
+        "jp": "はらう",
+        "romaji": "harau"
+      }
+    ],
+    "answer": 3,
+    "explain": "はらいます adalah Kelompok I (い → う), jadi bentuk kamusnya はらう → はらう ことが できます."
+  },
+  {
+    "id": "b18-20",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · ことができます",
+    "prompt": "インターネットで ホテルを （　） ことが できますか。",
+    "promptRomaji": "Intaanetto de hoteru o _____ koto ga dekimasu ka.",
+    "sub": "よやくします (memesan/reservasi) → Bentuk Kamus.",
+    "options": [
+      {
+        "jp": "よやくしる",
+        "romaji": "yoyakushiru"
+      },
+      {
+        "jp": "よやくして",
+        "romaji": "yoyakushite"
+      },
+      {
+        "jp": "よやくします",
+        "romaji": "yoyaku shimasu"
+      },
+      {
+        "jp": "よやくする",
+        "romaji": "yoyaku suru"
+      }
+    ],
+    "answer": 3,
+    "explain": "よやくします (Kelompok III) menjadi よやくする sebelum ことが できますか ('Apakah bisa memesan hotel lewat internet?')."
+  },
+  {
+    "id": "b18-21",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · ことができます",
+    "prompt": "A: 「100メートル （　） ことが できますか。」\nB: 「いいえ、25メートルしか およぐ ことが できません。」",
+    "promptRomaji": "A: 100-meetoru _____ koto ga dekimasu ka.",
+    "sub": "Pilih bentuk yang tepat untuk melengkapi pertanyaan 'bisakah berenang 100 meter?'.",
+    "options": [
+      {
+        "jp": "およぐ",
+        "romaji": "oyogu"
+      },
+      {
+        "jp": "およぎ",
+        "romaji": "oyogi"
+      },
+      {
+        "jp": "およいで",
+        "romaji": "oyoide"
+      },
+      {
+        "jp": "およぎます",
+        "romaji": "oyogimasu"
+      }
+    ],
+    "answer": 0,
+    "explain": "Sebelum ことが できますか wajib memakai Bentuk Kamus: およぎます → およぐ."
+  },
+  {
+    "id": "b18-22",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Terjemahan Kemampuan",
+    "prompt": "Terjemahan yang benar untuk \"Saya tidak bisa menukar uang di sini\" adalah...",
+    "promptRomaji": "Terjemahan Jepang (Bab 18)",
+    "sub": "かえます (menukar) adalah Kelompok II.",
+    "options": [
+      {
+        "jp": "ここで おかねを かえ ことが できません。",
+        "romaji": "Koko de okane o kae koto ga dekimasen."
+      },
+      {
+        "jp": "ここで おかねを かえる ものが できません。",
+        "romaji": "Koko de okane o kaeru mono ga dekimasen."
+      },
+      {
+        "jp": "ここで おかねを かえます ことが できません。",
+        "romaji": "Koko de okane o kaemasu koto ga dekimasen."
+      },
+      {
+        "jp": "ここで おかねを かえる ことが できません。",
+        "romaji": "Koko de okane o kaeru koto ga dekimasen."
+      }
+    ],
+    "answer": 3,
+    "explain": "Rumus negatif kemampuan adalah [V Bentuk Kamus] + ことが できません. かえます → かえる + ことが できません."
+  },
+  {
+    "id": "b18-23",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Dialog Kemampuan",
+    "prompt": "A: 「この みせで ドルを えんに かえる ことが できますか。」\nB: 「いいえ、（　）。」",
+    "promptRomaji": "A: Kono mise de doru o en ni kaeru koto ga dekimasu ka. / B: Iie, _____.",
+    "sub": "Pilih jawaban singkat negatif yang paling tepat untuk pertanyaan ～ことが できますか.",
+    "options": [
+      {
+        "jp": "かえません",
+        "romaji": "kaemasen"
+      },
+      {
+        "jp": "できません",
+        "romaji": "dekimasen"
+      },
+      {
+        "jp": "ちがいます",
+        "romaji": "chigaimasu"
+      },
+      {
+        "jp": "ありません",
+        "romaji": "arimasen"
+      }
+    ],
+    "answer": 1,
+    "explain": "Pertanyaan yang diakhiri できますか dijawab singkat dengan はい、できます (Ya, bisa) atau いいえ、できません (Tidak, tidak bisa)."
+  },
+  {
+    "id": "b18-24",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Kosakata Kerja",
+    "prompt": "「げんきんを わすれました。」 Apa arti 「げんきん」?",
+    "promptRomaji": "\"genkin\" no imi wa nan desu ka.",
+    "sub": "Pilih arti kosakata Bab 18 ini.",
+    "options": [
+      {
+        "jp": "kartu kredit",
+        "romaji": ""
+      },
+      {
+        "jp": "buku harian",
+        "romaji": ""
+      },
+      {
+        "jp": "uang tunai",
+        "romaji": ""
+      },
+      {
+        "jp": "kunci mobil",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "げんきん (現金) berarti uang tunai."
+  },
+  {
+    "id": "b18-25",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Hobi (しゅみ)",
+    "prompt": "わたしの しゅみは きってを あつめる （　）。 (Hobi saya mengoleksi perangko.)",
+    "promptRomaji": "Watashi no shumi wa kitte o atsumeru _____.",
+    "sub": "Lengkapi rumus hobi dengan kata kerja.",
+    "options": [
+      {
+        "jp": "ことです",
+        "romaji": "koto desu"
+      },
+      {
+        "jp": "ものです",
+        "romaji": "mono desu"
+      },
+      {
+        "jp": "ますです",
+        "romaji": "masu desu"
+      },
+      {
+        "jp": "ときです",
+        "romaji": "toki desu"
+      }
+    ],
+    "answer": 0,
+    "explain": "Rumus menyatakan hobi berupa tindakan adalah: しゅみは [V Bentuk Kamus] + ことです."
+  },
+  {
+    "id": "b18-26",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Hobi (しゅみ)",
+    "prompt": "カリナさんの しゅみは えを （　） ことです。 (Hobi Sdri. Karina adalah melukis/menggambar.)",
+    "promptRomaji": "Karina-san no shumi wa e o _____ koto desu.",
+    "sub": "かきます (menggambar) diubah ke Bentuk Kamus.",
+    "options": [
+      {
+        "jp": "かきます",
+        "romaji": "kakimasu"
+      },
+      {
+        "jp": "かく",
+        "romaji": "kaku"
+      },
+      {
+        "jp": "かいて",
+        "romaji": "kaite"
+      },
+      {
+        "jp": "かかない",
+        "romaji": "kakanai"
+      }
+    ],
+    "answer": 1,
+    "explain": "Sebelum ことです wajib menggunakan Bentuk Kamus: かきます → かく ことです."
+  },
+  {
+    "id": "b18-27",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Hobi (Kata Benda)",
+    "prompt": "Manakah kalimat hobi yang BENAR jika hobinya cukup berupa Kata Benda 「おんがく」 (musik)?",
+    "promptRomaji": "Pilih kalimat hobi dengan kata benda yang tepat.",
+    "sub": "Jika hanya kata benda tanpa kata kerja, tidak perlu こと.",
+    "options": [
+      {
+        "jp": "わたしの しゅみは おんがく ことです。",
+        "romaji": "Watashi no shumi wa ongaku koto desu."
+      },
+      {
+        "jp": "わたしの しゅみは おんがくの ものです。",
+        "romaji": "Watashi no shumi wa ongaku no mono desu."
+      },
+      {
+        "jp": "わたしの しゅみは おんがくを ききますです。",
+        "romaji": "Watashi no shumi wa ongaku o kikimasu desu."
+      },
+      {
+        "jp": "わたしの しゅみは おんがくです。",
+        "romaji": "Watashi no shumi wa ongaku desu."
+      }
+    ],
+    "answer": 3,
+    "explain": "Jika hobi berupa Kata Benda langsung, rumusnya cukup しゅみは [Kata Benda] です (おんがくです). こと hanya dipakai untuk membendakan kata kerja seperti おんがくを きく ことです."
+  },
+  {
+    "id": "b18-28",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Hobi (しゅみ)",
+    "prompt": "A: 「やまださんの しゅみは （　）ですか。」\nB: 「えいがを みる ことです。」",
+    "promptRomaji": "A: Yamada-san no shumi wa _____ desu ka. / B: Eiga o miru koto desu.",
+    "sub": "Pilih kata tanya yang tepat untuk menanyakan hobi.",
+    "options": [
+      {
+        "jp": "どこ",
+        "romaji": "doko"
+      },
+      {
+        "jp": "だれ",
+        "romaji": "dare"
+      },
+      {
+        "jp": "なん",
+        "romaji": "nan"
+      },
+      {
+        "jp": "いつ",
+        "romaji": "itsu"
+      }
+    ],
+    "answer": 2,
+    "explain": "Untuk menanyakan hobi seseorang, gunakan しゅみは なんですか ('Hobinya apa?')."
+  },
+  {
+    "id": "b18-29",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Hobi (しゅみ)",
+    "prompt": "わたしの しゅみは まいばん にっきを （　） ことです。 (Hobi saya menulis buku harian setiap malam.)",
+    "promptRomaji": "Watashi no shumi wa maiban nikki o _____ koto desu.",
+    "sub": "Gunakan Bentuk Kamus dari かきます.",
+    "options": [
+      {
+        "jp": "かく",
+        "romaji": "kaku"
+      },
+      {
+        "jp": "かき",
+        "romaji": "kaki"
+      },
+      {
+        "jp": "かいて",
+        "romaji": "kaite"
+      },
+      {
+        "jp": "かきます",
+        "romaji": "kakimasu"
+      }
+    ],
+    "answer": 0,
+    "explain": "Sebelum ことです pada pola hobi, pakai Bentuk Kamus → かく ことです."
+  },
+  {
+    "id": "b18-30",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Terjemahan Hobi",
+    "prompt": "Terjemahkan: \"Hobi saya adalah bernyanyi lagu Jepang.\"",
+    "promptRomaji": "Terjemahan Jepang (Bab 18)",
+    "sub": "うたいます (menyanyi) adalah Kelompok I.",
+    "options": [
+      {
+        "jp": "わたしの しゅみは にほんの うたを うたいます ことです。",
+        "romaji": "Watashi no shumi wa Nihon no uta o utaimasu koto desu."
+      },
+      {
+        "jp": "わたしの しゅみは にほんの うたを うたう ことです。",
+        "romaji": "Watashi no shumi wa Nihon no uta o utau koto desu."
+      },
+      {
+        "jp": "わたしの しゅみは にほんの うたを うたる ことです。",
+        "romaji": "Watashi no shumi wa Nihon no uta o utaru koto desu."
+      },
+      {
+        "jp": "わたしの しゅみは にほんの うたを うたう ものです。",
+        "romaji": "Watashi no shumi wa Nihon no uta o utau mono desu."
+      }
+    ],
+    "answer": 1,
+    "explain": "うたいます (Kelompok I: い → う) menjadi うたう, lalu diikuti ことです → うたう ことです."
+  },
+  {
+    "id": "b18-31",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Koreksi Kalimat Hobi",
+    "prompt": "Perbaiki kalimat salah: 「しゅみは どうぶつの しゃしんを とりますです。」",
+    "promptRomaji": "Pilih bentuk kalimat hobi yang benar.",
+    "sub": "Ubah kata kerja menjadi Bentuk Kamus + ことです.",
+    "options": [
+      {
+        "jp": "しゅみは どうぶつの しゃしんを とり ことです。",
+        "romaji": "Shumi wa doubutsu no shashin o tori koto desu."
+      },
+      {
+        "jp": "しゅみは どうぶつの しゃしんを とる ものです。",
+        "romaji": "Shumi wa doubutsu no shashin o toru mono desu."
+      },
+      {
+        "jp": "しゅみは どうぶつの しゃしんを とる ことです。",
+        "romaji": "Shumi wa doubutsu no shashin o toru koto desu."
+      },
+      {
+        "jp": "しゅみは どうぶつの しゃしんを とって ことです。",
+        "romaji": "Shumi wa doubutsu no shashin o totte koto desu."
+      }
+    ],
+    "answer": 2,
+    "explain": "Kata kerja tidak boleh langsung disambung です (とりますです ❌). Harus diubah ke Bentuk Kamus + ことです → とる ことです."
+  },
+  {
+    "id": "b18-32",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Kosakata Hobi",
+    "prompt": "「わたしの しゅみは ふるい とけいを あつめる ことです。」 Arti kalimat ini adalah...",
+    "promptRomaji": "Watashi no shumi wa furui tokei o atsumeru koto desu.",
+    "sub": "Perhatikan arti あつめます dan ふるい とけい.",
+    "options": [
+      {
+        "jp": "Hobi saya memperbaiki jam tua.",
+        "romaji": ""
+      },
+      {
+        "jp": "Hobi saya menjual jam tangan mahal.",
+        "romaji": ""
+      },
+      {
+        "jp": "Hobi saya membuang jam lama.",
+        "romaji": ""
+      },
+      {
+        "jp": "Hobi saya mengoleksi/mengumpulkan jam tua.",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "あつめます (あつめる) artinya mengumpulkan atau mengoleksi; ふるい とけい artinya jam tua/lama."
+  },
+  {
+    "id": "b18-33",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Pola まえに (Kata Kerja)",
+    "prompt": "ねる （　）、にっきを かきます。 (Sebelum tidur, saya menulis buku harian.)",
+    "promptRomaji": "Neru _____, nikki o kakimasu.",
+    "sub": "Pilih penghubung yang menyatakan urutan 'sebelum ~'.",
+    "options": [
+      {
+        "jp": "まえに",
+        "romaji": "mae ni"
+      },
+      {
+        "jp": "あとで",
+        "romaji": "ato de"
+      },
+      {
+        "jp": "から",
+        "romaji": "kara"
+      },
+      {
+        "jp": "まえの",
+        "romaji": "mae no"
+      }
+    ],
+    "answer": 0,
+    "explain": "Pola 'sebelum melakukan V1, melakukan V2' adalah [V1 Bentuk Kamus] + まえに、V2."
+  },
+  {
+    "id": "b18-34",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Jebakan Tense まえに",
+    "prompt": "にほんへ （　） まえに、にほんごを べんきょうしました。 (Sebelum datang ke Jepang, saya sudah belajar bahasa Jepang.)",
+    "promptRomaji": "Nihon e _____ mae ni, nihongo o benkyou shimashita.",
+    "sub": "Walaupun kalimat utamanya lampau (べんきょうしました), kata kerja sebelum まえに tetap bentuk apa?",
+    "options": [
+      {
+        "jp": "きます",
+        "romaji": "kimasu"
+      },
+      {
+        "jp": "くる",
+        "romaji": "kuru"
+      },
+      {
+        "jp": "きました",
+        "romaji": "kimashita"
+      },
+      {
+        "jp": "きて",
+        "romaji": "kite"
+      }
+    ],
+    "answer": 1,
+    "explain": "Kata kerja di depan まえに SELALU berbentuk Kamus (くる), meskipun aksi pada akhir kalimat sudah lampau (べんきょうしました)."
+  },
+  {
+    "id": "b18-35",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Pola まえに (Kata Benda)",
+    "prompt": "しょくじ（　） まえに、てを あらいます。 (Sebelum makan, mencuci tangan.)",
+    "promptRomaji": "Shokuji _____ mae ni, te o araimasu.",
+    "sub": "しょくじ (makan/hidangan) adalah Kata Benda.",
+    "options": [
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "の",
+        "romaji": "no"
+      },
+      {
+        "jp": "な",
+        "romaji": "na"
+      }
+    ],
+    "answer": 2,
+    "explain": "Jika kata sebelum まえに adalah Kata Benda (seperti しょくじ, かいぎ, りょこう), wajib disambung partikel の → しょくじの まえに."
+  },
+  {
+    "id": "b18-36",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Pola まえに (Durasi Waktu)",
+    "prompt": "Manakah kalimat yang BENAR untuk \"Saya datang ke Jepang 3 tahun yang lalu\"?",
+    "promptRomaji": "Pilih penggunaan durasi + mae ni yang tepat.",
+    "sub": "Ingat! Angka durasi waktu sebelum まえに TIDAK memakai の.",
+    "options": [
+      {
+        "jp": "3ねんの まえに にほんへ きました。",
+        "romaji": "3-nen no mae ni Nihon e kimashita."
+      },
+      {
+        "jp": "3ねんに まえに にほんへ きました。",
+        "romaji": "3-nen ni mae ni Nihon e kimashita."
+      },
+      {
+        "jp": "3ねんが まえに にほんへ きました。",
+        "romaji": "3-nen ga mae ni Nihon e kimashita."
+      },
+      {
+        "jp": "3ねんまえに にほんへ きました。",
+        "romaji": "3-nen mae ni Nihon e kimashita."
+      }
+    ],
+    "answer": 3,
+    "explain": "Untuk angka durasi waktu (3ねん, 2しゅうかん, 5ふん), langsung tempel まえに tanpa の → 3ねんまえに ('3 tahun yang lalu')."
+  },
+  {
+    "id": "b18-37",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Pola まえに (Kata Kerja)",
+    "prompt": "でかける （　）、でんきを けさなければ なりません。 (Sebelum keluar rumah, harus mematikan lampu.)",
+    "promptRomaji": "Dekakeru _____, denki o kesanakereba narimasen.",
+    "sub": "Gabungkan Bentuk Kamus でかける dengan pola 'sebelum'.",
+    "options": [
+      {
+        "jp": "まえに",
+        "romaji": "mae ni"
+      },
+      {
+        "jp": "の まえに",
+        "romaji": "no mae ni"
+      },
+      {
+        "jp": "から",
+        "romaji": "kara"
+      },
+      {
+        "jp": "ことが",
+        "romaji": "koto ga"
+      }
+    ],
+    "answer": 0,
+    "explain": "Kata kerja Bentuk Kamus langsung diikuti まえに tanpa の → でかける まえに."
+  },
+  {
+    "id": "b18-38",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Pola まえに (Kata Benda)",
+    "prompt": "かいぎ（　） まえに、しりょうを コピーします。 (Sebelum rapat, memfotokopi materi.)",
+    "promptRomaji": "Kaigi _____ mae ni, shiryou o kopii shimasu.",
+    "sub": "かいぎ adalah Kata Benda.",
+    "options": [
+      {
+        "jp": "する の",
+        "romaji": "suru no"
+      },
+      {
+        "jp": "の",
+        "romaji": "no"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      }
+    ],
+    "answer": 1,
+    "explain": "かいぎ adalah Kata Benda, jadi sebelum まえに wajib memakai partikel の → かいぎの まえに."
+  },
+  {
+    "id": "b18-39",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Urutan Aksi まえに",
+    "prompt": "「ごはんを たべる まえに、おいのりを します。」 Makna kalimat ini adalah...",
+    "promptRomaji": "Gohan o taberu mae ni, oinori o shimasu.",
+    "sub": "Perhatikan urutan waktu antara aksi 1 dan aksi 2.",
+    "options": [
+      {
+        "jp": "Setelah makan nasi, saya berdoa.",
+        "romaji": ""
+      },
+      {
+        "jp": "Sambil makan nasi, saya berdoa.",
+        "romaji": ""
+      },
+      {
+        "jp": "Sebelum makan nasi, saya berdoa.",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya tidak boleh berdoa sebelum makan.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "おいのりを します berarti berdoa. Pola V1-る まえに、V2 berarti sebelum V1 (makan), melakukan V2 (berdoa)."
+  },
+  {
+    "id": "b18-40",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Pola まえに",
+    "prompt": "にほんへ いく まえに、ちずを （　） なりません。 (Sebelum pergi ke Jepang, harus membeli peta.)",
+    "promptRomaji": "Nihon e iku mae ni, chizu o _____ narimasen.",
+    "sub": "Lengkapi dengan bentuk harus membeli (かいます).",
+    "options": [
+      {
+        "jp": "かわなければ",
+        "romaji": "kawanakereba"
+      },
+      {
+        "jp": "かいなければ",
+        "romaji": "kainakereba"
+      },
+      {
+        "jp": "かうなければ",
+        "romaji": "kaunakereba"
+      },
+      {
+        "jp": "かわなくても",
+        "romaji": "kawanakute mo"
+      }
+    ],
+    "answer": 0,
+    "explain": "かいます → かわない → かわなければ なりません ('Sebelum pergi ke Jepang, harus membeli peta')."
+  },
+  {
+    "id": "b18-41",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Kata Keterangan なかなか",
+    "prompt": "かんじが （　） おぼえる ことが できません。 (Susah / tidak kunjung bisa menghafal kanji.)",
+    "promptRomaji": "Kanji ga _____ oboeru koto ga dekimasen.",
+    "sub": "Pilih kata keterangan yang selalu dipasangkan dengan bentuk negatif.",
+    "options": [
+      {
+        "jp": "ぜひ",
+        "romaji": "zehi"
+      },
+      {
+        "jp": "なかなか",
+        "romaji": "nakanaka"
+      },
+      {
+        "jp": "よく",
+        "romaji": "yoku"
+      },
+      {
+        "jp": "いつも",
+        "romaji": "itsumo"
+      }
+    ],
+    "answer": 1,
+    "explain": "なかなか + bentuk negatif berarti 'susah untuk / tidak kunjung ~'. ぜひ dipakai pada kalimat positif (harapan/ajakan)."
+  },
+  {
+    "id": "b18-42",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Jebakan なかなか",
+    "prompt": "にほんでは なかなか うまを みる ことが （　）。 (Di Jepang susah bisa melihat kuda.)",
+    "promptRomaji": "Nihon dewa nakanaka uma o miru koto ga _____.",
+    "sub": "Ingat pasangan wajib kata なかなか!",
+    "options": [
+      {
+        "jp": "できます",
+        "romaji": "dekimasu"
+      },
+      {
+        "jp": "できました",
+        "romaji": "dekimashita"
+      },
+      {
+        "jp": "できません",
+        "romaji": "dekimasen"
+      },
+      {
+        "jp": "します",
+        "romaji": "shimasu"
+      }
+    ],
+    "answer": 2,
+    "explain": "なかなか dalam Bab 18 wajib diikuti kalimat negatif (できません, わかりません, dll.) untuk menyatakan 'tidak mudah / jarang bisa ~'."
+  },
+  {
+    "id": "b18-43",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Kata Keterangan ぜひ",
+    "prompt": "きょうとに いい ぼくじょうが あります。（　） いきたいです。 (Di Kyoto ada peternakan bagus. Saya sangat ingin pergi ke sana.)",
+    "promptRomaji": "Kyouto ni ii bokujou ga arimasu. _____ ikitai desu.",
+    "sub": "Pilih kata keterangan untuk menyatakan harapan kuat ('sangat ingin / pastikan').",
+    "options": [
+      {
+        "jp": "なかなか",
+        "romaji": "nakanaka"
+      },
+      {
+        "jp": "あまり",
+        "romaji": "amari"
+      },
+      {
+        "jp": "ぜんぜん",
+        "romaji": "zenzen"
+      },
+      {
+        "jp": "ぜひ",
+        "romaji": "zehi"
+      }
+    ],
+    "answer": 3,
+    "explain": "ぜひ dipakai bersama keinginan/ajakan positif (～たいです, ～てください) dan berarti 'sangat ingin / pastikan / silakan'. なかなか/あまり/ぜんぜん dipakai dengan bentuk negatif."
+  },
+  {
+    "id": "b18-44",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Kosakata Jabatan",
+    "prompt": "Urutan jabatan perusahaan berikut dari tingkat menengah ke tertinggi yang sesuai dengan kosakata Bab 18 adalah:\nかちょう (kepala seksi) → ぶちょう (kepala bagian) → （　） (presiden direktur)",
+    "promptRomaji": "kachou → buchou → _____",
+    "sub": "Pilih kosakata jabatan tertinggi perusahaan di Bab 18.",
+    "options": [
+      {
+        "jp": "しゃちょう",
+        "romaji": "shachou"
+      },
+      {
+        "jp": "かいちょう",
+        "romaji": "kaichou"
+      },
+      {
+        "jp": "しゃいん",
+        "romaji": "shain"
+      },
+      {
+        "jp": "てんいん",
+        "romaji": "ten'in"
+      }
+    ],
+    "answer": 0,
+    "explain": "Dalam kosakata Bab 18: かちょう = kepala seksi, ぶちょう = kepala bagian/manajer, しゃちょう = presiden direktur / direktur utama."
+  },
+  {
+    "id": "b18-45",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Kosakata Kerja",
+    "prompt": "「じどうしゃ こうじょうを けんがくします。」 Arti kata 「けんがくします」 adalah...",
+    "promptRomaji": "\"kengaku shimasu\" no imi wa nan desu ka.",
+    "sub": "Pilih arti kosakata Bab 18 ini.",
+    "options": [
+      {
+        "jp": "memperbaiki mesin pabrik",
+        "romaji": ""
+      },
+      {
+        "jp": "meninjau / berkunjung untuk belajar",
+        "romaji": ""
+      },
+      {
+        "jp": "memesan mobil baru",
+        "romaji": ""
+      },
+      {
+        "jp": "menyetir di dalam pabrik",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "けんがくします (見学します) artinya meninjau atau berkunjung untuk belajar/observasi (misalnya ke pabrik atau museum)."
+  },
+  {
+    "id": "b18-46",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Kosakata",
+    "prompt": "「どうぶつ」 dan 「うま」 masing-masing berarti...",
+    "promptRomaji": "\"doubutsu\" & \"uma\"",
+    "sub": "Pilih pasangan arti yang tepat.",
+    "options": [
+      {
+        "jp": "tumbuhan dan bunga",
+        "romaji": ""
+      },
+      {
+        "jp": "peternakan dan sapi",
+        "romaji": ""
+      },
+      {
+        "jp": "burung dan ikan",
+        "romaji": ""
+      },
+      {
+        "jp": "hewan dan kuda",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "どうぶつ (動物) berarti hewan/binatang, dan うま (馬) berarti kuda."
+  },
+  {
+    "id": "b18-47",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Ungkapan Percakapan",
+    "prompt": "A: 「わたしの しゅみは にほんの うたを うたう ことです。」\nB: 「（　）、それは おもしろいですね。」",
+    "promptRomaji": "A: Watashi no shumi wa Nihon no uta o utau koto desu. / B: _____, sore wa omoshiroi desu ne.",
+    "sub": "Pilih ekspresi kagum/tertarik yang ada di Bab 18.",
+    "options": [
+      {
+        "jp": "おだいじに",
+        "romaji": "odaijini"
+      },
+      {
+        "jp": "どうしましたか",
+        "romaji": "dou shimashita ka"
+      },
+      {
+        "jp": "ざんねんです",
+        "romaji": "zannen desu"
+      },
+      {
+        "jp": "へえ",
+        "romaji": "hee"
+      }
+    ],
+    "answer": 3,
+    "explain": "へえ adalah ungkapan kagum/heran ('Wah! / Oh begitu ya!') saat mendengar informasi baru yang menarik."
+  },
+  {
+    "id": "b18-48",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Kosakata",
+    "prompt": "「とくに」の いみは どれですか。",
+    "promptRomaji": "\"tokuni\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata keterangan Bab 18 ini.",
+    "options": [
+      {
+        "jp": "terutama / khususnya",
+        "romaji": ""
+      },
+      {
+        "jp": "sebentar lagi",
+        "romaji": ""
+      },
+      {
+        "jp": "sekali pun tidak",
+        "romaji": ""
+      },
+      {
+        "jp": "berangsur-angsur",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "とくに (特に) berarti 'terutama / khususnya' (misalnya: とくに ビートルズが すきです)."
+  },
+  {
+    "id": "b18-49",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Kosakata",
+    "prompt": "Manakah kata yang berarti \"membuang\"?",
+    "promptRomaji": "Kosakata kerja Bab 18",
+    "sub": "Pilih kata kerja Kelompok II yang tepat.",
+    "options": [
+      {
+        "jp": "あつめます",
+        "romaji": "atsumemasu"
+      },
+      {
+        "jp": "すてます",
+        "romaji": "sutemasu"
+      },
+      {
+        "jp": "かえます",
+        "romaji": "kaemasu"
+      },
+      {
+        "jp": "あらいます",
+        "romaji": "araimasu"
+      }
+    ],
+    "answer": 1,
+    "explain": "すてます berarti membuang. あつめます = mengumpulkan, かえます = menukar, あらいます = mencuci."
+  },
+  {
+    "id": "b18-50",
+    "bab": 18,
+    "type": "mcq",
+    "badge": "Bab 18 · Dialog & Pola Lengkap",
+    "prompt": "A: 「おんがくの なかで なにが すきですか。」\nB: 「ビートルズが すきです。（　） 『ふるさと』を うたう ことが できます。」",
+    "promptRomaji": "B: Biitoruzu ga suki desu. _____ \"Furusato\" o utau koto ga dekimasu.",
+    "sub": "Pilih kata penghubung yang tepat untuk menambahkan informasi.",
+    "options": [
+      {
+        "jp": "なかなか",
+        "romaji": "nakanaka"
+      },
+      {
+        "jp": "まえに",
+        "romaji": "mae ni"
+      },
+      {
+        "jp": "それから",
+        "romaji": "sorekara"
+      },
+      {
+        "jp": "ほんとうですか",
+        "romaji": "hontou desu ka"
+      }
+    ],
+    "answer": 2,
+    "explain": "それから ('lalu / selain itu') menghubungkan dua informasi positif secara alami. なかなか wajib diikuti negatif, dan ほんとうですか adalah kalimat tanya."
+  }
+];

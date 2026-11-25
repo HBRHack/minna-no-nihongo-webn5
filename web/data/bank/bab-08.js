@@ -1,0 +1,1454 @@
+/* AUTO-GENERATED dari bab-08.json — jangan edit manual. */
+window.MNN_BANK = window.MNN_BANK || {};
+window.MNN_BANK[8] = [
+  {
+    "id": "b8-01",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Kosakata おおきい",
+    "prompt": "「おおきい」の いみは どれですか。",
+    "promptRomaji": "Ookii no imi wa dore desu ka.",
+    "sub": "Pilih arti kata sifat おおきい. (besar)",
+    "options": [
+      {
+        "jp": "besar",
+        "romaji": ""
+      },
+      {
+        "jp": "lama",
+        "romaji": ""
+      },
+      {
+        "jp": "kecil",
+        "romaji": ""
+      },
+      {
+        "jp": "baru",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "おおきい berarti besar dan termasuk kata sifat-い."
+  },
+  {
+    "id": "b8-02",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Kosakata ちいさい",
+    "prompt": "「ちいさい」の いみは どれですか。",
+    "promptRomaji": "Chiisai no imi wa dore desu ka.",
+    "sub": "Pilih arti kata sifat ちいさい. (kecil)",
+    "options": [
+      {
+        "jp": "murah",
+        "romaji": ""
+      },
+      {
+        "jp": "mahal",
+        "romaji": ""
+      },
+      {
+        "jp": "besar",
+        "romaji": ""
+      },
+      {
+        "jp": "kecil",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "ちいさい berarti kecil dan termasuk kata sifat-い."
+  },
+  {
+    "id": "b8-03",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Kosakata あたらしい",
+    "prompt": "「あたらしい」の いみは どれですか。",
+    "promptRomaji": "Atarashii no imi wa dore desu ka.",
+    "sub": "Pilih arti kata sifat あたらしい. (baru)",
+    "options": [
+      {
+        "jp": "rendah",
+        "romaji": ""
+      },
+      {
+        "jp": "lama",
+        "romaji": ""
+      },
+      {
+        "jp": "baru",
+        "romaji": ""
+      },
+      {
+        "jp": "tinggi",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "あたらしい berarti baru, biasanya untuk benda seperti あたらしい くるま."
+  },
+  {
+    "id": "b8-04",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Kosakata ふるい",
+    "prompt": "「ふるい」の いみは どれですか。",
+    "promptRomaji": "Furui no imi wa dore desu ka.",
+    "sub": "Pilih arti kata sifat ふるい. (lama / tua untuk benda)",
+    "options": [
+      {
+        "jp": "enak",
+        "romaji": ""
+      },
+      {
+        "jp": "sibuk",
+        "romaji": ""
+      },
+      {
+        "jp": "baru",
+        "romaji": ""
+      },
+      {
+        "jp": "lama, tua (benda)",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "ふるい berarti lama atau tua dan dipakai untuk benda, bukan orang."
+  },
+  {
+    "id": "b8-05",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Kosakata たかい",
+    "prompt": "「たかい」の いみは どれですか。",
+    "promptRomaji": "Takai no imi wa dore desu ka.",
+    "sub": "Pilih arti kata sifat たかい. (mahal / tinggi)",
+    "options": [
+      {
+        "jp": "mahal, tinggi",
+        "romaji": ""
+      },
+      {
+        "jp": "kecil",
+        "romaji": ""
+      },
+      {
+        "jp": "dingin",
+        "romaji": ""
+      },
+      {
+        "jp": "murah",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "たかい bisa berarti mahal untuk harga atau tinggi untuk benda."
+  },
+  {
+    "id": "b8-06",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Kosakata やすい",
+    "prompt": "「やすい」の いみは どれですか。",
+    "promptRomaji": "Yasui no imi wa dore desu ka.",
+    "sub": "Pilih arti kata sifat やすい. (murah)",
+    "options": [
+      {
+        "jp": "murah",
+        "romaji": ""
+      },
+      {
+        "jp": "mahal",
+        "romaji": ""
+      },
+      {
+        "jp": "panas",
+        "romaji": ""
+      },
+      {
+        "jp": "sibuk",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "やすい berarti murah dan merupakan lawan dari たかい."
+  },
+  {
+    "id": "b8-07",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Kosakata おいしい",
+    "prompt": "「おいしい」の いみは どれですか。",
+    "promptRomaji": "Oishii no imi wa dore desu ka.",
+    "sub": "Pilih arti kata sifat おいしい. (enak)",
+    "options": [
+      {
+        "jp": "menarik",
+        "romaji": ""
+      },
+      {
+        "jp": "tenang",
+        "romaji": ""
+      },
+      {
+        "jp": "ramai",
+        "romaji": ""
+      },
+      {
+        "jp": "enak",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "おいしい berarti enak dan dipakai untuk makanan atau minuman."
+  },
+  {
+    "id": "b8-08",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Kosakata いそがしい",
+    "prompt": "「いそがしい」の いみは どれですか。",
+    "promptRomaji": "Isogashii no imi wa dore desu ka.",
+    "sub": "Pilih arti kata sifat いそがしい. (sibuk)",
+    "options": [
+      {
+        "jp": "sibuk",
+        "romaji": ""
+      },
+      {
+        "jp": "senggang",
+        "romaji": ""
+      },
+      {
+        "jp": "sehat",
+        "romaji": ""
+      },
+      {
+        "jp": "ramah",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "いそがしい berarti sibuk, sedangkan senggang adalah ひま."
+  },
+  {
+    "id": "b8-09",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Kosakata にぎやか",
+    "prompt": "「にぎやか」の いみは どれですか。",
+    "promptRomaji": "Nigiyaka no imi wa dore desu ka.",
+    "sub": "Pilih arti kata sifat にぎやか. (ramai)",
+    "options": [
+      {
+        "jp": "terkenal",
+        "romaji": ""
+      },
+      {
+        "jp": "cantik",
+        "romaji": ""
+      },
+      {
+        "jp": "ramai",
+        "romaji": ""
+      },
+      {
+        "jp": "tenang",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "にぎやか berarti ramai dan termasuk kata sifat-な."
+  },
+  {
+    "id": "b8-10",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Kosakata しずか",
+    "prompt": "「しずか」の いみは どれですか。",
+    "promptRomaji": "Shizuka no imi wa dore desu ka.",
+    "sub": "Pilih arti kata sifat しずか. (tenang / sepi)",
+    "options": [
+      {
+        "jp": "besar",
+        "romaji": ""
+      },
+      {
+        "jp": "tenang, sepi",
+        "romaji": ""
+      },
+      {
+        "jp": "ramai",
+        "romaji": ""
+      },
+      {
+        "jp": "murah",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "しずか berarti tenang atau sepi dan termasuk kata sifat-な."
+  },
+  {
+    "id": "b8-11",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Partikel が (tetapi)",
+    "prompt": "この へやは ひろいです （　） 、ふるいです。",
+    "promptRomaji": "Kono heya wa hiroi desu ( ), furui desu.",
+    "sub": "Pilih partikel penghubung dua sifat yang berlawanan. (Luas, tetapi lama.)",
+    "options": [
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      }
+    ],
+    "answer": 0,
+    "explain": "が di antara dua klausa menyatakan pertentangan 'tetapi'."
+  },
+  {
+    "id": "b8-12",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Partikel が (tetapi)",
+    "prompt": "この りょうりは おいしいです （　） 、たかいです。",
+    "promptRomaji": "Kono ryouri wa oishii desu ( ), takai desu.",
+    "sub": "Pilih partikel kontras. (Masakan ini enak, tetapi mahal.)",
+    "options": [
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "は",
+        "romaji": "wa"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "も",
+        "romaji": "mo"
+      }
+    ],
+    "answer": 2,
+    "explain": "Dua sifat yang bertentangan dihubungkan dengan が yang berarti 'tetapi'."
+  },
+  {
+    "id": "b8-13",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Partikel が (tetapi)",
+    "prompt": "この まちは しずかです （　） 、あまり べんりじゃありません。",
+    "promptRomaji": "Kono machi wa shizuka desu ( ), amari benri ja arimasen.",
+    "sub": "Pilih partikel kontras. (Kota ini tenang, tetapi tidak terlalu praktis.)",
+    "options": [
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      }
+    ],
+    "answer": 0,
+    "explain": "が menghubungkan sifat positif しずか dengan sifat negatif sesudahnya."
+  },
+  {
+    "id": "b8-14",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Partikel が (tetapi)",
+    "prompt": "この ほんは おもしろいです （　） 、むずかしいです。",
+    "promptRomaji": "Kono hon wa omoshiroi desu ( ), muzukashii desu.",
+    "sub": "Pilih partikel kontras. (Buku ini menarik, tetapi sulit.)",
+    "options": [
+      {
+        "jp": "へ",
+        "romaji": "e"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      }
+    ],
+    "answer": 1,
+    "explain": "が dipakai untuk menghubungkan dua penilaian yang berlawanan."
+  },
+  {
+    "id": "b8-15",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · KS-な + な",
+    "prompt": "きれい （　） はなを かいました。",
+    "promptRomaji": "Kirei ( ) hana o kaimashita.",
+    "sub": "Pilih bentuk yang tepat sebelum kata benda. (Membeli bunga yang indah.)",
+    "options": [
+      {
+        "jp": "い",
+        "romaji": "i"
+      },
+      {
+        "jp": "の",
+        "romaji": "no"
+      },
+      {
+        "jp": "な",
+        "romaji": "na"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      }
+    ],
+    "answer": 2,
+    "explain": "きれい adalah kata sifat-な, sehingga sebelum kata benda memakai な."
+  },
+  {
+    "id": "b8-16",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · KS-な + な",
+    "prompt": "ここは しずか （　） まちです。",
+    "promptRomaji": "Koko wa shizuka ( ) machi desu.",
+    "sub": "Pilih bentuk yang tepat sebelum まち. (Di sini adalah kota yang tenang.)",
+    "options": [
+      {
+        "jp": "い",
+        "romaji": "i"
+      },
+      {
+        "jp": "な",
+        "romaji": "na"
+      },
+      {
+        "jp": "の",
+        "romaji": "no"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      }
+    ],
+    "answer": 1,
+    "explain": "しずか adalah kata sifat-な, jadi bentuk sebelum benda adalah しずかな."
+  },
+  {
+    "id": "b8-17",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · KS-な + な",
+    "prompt": "ゆうめい （　） やまは ふじさんです。",
+    "promptRomaji": "Yuumei ( ) yama wa Fujisan desu.",
+    "sub": "Pilih bentuk yang tepat sebelum やま. (Gunung yang terkenal adalah Fuji.)",
+    "options": [
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "の",
+        "romaji": "no"
+      },
+      {
+        "jp": "い",
+        "romaji": "i"
+      },
+      {
+        "jp": "な",
+        "romaji": "na"
+      }
+    ],
+    "answer": 3,
+    "explain": "ゆうめい berakhiran i tetapi kata sifat-な, sehingga memakai な sebelum benda."
+  },
+  {
+    "id": "b8-18",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · KS-な + な",
+    "prompt": "あの しんせつ （　） せんせいは ワットさんです。",
+    "promptRomaji": "Ano shinsetsu ( ) sensei wa Watto-san desu.",
+    "sub": "Pilih bentuk yang tepat sebelum せんせい. (Guru yang ramah itu adalah Pak Watt.)",
+    "options": [
+      {
+        "jp": "な",
+        "romaji": "na"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "い",
+        "romaji": "i"
+      },
+      {
+        "jp": "の",
+        "romaji": "no"
+      }
+    ],
+    "answer": 0,
+    "explain": "しんせつ adalah kata sifat-な, jadi dipakai しんせつな せんせい."
+  },
+  {
+    "id": "b8-19",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Negatif KS-い たかい",
+    "prompt": "「たかいです」の ひていけい（tidak mahal）は どれですか。",
+    "promptRomaji": "Takai desu no hitei-kei wa dore desu ka.",
+    "sub": "Pilih bentuk negatif sopan dari たかいです.",
+    "options": [
+      {
+        "jp": "たかいじゃありません",
+        "romaji": "takai ja arimasen"
+      },
+      {
+        "jp": "たかくないです",
+        "romaji": "takakunai desu"
+      },
+      {
+        "jp": "たかないです",
+        "romaji": "takanai desu"
+      },
+      {
+        "jp": "たかではありません",
+        "romaji": "taka dewa arimasen"
+      }
+    ],
+    "answer": 1,
+    "explain": "Kata sifat-い dinegatifkan dengan mengganti い menjadi くないです: たかくないです."
+  },
+  {
+    "id": "b8-20",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Negatif KS-い おおきい",
+    "prompt": "「おおきいです」の ひていけい（tidak besar）は どれですか。",
+    "promptRomaji": "Ookii desu no hitei-kei wa dore desu ka.",
+    "sub": "Pilih bentuk negatif sopan dari おおきいです.",
+    "options": [
+      {
+        "jp": "おおきいじゃありません",
+        "romaji": "ookii ja arimasen"
+      },
+      {
+        "jp": "おおきないです",
+        "romaji": "ookinai desu"
+      },
+      {
+        "jp": "おおきくないです",
+        "romaji": "ookikunai desu"
+      },
+      {
+        "jp": "おおきくありませ",
+        "romaji": "ookiku arimase"
+      }
+    ],
+    "answer": 2,
+    "explain": "おおきい menjadi おおきくないです dengan mengubah い menjadi くないです."
+  },
+  {
+    "id": "b8-21",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Negatif KS-い おいしい",
+    "prompt": "「おいしいです」の ひていけい（tidak enak）は どれですか。",
+    "promptRomaji": "Oishii desu no hitei-kei wa dore desu ka.",
+    "sub": "Pilih bentuk negatif sopan dari おいしいです.",
+    "options": [
+      {
+        "jp": "おいしいくないです",
+        "romaji": "oishiikunai desu"
+      },
+      {
+        "jp": "おいしいじゃありません",
+        "romaji": "oishii ja arimasen"
+      },
+      {
+        "jp": "おいしくないです",
+        "romaji": "oishikunai desu"
+      },
+      {
+        "jp": "おいしないです",
+        "romaji": "oishinai desu"
+      }
+    ],
+    "answer": 2,
+    "explain": "おいしい menjadi おいしくないです; bentuk おいしいくないです salah."
+  },
+  {
+    "id": "b8-22",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Negatif KS-い おもしろい",
+    "prompt": "「おもしろいです」の ひていけい（tidak menarik）は どれですか。",
+    "promptRomaji": "Omoshiroi desu no hitei-kei wa dore desu ka.",
+    "sub": "Pilih bentuk negatif sopan dari おもしろいです.",
+    "options": [
+      {
+        "jp": "おもしろくないです",
+        "romaji": "omoshirokunai desu"
+      },
+      {
+        "jp": "おもしろないです",
+        "romaji": "omoshironai desu"
+      },
+      {
+        "jp": "おもしろいじゃありません",
+        "romaji": "omoshiroi ja arimasen"
+      },
+      {
+        "jp": "おもしろいないです",
+        "romaji": "omoshiroinai desu"
+      }
+    ],
+    "answer": 0,
+    "explain": "おもしろい menjadi おもしろくないです dengan mengganti akhiran い."
+  },
+  {
+    "id": "b8-23",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Negatif KS-い いそがしい",
+    "prompt": "「いそがしいです」の ひていけい（tidak sibuk）は どれですか。",
+    "promptRomaji": "Isogashii desu no hitei-kei wa dore desu ka.",
+    "sub": "Pilih bentuk negatif sopan dari いそがしいです.",
+    "options": [
+      {
+        "jp": "いそがしないです",
+        "romaji": "isogashinai desu"
+      },
+      {
+        "jp": "いそがしくないです",
+        "romaji": "isogashikunai desu"
+      },
+      {
+        "jp": "いそがしいくないです",
+        "romaji": "isogashiikunai desu"
+      },
+      {
+        "jp": "いそがしいじゃありません",
+        "romaji": "isogashii ja arimasen"
+      }
+    ],
+    "answer": 1,
+    "explain": "いそがしい menjadi いそがしくないです, bukan いそがしないです."
+  },
+  {
+    "id": "b8-24",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Negatif KS-い さむい",
+    "prompt": "「さむいです」の ひていけい（tidak dingin）は どれですか。",
+    "promptRomaji": "Samui desu no hitei-kei wa dore desu ka.",
+    "sub": "Pilih bentuk negatif sopan dari さむいです.",
+    "options": [
+      {
+        "jp": "さむいないです",
+        "romaji": "samuinai desu"
+      },
+      {
+        "jp": "さむいじゃありません",
+        "romaji": "samui ja arimasen"
+      },
+      {
+        "jp": "さむないです",
+        "romaji": "samunai desu"
+      },
+      {
+        "jp": "さむくないです",
+        "romaji": "samukunai desu"
+      }
+    ],
+    "answer": 3,
+    "explain": "さむい menjadi さむくないです dengan pola い → くないです."
+  },
+  {
+    "id": "b8-25",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Negatif KS-い あつい",
+    "prompt": "「あついです」の ひていけい（tidak panas）は どれですか。",
+    "promptRomaji": "Atsui desu no hitei-kei wa dore desu ka.",
+    "sub": "Pilih bentuk negatif sopan dari あついです.",
+    "options": [
+      {
+        "jp": "あついないです",
+        "romaji": "atsuinai desu"
+      },
+      {
+        "jp": "あつないです",
+        "romaji": "atsunai desu"
+      },
+      {
+        "jp": "あついじゃありません",
+        "romaji": "atsui ja arimasen"
+      },
+      {
+        "jp": "あつくないです",
+        "romaji": "atsukunai desu"
+      }
+    ],
+    "answer": 3,
+    "explain": "あつい menjadi あつくないです, bukan あつないです."
+  },
+  {
+    "id": "b8-26",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Negatif いい (pengecualian)",
+    "prompt": "「いいです」の ひていけい（tidak bagus）は どれですか。",
+    "promptRomaji": "Ii desu no hitei-kei wa dore desu ka.",
+    "sub": "Hati-hati, いい memiliki bentuk negatif tidak beraturan.",
+    "options": [
+      {
+        "jp": "よいないです",
+        "romaji": "yoinai desu"
+      },
+      {
+        "jp": "いいじゃありません",
+        "romaji": "ii ja arimasen"
+      },
+      {
+        "jp": "いくないです",
+        "romaji": "ikunai desu"
+      },
+      {
+        "jp": "よくないです",
+        "romaji": "yokunai desu"
+      }
+    ],
+    "answer": 3,
+    "explain": "いい berubah kembali ke dasar よい, sehingga negatifnya よくないです."
+  },
+  {
+    "id": "b8-27",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Negatif KS-い わるい",
+    "prompt": "「わるいです」の ひていけい（tidak buruk）は どれですか。",
+    "promptRomaji": "Warui desu no hitei-kei wa dore desu ka.",
+    "sub": "Pilih bentuk negatif sopan dari わるいです.",
+    "options": [
+      {
+        "jp": "わるないです",
+        "romaji": "warunai desu"
+      },
+      {
+        "jp": "わるくないです",
+        "romaji": "warukunai desu"
+      },
+      {
+        "jp": "わるいないです",
+        "romaji": "waruinai desu"
+      },
+      {
+        "jp": "わるいじゃありません",
+        "romaji": "warui ja arimasen"
+      }
+    ],
+    "answer": 1,
+    "explain": "わるい menjadi わるくないです dengan mengganti い menjadi くないです."
+  },
+  {
+    "id": "b8-28",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Negatif KS-な しずか",
+    "prompt": "「しずかです」の ひていけい（tidak tenang）は どれですか。",
+    "promptRomaji": "Shizuka desu no hitei-kei wa dore desu ka.",
+    "sub": "Pilih bentuk negatif sopan dari kata sifat-な しずか.",
+    "options": [
+      {
+        "jp": "しずかなじゃありません",
+        "romaji": "shizuka na ja arimasen"
+      },
+      {
+        "jp": "しずかじゃありません",
+        "romaji": "shizuka ja arimasen"
+      },
+      {
+        "jp": "しずかないです",
+        "romaji": "shizukanai desu"
+      },
+      {
+        "jp": "しずかくないです",
+        "romaji": "shizukakunai desu"
+      }
+    ],
+    "answer": 1,
+    "explain": "Kata sifat-な dinegatifkan dengan じゃありません tanpa menambah な."
+  },
+  {
+    "id": "b8-29",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Negatif KS-な にぎやか",
+    "prompt": "「にぎやかです」の ひていけい（tidak ramai）は どれですか。",
+    "promptRomaji": "Nigiyaka desu no hitei-kei wa dore desu ka.",
+    "sub": "Pilih bentuk negatif sopan dari にぎやかです.",
+    "options": [
+      {
+        "jp": "にぎやかくないです",
+        "romaji": "nigiyakakunai desu"
+      },
+      {
+        "jp": "にぎやかなじゃありません",
+        "romaji": "nigiyaka na ja arimasen"
+      },
+      {
+        "jp": "にぎやかじゃありません",
+        "romaji": "nigiyaka ja arimasen"
+      },
+      {
+        "jp": "にぎやかないです",
+        "romaji": "nigiyakanai desu"
+      }
+    ],
+    "answer": 2,
+    "explain": "にぎやか adalah kata sifat-な, jadi negatifnya にぎやかじゃありません."
+  },
+  {
+    "id": "b8-30",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Negatif きれい (pengecualian)",
+    "prompt": "「きれいです」の ひていけい（tidak bersih / tidak cantik）は どれですか。",
+    "promptRomaji": "Kirei desu no hitei-kei wa dore desu ka.",
+    "sub": "Hati-hati, きれい berakhiran i tetapi kata sifat-な.",
+    "options": [
+      {
+        "jp": "きれいじゃありません",
+        "romaji": "kirei ja arimasen"
+      },
+      {
+        "jp": "きれいくないです",
+        "romaji": "kireikunai desu"
+      },
+      {
+        "jp": "きれくないです",
+        "romaji": "kirekunai desu"
+      },
+      {
+        "jp": "きれいなじゃありません",
+        "romaji": "kirei na ja arimasen"
+      }
+    ],
+    "answer": 0,
+    "explain": "きれい termasuk kata sifat-な, sehingga negatifnya きれいじゃありません."
+  },
+  {
+    "id": "b8-31",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Negatif ゆうめい (pengecualian)",
+    "prompt": "「ゆうめいです」の ひていけい（tidak terkenal）は どれですか。",
+    "promptRomaji": "Yuumei desu no hitei-kei wa dore desu ka.",
+    "sub": "Hati-hati, ゆうめい berakhiran i tetapi kata sifat-な.",
+    "options": [
+      {
+        "jp": "ゆうめいなじゃありません",
+        "romaji": "yuumei na ja arimasen"
+      },
+      {
+        "jp": "ゆうめいじゃありません",
+        "romaji": "yuumei ja arimasen"
+      },
+      {
+        "jp": "ゆうめかないです",
+        "romaji": "yuumenai desu"
+      },
+      {
+        "jp": "ゆうめいくないです",
+        "romaji": "yuumeikunai desu"
+      }
+    ],
+    "answer": 1,
+    "explain": "ゆうめい adalah kata sifat-な, jadi negatifnya ゆうめいじゃありません."
+  },
+  {
+    "id": "b8-32",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Negatif KS-な ひま",
+    "prompt": "「ひまです」の ひていけい（tidak senggang）は どれですか。",
+    "promptRomaji": "Hima desu no hitei-kei wa dore desu ka.",
+    "sub": "Pilih bentuk negatif sopan dari ひまです.",
+    "options": [
+      {
+        "jp": "ひまくないです",
+        "romaji": "himakunai desu"
+      },
+      {
+        "jp": "ひまかないです",
+        "romaji": "himakanai desu"
+      },
+      {
+        "jp": "ひまじゃありません",
+        "romaji": "hima ja arimasen"
+      },
+      {
+        "jp": "ひまなじゃありません",
+        "romaji": "hima na ja arimasen"
+      }
+    ],
+    "answer": 2,
+    "explain": "ひま adalah kata sifat-な, sehingga dinegatifkan dengan じゃありません."
+  },
+  {
+    "id": "b8-33",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Negatif KS-な げんき",
+    "prompt": "「げんきです」の ひていけい（tidak sehat）は どれですか。",
+    "promptRomaji": "Genki desu no hitei-kei wa dore desu ka.",
+    "sub": "Pilih bentuk negatif sopan dari げんきです.",
+    "options": [
+      {
+        "jp": "げんきじゃありません",
+        "romaji": "genki ja arimasen"
+      },
+      {
+        "jp": "げんきなじゃありません",
+        "romaji": "genki na ja arimasen"
+      },
+      {
+        "jp": "げんきかないです",
+        "romaji": "genkikanai desu"
+      },
+      {
+        "jp": "げんきくないです",
+        "romaji": "genkikunai desu"
+      }
+    ],
+    "answer": 0,
+    "explain": "げんき adalah kata sifat-な, jadi negatifnya げんきじゃありません."
+  },
+  {
+    "id": "b8-34",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Modifikasi しずかな",
+    "prompt": "「しずかです」を めいしの まえに おく とき、ただしい かたちは どれですか。",
+    "promptRomaji": "Shizuka desu o meishi no mae ni oku toki, tadashii katachi wa dore desu ka.",
+    "sub": "Pilih bentuk yang benar sebelum kata benda.",
+    "options": [
+      {
+        "jp": "しずかな",
+        "romaji": "shizuka na"
+      },
+      {
+        "jp": "しずかの",
+        "romaji": "shizuka no"
+      },
+      {
+        "jp": "しずかい",
+        "romaji": "shizukai"
+      },
+      {
+        "jp": "しずか",
+        "romaji": "shizuka"
+      }
+    ],
+    "answer": 0,
+    "explain": "Kata sifat-な memakai な saat menerangkan kata benda: しずかな まち."
+  },
+  {
+    "id": "b8-35",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Modifikasi あたらしい",
+    "prompt": "「あたらしいです」を めいしの まえに おく とき、ただしい かたちは どれですか。",
+    "promptRomaji": "Atarashii desu o meishi no mae ni oku toki, tadashii katachi wa dore desu ka.",
+    "sub": "Pilih bentuk yang benar sebelum kata benda.",
+    "options": [
+      {
+        "jp": "あたらしの",
+        "romaji": "atarashi no"
+      },
+      {
+        "jp": "あたらしい",
+        "romaji": "atarashii"
+      },
+      {
+        "jp": "あたらしいな",
+        "romaji": "atarashii na"
+      },
+      {
+        "jp": "あたらしく",
+        "romaji": "atarashiku"
+      }
+    ],
+    "answer": 1,
+    "explain": "Kata sifat-い langsung menempel pada kata benda tanpa tambahan: あたらしい くるま."
+  },
+  {
+    "id": "b8-36",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Modifikasi いい",
+    "prompt": "「いいです」を めいしの まえに おく とき、ただしい かたちは どれですか。",
+    "promptRomaji": "Ii desu o meishi no mae ni oku toki, tadashii katachi wa dore desu ka.",
+    "sub": "Pilih bentuk yang benar sebelum kata benda.",
+    "options": [
+      {
+        "jp": "よいの",
+        "romaji": "yoi no"
+      },
+      {
+        "jp": "いいな",
+        "romaji": "ii na"
+      },
+      {
+        "jp": "いく",
+        "romaji": "iku"
+      },
+      {
+        "jp": "いい",
+        "romaji": "ii"
+      }
+    ],
+    "answer": 3,
+    "explain": "Sebelum kata benda, いい tetap いい, misalnya いい ほん."
+  },
+  {
+    "id": "b8-37",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Pola とても",
+    "prompt": "この ラーメンは （　） おいしいです。",
+    "promptRomaji": "Kono raamen wa ( ) oishii desu.",
+    "sub": "Pilih kata keterangan untuk kalimat positif. (Ramen ini sangat enak.)",
+    "options": [
+      {
+        "jp": "あまり",
+        "romaji": "amari"
+      },
+      {
+        "jp": "ぜんぜん",
+        "romaji": "zenzen"
+      },
+      {
+        "jp": "とても",
+        "romaji": "totemo"
+      },
+      {
+        "jp": "どう",
+        "romaji": "dou"
+      }
+    ],
+    "answer": 2,
+    "explain": "とても berarti sangat dan dipakai pada kalimat positif."
+  },
+  {
+    "id": "b8-38",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Pola あまり",
+    "prompt": "この ほんは （　） おもしろくないです。",
+    "promptRomaji": "Kono hon wa ( ) omoshirokunai desu.",
+    "sub": "Pilih kata keterangan yang wajib diikuti bentuk negatif. (Buku ini tidak terlalu menarik.)",
+    "options": [
+      {
+        "jp": "そして",
+        "romaji": "soshite"
+      },
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      },
+      {
+        "jp": "とても",
+        "romaji": "totemo"
+      },
+      {
+        "jp": "あまり",
+        "romaji": "amari"
+      }
+    ],
+    "answer": 3,
+    "explain": "あまり berarti tidak terlalu dan harus dipasangkan dengan bentuk negatif."
+  },
+  {
+    "id": "b8-39",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Pola どうですか",
+    "prompt": "日本の せいかつは （　） ですか。…たのしいです。",
+    "promptRomaji": "Nihon no seikatsu wa ( ) desu ka. ...Tanoshii desu.",
+    "sub": "Pilih kata tanya untuk menanyakan kesan umum.",
+    "options": [
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      },
+      {
+        "jp": "どんな",
+        "romaji": "donna"
+      },
+      {
+        "jp": "どの",
+        "romaji": "dono"
+      },
+      {
+        "jp": "どう",
+        "romaji": "dou"
+      }
+    ],
+    "answer": 3,
+    "explain": "どうですか menanyakan kesan atau pendapat dan berdiri sendiri tanpa kata benda."
+  },
+  {
+    "id": "b8-40",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Pola どんな N",
+    "prompt": "ワットせんせいは （　） せんせいですか。…しんせつな せんせいです。",
+    "promptRomaji": "Watto-sensei wa ( ) sensei desu ka. ...Shinsetsu na sensei desu.",
+    "sub": "Pilih kata tanya yang langsung diikuti kata benda.",
+    "options": [
+      {
+        "jp": "どう",
+        "romaji": "dou"
+      },
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      },
+      {
+        "jp": "なに",
+        "romaji": "nani"
+      },
+      {
+        "jp": "どんな",
+        "romaji": "donna"
+      }
+    ],
+    "answer": 3,
+    "explain": "どんな wajib diikuti kata benda: どんな せんせい (guru yang seperti apa)."
+  },
+  {
+    "id": "b8-41",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Pola どんな N",
+    "prompt": "ならは （　） まちですか。…しずかな まちです。",
+    "promptRomaji": "Nara wa ( ) machi desu ka. ...Shizuka na machi desu.",
+    "sub": "Pilih kata tanya yang tepat sebelum まち.",
+    "options": [
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      },
+      {
+        "jp": "どこ",
+        "romaji": "doko"
+      },
+      {
+        "jp": "どう",
+        "romaji": "dou"
+      },
+      {
+        "jp": "どんな",
+        "romaji": "donna"
+      }
+    ],
+    "answer": 3,
+    "explain": "Karena ada kata benda まち, dipakai どんな まちですか."
+  },
+  {
+    "id": "b8-42",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Pola どれ",
+    "prompt": "カリナさんの かばんは （　） ですか。…あの しろい かばんです。",
+    "promptRomaji": "Karina-san no kaban wa ( ) desu ka. ...Ano shiroi kaban desu.",
+    "sub": "Pilih kata tanya untuk memilih satu di antara beberapa benda.",
+    "options": [
+      {
+        "jp": "どんな",
+        "romaji": "donna"
+      },
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      },
+      {
+        "jp": "どこ",
+        "romaji": "doko"
+      },
+      {
+        "jp": "どう",
+        "romaji": "dou"
+      }
+    ],
+    "answer": 1,
+    "explain": "どれ berarti 'yang mana' dan berdiri sendiri seperti これ・それ・あれ."
+  },
+  {
+    "id": "b8-43",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Pola きれいな N",
+    "prompt": "ここは （　） へやですね。",
+    "promptRomaji": "Koko wa ( ) heya desu ne.",
+    "sub": "Pilih bentuk yang tepat sebelum へや. (Ini kamar yang bersih ya.)",
+    "options": [
+      {
+        "jp": "きれい",
+        "romaji": "kirei"
+      },
+      {
+        "jp": "きれいの",
+        "romaji": "kirei no"
+      },
+      {
+        "jp": "きれいな",
+        "romaji": "kirei na"
+      },
+      {
+        "jp": "きれいい",
+        "romaji": "kireii"
+      }
+    ],
+    "answer": 2,
+    "explain": "きれい adalah kata sifat-な, jadi sebelum へや memakai きれいな."
+  },
+  {
+    "id": "b8-44",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Pola ゆうめいな N",
+    "prompt": "ふじさんは （　） やまです。",
+    "promptRomaji": "Fujisan wa ( ) yama desu.",
+    "sub": "Pilih bentuk yang tepat sebelum やま. (Gunung Fuji adalah gunung yang terkenal.)",
+    "options": [
+      {
+        "jp": "ゆうめい",
+        "romaji": "yuumei"
+      },
+      {
+        "jp": "ゆうめいな",
+        "romaji": "yuumei na"
+      },
+      {
+        "jp": "ゆうめいの",
+        "romaji": "yuumei no"
+      },
+      {
+        "jp": "ゆうめいい",
+        "romaji": "yuumeii"
+      }
+    ],
+    "answer": 1,
+    "explain": "ゆうめi adalah kata sifat-な, sehingga bentuk sebelum benda adalah ゆうめいな."
+  },
+  {
+    "id": "b8-45",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Pola あまり + よくない",
+    "prompt": "きょうは てんきが あまり （　）。",
+    "promptRomaji": "Kyou wa tenki ga amari ( ).",
+    "sub": "Lengkapi: Hari ini cuacanya tidak terlalu bagus.",
+    "options": [
+      {
+        "jp": "いいです",
+        "romaji": "ii desu"
+      },
+      {
+        "jp": "いくないです",
+        "romaji": "ikunai desu"
+      },
+      {
+        "jp": "よくないです",
+        "romaji": "yokunai desu"
+      },
+      {
+        "jp": "いいじゃありません",
+        "romaji": "ii ja arimasen"
+      }
+    ],
+    "answer": 2,
+    "explain": "あまり menuntut bentuk negatif, dan negatif dari いい adalah よくないです."
+  },
+  {
+    "id": "b8-46",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Pola そして",
+    "prompt": "ミラーさんは ハンサムです。（　）、しんせつです。",
+    "promptRomaji": "Miraa-san wa hansamu desu. ( ), shinsetsu desu.",
+    "sub": "Pilih kata penghubung untuk dua sifat yang searah. (Tampan, dan juga ramah.)",
+    "options": [
+      {
+        "jp": "そして",
+        "romaji": "soshite"
+      },
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      },
+      {
+        "jp": "あまり",
+        "romaji": "amari"
+      },
+      {
+        "jp": "ですが",
+        "romaji": "desu ga"
+      }
+    ],
+    "answer": 0,
+    "explain": "そして berarti 'dan juga' dan menghubungkan dua sifat yang searah."
+  },
+  {
+    "id": "b8-47",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Pola が (tetapi)",
+    "prompt": "「この りょうりは おいしいですが、たかいです。」の いみは どれですか。",
+    "promptRomaji": "Kono ryouri wa oishii desu ga, takai desu.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      {
+        "jp": "Masakan ini tidak enak, tetapi murah.",
+        "romaji": ""
+      },
+      {
+        "jp": "Masakan ini enak dan murah.",
+        "romaji": ""
+      },
+      {
+        "jp": "Masakan ini enak, tetapi mahal.",
+        "romaji": ""
+      },
+      {
+        "jp": "Masakan ini mahal, tetapi enak.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "が menghubungkan 'enak' dengan 'mahal' sebagai dua hal yang bertentangan."
+  },
+  {
+    "id": "b8-48",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Pola KS-い + N",
+    "prompt": "「gunung yang tinggi」は にほんごで どれですか。",
+    "promptRomaji": "'Gunung yang tinggi' wa nihongo de dore desu ka.",
+    "sub": "Pilih susunan kata sifat-い + kata benda yang benar.",
+    "options": [
+      {
+        "jp": "たかく やま",
+        "romaji": "takaku yama"
+      },
+      {
+        "jp": "たかい やま",
+        "romaji": "takai yama"
+      },
+      {
+        "jp": "たかの やま",
+        "romaji": "taka no yama"
+      },
+      {
+        "jp": "たかいな やま",
+        "romaji": "takai na yama"
+      }
+    ],
+    "answer": 1,
+    "explain": "Kata sifat-い langsung diikuti kata benda: たかい やま."
+  },
+  {
+    "id": "b8-49",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Pola KS-な + N",
+    "prompt": "「orang yang ramah」は にほんごで どれですか。",
+    "promptRomaji": "'Orang yang ramah' wa nihongo de dore desu ka.",
+    "sub": "Pilih susunan kata sifat-な + kata benda yang benar.",
+    "options": [
+      {
+        "jp": "しんせつな ひと",
+        "romaji": "shinsetsu na hito"
+      },
+      {
+        "jp": "しんせつの ひと",
+        "romaji": "shinsetsu no hito"
+      },
+      {
+        "jp": "しんせつい ひと",
+        "romaji": "shinsetsui hito"
+      },
+      {
+        "jp": "しんせつ ひと",
+        "romaji": "shinsetsu hito"
+      }
+    ],
+    "answer": 0,
+    "explain": "Kata sifat-な wajib memakai な sebelum kata benda: しんせつな ひと."
+  },
+  {
+    "id": "b8-50",
+    "bab": 8,
+    "type": "mcq",
+    "badge": "Bab 8 · Pola arti きれいな",
+    "prompt": "「きれいな まちですね。」の いみは どれですか。",
+    "promptRomaji": "Kirei na machi desu ne.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      {
+        "jp": "Kota yang ramai ya.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kota yang bersih/indah ya.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kota yang tenang ya.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kota yang terkenal ya.",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "きれい berarti bersih atau indah, dan な menandakan kata sifat-な sebelum まち."
+  }
+];

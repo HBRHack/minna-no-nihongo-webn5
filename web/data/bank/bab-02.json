@@ -1,0 +1,1452 @@
+[
+  {
+    "id": "b2-01",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · これ・それ・あれ",
+    "prompt": "（　） は わたしの ほんです。",
+    "promptRomaji": "( ) wa watashi no hon desu.",
+    "sub": "Benda ini dekat dengan pembicara. (Ini buku saya.)",
+    "options": [
+      {
+        "jp": "これ",
+        "romaji": "kore"
+      },
+      {
+        "jp": "どの",
+        "romaji": "dono"
+      },
+      {
+        "jp": "それ",
+        "romaji": "sore"
+      },
+      {
+        "jp": "あれ",
+        "romaji": "are"
+      }
+    ],
+    "answer": 0,
+    "explain": "これ dipakai untuk benda yang dekat dengan pembicara."
+  },
+  {
+    "id": "b2-02",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · これ・それ・あれ",
+    "prompt": "（　） は あなたの かばんですか。",
+    "promptRomaji": "( ) wa anata no kaban desu ka.",
+    "sub": "Benda itu dekat dengan lawan bicara. (Apakah itu tas Anda?)",
+    "options": [
+      {
+        "jp": "あれ",
+        "romaji": "are"
+      },
+      {
+        "jp": "それ",
+        "romaji": "sore"
+      },
+      {
+        "jp": "これ",
+        "romaji": "kore"
+      },
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      }
+    ],
+    "answer": 1,
+    "explain": "それ dipakai untuk benda yang dekat dengan lawan bicara."
+  },
+  {
+    "id": "b2-03",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · これ・それ・あれ",
+    "prompt": "（　） は ミラーさんのです。",
+    "promptRomaji": "( ) wa Miraa-san no desu.",
+    "sub": "Benda itu jauh dari pembicara dan lawan bicara. (Itu milik Sdr. Miller.)",
+    "options": [
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      },
+      {
+        "jp": "それ",
+        "romaji": "sore"
+      },
+      {
+        "jp": "これ",
+        "romaji": "kore"
+      },
+      {
+        "jp": "あれ",
+        "romaji": "are"
+      }
+    ],
+    "answer": 3,
+    "explain": "あれ dipakai untuk benda yang jauh dari keduanya."
+  },
+  {
+    "id": "b2-04",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · この・その・あの",
+    "prompt": "（　） ほんは わたしのです。",
+    "promptRomaji": "( ) hon wa watashi no desu.",
+    "sub": "Buku ini (dekat pembicara) milik saya.",
+    "options": [
+      {
+        "jp": "その",
+        "romaji": "sono"
+      },
+      {
+        "jp": "あの",
+        "romaji": "ano"
+      },
+      {
+        "jp": "これ",
+        "romaji": "kore"
+      },
+      {
+        "jp": "この",
+        "romaji": "kono"
+      }
+    ],
+    "answer": 3,
+    "explain": "この wajib langsung diikuti kata benda: この ほん."
+  },
+  {
+    "id": "b2-05",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · この・その・あの",
+    "prompt": "（　） かばんは あなたのですか。",
+    "promptRomaji": "( ) kaban wa anata no desu ka.",
+    "sub": "Tas itu (dekat lawan bicara) milik Anda?",
+    "options": [
+      {
+        "jp": "どの",
+        "romaji": "dono"
+      },
+      {
+        "jp": "この",
+        "romaji": "kono"
+      },
+      {
+        "jp": "あの",
+        "romaji": "ano"
+      },
+      {
+        "jp": "その",
+        "romaji": "sono"
+      }
+    ],
+    "answer": 3,
+    "explain": "その dipakai untuk benda dekat lawan bicara dan diikuti kata benda."
+  },
+  {
+    "id": "b2-06",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · この・その・あの",
+    "prompt": "（　） くるまは ミラーさんのです。",
+    "promptRomaji": "( ) kuruma wa Miraa-san no desu.",
+    "sub": "Mobil itu (jauh) milik Sdr. Miller.",
+    "options": [
+      {
+        "jp": "その",
+        "romaji": "sono"
+      },
+      {
+        "jp": "どの",
+        "romaji": "dono"
+      },
+      {
+        "jp": "あの",
+        "romaji": "ano"
+      },
+      {
+        "jp": "この",
+        "romaji": "kono"
+      }
+    ],
+    "answer": 2,
+    "explain": "あの dipakai untuk benda jauh dari keduanya."
+  },
+  {
+    "id": "b2-07",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kata Tanya なん",
+    "prompt": "これは （　） ですか。…じしょです。",
+    "promptRomaji": "Kore wa ( ) desu ka. ...Jisho desu.",
+    "sub": "Ini apa? ...Kamus.",
+    "options": [
+      {
+        "jp": "なん",
+        "romaji": "nan"
+      },
+      {
+        "jp": "だれ",
+        "romaji": "dare"
+      },
+      {
+        "jp": "いくら",
+        "romaji": "ikura"
+      },
+      {
+        "jp": "どこ",
+        "romaji": "doko"
+      }
+    ],
+    "answer": 0,
+    "explain": "なん = apa, dipakai untuk menanyakan benda."
+  },
+  {
+    "id": "b2-08",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · なんの",
+    "prompt": "それは （　） の ほんですか。…にほんごの ほんです。",
+    "promptRomaji": "Sore wa ( ) no hon desu ka. ...Nihongo no hon desu.",
+    "sub": "Buku itu buku apa? ...Buku bahasa Jepang.",
+    "options": [
+      {
+        "jp": "だれ",
+        "romaji": "dare"
+      },
+      {
+        "jp": "いくら",
+        "romaji": "ikura"
+      },
+      {
+        "jp": "どこ",
+        "romaji": "doko"
+      },
+      {
+        "jp": "なん",
+        "romaji": "nan"
+      }
+    ],
+    "answer": 3,
+    "explain": "なんの N = N tentang apa / N apa."
+  },
+  {
+    "id": "b2-09",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kepemilikan",
+    "prompt": "この かさは （　） のですか。…わたしのです。",
+    "promptRomaji": "Kono kasa wa ( ) no desu ka. ...Watashi no desu.",
+    "sub": "Payung ini milik siapa? ...Milik saya.",
+    "options": [
+      {
+        "jp": "なん",
+        "romaji": "nan"
+      },
+      {
+        "jp": "どこ",
+        "romaji": "doko"
+      },
+      {
+        "jp": "いくら",
+        "romaji": "ikura"
+      },
+      {
+        "jp": "だれ",
+        "romaji": "dare"
+      }
+    ],
+    "answer": 3,
+    "explain": "だれの = milik siapa."
+  },
+  {
+    "id": "b2-10",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kepemilikan",
+    "prompt": "その とけいは （　） のですか。…サントスさんのです。",
+    "promptRomaji": "Sono tokei wa ( ) no desu ka. ...Santosu-san no desu.",
+    "sub": "Jam itu milik siapa? ...Milik Sdr. Santos.",
+    "options": [
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      },
+      {
+        "jp": "なん",
+        "romaji": "nan"
+      },
+      {
+        "jp": "だれ",
+        "romaji": "dare"
+      },
+      {
+        "jp": "どこ",
+        "romaji": "doko"
+      }
+    ],
+    "answer": 2,
+    "explain": "だれの = milik siapa."
+  },
+  {
+    "id": "b2-11",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Arti Kepemilikan",
+    "prompt": "これは わたしの かばんです。",
+    "promptRomaji": "Kore wa watashi no kaban desu.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Itu tas saya.",
+        "romaji": ""
+      },
+      {
+        "jp": "Ini tas Anda.",
+        "romaji": ""
+      },
+      {
+        "jp": "Ini tas saya.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah ini tas saya?",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "これ = ini, わたしの = milik saya."
+  },
+  {
+    "id": "b2-12",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Arti Tanya",
+    "prompt": "それは あなたの じしょですか。",
+    "promptRomaji": "Sore wa anata no jisho desu ka.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Apakah itu kamus Anda?",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah ini kamus Anda?",
+        "romaji": ""
+      },
+      {
+        "jp": "Itu bukan kamus Anda.",
+        "romaji": ""
+      },
+      {
+        "jp": "Itu kamus saya.",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "それ = itu (dekat lawan), あなたの = milik Anda."
+  },
+  {
+    "id": "b2-13",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Arti Kepemilikan",
+    "prompt": "あれは ミラーさんの くるまです。",
+    "promptRomaji": "Are wa Miraa-san no kuruma desu.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Itu bukan mobil Sdr. Miller.",
+        "romaji": ""
+      },
+      {
+        "jp": "Ini mobil Sdr. Miller.",
+        "romaji": ""
+      },
+      {
+        "jp": "Itu mobil Sdr. Miller.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah itu mobil Sdr. Miller?",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "あれ = itu (jauh), ミラーさんの くるま = mobil Sdr. Miller."
+  },
+  {
+    "id": "b2-14",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · の Kepemilikan",
+    "prompt": "この ほんは わたしのです。",
+    "promptRomaji": "Kono hon wa watashi no desu.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Buku ini buku saya.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah buku ini milik saya?",
+        "romaji": ""
+      },
+      {
+        "jp": "Buku ini bukan milik saya.",
+        "romaji": ""
+      },
+      {
+        "jp": "Buku ini milik saya.",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "わたしの です = milik saya; の tidak boleh dihilangkan."
+  },
+  {
+    "id": "b2-15",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · の Kepemilikan",
+    "prompt": "その かさは だれのですか。",
+    "promptRomaji": "Sono kasa wa dare no desu ka.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Payung ini milik siapa?",
+        "romaji": ""
+      },
+      {
+        "jp": "Payung itu milik siapa?",
+        "romaji": ""
+      },
+      {
+        "jp": "Payung itu apa?",
+        "romaji": ""
+      },
+      {
+        "jp": "Payung itu di mana?",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "だれの = milik siapa."
+  },
+  {
+    "id": "b2-16",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · の Kepemilikan",
+    "prompt": "あの かぎは キムラさんのです。",
+    "promptRomaji": "Ano kagi wa Kimura-san no desu.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Apakah kunci itu milik Sdr. Kimura?",
+        "romaji": ""
+      },
+      {
+        "jp": "Kunci itu milik Sdr. Kimura.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kunci ini milik Sdr. Kimura.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kunci itu bukan milik Sdr. Kimura.",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "あの かぎ = kunci itu (jauh), キムラさんのです = milik Sdr. Kimura."
+  },
+  {
+    "id": "b2-17",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Pilihan ～か、～か",
+    "prompt": "これは じしょですか、ざっしですか。…（　） です。",
+    "promptRomaji": "Kore wa jisho desu ka, zasshi desu ka. ...( ) desu.",
+    "sub": "Ini kamus atau majalah? ...Majalah.",
+    "options": [
+      {
+        "jp": "ほん",
+        "romaji": "hon"
+      },
+      {
+        "jp": "ざっし",
+        "romaji": "zasshi"
+      },
+      {
+        "jp": "じしょ",
+        "romaji": "jisho"
+      },
+      {
+        "jp": "しんぶん",
+        "romaji": "shinbun"
+      }
+    ],
+    "answer": 1,
+    "explain": "Pertanyaan ～か、～か dijawab dengan memilih salah satunya."
+  },
+  {
+    "id": "b2-18",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Pilihan ～か、～か",
+    "prompt": "それは 「9」ですか、「7」ですか。…（　） です。",
+    "promptRomaji": "Sore wa '9' desu ka, '7' desu ka. ...( ) desu.",
+    "sub": "Itu angka 9 atau 7? ...7.",
+    "options": [
+      {
+        "jp": "「7」",
+        "romaji": "nana"
+      },
+      {
+        "jp": "「8」",
+        "romaji": "hachi"
+      },
+      {
+        "jp": "「9」",
+        "romaji": "kyuu"
+      },
+      {
+        "jp": "「6」",
+        "romaji": "roku"
+      }
+    ],
+    "answer": 0,
+    "explain": "Jawab langsung pilihan yang disebutkan."
+  },
+  {
+    "id": "b2-19",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Pilihan ～か、～か",
+    "prompt": "この かばんは あなたのですか、サントスさんのですか。…（　） 。",
+    "promptRomaji": "Kono kaban wa anata no desu ka, Santosu-san no desu ka. ...( ).",
+    "sub": "Tas ini milik Anda atau Sdr. Santos? ...Milik Sdr. Santos.",
+    "options": [
+      {
+        "jp": "サントスさんです",
+        "romaji": "Santosu-san desu"
+      },
+      {
+        "jp": "サントスさんのですか",
+        "romaji": "Santosu-san no desu ka"
+      },
+      {
+        "jp": "わたしのです",
+        "romaji": "watashi no desu"
+      },
+      {
+        "jp": "サントスさんのです",
+        "romaji": "Santosu-san no desu"
+      }
+    ],
+    "answer": 3,
+    "explain": "Saat bendanya disingkat, の wajib tetap ada: サントスさんのです."
+  },
+  {
+    "id": "b2-20",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · そうです",
+    "prompt": "それは テレホンカードですか。…いいえ、（　） 。",
+    "promptRomaji": "Sore wa terehonkaado desu ka. ...Iie, ( ).",
+    "sub": "Apakah itu kartu telepon? ...Tidak, bukan.",
+    "options": [
+      {
+        "jp": "そうじゃありません",
+        "romaji": "sou ja arimasen"
+      },
+      {
+        "jp": "そうですか",
+        "romaji": "sou desu ka"
+      },
+      {
+        "jp": "ちがいますか",
+        "romaji": "chigaimasu ka"
+      },
+      {
+        "jp": "そうです",
+        "romaji": "sou desu"
+      }
+    ],
+    "answer": 0,
+    "explain": "そうじゃありません = bukan begitu."
+  },
+  {
+    "id": "b2-21",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · そうです",
+    "prompt": "これは あなたの ほんですか。…はい、（　） 。",
+    "promptRomaji": "Kore wa anata no hon desu ka. ...Hai, ( ).",
+    "sub": "Apakah ini buku Anda? ...Ya, benar.",
+    "options": [
+      {
+        "jp": "そうじゃありません",
+        "romaji": "sou ja arimasen"
+      },
+      {
+        "jp": "ちがいます",
+        "romaji": "chigaimasu"
+      },
+      {
+        "jp": "そうですか",
+        "romaji": "sou desu ka"
+      },
+      {
+        "jp": "そうです",
+        "romaji": "sou desu"
+      }
+    ],
+    "answer": 3,
+    "explain": "そうです = ya, benar begitu."
+  },
+  {
+    "id": "b2-22",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · そうです",
+    "prompt": "あれは えきですか。…いいえ、（　） 。",
+    "promptRomaji": "Are wa eki desu ka. ...Iie, ( ).",
+    "sub": "Apakah itu stasiun? ...Tidak, bukan.",
+    "options": [
+      {
+        "jp": "そうですか",
+        "romaji": "sou desu ka"
+      },
+      {
+        "jp": "えきです",
+        "romaji": "eki desu"
+      },
+      {
+        "jp": "そうじゃありません",
+        "romaji": "sou ja arimasen"
+      },
+      {
+        "jp": "そうです",
+        "romaji": "sou desu"
+      }
+    ],
+    "answer": 2,
+    "explain": "いいえ diikuti そうじゃありません untuk menyangkal."
+  },
+  {
+    "id": "b2-23",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Ungkapan",
+    "prompt": "「そうですか」 dengan intonasi turun berarti...",
+    "promptRomaji": "Sou desu ka. (intonasi turun)",
+    "sub": "Pilih makna ungkapan tersebut.",
+    "options": [
+      {
+        "jp": "Apakah begitu?",
+        "romaji": ""
+      },
+      {
+        "jp": "Ya, begitu.",
+        "romaji": ""
+      },
+      {
+        "jp": "Oh, begitu ya.",
+        "romaji": ""
+      },
+      {
+        "jp": "Bukan begitu.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "Dengan intonasi turun, そうですか menunjukkan pemahaman."
+  },
+  {
+    "id": "b2-24",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · これ vs この",
+    "prompt": "Manakah yang benar untuk 「buku ini」?",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "これ dan この punya aturan berbeda.",
+    "options": [
+      {
+        "jp": "あれ ほん",
+        "romaji": "are hon"
+      },
+      {
+        "jp": "これ ほん",
+        "romaji": "kore hon"
+      },
+      {
+        "jp": "それ ほん",
+        "romaji": "sore hon"
+      },
+      {
+        "jp": "この ほん",
+        "romaji": "kono hon"
+      }
+    ],
+    "answer": 3,
+    "explain": "この wajib langsung diikuti kata benda; これ berdiri sendiri."
+  },
+  {
+    "id": "b2-25",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · それ vs その",
+    "prompt": "Manakah yang benar untuk 「tas itu (dekat lawan bicara)」?",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Pilih pasangan yang tepat.",
+    "options": [
+      {
+        "jp": "あの かばん",
+        "romaji": "ano kaban"
+      },
+      {
+        "jp": "これ かばん",
+        "romaji": "kore kaban"
+      },
+      {
+        "jp": "その かばん",
+        "romaji": "sono kaban"
+      },
+      {
+        "jp": "どの かばん",
+        "romaji": "dono kaban"
+      }
+    ],
+    "answer": 2,
+    "explain": "その + kata benda = benda itu di dekat lawan bicara."
+  },
+  {
+    "id": "b2-26",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · あれ vs あの",
+    "prompt": "Manakah yang benar untuk 「mobil itu (jauh)」?",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Pilih pasangan yang tepat.",
+    "options": [
+      {
+        "jp": "この くるま",
+        "romaji": "kono kuruma"
+      },
+      {
+        "jp": "その くるま",
+        "romaji": "sono kuruma"
+      },
+      {
+        "jp": "どの くるま",
+        "romaji": "dono kuruma"
+      },
+      {
+        "jp": "あの くるま",
+        "romaji": "ano kuruma"
+      }
+    ],
+    "answer": 3,
+    "explain": "あの + kata benda = benda itu yang jauh."
+  },
+  {
+    "id": "b2-27",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kosakata",
+    "prompt": "「buku」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "buku = ?",
+    "sub": "Pilih kosakata yang tepat.",
+    "options": [
+      {
+        "jp": "じしょ",
+        "romaji": "jisho"
+      },
+      {
+        "jp": "ほん",
+        "romaji": "hon"
+      },
+      {
+        "jp": "しんぶん",
+        "romaji": "shinbun"
+      },
+      {
+        "jp": "ざっし",
+        "romaji": "zasshi"
+      }
+    ],
+    "answer": 1,
+    "explain": "ほん = buku."
+  },
+  {
+    "id": "b2-28",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kosakata",
+    "prompt": "「kamus」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "kamus = ?",
+    "sub": "Pilih kosakata yang tepat.",
+    "options": [
+      {
+        "jp": "じしょ",
+        "romaji": "jisho"
+      },
+      {
+        "jp": "ノート",
+        "romaji": "nooto"
+      },
+      {
+        "jp": "ざっし",
+        "romaji": "zasshi"
+      },
+      {
+        "jp": "ほん",
+        "romaji": "hon"
+      }
+    ],
+    "answer": 0,
+    "explain": "じしょ = kamus."
+  },
+  {
+    "id": "b2-29",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kosakata",
+    "prompt": "「majalah」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "majalah = ?",
+    "sub": "Pilih kosakata yang tepat.",
+    "options": [
+      {
+        "jp": "ほん",
+        "romaji": "hon"
+      },
+      {
+        "jp": "しんぶん",
+        "romaji": "shinbun"
+      },
+      {
+        "jp": "ざっし",
+        "romaji": "zasshi"
+      },
+      {
+        "jp": "じしょ",
+        "romaji": "jisho"
+      }
+    ],
+    "answer": 2,
+    "explain": "ざっし = majalah."
+  },
+  {
+    "id": "b2-30",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kosakata",
+    "prompt": "「koran」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "koran = ?",
+    "sub": "Pilih kosakata yang tepat.",
+    "options": [
+      {
+        "jp": "ざっし",
+        "romaji": "zasshi"
+      },
+      {
+        "jp": "ノート",
+        "romaji": "nooto"
+      },
+      {
+        "jp": "しんぶん",
+        "romaji": "shinbun"
+      },
+      {
+        "jp": "じしょ",
+        "romaji": "jisho"
+      }
+    ],
+    "answer": 2,
+    "explain": "しんぶん = koran."
+  },
+  {
+    "id": "b2-31",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kosakata",
+    "prompt": "「buku catatan」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "buku catatan = ?",
+    "sub": "Pilih kosakata yang tepat.",
+    "options": [
+      {
+        "jp": "ノート",
+        "romaji": "nooto"
+      },
+      {
+        "jp": "ざっし",
+        "romaji": "zasshi"
+      },
+      {
+        "jp": "ほん",
+        "romaji": "hon"
+      },
+      {
+        "jp": "しんぶん",
+        "romaji": "shinbun"
+      }
+    ],
+    "answer": 0,
+    "explain": "ノート = buku catatan."
+  },
+  {
+    "id": "b2-32",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kosakata",
+    "prompt": "「tas」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "tas = ?",
+    "sub": "Pilih kosakata yang tepat.",
+    "options": [
+      {
+        "jp": "かさ",
+        "romaji": "kasa"
+      },
+      {
+        "jp": "かばん",
+        "romaji": "kaban"
+      },
+      {
+        "jp": "かぎ",
+        "romaji": "kagi"
+      },
+      {
+        "jp": "とけい",
+        "romaji": "tokei"
+      }
+    ],
+    "answer": 1,
+    "explain": "かばん = tas."
+  },
+  {
+    "id": "b2-33",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kosakata",
+    "prompt": "「kunci」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "kunci = ?",
+    "sub": "Pilih kosakata yang tepat.",
+    "options": [
+      {
+        "jp": "かさ",
+        "romaji": "kasa"
+      },
+      {
+        "jp": "かぎ",
+        "romaji": "kagi"
+      },
+      {
+        "jp": "とけい",
+        "romaji": "tokei"
+      },
+      {
+        "jp": "かばん",
+        "romaji": "kaban"
+      }
+    ],
+    "answer": 1,
+    "explain": "かぎ = kunci."
+  },
+  {
+    "id": "b2-34",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kosakata",
+    "prompt": "「jam」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "jam = ?",
+    "sub": "Pilih kosakata yang tepat.",
+    "options": [
+      {
+        "jp": "かさ",
+        "romaji": "kasa"
+      },
+      {
+        "jp": "かぎ",
+        "romaji": "kagi"
+      },
+      {
+        "jp": "くるま",
+        "romaji": "kuruma"
+      },
+      {
+        "jp": "とけい",
+        "romaji": "tokei"
+      }
+    ],
+    "answer": 3,
+    "explain": "とけい = jam (benda)."
+  },
+  {
+    "id": "b2-35",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kosakata",
+    "prompt": "「payung」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "payung = ?",
+    "sub": "Pilih kosakata yang tepat.",
+    "options": [
+      {
+        "jp": "かさ",
+        "romaji": "kasa"
+      },
+      {
+        "jp": "かぎ",
+        "romaji": "kagi"
+      },
+      {
+        "jp": "かばん",
+        "romaji": "kaban"
+      },
+      {
+        "jp": "とけい",
+        "romaji": "tokei"
+      }
+    ],
+    "answer": 0,
+    "explain": "かさ = payung."
+  },
+  {
+    "id": "b2-36",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kosakata",
+    "prompt": "「mobil」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "mobil = ?",
+    "sub": "Pilih kosakata yang tepat.",
+    "options": [
+      {
+        "jp": "かさ",
+        "romaji": "kasa"
+      },
+      {
+        "jp": "くるま",
+        "romaji": "kuruma"
+      },
+      {
+        "jp": "とけい",
+        "romaji": "tokei"
+      },
+      {
+        "jp": "かばん",
+        "romaji": "kaban"
+      }
+    ],
+    "answer": 1,
+    "explain": "くるま = mobil."
+  },
+  {
+    "id": "b2-37",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kata Tanya",
+    "prompt": "Kata tanya untuk 「apa」 adalah...",
+    "promptRomaji": "apa = ?",
+    "sub": "Pilih kata tanya yang tepat.",
+    "options": [
+      {
+        "jp": "いくら",
+        "romaji": "ikura"
+      },
+      {
+        "jp": "なん",
+        "romaji": "nan"
+      },
+      {
+        "jp": "だれ",
+        "romaji": "dare"
+      },
+      {
+        "jp": "どこ",
+        "romaji": "doko"
+      }
+    ],
+    "answer": 1,
+    "explain": "なん = apa."
+  },
+  {
+    "id": "b2-38",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Arti Tanya",
+    "prompt": "これは なんですか。",
+    "promptRomaji": "Kore wa nan desu ka.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Ini apa?",
+        "romaji": ""
+      },
+      {
+        "jp": "Itu apa?",
+        "romaji": ""
+      },
+      {
+        "jp": "Siapa ini?",
+        "romaji": ""
+      },
+      {
+        "jp": "Ini milik siapa?",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "これ = ini, なん = apa."
+  },
+  {
+    "id": "b2-39",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Arti なんの",
+    "prompt": "その ほんは なんの ほんですか。",
+    "promptRomaji": "Sono hon wa nan no hon desu ka.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Buku itu berapa harganya?",
+        "romaji": ""
+      },
+      {
+        "jp": "Buku itu buku apa?",
+        "romaji": ""
+      },
+      {
+        "jp": "Buku itu milik siapa?",
+        "romaji": ""
+      },
+      {
+        "jp": "Buku itu di mana?",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "なんの ほん = buku tentang apa / buku apa."
+  },
+  {
+    "id": "b2-40",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Arti Kepemilikan",
+    "prompt": "この かさは だれのですか。",
+    "promptRomaji": "Kono kasa wa dare no desu ka.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Payung ini berapa?",
+        "romaji": ""
+      },
+      {
+        "jp": "Payung ini apa?",
+        "romaji": ""
+      },
+      {
+        "jp": "Payung ini di mana?",
+        "romaji": ""
+      },
+      {
+        "jp": "Payung ini milik siapa?",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "だれの = milik siapa."
+  },
+  {
+    "id": "b2-41",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Arti Dialog",
+    "prompt": "その ざっしは あなたのですか。…いいえ、ちがいます。ミラーさんのです。",
+    "promptRomaji": "Sono zasshi wa anata no desu ka. ...Iie, chigaimasu. Miraa-san no desu.",
+    "sub": "Apa arti dialog tersebut?",
+    "options": [
+      {
+        "jp": "Apakah majalah itu milik Anda? ...Tidak, salah. Milik Sdr. Miller.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah majalah itu milik Sdr. Miller? ...Tidak, milik saya.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah majalah itu milik Sdr. Miller? ...Ya, milik Anda.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah majalah ini milik saya? ...Tidak, milik Sdr. Miller.",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "ちがいます = salah/bukan; ミラーさんのです = milik Sdr. Miller."
+  },
+  {
+    "id": "b2-42",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Arti Dialog",
+    "prompt": "あれは なんですか。…あれは じしょです。",
+    "promptRomaji": "Are wa nan desu ka. ...Are wa jisho desu.",
+    "sub": "Apa arti dialog tersebut?",
+    "options": [
+      {
+        "jp": "Apa ini? ...Ini kamus.",
+        "romaji": ""
+      },
+      {
+        "jp": "Siapa itu? ...Itu Sdr. Miller.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apa itu? ...Itu kamus.",
+        "romaji": ""
+      },
+      {
+        "jp": "Di mana itu? ...Itu kamus.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "あれ = itu (jauh), なん = apa, じしょ = kamus."
+  },
+  {
+    "id": "b2-43",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Arti Kepemilikan",
+    "prompt": "これは わたしの とけいです。",
+    "promptRomaji": "Kore wa watashi no tokei desu.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Ini jam Anda.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah ini jam saya?",
+        "romaji": ""
+      },
+      {
+        "jp": "Itu jam saya.",
+        "romaji": ""
+      },
+      {
+        "jp": "Ini jam saya.",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "これ = ini, わたしの とけい = jam saya."
+  },
+  {
+    "id": "b2-44",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Arti Dialog",
+    "prompt": "その かぎは あなたのですか。…はい、わたしのです。",
+    "promptRomaji": "Sono kagi wa anata no desu ka. ...Hai, watashi no desu.",
+    "sub": "Apa arti dialog tersebut?",
+    "options": [
+      {
+        "jp": "Apakah kunci itu milik Anda? ...Tidak, bukan.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah kunci ini milik saya? ...Ya, milik Anda.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah kunci itu milik Anda? ...Ya, milik saya.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah kunci itu milik Sdr. Santos? ...Ya, milik dia.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "はい membenarkan; わたしのです = milik saya."
+  },
+  {
+    "id": "b2-45",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Arti Dialog",
+    "prompt": "この しんぶんは だれのですか。…ヤンさんのです。",
+    "promptRomaji": "Kono shinbun wa dare no desu ka. ...Yan-san no desu.",
+    "sub": "Apa arti dialog tersebut?",
+    "options": [
+      {
+        "jp": "Koran ini milik siapa? ...Milik Sdr. Yan.",
+        "romaji": ""
+      },
+      {
+        "jp": "Koran ini apa? ...Koran Sdr. Yan.",
+        "romaji": ""
+      },
+      {
+        "jp": "Koran itu milik siapa? ...Milik Sdr. Yan.",
+        "romaji": ""
+      },
+      {
+        "jp": "Koran ini di mana? ...Di rumah Sdr. Yan.",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "この しんぶん = koran ini; だれの = milik siapa."
+  },
+  {
+    "id": "b2-46",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Arti Dialog",
+    "prompt": "あの ノートは あなたのですか。…いいえ、そうじゃありません。",
+    "promptRomaji": "Ano nooto wa anata no desu ka. ...Iie, sou ja arimasen.",
+    "sub": "Apa arti dialog tersebut?",
+    "options": [
+      {
+        "jp": "Apakah buku catatan ini milik saya? ...Ya, benar.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah buku catatan itu milik Anda? ...Ya, benar.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah buku catatan itu milik Anda? ...Tidak, bukan.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah buku catatan itu milik Sdr. Miller? ...Tidak, bukan.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "いいえ、そうじゃありません = tidak, bukan begitu."
+  },
+  {
+    "id": "b2-47",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kalimat Benar",
+    "prompt": "Manakah kalimat yang benar untuk 「Ini kamus saya」?",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Perhatikan posisi の.",
+    "options": [
+      {
+        "jp": "これは わたしは じしょです。",
+        "romaji": "Kore wa watashi wa jisho desu."
+      },
+      {
+        "jp": "これは わたしの じしょです。",
+        "romaji": "Kore wa watashi no jisho desu."
+      },
+      {
+        "jp": "これは わたしの じしょですか。",
+        "romaji": "Kore wa watashi no jisho desu ka."
+      },
+      {
+        "jp": "これは わたし じしょです。",
+        "romaji": "Kore wa watashi jisho desu."
+      }
+    ],
+    "answer": 1,
+    "explain": "Kepemilikan memakai の: わたしの じしょ."
+  },
+  {
+    "id": "b2-48",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kalimat Benar",
+    "prompt": "Manakah kalimat yang benar untuk 「Itu payung Sdr. Santos」?",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Benda itu dekat lawan bicara.",
+    "options": [
+      {
+        "jp": "それは サントスさんの かさです。",
+        "romaji": "Sore wa Santosu-san no kasa desu."
+      },
+      {
+        "jp": "それは サントスさんは かさです。",
+        "romaji": "Sore wa Santosu-san wa kasa desu."
+      },
+      {
+        "jp": "それは サントスさんのかさですか。",
+        "romaji": "Sore wa Santosu-san no kasa desu ka."
+      },
+      {
+        "jp": "あれは サントスさんの かさです。",
+        "romaji": "Are wa Santosu-san no kasa desu."
+      }
+    ],
+    "answer": 0,
+    "explain": "それ = itu dekat lawan bicara; の menghubungkan pemilik dan benda."
+  },
+  {
+    "id": "b2-49",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kalimat Benar",
+    "prompt": "Manakah kalimat yang benar untuk 「Mobil itu (jauh) milik saya」?",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Perhatikan kata tunjuk dan の.",
+    "options": [
+      {
+        "jp": "あれ くるまは わたしのです。",
+        "romaji": "Are kuruma wa watashi no desu."
+      },
+      {
+        "jp": "あの くるまは わたしのです。",
+        "romaji": "Ano kuruma wa watashi no desu."
+      },
+      {
+        "jp": "あの くるまは わたしです。",
+        "romaji": "Ano kuruma wa watashi desu."
+      },
+      {
+        "jp": "この くるまは わたしのです。",
+        "romaji": "Kono kuruma wa watashi no desu."
+      }
+    ],
+    "answer": 1,
+    "explain": "あの + kata benda, lalu わたしのです untuk kepemilikan."
+  },
+  {
+    "id": "b2-50",
+    "bab": 2,
+    "type": "mcq",
+    "badge": "Bab 2 · Kalimat Benar",
+    "prompt": "Manakah kalimat yang benar untuk 「Apakah ini majalah atau koran?」",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Perhatikan pola pilihan ～か、～か.",
+    "options": [
+      {
+        "jp": "これは ざっしも しんぶんですか。",
+        "romaji": "Kore wa zasshi mo shinbun desu ka."
+      },
+      {
+        "jp": "これは ざっしと しんぶんですか。",
+        "romaji": "Kore wa zasshi to shinbun desu ka."
+      },
+      {
+        "jp": "これは ざっしですか、しんぶんですか。",
+        "romaji": "Kore wa zasshi desu ka, shinbun desu ka."
+      },
+      {
+        "jp": "これは ざっしが しんぶんですか。",
+        "romaji": "Kore wa zasshi ga shinbun desu ka."
+      }
+    ],
+    "answer": 2,
+    "explain": "Pola pilihan memakai dua kali か: ～ですか、～ですか."
+  }
+]

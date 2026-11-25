@@ -1,0 +1,1452 @@
+[
+  {
+    "id": "b14-01",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kosakata つけます",
+    "prompt": "「エアコンを つけます」の いみは どれですか。",
+    "promptRomaji": "\"Eakon o tsukemasu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "mematikan AC",
+        "romaji": ""
+      },
+      {
+        "jp": "menyalakan AC",
+        "romaji": ""
+      },
+      {
+        "jp": "membuka AC",
+        "romaji": ""
+      },
+      {
+        "jp": "memperbaiki AC",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "つけます berarti menyalakan atau menghidupkan alat listrik seperti AC (エアコン) atau lampu (でんき)."
+  },
+  {
+    "id": "b14-02",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kosakata けします",
+    "prompt": "「でんきを けします」の いみは どれですか。",
+    "promptRomaji": "\"Denki o keshimasu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "menyalakan lampu",
+        "romaji": ""
+      },
+      {
+        "jp": "membeli lampu",
+        "romaji": ""
+      },
+      {
+        "jp": "mematikan lampu",
+        "romaji": ""
+      },
+      {
+        "jp": "memegang lampu",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "けします berarti mematikan atau memadamkan (lampu, AC, api), serta menghapus tulisan."
+  },
+  {
+    "id": "b14-03",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kosakata しめます",
+    "prompt": "「しめます」の いみは どれですか。",
+    "promptRomaji": "\"Shimemasu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata yang tepat.",
+    "options": [
+      {
+        "jp": "menutup",
+        "romaji": ""
+      },
+      {
+        "jp": "membuka",
+        "romaji": ""
+      },
+      {
+        "jp": "menghentikan",
+        "romaji": ""
+      },
+      {
+        "jp": "meminjam",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "しめます (Kelompok II) berarti menutup (pintu, jendela). Lawan katanya adalah あけます (membuka)."
+  },
+  {
+    "id": "b14-04",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kosakata いそぎます",
+    "prompt": "「いそぎます」の いみは どれですか。",
+    "promptRomaji": "\"Isogimasu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata yang tepat.",
+    "options": [
+      {
+        "jp": "menunggu",
+        "romaji": ""
+      },
+      {
+        "jp": "berjalan pelan",
+        "romaji": ""
+      },
+      {
+        "jp": "berhenti",
+        "romaji": ""
+      },
+      {
+        "jp": "bergegas / terburu-buru",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "いそぎます (Kelompok I) berarti bergegas atau terburu-buru."
+  },
+  {
+    "id": "b14-05",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kosakata てつだいます",
+    "prompt": "「てつだいます」の いみは どれですか。",
+    "promptRomaji": "\"Tetsudaimasu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata yang tepat.",
+    "options": [
+      {
+        "jp": "memanggil",
+        "romaji": ""
+      },
+      {
+        "jp": "membantu",
+        "romaji": ""
+      },
+      {
+        "jp": "mengambil",
+        "romaji": ""
+      },
+      {
+        "jp": "menunjukkan",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "てつだいます (Kelompok I) berarti membantu pekerjaan atau tugas orang lain."
+  },
+  {
+    "id": "b14-06",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kosakata とめます",
+    "prompt": "「くるまを とめます」の いみは どれですか。",
+    "promptRomaji": "\"Kuruma o tomemasu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "mengendarai mobil",
+        "romaji": ""
+      },
+      {
+        "jp": "mencuci mobil",
+        "romaji": ""
+      },
+      {
+        "jp": "menghentikan / memarkir mobil",
+        "romaji": ""
+      },
+      {
+        "jp": "menjual mobil",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "とめます (Kelompok II) berarti menghentikan atau memarkir kendaraan."
+  },
+  {
+    "id": "b14-07",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kosakata みせます",
+    "prompt": "「パスポートを みせます」の いみは どれですか。",
+    "promptRomaji": "\"Pasupooto o misemasu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "memperlihatkan paspor",
+        "romaji": ""
+      },
+      {
+        "jp": "membuat paspor",
+        "romaji": ""
+      },
+      {
+        "jp": "mengambil paspor",
+        "romaji": ""
+      },
+      {
+        "jp": "membawa paspor",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "みせます (Kelompok II) berarti memperlihatkan atau menunjukkan kepada orang lain (berbeda dengan みます = melihat)."
+  },
+  {
+    "id": "b14-08",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kosakata じゅうしょ",
+    "prompt": "「じゅうしょ」の いみは どれですか。",
+    "promptRomaji": "\"Juusho\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata yang tepat.",
+    "options": [
+      {
+        "jp": "nama lengkap",
+        "romaji": ""
+      },
+      {
+        "jp": "peta kota",
+        "romaji": ""
+      },
+      {
+        "jp": "nomor telepon",
+        "romaji": ""
+      },
+      {
+        "jp": "alamat",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "じゅうしょ berarti alamat tempat tinggal."
+  },
+  {
+    "id": "b14-09",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kosakata ちず",
+    "prompt": "「ちず」の いみは どれですか。",
+    "promptRomaji": "\"Chizu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata yang tepat.",
+    "options": [
+      {
+        "jp": "kamus",
+        "romaji": ""
+      },
+      {
+        "jp": "peta",
+        "romaji": ""
+      },
+      {
+        "jp": "surat",
+        "romaji": ""
+      },
+      {
+        "jp": "foto",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "ちず berarti peta. Jangan tertukar dengan じしょ (kamus)."
+  },
+  {
+    "id": "b14-10",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kosakata しお",
+    "prompt": "「しお」の いみは どれですか。",
+    "promptRomaji": "\"Shio\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata yang tepat.",
+    "options": [
+      {
+        "jp": "gula",
+        "romaji": ""
+      },
+      {
+        "jp": "kecap",
+        "romaji": ""
+      },
+      {
+        "jp": "garam",
+        "romaji": ""
+      },
+      {
+        "jp": "susu",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "しお berarti garam, sedangkan さとう berarti gula."
+  },
+  {
+    "id": "b14-11",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kosakata おつり",
+    "prompt": "「おつり」の いみは どれですか。",
+    "promptRomaji": "\"Otsuri\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata yang tepat.",
+    "options": [
+      {
+        "jp": "uang kembalian",
+        "romaji": ""
+      },
+      {
+        "jp": "uang pas",
+        "romaji": ""
+      },
+      {
+        "jp": "tanda terima",
+        "romaji": ""
+      },
+      {
+        "jp": "harga barang",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "おつり berarti uang kembalian saat berbelanja."
+  },
+  {
+    "id": "b14-12",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kosakata まっすぐ",
+    "prompt": "「まっすぐ」の いみは どれですか。",
+    "promptRomaji": "\"Massugu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata yang tepat.",
+    "options": [
+      {
+        "jp": "pelan-pelan",
+        "romaji": ""
+      },
+      {
+        "jp": "sebentar lagi",
+        "romaji": ""
+      },
+      {
+        "jp": "belok kanan",
+        "romaji": ""
+      },
+      {
+        "jp": "lurus",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "まっすぐ berarti lurus (misalnya まっすぐ いって ください = tolong jalan lurus)."
+  },
+  {
+    "id": "b14-13",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kosakata ゆっくり",
+    "prompt": "「ゆっくり」の いみは どれですか。",
+    "promptRomaji": "\"Yukkuri\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata yang tepat.",
+    "options": [
+      {
+        "jp": "segera / cepat",
+        "romaji": ""
+      },
+      {
+        "jp": "nanti",
+        "romaji": ""
+      },
+      {
+        "jp": "pelan-pelan / santai",
+        "romaji": ""
+      },
+      {
+        "jp": "sekali lagi",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "ゆっくり berarti pelan-pelan atau dengan santai."
+  },
+  {
+    "id": "b14-14",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kosakata ～かた",
+    "prompt": "「かんじの よみかた」の いみは どれですか。",
+    "promptRomaji": "\"Kanji no yomikata\" no imi wa dore desu ka.",
+    "sub": "Pilih arti ungkapan yang tepat.",
+    "options": [
+      {
+        "jp": "arti kanji",
+        "romaji": ""
+      },
+      {
+        "jp": "cara membaca kanji",
+        "romaji": ""
+      },
+      {
+        "jp": "jumlah kanji",
+        "romaji": ""
+      },
+      {
+        "jp": "latihan kanji",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "Akhiran ～かた (dari batang V-ます + かた) berarti 'cara melakukan ~', jadi よみかた berarti cara membaca."
+  },
+  {
+    "id": "b14-15",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kelompok Kata Kerja",
+    "prompt": "つぎの なかで、グループⅡの どうし（kata kerja）は どれですか。",
+    "promptRomaji": "Tsugi no naka de, guruupu II no doushi wa dore desu ka.",
+    "sub": "Identifikasi kata kerja Kelompok II (pengecualian vokal -i).",
+    "options": [
+      {
+        "jp": "かります",
+        "romaji": "karimasu"
+      },
+      {
+        "jp": "かえります",
+        "romaji": "kaerimasu"
+      },
+      {
+        "jp": "きります",
+        "romaji": "kirimasu"
+      },
+      {
+        "jp": "とります",
+        "romaji": "torimasu"
+      }
+    ],
+    "answer": 0,
+    "explain": "かります (meminjam) termasuk pengecualian Kelompok II meskipun berbunyi -ri sebelum ます (bentuk-て: かりて). かえります, きります, dan とります semuanya Kelompok I."
+  },
+  {
+    "id": "b14-16",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Pengecualian いきます",
+    "prompt": "「いきます」の てけい（bentuk-te）は どれですか。",
+    "promptRomaji": "\"Ikimasu\" no te-kei wa dore desu ka.",
+    "sub": "Pilih bentuk-て yang tepat untuk kata kerja いきます.",
+    "options": [
+      {
+        "jp": "いいて",
+        "romaji": "iite"
+      },
+      {
+        "jp": "いんで",
+        "romaji": "inde"
+      },
+      {
+        "jp": "いって",
+        "romaji": "itte"
+      },
+      {
+        "jp": "いきて",
+        "romaji": "ikite"
+      }
+    ],
+    "answer": 2,
+    "explain": "いきます adalah satu-satunya kata kerja berakhiran -きます yang tidak menjadi いいて, melainkan いって."
+  },
+  {
+    "id": "b14-17",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · い・ち・り → って",
+    "prompt": "すみませんが、ここで ちょっと （　） ください。",
+    "promptRomaji": "Sumimasen ga, koko de chotto _____ kudasai.",
+    "sub": "Lengkapi dengan bentuk-て dari まちます (menunggu).",
+    "options": [
+      {
+        "jp": "まちて",
+        "romaji": "machite"
+      },
+      {
+        "jp": "まいて",
+        "romaji": "maite"
+      },
+      {
+        "jp": "まんで",
+        "romaji": "mande"
+      },
+      {
+        "jp": "まって",
+        "romaji": "matte"
+      }
+    ],
+    "answer": 3,
+    "explain": "まちます adalah Kelompok I berakhiran ち, sehingga berubah menjadi まって (い・ち・り → って)."
+  },
+  {
+    "id": "b14-18",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · み・び・に → んで",
+    "prompt": "タクシーを （　） ください。",
+    "promptRomaji": "Takushii o _____ kudasai.",
+    "sub": "Lengkapi dengan bentuk-て dari よびます (memanggil).",
+    "options": [
+      {
+        "jp": "よびて",
+        "romaji": "yobite"
+      },
+      {
+        "jp": "よんで",
+        "romaji": "yonde"
+      },
+      {
+        "jp": "よって",
+        "romaji": "yotte"
+      },
+      {
+        "jp": "よいで",
+        "romaji": "yoide"
+      }
+    ],
+    "answer": 1,
+    "explain": "よびます adalah Kelompok I berakhiran び, sehingga berubah menjadi よんで (み・び・に → んで)."
+  },
+  {
+    "id": "b14-19",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · き → いて",
+    "prompt": "ここに なまえと じゅうしょを （　） ください。",
+    "promptRomaji": "Koko ni namae to juusho o _____ kudasai.",
+    "sub": "Lengkapi dengan bentuk-て dari かきます (menulis).",
+    "options": [
+      {
+        "jp": "かいて",
+        "romaji": "kaite"
+      },
+      {
+        "jp": "かって",
+        "romaji": "katte"
+      },
+      {
+        "jp": "かいで",
+        "romaji": "kaide"
+      },
+      {
+        "jp": "かきて",
+        "romaji": "kakite"
+      }
+    ],
+    "answer": 0,
+    "explain": "かきます (Kelompok I berakhiran き, bukan いきます) berubah menjadi かいて (き → いて)."
+  },
+  {
+    "id": "b14-20",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · ぎ → いで",
+    "prompt": "じかんが ありませんから、ちょっと （　） ください。",
+    "promptRomaji": "Jikan ga arimasen kara, chotto _____ kudasai.",
+    "sub": "Lengkapi dengan bentuk-て dari いそぎます (bergegas).",
+    "options": [
+      {
+        "jp": "いそいて",
+        "romaji": "isoite"
+      },
+      {
+        "jp": "いそって",
+        "romaji": "isotte"
+      },
+      {
+        "jp": "いそいで",
+        "romaji": "isoide"
+      },
+      {
+        "jp": "いそんで",
+        "romaji": "isonde"
+      }
+    ],
+    "answer": 2,
+    "explain": "いそぎます (Kelompok I berakhiran ぎ) berubah menjadi いそいで (ぎ → いで)."
+  },
+  {
+    "id": "b14-21",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · し → して",
+    "prompt": "もう すこし ゆっくり （　） ください。",
+    "promptRomaji": "Mou sukoshi yukkuri _____ kudasai.",
+    "sub": "Lengkapi dengan bentuk-て dari はなします (berbicara).",
+    "options": [
+      {
+        "jp": "はなって",
+        "romaji": "hanatte"
+      },
+      {
+        "jp": "はないて",
+        "romaji": "hanaite"
+      },
+      {
+        "jp": "はなしって",
+        "romaji": "hanashitte"
+      },
+      {
+        "jp": "はなして",
+        "romaji": "hanashite"
+      }
+    ],
+    "answer": 3,
+    "explain": "はなします (Kelompok I berakhiran し) berubah menjadi はなして (し → して)."
+  },
+  {
+    "id": "b14-22",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kelompok II (-e)",
+    "prompt": "すみませんが、この かんじの よみかたを （　） ください。",
+    "promptRomaji": "Sumimasen ga, kono kanji no yomikata o _____ kudasai.",
+    "sub": "Lengkapi dengan bentuk-て dari おしえます (memberitahu/mengajar).",
+    "options": [
+      {
+        "jp": "おしえって",
+        "romaji": "oshiette"
+      },
+      {
+        "jp": "おしえて",
+        "romaji": "oshiete"
+      },
+      {
+        "jp": "おしえんで",
+        "romaji": "oshiende"
+      },
+      {
+        "jp": "おして",
+        "romaji": "oshite"
+      }
+    ],
+    "answer": 1,
+    "explain": "おしえます adalah Kelompok II (berbunyi -e sebelum ます), sehingga cukup buang ます + て menjadi おしえて."
+  },
+  {
+    "id": "b14-23",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kelompok II (-i)",
+    "prompt": "ちょっと この しゃしんを （　） ください。",
+    "promptRomaji": "Chotto kono shashin o _____ kudasai.",
+    "sub": "Lengkapi dengan bentuk-て dari みます (melihat).",
+    "options": [
+      {
+        "jp": "みて",
+        "romaji": "mite"
+      },
+      {
+        "jp": "みって",
+        "romaji": "mitte"
+      },
+      {
+        "jp": "みんで",
+        "romaji": "minde"
+      },
+      {
+        "jp": "みいて",
+        "romaji": "miite"
+      }
+    ],
+    "answer": 0,
+    "explain": "みます adalah kata kerja khusus Kelompok II (berbunyi -i), sehingga bentuk-て-nya adalah みて (buang ます + て)."
+  },
+  {
+    "id": "b14-24",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kelompok III",
+    "prompt": "この ちずを 2まい （　） ください。",
+    "promptRomaji": "Kono chizu o nimai _____ kudasai.",
+    "sub": "Lengkapi dengan bentuk-て dari コピーします (memfotokopi).",
+    "options": [
+      {
+        "jp": "コピーしって",
+        "romaji": "kopii shitte"
+      },
+      {
+        "jp": "コピーすて",
+        "romaji": "kopii sute"
+      },
+      {
+        "jp": "コピーして",
+        "romaji": "kopii shite"
+      },
+      {
+        "jp": "コピーしまして",
+        "romaji": "kopii shimashite"
+      }
+    ],
+    "answer": 2,
+    "explain": "Kata kerja します termasuk Kelompok III dan berubah menjadi して, sehingga コピーします menjadi コピーして."
+  },
+  {
+    "id": "b14-25",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Kelompok III (きます)",
+    "prompt": "あした わたしの うちへ あそびに （　） ください。",
+    "promptRomaji": "Ashita watashi no uchi e asobi ni _____ kudasai.",
+    "sub": "Lengkapi dengan bentuk-て dari きます (datang).",
+    "options": [
+      {
+        "jp": "きって",
+        "romaji": "kitte"
+      },
+      {
+        "jp": "きいて",
+        "romaji": "kiite"
+      },
+      {
+        "jp": "くって",
+        "romaji": "kutte"
+      },
+      {
+        "jp": "きて",
+        "romaji": "kite"
+      }
+    ],
+    "answer": 3,
+    "explain": "きます (datang) termasuk Kelompok III dan bentuk-て-nya adalah きて."
+  },
+  {
+    "id": "b14-26",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · V-ています (Sedang)",
+    "prompt": "いま そとは あめが （　）。",
+    "promptRomaji": "Ima soto wa ame ga _____.",
+    "sub": "Lengkapi dengan bentuk sedang berlangsung dari ふります (turun hujan).",
+    "options": [
+      {
+        "jp": "ふりて います",
+        "romaji": "furite imasu"
+      },
+      {
+        "jp": "ふって います",
+        "romaji": "futte imasu"
+      },
+      {
+        "jp": "ふんで います",
+        "romaji": "funde imasu"
+      },
+      {
+        "jp": "ふいて います",
+        "romaji": "fuite imasu"
+      }
+    ],
+    "answer": 1,
+    "explain": "ふります (Kelompok I: り → って) menjadi ふって, lalu ditambah います menjadi ふって います (sedang turun hujan)."
+  },
+  {
+    "id": "b14-27",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · V-ています (Sedang)",
+    "prompt": "ミラーさんは いま じむしょで でんわを （　）。",
+    "promptRomaji": "Miraa-san wa ima jimusho de denwa o _____.",
+    "sub": "Lengkapi dengan bentuk sedang berlangsung dari かけます (menelepon).",
+    "options": [
+      {
+        "jp": "かけて います",
+        "romaji": "kakete imasu"
+      },
+      {
+        "jp": "かかって います",
+        "romaji": "kakatte imasu"
+      },
+      {
+        "jp": "かいて います",
+        "romaji": "kaite imasu"
+      },
+      {
+        "jp": "かけまして います",
+        "romaji": "kakemashite imasu"
+      }
+    ],
+    "answer": 0,
+    "explain": "でんわを かけます (Kelompok II) menjadi かけて, lalu ditambah います menjadi かけて います (sedang menelepon)."
+  },
+  {
+    "id": "b14-28",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · V-ています (Sedang)",
+    "prompt": "やまださんは いま しょくどうで ひるごはんを （　）。",
+    "promptRomaji": "Yamada-san wa ima shokudou de hirugohan o _____.",
+    "sub": "Lengkapi dengan bentuk sedang berlangsung dari たべます (makan).",
+    "options": [
+      {
+        "jp": "たべって います",
+        "romaji": "tabette imasu"
+      },
+      {
+        "jp": "たべます います",
+        "romaji": "tabemasu imasu"
+      },
+      {
+        "jp": "たべて います",
+        "romaji": "tabete imasu"
+      },
+      {
+        "jp": "たべ います",
+        "romaji": "tabe imasu"
+      }
+    ],
+    "answer": 2,
+    "explain": "たべます (Kelompok II) menjadi たべて + います = たべて います (sedang makan)."
+  },
+  {
+    "id": "b14-29",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · V-ています (Sedang)",
+    "prompt": "カリナさんは いま へやで コーヒーを （　）。",
+    "promptRomaji": "Karina-san wa ima heya de koohii o _____.",
+    "sub": "Lengkapi dengan bentuk sedang berlangsung dari のみます (minum).",
+    "options": [
+      {
+        "jp": "のみて います",
+        "romaji": "nomite imasu"
+      },
+      {
+        "jp": "のって います",
+        "romaji": "notte imasu"
+      },
+      {
+        "jp": "のいて います",
+        "romaji": "noite imasu"
+      },
+      {
+        "jp": "のんで います",
+        "romaji": "nonde imasu"
+      }
+    ],
+    "answer": 3,
+    "explain": "のみます (Kelompok I: み → んで) menjadi のんで + います = のんで います (sedang minum)."
+  },
+  {
+    "id": "b14-30",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · V-ましょうか (Tawaran)",
+    "prompt": "おもそうですね。その にもつを （　）。",
+    "promptRomaji": "Omosou desu ne. Sono nimotsu o _____.",
+    "sub": "Tawarkan bantuan membawakan barang (もちます).",
+    "options": [
+      {
+        "jp": "もって ください",
+        "romaji": "motte kudasai"
+      },
+      {
+        "jp": "もちましょうか",
+        "romaji": "mochimashou ka"
+      },
+      {
+        "jp": "もって いますか",
+        "romaji": "motte imasu ka"
+      },
+      {
+        "jp": "もって ましょうか",
+        "romaji": "motte mashou ka"
+      }
+    ],
+    "answer": 1,
+    "explain": "Untuk menawarkan bantuan diri sendiri, gunakan batang V-ます + ましょうか, yaitu もちましょうか (Mau saya bawakan?)."
+  },
+  {
+    "id": "b14-31",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · V-ましょうか (Tawaran)",
+    "prompt": "さむいですね。エアコンを （　）。",
+    "promptRomaji": "Samui desu ne. Eakon o _____.",
+    "sub": "Tawarkan bantuan mematikan AC (けします).",
+    "options": [
+      {
+        "jp": "けして いますか",
+        "romaji": "keshite imasu ka"
+      },
+      {
+        "jp": "けして ましょうか",
+        "romaji": "keshite mashou ka"
+      },
+      {
+        "jp": "けしましょうか",
+        "romaji": "keshimashou ka"
+      },
+      {
+        "jp": "けして ください",
+        "romaji": "keshite kudasai"
+      }
+    ],
+    "answer": 2,
+    "explain": "けします → batang けし + ましょうか = けしましょうか (Mau saya matikan?)."
+  },
+  {
+    "id": "b14-32",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · V-ましょうか (Tawaran)",
+    "prompt": "しごとが おおくて たいへんですね。ちょっと （　）。",
+    "promptRomaji": "Shigoto ga ookute taihen desu ne. Chotto _____.",
+    "sub": "Tawarkan bantuan membantu pekerjaan (てつだいます).",
+    "options": [
+      {
+        "jp": "てつだいましょうか",
+        "romaji": "tetsudaimashou ka"
+      },
+      {
+        "jp": "てつだって ましょうか",
+        "romaji": "tetsudatte mashou ka"
+      },
+      {
+        "jp": "てつだって ください",
+        "romaji": "tetsudatte kudasai"
+      },
+      {
+        "jp": "てつだって います",
+        "romaji": "tetsudatte imasu"
+      }
+    ],
+    "answer": 0,
+    "explain": "てつだいます → てつだいましょうか (Mau saya bantu?). Jangan memakai bentuk-て sebelum ましょうか."
+  },
+  {
+    "id": "b14-33",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Partikel Arah",
+    "prompt": "つぎの しんごうを みぎ （　） まがって ください。",
+    "promptRomaji": "Tsugi no shingou o migi _____ magatte kudasai.",
+    "sub": "Pilih partikel arah yang tepat untuk まがります.",
+    "options": [
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "へ",
+        "romaji": "e"
+      }
+    ],
+    "answer": 3,
+    "explain": "Pola arah belok adalah しんごうを みぎへ まがります (belok ke kanan di lampu lalu lintas), menggunakan partikel へ untuk arah."
+  },
+  {
+    "id": "b14-34",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Terjemahan Kalimat",
+    "prompt": "Bahasa Jepang dari \"Tolong nyalakan lampu\" adalah...",
+    "promptRomaji": "Terjemahan Jepang (Bab 14)",
+    "sub": "Pilih terjemahan bahasa Jepang yang tepat.",
+    "options": [
+      {
+        "jp": "でんきを けして ください。",
+        "romaji": "denki o keshite kudasai."
+      },
+      {
+        "jp": "でんきを つけて ください。",
+        "romaji": "denki o tsukete kudasai."
+      },
+      {
+        "jp": "でんきを ついて ください。",
+        "romaji": "denki o tsuite kudasai."
+      },
+      {
+        "jp": "でんきを つけましょうか。",
+        "romaji": "denki o tsukemashou ka."
+      }
+    ],
+    "answer": 1,
+    "explain": "つけます (menyalakan, Kelompok II) menjadi つけて ください. けして adalah mematikan, dan つけましょうか berarti menawarkan diri menyalakan."
+  },
+  {
+    "id": "b14-35",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Terjemahan Kalimat",
+    "prompt": "Bahasa Jepang dari \"Sekarang saya sedang mendengarkan musik\" adalah...",
+    "promptRomaji": "Terjemahan Jepang (Bab 14)",
+    "sub": "Pilih terjemahan bahasa Jepang yang tepat.",
+    "options": [
+      {
+        "jp": "いま おんがくを きって います。",
+        "romaji": "ima ongaku o kitte imasu."
+      },
+      {
+        "jp": "いま おんがくを ききます。",
+        "romaji": "ima ongaku o kikimasu."
+      },
+      {
+        "jp": "いま おんがくを きいて います。",
+        "romaji": "ima ongaku o kiite imasu."
+      },
+      {
+        "jp": "いま おんがくを きいて ください。",
+        "romaji": "ima ongaku o kiite kudasai."
+      }
+    ],
+    "answer": 2,
+    "explain": "ききます (Kelompok I: き → いて) menjadi きいて います untuk aksi yang sedang dilakukan sekarang."
+  },
+  {
+    "id": "b14-36",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Terjemahan Kalimat",
+    "prompt": "Bahasa Jepang dari \"Tolong ambilkan garam itu\" adalah...",
+    "promptRomaji": "Terjemahan Jepang (Bab 14)",
+    "sub": "Pilih terjemahan bahasa Jepang yang tepat.",
+    "options": [
+      {
+        "jp": "その しおを とって ください。",
+        "romaji": "sono shio o totte kudasai."
+      },
+      {
+        "jp": "その さとうを とって ください。",
+        "romaji": "sono satou o totte kudasai."
+      },
+      {
+        "jp": "その しおを とりて ください。",
+        "romaji": "sono shio o torite kudasai."
+      },
+      {
+        "jp": "その しおを とりましょうか。",
+        "romaji": "sono shio o torimashou ka."
+      }
+    ],
+    "answer": 0,
+    "explain": "しお = garam, とります (Kelompok I: り → って) = mengambil, sehingga menjadi その しおを とって ください."
+  },
+  {
+    "id": "b14-37",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Terjemahan Kalimat",
+    "prompt": "Bahasa Jepang dari \"Mau saya panggilkan taksi?\" adalah...",
+    "promptRomaji": "Terjemahan Jepang (Bab 14)",
+    "sub": "Pilih terjemahan bahasa Jepang yang tepat.",
+    "options": [
+      {
+        "jp": "タクシーを よんで ください。",
+        "romaji": "takushii o yonde kudasai."
+      },
+      {
+        "jp": "タクシーを よんで いますか。",
+        "romaji": "takushii o yonde imasu ka."
+      },
+      {
+        "jp": "タクシーを よぶ ましょうか。",
+        "romaji": "takushii o yobu mashou ka."
+      },
+      {
+        "jp": "タクシーを よびましょうか。",
+        "romaji": "takushii o yobimashou ka."
+      }
+    ],
+    "answer": 3,
+    "explain": "Menawarkan bantuan menggunakan batang V-ます + ましょうか, yaitu よびましょうか."
+  },
+  {
+    "id": "b14-38",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Arti Kalimat",
+    "prompt": "「わたしは いま てがみを かいて います。」の いみは どれですか。",
+    "promptRomaji": "\"Watashi wa ima tegami o kaite imasu.\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan bahasa Indonesia yang tepat.",
+    "options": [
+      {
+        "jp": "Tolong tuliskan surat sekarang.",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya sekarang sedang menulis surat.",
+        "romaji": ""
+      },
+      {
+        "jp": "Mau saya tuliskan surat sekarang?",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya sudah selesai menulis surat.",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "いま ～て います menyatakan kegiatan yang sedang berlangsung saat ini, jadi かいて います berarti 'sedang menulis'."
+  },
+  {
+    "id": "b14-39",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Arti Kalimat",
+    "prompt": "「あとで もう いちど でんわを かけて ください。」の いみは どれですか。",
+    "promptRomaji": "\"Ato de mou ichido denwa o kakete kudasai.\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan bahasa Indonesia yang tepat.",
+    "options": [
+      {
+        "jp": "Nanti tolong telepon sekali lagi.",
+        "romaji": ""
+      },
+      {
+        "jp": "Segera tolong tutup teleponnya.",
+        "romaji": ""
+      },
+      {
+        "jp": "Nanti saya sedang menelepon sekali lagi.",
+        "romaji": ""
+      },
+      {
+        "jp": "Sekarang tolong dengarkan teleponnya.",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "あとで = nanti, もう いちど = sekali lagi, でんわを かけて ください = tolong menelepon."
+  },
+  {
+    "id": "b14-40",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Arti Kalimat",
+    "prompt": "「あついですね。まどを あけましょうか。」の いみは どれですか。",
+    "promptRomaji": "\"Atsui desu ne. Mado o akemashou ka.\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan bahasa Indonesia yang tepat.",
+    "options": [
+      {
+        "jp": "Panas ya. Tolong buka jendelanya.",
+        "romaji": ""
+      },
+      {
+        "jp": "Panas ya. Jendelanya sedang dibuka.",
+        "romaji": ""
+      },
+      {
+        "jp": "Panas ya. Mau saya bukakan jendelanya?",
+        "romaji": ""
+      },
+      {
+        "jp": "Panas ya. Mari kita tutup jendelanya.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "あけましょうか adalah bentuk V-ましょうか dari あけます (membuka), artinya pembicara menawarkan diri membuka jendela."
+  },
+  {
+    "id": "b14-41",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Arti Kalimat",
+    "prompt": "「すみませんが、すぐ この もんだいの こたえを かいて ください。」の いみは どれですか。",
+    "promptRomaji": "\"Sumimasen ga, sugu kono mondai no kotae o kaite kudasai.\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan bahasa Indonesia yang tepat.",
+    "options": [
+      {
+        "jp": "Maaf, tolong segera baca soal dan jawabannya.",
+        "romaji": ""
+      },
+      {
+        "jp": "Maaf, tolong bantu saya mengerjakan soal ini nanti.",
+        "romaji": ""
+      },
+      {
+        "jp": "Maaf, saya sedang menulis jawaban soal ini.",
+        "romaji": ""
+      },
+      {
+        "jp": "Maaf, tolong segera tulis jawaban dari soal ini.",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "すぐ = segera, もんだい = soal/masalah, こたえ = jawaban, かいて ください = tolong tulis."
+  },
+  {
+    "id": "b14-42",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Pemahaman Kalimat",
+    "prompt": "「すみませんが、しおを とって ください。それから、ちずも みせて ください。」Apa yang diminta pembicara?",
+    "promptRomaji": "\"Sumimasen ga, shio o totte kudasai. Sorekara, chizu mo misete kudasai.\"",
+    "sub": "Pilih pernyataan yang sesuai dengan kalimat.",
+    "options": [
+      {
+        "jp": "Meminta garam dan meminta diperlihatkan peta.",
+        "romaji": ""
+      },
+      {
+        "jp": "Meminta gula dan menawarkan diri menggambar peta.",
+        "romaji": ""
+      },
+      {
+        "jp": "Menawarkan garam dan meminjamkan peta.",
+        "romaji": ""
+      },
+      {
+        "jp": "Meminta alamat dan menanyakan lokasi peta.",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "しおを とって ください berarti meminta diambilkan garam, dan ちずも みせて ください berarti meminta diperlihatkan peta juga."
+  },
+  {
+    "id": "b14-43",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Dialog Tawaran Bantuan",
+    "prompt": "A：「あめが ふって いますね。かさを かしましょうか。」 B：「（　）。」",
+    "promptRomaji": "A: \"Ame ga futte imasu ne. Kasa o kashimashou ka.\" B: \"_____.\"",
+    "sub": "Pilih respons menerima bantuan dengan sopan.",
+    "options": [
+      {
+        "jp": "いいえ、かしてください。",
+        "romaji": "Iie, kashite kudasai."
+      },
+      {
+        "jp": "すみません。おねがいします。",
+        "romaji": "Sumimasen. Onegaishimasu."
+      },
+      {
+        "jp": "ええ、ふって います。",
+        "romaji": "Ee, futte imasu."
+      },
+      {
+        "jp": "はい、かしましょうか。",
+        "romaji": "Hai, kashimashou ka."
+      }
+    ],
+    "answer": 1,
+    "explain": "Saat menerima tawaran bantuan (～ましょうか), jawaban yang alami dan sopan adalah 「すみません。おねがいします。」 (Maaf merepotkan, tolong ya)."
+  },
+  {
+    "id": "b14-44",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Dialog Menolak Halus",
+    "prompt": "A：「えきまで くるまで おくりましょうか。」 B：「ありがとう ございます。でも、（　）。」",
+    "promptRomaji": "A: \"Eki made kuruma de okurimashou ka.\" B: \"Arigatou gozaimasu. Demo, _____.\"",
+    "sub": "Pilih respons menolak tawaran bantuan secara halus.",
+    "options": [
+      {
+        "jp": "おねがいします",
+        "romaji": "onegaishimasu"
+      },
+      {
+        "jp": "いって ください",
+        "romaji": "itte kudasai"
+      },
+      {
+        "jp": "おくりましょうか",
+        "romaji": "okurimashou ka"
+      },
+      {
+        "jp": "けっこうです",
+        "romaji": "kekkou desu"
+      }
+    ],
+    "answer": 3,
+    "explain": "Untuk menolak tawaran bantuan dengan sopan, gunakan 「けっこうです」 (tidak usah / sudah cukup, terima kasih)."
+  },
+  {
+    "id": "b14-45",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Jebakan Bentuk-て",
+    "prompt": "つぎの なかで、てけい（bentuk-te）が まちがっている ものは どれですか。",
+    "promptRomaji": "Tsugi no naka de, te-kei ga machigatte iru mono wa dore desu ka.",
+    "sub": "Cari pasangan bentuk-て yang SALAH.",
+    "options": [
+      {
+        "jp": "かきます → かいて",
+        "romaji": "kakimasu -> kaite"
+      },
+      {
+        "jp": "およぎます → およいで",
+        "romaji": "oyogimasu -> oyoide"
+      },
+      {
+        "jp": "いきます → いいて",
+        "romaji": "ikimasu -> iite"
+      },
+      {
+        "jp": "はなします → はなして",
+        "romaji": "hanashimasu -> hanashite"
+      }
+    ],
+    "answer": 2,
+    "explain": "いきます adalah pengecualian wajib! Bentuk-て dari いきます adalah いって, bukan いいて."
+  },
+  {
+    "id": "b14-46",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Jebakan Kel. I vs II",
+    "prompt": "つぎの なかで、てけい（bentuk-te）が ただしい ものは どれですか。",
+    "promptRomaji": "Tsugi no naka de, te-kei ga tadashii mono wa dore desu ka.",
+    "sub": "Cari pasangan kata kerja dan bentuk-て yang BENAR.",
+    "options": [
+      {
+        "jp": "かえります → かえって",
+        "romaji": "kaerimasu -> kaette"
+      },
+      {
+        "jp": "かります → かって",
+        "romaji": "karimasu -> katte"
+      },
+      {
+        "jp": "かいます → かりて",
+        "romaji": "kaimasu -> karite"
+      },
+      {
+        "jp": "あびます → あびって",
+        "romaji": "abimasu -> abitte"
+      }
+    ],
+    "answer": 0,
+    "explain": "かえります (Kelompok I) → かえって adalah benar. かります (Kelompok II) harusnya かりて, かいます (Kelompok I) harusnya かって, dan あびます (Kelompok II) harusnya あびて."
+  },
+  {
+    "id": "b14-47",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Jebakan ～ましょう vs ～ましょうか",
+    "prompt": "ともだちが おおきい にもつを もって います。てつだいたいです。なんと いいますか。",
+    "promptRomaji": "Tomodachi ga ookii nimotsu o motte imasu. Tetsudaitai desu. Nan to iimasu ka.",
+    "sub": "Pilih ungkapan menawarkan bantuan yang tepat.",
+    "options": [
+      {
+        "jp": "にもつを もって ください。",
+        "romaji": "Nimotsu o motte kudasai."
+      },
+      {
+        "jp": "にもつを もって います。",
+        "romaji": "Nimotsu o motte imasu."
+      },
+      {
+        "jp": "にもつを もって ましょうか。",
+        "romaji": "Nimotsu o motte mashou ka."
+      },
+      {
+        "jp": "にもつを もちましょうか。",
+        "romaji": "Nimotsu o mochimashou ka."
+      }
+    ],
+    "answer": 3,
+    "explain": "Saat ingin membantu orang lain (Mau saya bawakan barangnya?), gunakan batang V-ます + ましょうか → もちましょうか."
+  },
+  {
+    "id": "b14-48",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Jebakan いま + V-ています",
+    "prompt": "A：「やまださんは いますか。」 B：「いいえ、いま ひるごはんを （　）。」",
+    "promptRomaji": "A: \"Yamada-san wa imasu ka.\" B: \"Iie, ima hirugohan o _____.\"",
+    "sub": "Lengkapi jawaban untuk aksi yang sedang berlangsung sekarang.",
+    "options": [
+      {
+        "jp": "たべます",
+        "romaji": "tabemasu"
+      },
+      {
+        "jp": "たべて います",
+        "romaji": "tabete imasu"
+      },
+      {
+        "jp": "たべて ください",
+        "romaji": "tabete kudasai"
+      },
+      {
+        "jp": "たべましょうか",
+        "romaji": "tabemashou ka"
+      }
+    ],
+    "answer": 1,
+    "explain": "Karena sedang berlangsung saat ditanya (いま), gunakan bentuk sedang berlangsung V-て います → たべて います."
+  },
+  {
+    "id": "b14-49",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Jebakan Partikel はいります/でます",
+    "prompt": "12じに きっさてん （　） でます。",
+    "promptRomaji": "Juuniji ni kissaten _____ demasu.",
+    "sub": "Pilih partikel yang tepat untuk keluar dari tempat (でます).",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "へ",
+        "romaji": "e"
+      }
+    ],
+    "answer": 2,
+    "explain": "Masuk tempat memakai に (きっさてんに はいります), sedangkan keluar dari tempat memakai を (きっさてんを でます)."
+  },
+  {
+    "id": "b14-50",
+    "bab": 14,
+    "type": "mcq",
+    "badge": "Bab 14 · Dialog Kasir",
+    "prompt": "きゃく：「これで おねがいします。」 みせの ひと：「はい、200えんの （　） です。」",
+    "promptRomaji": "Kyaku: \"Kore de onegaishimasu.\" Mise no hito: \"Hai, nihyaku-en no _____ desu.\"",
+    "sub": "Pilih kata yang tepat untuk situasi di kasir.",
+    "options": [
+      {
+        "jp": "おつり",
+        "romaji": "otsuri"
+      },
+      {
+        "jp": "じゅうしょ",
+        "romaji": "juusho"
+      },
+      {
+        "jp": "こたえ",
+        "romaji": "kotae"
+      },
+      {
+        "jp": "よみかた",
+        "romaji": "yomikata"
+      }
+    ],
+    "answer": 0,
+    "explain": "Pelanggan membayar dengan 「これで おねがいします」 (Saya bayar dengan ini), lalu kasir menyerahkan uang kembalian (おつり)."
+  }
+]

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minna no Nihongo I (Bab 1–25) — Materi Lengkap, Rumus Cepat Per Bab, &amp; Kuis Tanpa Timer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Noto+Sans+JP:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar" role="banner">
+    <div class="topbar-left">
+      <button type="button" class="icon-btn mobile-only" id="btnToggleSidebar" aria-label="Buka daftar Bab 1–25" aria-expanded="false">
+        <span aria-hidden="true">☰</span>
+      </button>
+      <div class="brand" id="brandHome" role="button" tabindex="0" title="Kembali ke Peta Bab 1–25">
+        <span class="brand-mark" aria-hidden="true">み</span>
+        <div class="brand-text">
+          <span class="brand-title">Minna no Nihongo I (Bab 1–25)</span>
+          <span class="brand-sub">Materi Lengkap · Rumus Cepat Tiap Bab · Tanpa Timer</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="topbar-actions">
+      <button type="button" class="pill-btn" id="btnToggleTheme" aria-pressed="true" title="Ganti Mode Gelap / Terang">
+        <span id="themeIcon" aria-hidden="true">🌙</span>
+        <span id="themeLabel">Gelap</span>
+      </button>
+      <button type="button" class="pill-btn" id="btnToggleRomaji" aria-pressed="true" title="Tampilkan atau sembunyikan Romaji">
+        <span class="dot" aria-hidden="true"></span>
+        <span id="romajiLabel">Romaji: ON</span>
+      </button>
+      <button type="button" class="pill-btn pill-btn-accent" id="btnOpenCheatSheet">
+        <span id="cheatBtnLabel">Rumus Cepat</span>
+      </button>
+      <button type="button" class="pill-btn" id="btnStartFinalExam">
+        Tes Akhir (1–25)
+      </button>
+      <button type="button" class="pill-btn pill-btn-subtle" id="btnShowOverview">
+        Peta Bab
+      </button>
+    </div>
+  </header>
+
+  <div class="app-shell">
+    <div class="sidebar-backdrop" id="sidebarBackdrop" hidden></div>
+
+    <aside class="sidebar" id="sidebar" aria-label="Navigasi Bab 1 sampai 25">
+      <div class="sidebar-header">
+        <div class="sidebar-stats">
+          <div class="stat-row">
+            <span class="stat-label">Progres Tuntas (≥80%)</span>
+            <span class="stat-value" id="sidebarProgressText">0 / 25 bab</span>
+          </div>
+          <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="25" aria-valuenow="0" id="sidebarProgressBar">
+            <div class="progress-fill" id="sidebarProgressFill" style="width: 0%"></div>
+          </div>
+        </div>
+
+        <div class="sort-toggle" role="tablist" aria-label="Urutan bab">
+          <button type="button" class="sort-btn is-active" data-sort="priority" role="tab" aria-selected="true">
+            Prioritas Bug
+          </button>
+          <button type="button" class="sort-btn" data-sort="book" role="tab" aria-selected="false">
+            Urut Bab 1–25
+          </button>
+        </div>
+
+        <div class="zone-filters" role="group" aria-label="Filter zona skor">
+          <button type="button" class="filter-chip is-active" data-zone="all">Semua</button>
+          <button type="button" class="filter-chip chip-red" data-zone="red">Merah</button>
+          <button type="button" class="filter-chip chip-orange" data-zone="orange">Oranye</button>
+          <button type="button" class="filter-chip chip-amber" data-zone="amber">Kuning</button>
+          <button type="button" class="filter-chip chip-green" data-zone="green">Hijau</button>
+        </div>
+      </div>
+
+      <nav class="chapter-list" id="chapterList" aria-label="Daftar 25 bab Minna no Nihongo"></nav>
+    </aside>
+
+    <main class="workspace" id="workspace" tabindex="-1"></main>
+  </div>
+
+  <!-- Modal Rumus Cepat (Berubah Otomatis Sesuai Bab yang Sedang Dibuka!) -->
+  <div class="modal-overlay" id="cheatModal" hidden role="dialog" aria-modal="true" aria-labelledby="cheatModalTitle">
+    <div class="modal-sheet">
+      <div class="modal-head">
+        <div>
+          <p class="eyebrow" id="cheatModalEyebrow">POCKET CHEAT SHEET</p>
+          <h2 id="cheatModalTitle">Rumus Cepat</h2>
+        </div>
+        <button type="button" class="icon-btn" id="btnCloseCheatSheet" aria-label="Tutup Rumus Cepat">✕</button>
+      </div>
+      <div class="modal-body" id="cheatModalBody"></div>
+    </div>
+  </div>
+
+  <!-- Urutan Script: Bab 1–16, Bab 17 ASLI (digabung tanpa buat ulang!), Bab 18–25, Tes Akhir, App -->
+  <script>window.MNN_MODULES = [];</script>
+  <script src="./data/modul-01-05.js"></script>
+  <script src="./data/modul-06-10.js"></script>
+  <script src="./data/modul-11-16.js"></script>
+  <script src="./data/bab-17.js"></script>
+  <script src="./data/modul-18-25.js"></script>
+  <script src="./data/tes-akhir-1-25.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

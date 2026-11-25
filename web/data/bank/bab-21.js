@@ -1,0 +1,1454 @@
+/* AUTO-GENERATED dari bab-21.json — jangan edit manual. */
+window.MNN_BANK = window.MNN_BANK || {};
+window.MNN_BANK[21] = [
+  {
+    "id": "b21-01",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kosakata やくに たちます",
+    "prompt": "「この じしょは とても やくに たちます」の いみは どれですか。",
+    "promptRomaji": "\"Kono jisho wa totemo yaku ni tachimasu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti ungkapan Bab 21 yang tepat.",
+    "options": [
+      {
+        "jp": "Kamus ini sangat berguna.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kamus ini sangat mahal.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kamus ini sudah rusak.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kamus ini tidak cukup.",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "やくに たちます berarti berguna atau bermanfaat."
+  },
+  {
+    "id": "b21-02",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kosakata かちます・まけます",
+    "prompt": "きのうの サッカーの しあいで、わたしたちの チームが （　）。とても うれしかったです。",
+    "promptRomaji": "Kinou no sakkaa no shiai de, watashitachi no chiimu ga _____. Totemo ureshikatta desu.",
+    "sub": "Pilih kata kerja untuk 'menang' dalam bentuk lampau.",
+    "options": [
+      {
+        "jp": "まけました",
+        "romaji": "makemashita"
+      },
+      {
+        "jp": "かちました",
+        "romaji": "kachimashita"
+      },
+      {
+        "jp": "やめました",
+        "romaji": "yamemashita"
+      },
+      {
+        "jp": "たりました",
+        "romaji": "tarimashita"
+      }
+    ],
+    "answer": 1,
+    "explain": "かちます berarti menang (lawan katanya adalah まけます = kalah). Karena kalimatnya lampau dan merasa senang (うれしかった), jawabannya adalah かちました."
+  },
+  {
+    "id": "b21-03",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kosakata たります",
+    "prompt": "おかねが ぜんぜん （　） から、その カメラは かえません。",
+    "promptRomaji": "Okane ga zenzen _____ kara, sono kamera wa kaemasen.",
+    "sub": "Pilih bentuk -nai dari たります (cukup, Kelompok II!).",
+    "options": [
+      {
+        "jp": "たらなく",
+        "romaji": "taranaku"
+      },
+      {
+        "jp": "たらない",
+        "romaji": "taranai"
+      },
+      {
+        "jp": "たりない",
+        "romaji": "tarinai"
+      },
+      {
+        "jp": "たりますない",
+        "romaji": "tarimasunai"
+      }
+    ],
+    "answer": 2,
+    "explain": "たります (cukup) adalah kata kerja Kelompok II, sehingga bentuk negatifnya adalah たりない, bukan たらない."
+  },
+  {
+    "id": "b21-04",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kosakata うごきます",
+    "prompt": "とけいの でんちを かえましたから、また （　）。",
+    "promptRomaji": "Tokei no denchi o kaemashita kara, mata _____.",
+    "sub": "Pilih kata kerja untuk 'bergerak / berfungsi lagi'.",
+    "options": [
+      {
+        "jp": "やめます",
+        "romaji": "yamemasu"
+      },
+      {
+        "jp": "まけます",
+        "romaji": "makemasu"
+      },
+      {
+        "jp": "いいます",
+        "romaji": "iimasu"
+      },
+      {
+        "jp": "うごきます",
+        "romaji": "ugokimasu"
+      }
+    ],
+    "answer": 3,
+    "explain": "うごきます berarti bergerak atau berfungsi (untuk mesin, jam, kendaraan)."
+  },
+  {
+    "id": "b21-05",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kosakata やめます",
+    "prompt": "カリナさんは らいげつ （　）。そして、くにへ かえります。",
+    "promptRomaji": "Karina-san wa raigetsu _____. Soshite, kuni e kaerimasu.",
+    "sub": "Pilih ungkapan untuk 'berhenti dari perusahaan'.",
+    "options": [
+      {
+        "jp": "かいしゃを やめます",
+        "romaji": "kaisha o yamemasu"
+      },
+      {
+        "jp": "かいしゃに やめます",
+        "romaji": "kaisha ni yamemasu"
+      },
+      {
+        "jp": "かいしゃが やめます",
+        "romaji": "kaisha ga yamemasu"
+      },
+      {
+        "jp": "かいしゃで やめます",
+        "romaji": "kaisha de yamemasu"
+      }
+    ],
+    "answer": 0,
+    "explain": "やめます memakai partikel を untuk menyatakan hal/tempat kerja yang ditinggalkan: かいしゃを やめます."
+  },
+  {
+    "id": "b21-06",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kosakata きを つけます",
+    "prompt": "あぶないですから、くるまに （　） ください。",
+    "promptRomaji": "Abunai desu kara, kuruma ni _____ kudasai.",
+    "sub": "Pilih ungkapan untuk 'berhati-hati'.",
+    "options": [
+      {
+        "jp": "やくに たって",
+        "romaji": "yaku ni tatte"
+      },
+      {
+        "jp": "きを つけて",
+        "romaji": "ki o tsukete"
+      },
+      {
+        "jp": "いけんを いって",
+        "romaji": "iken o itte"
+      },
+      {
+        "jp": "しあいを して",
+        "romaji": "shiai o shite"
+      }
+    ],
+    "answer": 1,
+    "explain": "きを つけます berarti berhati-hati atau waspada (dengan objek yang diwaspadai memakai partikel に)."
+  },
+  {
+    "id": "b21-07",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kosakata むだ・ふべん",
+    "prompt": "えきから とおいですから、この いえは とても （　）。",
+    "promptRomaji": "Eki kara tooi desu kara, kono ie wa totemo _____.",
+    "sub": "Pilih kata sifat-な yang berarti 'tidak praktis / merepotkan'.",
+    "options": [
+      {
+        "jp": "むだです",
+        "romaji": "muda desu"
+      },
+      {
+        "jp": "すごいです",
+        "romaji": "sugoi desu"
+      },
+      {
+        "jp": "ふべんです",
+        "romaji": "fuben desu"
+      },
+      {
+        "jp": "おなじです",
+        "romaji": "onaji desu"
+      }
+    ],
+    "answer": 2,
+    "explain": "ふべん［な］ berarti tidak praktis atau merepotkan (lawan dari べんり［な］). むだ berarti sia-sia/boros."
+  },
+  {
+    "id": "b21-08",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kosakata むだ",
+    "prompt": "「じかんの むだ」の いみは どれですか。",
+    "promptRomaji": "\"Jikan no muda\" no imi wa dore desu ka.",
+    "sub": "Pilih arti frasa yang tepat.",
+    "options": [
+      {
+        "jp": "Kekurangan waktu",
+        "romaji": ""
+      },
+      {
+        "jp": "Penghematan waktu",
+        "romaji": ""
+      },
+      {
+        "jp": "Ketepatan waktu",
+        "romaji": ""
+      },
+      {
+        "jp": "Pemborosan / kesia-siaan waktu",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "むだ berarti kesia-siaan atau pemborosan, sehingga じかんの むだ berarti membuang-buang waktu."
+  },
+  {
+    "id": "b21-09",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kosakata ラッシュ・こうつう",
+    "prompt": "あさの ８じは ひとが おおくて、でんしゃの （　） が すごいです。",
+    "promptRomaji": "Asa no hachiji wa hito ga ookute, densha no _____ ga sugoi desu.",
+    "sub": "Pilih kosakata untuk 'jam sibuk / jam padat'.",
+    "options": [
+      {
+        "jp": "ラッシュ",
+        "romaji": "rasshu"
+      },
+      {
+        "jp": "デザイン",
+        "romaji": "dezain"
+      },
+      {
+        "jp": "ニュース",
+        "romaji": "nyuusu"
+      },
+      {
+        "jp": "ユーモア",
+        "romaji": "yuumoa"
+      }
+    ],
+    "answer": 0,
+    "explain": "ラッシュ (rush hour) berarti jam sibuk atau jam padat penumpang/lalu lintas."
+  },
+  {
+    "id": "b21-10",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kosakata ユーモア",
+    "prompt": "山田さんは おもしろい じょうだんを いいます。（　） が ある ひとですね。",
+    "promptRomaji": "Yamada-san wa omoshiroi joudan o iimasu. _____ ga aru hito desu ne.",
+    "sub": "Pilih kosakata yang berarti 'rasa humor'.",
+    "options": [
+      {
+        "jp": "せいじ",
+        "romaji": "seiji"
+      },
+      {
+        "jp": "ユーモア",
+        "romaji": "yuumoa"
+      },
+      {
+        "jp": "ほうそう",
+        "romaji": "housou"
+      },
+      {
+        "jp": "こうつう",
+        "romaji": "koutsuu"
+      }
+    ],
+    "answer": 1,
+    "explain": "ユーモア berarti humor. じょうだん (candaan) berhubungan dengan rasa humor."
+  },
+  {
+    "id": "b21-11",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kosakata しゅしょう・だいとうりょう",
+    "prompt": "「しゅしょう」と 「だいとうりょう」の いみの くみあわせで 正しいのは どれですか。",
+    "promptRomaji": "\"Shushou\" to \"daitouryou\" no imi no kumiawase (Bab 21)",
+    "sub": "Pilih pasangan arti yang benar.",
+    "options": [
+      {
+        "jp": "jenius / ilmuwan",
+        "romaji": ""
+      },
+      {
+        "jp": "politik / berita",
+        "romaji": ""
+      },
+      {
+        "jp": "perdana menteri / presiden",
+        "romaji": ""
+      },
+      {
+        "jp": "pidato / pendapat",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "しゅしょう (首相) berarti perdana menteri, sedangkan だいとうりょう (大統領) berarti presiden."
+  },
+  {
+    "id": "b21-12",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kosakata おなじ",
+    "prompt": "A：わたしは ３月３日に 日本へ きました。\nB：あ、わたしと （　） です！",
+    "promptRomaji": "A: Watashi wa sangatsu mikka ni Nihon e kimashita. B: A, watashi to _____ desu!",
+    "sub": "Pilih kata untuk 'sama'.",
+    "options": [
+      {
+        "jp": "うそ",
+        "romaji": "uso"
+      },
+      {
+        "jp": "ゆめ",
+        "romaji": "yume"
+      },
+      {
+        "jp": "てんさい",
+        "romaji": "tensai"
+      },
+      {
+        "jp": "おなじ",
+        "romaji": "onaji"
+      }
+    ],
+    "answer": 3,
+    "explain": "おなじ berarti sama (dipakai sebagai おなじです atau langsung diikuti kata benda tanpa な, misalnya おなじ ほん)."
+  },
+  {
+    "id": "b21-13",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kosakata たぶん・きっと",
+    "prompt": "そらが くらいですから、（　） あめが ふると おもいます。",
+    "promptRomaji": "Sora ga kurai desu kara, _____ ame ga furu to omoimasu.",
+    "sub": "Pilih kata keterangan yang sering berpasangan dengan と おもいます ('mungkin').",
+    "options": [
+      {
+        "jp": "たぶん",
+        "romaji": "tabun"
+      },
+      {
+        "jp": "そんなに",
+        "romaji": "sonnani"
+      },
+      {
+        "jp": "ひさしぶり",
+        "romaji": "hisashiburi"
+      },
+      {
+        "jp": "うそ",
+        "romaji": "uso"
+      }
+    ],
+    "answer": 0,
+    "explain": "たぶん (mungkin/barangkali) dan きっと (pasti) sangat sering dipakai bersama ～と おもいます atau ～でしょう."
+  },
+  {
+    "id": "b21-14",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Ungkapan しかたが ありません",
+    "prompt": "A：でんしゃが とまって しまいましたね。\nB：そうですね。（　）。あるいて かえりましょう。",
+    "promptRomaji": "A: Densha ga tomatte shimaimashita ne. B: Sou desu ne. _____. Aruite kaerimashou.",
+    "sub": "Pilih ungkapan yang berarti 'mau bagaimana lagi / tidak ada pilihan lain'.",
+    "options": [
+      {
+        "jp": "ひさしぶりですね",
+        "romaji": "hisashiburi desu ne"
+      },
+      {
+        "jp": "しかたが ありません",
+        "romaji": "shikata ga arimasen"
+      },
+      {
+        "jp": "ほんとうに すごいですね",
+        "romaji": "hontou ni sugoi desu ne"
+      },
+      {
+        "jp": "やくに たちます",
+        "romaji": "yaku ni tachimasu"
+      }
+    ],
+    "answer": 1,
+    "explain": "しかたが ありません berarti 'mau bagaimana lagi / tidak ada pilihan lain'."
+  },
+  {
+    "id": "b21-15",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · と おもいます (Kata Kerja)",
+    "prompt": "ミラーさんは あした かいぎに （　） と おもいます。",
+    "promptRomaji": "Miraa-san wa ashita kaigi ni _____ to omoimasu.",
+    "sub": "Pilih bentuk yang tepat sebelum と おもいます.",
+    "options": [
+      {
+        "jp": "でます",
+        "romaji": "demasu"
+      },
+      {
+        "jp": "でて",
+        "romaji": "dete"
+      },
+      {
+        "jp": "でる",
+        "romaji": "deru"
+      },
+      {
+        "jp": "でるだ",
+        "romaji": "deru da"
+      }
+    ],
+    "answer": 2,
+    "explain": "Sebelum と おもいます wajib memakai Bentuk Biasa: kata kerja memakai Bentuk Kamus (でる), bukan でます dan tidak ditambah だ."
+  },
+  {
+    "id": "b21-16",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · と おもいます (KS-い)",
+    "prompt": "この ニュースは とても （　） と おもいます。",
+    "promptRomaji": "Kono nyuusu wa totemo _____ to omoimasu.",
+    "sub": "Lengkapi dengan bentuk yang benar dari すごい (hebat/luar biasa).",
+    "options": [
+      {
+        "jp": "すごいだ",
+        "romaji": "sugoi da"
+      },
+      {
+        "jp": "すごいです",
+        "romaji": "sugoi desu"
+      },
+      {
+        "jp": "すごな",
+        "romaji": "sugona"
+      },
+      {
+        "jp": "すごい",
+        "romaji": "sugoi"
+      }
+    ],
+    "answer": 3,
+    "explain": "Kata sifat-い sebelum と おもいます langsung memakai Bentuk Biasa tanpa だ: すごい と おもいます."
+  },
+  {
+    "id": "b21-17",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · と おもいます (KS-な)",
+    "prompt": "くるまが ないから、この まちは （　） と おもいます。（ふべん）",
+    "promptRomaji": "Kuruma ga nai kara, kono machi wa _____ to omoimasu. (fuben)",
+    "sub": "Perhatikan aturan KS-な di depan と おもいます!",
+    "options": [
+      {
+        "jp": "ふべんだ",
+        "romaji": "fuben da"
+      },
+      {
+        "jp": "ふべんな",
+        "romaji": "fuben na"
+      },
+      {
+        "jp": "ふべん",
+        "romaji": "fuben"
+      },
+      {
+        "jp": "ふべんです",
+        "romaji": "fuben desu"
+      }
+    ],
+    "answer": 0,
+    "explain": "Kata sifat-な dan kata benda di bentuk non-lampau positif wajib memakai だ sebelum と おもいます: ふべんだと おもいます."
+  },
+  {
+    "id": "b21-18",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · と おもいます (Kata Benda)",
+    "prompt": "かれは まだ こどもですが、ほんとうに （　） と おもいます。（てんさい）",
+    "promptRomaji": "Kare wa mada kodomo desu ga, hontou ni _____ to omoimasu. (tensai)",
+    "sub": "Perhatikan aturan Kata Benda di depan と おもいます!",
+    "options": [
+      {
+        "jp": "てんさい",
+        "romaji": "tensai"
+      },
+      {
+        "jp": "てんさいだ",
+        "romaji": "tensai da"
+      },
+      {
+        "jp": "てんさいな",
+        "romaji": "tensai na"
+      },
+      {
+        "jp": "てんさいです",
+        "romaji": "tensai desu"
+      }
+    ],
+    "answer": 1,
+    "explain": "Kata benda positif non-lampau wajib memakai だ sebelum と おもいます: てんさいだと おもいます."
+  },
+  {
+    "id": "b21-19",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · と おもいます (Negatif)",
+    "prompt": "どう すれば 'Saya rasa besok dia tidak datang' dalam bahasa Jepang yang alami?",
+    "promptRomaji": "Pendapat negatif dengan と おもいます (Bab 21)",
+    "sub": "Perhatikan letak bentuk negatif pada pola と おもいます.",
+    "options": [
+      {
+        "jp": "あした かれは くると おもいません。",
+        "romaji": "Ashita kare wa kuru to omoimasen."
+      },
+      {
+        "jp": "あした かれは こないだ と おもいます。",
+        "romaji": "Ashita kare wa konai da to omoimasu."
+      },
+      {
+        "jp": "あした かれは こないと おもいます。",
+        "romaji": "Ashita kare wa konai to omoimasu."
+      },
+      {
+        "jp": "あした かれは きないと おもいます。",
+        "romaji": "Ashita kare wa kinai to omoimasu."
+      }
+    ],
+    "answer": 2,
+    "explain": "Untuk menyatakan perkiraan negatif, ubah kata kerja di dalam klausa menjadi bentuk -nai sebelum と おもいます: こないと おもいます."
+  },
+  {
+    "id": "b21-20",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · と おもいます (Tidak Setuju)",
+    "prompt": "A：日本の こうつうは ふべんだと おもいますか。\nB：いいえ、わたしは （　） と おもいます。",
+    "promptRomaji": "A: Nihon no koutsuu wa fuben da to omoimasu ka. B: Iie, watashi wa _____ to omoimasu.",
+    "sub": "Pilih bentuk negatif KS-な sebelum と おもいます.",
+    "options": [
+      {
+        "jp": "ふべんじゃないだ",
+        "romaji": "fuben janai da"
+      },
+      {
+        "jp": "ふべんくない",
+        "romaji": "fubenkunai"
+      },
+      {
+        "jp": "ふべんなかった",
+        "romaji": "fubennakatta"
+      },
+      {
+        "jp": "ふべんじゃない",
+        "romaji": "fuben janai"
+      }
+    ],
+    "answer": 3,
+    "explain": "Bentuk negatif KS-な sebelum と おもいます memakai ～じゃない (tanpa だ): ふべんじゃないと おもいます."
+  },
+  {
+    "id": "b21-21",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · と おもいます (そんなに + Negatif)",
+    "prompt": "A：この デザインは むずかしいと おもいます。\nB：そうですか。わたしは そんなに （　） と おもいます。",
+    "promptRomaji": "A: Kono dezain wa muzukashii to omoimasu. B: Sou desu ka. Watashi wa sonnani _____ to omoimasu.",
+    "sub": "そんなに selalu diikuti bentuk negatif!",
+    "options": [
+      {
+        "jp": "むずかしくない",
+        "romaji": "muzukashikunai"
+      },
+      {
+        "jp": "むずかしい",
+        "romaji": "muzukashii"
+      },
+      {
+        "jp": "むずかしいじゃない",
+        "romaji": "muzukashii janai"
+      },
+      {
+        "jp": "むずかしくなかっただ",
+        "romaji": "muzukashikunakatta da"
+      }
+    ],
+    "answer": 0,
+    "explain": "そんなに berarti 'tidak begitu...' dan berpasangan dengan bentuk negatif: そんなに むずかしくないと おもいます."
+  },
+  {
+    "id": "b21-22",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Menanggapi Pendapat",
+    "prompt": "A：東京は ぶっかが たかいと おもいます。\nB：いいえ、わたしは （　）。",
+    "promptRomaji": "A: Toukyou wa bukka ga takai to omoimasu. B: Iie, watashi wa _____.",
+    "sub": "Pilih ungkapan standar untuk 'Saya tidak berpendapat demikian'.",
+    "options": [
+      {
+        "jp": "そう おもいます",
+        "romaji": "sou omoimasu"
+      },
+      {
+        "jp": "そう おもいません",
+        "romaji": "sou omoimasen"
+      },
+      {
+        "jp": "そう いいました",
+        "romaji": "sou iimashita"
+      },
+      {
+        "jp": "ちがうと おもいません",
+        "romaji": "chigau to omoimasen"
+      }
+    ],
+    "answer": 1,
+    "explain": "Untuk langsung menyatakan tidak sependapat dengan opini lawan bicara, digunakan わたしは そう おもいません (tanpa partikel と)."
+  },
+  {
+    "id": "b21-23",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · と おもいます (Lampau)",
+    "prompt": "きのうの スピーチは とても （　） と おもいます。（よかった）",
+    "promptRomaji": "Kinou no supiichi wa totemo _____ to omoimasu.",
+    "sub": "Perhatikan waktu きのう pada pendapat mengenai acara kemarin.",
+    "options": [
+      {
+        "jp": "いいだ",
+        "romaji": "ii da"
+      },
+      {
+        "jp": "いかった",
+        "romaji": "ikatta"
+      },
+      {
+        "jp": "よかった",
+        "romaji": "yokatta"
+      },
+      {
+        "jp": "よかっただ",
+        "romaji": "yokatta da"
+      }
+    ],
+    "answer": 2,
+    "explain": "Karena menilai pidato kemarin, digunakan bentuk lampau よかった langsung diikuti と おもいます (tanpa だ)."
+  },
+  {
+    "id": "b21-24",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · と おもいます (Lampau Kata Benda)",
+    "prompt": "その はなしは （　） と おもいます。（うそでした）",
+    "promptRomaji": "Sono hanashi wa _____ to omoimasu. (uso deshita)",
+    "sub": "Pilih bentuk biasa lampau Kata Benda sebelum と おもいます.",
+    "options": [
+      {
+        "jp": "うそだ",
+        "romaji": "uso da"
+      },
+      {
+        "jp": "うそだっただ",
+        "romaji": "uso datta da"
+      },
+      {
+        "jp": "うそで",
+        "romaji": "uso de"
+      },
+      {
+        "jp": "うそだった",
+        "romaji": "uso datta"
+      }
+    ],
+    "answer": 3,
+    "explain": "Bentuk biasa lampau dari うそでした adalah うそだった, lalu langsung disambung と おもいます."
+  },
+  {
+    "id": "b21-25",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · ～について どう おもいますか",
+    "prompt": "A：アニメ （　） どう おもいますか。\nB：とても おもしろいと おもいます。",
+    "promptRomaji": "A: Anime _____ dou omoimasu ka. B: Totemo omoshiroi to omoimasu.",
+    "sub": "Pilih ungkapan untuk 'tentang / mengenai'.",
+    "options": [
+      {
+        "jp": "について",
+        "romaji": "ni tsuite"
+      },
+      {
+        "jp": "によって",
+        "romaji": "ni yotte"
+      },
+      {
+        "jp": "とって",
+        "romaji": "totte"
+      },
+      {
+        "jp": "をして",
+        "romaji": "o shite"
+      }
+    ],
+    "answer": 0,
+    "explain": "～に ついて どう おもいますか dipakai untuk menanyakan pendapat mengenai suatu topik."
+  },
+  {
+    "id": "b21-26",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Tanya Pendapat (どう)",
+    "prompt": "新しい ケータイの デザインについて、（　） おもいますか。",
+    "promptRomaji": "Atarashii keetai no dezain ni tsuite, _____ omoimasu ka.",
+    "sub": "Pilih kata tanya untuk menanyakan pendapat ('bagaimana').",
+    "options": [
+      {
+        "jp": "なに",
+        "romaji": "nani"
+      },
+      {
+        "jp": "どう",
+        "romaji": "dou"
+      },
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      },
+      {
+        "jp": "どんな",
+        "romaji": "donna"
+      }
+    ],
+    "answer": 1,
+    "explain": "Untuk menanyakan pendapat dipakai kata tanya どう (bagaimana), bukan なに atau どんな: どう おもいますか."
+  },
+  {
+    "id": "b21-27",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · と おもいます (あります)",
+    "prompt": "きょう こうえんで おまつりが （　） と おもいます。",
+    "promptRomaji": "Kyou kouen de omatsuri ga _____ to omoimasu.",
+    "sub": "Pilih bentuk biasa dari あります sebelum と おもいます.",
+    "options": [
+      {
+        "jp": "あります",
+        "romaji": "arimasu"
+      },
+      {
+        "jp": "あるだ",
+        "romaji": "aru da"
+      },
+      {
+        "jp": "ある",
+        "romaji": "aru"
+      },
+      {
+        "jp": "あっている",
+        "romaji": "atte iru"
+      }
+    ],
+    "answer": 2,
+    "explain": "Bentuk biasa dari あります adalah ある, lalu disambung と おもいます."
+  },
+  {
+    "id": "b21-28",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · と おもいます (Pola いい)",
+    "prompt": "「この マンガは あまり おもしろくないと おもいます」の いみは どれですか。",
+    "promptRomaji": "\"Kono manga wa amari omoshirokunai to omoimasu\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      {
+        "jp": "Menurut saya komik ini sangat menarik.",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya tidak ingat apakah komik ini menarik.",
+        "romaji": ""
+      },
+      {
+        "jp": "Teman saya bilang komik ini tidak menarik.",
+        "romaji": ""
+      },
+      {
+        "jp": "Menurut saya komik ini tidak begitu menarik.",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "あまり ～ない berarti tidak begitu ~, dan と おもいます menyatakan pendapat pembicara ('Menurut saya...')."
+  },
+  {
+    "id": "b21-29",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kutipan Langsung",
+    "prompt": "ガガーリンは 「ちきゅうは あおかった」 （　） いいました。",
+    "promptRomaji": "Gagaarin wa \"Chikyuu wa aokatta\" _____ iimashita.",
+    "sub": "Pilih partikel kutipan yang tepat.",
+    "options": [
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      }
+    ],
+    "answer": 0,
+    "explain": "Partikel kutipan untuk mengutip ucapan (baik langsung dengan 「…」 maupun tidak langsung) adalah と."
+  },
+  {
+    "id": "b21-30",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kutipan Tidak Langsung (Kata Kerja)",
+    "prompt": "ミラーさんは 「あした 東京へ いきます」と いいました。\n→ ミラーさんは あした 東京へ （　） と いいました。",
+    "promptRomaji": "Miraa-san wa ashita Toukyou e _____ to iimashita.",
+    "sub": "Ubah kutipan langsung menjadi kutipan tidak langsung.",
+    "options": [
+      {
+        "jp": "いくます",
+        "romaji": "ikumasu"
+      },
+      {
+        "jp": "いく",
+        "romaji": "iku"
+      },
+      {
+        "jp": "いった",
+        "romaji": "itta"
+      },
+      {
+        "jp": "いって",
+        "romaji": "itte"
+      }
+    ],
+    "answer": 1,
+    "explain": "Pada kutipan tidak langsung, isi kutipan diubah ke Bentuk Biasa tanpa mengubah waktunya: あした いきます → あした いくと いいました."
+  },
+  {
+    "id": "b21-31",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kutipan Tidak Langsung (Kata Benda)",
+    "prompt": "先生は 「あしたは やすみです」と いいました。\n→ 先生は あしたは （　） と いいました。",
+    "promptRomaji": "Sensei wa ashita wa _____ to iimashita.",
+    "sub": "Ingat aturan Kata Benda sebelum と いいました!",
+    "options": [
+      {
+        "jp": "やすみ",
+        "romaji": "yasumi"
+      },
+      {
+        "jp": "やすみな",
+        "romaji": "yasumi na"
+      },
+      {
+        "jp": "やすみだ",
+        "romaji": "yasumi da"
+      },
+      {
+        "jp": "やすみだった",
+        "romaji": "yasumi datta"
+      }
+    ],
+    "answer": 2,
+    "explain": "Kata benda positif non-lampau wajib memakai だ sebelum と いいました: やすみだと いいました."
+  },
+  {
+    "id": "b21-32",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kutipan Tidak Langsung (Negatif)",
+    "prompt": "キムさんは 「きょうは アルバイトを しません」と いいました。\n→ キムさんは きょうは アルバイトを （　） と いいました。",
+    "promptRomaji": "Kimu-san wa kyou wa arubaito o _____ to iimashita.",
+    "sub": "Pilih bentuk biasa negatif dari しません.",
+    "options": [
+      {
+        "jp": "するない",
+        "romaji": "surunai"
+      },
+      {
+        "jp": "しなかった",
+        "romaji": "shinakatta"
+      },
+      {
+        "jp": "しないで",
+        "romaji": "shinaide"
+      },
+      {
+        "jp": "しない",
+        "romaji": "shinai"
+      }
+    ],
+    "answer": 3,
+    "explain": "しません dalam bentuk biasa adalah しない, sehingga menjadi アルバイトを しないと いいました."
+  },
+  {
+    "id": "b21-33",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kutipan Tidak Langsung (Lampau)",
+    "prompt": "ワットさんは 「きのう とても いそがしかったです」と いいました。\n→ ワットさんは きのう とても （　） と いいました。",
+    "promptRomaji": "Watto-san wa kinou totemo _____ to iimashita.",
+    "sub": "Pilih bentuk biasa dari いそがしかったです.",
+    "options": [
+      {
+        "jp": "いそがしかった",
+        "romaji": "isogashikatta"
+      },
+      {
+        "jp": "いそがしい",
+        "romaji": "isogashii"
+      },
+      {
+        "jp": "いそがしかっただ",
+        "romaji": "isogashikatta da"
+      },
+      {
+        "jp": "いそがしいだった",
+        "romaji": "isogashii datta"
+      }
+    ],
+    "answer": 0,
+    "explain": "いそがしかったです diubah ke bentuk biasa menjadi いそがしかった (tanpa だ)."
+  },
+  {
+    "id": "b21-34",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Pemahaman Kutipan",
+    "prompt": "「サントスさんは らいねん アメリカへ りゅうがくすると いいました。」の いみは どれですか。",
+    "promptRomaji": "\"Santosu-san wa rainen Amerika e ryuugaku suru to iimashita.\" no imi wa dore desu ka.",
+    "sub": "Perhatikan waktu らいねん dan pola と いいました.",
+    "options": [
+      {
+        "jp": "Sdr. Santos sudah kuliah di Amerika tahun lalu.",
+        "romaji": ""
+      },
+      {
+        "jp": "Sdr. Santos berkata akan belajar ke Amerika tahun depan.",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya rasa Sdr. Santos akan pergi ke Amerika tahun depan.",
+        "romaji": ""
+      },
+      {
+        "jp": "Sdr. Santos tidak jadi belajar ke Amerika tahun depan.",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "いいました berarti 'berkata' (mengutip ucapan Sdr. Santos), sedangkan isi ucapannya tetap menunjuk らいねん (tahun depan)."
+  },
+  {
+    "id": "b21-35",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Kutipan Langsung (Sopan)",
+    "prompt": "Manakah penulisan kutipan langsung yang tepat?",
+    "promptRomaji": "Kutipan langsung 「…」と いいました (Bab 21)",
+    "sub": "Pada kutipan langsung dengan tanda 「…」, bentuk kata aslinya dipertahankan.",
+    "options": [
+      {
+        "jp": "先生は 「あした テストが ある」 だと いいました。",
+        "romaji": "Sensei wa \"Ashita tesuto ga aru\" da to iimashita."
+      },
+      {
+        "jp": "先生は 「あした テストが あります」 を いいました。",
+        "romaji": "Sensei wa \"Ashita tesuto ga arimasu\" o iimashita."
+      },
+      {
+        "jp": "先生は 「あした テストが あります」 と いいました。",
+        "romaji": "Sensei wa \"Ashita tesuto ga arimasu\" to iimashita."
+      },
+      {
+        "jp": "先生は 「あした テストが あります」 に いいました。",
+        "romaji": "Sensei wa \"Ashita tesuto ga arimasu\" ni iimashita."
+      }
+    ],
+    "answer": 2,
+    "explain": "Kutipan langsung mengutip persis kalimat yang diucapkan di dalam tanda 「…」 lalu diikuti partikel と dan いいました."
+  },
+  {
+    "id": "b21-36",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Pemahaman Kutipan",
+    "prompt": "「社長は きょう かいぎに 出ないと いいました。」の いみは どれですか。",
+    "promptRomaji": "\"Shachou wa kyou kaigi ni denai to iimashita.\" no imi wa dore desu ka.",
+    "sub": "Perhatikan 出ない (bentuk negatif dari 出ます).",
+    "options": [
+      {
+        "jp": "Direktur berkata hari ini akan menghadiri rapat.",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya rasa direktur tidak hadir di rapat hari ini.",
+        "romaji": ""
+      },
+      {
+        "jp": "Direktur tidak jadi mengatakan sesuatu di rapat.",
+        "romaji": ""
+      },
+      {
+        "jp": "Direktur berkata hari ini tidak akan menghadiri rapat.",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "出ない (bentuk -nai dari 出ます = hadir/keluar) + と いいました berarti berkata tidak akan menghadiri."
+  },
+  {
+    "id": "b21-37",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Konfirmasi でしょう？ (KS-な)",
+    "prompt": "日本の 電車は とても （　） でしょう？ (Kereta di Jepang sangat praktis, kan?)",
+    "promptRomaji": "Nihon no densha wa totemo _____ deshou?",
+    "sub": "Hati-hati! Sebelum でしょう？, apakah KS-な memakai だ?",
+    "options": [
+      {
+        "jp": "べんり",
+        "romaji": "benri"
+      },
+      {
+        "jp": "べんりだ",
+        "romaji": "benri da"
+      },
+      {
+        "jp": "べんりな",
+        "romaji": "benri na"
+      },
+      {
+        "jp": "べんりです",
+        "romaji": "benri desu"
+      }
+    ],
+    "answer": 0,
+    "explain": "Sebelum でしょう？, kopula だ untuk kata benda dan KS-な wajib dihapus: べんり でしょう？"
+  },
+  {
+    "id": "b21-38",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Konfirmasi でしょう？ (Kata Benda)",
+    "prompt": "A：もう すぐ テスト （　）？\nB：ええ、来週の 月曜日です。",
+    "promptRomaji": "A: Mou sugu tesuto _____? B: Ee, raishuu no getsuyoubi desu.",
+    "sub": "Kata benda + でしょう？ (tanpa だ).",
+    "options": [
+      {
+        "jp": "だでしょう",
+        "romaji": "da deshou"
+      },
+      {
+        "jp": "でしょう",
+        "romaji": "deshou"
+      },
+      {
+        "jp": "なでしょう",
+        "romaji": "na deshou"
+      },
+      {
+        "jp": "のでしょう",
+        "romaji": "no deshou"
+      }
+    ],
+    "answer": 1,
+    "explain": "Kata benda non-lampau positif di depan でしょう？ tidak memakai だ: テスト でしょう？"
+  },
+  {
+    "id": "b21-39",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Konfirmasi でしょう？ (Kata Kerja)",
+    "prompt": "A：あなたも あしたの パーティーに （　） でしょう？\nB：ええ、いきますよ。",
+    "promptRomaji": "A: Anata mo ashita no paatii ni _____ deshou? B: Ee, ikimasu yo.",
+    "sub": "Pilih bentuk kata kerja sebelum でしょう？.",
+    "options": [
+      {
+        "jp": "いきます",
+        "romaji": "ikimasu"
+      },
+      {
+        "jp": "いった",
+        "romaji": "itta"
+      },
+      {
+        "jp": "いく",
+        "romaji": "iku"
+      },
+      {
+        "jp": "いくな",
+        "romaji": "ikuna"
+      }
+    ],
+    "answer": 2,
+    "explain": "Untuk acara besok (あした), kata kerja memakai Bentuk Kamus sebelum でしょう？: いく でしょう？"
+  },
+  {
+    "id": "b21-40",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Konfirmasi でしょう？ (Lampau KS-い)",
+    "prompt": "A：ほっかいどうは さむくて、（　） でしょう？\nB：ええ、とても たいへんでした。",
+    "promptRomaji": "A: Hokkaidou wa samukute, _____ deshou? B: Ee, totemo taihen deshita.",
+    "sub": "Perhatikan jawaban B dalam bentuk lampau (たいへんでした)!",
+    "options": [
+      {
+        "jp": "たいへんだ",
+        "romaji": "taihen da"
+      },
+      {
+        "jp": "たいへん",
+        "romaji": "taihen"
+      },
+      {
+        "jp": "たいへんです",
+        "romaji": "taihen desu"
+      },
+      {
+        "jp": "たいへんだった",
+        "romaji": "taihen datta"
+      }
+    ],
+    "answer": 3,
+    "explain": "Untuk bentuk lampau positif kata benda/KS-な sebelum でしょう？, だった tetap dipakai (yang dihapus hanya だ pada non-lampau): たいへんだった でしょう？"
+  },
+  {
+    "id": "b21-41",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Konfirmasi でしょう？ (Negatif)",
+    "prompt": "A：そんな 高い くつは あまり （　） でしょう？\nB：はい、ぜんぜん ほしくありません。",
+    "promptRomaji": "A: Sonna takai kutsu wa amari _____ deshou? B: Hai, zenzen hoshiku arimasen.",
+    "sub": "Lengkapi dengan bentuk biasa negatif dari ほしい.",
+    "options": [
+      {
+        "jp": "ほしくない",
+        "romaji": "hoshikunai"
+      },
+      {
+        "jp": "ほしいだ",
+        "romaji": "hoshii da"
+      },
+      {
+        "jp": "ほしくなかった",
+        "romaji": "hoshikunakatta"
+      },
+      {
+        "jp": "ほしいじゃない",
+        "romaji": "hoshii janai"
+      }
+    ],
+    "answer": 0,
+    "explain": "Bentuk negatif non-lampau dari ほしい adalah ほしくない, lalu langsung diikuti でしょう？"
+  },
+  {
+    "id": "b21-42",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Fungsi でしょう？",
+    "prompt": "「この ケーキ、おいしいでしょう？」の いみは どれですか。",
+    "promptRomaji": "\"Kono keeki, oishii deshou?\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan yang tepat dengan intonasi naik pada でしょう？.",
+    "options": [
+      {
+        "jp": "Kue ini rasanya aneh sekali, ya?",
+        "romaji": ""
+      },
+      {
+        "jp": "Kue ini enak, kan?",
+        "romaji": ""
+      },
+      {
+        "jp": "Tolong buatkan kue yang enak.",
+        "romaji": ""
+      },
+      {
+        "jp": "Katanya kue ini tidak enak.",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "でしょう？ dengan intonasi naik dipakai untuk meminta persetujuan atau konfirmasi dari lawan bicara ('...iya kan?')."
+  },
+  {
+    "id": "b21-43",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Perbandingan とおもいます vs でしょう？",
+    "prompt": "Pilih pasangan kalimat yang KEDUANYA benar secara tata bahasa untuk kata 「きれい」:",
+    "promptRomaji": "Perbandingan と おもいます dan でしょう？ (Bab 21)",
+    "sub": "Ingat: kapan だ wajib dipakai dan kapan wajib dihapus!",
+    "options": [
+      {
+        "jp": "きれい と おもいます ／ きれいだ でしょう？",
+        "romaji": "kirei to omoimasu / kirei da deshou?"
+      },
+      {
+        "jp": "きれい と おもいます ／ きれい でしょう？",
+        "romaji": "kirei to omoimasu / kirei deshou?"
+      },
+      {
+        "jp": "きれいだ と おもいます ／ きれい でしょう？",
+        "romaji": "kirei da to omoimasu / kirei deshou?"
+      },
+      {
+        "jp": "きれいな と おもいます ／ きれいな でしょう？",
+        "romaji": "kirei na to omoimasu / kirei na deshou?"
+      }
+    ],
+    "answer": 2,
+    "explain": "きれい adalah KS-な: sebelum と おもいます wajib memakai だ (きれいだと おもいます), sedangkan sebelum でしょう？ wajib menghapus だ (きれい でしょう？)."
+  },
+  {
+    "id": "b21-44",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Tempat Acara (で…があります)",
+    "prompt": "来月 大阪 （　） てんじんまつりが あります。",
+    "promptRomaji": "Raigetsu Oosaka _____ Tenjinmatsuri ga arimasu.",
+    "sub": "Perhatikan partikel tempat untuk acara/festival!",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "へ",
+        "romaji": "e"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      }
+    ],
+    "answer": 3,
+    "explain": "Untuk menyatakan tempat diselenggarakannya suatu acara/kegiatan (festival, pesta, rapat, pertandingan), dipakai partikel で dengan あります."
+  },
+  {
+    "id": "b21-45",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Perbedaan に あります vs で あります",
+    "prompt": "Manakah kalimat yang memakai partikel tempat dengan BENAR?",
+    "promptRomaji": "Partikel に vs で dengan あります (Bab 21)",
+    "sub": "Bedakan keberadaan benda dengan penyelenggaraan acara!",
+    "options": [
+      {
+        "jp": "きょう 東京で ゆうめいな おまつりが ありました。",
+        "romaji": "Kyou Toukyou de yuumei na omatsuri ga arimashita."
+      },
+      {
+        "jp": "きょう 東京に ゆうめいな おまつりが ありました。",
+        "romaji": "Kyou Toukyou ni yuumei na omatsuri ga arimashita."
+      },
+      {
+        "jp": "へやで つくえが あります。",
+        "romaji": "Heya de tsukue ga arimasu."
+      },
+      {
+        "jp": "こうえんに サッカーの しあいが あります。",
+        "romaji": "Kouen ni sakkaa no shiai ga arimasu."
+      }
+    ],
+    "answer": 0,
+    "explain": "おまつり (festival) dan しあい (pertandingan) adalah acara sehingga memakai で. つくえ (meja) adalah benda mati sehingga memakai に."
+  },
+  {
+    "id": "b21-46",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Ungkapan Percakapan",
+    "prompt": "A：あ、もう 五時ですね。そろそろ （　）。\nB：そうですね。おさきに しつれいします。",
+    "promptRomaji": "A: A, mou goji desu ne. Sorosoro _____. B: Sou desu ne. Osaki ni shitsurei shimasu.",
+    "sub": "Pilih ungkapan Bab 21 yang berarti 'harus segera pulang...'.",
+    "options": [
+      {
+        "jp": "かえりましょうと……",
+        "romaji": "kaerimashou to......"
+      },
+      {
+        "jp": "かえらないと……",
+        "romaji": "kaeranai to......"
+      },
+      {
+        "jp": "かえったと……",
+        "romaji": "kaetta to......"
+      },
+      {
+        "jp": "かえると……",
+        "romaji": "kaeru to......"
+      }
+    ],
+    "answer": 1,
+    "explain": "もう かえらないと…… (atau V-ないと……) dipakai dalam percakapan untuk menyatakan 'saya harus segera pulang...'."
+  },
+  {
+    "id": "b21-47",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Ajakan ～でも",
+    "prompt": "A：ひさしぶりですね。あちらの きっさてんで おちゃ （　） のみませんか。\nB：ええ、いいですね。",
+    "promptRomaji": "A: Hisashiburi desu ne. Achira no kissaten de ocha _____ nomimasen ka. B: Ee, ii desu ne.",
+    "sub": "Pilih partikel untuk menawarkan sesuatu secara santai ('minum teh atau semacamnya').",
+    "options": [
+      {
+        "jp": "だけ",
+        "romaji": "dake"
+      },
+      {
+        "jp": "しか",
+        "romaji": "shika"
+      },
+      {
+        "jp": "でも",
+        "romaji": "demo"
+      },
+      {
+        "jp": "から",
+        "romaji": "kara"
+      }
+    ],
+    "answer": 2,
+    "explain": "～でも のみませんか berarti 'Bagaimana kalau minum ~ atau yang lain?' sebagai ajakan ramah agar lawan bicara tidak merasa terbebani."
+  },
+  {
+    "id": "b21-48",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Deteksi Kesalahan",
+    "prompt": "Manakah kalimat berikut yang SALAH secara tata bahasa?",
+    "promptRomaji": "Deteksi kesalahan tata bahasa (Bab 21)",
+    "sub": "Periksa sambungan と おもいます dan でしょう？.",
+    "options": [
+      {
+        "jp": "あしたは ゆきが ふると おもいます。",
+        "romaji": "Ashita wa yuki ga furu to omoimasu."
+      },
+      {
+        "jp": "あの ひとは きっと しんせつだと おもいます。",
+        "romaji": "Ano hito wa kitto shinsetsu da to omoimasu."
+      },
+      {
+        "jp": "あたらしい じしょは やくに たつでしょう？",
+        "romaji": "Atarashii jisho wa yaku ni tatsu deshou?"
+      },
+      {
+        "jp": "きょうは ほんとうに さむいだ と おもいます。",
+        "romaji": "Kyou wa hontou ni samui da to omoimasu."
+      }
+    ],
+    "answer": 3,
+    "explain": "さむい adalah kata sifat-い, sehingga tidak boleh memakai だ sebelum と おもいます! Yang benar adalah さむいと おもいます."
+  },
+  {
+    "id": "b21-49",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Terjemahan Indonesia -> Jepang",
+    "prompt": "Terjemahkan: 'Menurut saya, masalah ini bukan kesia-siaan (むだ).'",
+    "promptRomaji": "Terjemahan Jepang (Bab 21)",
+    "sub": "Gunakan bentuk negatif dari むだ sebelum と おもいます.",
+    "options": [
+      {
+        "jp": "この もんだいは むだじゃないと おもいます。",
+        "romaji": "Kono mondai wa muda janai to omoimasu."
+      },
+      {
+        "jp": "この もんだいは むだだ と おもいません。",
+        "romaji": "Kono mondai wa muda da to omoimasen."
+      },
+      {
+        "jp": "この もんだいは むだくないと おもいます。",
+        "romaji": "Kono mondai wa mudakunai to omoimasu."
+      },
+      {
+        "jp": "この もんだいは むだじゃないだと おもいます。",
+        "romaji": "Kono mondai wa muda janai da to omoimasu."
+      }
+    ],
+    "answer": 0,
+    "explain": "むだ adalah kata sifat-な/kata benda, sehingga negatifnya adalah むだじゃない lalu diikuti と おもいます."
+  },
+  {
+    "id": "b21-50",
+    "bab": 21,
+    "type": "mcq",
+    "badge": "Bab 21 · Terjemahan Indonesia -> Jepang",
+    "prompt": "Terjemahkan: 'Besok di taman akan diadakan konser, kan?'",
+    "promptRomaji": "Terjemahan Jepang (Bab 21)",
+    "sub": "Gabungkan pola tempat acara (で) dan konfirmasi (でしょう？).",
+    "options": [
+      {
+        "jp": "あした こうえんに コンサートが あったでしょう？",
+        "romaji": "Ashita kouen ni konsaato ga atta deshou?"
+      },
+      {
+        "jp": "あした こうえんで コンサートが あるでしょう？",
+        "romaji": "Ashita kouen de konsaato ga aru deshou?"
+      },
+      {
+        "jp": "あした こうえんに コンサートが あるでしょう？",
+        "romaji": "Ashita kouen ni konsaato ga aru deshou?"
+      },
+      {
+        "jp": "あした こうえんで コンサートが あるだでしょう？",
+        "romaji": "Ashita kouen de konsaato ga aru da deshou?"
+      }
+    ],
+    "answer": 1,
+    "explain": "Konser adalah acara sehingga tempatnya memakai で, dan waktunya あした sehingga memakai ある + でしょう？"
+  }
+];

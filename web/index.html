@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Minna no Nihongo I (Bab 1–25) — Kana, Kotoba Flashcard, Materi Lengkap, &amp; Kuis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Noto+Sans+JP:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css?v=20261125-v11">
+</head>
+<body>
+  <header class="topbar" role="banner">
+    <div class="topbar-left">
+      <button type="button" class="icon-btn mobile-only" id="btnToggleSidebar" aria-label="Buka daftar Bab 1–25" aria-expanded="false">
+        <span aria-hidden="true">☰</span>
+      </button>
+      <div class="brand" id="brandHome" role="button" tabindex="0" title="Kembali ke Peta Bab 1–25">
+        <span class="brand-mark" aria-hidden="true">み</span>
+        <div class="brand-text">
+          <span class="brand-title">Minna no Nihongo I (Bab 1–25)</span>
+          <span class="brand-sub">Kana · Kotoba Flashcard · Audio 🔊 · Tanpa Timer</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="topbar-actions">
+      <button type="button" class="pill-btn" id="btnToggleTheme" aria-pressed="true" title="Ganti Mode Gelap / Terang">
+        <span id="themeIcon" aria-hidden="true">🌙</span>
+        <span id="themeLabel">Gelap</span>
+      </button>
+      <button type="button" class="pill-btn desktop-nav-only" id="btnToggleRomaji" aria-pressed="true" title="Tampilkan atau sembunyikan Romaji">
+        <span class="dot" aria-hidden="true"></span>
+        <span id="romajiLabel">Romaji: ON</span>
+      </button>
+      <button type="button" class="pill-btn pill-btn-accent" id="btnOpenCheatSheet">
+        <span id="cheatBtnLabel">Rumus Cepat</span>
+      </button>
+      <button type="button" class="pill-btn desktop-nav-only" id="btnOpenKana">
+        Kana (あ/ア)
+      </button>
+      <button type="button" class="pill-btn desktop-nav-only" id="btnOpenKotoba">
+        🃏 Kotoba
+      </button>
+      <button type="button" class="pill-btn desktop-nav-only" id="btnOpenRefs">
+        Referensi (11)
+      </button>
+      <button type="button" class="pill-btn desktop-nav-only" id="btnStartFinalExam">
+        Tes Akhir (1–25)
+      </button>
+      <button type="button" class="pill-btn pill-btn-subtle desktop-nav-only" id="btnShowOverview">
+        Peta Bab
+      </button>
+      <button type="button" class="pill-btn desktop-nav-only" id="btnOpenProfile" title="Profil Belajar, Audio Jepang, &amp; Cadangan Skor">
+        <span aria-hidden="true">👤</span>
+        <span id="topProfileLabel">Profil &amp; Audio</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="app-shell">
+    <div class="sidebar-backdrop" id="sidebarBackdrop" hidden></div>
+
+    <aside class="sidebar" id="sidebar" aria-label="Navigasi Bab 1 sampai 25">
+      <div class="sidebar-header">
+        <div class="sidebar-stats">
+          <div class="stat-row">
+            <span class="stat-label">Progres Tuntas (≥80%)</span>
+            <span class="stat-value" id="sidebarProgressText">0 / 25 bab</span>
+          </div>
+          <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="25" aria-valuenow="0" id="sidebarProgressBar">
+            <div class="progress-fill" id="sidebarProgressFill" style="width: 0%"></div>
+          </div>
+        </div>
+
+        <button type="button" class="pill-btn pill-btn-accent" id="btnSidebarFinalExam" style="width:100%; justify-content:center; margin-top:8px;">
+          🎯 Tes Akhir Gabungan (Bab 1–25)
+        </button>
+
+        <div class="sort-toggle" role="tablist" aria-label="Urutan bab">
+          <button type="button" class="sort-btn is-active" id="btnSortPriority" data-sort="priority" role="tab" aria-selected="true">
+            Prioritas Bug
+          </button>
+          <button type="button" class="sort-btn" id="btnSortBook" data-sort="book" role="tab" aria-selected="false">
+            Urut Bab 1–25
+          </button>
+        </div>
+
+        <div class="zone-filters" role="group" aria-label="Filter zona skor">
+          <button type="button" class="filter-chip is-active" data-zone="all">Semua (25)</button>
+          <button type="button" class="filter-chip chip-red" data-zone="errors">Khusus Eror (18)</button>
+          <button type="button" class="filter-chip chip-red" data-zone="red">Merah (4)</button>
+          <button type="button" class="filter-chip chip-orange" data-zone="orange">Oranye (3)</button>
+          <button type="button" class="filter-chip chip-amber" data-zone="amber">Kuning (11)</button>
+          <button type="button" class="filter-chip chip-green" data-zone="green">Hijau (7)</button>
+        </div>
+      </div>
+
+      <nav class="chapter-list" id="chapterList" aria-label="Daftar 25 bab Minna no Nihongo"></nav>
+    </aside>
+
+    <main class="workspace" id="workspace" tabindex="-1"></main>
+  </div>
+
+  <!-- Navigasi Bawah Khusus Mobile (≤ 820px) -->
+  <nav class="mobile-bottom-nav" id="mobileBottomNav" aria-label="Navigasi utama layar HP">
+    <button type="button" class="mnav-btn is-active" data-mnav="overview">
+      <span class="mnav-icon" aria-hidden="true">🗺️</span>
+      <span class="mnav-label">Peta</span>
+    </button>
+    <button type="button" class="mnav-btn" data-mnav="kotoba">
+      <span class="mnav-icon" aria-hidden="true">🃏</span>
+      <span class="mnav-label">Kotoba</span>
+    </button>
+    <button type="button" class="mnav-btn" data-mnav="kana">
+      <span class="mnav-icon mnav-kana" aria-hidden="true">あ</span>
+      <span class="mnav-label">Kana</span>
+    </button>
+    <button type="button" class="mnav-btn" data-mnav="references">
+      <span class="mnav-icon" aria-hidden="true">🍱</span>
+      <span class="mnav-label">Referensi</span>
+    </button>
+    <button type="button" class="mnav-btn" data-mnav="profile">
+      <span class="mnav-icon" aria-hidden="true">👤</span>
+      <span class="mnav-label">Profil</span>
+    </button>
+  </nav>
+
+  <!-- Modal Rumus Cepat (Berubah Otomatis Sesuai Bab yang Sedang Dibuka!) -->
+  <div class="modal-overlay" id="cheatModal" hidden role="dialog" aria-modal="true" aria-labelledby="cheatModalTitle">
+    <div class="modal-sheet">
+      <div class="modal-head">
+        <div>
+          <p class="eyebrow" id="cheatModalEyebrow">POCKET CHEAT SHEET</p>
+          <h2 id="cheatModalTitle">Rumus Cepat</h2>
+        </div>
+        <button type="button" class="icon-btn" id="btnCloseCheatSheet" aria-label="Tutup Rumus Cepat">✕</button>
+      </div>
+      <div class="modal-body" id="cheatModalBody"></div>
+    </div>
+  </div>
+
+  <!-- Modal Profil Belajar, Audio Jepang, Mode Teman/Perbaikan, & Backup Skor -->
+  <div class="modal-overlay" id="profileModal" hidden role="dialog" aria-modal="true" aria-labelledby="profileModalTitle">
+    <div class="modal-sheet">
+      <div class="modal-head">
+        <div>
+          <p class="eyebrow">PENYIMPANAN LOKAL (LOCALSTORAGE) · AUDIO 🔊</p>
+          <h2 id="profileModalTitle">Profil Belajar, Audio Jepang, &amp; Cadangan Skor</h2>
+        </div>
+        <button type="button" class="icon-btn" id="btnCloseProfile" aria-label="Tutup Profil dan Audio">✕</button>
+      </div>
+      <div class="modal-body" id="profileModalBody"></div>
+    </div>
+  </div>
+
+  <!-- Modal Konfirmasi Keluar Tes Akhir -->
+  <div class="modal-overlay" id="exitExamModal" hidden role="dialog" aria-modal="true" aria-labelledby="exitExamModalTitle">
+    <div class="modal-sheet modal-sheet-sm">
+      <div class="modal-head">
+        <div>
+          <p class="eyebrow">KONFIRMASI KELUAR · TES AKHIR</p>
+          <h2 id="exitExamModalTitle">Keluar dari Tes Akhir?</h2>
+        </div>
+        <button type="button" class="icon-btn" id="btnCloseExitExam" aria-label="Batal keluar">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="exit-exam-desc">
+          Tes Akhir sedang berlangsung. Jika kamu keluar sekarang, progres jawaban pada sesi ini akan dibatalkan dan timer dihentikan.
+        </p>
+        <div class="exit-exam-actions">
+          <button type="button" class="btn-primary" id="btnStayExam">Lanjut Kerjakan</button>
+          <button type="button" class="btn-danger-soft" id="btnConfirmExitExam">Ya, Keluar dari Tes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Urutan Script: Bab 1–16, Bab 17 ASLI, Bab 18–25, Soal Ekstra, Kana, Kotoba, Referensi (11), Tes Akhir, Bank Bab 1-25, App -->
+  <!-- Versi ?v=... wajib naik setiap kali file diubah agar browser tidak memakai cache lama. -->
+  <script>window.MNN_MODULES = []; window.MNN_EXTRA_QUESTIONS = {}; window.MNN_BANK = {};</script>
+  <script src="./data/modul-01-05.js?v=20261125-v11"></script>
+  <script src="./data/modul-06-10.js?v=20261125-v11"></script>
+  <script src="./data/modul-11-16.js?v=20261125-v11"></script>
+  <script src="./data/bab-17.js?v=20261125-v11"></script>
+  <script src="./data/modul-18-25.js?v=20261125-v11"></script>
+  <script src="./data/soal-ekstra-merah-oranye.js?v=20261125-v11"></script>
+  <script src="./data/soal-ekstra-hijau.js?v=20261125-v11"></script>
+  <script src="./data/soal-ekstra-kuning-a.js?v=20261125-v11"></script>
+  <script src="./data/soal-ekstra-kuning-b.js?v=20261125-v11"></script>
+  <script src="./data/kana-dasar.js?v=20261125-v11"></script>
+  <script src="./data/kotoba-1-25.js?v=20261125-v11"></script>
+  <script src="./data/referensi-minna.js?v=20261125-v11"></script>
+  <script src="./data/tes-akhir-1-25.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-01.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-02.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-03.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-04.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-05.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-06.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-07.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-08.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-09.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-10.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-11.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-12.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-13.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-14.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-15.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-16.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-17.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-18.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-19.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-20.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-21.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-22.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-23.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-24.js?v=20261125-v11"></script>
+  <script src="./data/bank/bab-25.js?v=20261125-v11"></script>
+  <script src="./app.js?v=20261125-v11"></script>
+</body>
+</html>

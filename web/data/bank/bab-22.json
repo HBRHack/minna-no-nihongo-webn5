@@ -1,0 +1,852 @@
+[
+  {
+    "id": "b22-01",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kosakata やちん",
+    "prompt": "「この アパートは やちんが やすくて いいです」の 「やちん」は なんですか。",
+    "promptRomaji": "\"Kono apaato wa yachin ga yasukute ii desu\" no \"yachin\" wa nan desu ka.",
+    "sub": "Pilih arti kosakata Bab 22 yang tepat.",
+    "options": [
+      { "jp": "Uang sewa (rumah/apartemen)", "romaji": "" },
+      { "jp": "Kamar bergaya Jepang", "romaji": "" },
+      { "jp": "Uang belanja bulanan", "romaji": "" },
+      { "jp": "Dapur dan ruang makan", "romaji": "" }
+    ],
+    "answer": 0,
+    "explain": "やちん (家賃) berarti uang sewa tempat tinggal (rumah atau apartemen)."
+  },
+  {
+    "id": "b22-02",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kosakata わしつ・おしいれ・ふとん",
+    "prompt": "おしいれの 中に （　） を いれます。",
+    "promptRomaji": "Oshiire no naka ni _____ o iremasu.",
+    "sub": "Pilih barang yang disimpan di dalam おしいれ (lemari dinding Jepang).",
+    "options": [
+      { "jp": "やちん", "romaji": "yachin" },
+      { "jp": "ふとん", "romaji": "futon" },
+      { "jp": "つごう", "romaji": "tsugou" },
+      { "jp": "めがね", "romaji": "megane" }
+    ],
+    "answer": 1,
+    "explain": "ふとん (kasur dan selimut lipat Jepang) biasanya disimpan di dalam おしいれ (lemari dinding di kamar tatami/わしつ)."
+  },
+  {
+    "id": "b22-03",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kosakata わしつ",
+    "prompt": "たたみが ある 日本の へやを なんといいますか。",
+    "promptRomaji": "Tatami ga aru Nihon no heya o nan to iimasu ka.",
+    "sub": "Pilih istilah untuk kamar bergaya Jepang.",
+    "options": [
+      { "jp": "おしいれ", "romaji": "oshiire" },
+      { "jp": "アパート", "romaji": "apaato" },
+      { "jp": "わしつ", "romaji": "washitsu" },
+      { "jp": "ダイニングキッチン", "romaji": "dainingukitchin" }
+    ],
+    "answer": 2,
+    "explain": "わしつ (和室) berarti kamar bergaya Jepang yang berlantai tatami."
+  },
+  {
+    "id": "b22-04",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kosakata うまれます",
+    "prompt": "わたしは １９９９年に ジャカルタ （　） うまれました。",
+    "promptRomaji": "Watashi wa 1999-nen ni Jakaruta _____ umaremashita.",
+    "sub": "Pilih partikel tempat yang tepat untuk 'lahir di...'.",
+    "options": [
+      { "jp": "を", "romaji": "o" },
+      { "jp": "へ", "romaji": "e" },
+      { "jp": "と", "romaji": "to" },
+      { "jp": "で", "romaji": "de" }
+    ],
+    "answer": 3,
+    "explain": "Tempat kelahiran dinyatakan dengan partikel で (karena melahirkan/kelahiran adalah peristiwa di suatu tempat): ジャカルタで うまれました."
+  },
+  {
+    "id": "b22-05",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kosakata つごう",
+    "prompt": "「すみません、あしたは ちょっと つごうが わるいです」の いみは どれですか。",
+    "promptRomaji": "\"Sumimasen, ashita wa chotto tsugou ga warui desu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti ungkapan yang tepat.",
+    "options": [
+      { "jp": "Maaf, besok saya sedang tidak ada waktu / berhalangan.", "romaji": "" },
+      { "jp": "Maaf, besok cuacanya kurang bagus.", "romaji": "" },
+      { "jp": "Maaf, besok uang sewanya terlambat.", "romaji": "" },
+      { "jp": "Maaf, besok kamar ini sedang dibersihkan.", "romaji": "" }
+    ],
+    "answer": 0,
+    "explain": "つごうが わるいです berarti waktunya tidak cocok, sibuk, atau berhalangan (lawan katanya つごうが いいです = waktunya luang/cocok)."
+  },
+  {
+    "id": "b22-06",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kosakata おめでとうございます",
+    "prompt": "A：きょうは わたしの たんじょうびです。\nB：そうですか。（　）。",
+    "promptRomaji": "A: Kyou wa watashi no tanjoubi desu. B: Sou desu ka. _____.",
+    "sub": "Pilih ucapan selamat yang tepat.",
+    "options": [
+      { "jp": "おさがしですか", "romaji": "osagashi desu ka" },
+      { "jp": "おめでとうございます", "romaji": "omedetou gozaimasu" },
+      { "jp": "しつれいしました", "romaji": "shitsurei shimashita" },
+      { "jp": "ざんねんですね", "romaji": "zannen desu ne" }
+    ],
+    "answer": 1,
+    "explain": "おめでとうございます dipakai untuk mengucapkan selamat atas ulang tahun, pernikahan, kelahiran, kelulusan, maupun Tahun Baru."
+  },
+  {
+    "id": "b22-07",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kosakata おさがしですか",
+    "prompt": "みせの ひと：いらっしゃいませ。なにか （　）？\nきゃく：ええ、アパートを さがして います。",
+    "promptRomaji": "Mise no hito: Irasshaimase. Nanika _____? Kyaku: Ee, apaato o sagashite imasu.",
+    "sub": "Pilih ungkapan sopan pegawai toko/agen saat menyapa pelanggan.",
+    "options": [
+      { "jp": "おわかりですか", "romaji": "owakari desu ka" },
+      { "jp": "おめでとうございます", "romaji": "omedetou gozaimasu" },
+      { "jp": "おさがしですか", "romaji": "osagashi desu ka" },
+      { "jp": "おやすみですか", "romaji": "oyasumi desu ka" }
+    ],
+    "answer": 2,
+    "explain": "おさがしですか adalah ungkapan sopan dari さがして いますか ('Apakah Anda sedang mencari sesuatu?')."
+  },
+  {
+    "id": "b22-08",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kosakata よく",
+    "prompt": "わたしは まいしゅう ともだちと （　） テニスを します。",
+    "promptRomaji": "Watashi wa maishuu tomodachi to _____ tenisu o shimasu.",
+    "sub": "Pilih kata keterangan Bab 22 yang berarti 'sering'.",
+    "options": [
+      { "jp": "あまり", "romaji": "amari" },
+      { "jp": "ぜんぜん", "romaji": "zenzen" },
+      { "jp": "もうすぐ", "romaji": "mou sugu" },
+      { "jp": "よく", "romaji": "yoku" }
+    ],
+    "answer": 3,
+    "explain": "Selain berarti 'dengan baik', よく juga berarti 'sering' (dipakai dengan kalimat positif)."
+  },
+  {
+    "id": "b22-09",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kosakata コート・セーター・スーツ",
+    "prompt": "ふゆに なって さむいですから、あたたかい （　） を きます。",
+    "promptRomaji": "Fuyu ni natte samui desu kara, atatakai _____ o kimasu.",
+    "sub": "Pilih pakaian hangat untuk musim dingin yang cocok dengan きます.",
+    "options": [
+      { "jp": "コート", "romaji": "kooto" },
+      { "jp": "ぼうし", "romaji": "boushi" },
+      { "jp": "くつ", "romaji": "kutsu" },
+      { "jp": "めがね", "romaji": "megane" }
+    ],
+    "answer": 0,
+    "explain": "コート (mantel) adalah pakaian tubuh bagian atas yang hangat untuk musim dingin dan memakai kata kerja きます."
+  },
+  {
+    "id": "b22-10",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kosakata ダイニングキッチン",
+    "prompt": "「ダイニングキッチン」の いみは どれですか。",
+    "promptRomaji": "\"Dainingukitchin\" no imi wa dore desu ka.",
+    "sub": "Pilih arti istilah properti/ruangan di Jepang.",
+    "options": [
+      { "jp": "Kamar mandi dan toilet", "romaji": "" },
+      { "jp": "Dapur yang menyatu dengan ruang makan", "romaji": "" },
+      { "jp": "Ruang tamu berlantai tatami", "romaji": "" },
+      { "jp": "Lemari dinding untuk menyimpan futon", "romaji": "" }
+    ],
+    "answer": 1,
+    "explain": "ダイニングキッチン (dining kitchen, sering disingkat DK) adalah ruangan dapur yang menyatu dengan area makan."
+  },
+  {
+    "id": "b22-11",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kosakata わたしたち",
+    "prompt": "「わたしたちの 学校」の いみは どれですか。",
+    "promptRomaji": "\"Watashitachi no gakkou\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata ganti jamak Bab 22.",
+    "options": [
+      { "jp": "Sekolah saya sendiri", "romaji": "" },
+      { "jp": "Sekolah mereka", "romaji": "" },
+      { "jp": "Sekolah kami / kita", "romaji": "" },
+      { "jp": "Sekolah teman", "romaji": "" }
+    ],
+    "answer": 2,
+    "explain": "わたしたち berarti kami atau kita."
+  },
+  {
+    "id": "b22-12",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kosakata では・こちら",
+    "prompt": "A：駅に ちかくて しずかな へやが いいです。\nB：（　）、（　） の アパートは いかがですか。",
+    "promptRomaji": "A: Eki ni chikakute shizuka na heya ga ii desu. B: _____, _____ no apaato wa ikaga desu ka.",
+    "sub": "Pilih ungkapan 'Kalau begitu, apartemen yang ini bagaimana?'.",
+    "options": [
+      { "jp": "えーと ／ あっち", "romaji": "eeto / acchi" },
+      { "jp": "ううん ／ そっち", "romaji": "uun / socchi" },
+      { "jp": "そして ／ あちら", "romaji": "soshite / achira" },
+      { "jp": "では ／ こちら", "romaji": "dewa / kochira" }
+    ],
+    "answer": 3,
+    "explain": "では berarti 'Kalau begitu', dan こちら adalah bentuk sopan dari これ ('yang ini') saat menawarkan sesuatu kepada tamu."
+  },
+  {
+    "id": "b22-13",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kata Kerja Pakaian (きます)",
+    "prompt": "あおい セーターを （　） ひとは だれですか。",
+    "promptRomaji": "Aoi seetaa o _____ hito wa dare desu ka.",
+    "sub": "セーター (sweter) memakai kata kerja pakaian bagian atas!",
+    "options": [
+      { "jp": "きている", "romaji": "kite iru" },
+      { "jp": "はいている", "romaji": "haite iru" },
+      { "jp": "かぶっている", "romaji": "kabutte iru" },
+      { "jp": "かけている", "romaji": "kakete iru" }
+    ],
+    "answer": 0,
+    "explain": "Pakaian tubuh bagian atas (シャツ, セーター, コート, スーツ, きもの) memakai きます → きている."
+  },
+  {
+    "id": "b22-14",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kata Kerja Pakaian (はきます)",
+    "prompt": "くろい ズボンを （　） ひとが ワットさんです。",
+    "promptRomaji": "Kuroi zubon o _____ hito ga Watto-san desu.",
+    "sub": "ズボン (celana panjang) memakai kata kerja bagian bawah/kaki!",
+    "options": [
+      { "jp": "きている", "romaji": "kite iru" },
+      { "jp": "はいている", "romaji": "haite iru" },
+      { "jp": "している", "romaji": "shite iru" },
+      { "jp": "かぶっている", "romaji": "kabutte iru" }
+    ],
+    "answer": 1,
+    "explain": "Pakaian bagian bawah pinggang ke kaki (ズボン, スカート, くつ, くつした) memakai はきます → はいている."
+  },
+  {
+    "id": "b22-15",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kata Kerja Pakaian (かけます)",
+    "prompt": "あそこで めがねを （　） 女の ひとが わたしの 母です。",
+    "promptRomaji": "Asoko de megane o _____ onna no hito ga watashi no haha desu.",
+    "sub": "めがね (kacamata) memakai kata kerja apa?",
+    "options": [
+      { "jp": "かぶっている", "romaji": "kabutte iru" },
+      { "jp": "きている", "romaji": "kite iru" },
+      { "jp": "かけている", "romaji": "kakete iru" },
+      { "jp": "はいている", "romaji": "haite iru" }
+    ],
+    "answer": 2,
+    "explain": "Untuk kacamata (めがね) dipakai kata kerja かけます → かけている."
+  },
+  {
+    "id": "b22-16",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kata Kerja Pakaian (します)",
+    "prompt": "あかい ネクタイを （　） 男の ひとは 山田さんです。",
+    "promptRomaji": "Akai nekutai o _____ otoko no hito wa Yamada-san desu.",
+    "sub": "ネクタイ (dasi) dan aksesoris memakai kata kerja apa?",
+    "options": [
+      { "jp": "きている", "romaji": "kite iru" },
+      { "jp": "かぶっている", "romaji": "kabutte iru" },
+      { "jp": "かけている", "romaji": "kakete iru" },
+      { "jp": "している", "romaji": "shite iru" }
+    ],
+    "answer": 3,
+    "explain": "Untuk dasi (ネクタイ), jam tangan, atau aksesoris dipakai kata kerja します → している."
+  },
+  {
+    "id": "b22-17",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kata Kerja Pakaian (かぶります)",
+    "prompt": "こうえんへ いく まえに、しろい ぼうしを （　） ください。",
+    "promptRomaji": "Kouen e iku mae ni, shiroi boushi o _____ kudasai.",
+    "sub": "Pilih bentuk -te dari かぶります (memakai topi).",
+    "options": [
+      { "jp": "かぶって", "romaji": "kabutte" },
+      { "jp": "かぶいて", "romaji": "kabuite" },
+      { "jp": "かぶりて", "romaji": "kaburite" },
+      { "jp": "かぶて", "romaji": "kabute" }
+    ],
+    "answer": 0,
+    "explain": "かぶります adalah kata kerja Kelompok I berakhiran -り, sehingga bentuk -te nya adalah かぶって."
+  },
+  {
+    "id": "b22-18",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Konjugasi Pakaian (きます)",
+    "prompt": "きょうは さむいから、コートを （　） いきました。",
+    "promptRomaji": "Kyou wa samui kara, kooto o _____ ikimashita.",
+    "sub": "Hati-hati! きます (memakai baju) adalah kata kerja Kelompok II!",
+    "options": [
+      { "jp": "きって", "romaji": "kitte" },
+      { "jp": "きて", "romaji": "kite" },
+      { "jp": "きいて", "romaji": "kiite" },
+      { "jp": "きんで", "romaji": "kinde" }
+    ],
+    "answer": 1,
+    "explain": "きます (memakai baju) adalah kata kerja Kelompok II, jadi bentuk -te nya adalah きて (bukan きって yang berasal dari きります = memotong)."
+  },
+  {
+    "id": "b22-19",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Kata Kerja Pakaian (くつ)",
+    "prompt": "あたらしい くつを （　） 学校へ いきました。",
+    "promptRomaji": "Atarashii kutsu o _____ gakkou e ikimashita.",
+    "sub": "Pilih kata kerja dan bentuk -te yang tepat untuk くつ (sepatu).",
+    "options": [
+      { "jp": "きて", "romaji": "kite" },
+      { "jp": "かぶって", "romaji": "kabutte" },
+      { "jp": "はいて", "romaji": "haite" },
+      { "jp": "かけて", "romaji": "kakete" }
+    ],
+    "answer": 2,
+    "explain": "くつ (sepatu) memakai はきます (Kelompok I), dan bentuk -te nya adalah はいて."
+  },
+  {
+    "id": "b22-20",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Ciri Orang Memakai Pakaian (～ている)",
+    "prompt": "Bagaimana mengatakan 'Orang yang sedang memakai setelan jas hitam'?",
+    "promptRomaji": "Terjemahan ciri pakaian (Bab 22)",
+    "sub": "Gunakan bentuk yang tepat untuk status pakaian yang dikenakan.",
+    "options": [
+      { "jp": "くろい スーツを きる ひと", "romaji": "kuroi suutsu o kiru hito" },
+      { "jp": "くろい スーツを はいている ひと", "romaji": "kuroi suutsu o haite iru hito" },
+      { "jp": "くろい スーツを かけている ひと", "romaji": "kuroi suutsu o kakete iru hito" },
+      { "jp": "くろい スーツを きている ひと", "romaji": "kuroi suutsu o kite iru hito" }
+    ],
+    "answer": 3,
+    "explain": "Setelan jas (スーツ) memakai きます, dan untuk mendeskripsikan ciri pakaian yang sedang dipakai orang digunakan bentuk ～ている: きている ひと."
+  },
+  {
+    "id": "b22-21",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Perbandingan Tense Pakaian",
+    "prompt": "「めがねを かけた ひと」と 「めがねを かけている ひと」、今 めがねが 顔に あるのは どちらですか。",
+    "promptRomaji": "\"Megane o kaketa hito\" vs \"megane o kakete iru hito\" (Bab 22)",
+    "sub": "Pilih bentuk yang menyatakan kondisi sekarang sedang berkacamata.",
+    "options": [
+      { "jp": "めがねを かけている ひと", "romaji": "megane o kakete iru hito" },
+      { "jp": "めがねを かける ひと", "romaji": "megane o kakeru hito" },
+      { "jp": "めがねを かけた ひと", "romaji": "megane o kaketa hito" },
+      { "jp": "めがねを かけない ひと", "romaji": "megane o kakenai hito" }
+    ],
+    "answer": 0,
+    "explain": "かけている ひと menyatakan keadaan seseorang yang saat ini sedang memakai kacamata. かける adalah akan memakai, sedangkan かけた adalah tadi memakai/sempat memakai."
+  },
+  {
+    "id": "b22-22",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Pasangan Kata Benda & Kata Kerja Pakaian",
+    "prompt": "Manakah pasangan benda dan kata kerja pakaian yang SALAH?",
+    "promptRomaji": "Pasangan pakaian dan kata kerja (Bab 22)",
+    "sub": "Periksa kecocokan benda dengan きます / はきます / かぶります / かけます / します.",
+    "options": [
+      { "jp": "ぼうしを かぶります", "romaji": "boushi o kaburimasu" },
+      { "jp": "スカートを きます", "romaji": "sukaato o kimasu" },
+      { "jp": "めがねを かけます", "romaji": "megane o kakemasu" },
+      { "jp": "ネクタイを します", "romaji": "nekutai o shimasu" }
+    ],
+    "answer": 1,
+    "explain": "スカート (rok) dipakai di bagian bawah pinggang ke kaki sehingga memakai はきます (スカートを はきます), bukan きます."
+  },
+  {
+    "id": "b22-23",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Subjek Anak Kalimat (が vs は)",
+    "prompt": "これは 母 （　） つくった おべんとう です。",
+    "promptRomaji": "Kore wa haha _____ tsukutta obentou desu.",
+    "sub": "Pilih partikel subjek di dalam anak kalimat penjelas benda!",
+    "options": [
+      { "jp": "は", "romaji": "wa" },
+      { "jp": "を", "romaji": "o" },
+      { "jp": "が", "romaji": "ga" },
+      { "jp": "で", "romaji": "de" }
+    ],
+    "answer": 2,
+    "explain": "Subjek di dalam anak kalimat penjelas kata benda (母が つくった) wajib memakai partikel が, tidak boleh memakai は!"
+  },
+  {
+    "id": "b22-24",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Anak Kalimat Penjelas (Bentuk Biasa)",
+    "prompt": "きのう （　） ケーキは とても おいしかったです。",
+    "promptRomaji": "Kinou _____ keeki wa totemo oishikatta desu.",
+    "sub": "Lengkapi dengan bentuk yang tepat dari かいました (membeli kemarin).",
+    "options": [
+      { "jp": "かいました", "romaji": "kaimashita" },
+      { "jp": "かって", "romaji": "katte" },
+      { "jp": "かったの", "romaji": "katta no" },
+      { "jp": "かった", "romaji": "katta" }
+    ],
+    "answer": 3,
+    "explain": "Kata kerja di depan kata benda yang dijelaskan harus dalam Bentuk Biasa dan menempel langsung tanpa partikel の: かった ケーキ."
+  },
+  {
+    "id": "b22-25",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Anak Kalimat (Tidak Perlu Partikel Tambahan)",
+    "prompt": "あそこは わたしが まいにち ひるごはんを （　） です。",
+    "promptRomaji": "Asoko wa watashi ga mainichi hirugohan o _____ desu.",
+    "sub": "Pilih frasa 'restoran tempat saya makan siang setiap hari' yang benar.",
+    "options": [
+      { "jp": "たべる レストラン", "romaji": "taberu resutoran" },
+      { "jp": "たべます レストラン", "romaji": "tabemasu resutoran" },
+      { "jp": "たべる レストランを", "romaji": "taberu resutoran o" },
+      { "jp": "たべる レストランが", "romaji": "taberu resutoran ga" }
+    ],
+    "answer": 0,
+    "explain": "Bentuk kamus (たべる) langsung menempel pada kata benda (レストラン), dan di depan です tidak boleh ada partikel を atau が."
+  },
+  {
+    "id": "b22-26",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Anak Kalimat (KS-な)",
+    "prompt": "わたしは （　） まちに すみたいです。（しずか）",
+    "promptRomaji": "Watashi wa _____ machi ni sumitai desu. (shizuka)",
+    "sub": "Bagaimana bentuk KS-な di depan Kata Benda?",
+    "options": [
+      { "jp": "しずかだ", "romaji": "shizuka da" },
+      { "jp": "しずかな", "romaji": "shizuka na" },
+      { "jp": "しずか", "romaji": "shizuka" },
+      { "jp": "しずかの", "romaji": "shizuka no" }
+    ],
+    "answer": 1,
+    "explain": "Kata sifat-な positif non-lampau yang memodifikasi kata benda mengubah だ menjadi な: しずかな まち."
+  },
+  {
+    "id": "b22-27",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Anak Kalimat (Kata Benda)",
+    "prompt": "あちらに いる （　） 人は ミラーさんの ともだちです。（アメリカ人）",
+    "promptRomaji": "Achira ni iru _____ hito wa Miraa-san no tomodachi desu. (Amerikajin)",
+    "sub": "Bagaimana menyambungkan Kata Benda ke Kata Benda lain?",
+    "options": [
+      { "jp": "アメリカ人だ", "romaji": "Amerikajin da" },
+      { "jp": "アメリカ人な", "romaji": "Amerikajin na" },
+      { "jp": "アメリカ人の", "romaji": "Amerikajin no" },
+      { "jp": "アメリカ人", "romaji": "Amerikajin" }
+    ],
+    "answer": 2,
+    "explain": "Kata benda positif non-lampau yang menjelaskan kata benda lain tidak memakai だ, melainkan partikel の: アメリカ人の 人."
+  },
+  {
+    "id": "b22-28",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Anak Kalimat (Bentuk Negatif)",
+    "prompt": "わたしは （　） やさいが あまり すきじゃありません。（おいしくない）",
+    "promptRomaji": "Watashi wa _____ yasai ga amari suki ja arimasen.",
+    "sub": "Pilih bentuk biasa negatif di depan やさい.",
+    "options": [
+      { "jp": "おいしくないだ", "romaji": "oishikunai da" },
+      { "jp": "おいしくなくて", "romaji": "oishikunakute" },
+      { "jp": "おいしくありません", "romaji": "oishiku arimasen" },
+      { "jp": "おいしくない", "romaji": "oishikunai" }
+    ],
+    "answer": 3,
+    "explain": "Bentuk biasa negatif KS-い (おいしくない) dapat langsung memodifikasi kata benda: おいしくない やさい."
+  },
+  {
+    "id": "b22-29",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Anak Kalimat (Lampau ～ていた)",
+    "prompt": "これは わたしが こどもだった ころ （　） うちです。（すんで いました）",
+    "promptRomaji": "Kore wa watashi ga kodomo datta koro _____ uchi desu. (sunde imashita)",
+    "sub": "Pilih bentuk biasa dari すんで いました di depan うち.",
+    "options": [
+      { "jp": "すんでいた", "romaji": "sunde ita" },
+      { "jp": "すんでいる", "romaji": "sunde iru" },
+      { "jp": "すんでいました", "romaji": "sunde imashita" },
+      { "jp": "すんでいて", "romaji": "sunde ite" }
+    ],
+    "answer": 0,
+    "explain": "すんで いました dalam bentuk biasa adalah すんでいた, yang langsung diletakkan sebelum うち: すんでいた うち."
+  },
+  {
+    "id": "b22-30",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Anak Kalimat sebagai Objek (を)",
+    "prompt": "きのう ともだちが （　） しゃしんを 見せて ください。",
+    "promptRomaji": "Kinou tomodachi ga _____ shashin o misete kudasai.",
+    "sub": "Lengkapi frasa 'foto yang diambil teman kemarin'.",
+    "options": [
+      { "jp": "とる", "romaji": "toru" },
+      { "jp": "とった", "romaji": "totta" },
+      { "jp": "とりました", "romaji": "torimashita" },
+      { "jp": "とっている", "romaji": "totte iru" }
+    ],
+    "answer": 1,
+    "explain": "Karena terjadi kemarin (きのう), kata kerja とります diubah ke Bentuk -Ta: ともだちが とった しゃしんを 見せて ください."
+  },
+  {
+    "id": "b22-31",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Anak Kalimat sebagai Topik (は)",
+    "prompt": "「ばんりの ちょうじょうへ いった ことが ある ひとは だれですか。」の いみは どれですか。",
+    "promptRomaji": "\"Banri no choujou e itta koto ga aru hito wa dare desu ka.\" no imi wa dore desu ka.",
+    "sub": "Gabungan pola pengalaman Bab 19 + anak kalimat Bab 22!",
+    "options": [
+      { "jp": "Siapa orang yang sedang menuju Tembok Besar Tiongkok?", "romaji": "" },
+      { "jp": "Kapan orang itu pergi ke Tembok Besar Tiongkok?", "romaji": "" },
+      { "jp": "Siapa orang yang pernah pergi ke Tembok Besar Tiongkok?", "romaji": "" },
+      { "jp": "Siapa orang yang ingin pergi ke Tembok Besar Tiongkok?", "romaji": "" }
+    ],
+    "answer": 2,
+    "explain": "いった ことが ある (pernah pergi) dalam bentuk biasa memodifikasi ひとは だれですか ('siapa orang yang pernah pergi ke Tembok Besar Tiongkok?')."
+  },
+  {
+    "id": "b22-32",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Anak Kalimat dengan ほしい",
+    "prompt": "今 いちばん （　） ものは あたらしい パソコンです。",
+    "promptRomaji": "Ima ichiban _____ mono wa atarashii pasokon desu.",
+    "sub": "Lengkapi frasa 'barang yang paling saya inginkan sekarang'.",
+    "options": [
+      { "jp": "ほしいだ", "romaji": "hoshii da" },
+      { "jp": "ほしかった", "romaji": "hoshikatta" },
+      { "jp": "ほしくて", "romaji": "hoshikute" },
+      { "jp": "ほしい", "romaji": "hoshii" }
+    ],
+    "answer": 3,
+    "explain": "ほしい adalah kata sifat-い, sehingga langsung menempel pada kata benda もの untuk menyatakan sekarang (今): いちばん ほしい もの."
+  },
+  {
+    "id": "b22-33",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Anak Kalimat dengan いちばん すきな",
+    "prompt": "わたしが よく （　） スポーツは バドミントンです。",
+    "promptRomaji": "Watashi ga yoku _____ supootsu wa badominton desu.",
+    "sub": "Lengkapi frasa 'olahraga yang sering saya lakukan'.",
+    "options": [
+      { "jp": "する", "romaji": "suru" },
+      { "jp": "します", "romaji": "shimasu" },
+      { "jp": "した", "romaji": "shita" },
+      { "jp": "するな", "romaji": "suruna" }
+    ],
+    "answer": 0,
+    "explain": "Untuk kebiasaan (よく), kata kerja di depan kata benda memakai Bentuk Kamus: わたしが よく する スポーツ."
+  },
+  {
+    "id": "b22-34",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Perbedaan Tense Anak Kalimat",
+    "prompt": "Manakah yang berarti 'orang yang AKAN pergi ke Paris'?",
+    "promptRomaji": "Perbedaan tense sebelum ひと (Bab 22)",
+    "sub": "Bandingkan いく / いっている / いった / いかない.",
+    "options": [
+      { "jp": "パリへ いった ひと", "romaji": "Pari e itta hito" },
+      { "jp": "パリへ いく ひと", "romaji": "Pari e iku hito" },
+      { "jp": "パリへ いっている ひと", "romaji": "Pari e itte iru hito" },
+      { "jp": "パリへ いかない ひと", "romaji": "Pari e ikanai hito" }
+    ],
+    "answer": 1,
+    "explain": "Bentuk Kamus (いく ひと) menyatakan akan pergi/kebiasaan pergi; いった ひと = yang sudah pergi; いっている ひと = yang sedang berada di/sedang pergi."
+  },
+  {
+    "id": "b22-35",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Anak Kalimat (すむ・はたらく)",
+    "prompt": "「父が はたらいて いる 会社」の いみは どれですか。",
+    "promptRomaji": "\"Chichi ga hataraite iru kaisha\" no imi wa dore desu ka.",
+    "sub": "Perhatikan subjek 父が dan predikat はたらいて いる.",
+    "options": [
+      { "jp": "Ayah yang bekerja di perusahaan", "romaji": "" },
+      { "jp": "Perusahaan tempat ayah dulu bekerja", "romaji": "" },
+      { "jp": "Perusahaan tempat ayah bekerja (sekarang)", "romaji": "" },
+      { "jp": "Perusahaan yang akan dikunjungi ayah", "romaji": "" }
+    ],
+    "answer": 2,
+    "explain": "Kata benda inti selalu terletak di paling belakang (会社 = perusahaan), dijelaskan oleh 父が はたらいて いる ('tempat ayah bekerja sekarang')."
+  },
+  {
+    "id": "b22-36",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Anak Kalimat dengan ロボット",
+    "prompt": "わたしは りょうりを （　） ロボットが ほしいです。",
+    "promptRomaji": "Watashi wa ryouri o _____ robotto ga hoshii desu.",
+    "sub": "Lengkapi frasa 'robot yang membuat masakan'.",
+    "options": [
+      { "jp": "つくります", "romaji": "tsukurimasu" },
+      { "jp": "つくって", "romaji": "tsukutte" },
+      { "jp": "つくり", "romaji": "tsukuri" },
+      { "jp": "つくる", "romaji": "tsukuru" }
+    ],
+    "answer": 3,
+    "explain": "Kata kerja penjelas sifat/fungsi benda memakai Bentuk Kamus: りょうりを つくる ロボット."
+  },
+  {
+    "id": "b22-37",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Memilih Tempat Tinggal",
+    "prompt": "A：どんな へやが いいですか。\nB：あかるくて、（　） へやが いいです。",
+    "promptRomaji": "A: Donna heya ga ii desu ka. B: Akarukute, _____ heya ga ii desu.",
+    "sub": "Pilih pengisi yang tepat untuk 'kamar yang terang dan dekat dengan stasiun'.",
+    "options": [
+      { "jp": "えきに ちかい", "romaji": "eki ni chikai" },
+      { "jp": "えきに ちかいだ", "romaji": "eki ni chikai da" },
+      { "jp": "えきに ちかくて", "romaji": "eki ni chikakute" },
+      { "jp": "えきに ちかかった", "romaji": "eki ni chikakatta" }
+    ],
+    "answer": 0,
+    "explain": "Kata sifat-い terakhir sebelum kata benda (へや) harus kembali ke bentuk kamus dasar tanpa -て dan tanpa だ: えきに ちかい へや."
+  },
+  {
+    "id": "b22-38",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Anak Kalimat dengan じょうず",
+    "prompt": "ピアノを （　） ともだちが います。",
+    "promptRomaji": "Piano o _____ tomodachi ga imasu.",
+    "sub": "Lengkapi dengan bentuk biasa dari ひく (bermain alat musik) yang sedang/bisa atau biasa dilakukan.",
+    "options": [
+      { "jp": "ひきます", "romaji": "hikimasu" },
+      { "jp": "ひく", "romaji": "hiku" },
+      { "jp": "ひいて", "romaji": "hiite" },
+      { "jp": "ひいたの", "romaji": "hiita no" }
+    ],
+    "answer": 1,
+    "explain": "Bentuk kamus ひく langsung ditempelkan di depan ともだち."
+  },
+  {
+    "id": "b22-39",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Anak Kalimat (ない)",
+    "prompt": "きのう 宿題を （　） がくせいが おおいです。",
+    "promptRomaji": "Kinou shukudai o _____ gakusei ga ooi desu.",
+    "sub": "Lengkapi frasa 'siswa yang kemarin tidak mengerjakan PR'.",
+    "options": [
+      { "jp": "しない", "romaji": "shinai" },
+      { "jp": "しませんでした", "romaji": "shimasen deshita" },
+      { "jp": "しなかった", "romaji": "shinakatta" },
+      { "jp": "しなかっただ", "romaji": "shinakatta da" }
+    ],
+    "answer": 2,
+    "explain": "Karena ada keterangan waktu lampau きのう, bentuk biasa negatif lampau dari します adalah しなかった: 宿題を しなかった がくせい."
+  },
+  {
+    "id": "b22-40",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Anak Kalimat (Subjek の)",
+    "prompt": "「わたしの うまれた ところ」の 「の」は どの じょしと おなじ いみですか。",
+    "promptRomaji": "\"Watashi no umareta tokoro\" no \"no\" wa dono joshi to onaji imi desu ka.",
+    "sub": "Dalam anak kalimat pendek, subjek が boleh diganti dengan...",
+    "options": [
+      { "jp": "を", "romaji": "o" },
+      { "jp": "は", "romaji": "wa" },
+      { "jp": "で", "romaji": "de" },
+      { "jp": "が", "romaji": "ga" }
+    ],
+    "answer": 3,
+    "explain": "Di dalam anak kalimat penjelas kata benda, partikel subjek が boleh digantikan dengan の (わたしの うまれた ところ = わたしが うまれた ところ), tetapi tetap tidak boleh memakai は."
+  },
+  {
+    "id": "b22-41",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Pola V-る じかん",
+    "prompt": "きょうは いそがしくて、しんぶんを （　） じかんが ありません。",
+    "promptRomaji": "Kyou wa isogashikute, shinbun o _____ jikan ga arimasen.",
+    "sub": "Pilih bentuk kata kerja yang wajib dipakai sebelum じかん.",
+    "options": [
+      { "jp": "よむ", "romaji": "yomu" },
+      { "jp": "よみます", "romaji": "yomimasu" },
+      { "jp": "よんで", "romaji": "yonde" },
+      { "jp": "よんだ", "romaji": "yonda" }
+    ],
+    "answer": 0,
+    "explain": "Di depan じかん (waktu untuk ~), やくそく (janji untuk ~), dan ようじ (urusan untuk ~) selalu memakai Bentuk Kamus: よむ じかん."
+  },
+  {
+    "id": "b22-42",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Pola V-る やくそく",
+    "prompt": "らいしゅうの 土曜日に ともだちと えいがを （　） やくそくが あります。",
+    "promptRomaji": "Raishuu no doyoubi ni tomodachi to eiga o _____ yakusoku ga arimasu.",
+    "sub": "Pilih bentuk kata kerja sebelum やくそく (janji untuk menonton).",
+    "options": [
+      { "jp": "みます", "romaji": "mimasu" },
+      { "jp": "みる", "romaji": "miru" },
+      { "jp": "みて", "romaji": "mite" },
+      { "jp": "みた", "romaji": "mita" }
+    ],
+    "answer": 1,
+    "explain": "Pola 'ada janji untuk melakukan...' memakai Bentuk Kamus + やくそくが あります: みる やくそくが あります."
+  },
+  {
+    "id": "b22-43",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Pola V-る ようじ",
+    "prompt": "A：きょうの ごご、いっしょに かいものに いきませんか。\nB：すみません、ぎんこうへ （　） ようじが あります。",
+    "promptRomaji": "A: Kyou no gogo, issho ni kaimono ni ikimasen ka. B: Sumimasen, ginkou e _____ youji ga arimasu.",
+    "sub": "Pilih bentuk kata kerja untuk 'ada urusan pergi ke bank'.",
+    "options": [
+      { "jp": "いきます", "romaji": "ikimasu" },
+      { "jp": "いって", "romaji": "itte" },
+      { "jp": "いく", "romaji": "iku" },
+      { "jp": "いった", "romaji": "itta" }
+    ],
+    "answer": 2,
+    "explain": "Di depan ようじ (urusan untuk ~) selalu memakai Bentuk Kamus: いく ようじが あります."
+  },
+  {
+    "id": "b22-44",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Pilihan Konteks じかん・やくそく・ようじ",
+    "prompt": "「これから 市役所へ いく （　） が ありますから、おさきに しつれいします。」",
+    "promptRomaji": "\"Korekara shiyakusho e iku _____ ga arimasu kara, osaki ni shitsurei shimasu.\"",
+    "sub": "Pilih kata benda yang paling cocok dengan urusan resmi ke balai kota.",
+    "options": [
+      { "jp": "おしいれ", "romaji": "oshiire" },
+      { "jp": "つごう", "romaji": "tsugou" },
+      { "jp": "やちん", "romaji": "yachin" },
+      { "jp": "ようじ", "romaji": "youji" }
+    ],
+    "answer": 3,
+    "explain": "ようじ berarti urusan/keperluan, sangat tepat untuk keperluan pergi ke balai kota (市役所)."
+  },
+  {
+    "id": "b22-45",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Deteksi Kesalahan (Subjek & Partikel)",
+    "prompt": "Manakah kalimat anak kalimat penjelas benda yang BENAR secara tata bahasa?",
+    "promptRomaji": "Pilih kalimat anak kalimat yang benar (Bab 22)",
+    "sub": "Periksa partikel subjek が/は dan ujung sebelum です.",
+    "options": [
+      { "jp": "これは サントスさんが かった コーヒーです。", "romaji": "Kore wa Santosu-san ga katta koohii desu." },
+      { "jp": "これは サントスさんは かいた てがみです。", "romaji": "Kore wa Santosu-san wa kaita tegami desu." },
+      { "jp": "これは サントスさんが おくった にもつが です。", "romaji": "Kore wa Santosu-san ga okutta nimotsu ga desu." },
+      { "jp": "これは サントスさんが つくったの ケーキです。", "romaji": "Kore wa Santosu-san ga tsukutta no keeki desu." }
+    ],
+    "answer": 0,
+    "explain": "Kalimat yang benar memakai subjek が (サントスさんが), kata kerja biasa langsung menempel ke kata benda tanpa の, dan tanpa partikel tambahan sebelum です."
+  },
+  {
+    "id": "b22-46",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Deteksi Kesalahan (KS-な & Pakaian)",
+    "prompt": "Manakah kalimat berikut yang SALAH?",
+    "promptRomaji": "Deteksi kesalahan tata bahasa (Bab 22)",
+    "sub": "Periksa sambungan kata kerja pakaian atau kata sifat.",
+    "options": [
+      { "jp": "あそこで 白い ぼうしを かぶっている ひとは だれですか。", "romaji": "Asoko de shiroi boushi o kabutte iru hito wa dare desu ka." },
+      { "jp": "わたしは にぎやかだ まちに すみたいです。", "romaji": "Watashi wa nigiyaka da machi ni sumitai desu." },
+      { "jp": "あした ともだちと あう やくそくが あります。", "romaji": "Ashita tomodachi to au yakusoku ga arimasu." },
+      { "jp": "これは きょねん パリで かった コートです。", "romaji": "Kore wa kyonen Pari de katta kooto desu." }
+    ],
+    "answer": 1,
+    "explain": "にぎやか adalah KS-な, sehingga saat menjelaskan kata benda harus memakai な bukan だ: にぎやかな まち."
+  },
+  {
+    "id": "b22-47",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Pemahaman Kalimat",
+    "prompt": "「おしいれが あって、やちんが あまり 高くない アパートを さがして います。」の いみは どれですか。",
+    "promptRomaji": "\"Oshiire ga atte, yachin ga amari takakunai apaato o sagashite imasu.\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan yang paling akurat.",
+    "options": [
+      { "jp": "Saya sudah tinggal di apartemen yang uang sewanya mahal dan tidak punya lemari.", "romaji": "" },
+      { "jp": "Saya sedang membersihkan lemari di apartemen yang uang sewanya murah.", "romaji": "" },
+      { "jp": "Saya sedang mencari apartemen yang punya lemari dinding dan uang sewanya tidak terlalu mahal.", "romaji": "" },
+      { "jp": "Saya ingin menyewa apartemen baru tanpa lemari dinding.", "romaji": "" }
+    ],
+    "answer": 2,
+    "explain": "おしいれが あって = memiliki lemari dinding, やちんが あまり 高くない = uang sewanya tidak terlalu mahal, アパートを さがして います = sedang mencari apartemen."
+  },
+  {
+    "id": "b22-48",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Pemahaman Kalimat",
+    "prompt": "「あそこで しゃしんを とっている ひとが わたしの 兄です。」の いみは どれですか。",
+    "promptRomaji": "\"Asoko de shashin o totte iru hito ga watashi no ani desu.\" no imi wa dore desu ka.",
+    "sub": "Perhatikan bentuk ～ている dan subjek kalimat.",
+    "options": [
+      { "jp": "Kakak laki-laki saya akan memotret orang di sana.", "romaji": "" },
+      { "jp": "Orang yang sudah selesai memotret di sana adalah kakak laki-laki saya.", "romaji": "" },
+      { "jp": "Foto yang diambil di sana adalah milik kakak laki-laki saya.", "romaji": "" },
+      { "jp": "Orang yang sedang mengambil foto di sana adalah kakak laki-laki saya.", "romaji": "" }
+    ],
+    "answer": 3,
+    "explain": "とっている ひと berarti 'orang yang sedang memotret', dan sebagai topik/subjek utama kalimat dijelaskan sebagai わたしの 兄です."
+  },
+  {
+    "id": "b22-49",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Terjemahan Indonesia -> Jepang",
+    "prompt": "Terjemahkan: 'Kemarin saya tidak punya waktu untuk menelepon teman.'",
+    "promptRomaji": "Terjemahan Jepang (Bab 22)",
+    "sub": "Gunakan pola V-る じかんが ありませんでした.",
+    "options": [
+      { "jp": "きのう ともだちに でんわする じかんが ありませんでした。", "romaji": "Kinou tomodachi ni denwa suru jikan ga arimasen deshita." },
+      { "jp": "きのう ともだちに でんわした じかんが ありませんでした。", "romaji": "Kinou tomodachi ni denwa shita jikan ga arimasen deshita." },
+      { "jp": "きのう ともだちに でんわして じかんが ありませんでした。", "romaji": "Kinou tomodachi ni denwa shite jikan ga arimasen deshita." },
+      { "jp": "きのう ともだちに でんわします じかんが ありませんでした。", "romaji": "Kinou tomodachi ni denwa shimasu jikan ga arimasen deshita." }
+    ],
+    "answer": 0,
+    "explain": "Meskipun peristiwa terjadi kemarin (lampau di ありませんでした), kata kerja di depan じかん tetap memakai Bentuk Kamus (でんわする じかん)."
+  },
+  {
+    "id": "b22-50",
+    "bab": 22,
+    "type": "mcq",
+    "badge": "Bab 22 · Terjemahan Indonesia -> Jepang",
+    "prompt": "Terjemahkan: 'Ini adalah buku yang dipinjam dari perpustakaan minggu lalu.'",
+    "promptRomaji": "Terjemahan Jepang (Bab 22)",
+    "sub": "Perhatikan bentuk lampau kata kerja 'meminjam' (かります) sebelum ほん.",
+    "options": [
+      { "jp": "これは せんしゅう としょかんで かりる ほんです。", "romaji": "Kore wa senshuu toshokan de kariru hon desu." },
+      { "jp": "これは せんしゅう としょかんで かりた ほんです。", "romaji": "Kore wa senshuu toshokan de karita hon desu." },
+      { "jp": "これは せんしゅう としょかんで かりった ほんです。", "romaji": "Kore wa senshuu toshokan de karitta hon desu." },
+      { "jp": "これは せんしゅう としょかんで かりた ほんが です。", "romaji": "Kore wa senshuu toshokan de karita hon ga desu." }
+    ],
+    "answer": 1,
+    "explain": "かります adalah kata kerja Kelompok II sehingga bentuk -ta nya adalah かりた (bukan かりった), lalu menempel langsung pada ほんです."
+  }
+]

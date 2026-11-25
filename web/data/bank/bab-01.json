@@ -1,0 +1,1452 @@
+[
+  {
+    "id": "b1-01",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Partikel は",
+    "prompt": "わたし （　） マイク・ミラーです。",
+    "promptRomaji": "Watashi ( ) Maiku Miraa desu.",
+    "sub": "Pilih partikel penanda topik. (Saya Mike Miller.)",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "は",
+        "romaji": "wa"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      }
+    ],
+    "answer": 1,
+    "explain": "は menandai topik kalimat dan dibaca 'wa'."
+  },
+  {
+    "id": "b1-02",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Negatif",
+    "prompt": "サントスさんは がくせい （　） 。",
+    "promptRomaji": "Santosu-san wa gakusei ( ).",
+    "sub": "Sdr. Santos bukan mahasiswa.",
+    "options": [
+      {
+        "jp": "ません",
+        "romaji": "masen"
+      },
+      {
+        "jp": "くないです",
+        "romaji": "kunai desu"
+      },
+      {
+        "jp": "じゃあります",
+        "romaji": "ja arimasu"
+      },
+      {
+        "jp": "じゃありません",
+        "romaji": "ja arimasen"
+      }
+    ],
+    "answer": 3,
+    "explain": "Kata benda dinegatifkan dengan じゃありません, bukan くないです."
+  },
+  {
+    "id": "b1-03",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Partikel も",
+    "prompt": "ミラーさんは かいしゃいんです。グプタさん （　） かいしゃいんです。",
+    "promptRomaji": "Miraa-san wa kaishain desu. Guputa-san ( ) kaishain desu.",
+    "sub": "Sdr. Gupta juga pegawai perusahaan.",
+    "options": [
+      {
+        "jp": "は",
+        "romaji": "wa"
+      },
+      {
+        "jp": "の",
+        "romaji": "no"
+      },
+      {
+        "jp": "も",
+        "romaji": "mo"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      }
+    ],
+    "answer": 2,
+    "explain": "も menggantikan は untuk menyatakan 'juga'."
+  },
+  {
+    "id": "b1-04",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Partikel の",
+    "prompt": "ミラーさんは IMC （　） しゃいんです。",
+    "promptRomaji": "Miraa-san wa IMC ( ) shain desu.",
+    "sub": "Sdr. Miller pegawai perusahaan IMC.",
+    "options": [
+      {
+        "jp": "も",
+        "romaji": "mo"
+      },
+      {
+        "jp": "は",
+        "romaji": "wa"
+      },
+      {
+        "jp": "か",
+        "romaji": "ka"
+      },
+      {
+        "jp": "の",
+        "romaji": "no"
+      }
+    ],
+    "answer": 3,
+    "explain": "N1 の N2 menghubungkan organisasi dengan status: IMC の しゃいん."
+  },
+  {
+    "id": "b1-05",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Kata Tanya Sopan",
+    "prompt": "あのかたは （　） ですか。",
+    "promptRomaji": "Ano kata wa ( ) desu ka.",
+    "sub": "Beliau siapa?",
+    "options": [
+      {
+        "jp": "どこ",
+        "romaji": "doko"
+      },
+      {
+        "jp": "どなた",
+        "romaji": "donata"
+      },
+      {
+        "jp": "なんさい",
+        "romaji": "nansai"
+      },
+      {
+        "jp": "なに",
+        "romaji": "nani"
+      }
+    ],
+    "answer": 1,
+    "explain": "どなた adalah bentuk sopan dari だれ dan cocok dengan あのかた."
+  },
+  {
+    "id": "b1-06",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Umur Khusus",
+    "prompt": "「20歳」の よみかたは どれですか。",
+    "promptRomaji": "20-sai no yomikata wa dore desu ka.",
+    "sub": "Bacaan khusus untuk umur 20 tahun.",
+    "options": [
+      {
+        "jp": "はたつ",
+        "romaji": "hatatsu"
+      },
+      {
+        "jp": "にじゅうさい",
+        "romaji": "nijuusai"
+      },
+      {
+        "jp": "はたち",
+        "romaji": "hatachi"
+      },
+      {
+        "jp": "にじゅっさい",
+        "romaji": "nijuusai"
+      }
+    ],
+    "answer": 2,
+    "explain": "Umur 20 tahun dibaca はたち (hatachi), bukan にじゅっさい."
+  },
+  {
+    "id": "b1-07",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Jawaban Singkat",
+    "prompt": "あなたは がくせい ですか。…はい、（　） です。",
+    "promptRomaji": "Anata wa gakusei desu ka. ...Hai, ( ) desu.",
+    "sub": "Jawaban singkat untuk 'Ya, benar'.",
+    "options": [
+      {
+        "jp": "そう",
+        "romaji": "sou"
+      },
+      {
+        "jp": "どの",
+        "romaji": "dono"
+      },
+      {
+        "jp": "あの",
+        "romaji": "ano"
+      },
+      {
+        "jp": "なん",
+        "romaji": "nan"
+      }
+    ],
+    "answer": 0,
+    "explain": "そうです berarti 'ya, benar begitu'."
+  },
+  {
+    "id": "b1-08",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Positif",
+    "prompt": "わたしは にほんじん （　） 。",
+    "promptRomaji": "Watashi wa Nihonjin ( ).",
+    "sub": "Saya orang Jepang.",
+    "options": [
+      {
+        "jp": "じゃありません",
+        "romaji": "ja arimasen"
+      },
+      {
+        "jp": "です",
+        "romaji": "desu"
+      },
+      {
+        "jp": "でしたか",
+        "romaji": "deshita ka"
+      },
+      {
+        "jp": "ません",
+        "romaji": "masen"
+      }
+    ],
+    "answer": 1,
+    "explain": "Kalimat kata benda positif non-lampau ditutup dengan です."
+  },
+  {
+    "id": "b1-09",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Afiliasi",
+    "prompt": "あのひとは だれ ですか。…さくらだいがく （　） ワットさんです。",
+    "promptRomaji": "Ano hito wa dare desu ka. ...Sakura daigaku ( ) Watto-san desu.",
+    "sub": "Orang itu Sdr. Watt dari Universitas Sakura.",
+    "options": [
+      {
+        "jp": "は",
+        "romaji": "wa"
+      },
+      {
+        "jp": "の",
+        "romaji": "no"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "も",
+        "romaji": "mo"
+      }
+    ],
+    "answer": 1,
+    "explain": "の menghubungkan institusi dengan orangnya: さくらだいがくの ワットさん."
+  },
+  {
+    "id": "b1-10",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Partikel も",
+    "prompt": "わたしは がくせいです。ヤンさん （　） がくせいです。",
+    "promptRomaji": "Watashi wa gakusei desu. Yan-san ( ) gakusei desu.",
+    "sub": "Sdr. Yan juga mahasiswa.",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "は",
+        "romaji": "wa"
+      },
+      {
+        "jp": "の",
+        "romaji": "no"
+      },
+      {
+        "jp": "も",
+        "romaji": "mo"
+      }
+    ],
+    "answer": 3,
+    "explain": "も dipakai karena predikatnya sama dengan kalimat sebelumnya."
+  },
+  {
+    "id": "b1-11",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Negatif",
+    "prompt": "ミラーさんは アメリカじん （　） 。",
+    "promptRomaji": "Miraa-san wa Amerika-jin ( ).",
+    "sub": "Sdr. Miller bukan orang Amerika.",
+    "options": [
+      {
+        "jp": "じゃありません",
+        "romaji": "ja arimasen"
+      },
+      {
+        "jp": "です",
+        "romaji": "desu"
+      },
+      {
+        "jp": "でした",
+        "romaji": "deshita"
+      },
+      {
+        "jp": "ません",
+        "romaji": "masen"
+      }
+    ],
+    "answer": 0,
+    "explain": "Negatif kata benda non-lampau memakai じゃありません."
+  },
+  {
+    "id": "b1-12",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Profesi",
+    "prompt": "ミラーさんは いしゃ （　） 。",
+    "promptRomaji": "Miraa-san wa isha ( ).",
+    "sub": "Sdr. Miller dokter.",
+    "options": [
+      {
+        "jp": "でした",
+        "romaji": "deshita"
+      },
+      {
+        "jp": "ません",
+        "romaji": "masen"
+      },
+      {
+        "jp": "じゃありません",
+        "romaji": "ja arimasen"
+      },
+      {
+        "jp": "です",
+        "romaji": "desu"
+      }
+    ],
+    "answer": 3,
+    "explain": "Profesi adalah kata benda, jadi predikat positifnya です."
+  },
+  {
+    "id": "b1-13",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Jawaban Negatif",
+    "prompt": "あなたは せんせい ですか。…いいえ、（　） 。",
+    "promptRomaji": "Anata wa sensei desu ka. ...Iie, ( ).",
+    "sub": "Tidak, saya bukan guru.",
+    "options": [
+      {
+        "jp": "そうですか",
+        "romaji": "sou desu ka"
+      },
+      {
+        "jp": "せんせいじゃありません",
+        "romaji": "sensei ja arimasen"
+      },
+      {
+        "jp": "せんせいですか",
+        "romaji": "sensei desu ka"
+      },
+      {
+        "jp": "せんせいです",
+        "romaji": "sensei desu"
+      }
+    ],
+    "answer": 1,
+    "explain": "Jawaban negatif lengkap: せんせいじゃありません."
+  },
+  {
+    "id": "b1-14",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Jawaban Positif",
+    "prompt": "マリアさんは フィリピンじん ですか。…はい、（　） 。",
+    "promptRomaji": "Maria-san wa Firipin-jin desu ka. ...Hai, ( ).",
+    "sub": "Ya, Maria orang Filipina.",
+    "options": [
+      {
+        "jp": "そうじゃありません",
+        "romaji": "sou ja arimasen"
+      },
+      {
+        "jp": "そうです",
+        "romaji": "sou desu"
+      },
+      {
+        "jp": "そうですか",
+        "romaji": "sou desu ka"
+      },
+      {
+        "jp": "ちがいます",
+        "romaji": "chigaimasu"
+      }
+    ],
+    "answer": 1,
+    "explain": "そうです dipakai untuk membenarkan pertanyaan kata benda."
+  },
+  {
+    "id": "b1-15",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Kata Tanya",
+    "prompt": "おなまえは （　） ですか。",
+    "promptRomaji": "Onamae wa ( ) desu ka.",
+    "sub": "Siapa nama Anda?",
+    "options": [
+      {
+        "jp": "なん",
+        "romaji": "nan"
+      },
+      {
+        "jp": "だれ",
+        "romaji": "dare"
+      },
+      {
+        "jp": "どなた",
+        "romaji": "donata"
+      },
+      {
+        "jp": "どこ",
+        "romaji": "doko"
+      }
+    ],
+    "answer": 0,
+    "explain": "おなまえは なんですか adalah pola tetap untuk menanyakan nama."
+  },
+  {
+    "id": "b1-16",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Kata Tanya Sopan",
+    "prompt": "おくには （　） ですか。",
+    "promptRomaji": "Okuni wa ( ) desu ka.",
+    "sub": "Negara asal Anda di mana?",
+    "options": [
+      {
+        "jp": "なんさい",
+        "romaji": "nansai"
+      },
+      {
+        "jp": "だれ",
+        "romaji": "dare"
+      },
+      {
+        "jp": "どちら",
+        "romaji": "dochira"
+      },
+      {
+        "jp": "いくら",
+        "romaji": "ikura"
+      }
+    ],
+    "answer": 2,
+    "explain": "どちら adalah bentuk sopan untuk menanyakan asal/arah."
+  },
+  {
+    "id": "b1-17",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Umur Khusus",
+    "prompt": "「8歳」の よみかたは どれですか。",
+    "promptRomaji": "8-sai no yomikata wa dore desu ka.",
+    "sub": "Bacaan untuk umur 8 tahun.",
+    "options": [
+      {
+        "jp": "はっさい",
+        "romaji": "hassai"
+      },
+      {
+        "jp": "やっさい",
+        "romaji": "yassai"
+      },
+      {
+        "jp": "はちさい",
+        "romaji": "hachisai"
+      },
+      {
+        "jp": "はちゅうさい",
+        "romaji": "hachuusai"
+      }
+    ],
+    "answer": 0,
+    "explain": "8歳 dibaca はっさい (hassai), dengan bunyi っ."
+  },
+  {
+    "id": "b1-18",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Umur Khusus",
+    "prompt": "「1歳」の よみかたは どれですか。",
+    "promptRomaji": "1-sai no yomikata wa dore desu ka.",
+    "sub": "Bacaan untuk umur 1 tahun.",
+    "options": [
+      {
+        "jp": "ひとつ",
+        "romaji": "hitotsu"
+      },
+      {
+        "jp": "いちさい",
+        "romaji": "ichisai"
+      },
+      {
+        "jp": "いっつ",
+        "romaji": "ittsu"
+      },
+      {
+        "jp": "いっさい",
+        "romaji": "issai"
+      }
+    ],
+    "answer": 3,
+    "explain": "1歳 dibaca いっさい (issai)."
+  },
+  {
+    "id": "b1-19",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Umur Khusus",
+    "prompt": "「10歳」の よみかたは どれですか。",
+    "promptRomaji": "10-sai no yomikata wa dore desu ka.",
+    "sub": "Bacaan untuk umur 10 tahun.",
+    "options": [
+      {
+        "jp": "じゅっさい",
+        "romaji": "jussai"
+      },
+      {
+        "jp": "とおさい",
+        "romaji": "toosai"
+      },
+      {
+        "jp": "じゅうさい",
+        "romaji": "juusai"
+      },
+      {
+        "jp": "じっさい",
+        "romaji": "jissai"
+      }
+    ],
+    "answer": 0,
+    "explain": "10歳 dibaca じゅっさい (jussai)."
+  },
+  {
+    "id": "b1-20",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Kalimat Positif",
+    "prompt": "「Saya orang Indonesia」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Pilih kalimat positif yang tepat.",
+    "options": [
+      {
+        "jp": "わたしは インドネシアごです。",
+        "romaji": "Watashi wa Indonesia-go desu."
+      },
+      {
+        "jp": "わたしは インドネシアじんですか。",
+        "romaji": "Watashi wa Indonesia-jin desu ka."
+      },
+      {
+        "jp": "わたしは インドネシアじんじゃありません。",
+        "romaji": "Watashi wa Indonesia-jin ja arimasen."
+      },
+      {
+        "jp": "わたしは インドネシアじんです。",
+        "romaji": "Watashi wa Indonesia-jin desu."
+      }
+    ],
+    "answer": 3,
+    "explain": "Kebangsaan memakai ～じん, bukan ～ご (～ご = bahasa)."
+  },
+  {
+    "id": "b1-21",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Partikel も",
+    "prompt": "「Sdr. Kimura juga guru」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Pilih kalimat yang menyatakan 'juga'.",
+    "options": [
+      {
+        "jp": "キムラさんも がくせいです。",
+        "romaji": "Kimura-san mo gakusei desu."
+      },
+      {
+        "jp": "キムラさんは せんせいじゃありません。",
+        "romaji": "Kimura-san wa sensei ja arimasen."
+      },
+      {
+        "jp": "キムラさんも せんせいです。",
+        "romaji": "Kimura-san mo sensei desu."
+      },
+      {
+        "jp": "キムラさんは せんせいですか。",
+        "romaji": "Kimura-san wa sensei desu ka."
+      }
+    ],
+    "answer": 2,
+    "explain": "も berarti 'juga', dan せんせい berarti guru."
+  },
+  {
+    "id": "b1-22",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Kalimat Tanya",
+    "prompt": "「Apakah Anda pegawai bank?」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Pilih kalimat tanya yang tepat.",
+    "options": [
+      {
+        "jp": "あなたは ぎんこういんですか。",
+        "romaji": "Anata wa ginkouin desu ka."
+      },
+      {
+        "jp": "あなたも ぎんこういんです。",
+        "romaji": "Anata mo ginkouin desu."
+      },
+      {
+        "jp": "あなたは ぎんこういんです。",
+        "romaji": "Anata wa ginkouin desu."
+      },
+      {
+        "jp": "あなたは ぎんこういんじゃありません。",
+        "romaji": "Anata wa ginkouin ja arimasen."
+      }
+    ],
+    "answer": 0,
+    "explain": "か di akhir kalimat mengubah pernyataan menjadi pertanyaan."
+  },
+  {
+    "id": "b1-23",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Arti Negatif",
+    "prompt": "あのかたは いしゃじゃありません。",
+    "promptRomaji": "Ano kata wa isha ja arimasen.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Apakah beliau dokter?",
+        "romaji": ""
+      },
+      {
+        "jp": "Beliau juga dokter.",
+        "romaji": ""
+      },
+      {
+        "jp": "Beliau bukan dokter.",
+        "romaji": ""
+      },
+      {
+        "jp": "Beliau dokter.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "じゃありません adalah negatif dari です."
+  },
+  {
+    "id": "b1-24",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Arti Kata Tanya",
+    "prompt": "あのかたは どなたですか。",
+    "promptRomaji": "Ano kata wa donata desu ka.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Berapa umur beliau?",
+        "romaji": ""
+      },
+      {
+        "jp": "Beliau siapa?",
+        "romaji": ""
+      },
+      {
+        "jp": "Siapa orang itu (biasa)?",
+        "romaji": ""
+      },
+      {
+        "jp": "Di mana beliau?",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "どなた adalah bentuk sopan dari だれ."
+  },
+  {
+    "id": "b1-25",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Kesopanan",
+    "prompt": "Bentuk sopan dari 「あのひと」 adalah...",
+    "promptRomaji": "Ano hito no teinei na katachi.",
+    "sub": "Pilih bentuk yang lebih sopan.",
+    "options": [
+      {
+        "jp": "あちら",
+        "romaji": "achira"
+      },
+      {
+        "jp": "あのかた",
+        "romaji": "ano kata"
+      },
+      {
+        "jp": "どなた",
+        "romaji": "donata"
+      },
+      {
+        "jp": "だれ",
+        "romaji": "dare"
+      }
+    ],
+    "answer": 1,
+    "explain": "あのかた adalah bentuk sopan dari あのひと."
+  },
+  {
+    "id": "b1-26",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Perkenalan Diri",
+    "prompt": "Manakah perkenalan diri yang benar?",
+    "promptRomaji": "Jibun no namae wa 'san' o tsukemasen.",
+    "sub": "Ingat aturan pemakaian ～さん.",
+    "options": [
+      {
+        "jp": "わたしは ミラーです。",
+        "romaji": "Watashi wa Miraa desu."
+      },
+      {
+        "jp": "わたしは ミラーくんです。",
+        "romaji": "Watashi wa Miraa-kun desu."
+      },
+      {
+        "jp": "わたしは ミラーさんです。",
+        "romaji": "Watashi wa Miraa-san desu."
+      },
+      {
+        "jp": "わたしは ミラーちゃんです。",
+        "romaji": "Watashi wa Miraa-chan desu."
+      }
+    ],
+    "answer": 0,
+    "explain": "Jangan memakai ～さん, ～ちゃん, atau ～くん untuk nama sendiri."
+  },
+  {
+    "id": "b1-27",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Bacaan Partikel",
+    "prompt": "Partikel は dalam 「わたしは がくせいです」 dibaca...",
+    "promptRomaji": "Partikel 'ha' dalam kalimat tersebut dibaca...",
+    "sub": "Pilih bacaan yang benar.",
+    "options": [
+      {
+        "jp": "ha",
+        "romaji": "ha"
+      },
+      {
+        "jp": "wa",
+        "romaji": "wa"
+      },
+      {
+        "jp": "o",
+        "romaji": "o"
+      },
+      {
+        "jp": "e",
+        "romaji": "e"
+      }
+    ],
+    "answer": 1,
+    "explain": "Partikel は ditulis 'ha' tetapi dibaca 'wa'."
+  },
+  {
+    "id": "b1-28",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Kata Tanya Sopan",
+    "prompt": "Bentuk sopan dari 「だれ」 adalah...",
+    "promptRomaji": "Dare no teinei na katachi.",
+    "sub": "Pilih kata tanya yang lebih sopan.",
+    "options": [
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      },
+      {
+        "jp": "どなた",
+        "romaji": "donata"
+      },
+      {
+        "jp": "どこ",
+        "romaji": "doko"
+      },
+      {
+        "jp": "いくら",
+        "romaji": "ikura"
+      }
+    ],
+    "answer": 1,
+    "explain": "どなた adalah bentuk sopan dari だれ."
+  },
+  {
+    "id": "b1-29",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Kata Tanya Sopan",
+    "prompt": "Bentuk sopan dari 「なんさい」 adalah...",
+    "promptRomaji": "Nansai no teinei na katachi.",
+    "sub": "Pilih kata tanya umur yang lebih sopan.",
+    "options": [
+      {
+        "jp": "おいくつ",
+        "romaji": "oikutsu"
+      },
+      {
+        "jp": "いつつ",
+        "romaji": "itsutsu"
+      },
+      {
+        "jp": "いくら",
+        "romaji": "ikura"
+      },
+      {
+        "jp": "どちら",
+        "romaji": "dochira"
+      }
+    ],
+    "answer": 0,
+    "explain": "おいくつ adalah bentuk sopan untuk menanyakan umur."
+  },
+  {
+    "id": "b1-30",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Afiliasi",
+    "prompt": "「Pegawai perusahaan IMC」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Pilih urutan yang benar.",
+    "options": [
+      {
+        "jp": "IMCも しゃいん",
+        "romaji": "IMC mo shain"
+      },
+      {
+        "jp": "IMCは しゃいん",
+        "romaji": "IMC wa shain"
+      },
+      {
+        "jp": "IMCの しゃいん",
+        "romaji": "IMC no shain"
+      },
+      {
+        "jp": "しゃいんの IMC",
+        "romaji": "shain no IMC"
+      }
+    ],
+    "answer": 2,
+    "explain": "Organisasi の status: IMC の しゃいん."
+  },
+  {
+    "id": "b1-31",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Afiliasi",
+    "prompt": "「Mahasiswa Universitas Sakura」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Pilih urutan yang benar.",
+    "options": [
+      {
+        "jp": "さくらだいがくは がくせい",
+        "romaji": "Sakura daigaku wa gakusei"
+      },
+      {
+        "jp": "さくらだいがくの がくせい",
+        "romaji": "Sakura daigaku no gakusei"
+      },
+      {
+        "jp": "がくせいの さくらだいがく",
+        "romaji": "gakusei no Sakura daigaku"
+      },
+      {
+        "jp": "さくらだいがくも がくせい",
+        "romaji": "Sakura daigaku mo gakusei"
+      }
+    ],
+    "answer": 1,
+    "explain": "Institusi の orang: さくらだいがくの がくせい."
+  },
+  {
+    "id": "b1-32",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Afiliasi",
+    "prompt": "「Dosen Universitas Sakura」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Pilih urutan yang benar.",
+    "options": [
+      {
+        "jp": "さくらだいがくの せんせい",
+        "romaji": "Sakura daigaku no sensei"
+      },
+      {
+        "jp": "さくらだいがくの がくせい",
+        "romaji": "Sakura daigaku no gakusei"
+      },
+      {
+        "jp": "さくらだいがくも せんせい",
+        "romaji": "Sakura daigaku mo sensei"
+      },
+      {
+        "jp": "せんせいの さくらだいがく",
+        "romaji": "sensei no Sakura daigaku"
+      }
+    ],
+    "answer": 0,
+    "explain": "Institusi の orang: さくらだいがくの せんせい."
+  },
+  {
+    "id": "b1-33",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Arti Negatif",
+    "prompt": "わたしは がくせいじゃありません。",
+    "promptRomaji": "Watashi wa gakusei ja arimasen.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Saya bukan mahasiswa.",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya juga mahasiswa.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah saya mahasiswa?",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya mahasiswa.",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "じゃありません menyatakan negatif."
+  },
+  {
+    "id": "b1-34",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Arti Tanya",
+    "prompt": "サントスさんは ブラジルじんですか。",
+    "promptRomaji": "Santosu-san wa Burajiru-jin desu ka.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Sdr. Santos bukan orang Brasil.",
+        "romaji": ""
+      },
+      {
+        "jp": "Sdr. Santos juga orang Brasil.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah Sdr. Santos orang Brasil?",
+        "romaji": ""
+      },
+      {
+        "jp": "Sdr. Santos orang Brasil.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "か di akhir kalimat menandakan pertanyaan."
+  },
+  {
+    "id": "b1-35",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Arti Jawaban",
+    "prompt": "はい、ブラジルじんです。",
+    "promptRomaji": "Hai, Burajiru-jin desu.",
+    "sub": "Apa arti jawaban tersebut?",
+    "options": [
+      {
+        "jp": "Bukan, orang Brasil.",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya orang Brasil.",
+        "romaji": ""
+      },
+      {
+        "jp": "Ya, (dia) orang Brasil.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah orang Brasil?",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "はい membenarkan, dan ブラジルじん berarti orang Brasil."
+  },
+  {
+    "id": "b1-36",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Arti Jawaban",
+    "prompt": "いいえ、そうじゃありません。",
+    "promptRomaji": "Iie, sou ja arimasen.",
+    "sub": "Apa arti jawaban tersebut?",
+    "options": [
+      {
+        "jp": "Oh, begitu ya.",
+        "romaji": ""
+      },
+      {
+        "jp": "Tidak, bukan begitu.",
+        "romaji": ""
+      },
+      {
+        "jp": "Ya, begitu.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah begitu?",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "いいえ = tidak, そうじゃありません = bukan begitu."
+  },
+  {
+    "id": "b1-37",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Ungkapan",
+    "prompt": "そうですか。 (intonasi turun)",
+    "promptRomaji": "Sou desu ka. (intonasi turun)",
+    "sub": "Apa makna ungkapan tersebut?",
+    "options": [
+      {
+        "jp": "Apakah begitu?",
+        "romaji": ""
+      },
+      {
+        "jp": "Bukan begitu.",
+        "romaji": ""
+      },
+      {
+        "jp": "Ya, begitu.",
+        "romaji": ""
+      },
+      {
+        "jp": "Oh, begitu ya.",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "Dengan intonasi turun, そうですか berarti 'oh, begitu ya'."
+  },
+  {
+    "id": "b1-38",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Kosakata Profesi",
+    "prompt": "「dokter」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "dokter = ?",
+    "sub": "Pilih kosakata yang tepat.",
+    "options": [
+      {
+        "jp": "けんきゅうしゃ",
+        "romaji": "kenkyuusha"
+      },
+      {
+        "jp": "せんせい",
+        "romaji": "sensei"
+      },
+      {
+        "jp": "ぎんこういん",
+        "romaji": "ginkouin"
+      },
+      {
+        "jp": "いしゃ",
+        "romaji": "isha"
+      }
+    ],
+    "answer": 3,
+    "explain": "いしゃ berarti dokter."
+  },
+  {
+    "id": "b1-39",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Kosakata Profesi",
+    "prompt": "「pegawai bank」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "pegawai bank = ?",
+    "sub": "Pilih kosakata yang tepat.",
+    "options": [
+      {
+        "jp": "いしゃ",
+        "romaji": "isha"
+      },
+      {
+        "jp": "がくせい",
+        "romaji": "gakusei"
+      },
+      {
+        "jp": "ぎんこういん",
+        "romaji": "ginkouin"
+      },
+      {
+        "jp": "かいしゃいん",
+        "romaji": "kaishain"
+      }
+    ],
+    "answer": 2,
+    "explain": "ぎんこういん berarti pegawai bank."
+  },
+  {
+    "id": "b1-40",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Kosakata Profesi",
+    "prompt": "「peneliti」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "peneliti = ?",
+    "sub": "Pilih kosakata yang tepat.",
+    "options": [
+      {
+        "jp": "いしゃ",
+        "romaji": "isha"
+      },
+      {
+        "jp": "きょうし",
+        "romaji": "kyoushi"
+      },
+      {
+        "jp": "けんきゅうしゃ",
+        "romaji": "kenkyuusha"
+      },
+      {
+        "jp": "しゃいん",
+        "romaji": "shain"
+      }
+    ],
+    "answer": 2,
+    "explain": "けんきゅうしゃ berarti peneliti."
+  },
+  {
+    "id": "b1-41",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Kosakata Profesi",
+    "prompt": "Profesi 「guru」 yang dipakai untuk diri sendiri adalah...",
+    "promptRomaji": "Profesi guru untuk diri sendiri.",
+    "sub": "Jangan memakai せんせい untuk diri sendiri.",
+    "options": [
+      {
+        "jp": "せんぱい",
+        "romaji": "senpai"
+      },
+      {
+        "jp": "せんせい",
+        "romaji": "sensei"
+      },
+      {
+        "jp": "きょうし",
+        "romaji": "kyoushi"
+      },
+      {
+        "jp": "がくせい",
+        "romaji": "gakusei"
+      }
+    ],
+    "answer": 2,
+    "explain": "きょうし dipakai untuk menyebut profesi sendiri; せんせい untuk orang lain."
+  },
+  {
+    "id": "b1-42",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Kosakata Tempat",
+    "prompt": "「universitas」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "universitas = ?",
+    "sub": "Pilih kosakata yang tepat.",
+    "options": [
+      {
+        "jp": "だいがく",
+        "romaji": "daigaku"
+      },
+      {
+        "jp": "ぎんこう",
+        "romaji": "ginkou"
+      },
+      {
+        "jp": "びょういん",
+        "romaji": "byouin"
+      },
+      {
+        "jp": "かいしゃ",
+        "romaji": "kaisha"
+      }
+    ],
+    "answer": 0,
+    "explain": "だいがく berarti universitas."
+  },
+  {
+    "id": "b1-43",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Kosakata Tempat",
+    "prompt": "「rumah sakit」 dalam bahasa Jepang adalah...",
+    "promptRomaji": "rumah sakit = ?",
+    "sub": "Pilih kosakata yang tepat.",
+    "options": [
+      {
+        "jp": "かいぎしつ",
+        "romaji": "kaigishitsu"
+      },
+      {
+        "jp": "ぎんこう",
+        "romaji": "ginkou"
+      },
+      {
+        "jp": "だいがく",
+        "romaji": "daigaku"
+      },
+      {
+        "jp": "びょういん",
+        "romaji": "byouin"
+      }
+    ],
+    "answer": 3,
+    "explain": "びょういん berarti rumah sakit."
+  },
+  {
+    "id": "b1-44",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Arti も",
+    "prompt": "たなかさんも ぎんこういんです。",
+    "promptRomaji": "Tanaka-san mo ginkouin desu.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Sdr. Tanaka bukan pegawai bank.",
+        "romaji": ""
+      },
+      {
+        "jp": "Sdr. Tanaka juga pegawai bank.",
+        "romaji": ""
+      },
+      {
+        "jp": "Sdr. Tanaka pegawai bank.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah Sdr. Tanaka pegawai bank?",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "も menambahkan makna 'juga'."
+  },
+  {
+    "id": "b1-45",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Arti Tanya",
+    "prompt": "あなたは にほんじんですか。",
+    "promptRomaji": "Anata wa Nihonjin desu ka.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Anda bukan orang Jepang.",
+        "romaji": ""
+      },
+      {
+        "jp": "Anda juga orang Jepang.",
+        "romaji": ""
+      },
+      {
+        "jp": "Anda orang Jepang.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah Anda orang Jepang?",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "か di akhir kalimat membuatnya menjadi pertanyaan."
+  },
+  {
+    "id": "b1-46",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Arti Positif",
+    "prompt": "わたしは にほんじんです。",
+    "promptRomaji": "Watashi wa Nihonjin desu.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Saya orang Indonesia.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah saya orang Jepang?",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya orang Jepang.",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya bukan orang Jepang.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "にほんじん = orang Jepang; です = adalah."
+  },
+  {
+    "id": "b1-47",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Arti Negatif",
+    "prompt": "わたしは アメリカじんじゃありません。",
+    "promptRomaji": "Watashi wa Amerika-jin ja arimasen.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Saya bukan orang Amerika.",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya juga orang Amerika.",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya orang Amerika.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah saya orang Amerika?",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "じゃありません menyangkal predikat."
+  },
+  {
+    "id": "b1-48",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Arti Tanya",
+    "prompt": "あのひとは だれですか。",
+    "promptRomaji": "Ano hito wa dare desu ka.",
+    "sub": "Apa arti kalimat tersebut?",
+    "options": [
+      {
+        "jp": "Berapa umur orang itu?",
+        "romaji": ""
+      },
+      {
+        "jp": "Di mana orang itu?",
+        "romaji": ""
+      },
+      {
+        "jp": "Siapa orang itu?",
+        "romaji": ""
+      },
+      {
+        "jp": "Siapa beliau (sopan)?",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "だれ = siapa; あのひと = orang itu (biasa)."
+  },
+  {
+    "id": "b1-49",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Kesopanan",
+    "prompt": "Pertanyaan yang paling sopan untuk menanyakan umur adalah...",
+    "promptRomaji": "Ichiban teinei na toikata.",
+    "sub": "Pilih bentuk paling sopan.",
+    "options": [
+      {
+        "jp": "どちらですか。",
+        "romaji": "dochira desu ka"
+      },
+      {
+        "jp": "だれですか。",
+        "romaji": "dare desu ka"
+      },
+      {
+        "jp": "なんさいですか。",
+        "romaji": "nansai desu ka"
+      },
+      {
+        "jp": "おいくつですか。",
+        "romaji": "oikutsu desu ka"
+      }
+    ],
+    "answer": 3,
+    "explain": "おいくつ adalah bentuk paling sopan untuk menanyakan umur."
+  },
+  {
+    "id": "b1-50",
+    "bab": 1,
+    "type": "mcq",
+    "badge": "Bab 1 · Negatif Formal",
+    "prompt": "Bentuk negatif formal dari 「じゃありません」 adalah...",
+    "promptRomaji": "Ja arimasen no seishiki na katachi.",
+    "sub": "Dipakai dalam tulisan atau pidato resmi.",
+    "options": [
+      {
+        "jp": "では あります",
+        "romaji": "dewa arimasu"
+      },
+      {
+        "jp": "じゃ あります",
+        "romaji": "ja arimasu"
+      },
+      {
+        "jp": "くないです",
+        "romaji": "kunai desu"
+      },
+      {
+        "jp": "では ありません",
+        "romaji": "dewa arimasen"
+      }
+    ],
+    "answer": 3,
+    "explain": "では ありません adalah versi formal dari じゃありません."
+  }
+]

@@ -1,0 +1,1454 @@
+/* AUTO-GENERATED dari bab-05.json — jangan edit manual. */
+window.MNN_BANK = window.MNN_BANK || {};
+window.MNN_BANK[5] = [
+  {
+    "id": "b5-01",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Partikel へ",
+    "prompt": "わたしは あした 日本（　） 行きます。",
+    "promptRomaji": "Watashi wa ashita Nihon ( ) ikimasu.",
+    "sub": "Pilih partikel arah tujuan. (Saya besok pergi ke Jepang.)",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "へ",
+        "romaji": "e"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      }
+    ],
+    "answer": 2,
+    "explain": "へ menandai arah tujuan perpindahan dan dibaca 'e'."
+  },
+  {
+    "id": "b5-02",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Bacaan へ",
+    "prompt": "Partikel へ dalam 「がっこうへ 行きます」 dibaca...",
+    "promptRomaji": "Partikel 'he' dalam kalimat tersebut dibaca...",
+    "sub": "Pilih bacaan yang benar.",
+    "options": [
+      {
+        "jp": "he",
+        "romaji": "he"
+      },
+      {
+        "jp": "wa",
+        "romaji": "wa"
+      },
+      {
+        "jp": "o",
+        "romaji": "o"
+      },
+      {
+        "jp": "e",
+        "romaji": "e"
+      }
+    ],
+    "answer": 3,
+    "explain": "Partikel へ ditulis 'he' tetapi dibaca 'e'."
+  },
+  {
+    "id": "b5-03",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Partikel へ",
+    "prompt": "あの バスは えき（　） 行きますか。",
+    "promptRomaji": "Ano basu wa eki ( ) ikimasu ka.",
+    "sub": "Pilih partikel arah. (Apakah bus itu pergi ke stasiun?)",
+    "options": [
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "へ",
+        "romaji": "e"
+      }
+    ],
+    "answer": 3,
+    "explain": "えきへ 行きます menandai stasiun sebagai tujuan perpindahan."
+  },
+  {
+    "id": "b5-04",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · どこも",
+    "prompt": "きょうは どこ（　）も 行きません。",
+    "promptRomaji": "Kyou wa doko ( ) mo ikimasen.",
+    "sub": "Lengkapi penyangkalan total. (Hari ini tidak pergi ke mana pun.)",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "へ",
+        "romaji": "e"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      }
+    ],
+    "answer": 1,
+    "explain": "どこへも 行きません berarti tidak pergi ke mana pun; へ boleh dipakai sebelum も."
+  },
+  {
+    "id": "b5-05",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · で (transportasi)",
+    "prompt": "まいにち でんしゃ（　） がっこうへ 行きます。",
+    "promptRomaji": "Mainichi densha ( ) gakkou e ikimasu.",
+    "sub": "Pilih partikel alat transportasi. (Setiap hari pergi ke sekolah naik kereta listrik.)",
+    "options": [
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "へ",
+        "romaji": "e"
+      }
+    ],
+    "answer": 0,
+    "explain": "で menandai alat transportasi: でんしゃで 行きます."
+  },
+  {
+    "id": "b5-06",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · で (transportasi)",
+    "prompt": "わたしは ひこうき（　） 日本へ 来ました。",
+    "promptRomaji": "Watashi wa hikouki ( ) Nihon e kimashita.",
+    "sub": "Pilih partikel kendaraan. (Saya datang ke Jepang naik pesawat.)",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      }
+    ],
+    "answer": 1,
+    "explain": "Kendaraan yang dipakai untuk berpindah ditandai partikel で."
+  },
+  {
+    "id": "b5-07",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · で (transportasi)",
+    "prompt": "タクシー（　） うちへ 帰ります。",
+    "promptRomaji": "Takushii ( ) uchi e kaerimasu.",
+    "sub": "Pilih partikel kendaraan. (Pulang ke rumah naik taksi.)",
+    "options": [
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "へ",
+        "romaji": "e"
+      }
+    ],
+    "answer": 2,
+    "explain": "タクシーで 帰ります: で menandai alat transportasi."
+  },
+  {
+    "id": "b5-08",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · で (transportasi)",
+    "prompt": "えきまで ちかてつ（　） 行きます。",
+    "promptRomaji": "Eki made chikatetsu ( ) ikimasu.",
+    "sub": "Pilih partikel kendaraan. (Ke stasiun naik kereta bawah tanah.)",
+    "options": [
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "へ",
+        "romaji": "e"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      }
+    ],
+    "answer": 0,
+    "explain": "ちかてつで 行きます memakai で untuk alat transportasi."
+  },
+  {
+    "id": "b5-09",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Partikel と",
+    "prompt": "かぞく（　） 日本へ 来ました。",
+    "promptRomaji": "Kazoku ( ) Nihon e kimashita.",
+    "sub": "Pilih partikel 'bersama'. (Datang ke Jepang bersama keluarga.)",
+    "options": [
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "へ",
+        "romaji": "e"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      }
+    ],
+    "answer": 3,
+    "explain": "と menandai orang yang menemani: かぞくと 来ました."
+  },
+  {
+    "id": "b5-10",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Partikel と",
+    "prompt": "あした ともだち（　） こうえんへ 行きます。",
+    "promptRomaji": "Ashita tomodachi ( ) kouen e ikimasu.",
+    "sub": "Pilih partikel 'bersama'. (Besok pergi ke taman bersama teman.)",
+    "options": [
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      }
+    ],
+    "answer": 0,
+    "explain": "ともだちと 行きます berarti pergi bersama teman."
+  },
+  {
+    "id": "b5-11",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · ひとりで",
+    "prompt": "きのう ひとり（　） デパートへ 行きました。",
+    "promptRomaji": "Kinou hitori ( ) depaato e ikimashita.",
+    "sub": "Lengkapi 'sendirian'. (Kemarin pergi ke department store sendirian.)",
+    "options": [
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "へ",
+        "romaji": "e"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      }
+    ],
+    "answer": 0,
+    "explain": "Sendirian memakai ひとりで, bukan ひとりと."
+  },
+  {
+    "id": "b5-12",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · あるいて",
+    "prompt": "わたしは まいにち （　） えきへ 行きます。",
+    "promptRomaji": "Watashi wa mainichi ( ) eki e ikimasu.",
+    "sub": "Pilih bentuk 'berjalan kaki'. (Saya setiap hari pergi ke stasiun dengan berjalan kaki.)",
+    "options": [
+      {
+        "jp": "あるいてに",
+        "romaji": "aruite ni"
+      },
+      {
+        "jp": "あるいて",
+        "romaji": "aruite"
+      },
+      {
+        "jp": "あるいてで",
+        "romaji": "aruite de"
+      },
+      {
+        "jp": "でんしゃで",
+        "romaji": "densha de"
+      }
+    ],
+    "answer": 1,
+    "explain": "Berjalan kaki memakai あるいて tanpa partikel で."
+  },
+  {
+    "id": "b5-13",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Partikel に (tanggal)",
+    "prompt": "わたしは 3月 24日（　） 日本へ 来ました。",
+    "promptRomaji": "Watashi wa sangatsu nijuuyokka ( ) Nihon e kimashita.",
+    "sub": "Pilih partikel waktu. (Saya datang ke Jepang pada tanggal 24 Maret.)",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "へ",
+        "romaji": "e"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      }
+    ],
+    "answer": 0,
+    "explain": "Tanggal yang spesifik ditandai partikel に."
+  },
+  {
+    "id": "b5-14",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · どこも",
+    "prompt": "にちようびは どこ（　） 行きませんでした。",
+    "promptRomaji": "Nichiyoubi wa doko ( ) ikimasen deshita.",
+    "sub": "Pilih partikel penyangkalan total. (Hari Minggu tidak pergi ke mana pun.)",
+    "options": [
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "は",
+        "romaji": "wa"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "も",
+        "romaji": "mo"
+      }
+    ],
+    "answer": 3,
+    "explain": "どこも + kata kerja negatif berarti tidak pergi ke mana pun."
+  },
+  {
+    "id": "b5-15",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Konjugasi 行きます",
+    "prompt": "「行きます」の ていねいな 否定形は どれですか。",
+    "promptRomaji": "'Ikimasu' no teinei na hitei-kei wa dore desu ka.",
+    "sub": "Bentuk negatif sopan dari 'pergi'.",
+    "options": [
+      {
+        "jp": "行きます",
+        "romaji": "ikimasu"
+      },
+      {
+        "jp": "行きました",
+        "romaji": "ikimashita"
+      },
+      {
+        "jp": "行きません",
+        "romaji": "ikimasen"
+      },
+      {
+        "jp": "行きませんでした",
+        "romaji": "ikimasen deshita"
+      }
+    ],
+    "answer": 2,
+    "explain": "Bentuk negatif sopan dari 行きます adalah 行きません."
+  },
+  {
+    "id": "b5-16",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Konjugasi 行きます",
+    "prompt": "「行きます」の 過去形は どれですか。",
+    "promptRomaji": "'Ikimasu' no kako-kei wa dore desu ka.",
+    "sub": "Bentuk lampau sopan dari 'pergi'.",
+    "options": [
+      {
+        "jp": "行きません",
+        "romaji": "ikimasen"
+      },
+      {
+        "jp": "行きませんでした",
+        "romaji": "ikimasen deshita"
+      },
+      {
+        "jp": "行きました",
+        "romaji": "ikimashita"
+      },
+      {
+        "jp": "行きます",
+        "romaji": "ikimasu"
+      }
+    ],
+    "answer": 2,
+    "explain": "Bentuk lampau sopan dari 行きます adalah 行きました."
+  },
+  {
+    "id": "b5-17",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Konjugasi 行きます",
+    "prompt": "「行きます」の 過去否定形は どれですか。",
+    "promptRomaji": "'Ikimasu' no kako hitei-kei wa dore desu ka.",
+    "sub": "Bentuk lampau negatif sopan dari 'pergi'.",
+    "options": [
+      {
+        "jp": "行きました",
+        "romaji": "ikimashita"
+      },
+      {
+        "jp": "行きませんでした",
+        "romaji": "ikimasen deshita"
+      },
+      {
+        "jp": "行きます",
+        "romaji": "ikimasu"
+      },
+      {
+        "jp": "行きません",
+        "romaji": "ikimasen"
+      }
+    ],
+    "answer": 1,
+    "explain": "Bentuk lampau negatif sopan dari 行きます adalah 行きませんでした."
+  },
+  {
+    "id": "b5-18",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Konjugasi 来ます",
+    "prompt": "「来ます」の 過去形は どれですか。",
+    "promptRomaji": "'Kimasu' no kako-kei wa dore desu ka.",
+    "sub": "Bentuk lampau sopan dari 'datang'.",
+    "options": [
+      {
+        "jp": "来ませんでした",
+        "romaji": "kimasen deshita"
+      },
+      {
+        "jp": "来ません",
+        "romaji": "kimasen"
+      },
+      {
+        "jp": "来ました",
+        "romaji": "kimashita"
+      },
+      {
+        "jp": "来ます",
+        "romaji": "kimasu"
+      }
+    ],
+    "answer": 2,
+    "explain": "Bentuk lampau sopan dari 来ます adalah 来ました."
+  },
+  {
+    "id": "b5-19",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Konjugasi 来ます",
+    "prompt": "「来ます」の 過去否定形は どれですか。",
+    "promptRomaji": "'Kimasu' no kako hitei-kei wa dore desu ka.",
+    "sub": "Bentuk lampau negatif sopan dari 'datang'.",
+    "options": [
+      {
+        "jp": "来ませんでした",
+        "romaji": "kimasen deshita"
+      },
+      {
+        "jp": "来ません",
+        "romaji": "kimasen"
+      },
+      {
+        "jp": "来ました",
+        "romaji": "kimashita"
+      },
+      {
+        "jp": "来ます",
+        "romaji": "kimasu"
+      }
+    ],
+    "answer": 0,
+    "explain": "Bentuk lampau negatif sopan dari 来ます adalah 来ませんでした."
+  },
+  {
+    "id": "b5-20",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Konjugasi 帰ります",
+    "prompt": "「帰ります」の 過去形は どれですか。",
+    "promptRomaji": "'Kaerimasu' no kako-kei wa dore desu ka.",
+    "sub": "Bentuk lampau sopan dari 'pulang'.",
+    "options": [
+      {
+        "jp": "帰りませんでした",
+        "romaji": "kaerimasen deshita"
+      },
+      {
+        "jp": "帰ります",
+        "romaji": "kaerimasu"
+      },
+      {
+        "jp": "帰りました",
+        "romaji": "kaerimashita"
+      },
+      {
+        "jp": "帰りません",
+        "romaji": "kaerimasen"
+      }
+    ],
+    "answer": 2,
+    "explain": "Bentuk lampau sopan dari 帰ります adalah 帰りました."
+  },
+  {
+    "id": "b5-21",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Konjugasi 帰ります",
+    "prompt": "「帰ります」の 否定形は どれですか。",
+    "promptRomaji": "'Kaerimasu' no hitei-kei wa dore desu ka.",
+    "sub": "Bentuk negatif sopan dari 'pulang'.",
+    "options": [
+      {
+        "jp": "帰ります",
+        "romaji": "kaerimasu"
+      },
+      {
+        "jp": "帰りませんでした",
+        "romaji": "kaerimasen deshita"
+      },
+      {
+        "jp": "帰りません",
+        "romaji": "kaerimasen"
+      },
+      {
+        "jp": "帰りました",
+        "romaji": "kaerimashita"
+      }
+    ],
+    "answer": 2,
+    "explain": "Bentuk negatif sopan dari 帰ります adalah 帰りません."
+  },
+  {
+    "id": "b5-22",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Konjugasi 来ます",
+    "prompt": "「来ます」の 否定形は どれですか。",
+    "promptRomaji": "'Kimasu' no hitei-kei wa dore desu ka.",
+    "sub": "Bentuk negatif sopan dari 'datang'.",
+    "options": [
+      {
+        "jp": "来ません",
+        "romaji": "kimasen"
+      },
+      {
+        "jp": "来ました",
+        "romaji": "kimashita"
+      },
+      {
+        "jp": "来ます",
+        "romaji": "kimasu"
+      },
+      {
+        "jp": "来ませんでした",
+        "romaji": "kimasen deshita"
+      }
+    ],
+    "answer": 0,
+    "explain": "Bentuk negatif sopan dari 来ます adalah 来ません."
+  },
+  {
+    "id": "b5-23",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Kosakata",
+    "prompt": "「いきます」の 意味は どれですか。",
+    "promptRomaji": "'Ikimasu' no imi wa dore desu ka.",
+    "sub": "Pilih arti kata kerja いきます.",
+    "options": [
+      {
+        "jp": "datang",
+        "romaji": ""
+      },
+      {
+        "jp": "pulang",
+        "romaji": ""
+      },
+      {
+        "jp": "pergi",
+        "romaji": ""
+      },
+      {
+        "jp": "menunggu",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "いきます berarti pergi."
+  },
+  {
+    "id": "b5-24",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Kosakata",
+    "prompt": "「きます」の 意味は どれですか。",
+    "promptRomaji": "'Kimasu' no imi wa dore desu ka.",
+    "sub": "Pilih arti kata kerja きます.",
+    "options": [
+      {
+        "jp": "pergi",
+        "romaji": ""
+      },
+      {
+        "jp": "membeli",
+        "romaji": ""
+      },
+      {
+        "jp": "datang",
+        "romaji": ""
+      },
+      {
+        "jp": "pulang",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "きます berarti datang."
+  },
+  {
+    "id": "b5-25",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Kosakata",
+    "prompt": "「かえります」の 意味は どれですか。",
+    "promptRomaji": "'Kaerimasu' no imi wa dore desu ka.",
+    "sub": "Pilih arti kata kerja かえります.",
+    "options": [
+      {
+        "jp": "naik",
+        "romaji": ""
+      },
+      {
+        "jp": "pergi",
+        "romaji": ""
+      },
+      {
+        "jp": "datang",
+        "romaji": ""
+      },
+      {
+        "jp": "pulang",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "かえります berarti pulang."
+  },
+  {
+    "id": "b5-26",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Kosakata",
+    "prompt": "「でんしゃ」の 意味は どれですか。",
+    "promptRomaji": "'Densha' no imi wa dore desu ka.",
+    "sub": "Pilih arti kata でんしゃ.",
+    "options": [
+      {
+        "jp": "pesawat",
+        "romaji": ""
+      },
+      {
+        "jp": "kereta listrik",
+        "romaji": ""
+      },
+      {
+        "jp": "kapal laut",
+        "romaji": ""
+      },
+      {
+        "jp": "sepeda",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "でんしゃ berarti kereta listrik."
+  },
+  {
+    "id": "b5-27",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Kosakata",
+    "prompt": "「ひこうき」の 意味は どれですか。",
+    "promptRomaji": "'Hikouki' no imi wa dore desu ka.",
+    "sub": "Pilih arti kata ひこうき.",
+    "options": [
+      {
+        "jp": "sepeda",
+        "romaji": ""
+      },
+      {
+        "jp": "pesawat",
+        "romaji": ""
+      },
+      {
+        "jp": "taksi",
+        "romaji": ""
+      },
+      {
+        "jp": "kereta",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "ひこうき berarti pesawat."
+  },
+  {
+    "id": "b5-28",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Kosakata",
+    "prompt": "「じてんしゃ」の 意味は どれですか。",
+    "promptRomaji": "'Jitensha' no imi wa dore desu ka.",
+    "sub": "Pilih arti kata じてんしゃ.",
+    "options": [
+      {
+        "jp": "kereta bawah tanah",
+        "romaji": ""
+      },
+      {
+        "jp": "bus",
+        "romaji": ""
+      },
+      {
+        "jp": "motor",
+        "romaji": ""
+      },
+      {
+        "jp": "sepeda",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "じてんしゃ berarti sepeda."
+  },
+  {
+    "id": "b5-29",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Kosakata",
+    "prompt": "「ちかてつ」の 意味は どれですか。",
+    "promptRomaji": "'Chikatetsu' no imi wa dore desu ka.",
+    "sub": "Pilih arti kata ちかてつ.",
+    "options": [
+      {
+        "jp": "kereta cepat",
+        "romaji": ""
+      },
+      {
+        "jp": "bus",
+        "romaji": ""
+      },
+      {
+        "jp": "taksi",
+        "romaji": ""
+      },
+      {
+        "jp": "kereta bawah tanah",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "ちかてつ berarti kereta bawah tanah."
+  },
+  {
+    "id": "b5-30",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Kosakata",
+    "prompt": "「あるいて」の 意味は どれですか。",
+    "promptRomaji": "'Aruite' no imi wa dore desu ka.",
+    "sub": "Pilih arti kata あるいて.",
+    "options": [
+      {
+        "jp": "sendirian",
+        "romaji": ""
+      },
+      {
+        "jp": "dengan berjalan kaki",
+        "romaji": ""
+      },
+      {
+        "jp": "dengan berlari",
+        "romaji": ""
+      },
+      {
+        "jp": "naik sepeda",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "あるいて berarti dengan berjalan kaki."
+  },
+  {
+    "id": "b5-31",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Kosakata",
+    "prompt": "「ひとりで」の 意味は どれですか。",
+    "promptRomaji": "'Hitori de' no imi wa dore desu ka.",
+    "sub": "Pilih arti kata ひとりで.",
+    "options": [
+      {
+        "jp": "bersama keluarga",
+        "romaji": ""
+      },
+      {
+        "jp": "berdua",
+        "romaji": ""
+      },
+      {
+        "jp": "bersama teman",
+        "romaji": ""
+      },
+      {
+        "jp": "sendirian",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "ひとりで berarti sendirian."
+  },
+  {
+    "id": "b5-32",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Kosakata",
+    "prompt": "「かぞく」の 意味は どれですか。",
+    "promptRomaji": "'Kazoku' no imi wa dore desu ka.",
+    "sub": "Pilih arti kata かぞく.",
+    "options": [
+      {
+        "jp": "keluarga",
+        "romaji": ""
+      },
+      {
+        "jp": "guru",
+        "romaji": ""
+      },
+      {
+        "jp": "teman",
+        "romaji": ""
+      },
+      {
+        "jp": "tetangga",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "かぞく berarti keluarga."
+  },
+  {
+    "id": "b5-33",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Bulan",
+    "prompt": "「4月」の よみかたは どれですか。",
+    "promptRomaji": "'4-gatsu' no yomikata wa dore desu ka.",
+    "sub": "Bacaan bulan April.",
+    "options": [
+      {
+        "jp": "よんがつ",
+        "romaji": "yon-gatsu"
+      },
+      {
+        "jp": "しげつ",
+        "romaji": "shigetsu"
+      },
+      {
+        "jp": "よがつ",
+        "romaji": "yogatsu"
+      },
+      {
+        "jp": "しがつ",
+        "romaji": "shigatsu"
+      }
+    ],
+    "answer": 3,
+    "explain": "4月 dibaca しがつ, bukan よんがつ."
+  },
+  {
+    "id": "b5-34",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Bulan",
+    "prompt": "「7月」の よみかたは どれですか。",
+    "promptRomaji": "'7-gatsu' no yomikata wa dore desu ka.",
+    "sub": "Bacaan bulan Juli.",
+    "options": [
+      {
+        "jp": "ひちがつ",
+        "romaji": "hichigatsu"
+      },
+      {
+        "jp": "なながつ",
+        "romaji": "nanagatsu"
+      },
+      {
+        "jp": "しちがつ",
+        "romaji": "shichigatsu"
+      },
+      {
+        "jp": "しちげつ",
+        "romaji": "shichigetsu"
+      }
+    ],
+    "answer": 2,
+    "explain": "7月 dibaca しちがつ, bukan なながつ."
+  },
+  {
+    "id": "b5-35",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Bulan",
+    "prompt": "「9月」の よみかたは どれですか。",
+    "promptRomaji": "'9-gatsu' no yomikata wa dore desu ka.",
+    "sub": "Bacaan bulan September.",
+    "options": [
+      {
+        "jp": "くがつ",
+        "romaji": "kugatsu"
+      },
+      {
+        "jp": "ここのがつ",
+        "romaji": "kokonogatsu"
+      },
+      {
+        "jp": "きゅうがつ",
+        "romaji": "kyuugatsu"
+      },
+      {
+        "jp": "くげつ",
+        "romaji": "kugetsu"
+      }
+    ],
+    "answer": 0,
+    "explain": "9月 dibaca くがつ, bukan きゅうがつ."
+  },
+  {
+    "id": "b5-36",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Tanggal",
+    "prompt": "「24日」の よみかたは どれですか。",
+    "promptRomaji": "'24-nichi' no yomikata wa dore desu ka.",
+    "sub": "Bacaan tanggal 24.",
+    "options": [
+      {
+        "jp": "にじゅうしにち",
+        "romaji": "nijuushinichi"
+      },
+      {
+        "jp": "にじゅうよっか",
+        "romaji": "nijuuyokka"
+      },
+      {
+        "jp": "にじゅうよんにち",
+        "romaji": "nijuuyonnichi"
+      },
+      {
+        "jp": "はつか",
+        "romaji": "hatsuka"
+      }
+    ],
+    "answer": 1,
+    "explain": "Tanggal berakhiran 4 memakai よっか, jadi 24日 = にじゅうよっか."
+  },
+  {
+    "id": "b5-37",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Tanggal",
+    "prompt": "「20日」の よみかたは どれですか。",
+    "promptRomaji": "'20-nichi' no yomikata wa dore desu ka.",
+    "sub": "Bacaan tanggal 20.",
+    "options": [
+      {
+        "jp": "はたち",
+        "romaji": "hatachi"
+      },
+      {
+        "jp": "はつか",
+        "romaji": "hatsuka"
+      },
+      {
+        "jp": "にじゅうか",
+        "romaji": "nijuuka"
+      },
+      {
+        "jp": "にじゅうにち",
+        "romaji": "nijuunichi"
+      }
+    ],
+    "answer": 1,
+    "explain": "20日 dibaca はつか, bukan にじゅうにち."
+  },
+  {
+    "id": "b5-38",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Tanggal",
+    "prompt": "「1日」の よみかたは どれですか。",
+    "promptRomaji": "'1-nichi' no yomikata wa dore desu ka.",
+    "sub": "Bacaan tanggal 1.",
+    "options": [
+      {
+        "jp": "いちか",
+        "romaji": "ichika"
+      },
+      {
+        "jp": "ついたち",
+        "romaji": "tsuitachi"
+      },
+      {
+        "jp": "いちにち",
+        "romaji": "ichinichi"
+      },
+      {
+        "jp": "ついたちか",
+        "romaji": "tsuitachika"
+      }
+    ],
+    "answer": 1,
+    "explain": "Tanggal 1 dibaca ついたち; いちにち berarti 'satu hari penuh'."
+  },
+  {
+    "id": "b5-39",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Tanggal",
+    "prompt": "「14日」の よみかたは どれですか。",
+    "promptRomaji": "'14-nichi' no yomikata wa dore desu ka.",
+    "sub": "Bacaan tanggal 14.",
+    "options": [
+      {
+        "jp": "じゅうよっか",
+        "romaji": "juuyokka"
+      },
+      {
+        "jp": "じゅうしにち",
+        "romaji": "juushinichi"
+      },
+      {
+        "jp": "じゅうようか",
+        "romaji": "juuyouka"
+      },
+      {
+        "jp": "じゅうよんにち",
+        "romaji": "juuyonnichi"
+      }
+    ],
+    "answer": 0,
+    "explain": "14日 dibaca じゅうよっか, sama polanya dengan 4日."
+  },
+  {
+    "id": "b5-40",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · いつ",
+    "prompt": "「Kapan Anda datang ke Jepang?」の ただしい いいかたは どれですか。",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Pilih kalimat tanya yang benar.",
+    "options": [
+      {
+        "jp": "いつで 日本へ 来ましたか。",
+        "romaji": "Itsu de Nihon e kimashita ka."
+      },
+      {
+        "jp": "いつへ 日本へ 来ましたか。",
+        "romaji": "Itsu e Nihon e kimashita ka."
+      },
+      {
+        "jp": "いつに 日本へ 来ましたか。",
+        "romaji": "Itsu ni Nihon e kimashita ka."
+      },
+      {
+        "jp": "いつ 日本へ 来ましたか。",
+        "romaji": "Itsu Nihon e kimashita ka."
+      }
+    ],
+    "answer": 3,
+    "explain": "Kata tanya いつ tidak pernah diikuti partikel に."
+  },
+  {
+    "id": "b5-41",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · いつ",
+    "prompt": "A:「いつ 日本へ 来ましたか。」 B:「（　） 来ました。」",
+    "promptRomaji": "A: 'Itsu Nihon e kimashita ka.' B: '( ) kimashita.'",
+    "sub": "Jawaban yang tepat untuk 'kapan'. (Datang pada bulan Maret.)",
+    "options": [
+      {
+        "jp": "3月で",
+        "romaji": "sangatsu de"
+      },
+      {
+        "jp": "3月と",
+        "romaji": "sangatsu to"
+      },
+      {
+        "jp": "3月を",
+        "romaji": "sangatsu o"
+      },
+      {
+        "jp": "3月に",
+        "romaji": "sangatsu ni"
+      }
+    ],
+    "answer": 3,
+    "explain": "Bulan sebagai waktu spesifik pada jawaban ditandai partikel に."
+  },
+  {
+    "id": "b5-42",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Pola kalimat",
+    "prompt": "「Pergi ke Kyoto naik Shinkansen bersama keluarga」の ただしい いいかたは どれですか。",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Pilih urutan partikel yang benar.",
+    "options": [
+      {
+        "jp": "かぞくと しんかんせんで きょうとへ 行きます。",
+        "romaji": "Kazoku to shinkansen de Kyouto e ikimasu."
+      },
+      {
+        "jp": "かぞくと しんかんせんへ きょうとで 行きます。",
+        "romaji": "Kazoku to shinkansen e Kyouto de ikimasu."
+      },
+      {
+        "jp": "かぞくで しんかんせんと きょうとへ 行きます。",
+        "romaji": "Kazoku de shinkansen to Kyouto e ikimasu."
+      },
+      {
+        "jp": "かぞくへ しんかんせんで きょうとと 行きます。",
+        "romaji": "Kazoku e shinkansen de Kyouto to ikimasu."
+      }
+    ],
+    "answer": 0,
+    "explain": "Urutannya: orang と + kendaraan で + tujuan へ + 行きます."
+  },
+  {
+    "id": "b5-43",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Pola kalimat",
+    "prompt": "「Saya pergi ke sekolah naik sepeda setiap hari.」の ただしい いいかたは どれですか。",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Pilih kalimat dengan partikel yang benar.",
+    "options": [
+      {
+        "jp": "まいにち じてんしゃに がっこうへ 行きます。",
+        "romaji": "Mainichi jitensha ni gakkou e ikimasu."
+      },
+      {
+        "jp": "まいにち じてんしゃと がっこうへ 行きます。",
+        "romaji": "Mainichi jitensha to gakkou e ikimasu."
+      },
+      {
+        "jp": "まいにち じてんしゃで がっこうへ 行きます。",
+        "romaji": "Mainichi jitensha de gakkou e ikimasu."
+      },
+      {
+        "jp": "まいにち がっこうで じてんしゃへ 行きます。",
+        "romaji": "Mainichi gakkou de jitensha e ikimasu."
+      }
+    ],
+    "answer": 2,
+    "explain": "Kendaraan memakai で dan tujuan memakai へ."
+  },
+  {
+    "id": "b5-44",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Arti kalimat",
+    "prompt": "「かぞくと ひこうきで くにへ 帰ります。」の 意味は どれですか。",
+    "promptRomaji": "Kazoku to hikouki de kuni e kaerimasu.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      {
+        "jp": "Pulang ke rumah naik pesawat bersama teman.",
+        "romaji": ""
+      },
+      {
+        "jp": "Keluarga datang ke negara ini naik pesawat.",
+        "romaji": ""
+      },
+      {
+        "jp": "Pulang ke negara asal naik pesawat bersama keluarga.",
+        "romaji": ""
+      },
+      {
+        "jp": "Pergi ke negara asal naik pesawat sendirian.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "かぞくと = bersama keluarga, ひこうきで = naik pesawat, くにへ 帰ります = pulang ke negara asal."
+  },
+  {
+    "id": "b5-45",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Pengecualian",
+    "prompt": "「Pergi ke stasiun sendirian dengan berjalan kaki」の ただしい いいかたは どれですか。",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Perhatikan aturan ひとりで dan あるいて.",
+    "options": [
+      {
+        "jp": "ひとりに あるいて えきへ 行きます。",
+        "romaji": "Hitori ni aruite eki e ikimasu."
+      },
+      {
+        "jp": "ひとりで あるいてで えきへ 行きます。",
+        "romaji": "Hitori de aruite de eki e ikimasu."
+      },
+      {
+        "jp": "ひとりで あるいて えきへ 行きます。",
+        "romaji": "Hitori de aruite eki e ikimasu."
+      },
+      {
+        "jp": "ひとりと あるいてで えきへ 行きます。",
+        "romaji": "Hitori to aruite de eki e ikimasu."
+      }
+    ],
+    "answer": 2,
+    "explain": "Sendirian memakai ひとりで, dan berjalan kaki cukup あるいて tanpa で."
+  },
+  {
+    "id": "b5-46",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Arti kalimat",
+    "prompt": "「にちようびは どこも 行きませんでした。」の 意味は どれですか。",
+    "promptRomaji": "Nichiyoubi wa doko mo ikimasen deshita.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      {
+        "jp": "Hari Minggu pergi ke suatu tempat.",
+        "romaji": ""
+      },
+      {
+        "jp": "Hari Minggu tidak pergi ke mana pun.",
+        "romaji": ""
+      },
+      {
+        "jp": "Hari Minggu pergi ke banyak tempat.",
+        "romaji": ""
+      },
+      {
+        "jp": "Hari Minggu tidak pulang ke rumah.",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "どこも dengan kata kerja negatif berarti tidak ke mana pun."
+  },
+  {
+    "id": "b5-47",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · Tanggal + に",
+    "prompt": "「Saya datang ke Jepang pada tanggal 20 April.」の ただしい いいかたは どれですか。",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Pilih kalimat dengan partikel waktu yang benar.",
+    "options": [
+      {
+        "jp": "4月 20日と 日本へ 来ました。",
+        "romaji": "Shigatsu hatsuka to Nihon e kimashita."
+      },
+      {
+        "jp": "4月 20日で 日本へ 来ました。",
+        "romaji": "Shigatsu hatsuka de Nihon e kimashita."
+      },
+      {
+        "jp": "4月 20日を 日本へ 来ました。",
+        "romaji": "Shigatsu hatsuka o Nihon e kimashita."
+      },
+      {
+        "jp": "4月 20日に 日本へ 来ました。",
+        "romaji": "Shigatsu hatsuka ni Nihon e kimashita."
+      }
+    ],
+    "answer": 3,
+    "explain": "Tanggal spesifik ditandai に: 4月 20日に 来ました."
+  },
+  {
+    "id": "b5-48",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · 帰ります",
+    "prompt": "「Tahun depan saya pulang ke negara asal.」の ただしい いいかたは どれですか。",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Pilih kata kerja yang tepat untuk 'pulang'.",
+    "options": [
+      {
+        "jp": "らいねん くにへ 来ます。",
+        "romaji": "Rainen kuni e kimasu."
+      },
+      {
+        "jp": "らいねん くにへ 帰ります。",
+        "romaji": "Rainen kuni e kaerimasu."
+      },
+      {
+        "jp": "らいねん くにで 帰ります。",
+        "romaji": "Rainen kuni de kaerimasu."
+      },
+      {
+        "jp": "らいねん くにへ 行きます。",
+        "romaji": "Rainen kuni e ikimasu."
+      }
+    ],
+    "answer": 1,
+    "explain": "Pulang ke negara asal memakai 帰ります, bukan 行きます."
+  },
+  {
+    "id": "b5-49",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · 来ます",
+    "prompt": "「Sdr. Miller datang ke Jepang bulan lalu.」の ただしい いいかたは どれですか。",
+    "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
+    "sub": "Pilih kata kerja yang tepat untuk 'datang'.",
+    "options": [
+      {
+        "jp": "ミラーさんは せんげつ 日本へ 行きました。",
+        "romaji": "Miraa-san wa sengetsu Nihon e ikimashita."
+      },
+      {
+        "jp": "ミラーさんは せんげつ 日本へ 来ました。",
+        "romaji": "Miraa-san wa sengetsu Nihon e kimashita."
+      },
+      {
+        "jp": "ミラーさんは せんげつ 日本へ 帰りました。",
+        "romaji": "Miraa-san wa sengetsu Nihon e kaerimashita."
+      },
+      {
+        "jp": "ミラーさんは せんげつ 日本で 来ました。",
+        "romaji": "Miraa-san wa sengetsu Nihon de kimashita."
+      }
+    ],
+    "answer": 1,
+    "explain": "Datang ke tempat pembicara memakai 来ました."
+  },
+  {
+    "id": "b5-50",
+    "bab": 5,
+    "type": "mcq",
+    "badge": "Bab 5 · いつ",
+    "prompt": "「（　） がっこうへ 行きますか。」…「あした 行きます。」",
+    "promptRomaji": "( ) gakkou e ikimasu ka. ...Ashita ikimasu.",
+    "sub": "Pilih kata tanya yang tepat. (Kapan pergi ke sekolah? ...Besok.)",
+    "options": [
+      {
+        "jp": "いつ",
+        "romaji": "itsu"
+      },
+      {
+        "jp": "どこ",
+        "romaji": "doko"
+      },
+      {
+        "jp": "なに",
+        "romaji": "nani"
+      },
+      {
+        "jp": "だれ",
+        "romaji": "dare"
+      }
+    ],
+    "answer": 0,
+    "explain": "いつ menanyakan waktu dan tidak memerlukan partikel に."
+  }
+];

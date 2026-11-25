@@ -1,0 +1,13 @@
+# Konfigurasi Netlify — Studio Lengkap Minna no Nihongo I (Bab 1–25)
+# Static site murni (tanpa build bundler), seluruh aplikasi ada di folder `web/`.
+
+[build]
+  publish = "web"
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

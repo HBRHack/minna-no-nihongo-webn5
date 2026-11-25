@@ -1,0 +1,852 @@
+[
+  {
+    "id": "b20-01",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Kosakata いります",
+    "prompt": "「ビザが いります」の いみは どれですか。",
+    "promptRomaji": "\"Biza ga irimasu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kalimat yang tepat.",
+    "options": [
+      { "jp": "Memerlukan visa", "romaji": "" },
+      { "jp": "Membuat visa", "romaji": "" },
+      { "jp": "Kehilangan visa", "romaji": "" },
+      { "jp": "Memeriksa visa", "romaji": "" }
+    ],
+    "answer": 0,
+    "explain": "いります (Kelompok I) berarti memerlukan atau membutuhkan, dan objek kebutuhannya ditandai dengan partikel が (ビザが いります)."
+  },
+  {
+    "id": "b20-02",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Kosakata しらべます",
+    "prompt": "じしょで 新しい ことばを （　）。",
+    "promptRomaji": "Jisho de atarashii kotoba o _____.",
+    "sub": "Pilih kata kerja untuk 'memeriksa / mencari tahu'.",
+    "options": [
+      { "jp": "しゅうりします", "romaji": "shuuri shimasu" },
+      { "jp": "しらべます", "romaji": "shirabemasu" },
+      { "jp": "いります", "romaji": "irimasu" },
+      { "jp": "なおします", "romaji": "naoshimasu" }
+    ],
+    "answer": 1,
+    "explain": "しらべます berarti memeriksa atau mencari tahu (misalnya mencari arti kata di kamus). しゅうりします dan なおします berarti memperbaiki."
+  },
+  {
+    "id": "b20-03",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Kosakata なおします",
+    "prompt": "さくぶんの まちがいを （　）。",
+    "promptRomaji": "Sakubun no machigai o _____.",
+    "sub": "Pilih kata kerja yang tepat untuk 'mengoreksi / memperbaiki kesalahan'.",
+    "options": [
+      { "jp": "でんわします", "romaji": "denwa shimasu" },
+      { "jp": "しらべます", "romaji": "shirabemasu" },
+      { "jp": "なおします", "romaji": "naoshimasu" },
+      { "jp": "いります", "romaji": "irimasu" }
+    ],
+    "answer": 2,
+    "explain": "なおします dipakai untuk memperbaiki barang rusak maupun mengoreksi kesalahan (まちがいを なおします), sedangkan しゅうりします khusus mereparasi mesin/barang."
+  },
+  {
+    "id": "b20-04",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Kosakata ぶっか",
+    "prompt": "「とうきょうは ぶっかが たかい」の 「ぶっか」は なんですか。",
+    "promptRomaji": "\"Toukyou wa bukka ga takai\" no \"bukka\" wa nan desu ka.",
+    "sub": "Pilih arti kosakata yang tepat.",
+    "options": [
+      { "jp": "Gedung", "romaji": "" },
+      { "jp": "Cuaca", "romaji": "" },
+      { "jp": "Lalu lintas", "romaji": "" },
+      { "jp": "Harga barang", "romaji": "" }
+    ],
+    "answer": 3,
+    "explain": "ぶっか (物価) berarti harga barang-barang kebutuhan secara umum."
+  },
+  {
+    "id": "b20-05",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Kosakata こっち・そっち・あっち・どっち",
+    "prompt": "「こちら」の じしょじゃない ふつうの いいかたは どれですか。",
+    "promptRomaji": "Bentuk kasual dari \"kochira\" (Bab 20)",
+    "sub": "Pilih bentuk kasual dari こちら (sebelah sini).",
+    "options": [
+      { "jp": "こっち", "romaji": "kocchi" },
+      { "jp": "そっち", "romaji": "socchi" },
+      { "jp": "あっち", "romaji": "acchi" },
+      { "jp": "どっち", "romaji": "docchi" }
+    ],
+    "answer": 0,
+    "explain": "Padanan kasual arah/pilihan adalah こちら→こっち, そちら→そっち, あちら→あっち, dan どちら→どっち."
+  },
+  {
+    "id": "b20-06",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Kosakata どっち",
+    "prompt": "コーヒーと こうちゃと、（　）が いい？",
+    "promptRomaji": "Koohii to koucha to, _____ ga ii?",
+    "sub": "Pilih kata tanya kasual untuk 'yang mana (dari dua pilihan)'.",
+    "options": [
+      { "jp": "こっち", "romaji": "kocchi" },
+      { "jp": "どっち", "romaji": "docchi" },
+      { "jp": "そっち", "romaji": "socchi" },
+      { "jp": "あっち", "romaji": "acchi" }
+    ],
+    "answer": 1,
+    "explain": "どっち adalah bentuk kasual dari どちら yang dipakai untuk menanyakan pilihan di antara dua hal."
+  },
+  {
+    "id": "b20-07",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Kosakata ぼく・きみ",
+    "prompt": "おとこの ひとの くだけた いいかたで、「わたし」は （　）です。",
+    "promptRomaji": "Otoko no hito no kudaketa iikata de, \"watashi\" wa _____ desu.",
+    "sub": "Pilih kata ganti orang pertama kasual untuk laki-laki.",
+    "options": [
+      { "jp": "きみ", "romaji": "kimi" },
+      { "jp": "～くん", "romaji": "~kun" },
+      { "jp": "ぼく", "romaji": "boku" },
+      { "jp": "みんな", "romaji": "minna" }
+    ],
+    "answer": 2,
+    "explain": "ぼく dipakai oleh laki-laki sebagai bentuk kasual dari わたし. きみ berarti kamu (akrab), dan ～くん adalah akhiran panggilan akrab."
+  },
+  {
+    "id": "b20-08",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Kosakata きみ",
+    "prompt": "「きみ」の いみは どれですか。",
+    "promptRomaji": "\"Kimi\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata ganti kasual ini.",
+    "options": [
+      { "jp": "Dia (laki-laki)", "romaji": "" },
+      { "jp": "Saya (laki-laki)", "romaji": "" },
+      { "jp": "Kita semua", "romaji": "" },
+      { "jp": "Kamu (akrab/setara)", "romaji": "" }
+    ],
+    "answer": 3,
+    "explain": "きみ adalah padanan kasual dari あなた yang dipakai terhadap teman sebaya, adik, atau bawahan."
+  },
+  {
+    "id": "b20-09",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Kosakata このあいだ",
+    "prompt": "「このあいだ ともだちに あいました」の 「このあいだ」は なんですか。",
+    "promptRomaji": "\"Konoaida tomodachi ni aimashita\" no \"konoaida\" wa nan desu ka.",
+    "sub": "Pilih arti keterangan waktu Bab 20.",
+    "options": [
+      { "jp": "Belum lama ini / beberapa hari lalu", "romaji": "" },
+      { "jp": "Sebentar lagi / segera", "romaji": "" },
+      { "jp": "Setiap hari / selalu", "romaji": "" },
+      { "jp": "Tahun depan / masa depan", "romaji": "" }
+    ],
+    "answer": 0,
+    "explain": "このあいだ berarti belum lama ini atau beberapa hari yang lalu, sehingga selalu diikuti bentuk lampau."
+  },
+  {
+    "id": "b20-10",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Kosakata はじめ・おわり",
+    "prompt": "夏やすみの （　）は ７月です。そして、８月の すえに おわります。",
+    "promptRomaji": "Natsuyasumi no _____ wa shichigatsu desu. Soshite, hachigatsu no sue ni owarimasu.",
+    "sub": "Pilih kata benda untuk 'awal / permulaan'.",
+    "options": [
+      { "jp": "おわり", "romaji": "owari" },
+      { "jp": "はじめ", "romaji": "hajime" },
+      { "jp": "あいだ", "romaji": "aida" },
+      { "jp": "ことば", "romaji": "kotoba" }
+    ],
+    "answer": 1,
+    "explain": "はじめ berarti awal/permulaan (lawan katanya adalah おわり = akhir)."
+  },
+  {
+    "id": "b20-11",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Kosakata みんなで",
+    "prompt": "「みんなで しゃしんを とったよ。」の いみは どれですか。",
+    "promptRomaji": "\"Minna de shashin o totta yo.\" no imi wa dore desu ka.",
+    "sub": "Perhatikan arti frasa みんなで.",
+    "options": [
+      { "jp": "Aku berfoto sendirian, lho.", "romaji": "" },
+      { "jp": "Kami berfoto di depan kelas.", "romaji": "" },
+      { "jp": "Kami berfoto bersama-sama, lho.", "romaji": "" },
+      { "jp": "Mereka belum berfoto kemarin.", "romaji": "" }
+    ],
+    "answer": 2,
+    "explain": "みんなで berarti bersama-sama / semuanya bersama (とった = sudah memotret)."
+  },
+  {
+    "id": "b20-12",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Kosakata よかったら",
+    "prompt": "ケーキが たくさん あるよ。（　）、たべて。",
+    "promptRomaji": "Keeki ga takusan aru yo. _____, tabete.",
+    "sub": "Pilih ungkapan untuk 'kalau mau / kalau berkenan'.",
+    "options": [
+      { "jp": "このあいだ", "romaji": "konoaida" },
+      { "jp": "みんなで", "romaji": "minna de" },
+      { "jp": "いろいろ", "romaji": "iroiro" },
+      { "jp": "よかったら", "romaji": "yokattara" }
+    ],
+    "answer": 3,
+    "explain": "よかったら adalah ungkapan sopan-santai yang berarti 'kalau mau / kalau berkenan'."
+  },
+  {
+    "id": "b20-13",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Kosakata おなかが いっぱいです",
+    "prompt": "A：もう すこし たべる？\nB：ううん、もう （　）。",
+    "promptRomaji": "A: Mou sukoshi taberu? B: Uun, mou _____.",
+    "sub": "Pilih jawaban yang berarti 'sudah kenyang' dalam gaya kasual.",
+    "options": [
+      { "jp": "おなかが いっぱい", "romaji": "onaka ga ippai" },
+      { "jp": "おなかが すいた", "romaji": "onaka ga suita" },
+      { "jp": "おなかが いない", "romaji": "onaka ga inai" },
+      { "jp": "おなかが ほしかった", "romaji": "onaka ga hoshikatta" }
+    ],
+    "answer": 0,
+    "explain": "おなかが いっぱい(です) berarti sudah kenyang. Dalam bahasa kasual, です dihilangkan."
+  },
+  {
+    "id": "b20-14",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Kosakata しゅうりします",
+    "prompt": "この パソコンは よくないから、あした （　）。",
+    "promptRomaji": "Kono pasokon wa yokunai kara, ashita _____.",
+    "sub": "Pilih kata kerja bentuk biasa untuk 'memperbaiki/mereparasi'.",
+    "options": [
+      { "jp": "しらべる", "romaji": "shiraberu" },
+      { "jp": "しゅうりする", "romaji": "shuuri suru" },
+      { "jp": "でんわした", "romaji": "denwa shita" },
+      { "jp": "いらない", "romaji": "iranai" }
+    ],
+    "answer": 1,
+    "explain": "しゅうりします (bentuk kamus: しゅうりする) berarti mereparasi barang yang rusak; karena waktunya あした, pakai bentuk non-lampau."
+  },
+  {
+    "id": "b20-15",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 Kata Kerja (Kamus)",
+    "prompt": "Ubah 「かいます」 ke Bentuk Biasa positif non-lampau:",
+    "promptRomaji": "kaimasu -> ? (Bab 20)",
+    "sub": "Pilih bentuk kamus (辞書形) yang benar.",
+    "options": [
+      { "jp": "かい", "romaji": "kai" },
+      { "jp": "かった", "romaji": "katta" },
+      { "jp": "かう", "romaji": "kau" },
+      { "jp": "かいますだ", "romaji": "kaimasu da" }
+    ],
+    "answer": 2,
+    "explain": "Bentuk biasa positif non-lampau untuk kata kerja adalah Bentuk Kamus: かいます → かう."
+  },
+  {
+    "id": "b20-16",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 Kata Kerja (ない)",
+    "prompt": "あしたは テストが ないから、テレビを （　）。",
+    "promptRomaji": "Ashita wa tesuto ga nai kara, terebi o _____.",
+    "sub": "Pilih bentuk biasa dari 「みません」 (tidak menonton).",
+    "options": [
+      { "jp": "みないだ", "romaji": "minai da" },
+      { "jp": "みらない", "romaji": "miranai" },
+      { "jp": "みなかった", "romaji": "minakatta" },
+      { "jp": "みない", "romaji": "minai" }
+    ],
+    "answer": 3,
+    "explain": "みます adalah kata kerja Kelompok II, sehingga bentuk -nai nya adalah みない (tanpa だ)."
+  },
+  {
+    "id": "b20-17",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 Jebakan いります",
+    "prompt": "日本へ いく とき、おみやげは （　） よ。（いりません → 普通形）",
+    "promptRomaji": "Omiyage wa _____ yo. (irimasen -> bentuk biasa)",
+    "sub": "Hati-hati! いります adalah kata kerja Kelompok I.",
+    "options": [
+      { "jp": "いらない", "romaji": "iranai" },
+      { "jp": "いない", "romaji": "inai" },
+      { "jp": "いりない", "romaji": "irinai" },
+      { "jp": "いらなかった", "romaji": "iranakatta" }
+    ],
+    "answer": 0,
+    "explain": "いります (memerlukan) adalah kata kerja Kelompok I, bukan Kelompok II! Jadi bentuk -nai nya adalah いらない, bukan いりない atau いない."
+  },
+  {
+    "id": "b20-18",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 Kata Kerja (た)",
+    "prompt": "きのう ともだちに （　）。（でんわしました → 普通形）",
+    "promptRomaji": "Kinou tomodachi ni _____. (denwa shimashita -> bentuk biasa)",
+    "sub": "Pilih bentuk biasa lampau positif dari でんわしました.",
+    "options": [
+      { "jp": "でんわする", "romaji": "denwa suru" },
+      { "jp": "でんわした", "romaji": "denwa shita" },
+      { "jp": "でんわして", "romaji": "denwa shite" },
+      { "jp": "でんわしない", "romaji": "denwa shinai" }
+    ],
+    "answer": 1,
+    "explain": "Lampau positif bentuk biasa untuk kata kerja memakai Bentuk -Ta: でんわしました → でんわした."
+  },
+  {
+    "id": "b20-19",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 Kata Kerja (なかった)",
+    "prompt": "けさ コーヒーを （　）。（のみませんでした → 普通形）",
+    "promptRomaji": "Kesa koohii o _____. (nomimasen deshita -> bentuk biasa)",
+    "sub": "Pilih bentuk biasa lampau negatif dari のみませんでした.",
+    "options": [
+      { "jp": "のまない", "romaji": "nomanai" },
+      { "jp": "のんだ", "romaji": "nonda" },
+      { "jp": "のまなかった", "romaji": "nomanakatta" },
+      { "jp": "のみなかった", "romaji": "nominakatta" }
+    ],
+    "answer": 2,
+    "explain": "のみません → のまない, lalu い diganti かった menjadi のまなかった."
+  },
+  {
+    "id": "b20-20",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 Pengecualian あります",
+    "prompt": "きのうは じかんが （　）。（ありませんでした → 普通形）",
+    "promptRomaji": "Kinou wa jikan ga _____. (arimasen deshita -> bentuk biasa)",
+    "sub": "Ingat bentuk khusus dari あります!",
+    "options": [
+      { "jp": "あらなかった", "romaji": "aranakatta" },
+      { "jp": "ないだった", "romaji": "nai datta" },
+      { "jp": "ありなかった", "romaji": "arinakatta" },
+      { "jp": "なかった", "romaji": "nakatta" }
+    ],
+    "answer": 3,
+    "explain": "Pengecualian あります: bentuk -nai nya adalah ない, dan bentuk lampau negatifnya adalah なかった (bukan あらなかった)."
+  },
+  {
+    "id": "b20-21",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 Kata Kerja Kelompok III",
+    "prompt": "Ubah 「きませんでした」 (tidak datang kemarin) ke Bentuk Biasa:",
+    "promptRomaji": "kimasen deshita -> ? (Bab 20)",
+    "sub": "Perhatikan perubahan vokal pada きます (Kelompok III).",
+    "options": [
+      { "jp": "こなかった", "romaji": "konakatta" },
+      { "jp": "きなかった", "romaji": "kinakatta" },
+      { "jp": "こない", "romaji": "konai" },
+      { "jp": "きた", "romaji": "kita" }
+    ],
+    "answer": 0,
+    "explain": "きます berubah menjadi こない di bentuk -nai, sehingga lampau negatifnya menjadi こなかった."
+  },
+  {
+    "id": "b20-22",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 Kata Kerja (あった)",
+    "prompt": "せんしゅう しけんが （　）。（ありました → 普通形）",
+    "promptRomaji": "Senshuu shiken ga _____. (arimashita -> bentuk biasa)",
+    "sub": "Pilih bentuk biasa lampau positif dari ありました.",
+    "options": [
+      { "jp": "ある", "romaji": "aru" },
+      { "jp": "あった", "romaji": "atta" },
+      { "jp": "ない", "romaji": "nai" },
+      { "jp": "あるだった", "romaji": "aru datta" }
+    ],
+    "answer": 1,
+    "explain": "あります berubah menjadi ある (non-lampau) dan あった (lampau positif)."
+  },
+  {
+    "id": "b20-23",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 KS-い (Positif)",
+    "prompt": "この ラーメンは とても （　）。（おいしいです → 普通形）",
+    "promptRomaji": "Kono raamen wa totemo _____. (ubah ke bentuk biasa)",
+    "sub": "Perhatikan aturan KS-い bentuk biasa positif.",
+    "options": [
+      { "jp": "おいしいだ", "romaji": "oishii da" },
+      { "jp": "おいしかった", "romaji": "oishikatta" },
+      { "jp": "おいしい", "romaji": "oishii" },
+      { "jp": "おいしく", "romaji": "oishiku" }
+    ],
+    "answer": 2,
+    "explain": "Kata sifat-い dalam bentuk biasa cukup membuang です tanpa menambahkan だ (おいしい, bukan おいしいだ)."
+  },
+  {
+    "id": "b20-24",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 KS-い (Negatif)",
+    "prompt": "きょうの てんきは あまり （　）。（あつくないです → 普通形）",
+    "promptRomaji": "Kyou no tenki wa amari _____. (ubah ke bentuk biasa)",
+    "sub": "Pilih bentuk biasa negatif non-lampau KS-い.",
+    "options": [
+      { "jp": "あついじゃない", "romaji": "atsui janai" },
+      { "jp": "あつくなかった", "romaji": "atsukunakatta" },
+      { "jp": "あついだ", "romaji": "atsui da" },
+      { "jp": "あつくない", "romaji": "atsukunai" }
+    ],
+    "answer": 3,
+    "explain": "KS-い negatif non-lampau biasa cukup membuang です: あつくないです → あつくない."
+  },
+  {
+    "id": "b20-25",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 KS-い (Lampau +)",
+    "prompt": "きのうの えいがは とても （　）。（おもしろかったです → 普通形）",
+    "promptRomaji": "Kinou no eiga wa totemo _____. (ubah ke bentuk biasa)",
+    "sub": "Pilih bentuk biasa lampau positif KS-い.",
+    "options": [
+      { "jp": "おもしろかった", "romaji": "omoshirokatta" },
+      { "jp": "おもしろいだった", "romaji": "omoshiroi datta" },
+      { "jp": "おもしろくなかった", "romaji": "omoshirokunakatta" },
+      { "jp": "おもしろい", "romaji": "omoshiroi" }
+    ],
+    "answer": 0,
+    "explain": "KS-い lampau positif biasa langsung membuang です: おもしろかったです → おもしろかった."
+  },
+  {
+    "id": "b20-26",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 KS-い (Lampau -)",
+    "prompt": "さっきの テストは （　）。（むずかしくなかったです → 普通形）",
+    "promptRomaji": "Sakki no tesuto wa _____. (ubah ke bentuk biasa)",
+    "sub": "Pilih bentuk biasa lampau negatif KS-い.",
+    "options": [
+      { "jp": "むずかしくなかっただ", "romaji": "muzukashikunakatta da" },
+      { "jp": "むずかしくなかった", "romaji": "muzukashikunakatta" },
+      { "jp": "むずかしくないだった", "romaji": "muzukashikunai datta" },
+      { "jp": "むずかしくない", "romaji": "muzukashikunai" }
+    ],
+    "answer": 1,
+    "explain": "むずかしくなかったです → むずかしくなかった (hanya membuang です, tanpa だ)."
+  },
+  {
+    "id": "b20-27",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 Jebakan いい",
+    "prompt": "きのうの パーティーは とても （　）。（よかったです → 普通形）",
+    "promptRomaji": "Kinou no paatii wa totemo _____. (ubah ke bentuk biasa)",
+    "sub": "Hati-hati konjugasi dari いい (bagus/baik)!",
+    "options": [
+      { "jp": "いかった", "romaji": "ikatta" },
+      { "jp": "いいだった", "romaji": "ii datta" },
+      { "jp": "よかった", "romaji": "yokatta" },
+      { "jp": "いくなかった", "romaji": "ikunakatta" }
+    ],
+    "answer": 2,
+    "explain": "いい berkonjugasi dari bentuk asalnya よい: negatif よくない, lampau positif よかった, lampau negatif よくなかった."
+  },
+  {
+    "id": "b20-28",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 Jebakan いい (Negatif)",
+    "prompt": "あたらしい くつは あまり （　）。（よくないです → 普通形）",
+    "promptRomaji": "Atarashii kutsu wa amari _____. (ubah ke bentuk biasa)",
+    "sub": "Pilih bentuk biasa negatif dari いい.",
+    "options": [
+      { "jp": "いくない", "romaji": "ikunai" },
+      { "jp": "いいじゃない", "romaji": "ii janai" },
+      { "jp": "いかった", "romaji": "ikatta" },
+      { "jp": "よくない", "romaji": "yokunai" }
+    ],
+    "answer": 3,
+    "explain": "Bentuk negatif dari いい adalah よくない (berasal dari よい), bukan いくない atau いいじゃない."
+  },
+  {
+    "id": "b20-29",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 KS-な (Positif)",
+    "prompt": "Ubah 「この まちは にぎやかです」 ke Bentuk Biasa:",
+    "promptRomaji": "Kono machi wa nigiyaka desu -> ? (Bab 20)",
+    "sub": "Perhatikan kopula untuk KS-な positif non-lampau.",
+    "options": [
+      { "jp": "この まちは にぎやかだ", "romaji": "Kono machi wa nigiyaka da" },
+      { "jp": "この まちは にぎやかな", "romaji": "Kono machi wa nigiyaka na" },
+      { "jp": "この まちは にぎやかだった", "romaji": "Kono machi wa nigiyaka datta" },
+      { "jp": "この まちは にぎやかじゃない", "romaji": "Kono machi wa nigiyaka janai" }
+    ],
+    "answer": 0,
+    "explain": "Kata sifat-な dan kata benda dalam kalimat pernyataan positif non-lampau mengganti です dengan だ: にぎやかです → にぎやかだ."
+  },
+  {
+    "id": "b20-30",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 Kata Benda (Negatif)",
+    "prompt": "あしたは テスト （　）。（テストじゃ ありません → 普通形）",
+    "promptRomaji": "Ashita wa tesuto _____. (tesuto ja arimasen -> bentuk biasa)",
+    "sub": "Pilih bentuk biasa negatif non-lampau Kata Benda.",
+    "options": [
+      { "jp": "だ", "romaji": "da" },
+      { "jp": "じゃない", "romaji": "janai" },
+      { "jp": "だった", "romaji": "datta" },
+      { "jp": "じゃなかった", "romaji": "janakatta" }
+    ],
+    "answer": 1,
+    "explain": "Kata benda dan KS-な negatif non-lampau berubah dari じゃ ありません menjadi じゃない."
+  },
+  {
+    "id": "b20-31",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 KS-な (Lampau +)",
+    "prompt": "きのうの よるは とても （　）。（しずかでした → 普通形）",
+    "promptRomaji": "Kinou no yoru wa totemo _____. (shizuka deshita -> bentuk biasa)",
+    "sub": "Pilih bentuk biasa lampau positif KS-な.",
+    "options": [
+      { "jp": "しずかだ", "romaji": "shizuka da" },
+      { "jp": "しずかじゃない", "romaji": "shizuka janai" },
+      { "jp": "しずかだった", "romaji": "shizuka datta" },
+      { "jp": "しずかじゃなかった", "romaji": "shizuka janakatta" }
+    ],
+    "answer": 2,
+    "explain": "でした berubah menjadi だった pada bentuk biasa lampau positif KS-な dan kata benda."
+  },
+  {
+    "id": "b20-32",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · 普通形 Kata Benda (Lampau -)",
+    "prompt": "おとといは やすみ （　）。（やすみじゃ ありませんでした → 普通形）",
+    "promptRomaji": "Ototoi wa yasumi _____. (yasumi ja arimasen deshita -> bentuk biasa)",
+    "sub": "Pilih bentuk biasa lampau negatif Kata Benda.",
+    "options": [
+      { "jp": "だった", "romaji": "datta" },
+      { "jp": "じゃない", "romaji": "janai" },
+      { "jp": "じゃありません", "romaji": "ja arimasen" },
+      { "jp": "じゃなかった", "romaji": "janakatta" }
+    ],
+    "answer": 3,
+    "explain": "じゃ ありませんでした berubah menjadi じゃなかった pada bentuk biasa."
+  },
+  {
+    "id": "b20-33",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Tanya Kasual (KS-な & Benda)",
+    "prompt": "Manakah kalimat tanya kasual yang BENAR untuk menanyakan 'Apakah besok kamu senggang?'",
+    "promptRomaji": "Kalimat tanya kasual (Bab 20)",
+    "sub": "Perhatikan aturan だ pada kalimat tanya kasual.",
+    "options": [
+      { "jp": "あした、ひま？", "romaji": "Ashita, hima?" },
+      { "jp": "あした、ひまだ？", "romaji": "Ashita, hima da?" },
+      { "jp": "あした、ひまな？", "romaji": "Ashita, hima na?" },
+      { "jp": "あした、ひまか？", "romaji": "Ashita, hima ka?" }
+    ],
+    "answer": 0,
+    "explain": "Pada kalimat tanya kasual kata benda dan KS-な, partikel か dan kopula だ harus dihilangkan lalu diucapkan dengan intonasi naik: あした、ひま？"
+  },
+  {
+    "id": "b20-34",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Penghilangan い pada ている",
+    "prompt": "A：いま、なに （　）？\nB：しんぶんを よんでるよ。",
+    "promptRomaji": "A: Ima, nani _____? B: Shinbun o yonderu yo.",
+    "sub": "Pilih bentuk percakapan kasual dari して いますか.",
+    "options": [
+      { "jp": "した", "romaji": "shita" },
+      { "jp": "してる", "romaji": "shiteru" },
+      { "jp": "する", "romaji": "suru" },
+      { "jp": "しない", "romaji": "shinai" }
+    ],
+    "answer": 1,
+    "explain": "Dalam percakapan santai, huruf い pada ～ている sering dihilangkan sehingga して いる menjadi してる."
+  },
+  {
+    "id": "b20-35",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Penghilangan Partikel",
+    "prompt": "A：おさけ、（　）？\nB：ううん、のまない。",
+    "promptRomaji": "A: Osake, _____? B: Uun, nomanai.",
+    "sub": "Lengkapi pertanyaan kasual ketika partikel を dihilangkan.",
+    "options": [
+      { "jp": "のむか", "romaji": "nomu ka" },
+      { "jp": "のみます", "romaji": "nomimasu" },
+      { "jp": "のむ", "romaji": "nomu" },
+      { "jp": "のむだ", "romaji": "nomu da" }
+    ],
+    "answer": 2,
+    "explain": "Dalam obrolan akrab, partikel を dan か dihilangkan: おさけ、のむ？ (intonasi naik)."
+  },
+  {
+    "id": "b20-36",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Kata Sambung けど",
+    "prompt": "この へやは せまい （　）、とても きれいだね。",
+    "promptRomaji": "Kono heya wa semai _____, totemo kirei da ne.",
+    "sub": "Pilih bentuk kasual dari が (tetapi).",
+    "options": [
+      { "jp": "から", "romaji": "kara" },
+      { "jp": "と", "romaji": "to" },
+      { "jp": "も", "romaji": "mo" },
+      { "jp": "けど", "romaji": "kedo" }
+    ],
+    "answer": 3,
+    "explain": "けど adalah padanan kasual dari partikel penyambung が yang berarti 'tetapi'."
+  },
+  {
+    "id": "b20-37",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Kalimat Tanya ～の？",
+    "prompt": "「もう くにへ かえるの？」の いみは どれですか。",
+    "promptRomaji": "\"Mou kuni e kaeru no?\" no imi wa dore desu ka.",
+    "sub": "Pilih arti ungkapan tanya kasual ini.",
+    "options": [
+      { "jp": "Sudah mau pulang ke negara asal?", "romaji": "" },
+      { "jp": "Kapan kamu pulang ke negara asal?", "romaji": "" },
+      { "jp": "Apakah kamu tidak pulang ke negara asal?", "romaji": "" },
+      { "jp": "Bagaimana caramu pulang ke negara asal?", "romaji": "" }
+    ],
+    "answer": 0,
+    "explain": "Akhiran の？ dalam bahasa kasual dipakai untuk bertanya dengan nuansa akrab dan ingin tahu: 'Sudah mau pulang ke negara asal?'."
+  },
+  {
+    "id": "b20-38",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Ungkapan どう するの？",
+    "prompt": "A：もう じゅうにじ だよ。ひるごはん、（　）？\nB：うーん、どう しようかな。",
+    "promptRomaji": "A: Mou juuniji da yo. Hirugohan, _____? B: Uun, dou shiyou kana.",
+    "sub": "Pilih pertanyaan kasual untuk 'mau bagaimana / mau diapakan?'.",
+    "options": [
+      { "jp": "どこ するの", "romaji": "doko suru no" },
+      { "jp": "どう するの", "romaji": "dou suru no" },
+      { "jp": "だれ するの", "romaji": "dare suru no" },
+      { "jp": "どちら するの", "romaji": "dochira suru no" }
+    ],
+    "answer": 1,
+    "explain": "どう するの？ berarti 'Mau bagaimana?' atau 'Apa yang akan kamu lakukan?' dalam percakapan santai."
+  },
+  {
+    "id": "b20-39",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Ungkapan どう しようかな",
+    "prompt": "「どう しようかな」は どんな きもちを あらわしますか。",
+    "promptRomaji": "\"Dou shiyou kana\" wa donna kimochi o arawashimasu ka.",
+    "sub": "Pilih arti ungkapan Bab 20 ini.",
+    "options": [
+      { "jp": "Sudah selesai dan lega", "romaji": "" },
+      { "jp": "Menolak ajakan teman dengan tegas", "romaji": "" },
+      { "jp": "Bingung/berpikir sendiri 'Harus bagaimana ya enaknya?'", "romaji": "" },
+      { "jp": "Mengajak semua orang segera pulang", "romaji": "" }
+    ],
+    "answer": 2,
+    "explain": "どう しようかな dipakai saat berbicara pada diri sendiri atau teman dekat ketika menimbang-nimbang pilihan: 'Aku harus bagaimana ya?'."
+  },
+  {
+    "id": "b20-40",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · うん／ううん",
+    "prompt": "A：あした、サッカーの しあいに いく？\nB：（　）、いくよ。いっしょに いこう。",
+    "promptRomaji": "A: Ashita, sakkaa no shiai ni iku? B: _____, iku yo. Issho ni ikou.",
+    "sub": "B menjawab setuju dengan gaya santai.",
+    "options": [
+      { "jp": "ううん", "romaji": "uun" },
+      { "jp": "いいえ", "romaji": "iie" },
+      { "jp": "ちがう", "romaji": "chigau" },
+      { "jp": "うん", "romaji": "un" }
+    ],
+    "answer": 3,
+    "explain": "うん (satu う) berarti 'ya' dalam bahasa kasual, sedangkan ううん (dua う) berarti 'tidak'."
+  },
+  {
+    "id": "b20-41",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Dialog Kasual (Lampau)",
+    "prompt": "A：きのうの えいが、おもしろかった？\nB：ううん、あまり （　）。",
+    "promptRomaji": "A: Kinou no eiga, omoshirokatta? B: Uun, amari _____.",
+    "sub": "Perhatikan jawaban ううん dan waktu きのう!",
+    "options": [
+      { "jp": "おもしろくなかった", "romaji": "omoshirokunakatta" },
+      { "jp": "おもしろくない", "romaji": "omoshirokunai" },
+      { "jp": "おもしろかった", "romaji": "omoshirokatta" },
+      { "jp": "おもしろいじゃない", "romaji": "omoshiroi janai" }
+    ],
+    "answer": 0,
+    "explain": "Karena pertanyaannya lampau (きのうの えいが) dan jawabannya ううん (tidak), harus memakai bentuk biasa lampau negatif: おもしろくなかった."
+  },
+  {
+    "id": "b20-42",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Dialog Kasual (ている)",
+    "prompt": "A：田中くんの でんわばんごう、（　）？\nB：うん、これだよ。",
+    "promptRomaji": "A: Tanaka-kun no denwabangou, _____? B: Un, kore da yo.",
+    "sub": "Lengkapi pertanyaan dengan bentuk kasual dari しって いますか.",
+    "options": [
+      { "jp": "しる", "romaji": "shiru" },
+      { "jp": "しってる", "romaji": "shitteru" },
+      { "jp": "しった", "romaji": "shitta" },
+      { "jp": "しらない", "romaji": "shiranai" }
+    ],
+    "answer": 1,
+    "explain": "Untuk menyatakan tahu sekarang dipakai しって います, dan dalam obrolan santai disingkat menjadi しってる."
+  },
+  {
+    "id": "b20-43",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Deteksi Kesalahan",
+    "prompt": "Manakah kalimat Bentuk Biasa yang SALAH secara tata bahasa?",
+    "promptRomaji": "Deteksi kesalahan 普通形 (Bab 20)",
+    "sub": "Cari kalimat yang melanggar aturan Bentuk Biasa.",
+    "options": [
+      { "jp": "きのうは あめだった。", "romaji": "Kinou wa ame datta." },
+      { "jp": "あした、がっこうへ いく。", "romaji": "Ashita, gakkou e iku." },
+      { "jp": "この りんごは おいしいだ。", "romaji": "Kono ringo wa oishii da." },
+      { "jp": "わたしは ひまじゃない。", "romaji": "Watashi wa hima janai." }
+    ],
+    "answer": 2,
+    "explain": "Kata sifat-い (おいしい) tidak boleh ditempeli だ! Bentuk yang benar adalah この りんごは おいしい."
+  },
+  {
+    "id": "b20-44",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Deteksi Kesalahan (あります)",
+    "prompt": "Manakah kalimat Bentuk Biasa yang SALAH?",
+    "promptRomaji": "Deteksi kesalahan konjugasi (Bab 20)",
+    "sub": "Periksa perubahan kata kerja dan kata sifat.",
+    "options": [
+      { "jp": "きょうは じかんが ない。", "romaji": "Kyou wa jikan ga nai." },
+      { "jp": "きのうは さむかった。", "romaji": "Kinou wa samukatta." },
+      { "jp": "あしたは やすみじゃない。", "romaji": "Ashita wa yasumi janai." },
+      { "jp": "けさ ごはんが あらなかった。", "romaji": "Kesa gohan ga aranakatta." }
+    ],
+    "answer": 3,
+    "explain": "あります dalam negatif lampau bukan あらなかった, melainkan なかった (けさ ごはんが なかった)."
+  },
+  {
+    "id": "b20-45",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Deteksi Kesalahan (Tanya Kasual)",
+    "prompt": "Manakah pertanyaan kasual yang SALAH?",
+    "promptRomaji": "Deteksi kesalahan kalimat tanya kasual (Bab 20)",
+    "sub": "Periksa penggunaan だ dalam pertanyaan.",
+    "options": [
+      { "jp": "その ひと、サラリーマンだ？", "romaji": "Sono hito, sarariiman da?" },
+      { "jp": "きのう どこへ いった？", "romaji": "Kinou doko e itta?" },
+      { "jp": "これ、おいしかった？", "romaji": "Kore, oishikatta?" },
+      { "jp": "きょう、いそがしい？", "romaji": "Kyou, isogashii?" }
+    ],
+    "answer": 0,
+    "explain": "Pada kalimat tanya kasual untuk kata benda/KS-な, だ wajib dibuang! Yang benar adalah その ひと、サラリーマン？"
+  },
+  {
+    "id": "b20-46",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Pemahaman Kalimat",
+    "prompt": "「このあいだ きものを かったけど、とても きれいだったよ。」の いみは どれですか。",
+    "promptRomaji": "\"Konoaida kimono o katta kedo, totemo kirei datta yo.\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan yang paling akurat.",
+    "options": [
+      { "jp": "Nanti aku mau membeli kimono yang sangat mahal.", "romaji": "" },
+      { "jp": "Beberapa hari lalu aku membeli kimono, dan kimononya indah sekali, lho.", "romaji": "" },
+      { "jp": "Beberapa hari lalu aku memperbaiki kimono di toko.", "romaji": "" },
+      { "jp": "Beberapa hari lalu aku tidak jadi membeli kimono.", "romaji": "" }
+    ],
+    "answer": 1,
+    "explain": "このあいだ = beberapa hari lalu, かった = membeli (lampau), きれいだった = indah (lampau)."
+  },
+  {
+    "id": "b20-47",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Pemahaman Kalimat",
+    "prompt": "「ぼくは いったけど、きみは こなかったね。」の いみは どれですか。",
+    "promptRomaji": "\"Boku wa itta kedo, kimi wa konakatta ne.\" no imi wa dore desu ka.",
+    "sub": "Perhatikan kata kerja いった dan こなかった.",
+    "options": [
+      { "jp": "Aku tidak pergi, dan kamu juga tidak datang.", "romaji": "" },
+      { "jp": "Aku pergi, lalu kamu juga datang.", "romaji": "" },
+      { "jp": "Aku pergi, tapi kamu tidak datang, ya.", "romaji": "" },
+      { "jp": "Aku akan pergi, tapi kamu tidak mau datang.", "romaji": "" }
+    ],
+    "answer": 2,
+    "explain": "ぼくは いった (aku pergi/lampau), けど (tapi), きみは こなかった (kamu tidak datang/lampau)."
+  },
+  {
+    "id": "b20-48",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Terjemahan Indonesia -> Jepang",
+    "prompt": "Terjemahkan ke gaya kasual: 'Minggu lalu saya tidak belajar bahasa Jepang.'",
+    "promptRomaji": "Terjemahan gaya kasual (Bab 20)",
+    "sub": "Pilih kalimat bentuk biasa yang tepat.",
+    "options": [
+      { "jp": "せんしゅう にほんごを べんきょうしない。", "romaji": "Senshuu nihongo o benkyou shinai." },
+      { "jp": "せんしゅう にほんごを べんきょうした。", "romaji": "Senshuu nihongo o benkyou shita." },
+      { "jp": "せんしゅう にほんごを べんきょうしませんでした。", "romaji": "Senshuu nihongo o benkyou shimasen deshita." },
+      { "jp": "せんしゅう にほんごを べんきょうしなかった。", "romaji": "Senshuu nihongo o benkyou shinakatta." }
+    ],
+    "answer": 3,
+    "explain": "せんしゅう (minggu lalu) menuntut bentuk lampau, dan dalam gaya kasual negatif lampau menjadi べんきょうしなかった."
+  },
+  {
+    "id": "b20-49",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Terjemahan Indonesia -> Jepang",
+    "prompt": "Terjemahkan ke gaya kasual: 'Kemarin tidak hujan.'",
+    "promptRomaji": "Terjemahan gaya kasual (Bab 20)",
+    "sub": "Pilih bentuk biasa negatif lampau Kata Benda.",
+    "options": [
+      { "jp": "きのうは あめじゃなかった。", "romaji": "Kinou wa ame janakatta." },
+      { "jp": "きのうは あめじゃない。", "romaji": "Kinou wa ame janai." },
+      { "jp": "きのうは あめだった。", "romaji": "Kinou wa ame datta." },
+      { "jp": "きのうは あめじゃありませんでした。", "romaji": "Kinou wa ame ja arimasen deshita." }
+    ],
+    "answer": 0,
+    "explain": "あめ adalah kata benda, dan untuk waktu kemarin (きのう) negatif bentuk biasanya adalah あめじゃなかった."
+  },
+  {
+    "id": "b20-50",
+    "bab": 20,
+    "type": "mcq",
+    "badge": "Bab 20 · Terjemahan Indonesia -> Jepang",
+    "prompt": "Terjemahkan ke gaya kasual: 'Apakah kamu butuh kamus?' — 'Enggak, enggak butuh.'",
+    "promptRomaji": "Terjemahan dialog kasual (Bab 20)",
+    "sub": "Perhatikan いります (Kel. I) dan うん／ううん!",
+    "options": [
+      { "jp": "A：じしょ、いる？　B：うん、いらない。", "romaji": "A: Jisho, iru? B: Un, iranai." },
+      { "jp": "A：じしょ、いる？　B：ううん、いらない。", "romaji": "A: Jisho, iru? B: Uun, iranai." },
+      { "jp": "A：じしょ、いる？　B：ううん、いない。", "romaji": "A: Jisho, iru? B: Uun, inai." },
+      { "jp": "A：じしょ、いる？　B：ううん、いらなかった。", "romaji": "A: Jisho, iru? B: Uun, iranakatta." }
+    ],
+    "answer": 1,
+    "explain": "いる？ (butuh?) dijawab 'Enggak, enggak butuh' = ううん、いらない。 (いります adalah Kel. I sehingga negatifnya いらない)."
+  }
+]
