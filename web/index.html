@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Noto+Sans+JP:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=20261125-v11">
+  <link rel="stylesheet" href="./styles.css?v=20261125-v12">
 </head>
 <body>
   <header class="topbar" role="banner">
@@ -80,22 +80,21 @@
           🎯 Tes Akhir Gabungan (Bab 1–25)
         </button>
 
-        <div class="sort-toggle" role="tablist" aria-label="Urutan bab">
-          <button type="button" class="sort-btn is-active" id="btnSortPriority" data-sort="priority" role="tab" aria-selected="true">
+        <div class="sort-toggle" id="sidebarSortToggle" role="tablist" aria-label="Urutan bab" hidden>
+          <button type="button" class="sort-btn" id="btnSortPriority" data-sort="priority" role="tab" aria-selected="false">
             Prioritas Bug
           </button>
-          <button type="button" class="sort-btn" id="btnSortBook" data-sort="book" role="tab" aria-selected="false">
+          <button type="button" class="sort-btn is-active" id="btnSortBook" data-sort="book" role="tab" aria-selected="true">
             Urut Bab 1–25
           </button>
         </div>
 
-        <div class="zone-filters" role="group" aria-label="Filter zona skor">
+        <div class="zone-filters" id="sidebarZoneFilters" role="group" aria-label="Filter daftar bab">
           <button type="button" class="filter-chip is-active" data-zone="all">Semua (25)</button>
-          <button type="button" class="filter-chip chip-red" data-zone="errors">Khusus Eror (18)</button>
-          <button type="button" class="filter-chip chip-red" data-zone="red">Merah (4)</button>
-          <button type="button" class="filter-chip chip-orange" data-zone="orange">Oranye (3)</button>
-          <button type="button" class="filter-chip chip-amber" data-zone="amber">Kuning (11)</button>
-          <button type="button" class="filter-chip chip-green" data-zone="green">Hijau (7)</button>
+          <button type="button" class="filter-chip" data-zone="1-12">Bab 1–12</button>
+          <button type="button" class="filter-chip" data-zone="13-25">Bab 13–25</button>
+          <button type="button" class="filter-chip chip-green" data-zone="done">Tuntas (≥80%)</button>
+          <button type="button" class="filter-chip" data-zone="todo">Belum Tuntas</button>
         </div>
       </div>
 
@@ -182,44 +181,44 @@
   <!-- Urutan Script: Bab 1–16, Bab 17 ASLI, Bab 18–25, Soal Ekstra, Kana, Kotoba, Referensi (11), Tes Akhir, Bank Bab 1-25, App -->
   <!-- Versi ?v=... wajib naik setiap kali file diubah agar browser tidak memakai cache lama. -->
   <script>window.MNN_MODULES = []; window.MNN_EXTRA_QUESTIONS = {}; window.MNN_BANK = {};</script>
-  <script src="./data/modul-01-05.js?v=20261125-v11"></script>
-  <script src="./data/modul-06-10.js?v=20261125-v11"></script>
-  <script src="./data/modul-11-16.js?v=20261125-v11"></script>
-  <script src="./data/bab-17.js?v=20261125-v11"></script>
-  <script src="./data/modul-18-25.js?v=20261125-v11"></script>
-  <script src="./data/soal-ekstra-merah-oranye.js?v=20261125-v11"></script>
-  <script src="./data/soal-ekstra-hijau.js?v=20261125-v11"></script>
-  <script src="./data/soal-ekstra-kuning-a.js?v=20261125-v11"></script>
-  <script src="./data/soal-ekstra-kuning-b.js?v=20261125-v11"></script>
-  <script src="./data/kana-dasar.js?v=20261125-v11"></script>
-  <script src="./data/kotoba-1-25.js?v=20261125-v11"></script>
-  <script src="./data/referensi-minna.js?v=20261125-v11"></script>
-  <script src="./data/tes-akhir-1-25.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-01.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-02.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-03.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-04.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-05.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-06.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-07.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-08.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-09.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-10.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-11.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-12.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-13.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-14.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-15.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-16.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-17.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-18.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-19.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-20.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-21.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-22.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-23.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-24.js?v=20261125-v11"></script>
-  <script src="./data/bank/bab-25.js?v=20261125-v11"></script>
-  <script src="./app.js?v=20261125-v11"></script>
+  <script src="./data/modul-01-05.js?v=20261125-v12"></script>
+  <script src="./data/modul-06-10.js?v=20261125-v12"></script>
+  <script src="./data/modul-11-16.js?v=20261125-v12"></script>
+  <script src="./data/bab-17.js?v=20261125-v12"></script>
+  <script src="./data/modul-18-25.js?v=20261125-v12"></script>
+  <script src="./data/soal-ekstra-merah-oranye.js?v=20261125-v12"></script>
+  <script src="./data/soal-ekstra-hijau.js?v=20261125-v12"></script>
+  <script src="./data/soal-ekstra-kuning-a.js?v=20261125-v12"></script>
+  <script src="./data/soal-ekstra-kuning-b.js?v=20261125-v12"></script>
+  <script src="./data/kana-dasar.js?v=20261125-v12"></script>
+  <script src="./data/kotoba-1-25.js?v=20261125-v12"></script>
+  <script src="./data/referensi-minna.js?v=20261125-v12"></script>
+  <script src="./data/tes-akhir-1-25.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-01.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-02.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-03.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-04.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-05.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-06.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-07.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-08.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-09.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-10.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-11.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-12.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-13.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-14.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-15.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-16.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-17.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-18.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-19.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-20.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-21.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-22.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-23.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-24.js?v=20261125-v12"></script>
+  <script src="./data/bank/bab-25.js?v=20261125-v12"></script>
+  <script src="./app.js?v=20261125-v12"></script>
 </body>
 </html>

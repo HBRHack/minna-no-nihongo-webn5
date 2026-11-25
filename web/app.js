@@ -127,7 +127,7 @@
   }
   const REFERENCES = window.MNN_REFERENCES || [];
   const FINAL_EXAM = window.FINAL_EXAM_1_25 || [];
-  const ASSET_VERSION = "20261125-v11";
+  const ASSET_VERSION = "20261125-v12";
   const FINAL_MAX_PER_BAB = 10;
   const FINAL_HARD_CAP = 250;
   const FINAL_BANK_CACHE = {};
@@ -398,8 +398,17 @@
     return fallback;
   }
 
+  const DIAG_URL_FLAG = typeof location !== "undefined" && /(?:^|[?&])diagnostik=1(?:&|$)/.test(location.search || "");
+  let diagnosticUnlocked = DIAG_URL_FLAG;
+  let profileTitleTapCount = 0;
+
+  function isDiagnosticUnlocked() {
+    return diagnosticUnlocked;
+  }
+
   function isTemanMode() {
-    return activeProfile().userMode === "teman";
+    if (!isDiagnosticUnlocked()) return true;
+    return activeProfile().userMode !== "perbaikan";
   }
 
   function persistProfiles() {
@@ -701,7 +710,7 @@
 
   function getSortedChapters() {
     const copy = [...ALL_CHAPTERS];
-    if (state.sortMode === "book") {
+    if (isTemanMode() || state.sortMode === "book") {
       return copy.sort((a, b) => a.num - b.num);
     }
     return copy.sort((a, b) => {
@@ -789,17 +798,61 @@
     document.getElementById("sidebarProgressFill").style.width = `${pct}%`;
     document.getElementById("sidebarProgressBar").setAttribute("aria-valuenow", String(masteredCount));
 
+    const sortToggle = document.getElementById("sidebarSortToggle");
+    if (sortToggle) sortToggle.hidden = teman;
+
     const sortPrioBtn = document.getElementById("btnSortPriority");
-    if (sortPrioBtn) sortPrioBtn.textContent = teman ? "Prioritas Inti" : "Prioritas Bug";
+    if (sortPrioBtn) sortPrioBtn.textContent = "Prioritas Bug";
     document.querySelectorAll(".sort-btn").forEach((b) => {
-      const active = b.dataset.sort === state.sortMode;
+      const active = b.dataset.sort === (teman ? "book" : state.sortMode);
       b.classList.toggle("is-active", active);
       b.setAttribute("aria-selected", String(active));
     });
 
+    const filterBox = document.getElementById("sidebarZoneFilters");
+    if (filterBox) {
+      const wantMode = teman ? "public" : "diag";
+      if (filterBox.dataset.mode !== wantMode) {
+        filterBox.dataset.mode = wantMode;
+        state.zoneFilter = "all";
+        filterBox.innerHTML = teman
+          ? `
+            <button type="button" class="filter-chip is-active" data-zone="all">Semua (25)</button>
+            <button type="button" class="filter-chip" data-zone="1-12">Bab 1–12</button>
+            <button type="button" class="filter-chip" data-zone="13-25">Bab 13–25</button>
+            <button type="button" class="filter-chip chip-green" data-zone="done">Tuntas (≥80%)</button>
+            <button type="button" class="filter-chip" data-zone="todo">Belum Tuntas</button>
+          `
+          : `
+            <button type="button" class="filter-chip is-active" data-zone="all">Semua (25)</button>
+            <button type="button" class="filter-chip chip-red" data-zone="errors">Khusus Eror (18)</button>
+            <button type="button" class="filter-chip chip-red" data-zone="red">Merah (4)</button>
+            <button type="button" class="filter-chip chip-orange" data-zone="orange">Oranye (3)</button>
+            <button type="button" class="filter-chip chip-amber" data-zone="amber">Kuning (11)</button>
+            <button type="button" class="filter-chip chip-green" data-zone="green">Hijau (7)</button>
+          `;
+        filterBox.querySelectorAll(".filter-chip").forEach((chip) => {
+          chip.addEventListener("click", () => {
+            state.zoneFilter = chip.dataset.zone;
+            filterBox.querySelectorAll(".filter-chip").forEach((c) => c.classList.remove("is-active"));
+            chip.classList.add("is-active");
+            renderSidebar();
+          });
+        });
+      }
+    }
+
     const ordered = getSortedChapters();
     const filtered = state.zoneFilter === "all"
       ? ordered
+      : state.zoneFilter === "1-12"
+      ? ordered.filter((c) => c.num <= 12)
+      : state.zoneFilter === "13-25"
+      ? ordered.filter((c) => c.num >= 13)
+      : state.zoneFilter === "done"
+      ? ordered.filter((c) => isMastered(c.num))
+      : state.zoneFilter === "todo"
+      ? ordered.filter((c) => !isMastered(c.num))
       : state.zoneFilter === "errors"
       ? ordered.filter((c) => c.zone !== "green")
       : ordered.filter((c) => c.zone === state.zoneFilter);
@@ -862,10 +915,11 @@
 
     const groups = teman
       ? [
-          { key: "red",    title: "1. Fokus Inti — Partikel Dasar, Keberadaan, & Kalimat Biasa" },
-          { key: "orange", title: "2. Fokus Konjugasi — Kata Kerja Dasar, Bentuk -Nai, & Kalimat Sopan" },
-          { key: "amber",  title: "3. Penguatan JLPT N5 — Angka, Perbandingan, Pendapat, & Pengandaian" },
-          { key: "green",  title: "4. Fondasi & Ekspresi Sehari-hari — Perkenalan, Kata Sifat, Bentuk -Te" }
+          { key: "b1-5",   range: [1, 5],   title: "Bagian 1 · Bab 1 – 5 — Fondasi Kalimat, Benda, Tempat, Waktu, & Arah" },
+          { key: "b6-10",  range: [6, 10],  title: "Bagian 2 · Bab 6 – 10 — Aktivitas, Memberi-Menerima, Kata Sifat, & Keberadaan" },
+          { key: "b11-15", range: [11, 15], title: "Bagian 3 · Bab 11 – 15 — Satuan Hitung, Perbandingan, Keinginan, Bentuk -Te, & Izin" },
+          { key: "b16-20", range: [16, 20], title: "Bagian 4 · Bab 16 – 20 — Urutan Aksi, Bentuk -Nai, Kamus, Bentuk -Ta, & Bentuk Biasa" },
+          { key: "b21-25", range: [21, 25], title: "Bagian 5 · Bab 21 – 25 — Pendapat, Anak Kalimat, Klausa Waktu/Syarat, & Pengandaian" }
         ]
       : [
           { key: "red",    title: "1. Zona Merah — Skor Tes Lama 0/4 (Prioritas Utama)" },
@@ -875,7 +929,9 @@
         ];
 
     const groupsHtml = groups.map((g) => {
-      const items = ALL_CHAPTERS.filter((c) => c.zone === g.key).sort((a, b) => a.num - b.num);
+      const items = teman && g.range
+        ? ALL_CHAPTERS.filter((c) => c.num >= g.range[0] && c.num <= g.range[1]).sort((a, b) => a.num - b.num)
+        : ALL_CHAPTERS.filter((c) => c.zone === g.key).sort((a, b) => a.num - b.num);
       return `
         <section class="zone-section">
           <div class="zone-section-head">
@@ -889,7 +945,7 @@
               ensureProfileKotoba(prof);
               const kSc = prof.kotoba.chapterScores[ch.num];
               const kDone = !!(kSc && kSc.bestPct >= 80);
-              const pillCls = done ? "zone-green" : teman && !saved ? "zone-neutral" : ZONE_META[ch.zone].cls;
+              const pillCls = done ? "zone-green" : teman && !saved ? "zone-neutral" : saved && teman ? "zone-amber" : ZONE_META[ch.zone].cls;
               const pillTxt = done
                 ? `✓ Tuntas (${saved.bestPct}%)`
                 : saved
@@ -935,17 +991,19 @@
 
       <div class="mode-switch-bar">
         <div class="mode-switch-info">
-          <strong>Profil Aktif: ${esc(prof.name)} · ${teman ? "🌱 Mode Teman / Pemula (Bersih 0%)" : "🩺 Mode Diagnostik Tes Lama (47/100)"}</strong>
+          <strong>Profil Aktif: ${esc(prof.name)}${!teman ? " · 🩺 Mode Diagnostik Pribadi" : ""}</strong>
           <span class="mode-switch-sub">
             ${teman
-              ? "Tampilan bersih untuk mulai belajar dari nol tanpa catatan skor tes lama."
-              : "Menampilkan zona prioritas & catatan diagnostik hasil tes 100 soal sebelumnya."}
+              ? "Progres kuis, Flashcard Kotoba, & riwayat 50 soal tersimpan lokal otomatis di browser perangkat ini."
+              : "Menampilkan zona prioritas & catatan diagnostik pribadi."}
           </span>
         </div>
         <div class="mode-switch-btns">
-          <button type="button" class="pill-btn ${teman ? "pill-btn-accent" : ""}" id="btnQuickSwitchMode">
-            ${teman ? "Ganti ke Mode Diagnostik 47/100" : "Ganti ke Mode Teman (Bersih 0%)"}
-          </button>
+          ${isDiagnosticUnlocked() ? `
+            <button type="button" class="pill-btn ${teman ? "pill-btn-accent" : ""}" id="btnQuickSwitchMode">
+              ${teman ? "Aktifkan Mode Diagnostik" : "Kembali ke Tampilan Normal"}
+            </button>
+          ` : ""}
           <button type="button" class="pill-btn" id="btnOverviewProfile">
             👤 Profil, Audio (${state.speechRate}×), &amp; Backup
           </button>
@@ -1005,13 +1063,16 @@
       ${groupsHtml}
     `;
 
-    document.getElementById("btnQuickSwitchMode").addEventListener("click", () => {
-      activeProfile().userMode = isTemanMode() ? "perbaikan" : "teman";
-      state.sortMode = isTemanMode() ? "book" : "priority";
-      persistProfiles();
-      persistPrefs();
-      renderOverview();
-    });
+    const btnQuickSwitch = document.getElementById("btnQuickSwitchMode");
+    if (btnQuickSwitch) {
+      btnQuickSwitch.addEventListener("click", () => {
+        activeProfile().userMode = isTemanMode() ? "perbaikan" : "teman";
+        state.sortMode = isTemanMode() ? "book" : "priority";
+        persistProfiles();
+        persistPrefs();
+        renderOverview();
+      });
+    }
     document.getElementById("btnOverviewProfile").addEventListener("click", () => openProfileModal());
     document.getElementById("btnOverviewKotoba").addEventListener("click", () => openKotobaFlashcard(String(nextTarget.num || 1)));
     document.getElementById("btnOverviewFinalExam").addEventListener("click", () => openFinalExam());
@@ -1080,7 +1141,7 @@
       <section class="chapter-header">
         <div class="chapter-header-top">
           <span class="zone-pill ${teman ? "zone-neutral" : ZONE_META[ch.zone].cls}">
-            ${teman ? esc(ZONE_META[ch.zone].temanLabel) : `${esc(ZONE_META[ch.zone].label)} · Tes Lama ${esc(ch.oldScore)}`}
+            ${teman ? `Minna no Nihongo I · Bab ${ch.num}` : `${esc(ZONE_META[ch.zone].label)} · Tes Lama ${esc(ch.oldScore)}`}
           </span>
           ${done ? `<span class="zone-pill zone-green">✓ Tata Bahasa (${saved.bestPct}%)</span>` : saved ? `<span class="zone-pill zone-amber">Tata Bahasa: ${saved.bestPct}%</span>` : ""}
           ${kDone ? `<span class="zone-pill zone-green">✓ Kotoba (${kSaved.bestPct}%)</span>` : kSaved ? `<span class="zone-pill zone-amber">Kuis Kotoba: ${kSaved.bestPct}%</span>` : ""}
@@ -4576,7 +4637,7 @@
                 <div>
                   <strong>${esc(p.name)}</strong> ${isAct ? '<span class="zone-pill zone-green">Aktif</span>' : ""}
                   <div style="font-size: 12px; color: var(--color-ink-muted);">
-                    ${p.userMode === "teman" ? "Mode Teman 0%" : "Mode Diagnostik 47/100"} · ${babCnt} bab tersimpan
+                    ${isDiagnosticUnlocked() && p.userMode === "perbaikan" ? "Mode Diagnostik Pribadi · " : ""}${babCnt} bab tersimpan
                   </div>
                 </div>
                 <div style="display:flex; gap:6px;">
@@ -4613,15 +4674,17 @@
       </section>
 
       <section class="profile-section">
-        <h3>4. Mode Belajar &amp; Cadangan Data (.json)</h3>
-        <div class="mode-switch-btns">
-          <button type="button" class="pill-btn ${teman ? "pill-btn-accent" : ""}" data-set-mode="teman">
-            🌱 Mode Teman (Bersih 0%)
-          </button>
-          <button type="button" class="pill-btn ${!teman ? "pill-btn-accent" : ""}" data-set-mode="perbaikan">
-            🩺 Mode Diagnostik Tes Lama (47/100)
-          </button>
-        </div>
+        <h3>4. ${isDiagnosticUnlocked() ? "Mode Belajar &amp; " : ""}Cadangan Data (.json)</h3>
+        ${isDiagnosticUnlocked() ? `
+          <div class="mode-switch-btns">
+            <button type="button" class="pill-btn ${teman ? "pill-btn-accent" : ""}" data-set-mode="teman">
+              🌱 Tampilan Normal (Bab 1–25)
+            </button>
+            <button type="button" class="pill-btn ${!teman ? "pill-btn-accent" : ""}" data-set-mode="perbaikan">
+              🩺 Mode Diagnostik Pribadi
+            </button>
+          </div>
+        ` : ""}
         <div class="mode-switch-btns">
           <button type="button" class="btn-secondary" id="btnExportJson">⬇️ Download Backup Skor (.json)</button>
           <button type="button" class="btn-secondary" id="btnImportJsonTrigger">⬆️ Import Backup Skor (.json)</button>
@@ -4872,6 +4935,21 @@
       openProfileModal();
       closeDrawer();
     });
+    const profTitleEl = document.getElementById("profileModalTitle");
+    if (profTitleEl) {
+      profTitleEl.addEventListener("click", () => {
+        profileTitleTapCount += 1;
+        if (profileTitleTapCount >= 5) {
+          profileTitleTapCount = 0;
+          diagnosticUnlocked = !diagnosticUnlocked;
+          state.profileFeedbackMsg = diagnosticUnlocked
+            ? "🔓 Mode Diagnostik Pribadi terbuka khusus di sesi ini."
+            : "🔒 Mode Diagnostik Pribadi disembunyikan kembali.";
+          refreshActiveView();
+          renderProfileModalBody();
+        }
+      });
+    }
     document.getElementById("btnCloseProfile").addEventListener("click", closeProfileModal);
     document.getElementById("profileModal").addEventListener("click", (e) => {
       if (e.target.id === "profileModal") closeProfileModal();
