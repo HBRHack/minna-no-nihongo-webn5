@@ -127,7 +127,7 @@
   }
   const REFERENCES = window.MNN_REFERENCES || [];
   const FINAL_EXAM = window.FINAL_EXAM_1_25 || [];
-  const ASSET_VERSION = "20261125-v12";
+  const ASSET_VERSION = "20261125-v13";
   const FINAL_MAX_PER_BAB = 10;
   const FINAL_HARD_CAP = 250;
   const FINAL_BANK_CACHE = {};
@@ -196,6 +196,20 @@
     return Math.max(1, Math.min(50, n));
   }
 
+  function sanitizeKotobaBatchSize(val) {
+    const s = String(val || "5");
+    return ["5", "10", "15", "all"].includes(s) ? s : "5";
+  }
+
+  function sanitizeKotobaBatchByScope(raw) {
+    if (!raw || typeof raw !== "object") return {};
+    const out = {};
+    Object.entries(raw).forEach(([k, v]) => {
+      if (["5", "10", "15", "all"].includes(String(v))) out[String(k)] = String(v);
+    });
+    return out;
+  }
+
   function loadPrefs() {
     const defaults = {
       showRomaji: true,
@@ -204,7 +218,8 @@
       kotobaEmojiSize: "large",
       kotobaRomajiMode: "on",
       kotobaQuizCount: 20,
-      kotobaBatchSize: "15",
+      kotobaBatchSize: "5",
+      kotobaBatchByScope: {},
       kotobaAutoRequeue: true,
       kotobaAutoAudio: false,
       finalSetup: defaultFinalSetup()
@@ -218,7 +233,8 @@
         kotobaEmojiSize: ["large", "normal", "off"].includes(saved.kotobaEmojiSize) ? saved.kotobaEmojiSize : "large",
         kotobaRomajiMode: ["on", "back", "off"].includes(saved.kotobaRomajiMode) ? saved.kotobaRomajiMode : "on",
         kotobaQuizCount: saved.kotobaQuizCount ? clampKotobaQuizCount(saved.kotobaQuizCount) : 20,
-        kotobaBatchSize: ["10", "15", "25", "all"].includes(String(saved.kotobaBatchSize)) ? String(saved.kotobaBatchSize) : "15",
+        kotobaBatchSize: sanitizeKotobaBatchSize(saved.kotobaBatchSize),
+        kotobaBatchByScope: sanitizeKotobaBatchByScope(saved.kotobaBatchByScope),
         kotobaAutoRequeue: typeof saved.kotobaAutoRequeue === "boolean" ? saved.kotobaAutoRequeue : true,
         kotobaAutoAudio: typeof saved.kotobaAutoAudio === "boolean" ? saved.kotobaAutoAudio : false,
         finalSetup: sanitizeFinalSetup(saved.finalSetup)
@@ -334,8 +350,12 @@
     kotobaRomajiMode: initialPrefs.kotobaRomajiMode,
     kotobaQuizCount: initialPrefs.kotobaQuizCount,
     kotobaBatchSize: initialPrefs.kotobaBatchSize,
+    kotobaBatchByScope: initialPrefs.kotobaBatchByScope,
     kotobaAutoRequeue: initialPrefs.kotobaAutoRequeue,
     kotobaAutoAudio: initialPrefs.kotobaAutoAudio,
+    kotobaFlippedMap: {},
+    kotobaGridFilter: "all", // 'all' | 'unmastered' | 'mastered'
+    kotobaGridPage: 0,
     kotobaFullPool: [],
     kotobaBatchOffset: 0,
     kotobaDeck: [],
@@ -430,6 +450,7 @@
         kotobaRomajiMode: state.kotobaRomajiMode,
         kotobaQuizCount: state.kotobaQuizCount,
         kotobaBatchSize: state.kotobaBatchSize,
+        kotobaBatchByScope: state.kotobaBatchByScope,
         kotobaAutoRequeue: state.kotobaAutoRequeue,
         kotobaAutoAudio: state.kotobaAutoAudio,
         finalSetup: sanitizeFinalSetup(state.finalSetup)
@@ -1873,12 +1894,21 @@
     state.kotobaMcqPicked = null;
   }
 
+  function getActiveKotobaBatchSize(scope) {
+    const key = String(scope || state.kotobaScope || "1");
+    if (state.kotobaBatchByScope && ["5", "10", "15", "all"].includes(state.kotobaBatchByScope[key])) {
+      return state.kotobaBatchByScope[key];
+    }
+    return sanitizeKotobaBatchSize(state.kotobaBatchSize);
+  }
+
   function sliceKotobaBatch() {
     const pool = state.kotobaFullPool;
-    if (state.kotobaBatchSize === "all" || state.kotobaIsWrongRetry) {
+    const activeBatch = getActiveKotobaBatchSize(state.kotobaScope);
+    if (activeBatch === "all" || state.kotobaIsWrongRetry) {
       return pool;
     }
-    const size = Math.max(5, Number(state.kotobaBatchSize) || 15);
+    const size = Math.max(5, Number(activeBatch) || 5);
     const start = state.kotobaBatchOffset >= pool.length ? 0 : state.kotobaBatchOffset;
     state.kotobaBatchOffset = start;
     return pool.slice(start, start + size);
@@ -1889,6 +1919,10 @@
     state.selectedNum = null;
     if (scope) state.kotobaScope = String(scope);
     if (mode) state.kotobaMode = mode;
+
+    const prof = activeProfile();
+    ensureProfileKotoba(prof);
+    const masteredSet = new Set(prof.kotoba.masteredIds);
 
     const all = getAllKotoba();
     let pool;
@@ -1909,8 +1943,18 @@
       if (recallable.length >= 5) pool = recallable;
     }
 
+    if (state.kotobaMode === "flip" && !state.kotobaIsWrongRetry) {
+      const unmastered = pool.filter((w) => !masteredSet.has(w.id));
+      const mastered = pool.filter((w) => masteredSet.has(w.id));
+      pool = [...unmastered, ...mastered];
+    }
+
     state.kotobaFullPool = pool;
     state.kotobaBatchOffset = 0;
+    state.kotobaFlippedMap = {};
+    state.kotobaGridPage = 0;
+    state.kotobaGridFilter = "all";
+    state.kotobaSearch = "";
 
     if (state.kotobaMode === "flip") {
       state.kotobaDeck = sliceKotobaBatch();
@@ -2060,6 +2104,207 @@
     renderKotobaView();
   }
 
+  function getFilteredKotobaFlipPool() {
+    const prof = activeProfile();
+    ensureProfileKotoba(prof);
+    const masteredSet = new Set(prof.kotoba.masteredIds);
+    const q = (state.kotobaSearch || "").trim().toLowerCase();
+    return (state.kotobaFullPool || []).filter((w) => {
+      if (state.kotobaGridFilter === "unmastered" && masteredSet.has(w.id)) return false;
+      if (state.kotobaGridFilter === "mastered" && !masteredSet.has(w.id)) return false;
+      if (q) {
+        const hay = `${w.kana} ${w.kanji || ""} ${w.romaji || ""} ${w.arti || ""}`.toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+  }
+
+  function getKotobaGridPageInfo(filtered) {
+    const activeBatch = getActiveKotobaBatchSize(state.kotobaScope);
+    if (activeBatch === "all") {
+      const perPage = filtered.length <= 80 ? Math.max(1, filtered.length) : 60;
+      const totalPages = Math.max(1, Math.ceil(filtered.length / perPage));
+      const page = Math.max(0, Math.min(totalPages - 1, state.kotobaGridPage || 0));
+      state.kotobaGridPage = page;
+      const start = page * perPage;
+      return { activeBatch, perPage, page, totalPages, visible: filtered.slice(start, start + perPage) };
+    }
+    const perPage = Math.max(5, Number(activeBatch) || 5);
+    const totalPages = Math.max(1, Math.ceil(filtered.length / perPage));
+    const page = Math.max(0, Math.min(totalPages - 1, state.kotobaGridPage || 0));
+    state.kotobaGridPage = page;
+    const start = page * perPage;
+    return { activeBatch, perPage, page, totalPages, visible: filtered.slice(start, start + perPage) };
+  }
+
+  function setKotobaCardStatus(cardId, known) {
+    const prof = activeProfile();
+    ensureProfileKotoba(prof);
+    const mSet = new Set(prof.kotoba.masteredIds);
+    const rSet = new Set(prof.kotoba.reviewIds);
+    prof.kotoba.totalPlayed = (prof.kotoba.totalPlayed || 0) + 1;
+    if (known) {
+      mSet.add(cardId);
+      rSet.delete(cardId);
+      state.kotobaStreak += 1;
+      if (state.kotobaStreak > prof.kotoba.bestStreak) prof.kotoba.bestStreak = state.kotobaStreak;
+    } else {
+      mSet.delete(cardId);
+      rSet.add(cardId);
+      state.kotobaStreak = 0;
+    }
+    prof.kotoba.masteredIds = [...mSet];
+    prof.kotoba.reviewIds = [...rSet];
+    persistProfiles();
+    renderKotobaFlipGrid();
+  }
+
+  function renderKotobaFlipGrid() {
+    const container = document.getElementById("kotobaGridContainer");
+    if (!container) return;
+    const prof = activeProfile();
+    ensureProfileKotoba(prof);
+    const masteredSet = new Set(prof.kotoba.masteredIds);
+    const reviewSet = new Set(prof.kotoba.reviewIds);
+    const pool = state.kotobaFullPool || [];
+    const poolMasteredCount = pool.filter((w) => masteredSet.has(w.id)).length;
+    const filtered = getFilteredKotobaFlipPool();
+    const { activeBatch, perPage, page, totalPages, visible } = getKotobaGridPageInfo(filtered);
+
+    const hudCountEl = document.getElementById("kotobaFlipProgressBadge");
+    if (hudCountEl) {
+      hudCountEl.textContent = `Hafal: ${poolMasteredCount}/${pool.length} kata · Tampil: ${visible.length} kartu`;
+    }
+    const barEl = document.getElementById("kotobaFlipProgressBar");
+    if (barEl) {
+      const pct = pool.length > 0 ? Math.round((poolMasteredCount / pool.length) * 100) : 0;
+      barEl.style.width = `${pct}%`;
+    }
+
+    const frontIsJp = state.kotobaDir !== "id2jp";
+    const showFrontRomaji = state.kotobaRomajiMode === "on";
+    const showBackRomaji = state.kotobaRomajiMode !== "off";
+
+    const waveAllDone = activeBatch !== "all" && visible.length > 0 && visible.every((w) => masteredSet.has(w.id));
+    const waveBannerHtml = waveAllDone ? `
+      <div class="kotoba-wave-banner">
+        <span>🎉 Mantap! Semua <strong>${visible.length} kartu</strong> di kelompok ini sudah ditandai hafal.</span>
+        ${page + 1 < totalPages
+          ? `<button type="button" class="btn-primary" id="btnKotobaNextWaveBanner">⏭️ Lanjut ${Math.min(perPage, filtered.length - (page + 1) * perPage)} Kartu Berikutnya →</button>`
+          : `<button type="button" class="btn-primary" id="btnKotobaDoneGoQuiz">🏆 Uji di Kuis Akhir Kotoba →</button>`}
+      </div>
+    ` : "";
+
+    const cardsHtml = visible.length === 0 ? `
+      <div class="result-card" style="margin-top: 14px;">
+        <p class="eyebrow">TIDAK ADA KARTU</p>
+        <div class="result-score" style="font-size:22px;">Belum ada kata yang cocok</div>
+        <p class="result-msg">Ubah filter status di atas atau kosongkan kata pencarian.</p>
+        <button type="button" class="btn-secondary" id="btnKotobaResetFilter">Tampilkan Semua Kartu</button>
+      </div>
+    ` : `
+      <div class="kotoba-multi-grid">
+        ${visible.map((w) => {
+          const isFlipped = !!state.kotobaFlippedMap[w.id];
+          const isMastered = masteredSet.has(w.id);
+          const isReview = !isMastered && reviewSet.has(w.id);
+          const emojiCls = state.kotobaEmojiSize === "large" ? "fc-emoji kotoba-card-emoji-lg" : "fc-emoji kotoba-card-emoji-md";
+          const emojiHtml = w.emoji && state.kotobaEmojiSize !== "off" ? `<div class="${emojiCls}" aria-hidden="true">${w.emoji}</div>` : "";
+          const badgeStatus = isMastered ? "✅ Hafal" : isReview ? "🔁 Ulang" : `Bab ${w.bab}`;
+          return `
+            <article class="kotoba-multi-card ${isFlipped ? "is-flipped" : ""} ${isMastered ? "is-mastered" : isReview ? "is-review" : ""}">
+              <div class="kotoba-card-face" role="button" tabindex="0" data-kcard-flip="${esc(w.id)}" aria-pressed="${isFlipped}">
+                <div class="kotoba-card-top">
+                  <span class="kotoba-card-badge">${badgeStatus}</span>
+                  <span>${isFlipped ? "JAWABAN" : (frontIsJp ? "🇯🇵→🇮🇩" : "🇮🇩→🇯🇵")}</span>
+                </div>
+                <div class="kotoba-card-body">
+                  ${emojiHtml}
+                  ${!isFlipped ? (
+                    frontIsJp ? `
+                      <div class="kotoba-card-jp">${esc(w.kana)}</div>
+                      ${w.kanji ? `<div class="kotoba-card-kanji">${esc(w.kanji)}</div>` : ""}
+                      ${showFrontRomaji ? `<div class="romaji">${esc(w.romaji)}</div>` : ""}
+                      ${ttsBtnHtml(w.kana, "tts-btn-sm")}
+                    ` : `
+                      <div class="kotoba-card-arti">${esc(w.arti)}</div>
+                    `
+                  ) : `
+                    <div class="kotoba-card-jp">${esc(w.kana)}</div>
+                    ${w.kanji ? `<div class="kotoba-card-kanji">${esc(w.kanji)}</div>` : ""}
+                    ${showBackRomaji ? `<div class="romaji">${esc(w.romaji)}</div>` : ""}
+                    <div class="kotoba-card-arti">${esc(w.arti)}</div>
+                    ${ttsBtnHtml(w.kana, "tts-btn-sm")}
+                  `}
+                </div>
+                <div class="kotoba-card-hint">${isFlipped ? "Klik untuk tutup kembali" : "Klik kartu untuk flip"}</div>
+              </div>
+              <div class="kotoba-card-actions">
+                <button type="button" class="kotoba-act-btn is-known ${isMastered ? "is-active" : ""}" data-kcard-known="${esc(w.id)}">✅ Sudah Hafal</button>
+                <button type="button" class="kotoba-act-btn is-review ${isReview ? "is-active" : ""}" data-kcard-review="${esc(w.id)}">🔁 Belum</button>
+              </div>
+            </article>
+          `;
+        }).join("")}
+      </div>
+    `;
+
+    const waveNavHtml = totalPages > 1 ? `
+      <div class="kotoba-wave-nav">
+        <button type="button" class="btn-secondary" id="btnKotobaPrevWave" ${page <= 0 ? "disabled" : ""}>← Sebelumnya</button>
+        <span class="kotoba-wave-info">Gelombang <strong>${page + 1}</strong> / ${totalPages} (${filtered.length} kata)</span>
+        <button type="button" class="btn-secondary" id="btnKotobaNextWave" ${page + 1 >= totalPages ? "disabled" : ""}>Berikutnya →</button>
+      </div>
+    ` : "";
+
+    container.innerHTML = `${waveBannerHtml}${cardsHtml}${waveNavHtml}`;
+
+    container.querySelectorAll("[data-kcard-flip]").forEach((el) => {
+      const toggle = () => {
+        const id = el.dataset.kcardFlip;
+        state.kotobaFlippedMap[id] = !state.kotobaFlippedMap[id];
+        if (state.kotobaAutoAudio && state.kotobaFlippedMap[id]) {
+          const found = pool.find((x) => x.id === id);
+          if (found) speakJapanese(found.kana);
+        }
+        renderKotobaFlipGrid();
+      };
+      el.addEventListener("click", toggle);
+      el.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          toggle();
+        }
+      });
+    });
+
+    container.querySelectorAll("[data-kcard-known]").forEach((btn) => {
+      btn.addEventListener("click", () => setKotobaCardStatus(btn.dataset.kcardKnown, true));
+    });
+    container.querySelectorAll("[data-kcard-review]").forEach((btn) => {
+      btn.addEventListener("click", () => setKotobaCardStatus(btn.dataset.kcardReview, false));
+    });
+
+    const btnPrev = document.getElementById("btnKotobaPrevWave");
+    if (btnPrev) btnPrev.addEventListener("click", () => { state.kotobaGridPage = Math.max(0, state.kotobaGridPage - 1); state.kotobaFlippedMap = {}; renderKotobaFlipGrid(); });
+    const btnNext = document.getElementById("btnKotobaNextWave");
+    if (btnNext) btnNext.addEventListener("click", () => { state.kotobaGridPage = Math.min(totalPages - 1, state.kotobaGridPage + 1); state.kotobaFlippedMap = {}; renderKotobaFlipGrid(); });
+    const btnNextBanner = document.getElementById("btnKotobaNextWaveBanner");
+    if (btnNextBanner) btnNextBanner.addEventListener("click", () => { state.kotobaGridPage = Math.min(totalPages - 1, state.kotobaGridPage + 1); state.kotobaFlippedMap = {}; renderKotobaFlipGrid(); });
+    const btnDoneQuiz = document.getElementById("btnKotobaDoneGoQuiz");
+    if (btnDoneQuiz) btnDoneQuiz.addEventListener("click", () => openKotobaFlashcard(state.kotobaScope, "final"));
+    const btnResetFilter = document.getElementById("btnKotobaResetFilter");
+    if (btnResetFilter) {
+      btnResetFilter.addEventListener("click", () => {
+        state.kotobaGridFilter = "all";
+        state.kotobaSearch = "";
+        state.kotobaGridPage = 0;
+        renderKotobaView();
+      });
+    }
+  }
+
   function renderKotobaView() {
     const ws = document.getElementById("workspace");
     const prof = activeProfile();
@@ -2091,7 +2336,7 @@
     ].join("");
 
     let stageHtml = "";
-    if (total === 0) {
+    if (total === 0 && state.kotobaFullPool.length === 0) {
       stageHtml = `
         <div class="result-card" style="margin-top: 20px;">
           <p class="eyebrow">DEK KOTOBA KOSONG</p>
@@ -2099,6 +2344,34 @@
           <p class="result-msg">Pilih salah satu Bab (1–25) atau "Semua Bab" di atas untuk mulai belajar dan tes Kotoba.</p>
           <button type="button" class="btn-primary" id="btnKotobaStartBab1">Buka Kotoba Bab 1 →</button>
         </div>
+      `;
+    } else if (state.kotobaMode === "flip") {
+      const pool = state.kotobaFullPool || [];
+      const poolMasteredCount = pool.filter((w) => masteredSet.has(w.id)).length;
+      const pct = pool.length > 0 ? Math.round((poolMasteredCount / pool.length) * 100) : 0;
+      stageHtml = `
+        <div class="kotoba-hud">
+          <span id="kotobaFlipProgressBadge">Hafal: ${poolMasteredCount}/${pool.length} kata</span>
+          <span class="streak-pill">🔥 Streak: ${state.kotobaStreak}</span>
+        </div>
+        <div class="progress-track" style="margin-top: 8px;">
+          <div class="progress-fill" id="kotobaFlipProgressBar" style="width: ${pct}%"></div>
+        </div>
+
+        <div class="kotoba-grid-toolbar">
+          <div class="kotoba-setting-pills">
+            <button type="button" class="pill-btn" id="btnKotobaFlipAllOpen">👀 Buka Semua</button>
+            <button type="button" class="pill-btn" id="btnKotobaFlipAllClose">🙈 Tutup Semua</button>
+          </div>
+          <div class="kotoba-setting-pills">
+            <button type="button" class="filter-chip ${state.kotobaGridFilter === "all" ? "is-active" : ""}" data-kgrid-filter="all">Semua</button>
+            <button type="button" class="filter-chip ${state.kotobaGridFilter === "unmastered" ? "is-active" : ""}" data-kgrid-filter="unmastered">Belum Hafal</button>
+            <button type="button" class="filter-chip chip-green ${state.kotobaGridFilter === "mastered" ? "is-active" : ""}" data-kgrid-filter="mastered">Sudah Hafal</button>
+          </div>
+          <input type="search" class="kotoba-search-input" id="inpKotobaSearch" value="${esc(state.kotobaSearch)}" placeholder="🔍 Cari kana / romaji / arti..." aria-label="Cari kosakata">
+        </div>
+
+        <div id="kotobaGridContainer"></div>
       `;
     } else if (state.kotobaIdx >= total) {
       const sesTotal = state.kotobaSessionKnown + state.kotobaSessionReview;
@@ -2124,16 +2397,6 @@
                 🔁 Ulangi ${state.kotobaSessionWrongIds.length} Kata Salah Saja
               </button>
             ` : ""}
-            ${hasNextBatch ? `
-              <button type="button" class="btn-primary" id="btnKotobaNextBatch">
-                Lanjut Batch Berikutnya →
-              </button>
-            ` : ""}
-            ${state.kotobaMode === "flip" ? `
-              <button type="button" class="btn-primary" id="btnKotobaGoFinalFromFinish">
-                🏆 Lanjut Kuis Akhir Kotoba ${isSingleBab ? `Bab ${curBabNum}` : ""} →
-              </button>
-            ` : ""}
             <button type="button" class="btn-secondary" id="btnKotobaReplay">🔀 Main Dek Ini Lagi</button>
             ${savedWrongForScope.length > 0 ? `
               <button type="button" class="btn-secondary" id="btnKotobaDrillSavedWrong">
@@ -2141,66 +2404,6 @@
               </button>
             ` : ""}
           </div>
-        </div>
-      `;
-    } else if (state.kotobaMode === "flip") {
-      const isKnownAlready = masteredSet.has(cur.id);
-      const frontIsJp = state.kotobaDir !== "id2jp";
-      const showFrontRomaji = state.kotobaRomajiMode === "on";
-      const showBackRomaji = state.kotobaRomajiMode !== "off";
-      stageHtml = `
-        <div class="kotoba-hud">
-          <span>Kartu <strong>${state.kotobaIdx + 1}</strong> dari <strong>${total}</strong> (Bab ${cur.bab})</span>
-          <div style="display:flex; gap:6px; align-items:center; flex-wrap:wrap;">
-            ${isKnownAlready ? `<span class="zone-pill zone-green">✓ Pernah Hafal</span>` : ""}
-            <span class="streak-pill">🔥 Streak: ${state.kotobaStreak}</span>
-          </div>
-        </div>
-        <div class="progress-track" style="margin-top: 8px;">
-          <div class="progress-fill" style="width: ${Math.round(((state.kotobaIdx + (state.kotobaFlipped ? 1 : 0)) / total) * 100)}%"></div>
-        </div>
-
-        <div class="flashcard-stage">
-          <div class="flashcard-3d ${state.kotobaFlipped ? "is-flipped" : ""}" id="flashcardBox" role="button" tabindex="0" aria-label="Klik untuk membalik kartu Kotoba">
-            <div class="flashcard-face">
-              <div class="flashcard-top-badge">
-                <span>BAB ${cur.bab} · DEPAN</span>
-                <span>${frontIsJp ? "🇯🇵 → 🇮🇩" : "🇮🇩 → 🇯🇵"}</span>
-              </div>
-              ${renderKotobaEmojiHtml(cur)}
-              ${frontIsJp ? `
-                <div class="fc-word-jp">${esc(cur.kana)}</div>
-                ${cur.kanji ? `<div class="fc-kanji">${esc(cur.kanji)}</div>` : ""}
-                ${showFrontRomaji ? `<div class="romaji">${esc(cur.romaji)}</div>` : ""}
-                ${ttsBtnHtml(cur.kana)}
-              ` : `
-                <div class="fc-arti">${esc(cur.arti)}</div>
-              `}
-              <div class="fc-hint">Klik kartu atau tekan <strong>Spasi</strong> untuk melihat jawaban</div>
-            </div>
-
-            <div class="flashcard-face flashcard-back">
-              <div class="flashcard-top-badge">
-                <span>BAB ${cur.bab} · JAWABAN</span>
-                ${ttsBtnHtml(cur.kana)}
-              </div>
-              ${renderKotobaEmojiHtml(cur, state.kotobaEmojiSize === "large" ? "fc-emoji fc-emoji-md" : "")}
-              <div class="fc-word-jp" style="font-size: clamp(22px, 4.2vw, 32px);">${esc(cur.kana)}</div>
-              ${cur.kanji ? `<div class="fc-kanji">${esc(cur.kanji)}</div>` : ""}
-              ${showBackRomaji ? `<div class="romaji">${esc(cur.romaji)}</div>` : ""}
-              <div class="fc-arti">${esc(cur.arti)}</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="kotoba-judge-row">
-          ${!state.kotobaFlipped ? `
-            <button type="button" class="btn-primary" id="btnFlipCard">👀 Balik Kartu (Spasi)</button>
-            <button type="button" class="btn-secondary" data-speak="${esc(cleanJpSpeech(cur.kana))}">🔊 Putar Audio (A)</button>
-          ` : `
-            <button type="button" class="btn-danger-soft" id="btnJudgeReview">❌ Belum Hafal (1)</button>
-            <button type="button" class="btn-success-soft" id="btnJudgeKnown">✅ Sudah Hafal! (2)</button>
-          `}
         </div>
       `;
     } else {
@@ -2365,6 +2568,18 @@
             </div>
           </div>
 
+          <div class="kotoba-bab-strip" aria-label="Pilih cepat per Bab 1 sampai 25">
+            <button type="button" class="kotoba-bab-pill ${state.kotobaScope === "all" ? "is-active" : ""}" data-kbab-pick="all">Semua</button>
+            <button type="button" class="kotoba-bab-pill ${state.kotobaScope === "review" ? "is-active" : ""}" data-kbab-pick="review">🔁 Ulang (${prof.kotoba.reviewIds.length})</button>
+            ${Array.from({ length: 25 }, (_, i) => i + 1).map((b) => {
+              const list = KOTOBA_BY_BAB[b] || [];
+              const allKnown = list.length > 0 && list.every((w) => masteredSet.has(w.id));
+              const sc = prof.kotoba.chapterScores[b];
+              const isDone = allKnown || !!(sc && sc.bestPct >= 80);
+              return `<button type="button" class="kotoba-bab-pill ${state.kotobaScope === String(b) ? "is-active" : ""} ${isDone ? "is-done" : ""}" data-kbab-pick="${b}">${isDone ? "✓ " : ""}Bab ${b}</button>`;
+            }).join("")}
+          </div>
+
           <div class="mode-tabs" style="margin-top:0;" role="tablist">
             <button type="button" class="mode-tab ${state.kotobaMode === "flip" ? "is-active" : ""}" data-kmode="flip">🃏 Flip Kartu</button>
             <button type="button" class="mode-tab ${state.kotobaMode === "quiz" ? "is-active" : ""}" data-kmode="quiz">⚡ Kuis Kotoba (1–50)</button>
@@ -2413,19 +2628,17 @@
 
             ${state.kotobaMode === "flip" ? `
               <div class="kotoba-setting-group">
-                <span class="kotoba-setting-label">Ronde Kartu Flip</span>
+                <span class="kotoba-setting-label">Tampil Kartu (${isSingleBab ? `Bab ${curBabNum}` : "Dek Ini"})</span>
                 <div class="kotoba-setting-pills">
-                  ${[["10","10"],["15","15"],["25","25"],["all","Semua"]].map(([val, lbl]) => `
-                    <button type="button" class="filter-chip ${state.kotobaBatchSize === val ? "is-active" : ""}" data-kbatch="${val}">${lbl}</button>
+                  ${[["5","🎯 5 Fokus"],["10","10 Kartu"],["15","15 Kartu"],["all","🗂️ Semua"]].map(([val, lbl]) => `
+                    <button type="button" class="filter-chip ${getActiveKotobaBatchSize(state.kotobaScope) === val ? "is-active" : ""}" data-kbatch="${val}">${lbl}</button>
                   `).join("")}
                 </div>
               </div>
               <div class="kotoba-setting-group">
-                <span class="kotoba-setting-label">Ulangi Kartu "Belum Hafal" di Ronde Ini</span>
+                <span class="kotoba-setting-label">Reset Hafalan Dek Ini</span>
                 <div class="kotoba-setting-pills">
-                  <button type="button" class="filter-chip ${state.kotobaAutoRequeue ? "is-active" : ""}" id="btnKotobaAutoRequeue">
-                    ${state.kotobaAutoRequeue ? "🔁 Auto-Selip Ulang: ON" : "Auto-Selip Ulang: OFF"}
-                  </button>
+                  <button type="button" class="filter-chip chip-red" id="btnKotobaResetDeckMastery">🔄 Reset Hafal Dek Ini</button>
                 </div>
               </div>
             ` : ""}
@@ -2438,6 +2651,11 @@
 
     document.getElementById("selKotobaScope").addEventListener("change", (e) => {
       openKotobaFlashcard(e.target.value, state.kotobaMode);
+    });
+    ws.querySelectorAll("[data-kbab-pick]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        openKotobaFlashcard(btn.dataset.kbabPick, state.kotobaMode);
+      });
     });
     ws.querySelectorAll("[data-kmode]").forEach((btn) => {
       btn.addEventListener("click", () => openKotobaFlashcard(state.kotobaScope, btn.dataset.kmode));
@@ -2484,17 +2702,24 @@
     });
     ws.querySelectorAll("[data-kbatch]").forEach((btn) => {
       btn.addEventListener("click", () => {
-        state.kotobaBatchSize = btn.dataset.kbatch;
-        persistPrefs();
-        if (state.kotobaMode === "flip") openKotobaFlashcard(state.kotobaScope, "flip");
-      });
-    });
-    const btnRequeue = document.getElementById("btnKotobaAutoRequeue");
-    if (btnRequeue) {
-      btnRequeue.addEventListener("click", () => {
-        state.kotobaAutoRequeue = !state.kotobaAutoRequeue;
+        const val = sanitizeKotobaBatchSize(btn.dataset.kbatch);
+        state.kotobaBatchByScope[state.kotobaScope] = val;
+        state.kotobaGridPage = 0;
+        state.kotobaFlippedMap = {};
         persistPrefs();
         renderKotobaView();
+      });
+    });
+    const btnResetDeck = document.getElementById("btnKotobaResetDeckMastery");
+    if (btnResetDeck) {
+      btnResetDeck.addEventListener("click", () => {
+        const p = activeProfile();
+        ensureProfileKotoba(p);
+        const deckIds = new Set((state.kotobaFullPool || []).map((w) => w.id));
+        p.kotoba.masteredIds = p.kotoba.masteredIds.filter((id) => !deckIds.has(id));
+        p.kotoba.reviewIds = p.kotoba.reviewIds.filter((id) => !deckIds.has(id));
+        persistProfiles();
+        openKotobaFlashcard(state.kotobaScope, "flip");
       });
     }
     document.getElementById("btnKotobaAutoAudio").addEventListener("click", () => {
@@ -2543,20 +2768,41 @@
       btnDrillSaved.addEventListener("click", () => openKotobaFlashcard(state.kotobaScope, "final", savedWrongForScope));
     }
 
-    const cardBox = document.getElementById("flashcardBox");
-    const flipAction = () => {
-      state.kotobaFlipped = !state.kotobaFlipped;
-      if (state.kotobaAutoAudio && state.kotobaFlipped && cur) speakJapanese(cur.kana);
-      renderKotobaView();
-    };
-    if (cardBox) {
-      cardBox.addEventListener("click", flipAction);
-      cardBox.addEventListener("keydown", (e) => {
-        if (e.key === "Enter") { e.preventDefault(); flipAction(); }
+    if (state.kotobaMode === "flip") {
+      renderKotobaFlipGrid();
+      const btnOpenAll = document.getElementById("btnKotobaFlipAllOpen");
+      if (btnOpenAll) {
+        btnOpenAll.addEventListener("click", () => {
+          const { visible } = getKotobaGridPageInfo(getFilteredKotobaFlipPool());
+          visible.forEach((w) => { state.kotobaFlippedMap[w.id] = true; });
+          renderKotobaFlipGrid();
+        });
+      }
+      const btnCloseAll = document.getElementById("btnKotobaFlipAllClose");
+      if (btnCloseAll) {
+        btnCloseAll.addEventListener("click", () => {
+          const { visible } = getKotobaGridPageInfo(getFilteredKotobaFlipPool());
+          visible.forEach((w) => { state.kotobaFlippedMap[w.id] = false; });
+          renderKotobaFlipGrid();
+        });
+      }
+      ws.querySelectorAll("[data-kgrid-filter]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          state.kotobaGridFilter = btn.dataset.kgridFilter;
+          state.kotobaGridPage = 0;
+          renderKotobaView();
+        });
       });
+      const inpSearch = document.getElementById("inpKotobaSearch");
+      if (inpSearch) {
+        inpSearch.addEventListener("input", () => {
+          state.kotobaSearch = inpSearch.value;
+          state.kotobaGridPage = 0;
+          renderKotobaFlipGrid();
+        });
+      }
     }
-    const btnFlip = document.getElementById("btnFlipCard");
-    if (btnFlip) btnFlip.addEventListener("click", flipAction);
+
     const btnRev = document.getElementById("btnJudgeReview");
     if (btnRev) btnRev.addEventListener("click", () => markKotobaCard(false));
     const btnKwn = document.getElementById("btnJudgeKnown");
@@ -4784,6 +5030,7 @@
           kotobaRomajiMode: state.kotobaRomajiMode,
           kotobaQuizCount: state.kotobaQuizCount,
           kotobaBatchSize: state.kotobaBatchSize,
+          kotobaBatchByScope: state.kotobaBatchByScope,
           kotobaAutoRequeue: state.kotobaAutoRequeue,
           kotobaAutoAudio: state.kotobaAutoAudio,
           finalSetup: sanitizeFinalSetup(state.finalSetup)
@@ -4833,7 +5080,8 @@
             if (["large", "normal", "off"].includes(data.prefs.kotobaEmojiSize)) state.kotobaEmojiSize = data.prefs.kotobaEmojiSize;
             if (["on", "back", "off"].includes(data.prefs.kotobaRomajiMode)) state.kotobaRomajiMode = data.prefs.kotobaRomajiMode;
             if (data.prefs.kotobaQuizCount) state.kotobaQuizCount = clampKotobaQuizCount(data.prefs.kotobaQuizCount);
-            if (["10", "15", "25", "all"].includes(String(data.prefs.kotobaBatchSize))) state.kotobaBatchSize = String(data.prefs.kotobaBatchSize);
+            if (data.prefs.kotobaBatchSize) state.kotobaBatchSize = sanitizeKotobaBatchSize(data.prefs.kotobaBatchSize);
+            if (data.prefs.kotobaBatchByScope) state.kotobaBatchByScope = sanitizeKotobaBatchByScope(data.prefs.kotobaBatchByScope);
             if (typeof data.prefs.kotobaAutoRequeue === "boolean") state.kotobaAutoRequeue = data.prefs.kotobaAutoRequeue;
             if (typeof data.prefs.kotobaAutoAudio === "boolean") state.kotobaAutoAudio = data.prefs.kotobaAutoAudio;
             if (data.prefs.finalSetup) state.finalSetup = sanitizeFinalSetup(data.prefs.finalSetup);
@@ -5131,21 +5379,16 @@
         return;
       }
 
-      if (state.view === "kotoba" && state.kotobaIdx < state.kotobaDeck.length) {
+      if (state.view === "kotoba" && (state.kotobaMode === "flip" || state.kotobaIdx < state.kotobaDeck.length)) {
         const cur = state.kotobaDeck[state.kotobaIdx];
         const qKind = getActiveKotobaQuestionKind();
         if (qKind === "flip") {
           if (e.key === " ") {
             e.preventDefault();
-            state.kotobaFlipped = !state.kotobaFlipped;
-            if (state.kotobaAutoAudio && state.kotobaFlipped && cur) speakJapanese(cur.kana);
-            renderKotobaView();
-          } else if (state.kotobaFlipped && e.key === "1") {
-            markKotobaCard(false);
-          } else if (state.kotobaFlipped && e.key === "2") {
-            markKotobaCard(true);
-          } else if ((e.key === "a" || e.key === "A") && cur) {
-            speakJapanese(cur.kana);
+            const { visible } = getKotobaGridPageInfo(getFilteredKotobaFlipPool());
+            const allOpen = visible.length > 0 && visible.every((w) => !!state.kotobaFlippedMap[w.id]);
+            visible.forEach((w) => { state.kotobaFlippedMap[w.id] = !allOpen; });
+            renderKotobaFlipGrid();
           }
         } else if (qKind === "recall") {
           if (e.key === "Enter" && state.kotobaRecallAnswered) {
