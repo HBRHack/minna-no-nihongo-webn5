@@ -1450,5 +1450,1455 @@ window.MNN_BANK[12] = [
     ],
     "answer": 2,
     "explain": "Untuk dua pilihan dipakai どちら, bukan どれ."
+  },
+  {
+    "id": "b12-51",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Kosakata あまい",
+    "prompt": "「あまい」の いみは どれですか。",
+    "promptRomaji": "\"Amai\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "manis",
+        "romaji": ""
+      },
+      {
+        "jp": "pedas",
+        "romaji": ""
+      },
+      {
+        "jp": "hangat",
+        "romaji": ""
+      },
+      {
+        "jp": "ringan",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "あまい berarti manis, sedangkan からい berarti pedas."
+  },
+  {
+    "id": "b12-52",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Kosakata からい",
+    "prompt": "「からい」の いみは どれですか。",
+    "promptRomaji": "\"Karai\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "manis",
+        "romaji": ""
+      },
+      {
+        "jp": "pedas",
+        "romaji": ""
+      },
+      {
+        "jp": "berat",
+        "romaji": ""
+      },
+      {
+        "jp": "sejuk",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "からい berarti pedas."
+  },
+  {
+    "id": "b12-53",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Kosakata おもい",
+    "prompt": "「おもい」の いみは どれですか。",
+    "promptRomaji": "\"Omoi\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "ringan",
+        "romaji": ""
+      },
+      {
+        "jp": "jauh",
+        "romaji": ""
+      },
+      {
+        "jp": "berat",
+        "romaji": ""
+      },
+      {
+        "jp": "cepat",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "おもい berarti berat; lawannya かるい (ringan)."
+  },
+  {
+    "id": "b12-54",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Kosakata かるい",
+    "prompt": "「かるい」の いみは どれですか。",
+    "promptRomaji": "\"Karui\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "berat",
+        "romaji": ""
+      },
+      {
+        "jp": "lambat",
+        "romaji": ""
+      },
+      {
+        "jp": "dekat",
+        "romaji": ""
+      },
+      {
+        "jp": "ringan",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "かるい berarti ringan; lawannya おもい (berat)."
+  },
+  {
+    "id": "b12-55",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Kosakata きせつ",
+    "prompt": "「きせつ」の いみは どれですか。",
+    "promptRomaji": "\"Kisetsu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "musim",
+        "romaji": ""
+      },
+      {
+        "jp": "cuaca",
+        "romaji": ""
+      },
+      {
+        "jp": "dunia",
+        "romaji": ""
+      },
+      {
+        "jp": "festival",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "きせつ (季節) berarti musim (はる・なつ・あき・ふゆ)."
+  },
+  {
+    "id": "b12-56",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Kosakata くもり",
+    "prompt": "「くもり」の いみは どれですか。",
+    "promptRomaji": "\"Kumori\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "salju",
+        "romaji": ""
+      },
+      {
+        "jp": "mendung / berawan",
+        "romaji": ""
+      },
+      {
+        "jp": "hujan",
+        "romaji": ""
+      },
+      {
+        "jp": "hangat",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "くもり berarti mendung atau berawan; あめ hujan dan ゆき salju."
+  },
+  {
+    "id": "b12-57",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Kosakata もみじ",
+    "prompt": "「もみじ」の いみは どれですか。",
+    "promptRomaji": "\"Momiji\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "bunga sakura",
+        "romaji": ""
+      },
+      {
+        "jp": "merangkai bunga",
+        "romaji": ""
+      },
+      {
+        "jp": "daun maple / daun musim gugur",
+        "romaji": ""
+      },
+      {
+        "jp": "festival tradisional",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "もみじ (紅葉) berarti daun maple yang memerah di musim gugur."
+  },
+  {
+    "id": "b12-58",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Kosakata はじめて",
+    "prompt": "「はじめて」の いみは どれですか。",
+    "promptRomaji": "\"Hajimete\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "jauh lebih",
+        "romaji": ""
+      },
+      {
+        "jp": "paling",
+        "romaji": ""
+      },
+      {
+        "jp": "keduanya",
+        "romaji": ""
+      },
+      {
+        "jp": "untuk pertama kalinya",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "はじめて (初めて) berarti untuk pertama kalinya."
+  },
+  {
+    "id": "b12-59",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau KS-い",
+    "prompt": "きのうの しけんは とても （　）。",
+    "promptRomaji": "Kinou no shiken wa totemo ( ).",
+    "sub": "Ujian kemarin sangat sulit. (むずかしい)",
+    "options": [
+      {
+        "jp": "むずかしかったです",
+        "romaji": "muzukashikatta desu"
+      },
+      {
+        "jp": "むずかしいでした",
+        "romaji": "muzukashii deshita"
+      },
+      {
+        "jp": "むずかしくなかったです",
+        "romaji": "muzukashikunakatta desu"
+      },
+      {
+        "jp": "むずかしいかったです",
+        "romaji": "muzukashiikatta desu"
+      }
+    ],
+    "answer": 0,
+    "explain": "KS-い lampau positif: buang い terakhir lalu tambah かったです → むずかしかったです."
+  },
+  {
+    "id": "b12-60",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau KS-い negatif",
+    "prompt": "せんしゅうの しけんは あまり （　）。",
+    "promptRomaji": "Senshuu no shiken wa amari ( ).",
+    "sub": "Ujian minggu lalu tidak terlalu sulit. (むずかしい)",
+    "options": [
+      {
+        "jp": "むずかしかったです",
+        "romaji": "muzukashikatta desu"
+      },
+      {
+        "jp": "むずかしくなかったです",
+        "romaji": "muzukashikunakatta desu"
+      },
+      {
+        "jp": "むずかしいじゃありませんでした",
+        "romaji": "muzukashii ja arimasen deshita"
+      },
+      {
+        "jp": "むずかしくないでした",
+        "romaji": "muzukashikunai deshita"
+      }
+    ],
+    "answer": 1,
+    "explain": "むずかしい lampau negatifnya menjadi むずかしくなかったです."
+  },
+  {
+    "id": "b12-61",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau KS-い",
+    "prompt": "その ホテルは えきから （　）。",
+    "promptRomaji": "Sono hoteru wa eki kara ( ).",
+    "sub": "Hotel itu dulu jauh dari stasiun. (とおい)",
+    "options": [
+      {
+        "jp": "とおいでした",
+        "romaji": "tooi deshita"
+      },
+      {
+        "jp": "とおくなかったです",
+        "romaji": "tookunakatta desu"
+      },
+      {
+        "jp": "とおかったです",
+        "romaji": "tookatta desu"
+      },
+      {
+        "jp": "とおかったでした",
+        "romaji": "tookatta deshita"
+      }
+    ],
+    "answer": 2,
+    "explain": "とおい menjadi とおかったです pada kala lampau positif."
+  },
+  {
+    "id": "b12-62",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau KS-い negatif",
+    "prompt": "くうこうは まちから あまり （　）。",
+    "promptRomaji": "Kuukou wa machi kara amari ( ).",
+    "sub": "Bandara dulu tidak terlalu dekat dari kota. (ちかい)",
+    "options": [
+      {
+        "jp": "ちかかったです",
+        "romaji": "chikakatta desu"
+      },
+      {
+        "jp": "ちかくないでした",
+        "romaji": "chikakunai deshita"
+      },
+      {
+        "jp": "ちかいじゃありませんでした",
+        "romaji": "chikai ja arimasen deshita"
+      },
+      {
+        "jp": "ちかくなかったです",
+        "romaji": "chikakunakatta desu"
+      }
+    ],
+    "answer": 3,
+    "explain": "ちかい menjadi ちかくなかったです pada kala lampau negatif."
+  },
+  {
+    "id": "b12-63",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau KS-い",
+    "prompt": "きのうの ひるは とても （　）。",
+    "promptRomaji": "Kinou no hiru wa totemo ( ).",
+    "sub": "Siang kemarin sangat hangat. (あたたかい)",
+    "options": [
+      {
+        "jp": "あたたかかったです",
+        "romaji": "atatakakatta desu"
+      },
+      {
+        "jp": "あたたかいでした",
+        "romaji": "atatakai deshita"
+      },
+      {
+        "jp": "あたたかくなかったです",
+        "romaji": "atatakakunakatta desu"
+      },
+      {
+        "jp": "あたたかじゃありませんでした",
+        "romaji": "atataka ja arimasen deshita"
+      }
+    ],
+    "answer": 0,
+    "explain": "あたたかい adalah KS-い, jadi lampaunya あたたかかったです."
+  },
+  {
+    "id": "b12-64",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau KS-い negatif",
+    "prompt": "きょねんの あきは あまり （　）。",
+    "promptRomaji": "Kyonen no aki wa amari ( ).",
+    "sub": "Musim gugur tahun lalu tidak terlalu sejuk. (すずしい)",
+    "options": [
+      {
+        "jp": "すずしかったです",
+        "romaji": "suzushikatta desu"
+      },
+      {
+        "jp": "すずしくなかったです",
+        "romaji": "suzushikunakatta desu"
+      },
+      {
+        "jp": "すずしくないでした",
+        "romaji": "suzushikunai deshita"
+      },
+      {
+        "jp": "すずしいでした",
+        "romaji": "suzushii deshita"
+      }
+    ],
+    "answer": 1,
+    "explain": "すずしい menjadi すずしくなかったです pada kala lampau negatif."
+  },
+  {
+    "id": "b12-65",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau KS-い",
+    "prompt": "きのうの カレーライスは とても （　）。",
+    "promptRomaji": "Kinou no kareeraisu wa totemo ( ).",
+    "sub": "Nasi kari kemarin sangat pedas. (からい)",
+    "options": [
+      {
+        "jp": "からいでした",
+        "romaji": "karai deshita"
+      },
+      {
+        "jp": "からくなかったです",
+        "romaji": "karakunakatta desu"
+      },
+      {
+        "jp": "からかったです",
+        "romaji": "karakatta desu"
+      },
+      {
+        "jp": "からかったでした",
+        "romaji": "karakatta deshita"
+      }
+    ],
+    "answer": 2,
+    "explain": "からい menjadi からかったです pada kala lampau positif."
+  },
+  {
+    "id": "b12-66",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau KS-い",
+    "prompt": "きのうの おまつりは ひとが （　）。",
+    "promptRomaji": "Kinou no omatsuri wa hito ga ( ).",
+    "sub": "Festival kemarin orangnya banyak. (おおい)",
+    "options": [
+      {
+        "jp": "おおいでした",
+        "romaji": "ooi deshita"
+      },
+      {
+        "jp": "おおいくなかったです",
+        "romaji": "ooikunakatta desu"
+      },
+      {
+        "jp": "おおいかったです",
+        "romaji": "ooikatta desu"
+      },
+      {
+        "jp": "おおかったです",
+        "romaji": "ookatta desu"
+      }
+    ],
+    "answer": 3,
+    "explain": "おおい adalah KS-い, sehingga lampau positifnya menjadi おおかったです."
+  },
+  {
+    "id": "b12-67",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau KS-い",
+    "prompt": "けさ でんしゃの ひとが （　）。",
+    "promptRomaji": "Kesa densha no hito ga ( ).",
+    "sub": "Tadi pagi penumpang kereta sedikit. (すくない)",
+    "options": [
+      {
+        "jp": "すくなかったです",
+        "romaji": "sukunakatta desu"
+      },
+      {
+        "jp": "すくないでした",
+        "romaji": "sukunai deshita"
+      },
+      {
+        "jp": "すくないかったです",
+        "romaji": "sukunaikatta desu"
+      },
+      {
+        "jp": "すくなくかったです",
+        "romaji": "sukunakukatta desu"
+      }
+    ],
+    "answer": 0,
+    "explain": "すくない adalah KS-い; buang い lalu tambah かったです → すくなかったです."
+  },
+  {
+    "id": "b12-68",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau KS-い negatif",
+    "prompt": "せんげつの てんきは あまり （　）。",
+    "promptRomaji": "Sengetsu no tenki wa amari ( ).",
+    "sub": "Cuaca bulan lalu tidak terlalu buruk. (わるい)",
+    "options": [
+      {
+        "jp": "わるかったです",
+        "romaji": "warukatta desu"
+      },
+      {
+        "jp": "わるくなかったです",
+        "romaji": "warukunakatta desu"
+      },
+      {
+        "jp": "わるいでした",
+        "romaji": "warui deshita"
+      },
+      {
+        "jp": "わるくないでした",
+        "romaji": "warukunai deshita"
+      }
+    ],
+    "answer": 1,
+    "explain": "わるい menjadi わるくなかったです pada lampau negatif."
+  },
+  {
+    "id": "b12-69",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau KS-な",
+    "prompt": "きのうの おまつりは とても （　）。",
+    "promptRomaji": "Kinou no omatsuri wa totemo ( ).",
+    "sub": "Festival kemarin sangat ramai. (にぎやか)",
+    "options": [
+      {
+        "jp": "にぎやかかったです",
+        "romaji": "nigiyakakatta desu"
+      },
+      {
+        "jp": "にぎやかじゃありませんでした",
+        "romaji": "nigiyaka ja arimasen deshita"
+      },
+      {
+        "jp": "にぎやかでした",
+        "romaji": "nigiyaka deshita"
+      },
+      {
+        "jp": "にぎやかなでした",
+        "romaji": "nigiyakana deshita"
+      }
+    ],
+    "answer": 2,
+    "explain": "にぎやか adalah KS-な sehingga lampau positifnya にぎやかでした."
+  },
+  {
+    "id": "b12-70",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau KS-な negatif",
+    "prompt": "おとといの よる、この まちは あまり （　）。",
+    "promptRomaji": "Ototoi no yoru, kono machi wa amari ( ).",
+    "sub": "Malam kemarin lusa, kota ini tidak terlalu ramai. (にぎやか)",
+    "options": [
+      {
+        "jp": "にぎやかでした",
+        "romaji": "nigiyaka deshita"
+      },
+      {
+        "jp": "にぎやかじゃありません",
+        "romaji": "nigiyaka ja arimasen"
+      },
+      {
+        "jp": "にぎやかくなかったです",
+        "romaji": "nigiyakakunakatta desu"
+      },
+      {
+        "jp": "にぎやかじゃありませんでした",
+        "romaji": "nigiyaka ja arimasen deshita"
+      }
+    ],
+    "answer": 3,
+    "explain": "KS-な lampau negatif memakai じゃありませんでした."
+  },
+  {
+    "id": "b12-71",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau KS-な",
+    "prompt": "その ホテルは とても （　）。",
+    "promptRomaji": "Sono hoteru wa totemo ( ).",
+    "sub": "Hotel itu dulu sangat praktis/nyaman. (べんり)",
+    "options": [
+      {
+        "jp": "べんりでした",
+        "romaji": "benri deshita"
+      },
+      {
+        "jp": "べんりかったです",
+        "romaji": "benrikatta desu"
+      },
+      {
+        "jp": "べんりくなかったです",
+        "romaji": "benrikunakatta desu"
+      },
+      {
+        "jp": "べんりなでした",
+        "romaji": "benrina deshita"
+      }
+    ],
+    "answer": 0,
+    "explain": "べんり adalah KS-な sehingga bentuk lampau positifnya べんりでした."
+  },
+  {
+    "id": "b12-72",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau KS-な negatif",
+    "prompt": "その じしょは あまり （　）。",
+    "promptRomaji": "Sono jisho wa amari ( ).",
+    "sub": "Kamus itu dulu tidak terlalu praktis. (べんり)",
+    "options": [
+      {
+        "jp": "べんりくなかったです",
+        "romaji": "benrikunakatta desu"
+      },
+      {
+        "jp": "べんりじゃありませんでした",
+        "romaji": "benri ja arimasen deshita"
+      },
+      {
+        "jp": "べんりでした",
+        "romaji": "benri deshita"
+      },
+      {
+        "jp": "べんりじゃありません",
+        "romaji": "benri ja arimasen"
+      }
+    ],
+    "answer": 1,
+    "explain": "べんり adalah KS-な sehingga lampau negatifnya べんりじゃありませんでした."
+  },
+  {
+    "id": "b12-73",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau KS-な (ゆうめい)",
+    "prompt": "あの みせは とても （　）。",
+    "promptRomaji": "Ano mise wa totemo ( ).",
+    "sub": "Toko itu dulu sangat terkenal. (ゆうめい)",
+    "options": [
+      {
+        "jp": "ゆうめいかったです",
+        "romaji": "yuumeikatta desu"
+      },
+      {
+        "jp": "ゆうめいくなかったです",
+        "romaji": "yuumeikunakatta desu"
+      },
+      {
+        "jp": "ゆうめいでした",
+        "romaji": "yuumei deshita"
+      },
+      {
+        "jp": "ゆうめいかったでした",
+        "romaji": "yuumeikatta deshita"
+      }
+    ],
+    "answer": 2,
+    "explain": "ゆうめい meskipun berakhiran い adalah KS-な, jadi lampau positifnya ゆうめいでした."
+  },
+  {
+    "id": "b12-74",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau KS-な negatif (すき)",
+    "prompt": "きょねんまで さしみが あまり （　）。",
+    "promptRomaji": "Kyonen made sashimi ga amari ( ).",
+    "sub": "Sampai tahun lalu saya tidak terlalu suka sashimi. (すき)",
+    "options": [
+      {
+        "jp": "すきくなかったです",
+        "romaji": "sukikunakatta desu"
+      },
+      {
+        "jp": "すきでした",
+        "romaji": "suki deshita"
+      },
+      {
+        "jp": "すきじゃありません",
+        "romaji": "suki ja arimasen"
+      },
+      {
+        "jp": "すきじゃありませんでした",
+        "romaji": "suki ja arimasen deshita"
+      }
+    ],
+    "answer": 3,
+    "explain": "すき adalah KS-な, sehingga lampau negatifnya すきじゃありませんでした."
+  },
+  {
+    "id": "b12-75",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau Kata Benda",
+    "prompt": "きのうの よるは （　）。",
+    "promptRomaji": "Kinou no yoru wa ( ).",
+    "sub": "Tadi malam bersalju/turun salju. (ゆき = kata benda)",
+    "options": [
+      {
+        "jp": "ゆきでした",
+        "romaji": "yuki deshita"
+      },
+      {
+        "jp": "ゆきかったです",
+        "romaji": "yukikatta desu"
+      },
+      {
+        "jp": "ゆきくなかったです",
+        "romaji": "yukikunakatta desu"
+      },
+      {
+        "jp": "ゆきです",
+        "romaji": "yuki desu"
+      }
+    ],
+    "answer": 0,
+    "explain": "ゆき adalah kata benda, jadi bentuk lampau positifnya memakai でした."
+  },
+  {
+    "id": "b12-76",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Lampau Kata Benda negatif",
+    "prompt": "きのう ぎんこうは やすみでした。でも、スーパーは （　）。",
+    "promptRomaji": "Kinou ginkou wa yasumi deshita. Demo, suupaa wa ( ).",
+    "sub": "Kemarin bank libur. Tetapi supermarket tidak libur.",
+    "options": [
+      {
+        "jp": "やすみでした",
+        "romaji": "yasumi deshita"
+      },
+      {
+        "jp": "やすみじゃありませんでした",
+        "romaji": "yasumi ja arimasen deshita"
+      },
+      {
+        "jp": "やすみじゃありません",
+        "romaji": "yasumi ja arimasen"
+      },
+      {
+        "jp": "やすみくなかったです",
+        "romaji": "yasumikunakatta desu"
+      }
+    ],
+    "answer": 1,
+    "explain": "やすみ adalah kata benda sehingga bentuk lampau negatifnya やすみじゃありませんでした."
+  },
+  {
+    "id": "b12-77",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Perbandingan Lampau",
+    "prompt": "きょねんの ふゆは ことしより （　）。",
+    "promptRomaji": "Kyonen no fuyu wa kotoshi yori ( ).",
+    "sub": "Musim dingin tahun lalu lebih dingin daripada tahun ini.",
+    "options": [
+      {
+        "jp": "さむいです",
+        "romaji": "samui desu"
+      },
+      {
+        "jp": "さむいでした",
+        "romaji": "samui deshita"
+      },
+      {
+        "jp": "さむかったです",
+        "romaji": "samukatta desu"
+      },
+      {
+        "jp": "さむくなかったです",
+        "romaji": "samukunakatta desu"
+      }
+    ],
+    "answer": 2,
+    "explain": "Membandingkan musim dingin tahun lalu (lampau) memakai さむかったです."
+  },
+  {
+    "id": "b12-78",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Kata keterangan ずっと",
+    "prompt": "しんかんせんは バスより （　） はやいです。",
+    "promptRomaji": "Shinkansen wa basu yori ( ) hayai desu.",
+    "sub": "Shinkansen jauh lebih cepat daripada bus.",
+    "options": [
+      {
+        "jp": "いちばん",
+        "romaji": "ichiban"
+      },
+      {
+        "jp": "あまり",
+        "romaji": "amari"
+      },
+      {
+        "jp": "どちら",
+        "romaji": "dochira"
+      },
+      {
+        "jp": "ずっと",
+        "romaji": "zutto"
+      }
+    ],
+    "answer": 3,
+    "explain": "ずっと dipakai dalam kalimat perbandingan untuk menyatakan selisih yang jauh ('jauh lebih')."
+  },
+  {
+    "id": "b12-79",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Pola どちらが",
+    "prompt": "A：あきと はると （　） すずしいですか。 B：あきの ほうが すずしいです。",
+    "promptRomaji": "A: Aki to haru to ( ) suzushii desu ka. B: Aki no hou ga suzushii desu.",
+    "sub": "Menanyakan mana yang lebih sejuk di antara dua musim.",
+    "options": [
+      {
+        "jp": "どちらが",
+        "romaji": "dochira ga"
+      },
+      {
+        "jp": "どれが",
+        "romaji": "dore ga"
+      },
+      {
+        "jp": "なにが",
+        "romaji": "nani ga"
+      },
+      {
+        "jp": "いつが",
+        "romaji": "itsu ga"
+      }
+    ],
+    "answer": 0,
+    "explain": "Untuk membandingkan dua hal (A と B と) dipakai どちらが."
+  },
+  {
+    "id": "b12-80",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Pola のほうが (lampau)",
+    "prompt": "A：すきやきと てんぷらと どちらが おいしかったですか。 B：すきやき（　） おいしかったです。",
+    "promptRomaji": "A: Sukiyaki to tenpura to dochira ga oishikatta desu ka. B: Sukiyaki ( ) oishikatta desu.",
+    "sub": "Sukiyaki lebih enak.",
+    "options": [
+      {
+        "jp": "より",
+        "romaji": "yori"
+      },
+      {
+        "jp": "のほうが",
+        "romaji": "no hou ga"
+      },
+      {
+        "jp": "で いちばん",
+        "romaji": "de ichiban"
+      },
+      {
+        "jp": "どちらも",
+        "romaji": "dochira mo"
+      }
+    ],
+    "answer": 1,
+    "explain": "Menjawab pertanyaan どちらが memakai [Pilihan] のほうが."
+  },
+  {
+    "id": "b12-81",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Superlatif [Lingkup] で",
+    "prompt": "せかい（　） いちばん たかい やまは なんですか。",
+    "promptRomaji": "Sekai ( ) ichiban takai yama wa nan desu ka.",
+    "sub": "Di dunia, gunung apa yang paling tinggi?",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "より",
+        "romaji": "yori"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      }
+    ],
+    "answer": 2,
+    "explain": "Lingkup superlatif (seperti せかいで, にほんで, 1ねんで) ditandai partikel で."
+  },
+  {
+    "id": "b12-82",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Superlatif かぞくで",
+    "prompt": "A：かぞくで だれが いちばん にほんごが じょうずですか。 B：（　）。",
+    "promptRomaji": "A: Kazoku de dare ga ichiban nihongo ga jouzu desu ka. B: ( ).",
+    "sub": "Ibu yang paling pandai.",
+    "options": [
+      {
+        "jp": "ははの ほうが じょうずです。",
+        "romaji": "Haha no hou ga jouzu desu."
+      },
+      {
+        "jp": "ははより いちばん じょうずです。",
+        "romaji": "Haha yori ichiban jouzu desu."
+      },
+      {
+        "jp": "ははで いちばん じょうずです。",
+        "romaji": "Haha de ichiban jouzu desu."
+      },
+      {
+        "jp": "ははが いちばん じょうずです。",
+        "romaji": "Haha ga ichiban jouzu desu."
+      }
+    ],
+    "answer": 3,
+    "explain": "Pertanyaan だれが いちばん dijawab dengan [Orang] が いちばん."
+  },
+  {
+    "id": "b12-83",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Superlatif いつ",
+    "prompt": "1ねんで （　）が いちばん すずしいですか。…あきです。",
+    "promptRomaji": "Ichinen de ( ) ga ichiban suzushii desu ka. ...Aki desu.",
+    "sub": "Dalam satu tahun, kapan yang paling sejuk?",
+    "options": [
+      {
+        "jp": "いつ",
+        "romaji": "itsu"
+      },
+      {
+        "jp": "どこ",
+        "romaji": "doko"
+      },
+      {
+        "jp": "だれ",
+        "romaji": "dare"
+      },
+      {
+        "jp": "どちら",
+        "romaji": "dochira"
+      }
+    ],
+    "answer": 0,
+    "explain": "Menanyakan waktu atau musim dalam setahun memakai いつ."
+  },
+  {
+    "id": "b12-84",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Pilihan が いいです",
+    "prompt": "A：ぎゅうにくと とりにくと どちらが いいですか。 B：とりにくの ほうが （　）。",
+    "promptRomaji": "A: Gyuuniku to toriniku to dochira ga ii desu ka. B: Toriniku no hou ga ( ).",
+    "sub": "Saya lebih memilih daging ayam.",
+    "options": [
+      {
+        "jp": "すきじゃありません",
+        "romaji": "suki ja arimasen"
+      },
+      {
+        "jp": "いいです",
+        "romaji": "ii desu"
+      },
+      {
+        "jp": "いちばんです",
+        "romaji": "ichiban desu"
+      },
+      {
+        "jp": "よりです",
+        "romaji": "yori desu"
+      }
+    ],
+    "answer": 1,
+    "explain": "Pertanyaan どちらが いいですか dijawab dengan [Pilihan] のほうが いいです."
+  },
+  {
+    "id": "b12-85",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Terjemahan ずっと",
+    "prompt": "「Pesawat jauh lebih cepat daripada kapal laut」は にほんごで どれですか。",
+    "promptRomaji": "“Pesawat jauh lebih cepat daripada kapal laut” wa Nihongo de dore desu ka.",
+    "sub": "Pilih kalimat bahasa Jepang yang benar.",
+    "options": [
+      {
+        "jp": "ひこうきは ふねより いちばん はやいです。",
+        "romaji": "Hikouki wa fune yori ichiban hayai desu."
+      },
+      {
+        "jp": "ふねは ひこうきより ずっと はやいです。",
+        "romaji": "Fune wa hikouki yori zutto hayai desu."
+      },
+      {
+        "jp": "ひこうきは ふねより ずっと はやいです。",
+        "romaji": "Hikouki wa fune yori zutto hayai desu."
+      },
+      {
+        "jp": "ひこうきと ふねと ずっと はやいです。",
+        "romaji": "Hikouki to fune to zutto hayai desu."
+      }
+    ],
+    "answer": 2,
+    "explain": "Pola A は B より ずっと [KS] です berarti A jauh lebih ... daripada B."
+  },
+  {
+    "id": "b12-86",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Terjemahan Superlatif",
+    "prompt": "「Di dunia, tempat mana yang paling terkenal?」は にほんごで どれですか。",
+    "promptRomaji": "“Di dunia, tempat mana yang paling terkenal?” wa Nihongo de dore desu ka.",
+    "sub": "Pilih kalimat bahasa Jepang yang benar.",
+    "options": [
+      {
+        "jp": "せかいで どちらが いちばん ゆうめいですか。",
+        "romaji": "Sekai de dochira ga ichiban yuumei desu ka."
+      },
+      {
+        "jp": "せかいに どこが いちばん ゆうめいですか。",
+        "romaji": "Sekai ni doko ga ichiban yuumei desu ka."
+      },
+      {
+        "jp": "せかいで だれが いちばん ゆうめいですか。",
+        "romaji": "Sekai de dare ga ichiban yuumei desu ka."
+      },
+      {
+        "jp": "せかいで どこが いちばん ゆうめいですか。",
+        "romaji": "Sekai de doko ga ichiban yuumei desu ka."
+      }
+    ],
+    "answer": 3,
+    "explain": "Lingkup memakai で, tempat memakai どこ, dan superlatif memakai いちばん."
+  },
+  {
+    "id": "b12-87",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Terjemahan Lampau いい",
+    "prompt": "「Cuaca kemarin sangat bagus」は にほんごで どれですか。",
+    "promptRomaji": "“Cuaca kemarin sangat bagus” wa Nihongo de dore desu ka.",
+    "sub": "Pilih kalimat bahasa Jepang yang benar.",
+    "options": [
+      {
+        "jp": "きのうは てんきが とても よかったです。",
+        "romaji": "Kinou wa tenki ga totemo yokatta desu."
+      },
+      {
+        "jp": "きのうは てんきが とても いいかったです。",
+        "romaji": "Kinou wa tenki ga totemo iikatta desu."
+      },
+      {
+        "jp": "きのうは てんきが とても いいでした。",
+        "romaji": "Kinou wa tenki ga totemo ii deshita."
+      },
+      {
+        "jp": "きのうは てんきが とても よくなかったです。",
+        "romaji": "Kinou wa tenki ga totemo yokunakatta desu."
+      }
+    ],
+    "answer": 0,
+    "explain": "Lampau positif dari いい adalah よかったです."
+  },
+  {
+    "id": "b12-88",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Terjemahan Lampau KS-な",
+    "prompt": "「Kemarin kamar itu tidak bersih」は にほんごで どれですか。",
+    "promptRomaji": "“Kemarin kamar itu tidak bersih” wa Nihongo de dore desu ka.",
+    "sub": "Pilih kalimat bahasa Jepang yang benar.",
+    "options": [
+      {
+        "jp": "きのう その へやは きれいくなかったです。",
+        "romaji": "Kinou sono heya wa kireikunakatta desu."
+      },
+      {
+        "jp": "きのう その へやは きれいじゃありませんでした。",
+        "romaji": "Kinou sono heya wa kirei ja arimasen deshita."
+      },
+      {
+        "jp": "きのう その へやは きれいでした。",
+        "romaji": "Kinou sono heya wa kirei deshita."
+      },
+      {
+        "jp": "きのう その へやは きれいじゃありません。",
+        "romaji": "Kinou sono heya wa kirei ja arimasen."
+      }
+    ],
+    "answer": 1,
+    "explain": "きれい adalah KS-な sehingga lampau negatifnya きれいじゃありませんでした."
+  },
+  {
+    "id": "b12-89",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Terjemahan どちらも",
+    "prompt": "「Saya suka baik musim semi maupun musim gugur」は にほんごで どれですか。",
+    "promptRomaji": "“Saya suka baik musim semi maupun musim gugur” wa Nihongo de dore desu ka.",
+    "sub": "Pilih kalimat bahasa Jepang yang benar.",
+    "options": [
+      {
+        "jp": "はるも あきも いちばん すきです。",
+        "romaji": "Haru mo aki mo ichiban suki desu."
+      },
+      {
+        "jp": "はると あきと のほうが すきです。",
+        "romaji": "Haru to aki to no hou ga suki desu."
+      },
+      {
+        "jp": "はるも あきも どちらも すきです。",
+        "romaji": "Haru mo aki mo dochira mo suki desu."
+      },
+      {
+        "jp": "はるより あきも どちらも すきです。",
+        "romaji": "Haru yori aki mo dochira mo suki desu."
+      }
+    ],
+    "answer": 2,
+    "explain": "Untuk menyatakan menyukai kedua pilihan dipakai A も B も どちらも."
+  },
+  {
+    "id": "b12-90",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Terjemahan はじめて",
+    "prompt": "「Kemarin saya makan sukiyaki untuk pertama kalinya」は にほんごで どれですか。",
+    "promptRomaji": "“Kemarin saya makan sukiyaki untuk pertama kalinya” wa Nihongo de dore desu ka.",
+    "sub": "Pilih kalimat bahasa Jepang yang benar.",
+    "options": [
+      {
+        "jp": "きのう ずっと すきやきを たべました。",
+        "romaji": "Kinou zutto sukiyaki o tabemashita."
+      },
+      {
+        "jp": "きのう いちばん すきやきを たべました。",
+        "romaji": "Kinou ichiban sukiyaki o tabemashita."
+      },
+      {
+        "jp": "きのう どちらも すきやきを たべました。",
+        "romaji": "Kinou dochira mo sukiyaki o tabemashita."
+      },
+      {
+        "jp": "きのう はじめて すきやきを たべました。",
+        "romaji": "Kinou hajimete sukiyaki o tabemashita."
+      }
+    ],
+    "answer": 3,
+    "explain": "はじめて berarti untuk pertama kalinya."
+  },
+  {
+    "id": "b12-91",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Analisis Kesalahan",
+    "prompt": "「Konser kemarin sangat bagus」の ただしい ぶんは どれですか。",
+    "promptRomaji": "\"Konser kemarin sangat bagus\" no tadashii bun wa dore desu ka.",
+    "sub": "Pilih kalimat lampau yang benar untuk いい.",
+    "options": [
+      {
+        "jp": "きのうの コンサートは とても よかったです。",
+        "romaji": "Kinou no konsaato wa totemo yokatta desu."
+      },
+      {
+        "jp": "きのうの コンサートは とても いいかったです。",
+        "romaji": "Kinou no konsaato wa totemo iikatta desu."
+      },
+      {
+        "jp": "きのうの コンサートは とても いいでした。",
+        "romaji": "Kinou no konsaato wa totemo ii deshita."
+      },
+      {
+        "jp": "きのうの コンサートは とても よかったでした。",
+        "romaji": "Kinou no konsaato wa totemo yokatta deshita."
+      }
+    ],
+    "answer": 0,
+    "explain": "Bentuk lampau sopan dari いいです adalah よかったです (tanpa tambahan でした)."
+  },
+  {
+    "id": "b12-92",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Analisis Kesalahan",
+    "prompt": "レストランの かこの ぶんの なかで、ただしくない ものは どれですか。",
+    "promptRomaji": "Resutoran no kako no bun no naka de, tadashikunai mono wa dore desu ka.",
+    "sub": "Pilih kalimat yang SALAH konjugasi kata sifatnya.",
+    "options": [
+      {
+        "jp": "その レストランは ゆうめいでした。",
+        "romaji": "Sono resutoran wa yuumei deshita."
+      },
+      {
+        "jp": "その レストランは ゆうめいかったです。",
+        "romaji": "Sono resutoran wa yuumeikatta desu."
+      },
+      {
+        "jp": "その レストランは おいしかったです。",
+        "romaji": "Sono resutoran wa oishikatta desu."
+      },
+      {
+        "jp": "その レストランは しずかじゃありませんでした。",
+        "romaji": "Sono resutoran wa shizuka ja arimasen deshita."
+      }
+    ],
+    "answer": 1,
+    "explain": "ゆうめい adalah KS-な sehingga tidak boleh dikonjugasi menjadi ゆうめいかったです, harus ゆうめいでした."
+  },
+  {
+    "id": "b12-93",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Analisis Kesalahan",
+    "prompt": "「Ujian minggu lalu tidak mudah」の ただしい ぶんは どれですか。",
+    "promptRomaji": "\"Ujian minggu lalu tidak mudah\" no tadashii bun wa dore desu ka.",
+    "sub": "Pilih kalimat lampau negatif yang benar untuk かんたん.",
+    "options": [
+      {
+        "jp": "せんしゅうの しけんは かんたんくなかったです。",
+        "romaji": "Senshuu no shiken wa kantankunakatta desu."
+      },
+      {
+        "jp": "せんしゅうの しけんは かんたんくないでした。",
+        "romaji": "Senshuu no shiken wa kantankunai deshita."
+      },
+      {
+        "jp": "せんしゅうの しけんは かんたんじゃありませんでした。",
+        "romaji": "Senshuu no shiken wa kantan ja arimasen deshita."
+      },
+      {
+        "jp": "せんしゅうの しけんは かんたんじゃありません。",
+        "romaji": "Senshuu no shiken wa kantan ja arimasen."
+      }
+    ],
+    "answer": 2,
+    "explain": "かんたん adalah KS-な, jadi lampau negatifnya かんたんじゃありませんでした."
+  },
+  {
+    "id": "b12-94",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Analisis Kesalahan",
+    "prompt": "おすしと てんぷらの ぶんの なかで、ただしくない ものは どれですか。",
+    "promptRomaji": "Osushi to tenpura no bun no naka de, tadashikunai mono wa dore desu ka.",
+    "sub": "Pilih kalimat perbandingan yang SALAH.",
+    "options": [
+      {
+        "jp": "おすしと てんぷらと どちらが すきですか。",
+        "romaji": "Osushi to tenpura to dochira ga suki desu ka."
+      },
+      {
+        "jp": "おすしは てんぷらより おいしいです。",
+        "romaji": "Osushi wa tenpura yori oishii desu."
+      },
+      {
+        "jp": "おすしの ほうが てんぷらより すきです。",
+        "romaji": "Osushi no hou ga tenpura yori suki desu."
+      },
+      {
+        "jp": "おすしと てんぷらと どれが すきですか。",
+        "romaji": "Osushi to tenpura to dore ga suki desu ka."
+      }
+    ],
+    "answer": 3,
+    "explain": "Untuk membandingkan dua pilihan harus memakai どちらが, bukan どれが."
+  },
+  {
+    "id": "b12-95",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Analisis Kesalahan",
+    "prompt": "きのうの てんきなどの ぶんの なかで、ただしくない ものは どれですか。",
+    "promptRomaji": "Kinou no tenki nado no bun no naka de, tadashikunai mono wa dore desu ka.",
+    "sub": "Pilih kalimat lampau yang SALAH.",
+    "options": [
+      {
+        "jp": "きのうは とても あめ かったです。",
+        "romaji": "Kinou wa totemo ame katta desu."
+      },
+      {
+        "jp": "きのうは あめ でした。",
+        "romaji": "Kinou wa ame deshita."
+      },
+      {
+        "jp": "きのうは とても あつかったです。",
+        "romaji": "Kinou wa totemo atsukatta desu."
+      },
+      {
+        "jp": "きのうは ひま じゃありませんでした。",
+        "romaji": "Kinou wa hima ja arimasen deshita."
+      }
+    ],
+    "answer": 0,
+    "explain": "あめ adalah kata benda sehingga lampau positifnya あめでした, bukan あめかったです."
+  },
+  {
+    "id": "b12-96",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Dialog Pulang",
+    "prompt": "A：ただいま。 B：（　）。",
+    "promptRomaji": "A: Tadaima. B: ( ).",
+    "sub": "Pilih balasan saat seseorang pulang ke rumah.",
+    "options": [
+      {
+        "jp": "いってらっしゃい。",
+        "romaji": "Itterasshai."
+      },
+      {
+        "jp": "おかえりなさい。",
+        "romaji": "Okaerinasai."
+      },
+      {
+        "jp": "しつれいします。",
+        "romaji": "Shitsureishimasu."
+      },
+      {
+        "jp": "ごちそうさま。",
+        "romaji": "Gochisousama."
+      }
+    ],
+    "answer": 1,
+    "explain": "ただいま ('saya pulang') selalu dibalas dengan おかえりなさい ('selamat datang kembali')."
+  },
+  {
+    "id": "b12-97",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Dialog Festival",
+    "prompt": "A：ぎおんまつりは どうでしたか。 B：（　）。",
+    "promptRomaji": "A: Gionmatsuri wa dou deshita ka. B: ( ).",
+    "sub": "Menjawab kesan tentang festival kemarin.",
+    "options": [
+      {
+        "jp": "とても にぎやかです。",
+        "romaji": "Totemo nigiyaka desu."
+      },
+      {
+        "jp": "とても にぎやかかったです。",
+        "romaji": "Totemo nigiyakakatta desu."
+      },
+      {
+        "jp": "とても にぎやかでした。でも、つかれました。",
+        "romaji": "Totemo nigiyaka deshita. Demo, tsukaremashita."
+      },
+      {
+        "jp": "ぎおんまつりの ほうが いいです。",
+        "romaji": "Gionmatsuri no hou ga ii desu."
+      }
+    ],
+    "answer": 2,
+    "explain": "Pertanyaan lampau どうでしたか dijawab dengan bentuk lampau にぎやかでした."
+  },
+  {
+    "id": "b12-98",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Dialog Keramaian",
+    "prompt": "A：わあ、すごい ひとですね。 B：（　）。",
+    "promptRomaji": "A: Waa, sugoi hito desu ne. B: ( ).",
+    "sub": "Pilih tanggapan yang alami saat melihat banyak sekali orang di festival.",
+    "options": [
+      {
+        "jp": "はい、だれも いませんね。",
+        "romaji": "Hai, dare mo imasen ne."
+      },
+      {
+        "jp": "ええ、とても ひまですね。",
+        "romaji": "Ee, totemo hima desu ne."
+      },
+      {
+        "jp": "いいえ、すくなかったですね。",
+        "romaji": "Iie, sukunakatta desu ne."
+      },
+      {
+        "jp": "ええ、とても にぎやかですね。",
+        "romaji": "Ee, totemo nigiyaka desu ne."
+      }
+    ],
+    "answer": 3,
+    "explain": "Menanggapi keramaian (すごい ひとですね) paling alami dengan ええ、とても にぎやかですね."
+  },
+  {
+    "id": "b12-99",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Dialog Pilihan",
+    "prompt": "A：すしと すきやきと どちらが いいですか。 B：（　）。",
+    "promptRomaji": "A: Sushi to sukiyaki to dochira ga ii desu ka. B: ( ).",
+    "sub": "Menjawab bahwa dua-duanya bagus/mau.",
+    "options": [
+      {
+        "jp": "どれが いいです。",
+        "romaji": "Dore ga ii desu."
+      },
+      {
+        "jp": "どちらも より いいです。",
+        "romaji": "Dochira mo yori ii desu."
+      },
+      {
+        "jp": "どちらも いいです。",
+        "romaji": "Dochira mo ii desu."
+      },
+      {
+        "jp": "いちばん いいです。",
+        "romaji": "Ichiban ii desu."
+      }
+    ],
+    "answer": 2,
+    "explain": "Untuk menjawab bahwa kedua pilihan sama-sama baik dipakai どちらも いいです."
+  },
+  {
+    "id": "b12-100",
+    "bab": 12,
+    "type": "mcq",
+    "badge": "Bab 12 · Penghubung でも",
+    "prompt": "A：ホンコンの りょこうは どうでしたか。 B：ごはんは おいしかったです。（　）、とても あつかったです。",
+    "promptRomaji": "A: Honkon no ryokou wa dou deshita ka. B: Gohan wa oishikatta desu. ( ), totemo atsukatta desu.",
+    "sub": "Makanannya enak. Tetapi, sangat panas.",
+    "options": [
+      {
+        "jp": "それから",
+        "romaji": "Sorekara"
+      },
+      {
+        "jp": "そして",
+        "romaji": "Soshite"
+      },
+      {
+        "jp": "ずっと",
+        "romaji": "Zutto"
+      },
+      {
+        "jp": "でも",
+        "romaji": "Demo"
+      }
+    ],
+    "answer": 3,
+    "explain": "でも berarti 'tetapi' dan diletakkan di awal kalimat kedua untuk menyatakan pertentangan."
   }
 ];

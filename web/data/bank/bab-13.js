@@ -1450,5 +1450,730 @@ window.MNN_BANK[13] = [
     ],
     "answer": 1,
     "explain": "Pertanyaan たべたいですか dijawab dengan たべたいです."
+  },
+  {
+    "id": "b13-51",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Ungkapan のどが かわきました",
+    "prompt": "「のどが かわきました」の いみは どれですか。",
+    "promptRomaji": "\"Nodo ga kawakimashita\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "saya haus",
+        "romaji": ""
+      },
+      {
+        "jp": "saya lapar",
+        "romaji": ""
+      },
+      {
+        "jp": "saya kenyang",
+        "romaji": ""
+      },
+      {
+        "jp": "saya lelah",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "のどが かわきました berarti '(saya) haus' (secara harfiah: tenggorokan sudah kering)."
+  },
+  {
+    "id": "b13-52",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Ungkapan おなかが すきました",
+    "prompt": "「おなかが すきました」の いみは どれですか。",
+    "promptRomaji": "\"Onaka ga sukimashita\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "saya haus",
+        "romaji": ""
+      },
+      {
+        "jp": "saya lapar",
+        "romaji": ""
+      },
+      {
+        "jp": "saya kenyang",
+        "romaji": ""
+      },
+      {
+        "jp": "saya kesepian",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "おなかが すきました berarti '(saya) lapar'; lawannya おなかが いっぱいです (kenyang)."
+  },
+  {
+    "id": "b13-53",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Kosakata せまい",
+    "prompt": "「せまい」の いみは どれですか。",
+    "promptRomaji": "\"Semai\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "luas / lebar",
+        "romaji": ""
+      },
+      {
+        "jp": "berat / gawat",
+        "romaji": ""
+      },
+      {
+        "jp": "sempit",
+        "romaji": ""
+      },
+      {
+        "jp": "sepi / kesepian",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "せまい berarti sempit; lawannya ひろい (luas)."
+  },
+  {
+    "id": "b13-54",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Kosakata ひろい",
+    "prompt": "「ひろい」の いみは どれですか。",
+    "promptRomaji": "\"Hiroi\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata sifat Bab 13 yang tepat.",
+    "options": [
+      {
+        "jp": "sempit",
+        "romaji": ""
+      },
+      {
+        "jp": "dangkal",
+        "romaji": ""
+      },
+      {
+        "jp": "luas / lapang",
+        "romaji": ""
+      },
+      {
+        "jp": "ramai",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "ひろい (広い) berarti luas atau lapang (lawan kata dari せまい)."
+  },
+  {
+    "id": "b13-55",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Kosakata べつべつに",
+    "prompt": "「べつべつに」の いみは どれですか。",
+    "promptRomaji": "\"Betsubetsu ni\" no imi wa dore desu ka.",
+    "sub": "Pilih arti yang tepat.",
+    "options": [
+      {
+        "jp": "terpisah / masing-masing",
+        "romaji": ""
+      },
+      {
+        "jp": "bersama-sama",
+        "romaji": ""
+      },
+      {
+        "jp": "sebentar",
+        "romaji": ""
+      },
+      {
+        "jp": "pelan-pelan",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "べつべつに berarti terpisah atau masing-masing (misalnya saat membayar di kasir)."
+  },
+  {
+    "id": "b13-56",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Partikel を (さんぽします)",
+    "prompt": "あしたの あさ こうえん（　） さんぽしたいです。",
+    "promptRomaji": "Ashita no asa kouen ( ) sanpo shitai desu.",
+    "sub": "Besok pagi ingin jalan-jalan di taman.",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "へ",
+        "romaji": "e"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      }
+    ],
+    "answer": 1,
+    "explain": "Tempat yang dilalui saat jalan-jalan dengan さんぽします memakai partikel を: こうえんを さんぽします."
+  },
+  {
+    "id": "b13-57",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Partikel に (はいります)",
+    "prompt": "つかれましたから、きっさてん（　） はいりませんか。",
+    "promptRomaji": "Tsukaremashita kara, kissaten ( ) hairimasen ka.",
+    "sub": "Karena lelah, mau masuk ke kedai kopi?",
+    "options": [
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      }
+    ],
+    "answer": 2,
+    "explain": "Tempat tujuan masuk dengan はいります ditandai partikel に: きっさてんに はいります."
+  },
+  {
+    "id": "b13-58",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Partikel を (でます)",
+    "prompt": "1じに きっさてん（　） でます。",
+    "promptRomaji": "Ichiji ni kissaten ( ) demasu.",
+    "sub": "Keluar dari kedai kopi pada pukul 1.",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "へ",
+        "romaji": "e"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      }
+    ],
+    "answer": 3,
+    "explain": "Tempat titik keluar dengan でます ditandai partikel を: きっさてんを でます."
+  },
+  {
+    "id": "b13-59",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Terjemahan ほしい",
+    "prompt": "「Saya ingin mobil yang besar」は にほんごで どれですか。",
+    "promptRomaji": "“Saya ingin mobil yang besar” wa Nihongo de dore desu ka.",
+    "sub": "Pilih kalimat bahasa Jepang yang benar.",
+    "options": [
+      {
+        "jp": "わたしは おおきい くるまが ほしいです。",
+        "romaji": "Watashi wa ookii kuruma ga hoshii desu."
+      },
+      {
+        "jp": "わたしは おおきい くるまを ほしいです。",
+        "romaji": "Watashi wa ookii kuruma o hoshii desu."
+      },
+      {
+        "jp": "わたしは おおきい くるまが たいです。",
+        "romaji": "Watashi wa ookii kuruma ga tai desu."
+      },
+      {
+        "jp": "わたしは おおきい くるまに ほしいです。",
+        "romaji": "Watashi wa ookii kuruma ni hoshii desu."
+      }
+    ],
+    "answer": 0,
+    "explain": "Menginginkan kata benda memakai pola [N] が ほしいです."
+  },
+  {
+    "id": "b13-60",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Negatif ほしくない",
+    "prompt": "おかねは たくさん ありますから、いま あまり （　）。",
+    "promptRomaji": "Okane wa takusan arimasu kara, ima amari ( ).",
+    "sub": "Karena uangnya banyak, sekarang tidak terlalu menginginkannya.",
+    "options": [
+      {
+        "jp": "ほしいじゃありません",
+        "romaji": "hoshii ja arimasen"
+      },
+      {
+        "jp": "ほしくないです",
+        "romaji": "hoshikunai desu"
+      },
+      {
+        "jp": "ほしたくないです",
+        "romaji": "hoshitakunai desu"
+      },
+      {
+        "jp": "ほしかったです",
+        "romaji": "hoshikatta desu"
+      }
+    ],
+    "answer": 1,
+    "explain": "あまり diikuti bentuk negatif; negatif dari ほしい adalah ほしくないです."
+  },
+  {
+    "id": "b13-61",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Lampau negatif たくなかった",
+    "prompt": "きのう つかれましたから、なにも （　）。",
+    "promptRomaji": "Kinou tsukaremashita kara, nani mo ( ).",
+    "sub": "Karena kemarin lelah, saya tidak ingin makan apa pun.",
+    "options": [
+      {
+        "jp": "たべたくないです",
+        "romaji": "tabetakunai desu"
+      },
+      {
+        "jp": "たべたかったです",
+        "romaji": "tabetakatta desu"
+      },
+      {
+        "jp": "たべたくなかったです",
+        "romaji": "tabetakunakatta desu"
+      },
+      {
+        "jp": "たべませんでしたたいです",
+        "romaji": "tabemasendeshitatai desu"
+      }
+    ],
+    "answer": 2,
+    "explain": "きのう dan なにも membentuk lampau negatif keinginan: たべたくなかったです."
+  },
+  {
+    "id": "b13-62",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Tujuan に (かえります)",
+    "prompt": "おしょうがつに くにへ かぞくに （　） かえります。",
+    "promptRomaji": "Oshougatsu ni kuni e kazoku ni ( ) kaerimasu.",
+    "sub": "Pada Tahun Baru pulang ke negara asal untuk bertemu keluarga. (あいます)",
+    "options": [
+      {
+        "jp": "あいますに",
+        "romaji": "aimasu ni"
+      },
+      {
+        "jp": "あいたいに",
+        "romaji": "aitai ni"
+      },
+      {
+        "jp": "あいを",
+        "romaji": "ai o"
+      },
+      {
+        "jp": "あいに",
+        "romaji": "ai ni"
+      }
+    ],
+    "answer": 3,
+    "explain": "あいます → あい + に かえります menjadi あいに かえります."
+  },
+  {
+    "id": "b13-63",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Tujuan に (きます)",
+    "prompt": "らいしゅう ともだちが わたしの うちへ （　） きます。",
+    "promptRomaji": "Raishuu tomodachi ga watashi no uchi e ( ) kimasu.",
+    "sub": "Minggu depan teman datang ke rumah saya untuk bermain. (あそびます)",
+    "options": [
+      {
+        "jp": "あそびに",
+        "romaji": "asobi ni"
+      },
+      {
+        "jp": "あそびたいに",
+        "romaji": "asobitai ni"
+      },
+      {
+        "jp": "あそびますに",
+        "romaji": "asobimasu ni"
+      },
+      {
+        "jp": "あそびを",
+        "romaji": "asobi o"
+      }
+    ],
+    "answer": 0,
+    "explain": "あそびます → あそび + に きます menjadi あそびに きます."
+  },
+  {
+    "id": "b13-64",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Tujuan に (およぎに)",
+    "prompt": "なつに プールへ （　） いきます。",
+    "promptRomaji": "Natsu ni puuru e ( ) ikimasu.",
+    "sub": "Pada musim panas pergi ke kolam renang untuk berenang. (およぎます)",
+    "options": [
+      {
+        "jp": "およぎたいに",
+        "romaji": "oyogitai ni"
+      },
+      {
+        "jp": "およぎに",
+        "romaji": "oyogi ni"
+      },
+      {
+        "jp": "およぎますに",
+        "romaji": "oyogimasu ni"
+      },
+      {
+        "jp": "およぎを",
+        "romaji": "oyogi o"
+      }
+    ],
+    "answer": 1,
+    "explain": "およぎます → およぎ + に いきます menjadi およぎに いきます."
+  },
+  {
+    "id": "b13-65",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Terjemahan Tujuan",
+    "prompt": "「Pergi ke sungai untuk memancing」は にほんごで どれですか。",
+    "promptRomaji": "“Pergi ke sungai untuk memancing” wa Nihongo de dore desu ka.",
+    "sub": "Pilih kalimat bahasa Jepang yang benar.",
+    "options": [
+      {
+        "jp": "かわへ つりを いきます。",
+        "romaji": "Kawa e tsuri o ikimasu."
+      },
+      {
+        "jp": "かわで つりに いきます。",
+        "romaji": "Kawa de tsuri ni ikimasu."
+      },
+      {
+        "jp": "かわへ つりに いきます。",
+        "romaji": "Kawa e tsuri ni ikimasu."
+      },
+      {
+        "jp": "かわへ つりしに いきます。",
+        "romaji": "Kawa e tsuri shi ni ikimasu."
+      }
+    ],
+    "answer": 2,
+    "explain": "つり adalah kata benda kegiatan, sehingga tujuannya memakai かわへ つりに いきます."
+  },
+  {
+    "id": "b13-66",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Tujuan Kata Benda かいもの",
+    "prompt": "しゅうまつ デパートへ （　） いきませんか。",
+    "promptRomaji": "Shuumatsu depaato e ( ) ikimasen ka.",
+    "sub": "Akhir pekan mau pergi ke department store untuk berbelanja?",
+    "options": [
+      {
+        "jp": "かいものしに",
+        "romaji": "kaimono shi ni"
+      },
+      {
+        "jp": "かいものを",
+        "romaji": "kaimono o"
+      },
+      {
+        "jp": "かいものしますに",
+        "romaji": "kaimono shimasu ni"
+      },
+      {
+        "jp": "かいものに",
+        "romaji": "kaimono ni"
+      }
+    ],
+    "answer": 3,
+    "explain": "Untuk kata benda kegiatan seperti かいもの・しょくじ・さんぽ, langsung ditambah に tanpa し."
+  },
+  {
+    "id": "b13-67",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Kosakata なにか",
+    "prompt": "A：おなかが すきましたね。（　） たべませんか。 B：ええ、そう しましょう。",
+    "promptRomaji": "A: Onaka ga sukimashita ne. ( ) tabemasen ka. B: Ee, sou shimashou.",
+    "sub": "Lapar ya. Mau makan sesuatu?",
+    "options": [
+      {
+        "jp": "なにか",
+        "romaji": "nanika"
+      },
+      {
+        "jp": "なにも",
+        "romaji": "nani mo"
+      },
+      {
+        "jp": "どこか",
+        "romaji": "dokoka"
+      },
+      {
+        "jp": "だれも",
+        "romaji": "dare mo"
+      }
+    ],
+    "answer": 0,
+    "explain": "なにか berarti 'sesuatu' dan dipakai dalam ajakan atau pertanyaan tanpa partikel を."
+  },
+  {
+    "id": "b13-68",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Kosakata どこか",
+    "prompt": "A：しゅうまつ （　） いきませんか。 B：いいですね。うみへ いきましょう。",
+    "promptRomaji": "A: Shuumatsu ( ) ikimasen ka. B: Ii desu ne. Umi e ikimashou.",
+    "sub": "Akhir pekan mau pergi ke suatu tempat?",
+    "options": [
+      {
+        "jp": "なにか",
+        "romaji": "nanika"
+      },
+      {
+        "jp": "どこかへ",
+        "romaji": "dokoka e"
+      },
+      {
+        "jp": "どこへも",
+        "romaji": "doko e mo"
+      },
+      {
+        "jp": "なにも",
+        "romaji": "nani mo"
+      }
+    ],
+    "answer": 1,
+    "explain": "どこか berarti 'suatu tempat', sedangkan どこへも dipakai bersama kalimat negatif."
+  },
+  {
+    "id": "b13-69",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Ungkapan ～ごろ",
+    "prompt": "12じ（　） しょくじに いきませんか。",
+    "promptRomaji": "Juuniji ( ) shokuji ni ikimasen ka.",
+    "sub": "Mau pergi makan kira-kira pukul 12?",
+    "options": [
+      {
+        "jp": "ぐらい",
+        "romaji": "gurai"
+      },
+      {
+        "jp": "だけ",
+        "romaji": "dake"
+      },
+      {
+        "jp": "ごろ",
+        "romaji": "goro"
+      },
+      {
+        "jp": "より",
+        "romaji": "yori"
+      }
+    ],
+    "answer": 2,
+    "explain": "ごろ dipakai setelah titik waktu ('kira-kira pukul 12'), sedangkan ぐらい dipakai untuk durasi/jumlah."
+  },
+  {
+    "id": "b13-70",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Terjemahan Tujuan スキー",
+    "prompt": "「Akhir pekan pergi ke gunung untuk bermain ski」は にほんごで どれですか。",
+    "promptRomaji": "“Akhir pekan pergi ke gunung untuk bermain ski” wa Nihongo de dore desu ka.",
+    "sub": "Pilih kalimat bahasa Jepang yang benar.",
+    "options": [
+      {
+        "jp": "しゅうまつ やまへ スキーを いきます。",
+        "romaji": "Shuumatsu yama e sukii o ikimasu."
+      },
+      {
+        "jp": "しゅうまつ やまで スキーに いきます。",
+        "romaji": "Shuumatsu yama de sukii ni ikimasu."
+      },
+      {
+        "jp": "しゅうまつ やまへ スキーしますに いきます。",
+        "romaji": "Shuumatsu yama e sukii shimasu ni ikimasu."
+      },
+      {
+        "jp": "しゅうまつ やまへ スキーに いきます。",
+        "romaji": "Shuumatsu yama e sukii ni ikimasu."
+      }
+    ],
+    "answer": 3,
+    "explain": "Tujuan tempat memakai へ dan kegiatan tujuan memakai スキーに."
+  },
+  {
+    "id": "b13-71",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Analisis Kesalahan",
+    "prompt": "「Saya ingin sepeda putih」の ただしい ぶんは どれですか。",
+    "promptRomaji": "\"Saya ingin sepeda putih\" no tadashii bun wa dore desu ka.",
+    "sub": "Pilih kalimat yang benar untuk 'Saya ingin sepeda putih.'",
+    "options": [
+      {
+        "jp": "わたしは しろい じてんしゃが ほしいです。",
+        "romaji": "Watashi wa shiroi jitensha ga hoshii desu."
+      },
+      {
+        "jp": "わたしは しろい じてんしゃを ほしいです。",
+        "romaji": "Watashi wa shiroi jitensha o hoshii desu."
+      },
+      {
+        "jp": "わたしは しろい じてんしゃに ほしいです。",
+        "romaji": "Watashi wa shiroi jitensha ni hoshii desu."
+      },
+      {
+        "jp": "わたしは しろい じてんしゃが ほしたいです。",
+        "romaji": "Watashi wa shiroi jitensha ga hoshitai desu."
+      }
+    ],
+    "answer": 0,
+    "explain": "Benda yang diinginkan pada pola ほしい memakai partikel が, bukan を atau に."
+  },
+  {
+    "id": "b13-72",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Analisis Kesalahan",
+    "prompt": "プールや こうえんへの ぶんの なかで、ただしくない ものは どれですか。",
+    "promptRomaji": "Puuru ya kouen e no bun no naka de, tadashikunai mono wa dore desu ka.",
+    "sub": "Pilih kalimat yang SALAH pola tujuannya.",
+    "options": [
+      {
+        "jp": "こどもたちは プールへ およぎに いきました。",
+        "romaji": "Kodomotachi wa puuru e oyogi ni ikimashita."
+      },
+      {
+        "jp": "こどもたちは プールへ およぎますに いきました。",
+        "romaji": "Kodomotachi wa puuru e oyogimasu ni ikimashita."
+      },
+      {
+        "jp": "こどもたちは こうえんへ あそびに いきました。",
+        "romaji": "Kodomotachi wa kouen e asobi ni ikimashita."
+      },
+      {
+        "jp": "わたしは レストランへ しょくじに いきました。",
+        "romaji": "Watashi wa resutoran e shokuji ni ikimashita."
+      }
+    ],
+    "answer": 1,
+    "explain": "Pola tujuan harus memakai akar bentuk-ます (およぎに), bukan およぎますに."
+  },
+  {
+    "id": "b13-73",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Analisis Kesalahan",
+    "prompt": "「～たい」の かこの ぶんの なかで、ただしくない ものは どれですか。",
+    "promptRomaji": "\"~tai\" no kako no bun no naka de, tadashikunai mono wa dore desu ka.",
+    "sub": "Pilih kalimat lampau yang SALAH konjugasinya.",
+    "options": [
+      {
+        "jp": "きのう えいがを みたかったです。",
+        "romaji": "Kinou eiga o mitakatta desu."
+      },
+      {
+        "jp": "きのう なにも たべたくなかったです。",
+        "romaji": "Kinou nani mo tabetakunakatta desu."
+      },
+      {
+        "jp": "きのう えいがを みたいでした。",
+        "romaji": "Kinou eiga o mitai deshita."
+      },
+      {
+        "jp": "きょねん パソコンが ほしかったです。",
+        "romaji": "Kyonen pasokon ga hoshikatta desu."
+      }
+    ],
+    "answer": 2,
+    "explain": "Bentuk lampau ～たい adalah ～たかったです, tidak boleh みたいでした."
+  },
+  {
+    "id": "b13-74",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Dialog di Restoran",
+    "prompt": "A：ごちゅうもんは？ B：（　）。 A：しょうしょう おまち ください。",
+    "promptRomaji": "A: Gochuumon wa? B: ( ). A: Shoushou omachi kudasai.",
+    "sub": "Pilih jawaban pelanggan saat ditanya mau pesan apa.",
+    "options": [
+      {
+        "jp": "おなかが いっぱいです。",
+        "romaji": "Onaka ga ippai desu."
+      },
+      {
+        "jp": "ごちそうさまでした。",
+        "romaji": "Gochisousama deshita."
+      },
+      {
+        "jp": "ていしょくが ほしいでした。",
+        "romaji": "Teishoku ga hoshii deshita."
+      },
+      {
+        "jp": "ていしょくと ぎゅうどんを おねがいします。",
+        "romaji": "Teishoku to gyuudon o onegaishimasu."
+      }
+    ],
+    "answer": 3,
+    "explain": "Saat ditanya ごちゅうもんは？ ('mau pesan apa?'), sebutkan pesanan diikuti おねがいします."
+  },
+  {
+    "id": "b13-75",
+    "bab": 13,
+    "type": "mcq",
+    "badge": "Bab 13 · Dialog Ajakan",
+    "prompt": "A：12じですね。しょくじに いきませんか。 B：（　）。",
+    "promptRomaji": "A: Juuniji desu ne. Shokuji ni ikimasen ka. B: ( ).",
+    "sub": "Pilih jawaban untuk menyetujui usulan makan bersama.",
+    "options": [
+      {
+        "jp": "いいえ、まだです。",
+        "romaji": "Iie, mada desu."
+      },
+      {
+        "jp": "しょうしょう おまち ください。",
+        "romaji": "Shoushou omachi kudasai."
+      },
+      {
+        "jp": "べつべつに おねがいします。",
+        "romaji": "Betsubetsu ni onegaishimasu."
+      },
+      {
+        "jp": "ええ、そう しましょう。",
+        "romaji": "Ee, sou shimashou."
+      }
+    ],
+    "answer": 3,
+    "explain": "そう しましょう ('ya, ayo lakukan begitu / baiklah') dipakai untuk menyetujui ajakan atau usulan."
   }
 ];

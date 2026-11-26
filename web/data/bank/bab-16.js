@@ -1450,5 +1450,1455 @@ window.MNN_BANK[16] = [
     ],
     "answer": 0,
     "explain": "Saat dipuji 「すごいですね」 (Hebat ya!), jawaban merendah yang khas di Jepang adalah 「いいえ、まだまだです」 (Tidak, masih belum seberapa)."
+  },
+  {
+    "id": "b16-51",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Kosakata くらい",
+    "prompt": "「この へやは くらいです」の 「くらい」の いみは どれですか。",
+    "promptRomaji": "\"Kono heya wa kurai desu\" no \"kurai\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata sifat yang tepat.",
+    "options": [
+      {
+        "jp": "terang",
+        "romaji": ""
+      },
+      {
+        "jp": "luas",
+        "romaji": ""
+      },
+      {
+        "jp": "gelap",
+        "romaji": ""
+      },
+      {
+        "jp": "pendek",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "くらい adalah kata sifat-い yang berarti gelap. Lawan katanya adalah あかるい (terang)."
+  },
+  {
+    "id": "b16-52",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Kosakata みじかい",
+    "prompt": "「みじかい」の いみは どれですか。",
+    "promptRomaji": "\"Mijikai\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata sifat yang tepat.",
+    "options": [
+      {
+        "jp": "pendek",
+        "romaji": ""
+      },
+      {
+        "jp": "panjang",
+        "romaji": ""
+      },
+      {
+        "jp": "muda",
+        "romaji": ""
+      },
+      {
+        "jp": "tinggi",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "みじかい adalah kata sifat-い yang berarti pendek. Lawan katanya adalah ながい (panjang)."
+  },
+  {
+    "id": "b16-53",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Kosakata けんがくします",
+    "prompt": "「だいがくを けんがくします」の 「けんがくします」の いみは どれですか。",
+    "promptRomaji": "\"Daigaku o kengaku shimasu\" no \"kengaku shimasu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata kerja yang tepat.",
+    "options": [
+      {
+        "jp": "lulus dari universitas",
+        "romaji": ""
+      },
+      {
+        "jp": "berhenti dari universitas",
+        "romaji": ""
+      },
+      {
+        "jp": "mengajar di universitas",
+        "romaji": ""
+      },
+      {
+        "jp": "berkunjung untuk meninjau / belajar",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "けんがくします (Kelompok III) berarti berkunjung ke suatu tempat (pabrik, kampus, museum) untuk meninjau atau belajar."
+  },
+  {
+    "id": "b16-54",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Kosakata からだ",
+    "prompt": "「からだ」の いみは どれですか。",
+    "promptRomaji": "\"Karada\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata benda yang tepat.",
+    "options": [
+      {
+        "jp": "wajah",
+        "romaji": ""
+      },
+      {
+        "jp": "tubuh / badan",
+        "romaji": ""
+      },
+      {
+        "jp": "kepala",
+        "romaji": ""
+      },
+      {
+        "jp": "kaki",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "からだ (体) berarti tubuh atau badan."
+  },
+  {
+    "id": "b16-55",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Kosakata おてら",
+    "prompt": "「おてら」の いみは どれですか。",
+    "promptRomaji": "\"Otera\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata benda yang tepat.",
+    "options": [
+      {
+        "jp": "kuil Shinto",
+        "romaji": ""
+      },
+      {
+        "jp": "istana",
+        "romaji": ""
+      },
+      {
+        "jp": "kuil Buddha",
+        "romaji": ""
+      },
+      {
+        "jp": "taman kota",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "おてら (お寺) berarti kuil Buddha, sedangkan じんじゃ (神社) berarti kuil Shinto."
+  },
+  {
+    "id": "b16-56",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Kosakata かくにん",
+    "prompt": "「きんがくを かくにんします」の 「かくにんします」の いみは どれですか。",
+    "promptRomaji": "\"Kingaku o kakunin shimasu\" no \"kakunin shimasu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata kerja ATM Bab 16 ini.",
+    "options": [
+      {
+        "jp": "mengonfirmasi / mengecek ulang",
+        "romaji": ""
+      },
+      {
+        "jp": "memasukkan kartu",
+        "romaji": ""
+      },
+      {
+        "jp": "mengambil uang",
+        "romaji": ""
+      },
+      {
+        "jp": "menekan nomor PIN",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "かくにんします (確認します) berarti mengonfirmasi atau memeriksa kebenaran data/nominal."
+  },
+  {
+    "id": "b16-57",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Kosakata まず",
+    "prompt": "「まず カードを いれて、つぎに ボタンを おします。」の 「まず」の いみは どれですか。",
+    "promptRomaji": "\"Mazu kaado o irete, tsugi ni botan o oshimasu.\" no \"mazu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata urutan yang tepat.",
+    "options": [
+      {
+        "jp": "berikutnya",
+        "romaji": ""
+      },
+      {
+        "jp": "terakhir",
+        "romaji": ""
+      },
+      {
+        "jp": "sebentar",
+        "romaji": ""
+      },
+      {
+        "jp": "pertama-tama",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "まず berarti 'pertama-tama' saat menjelaskan langkah berurutan, lalu dilanjutkan dengan つぎに (berikutnya)."
+  },
+  {
+    "id": "b16-58",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Urutan Aksi V1-て、V2",
+    "prompt": "まいあさ ジョギングを （　）、シャワーを あびて、コーヒーを のみます。",
+    "promptRomaji": "Maiasa jogingu o _____, shawaa o abite, koohii o nomimasu.",
+    "sub": "Rangkaikan kegiatan pagi menggunakan します (melakukan).",
+    "options": [
+      {
+        "jp": "しって",
+        "romaji": "shitte"
+      },
+      {
+        "jp": "して",
+        "romaji": "shite"
+      },
+      {
+        "jp": "します",
+        "romaji": "shimasu"
+      },
+      {
+        "jp": "すて",
+        "romaji": "sute"
+      }
+    ],
+    "answer": 1,
+    "explain": "Untuk menggabungkan aksi berurutan, kata kerja sebelum akhir diubah menjadi Bentuk-て: します → して."
+  },
+  {
+    "id": "b16-59",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Urutan Aksi V1-て、V2",
+    "prompt": "きのう ともだちと レストランで （　）、えいがを みて、きっさてんへ いきました。",
+    "promptRomaji": "Kinou tomodachi to resutoran de _____, eiga o mite, kissaten e ikimashita.",
+    "sub": "Rangkaikan kegiatan kemarin menggunakan たべます (makan).",
+    "options": [
+      {
+        "jp": "たべました",
+        "romaji": "tabemashita"
+      },
+      {
+        "jp": "たべって",
+        "romaji": "tabette"
+      },
+      {
+        "jp": "たべて",
+        "romaji": "tabete"
+      },
+      {
+        "jp": "たべます",
+        "romaji": "tabemasu"
+      }
+    ],
+    "answer": 2,
+    "explain": "Meskipun kalimatnya lampau (きのう), kata kerja pertama dan kedua tetap Bentuk-て polos (たべて、みて); hanya kata kerja akhir yang berbentuk lampau."
+  },
+  {
+    "id": "b16-60",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Tense Kalimat Berantai",
+    "prompt": "まいにち あさごはんを たべて、しんぶんを よんで、かいしゃへ （　）。",
+    "promptRomaji": "Mainichi asagohan o tabete, shinbun o yonde, kaisha e _____.",
+    "sub": "Perhatikan keterangan waktu まいにち (setiap hari) pada kata kerja akhir.",
+    "options": [
+      {
+        "jp": "いきます",
+        "romaji": "ikimasu"
+      },
+      {
+        "jp": "いって",
+        "romaji": "itte"
+      },
+      {
+        "jp": "いきました",
+        "romaji": "ikimashita"
+      },
+      {
+        "jp": "いいて",
+        "romaji": "iite"
+      }
+    ],
+    "answer": 0,
+    "explain": "Karena merupakan kebiasaan rutin (まいにち), kata kerja paling akhir menggunakan bentuk non-lampau sopan いきます."
+  },
+  {
+    "id": "b16-61",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Urutan Aksi + たいです",
+    "prompt": "なつやすみに にほんへ いって、おてらを みて、おすしを （　）。",
+    "promptRomaji": "Natsuyasumi ni Nihon e itte, otera o mite, osushi o _____.",
+    "sub": "Lengkapi akhir rangkaian dengan bentuk keinginan 'ingin makan' (たべます).",
+    "options": [
+      {
+        "jp": "たべて",
+        "romaji": "tabete"
+      },
+      {
+        "jp": "たべました",
+        "romaji": "tabemashita"
+      },
+      {
+        "jp": "たべて います",
+        "romaji": "tabete imasu"
+      },
+      {
+        "jp": "たべたいです",
+        "romaji": "tabetai desu"
+      }
+    ],
+    "answer": 3,
+    "explain": "Kalimat berantai V1-て、V2-て dapat ditutup dengan bentuk keinginan ～たいです: たべたいです (ingin pergi, melihat, lalu makan sushi)."
+  },
+  {
+    "id": "b16-62",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Urutan Aksi ATM",
+    "prompt": "まず キャッシュカードを いれて、あんしょうばんごうを おして、きんがくを （　）。",
+    "promptRomaji": "Mazu kyasshukaado o irete, anshoubangou o oshite, kingaku o _____.",
+    "sub": "Tutup rangkaian instruksi ATM dengan permintaan sopan (おします).",
+    "options": [
+      {
+        "jp": "おして",
+        "romaji": "oshite"
+      },
+      {
+        "jp": "おして ください",
+        "romaji": "oshite kudasai"
+      },
+      {
+        "jp": "おしました",
+        "romaji": "oshimashita"
+      },
+      {
+        "jp": "おって ください",
+        "romaji": "otte kudasai"
+      }
+    ],
+    "answer": 1,
+    "explain": "おします (Kelompok I: し → して) menjadi おして ください di akhir instruksi berurutan."
+  },
+  {
+    "id": "b16-63",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Urutan Aksi Transit",
+    "prompt": "バスに のって、きょうとえきで でんしゃに （　）、うめだで おります。",
+    "promptRomaji": "Basu ni notte, Kyouto-eki de densha ni _____, Umeda de orimasu.",
+    "sub": "Lengkapi dengan bentuk-て dari のりかえます (pindah kendaraan).",
+    "options": [
+      {
+        "jp": "のりかえって",
+        "romaji": "norikaette"
+      },
+      {
+        "jp": "のりかえます",
+        "romaji": "norikaemasu"
+      },
+      {
+        "jp": "のりかえて",
+        "romaji": "norikaete"
+      },
+      {
+        "jp": "のりかえんで",
+        "romaji": "norikaende"
+      }
+    ],
+    "answer": 2,
+    "explain": "のりかえます adalah kata kerja Kelompok II, jadi bentuk-て-nya adalah のりかえて."
+  },
+  {
+    "id": "b16-64",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Tense Kalimat Berantai",
+    "prompt": "きのう ぎんこうで おかねを おろして、スーパーへ いって、くだものを （　）。",
+    "promptRomaji": "Kinou ginkou de okane o oroshite, suupaa e itte, kudamono o _____.",
+    "sub": "Tutup kalimat kejadian kemarin (きのう) dengan かいます (membeli).",
+    "options": [
+      {
+        "jp": "かいました",
+        "romaji": "kaimashita"
+      },
+      {
+        "jp": "かって",
+        "romaji": "katte"
+      },
+      {
+        "jp": "かいます",
+        "romaji": "kaimasu"
+      },
+      {
+        "jp": "かいて",
+        "romaji": "kaite"
+      }
+    ],
+    "answer": 0,
+    "explain": "Kata kerja terakhir menentukan waktu seluruh kalimat. Karena ada きのう, gunakan bentuk lampau かいました."
+  },
+  {
+    "id": "b16-65",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Pola V1-てから、V2",
+    "prompt": "まいばん シャワーを （　）、ねます。 (Setiap malam setelah mandi shower, tidur.)",
+    "promptRomaji": "Maiban shawaa o _____, nemasu.",
+    "sub": "Gunakan あびます (mandi shower, Kel. II) dalam pola ～てから.",
+    "options": [
+      {
+        "jp": "あびってから",
+        "romaji": "abitte kara"
+      },
+      {
+        "jp": "あびますから",
+        "romaji": "abimasu kara"
+      },
+      {
+        "jp": "あんでから",
+        "romaji": "ande kara"
+      },
+      {
+        "jp": "あびてから",
+        "romaji": "abite kara"
+      }
+    ],
+    "answer": 3,
+    "explain": "あびます termasuk pengecualian Kelompok II, sehingga bentuk-て-nya あびて + から = あびてから (setelah mandi shower)."
+  },
+  {
+    "id": "b16-66",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Pola V1-てから、V2",
+    "prompt": "だいがくを （　）、にほんの かいしゃで はたらきたいです。 (Setelah lulus universitas, ingin bekerja di perusahaan Jepang.)",
+    "promptRomaji": "Daigaku o _____, Nihon no kaisha de hatarakitai desu.",
+    "sub": "Gunakan でます (lulus/keluar, Kel. II) dalam pola ～てから.",
+    "options": [
+      {
+        "jp": "でますから",
+        "romaji": "demasu kara"
+      },
+      {
+        "jp": "でてから",
+        "romaji": "dete kara"
+      },
+      {
+        "jp": "でってから",
+        "romaji": "dette kara"
+      },
+      {
+        "jp": "でいてから",
+        "romaji": "deite kara"
+      }
+    ],
+    "answer": 1,
+    "explain": "でます (Kelompok II) menjadi でて + から = でてから (setelah lulus/keluar)."
+  },
+  {
+    "id": "b16-67",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Pola V1-てから、V2",
+    "prompt": "ばんごはんを （　）、テレビを みます。",
+    "promptRomaji": "Bangohan o _____, terebi o mimasu.",
+    "sub": "Nyatakan 'setelah makan malam' menggunakan たべます.",
+    "options": [
+      {
+        "jp": "たべますから",
+        "romaji": "tabemasu kara"
+      },
+      {
+        "jp": "たべってから",
+        "romaji": "tabette kara"
+      },
+      {
+        "jp": "たべてから",
+        "romaji": "tabete kara"
+      },
+      {
+        "jp": "たべて いますから",
+        "romaji": "tabete imasu kara"
+      }
+    ],
+    "answer": 2,
+    "explain": "たべます (Kelompok II) menjadi たべて + から = たべてから (setelah makan)."
+  },
+  {
+    "id": "b16-68",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Pola V1-てから、V2",
+    "prompt": "にほんへ （　）、6かげつ にほんごを べんきょうしました。",
+    "promptRomaji": "Nihon e _____, rokkagetsu Nihongo o benkyou shimashita.",
+    "sub": "Nyatakan 'setelah datang ke Jepang' menggunakan きます (Kel. III).",
+    "options": [
+      {
+        "jp": "きてから",
+        "romaji": "kite kara"
+      },
+      {
+        "jp": "きってから",
+        "romaji": "kitte kara"
+      },
+      {
+        "jp": "きますから",
+        "romaji": "kimasu kara"
+      },
+      {
+        "jp": "くてから",
+        "romaji": "kute kara"
+      }
+    ],
+    "answer": 0,
+    "explain": "きます (Kelompok III) menjadi きて + から = きてから (setelah datang)."
+  },
+  {
+    "id": "b16-69",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Pola V1-てから、V2",
+    "prompt": "かいしゃを （　）、くにへ かえります。 (Setelah berhenti dari perusahaan, pulang ke negara asal.)",
+    "promptRomaji": "Kaisha o _____, kuni e kaerimasu.",
+    "sub": "Gunakan やめます (berhenti, Kel. II) dalam pola ～てから.",
+    "options": [
+      {
+        "jp": "やめますから",
+        "romaji": "yamemasu kara"
+      },
+      {
+        "jp": "やめってから",
+        "romaji": "yamette kara"
+      },
+      {
+        "jp": "やみてから",
+        "romaji": "yamite kara"
+      },
+      {
+        "jp": "やめてから",
+        "romaji": "yamete kara"
+      }
+    ],
+    "answer": 3,
+    "explain": "やめます (Kelompok II) menjadi やめて + から = やめてから (setelah berhenti)."
+  },
+  {
+    "id": "b16-70",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Sambung KS-い (～くて)",
+    "prompt": "この まちの としょかんは （　）、きれいです。",
+    "promptRomaji": "Kono machi no toshokan wa _____, kirei desu.",
+    "sub": "Sambungkan kata sifat-い あたらしい (baru) dengan きれいです.",
+    "options": [
+      {
+        "jp": "あたらしいで",
+        "romaji": "atarashii de"
+      },
+      {
+        "jp": "あたらしいくて",
+        "romaji": "atarashiikute"
+      },
+      {
+        "jp": "あたらしくて",
+        "romaji": "atarashikute"
+      },
+      {
+        "jp": "あたらしで",
+        "romaji": "atarashi de"
+      }
+    ],
+    "answer": 2,
+    "explain": "あたらしい (KS-い) → coret い + くて menjadi あたらしくて."
+  },
+  {
+    "id": "b16-71",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Sambung KS-い (～くて)",
+    "prompt": "マリアさんは かみが （　）、きれいです。",
+    "promptRomaji": "Maria-san wa kami ga _____, kirei desu.",
+    "sub": "Sambungkan kata sifat-い ながい (panjang) dengan きれいです.",
+    "options": [
+      {
+        "jp": "ながいで",
+        "romaji": "nagai de"
+      },
+      {
+        "jp": "ながくて",
+        "romaji": "nagakute"
+      },
+      {
+        "jp": "ながいくて",
+        "romaji": "nagaikute"
+      },
+      {
+        "jp": "ながで",
+        "romaji": "naga de"
+      }
+    ],
+    "answer": 1,
+    "explain": "ながい (KS-い) → coret い + くて menjadi ながくて."
+  },
+  {
+    "id": "b16-72",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Sambung KS-い (～くて)",
+    "prompt": "やまださんは （　）、げんきな ひとです。",
+    "promptRomaji": "Yamada-san wa _____, genki na hito desu.",
+    "sub": "Sambungkan kata sifat-い わかい (muda) dengan げんきな ひとです.",
+    "options": [
+      {
+        "jp": "わかくて",
+        "romaji": "wakakute"
+      },
+      {
+        "jp": "わかいで",
+        "romaji": "wakai de"
+      },
+      {
+        "jp": "わかいくて",
+        "romaji": "wakaikute"
+      },
+      {
+        "jp": "わかで",
+        "romaji": "waka de"
+      }
+    ],
+    "answer": 0,
+    "explain": "わかい (KS-い) → coret い + くて menjadi わかくて."
+  },
+  {
+    "id": "b16-73",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Sambung KS-い (～くて)",
+    "prompt": "この パソコンは （　）、べんりです。",
+    "promptRomaji": "Kono pasokon wa _____, benri desu.",
+    "sub": "Sambungkan kata sifat-い かるい (ringan) dengan べんりです.",
+    "options": [
+      {
+        "jp": "かるいで",
+        "romaji": "karui de"
+      },
+      {
+        "jp": "かるいくて",
+        "romaji": "karuikute"
+      },
+      {
+        "jp": "かるで",
+        "romaji": "karu de"
+      },
+      {
+        "jp": "かるくて",
+        "romaji": "karukute"
+      }
+    ],
+    "answer": 3,
+    "explain": "かるい (KS-い) → coret い + くて menjadi かるくて."
+  },
+  {
+    "id": "b16-74",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Jebakan きれい (KS-な)",
+    "prompt": "ならは （　）、しずかな まちです。",
+    "promptRomaji": "Nara wa _____, shizuka na machi desu.",
+    "sub": "Hati-hati! きれい adalah kata sifat-な, bukan kata sifat-い.",
+    "options": [
+      {
+        "jp": "きれいくて",
+        "romaji": "kireikute"
+      },
+      {
+        "jp": "きれいなで",
+        "romaji": "kirei na de"
+      },
+      {
+        "jp": "きれいで",
+        "romaji": "kirei de"
+      },
+      {
+        "jp": "きれくて",
+        "romaji": "kirekute"
+      }
+    ],
+    "answer": 2,
+    "explain": "きれい meskipun berakhiran い termasuk kata sifat-な, sehingga bentuk sambungnya wajib memakai で → きれいで (BUKAN きれいくて atau きれくて)."
+  },
+  {
+    "id": "b16-75",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Jebakan ゆうめい (KS-な)",
+    "prompt": "きょうとは （　）、おてらが おおい まちです。",
+    "promptRomaji": "Kyouto wa _____, otera ga ooi machi desu.",
+    "sub": "Hati-hati! ゆうめい (terkenal) adalah kata sifat-な.",
+    "options": [
+      {
+        "jp": "ゆうめいくて",
+        "romaji": "yuumeikute"
+      },
+      {
+        "jp": "ゆうめいで",
+        "romaji": "yuumei de"
+      },
+      {
+        "jp": "ゆうめいなで",
+        "romaji": "yuumei na de"
+      },
+      {
+        "jp": "ゆうめくて",
+        "romaji": "yuumekute"
+      }
+    ],
+    "answer": 1,
+    "explain": "ゆうめい adalah kata sifat-な, jadi disambung menggunakan で tanpa な → ゆうめいで."
+  },
+  {
+    "id": "b16-76",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Sambung KS-な (～で)",
+    "prompt": "さとうさんは （　）、あかるい ひとです。",
+    "promptRomaji": "Satou-san wa _____, akarui hito desu.",
+    "sub": "Sambungkan kata sifat-な げんき (sehat/bersemangat) dengan あかるい ひとです.",
+    "options": [
+      {
+        "jp": "げんきで",
+        "romaji": "genki de"
+      },
+      {
+        "jp": "げんきくて",
+        "romaji": "genkikute"
+      },
+      {
+        "jp": "げんきなで",
+        "romaji": "genki na de"
+      },
+      {
+        "jp": "げんきに",
+        "romaji": "genki ni"
+      }
+    ],
+    "answer": 0,
+    "explain": "げんき adalah kata sifat-な, jadi disambung menjadi げんきで."
+  },
+  {
+    "id": "b16-77",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Sambung Kata Benda (～で)",
+    "prompt": "たなかさんは （　）、こうこうの せんせいです。",
+    "promptRomaji": "Tanaka-san wa _____, koukou no sensei desu.",
+    "sub": "Sambungkan kata benda にほんじん (orang Jepang) dengan こうこうの せんせいです.",
+    "options": [
+      {
+        "jp": "にほんじんくて",
+        "romaji": "Nihonjinkute"
+      },
+      {
+        "jp": "にほんじんだで",
+        "romaji": "Nihonjin da de"
+      },
+      {
+        "jp": "にほんじんに",
+        "romaji": "Nihonjin ni"
+      },
+      {
+        "jp": "にほんじんで",
+        "romaji": "Nihonjin de"
+      }
+    ],
+    "answer": 3,
+    "explain": "Kata benda disambung langsung dengan で → にほんじんで、こうこうの せんせいです."
+  },
+  {
+    "id": "b16-78",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Sambung Kata Benda (～で)",
+    "prompt": "きょうは （　）、いい てんきです。",
+    "promptRomaji": "Kyou wa _____, ii tenki desu.",
+    "sub": "Sambungkan kata benda にちようび (hari Minggu) dengan いい てんきです.",
+    "options": [
+      {
+        "jp": "にちようびくて",
+        "romaji": "nichiyoubikute"
+      },
+      {
+        "jp": "にちようびだで",
+        "romaji": "nichiyoubi da de"
+      },
+      {
+        "jp": "にちようびで",
+        "romaji": "nichiyoubi de"
+      },
+      {
+        "jp": "にちようびに",
+        "romaji": "nichiyoubi ni"
+      }
+    ],
+    "answer": 2,
+    "explain": "Kata benda waktu seperti にちようび juga disambung menggunakan で → にちようびで、いい てんきです."
+  },
+  {
+    "id": "b16-79",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Kontras ～くて vs ～が",
+    "prompt": "この カメラは かるいです（　）、たかいです。",
+    "promptRomaji": "Kono kamera wa karui desu _____, takai desu.",
+    "sub": "かるい (ringan, positif) dan たかい (mahal, negatif) berlawanan. Pilih penghubung yang tepat.",
+    "options": [
+      {
+        "jp": "くて",
+        "romaji": "kute"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "から",
+        "romaji": "kara"
+      }
+    ],
+    "answer": 1,
+    "explain": "Dua sifat dengan kesan berlawanan (ringan tetapi mahal) dihubungkan dengan が (かるいですが、たかいです), bukan ～くて."
+  },
+  {
+    "id": "b16-80",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Pola N1 は N2 が Adj",
+    "prompt": "ぞう（gajah）は はな （　） ながいです。",
+    "promptRomaji": "Zou wa hana _____ nagai desu.",
+    "sub": "Pilih partikel penanda bagian tubuh pada pola ciri fisik.",
+    "options": [
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "は",
+        "romaji": "wa"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      }
+    ],
+    "answer": 0,
+    "explain": "Pola ciri fisik menggunakan [Topik] は [Bagian] が [Sifat] です → ぞうは はなが ながいです (Gajah hidung/belalainya panjang)."
+  },
+  {
+    "id": "b16-81",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Pola N1 は N2 が Adj",
+    "prompt": "この いぬは みみ （　） おおきいです。",
+    "promptRomaji": "Kono inu wa mimi _____ ookii desu.",
+    "sub": "Pilih partikel penanda bagian tubuh (みみ = telinga).",
+    "options": [
+      {
+        "jp": "は",
+        "romaji": "wa"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      }
+    ],
+    "answer": 3,
+    "explain": "Bagian tubuh pada pola N1 は N2 が Adj selalu ditandai partikel が → みみが おおきいです."
+  },
+  {
+    "id": "b16-82",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Pola N1 は N2 が Adj",
+    "prompt": "あの ひとは あたま （　） いいです。",
+    "promptRomaji": "Ano hito wa atama _____ ii desu.",
+    "sub": "Lengkapi ungkapan 'orang itu pintar' dengan partikel yang tepat.",
+    "options": [
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      }
+    ],
+    "answer": 2,
+    "explain": "あたまが いい (kepalanya bagus = pintar) mengikuti pola N1 は N2 が Adj dan memakai partikel が."
+  },
+  {
+    "id": "b16-83",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Pola N1 は N2 が Adj",
+    "prompt": "にほん （　） やまが おおいです。",
+    "promptRomaji": "Nihon _____ yama ga ooi desu.",
+    "sub": "Pilih partikel topik untuk 'Jepang banyak gunungnya'.",
+    "options": [
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "は",
+        "romaji": "wa"
+      },
+      {
+        "jp": "から",
+        "romaji": "kara"
+      },
+      {
+        "jp": "まで",
+        "romaji": "made"
+      }
+    ],
+    "answer": 1,
+    "explain": "Pada pola [Tempat] は [Hal] が [Sifat] です, tempat/topik ditandai dengan partikel は → にほんは やまが おおいです."
+  },
+  {
+    "id": "b16-84",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Kata Tanya どうやって",
+    "prompt": "ATMで （　） おかねを おろしますか。 — まず キャッシュカードを いれます。",
+    "promptRomaji": "ATM de _____ okane o oroshimasu ka. — Mazu kyasshukaado o iremasu.",
+    "sub": "Pilih kata tanya untuk menanyakan cara menggunakan ATM.",
+    "options": [
+      {
+        "jp": "どうやって",
+        "romaji": "douyatte"
+      },
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      },
+      {
+        "jp": "どの",
+        "romaji": "dono"
+      },
+      {
+        "jp": "どちら",
+        "romaji": "dochira"
+      }
+    ],
+    "answer": 0,
+    "explain": "どうやって berarti 'bagaimana caranya', digunakan untuk menanyakan langkah atau prosedur melakukan sesuatu."
+  },
+  {
+    "id": "b16-85",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Kata Tanya どうやって",
+    "prompt": "A：「（　） うちへ かえりますか。」 B：「ちかてつに のって、バスに のりかえます。」",
+    "promptRomaji": "A: \"_____ uchi e kaerimasu ka.\" B: \"Chikatetsu ni notte, basu ni norikaemasu.\"",
+    "sub": "Pilih kata tanya yang sesuai dengan penjelasan langkah rute di jawaban B.",
+    "options": [
+      {
+        "jp": "どの",
+        "romaji": "dono"
+      },
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      },
+      {
+        "jp": "どんな",
+        "romaji": "donna"
+      },
+      {
+        "jp": "どうやって",
+        "romaji": "douyatte"
+      }
+    ],
+    "answer": 3,
+    "explain": "Karena B menjawab urutan cara pulang, A bertanya menggunakan どうやって ('bagaimana caranya pulang ke rumah?')."
+  },
+  {
+    "id": "b16-86",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Kata Tanya どの N",
+    "prompt": "きょうとに じんじゃが たくさん あります。（　） じんじゃが いちばん ゆうめいですか。",
+    "promptRomaji": "Kyouto ni jinja ga takusan arimasu. _____ jinja ga ichiban yuumei desu ka.",
+    "sub": "Pilih kata tanya yang tepat sebelum kata benda じんじゃ (tiga atau lebih).",
+    "options": [
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      },
+      {
+        "jp": "どちら",
+        "romaji": "dochira"
+      },
+      {
+        "jp": "どの",
+        "romaji": "dono"
+      },
+      {
+        "jp": "どうやって",
+        "romaji": "douyatte"
+      }
+    ],
+    "answer": 2,
+    "explain": "Karena diikuti kata benda じんじゃ dan pilihannya banyak (たくさん), gunakan どの (どの じんじゃ = kuil Shinto yang mana)."
+  },
+  {
+    "id": "b16-87",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Kata Tanya どれ",
+    "prompt": "つくえの うえに かばんが みっつ あります。あなたの かばんは （　） ですか。",
+    "promptRomaji": "Tsukue no ue ni kaban ga mittsu arimasu. Anata no kaban wa _____ desu ka.",
+    "sub": "Pilih kata tanya berdiri sendiri untuk tiga buah tas.",
+    "options": [
+      {
+        "jp": "どの",
+        "romaji": "dono"
+      },
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      },
+      {
+        "jp": "どちら",
+        "romaji": "dochira"
+      },
+      {
+        "jp": "どうやって",
+        "romaji": "douyatte"
+      }
+    ],
+    "answer": 1,
+    "explain": "Untuk memilih dari tiga atau lebih benda tanpa mengulang kata bendanya sebelum です, gunakan どれ."
+  },
+  {
+    "id": "b16-88",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Deteksi Kebenaran Urutan",
+    "prompt": "きのうの ぶん（V1-て、V2）で、ただしい ものは どれですか。",
+    "promptRomaji": "Kinou no bun (V1-te, V2) de, tadashii mono wa dore desu ka.",
+    "sub": "Periksa bentuk-て dan kala waktu kata kerja terakhir.",
+    "options": [
+      {
+        "jp": "きのう えきで しんぶんを かって、でんしゃに のりました。",
+        "romaji": "Kinou eki de shinbun o katte, densha ni norimashita."
+      },
+      {
+        "jp": "きのう えきで しんぶんを かって、でんしゃに のります。",
+        "romaji": "Kinou eki de shinbun o katte, densha ni norimasu."
+      },
+      {
+        "jp": "きのう えきで しんぶんを かいました、でんしゃに のりました。",
+        "romaji": "Kinou eki de shinbun o kaimashita, densha ni norimashita."
+      },
+      {
+        "jp": "きのう えきで しんぶんを かいて、でんしゃに のりました。",
+        "romaji": "Kinou eki de shinbun o kaite, densha ni norimashita."
+      }
+    ],
+    "answer": 0,
+    "explain": "かいます (membeli) → かって, lalu ditutup dengan bentuk lampau のりました karena ada きのう (kemarin)."
+  },
+  {
+    "id": "b16-89",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Deteksi Kesalahan Kata Sifat",
+    "prompt": "けいようし（kata sifat）の ぶんで、ただしくない ものは どれですか。",
+    "promptRomaji": "Keiyoushi no bun de, tadashikunai mono wa dore desu ka.",
+    "sub": "Cari satu kalimat sambungan kata sifat yang SALAH.",
+    "options": [
+      {
+        "jp": "この まちは きれいで、しずかです。",
+        "romaji": "Kono machi wa kirei de, shizuka desu."
+      },
+      {
+        "jp": "この へやは ひろくて、あかるいです。",
+        "romaji": "Kono heya wa hirokute, akarui desu."
+      },
+      {
+        "jp": "あの ひとは わかくて、しんせつです。",
+        "romaji": "Ano hito wa wakakute, shinsetsu desu."
+      },
+      {
+        "jp": "この まちは きれいくて、しずかです。",
+        "romaji": "Kono machi wa kireikute, shizuka desu."
+      }
+    ],
+    "answer": 3,
+    "explain": "きれい adalah kata sifat-な, jadi tidak boleh diubah menjadi きれいくて. Yang benar adalah きれいで."
+  },
+  {
+    "id": "b16-90",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Deteksi Kebenaran Partikel",
+    "prompt": "のりもの・ばしょの じょし（に／を）が ただしい ぶんは どれですか。",
+    "promptRomaji": "Norimono, basho no joshi (ni / o) ga tadashii bun wa dore desu ka.",
+    "sub": "Periksa partikel に dan を pada kata kerja kendaraan/tempat.",
+    "options": [
+      {
+        "jp": "つぎの えきで バスに おります。",
+        "romaji": "Tsugi no eki de basu ni orimasu."
+      },
+      {
+        "jp": "えきで でんしゃを のります。",
+        "romaji": "Eki de densha o norimasu."
+      },
+      {
+        "jp": "つぎの えきで バスを おります。",
+        "romaji": "Tsugi no eki de basu o orimasu."
+      },
+      {
+        "jp": "らいねん だいがくを はいります。",
+        "romaji": "Rainen daigaku o hairimasu."
+      }
+    ],
+    "answer": 2,
+    "explain": "おります (turun kendaraan) memakai を (バスを おります). Sebaliknya, のります dan はいります memakai に."
+  },
+  {
+    "id": "b16-91",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Terjemahan Kalimat",
+    "prompt": "Bahasa Jepang dari \"Pagi hari saya mandi shower, lalu minum kopi\" adalah...",
+    "promptRomaji": "Terjemahan Jepang (Bab 16)",
+    "sub": "Pilih terjemahan bahasa Jepang yang tepat.",
+    "options": [
+      {
+        "jp": "あさ シャワーを あびって、コーヒーを のみます。",
+        "romaji": "Asa shawaa o abitte, koohii o nomimasu."
+      },
+      {
+        "jp": "あさ シャワーを あびて、コーヒーを のみます。",
+        "romaji": "Asa shawaa o abite, koohii o nomimasu."
+      },
+      {
+        "jp": "あさ シャワーを あびます、コーヒーを のみます。",
+        "romaji": "Asa shawaa o abimasu, koohii o nomimasu."
+      },
+      {
+        "jp": "あさ シャワーを あびて、コーヒーを のんで。",
+        "romaji": "Asa shawaa o abite, koohii o nonde."
+      }
+    ],
+    "answer": 1,
+    "explain": "あびます (Kelompok II) menjadi あびて, lalu ditutup dengan kata kerja akhir sopan のみます."
+  },
+  {
+    "id": "b16-92",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Terjemahan Kalimat",
+    "prompt": "Bahasa Jepang dari \"Setelah makan malam, saya belajar bahasa Jepang\" adalah...",
+    "promptRomaji": "Terjemahan Jepang (Bab 16)",
+    "sub": "Pilih terjemahan bahasa Jepang yang tepat.",
+    "options": [
+      {
+        "jp": "ばんごはんを たべてから、にほんごを べんきょうします。",
+        "romaji": "Bangohan o tabete kara, Nihongo o benkyou shimasu."
+      },
+      {
+        "jp": "ばんごはんを たべますから、にほんごを べんきょうします。",
+        "romaji": "Bangohan o tabemasu kara, Nihongo o benkyou shimasu."
+      },
+      {
+        "jp": "ばんごはんを たべってから、にほんごを べんきょうします。",
+        "romaji": "Bangohan o tabette kara, Nihongo o benkyou shimasu."
+      },
+      {
+        "jp": "ばんごはんを たべて いますから、にほんごを べんきょうします。",
+        "romaji": "Bangohan o tabete imasu kara, Nihongo o benkyou shimasu."
+      }
+    ],
+    "answer": 0,
+    "explain": "Pola 'setelah ~' adalah V1-てから、V2 → ばんごはんを たべてから、にほんごを べんきょうします."
+  },
+  {
+    "id": "b16-93",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Terjemahan Kalimat",
+    "prompt": "Bahasa Jepang dari \"Guru saya ramah dan pintar\" adalah...",
+    "promptRomaji": "Terjemahan Jepang (Bab 16)",
+    "sub": "Pilih terjemahan bahasa Jepang yang tepat.",
+    "options": [
+      {
+        "jp": "わたしの せんせいは しんせつくて、あたまが いいです。",
+        "romaji": "Watashi no sensei wa shinsetsukute, atama ga ii desu."
+      },
+      {
+        "jp": "わたしの せんせいは しんせつなで、あたまが いいです。",
+        "romaji": "Watashi no sensei wa shinsetsu na de, atama ga ii desu."
+      },
+      {
+        "jp": "わたしの せんせいは しんせつですが、あたまが いいです。",
+        "romaji": "Watashi no sensei wa shinsetsu desu ga, atama ga ii desu."
+      },
+      {
+        "jp": "わたしの せんせいは しんせつで、あたまが いいです。",
+        "romaji": "Watashi no sensei wa shinsetsu de, atama ga ii desu."
+      }
+    ],
+    "answer": 3,
+    "explain": "しんせつ (KS-な) disambung menjadi しんせつで, dan pintar = あたまが いいです."
+  },
+  {
+    "id": "b16-94",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Terjemahan Kalimat",
+    "prompt": "Bahasa Jepang dari \"Bagaimana cara pergi ke kuil Shinto?\" adalah...",
+    "promptRomaji": "Terjemahan Jepang (Bab 16)",
+    "sub": "Pilih terjemahan bahasa Jepang yang tepat.",
+    "options": [
+      {
+        "jp": "どの じんじゃへ いきますか。",
+        "romaji": "Dono jinja e ikimasu ka."
+      },
+      {
+        "jp": "どれ じんじゃへ いきますか。",
+        "romaji": "Dore jinja e ikimasu ka."
+      },
+      {
+        "jp": "どうやって じんじゃへ いきますか。",
+        "romaji": "Douyatte jinja e ikimasu ka."
+      },
+      {
+        "jp": "どうして じんじゃへ いきますか。",
+        "romaji": "Doushite jinja e ikimasu ka."
+      }
+    ],
+    "answer": 2,
+    "explain": "どうやって = bagaimana caranya, じんじゃ = kuil Shinto."
+  },
+  {
+    "id": "b16-95",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Arti Kalimat",
+    "prompt": "「この ホテルは あたらしくて、サービスが いいです。」の いみは どれですか。",
+    "promptRomaji": "\"Kono hoteru wa atarashikute, saabisu ga ii desu.\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan bahasa Indonesia yang tepat.",
+    "options": [
+      {
+        "jp": "Hotel ini baru tetapi pelayanannya buruk.",
+        "romaji": ""
+      },
+      {
+        "jp": "Hotel ini baru dan pelayanannya bagus.",
+        "romaji": ""
+      },
+      {
+        "jp": "Hotel ini tua dan pelayanannya mahal.",
+        "romaji": ""
+      },
+      {
+        "jp": "Hotel ini luas dan makanannya enak.",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "あたらしくて = baru dan..., サービスが いいです = pelayanannya bagus."
+  },
+  {
+    "id": "b16-96",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Arti Kalimat",
+    "prompt": "「しごとを やめてから、くにへ かえりました。」の いみは どれですか。",
+    "promptRomaji": "\"Shigoto o yamete kara, kuni e kaerimashita.\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan bahasa Indonesia yang tepat.",
+    "options": [
+      {
+        "jp": "Setelah berhenti bekerja, saya pulang ke negara asal.",
+        "romaji": ""
+      },
+      {
+        "jp": "Setelah pulang ke negara asal, saya mulai bekerja.",
+        "romaji": ""
+      },
+      {
+        "jp": "Karena berhenti bekerja, saya tidak pulang ke negara asal.",
+        "romaji": ""
+      },
+      {
+        "jp": "Sambil bekerja, saya pulang ke negara asal.",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "しごとを やめてから = setelah berhenti kerja, くにへ かえりました = pulang ke negara asal."
+  },
+  {
+    "id": "b16-97",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Arti Kalimat",
+    "prompt": "「あには せが たかくて、めが おおきいです。」の いみは どれですか。",
+    "promptRomaji": "\"Ani wa se ga takakute, me ga ookii desu.\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan bahasa Indonesia yang tepat.",
+    "options": [
+      {
+        "jp": "Kakak laki-laki saya rambutnya panjang dan telinganya besar.",
+        "romaji": ""
+      },
+      {
+        "jp": "Adik laki-laki saya badannya tinggi dan wajahnya tampan.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kakak laki-laki saya rambutnya pendek dan kakinya panjang.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kakak laki-laki saya badannya tinggi dan matanya besar.",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "あに = kakak laki-laki (sendiri), せが たかくて = badannya tinggi dan..., めが おおきいです = matanya besar."
+  },
+  {
+    "id": "b16-98",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Pemahaman Urutan",
+    "prompt": "「きょうは 6じに おきて、ジョギングを しました。あさごはんを たべてから、ちかてつに のって、だいがくへ いきました。」Urutan kegiatan yang BENAR adalah...",
+    "promptRomaji": "\"Kyou wa rokuji ni okite, jogingu o shimashita. Asagohan o tabete kara, chikatetsu ni notte, daigaku e ikimashita.\"",
+    "sub": "Pilih urutan waktu yang tepat dari pagi hingga tiba di kampus.",
+    "options": [
+      {
+        "jp": "Sarapan → bangun jam 6 → joging → naik kereta bawah tanah.",
+        "romaji": ""
+      },
+      {
+        "jp": "Bangun jam 6 → naik kereta bawah tanah → sarapan → joging.",
+        "romaji": ""
+      },
+      {
+        "jp": "Bangun jam 6 → joging → sarapan → naik kereta bawah tanah ke kampus.",
+        "romaji": ""
+      },
+      {
+        "jp": "Joging → sarapan → bangun jam 6 → pulang dari kampus.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "Urutan kalimat: 6じに おきて (bangun jam 6) → ジョギングを しました (joging) → あさごはんを たべてから (setelah sarapan) → ちかてつに のって、だいがくへ いきました (naik kereta bawah tanah ke kampus)."
+  },
+  {
+    "id": "b16-99",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Dialog di Bank",
+    "prompt": "ぎんこうの ひとが いいます。「（　）。」 — きゃく：「はい、そうです。」",
+    "promptRomaji": "Ginkou no hito ga iimasu. \"_____.\" — Kyaku: \"Hai, sou desu.\"",
+    "sub": "Pilih ungkapan petugas bank saat menanyakan apakah nasabah hendak menarik uang.",
+    "options": [
+      {
+        "jp": "おつりですか",
+        "romaji": "otsuri desu ka"
+      },
+      {
+        "jp": "おひきだしですか",
+        "romaji": "ohikidashi desu ka"
+      },
+      {
+        "jp": "おでかけですか",
+        "romaji": "odekake desu ka"
+      },
+      {
+        "jp": "ごちゅうもんですか",
+        "romaji": "gochuumon desu ka"
+      }
+    ],
+    "answer": 1,
+    "explain": "Di bank, petugas menyapa nasabah di depan ATM dengan 「おひきだしですか」 (Apakah Anda mau menarik uang?)."
+  },
+  {
+    "id": "b16-100",
+    "bab": 16,
+    "type": "mcq",
+    "badge": "Bab 16 · Dialog Menunjuk Orang",
+    "prompt": "A：「サントスさんは どの ひとですか。」 B：「（　）。」",
+    "promptRomaji": "A: \"Santosu-san wa dono hito desu ka.\" B: \"_____.\"",
+    "sub": "Pilih jawaban yang mendeskripsikan dua ciri fisik/sifat dengan benar.",
+    "options": [
+      {
+        "jp": "あの わかい せが たかい ひとです。",
+        "romaji": "Ano wakai se ga takai hito desu."
+      },
+      {
+        "jp": "あの わかいで、せが たかい ひとです。",
+        "romaji": "Ano wakai de, se ga takai hito desu."
+      },
+      {
+        "jp": "あの わかいですが、せが たかい ひとです。",
+        "romaji": "Ano wakai desu ga, se ga takai hito desu."
+      },
+      {
+        "jp": "あの わかくて、せが たかい ひとです。",
+        "romaji": "Ano wakakute, se ga takai hito desu."
+      }
+    ],
+    "answer": 3,
+    "explain": "Untuk menggabungkan dua sifat searah (muda dan tinggi) sebelum kata benda ひと, kata sifat-い pertama diubah ke ～くて → わかくて、せが たかい ひとです."
   }
 ];

@@ -1450,5 +1450,1455 @@ window.MNN_BANK[15] = [
     ],
     "answer": 1,
     "explain": "Untuk menjawab 「いいえ」 terhadap pertanyaan izin ～ても いいですか dan melarangnya, gunakan V-ては いけません → コピーしては いけません."
+  },
+  {
+    "id": "b15-51",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Kosakata カタログ",
+    "prompt": "「カタログ」の いみは どれですか。",
+    "promptRomaji": "\"Katarogu\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata yang tepat.",
+    "options": [
+      {
+        "jp": "jadwal kereta",
+        "romaji": ""
+      },
+      {
+        "jp": "perangkat lunak",
+        "romaji": ""
+      },
+      {
+        "jp": "katalog barang / produk",
+        "romaji": ""
+      },
+      {
+        "jp": "kamus elektronik",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "カタログ (katalog) berarti buku atau daftar berisi gambar dan keterangan produk."
+  },
+  {
+    "id": "b15-52",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Kosakata ふく",
+    "prompt": "「あたらしい ふくを かいました。」の 「ふく」の いみは どれですか。",
+    "promptRomaji": "\"Atarashii fuku o kaimashita.\" no \"fuku\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata yang tepat.",
+    "options": [
+      {
+        "jp": "pakaian / baju",
+        "romaji": ""
+      },
+      {
+        "jp": "sepatu",
+        "romaji": ""
+      },
+      {
+        "jp": "tas",
+        "romaji": ""
+      },
+      {
+        "jp": "topi",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "ふく (服) berarti pakaian atau baju."
+  },
+  {
+    "id": "b15-53",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Kosakata こうこう",
+    "prompt": "「こうこう」の いみは どれですか。",
+    "promptRomaji": "\"Koukou\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata yang tepat.",
+    "options": [
+      {
+        "jp": "universitas",
+        "romaji": ""
+      },
+      {
+        "jp": "balai kota",
+        "romaji": ""
+      },
+      {
+        "jp": "klinik gigi",
+        "romaji": ""
+      },
+      {
+        "jp": "SMA (Sekolah Menengah Atas)",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "こうこう (高校) berarti Sekolah Menengah Atas (SMA)."
+  },
+  {
+    "id": "b15-54",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Kosakata プレイガイド",
+    "prompt": "「プレイガイド」の いみは どれですか。",
+    "promptRomaji": "\"Pureigaido\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kata yang tepat.",
+    "options": [
+      {
+        "jp": "taman bermain",
+        "romaji": ""
+      },
+      {
+        "jp": "agen penjualan tiket (konser/teater)",
+        "romaji": ""
+      },
+      {
+        "jp": "pemandu wisata",
+        "romaji": ""
+      },
+      {
+        "jp": "buku panduan kota",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "プレイガイド di Jepang merujuk pada loket atau agen penjualan tiket konser, teater, dan acara hiburan."
+  },
+  {
+    "id": "b15-55",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Kosakata ソフト",
+    "prompt": "「ソフト」の いみは どれですか。",
+    "promptRomaji": "\"Sofuto\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kosakata Bab 15 yang tepat.",
+    "options": [
+      {
+        "jp": "katalog barang",
+        "romaji": ""
+      },
+      {
+        "jp": "jadwal kereta",
+        "romaji": ""
+      },
+      {
+        "jp": "perangkat lunak / software",
+        "romaji": ""
+      },
+      {
+        "jp": "dokumen laporan",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "ソフト (software) dalam konteks Bab 15 berarti perangkat lunak komputer."
+  },
+  {
+    "id": "b15-56",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Kosakata いらっしゃいます",
+    "prompt": "「ごかぞくは どちらに いらっしゃいますか。」の 「いらっしゃいます」は どの ことばの ていねいな かたち（bentuk hormat）ですか。",
+    "promptRomaji": "\"Gokazoku wa dochira ni irasshaimasu ka.\" no \"irasshaimasu\" wa dono kotoba no teinei na katachi desu ka.",
+    "sub": "Identifikasi kata kerja dasar dari いらっしゃいます.",
+    "options": [
+      {
+        "jp": "います",
+        "romaji": "imasu"
+      },
+      {
+        "jp": "しります",
+        "romaji": "shirimasu"
+      },
+      {
+        "jp": "もちます",
+        "romaji": "mochimasu"
+      },
+      {
+        "jp": "つくります",
+        "romaji": "tsukurimasu"
+      }
+    ],
+    "answer": 0,
+    "explain": "いらっしゃいます adalah bentuk hormat (sopan tinggi) dari います (ada/tinggal) saat membicarakan lawan bicara atau keluarganya."
+  },
+  {
+    "id": "b15-57",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Izin V-ても いいですか",
+    "prompt": "この じこくひょうを （　） いいですか。",
+    "promptRomaji": "Kono jikokuhyou o _____ ii desu ka.",
+    "sub": "Lengkapi kalimat izin menggunakan みます (melihat).",
+    "options": [
+      {
+        "jp": "みては",
+        "romaji": "mite wa"
+      },
+      {
+        "jp": "みっても",
+        "romaji": "mitte mo"
+      },
+      {
+        "jp": "みますも",
+        "romaji": "mimasu mo"
+      },
+      {
+        "jp": "みても",
+        "romaji": "mite mo"
+      }
+    ],
+    "answer": 3,
+    "explain": "みます (Kelompok II) menjadi みて + も いいですか = みても いいですか (Bolehkah melihat jadwal ini?)."
+  },
+  {
+    "id": "b15-58",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Izin V-ても いいですか",
+    "prompt": "さむいですね。エアコンを （　） いいですか。",
+    "promptRomaji": "Samui desu ne. Eakon o _____ ii desu ka.",
+    "sub": "Lengkapi kalimat izin menggunakan けします (mematikan).",
+    "options": [
+      {
+        "jp": "けしては",
+        "romaji": "keshite wa"
+      },
+      {
+        "jp": "けしても",
+        "romaji": "keshite mo"
+      },
+      {
+        "jp": "けっても",
+        "romaji": "kette mo"
+      },
+      {
+        "jp": "けいては",
+        "romaji": "keite wa"
+      }
+    ],
+    "answer": 1,
+    "explain": "けします (Kelompok I: し → して) menjadi けして + も いいですか = けしても いいですか."
+  },
+  {
+    "id": "b15-59",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Izin V-ても いいですか",
+    "prompt": "ここに えんぴつで （　） いいですか。",
+    "promptRomaji": "Koko ni enpitsu de _____ ii desu ka.",
+    "sub": "Lengkapi kalimat izin menggunakan かきます (menulis).",
+    "options": [
+      {
+        "jp": "かいては",
+        "romaji": "kaite wa"
+      },
+      {
+        "jp": "かっても",
+        "romaji": "katte mo"
+      },
+      {
+        "jp": "かいても",
+        "romaji": "kaite mo"
+      },
+      {
+        "jp": "かきても",
+        "romaji": "kakite mo"
+      }
+    ],
+    "answer": 2,
+    "explain": "かきます (Kelompok I: き → いて) menjadi かいて + も いいですか = かいても いいですか."
+  },
+  {
+    "id": "b15-60",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Izin V-ても いいですか",
+    "prompt": "ちょっと つかれましたから、ここで （　） いいですか。",
+    "promptRomaji": "Chotto tsukaremashita kara, koko de _____ ii desu ka.",
+    "sub": "Lengkapi kalimat izin menggunakan やすみます (beristirahat).",
+    "options": [
+      {
+        "jp": "やすんでも",
+        "romaji": "yasunde mo"
+      },
+      {
+        "jp": "やすみても",
+        "romaji": "yasumite mo"
+      },
+      {
+        "jp": "やすんでは",
+        "romaji": "yasunde wa"
+      },
+      {
+        "jp": "やすっても",
+        "romaji": "yasutte mo"
+      }
+    ],
+    "answer": 0,
+    "explain": "やすみます (Kelompok I: み → んで) menjadi やすんで + も いいですか = やすんでも いいですか."
+  },
+  {
+    "id": "b15-61",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Izin V-ても いいですか",
+    "prompt": "この にもつは つくえの したに （　） いいですか。",
+    "promptRomaji": "Kono nimotsu wa tsukue no shita ni _____ ii desu ka.",
+    "sub": "Lengkapi kalimat izin menggunakan おきます (meletakkan).",
+    "options": [
+      {
+        "jp": "おきても",
+        "romaji": "okite mo"
+      },
+      {
+        "jp": "おっては",
+        "romaji": "otte wa"
+      },
+      {
+        "jp": "おいては",
+        "romaji": "oite wa"
+      },
+      {
+        "jp": "おいても",
+        "romaji": "oite mo"
+      }
+    ],
+    "answer": 3,
+    "explain": "おきます (meletakkan, Kelompok I: き → いて) menjadi おいて + も いいですか = おいても いいですか."
+  },
+  {
+    "id": "b15-62",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Izin V-ても いいですか",
+    "prompt": "ここで でんわを （　） いいですか。",
+    "promptRomaji": "Koko de denwa o _____ ii desu ka.",
+    "sub": "Lengkapi kalimat izin menggunakan かけます (menelepon).",
+    "options": [
+      {
+        "jp": "かけては",
+        "romaji": "kakete wa"
+      },
+      {
+        "jp": "かけても",
+        "romaji": "kakete mo"
+      },
+      {
+        "jp": "かけっても",
+        "romaji": "kakette mo"
+      },
+      {
+        "jp": "かかっても",
+        "romaji": "kakatte mo"
+      }
+    ],
+    "answer": 1,
+    "explain": "でんわを かけます (Kelompok II) menjadi かけて + も いいですか = かけても いいですか."
+  },
+  {
+    "id": "b15-63",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Izin V-ても いいですか",
+    "prompt": "せんせい、きょうしつに （　） いいですか。",
+    "promptRomaji": "Sensei, kyoushitsu ni _____ ii desu ka.",
+    "sub": "Lengkapi kalimat izin menggunakan はいります (masuk).",
+    "options": [
+      {
+        "jp": "はいりても",
+        "romaji": "hairite mo"
+      },
+      {
+        "jp": "はいっては",
+        "romaji": "haitte wa"
+      },
+      {
+        "jp": "はいっても",
+        "romaji": "haitte mo"
+      },
+      {
+        "jp": "はいても",
+        "romaji": "haite mo"
+      }
+    ],
+    "answer": 2,
+    "explain": "はいります (Kelompok I: り → って) menjadi はいって + も いいですか = はいっても いいですか."
+  },
+  {
+    "id": "b15-64",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Larangan V-ては いけません",
+    "prompt": "この いすに （　） いけません。",
+    "promptRomaji": "Kono isu ni _____ ikemasen.",
+    "sub": "Lengkapi kalimat larangan menggunakan すわります (duduk).",
+    "options": [
+      {
+        "jp": "すわっては",
+        "romaji": "suwatte wa"
+      },
+      {
+        "jp": "すわっても",
+        "romaji": "suwatte mo"
+      },
+      {
+        "jp": "すわりては",
+        "romaji": "suwarite wa"
+      },
+      {
+        "jp": "すわいては",
+        "romaji": "suwaite wa"
+      }
+    ],
+    "answer": 0,
+    "explain": "すわります (Kelompok I: り → って) menjadi すわって + は いけません = すわっては いけません."
+  },
+  {
+    "id": "b15-65",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Larangan V-ては いけません",
+    "prompt": "としょかんの なかで コーヒーを （　） いけません。",
+    "promptRomaji": "Toshokan no naka de koohii o _____ ikemasen.",
+    "sub": "Lengkapi kalimat larangan menggunakan のみます (minum).",
+    "options": [
+      {
+        "jp": "のみては",
+        "romaji": "nomite wa"
+      },
+      {
+        "jp": "のんでも",
+        "romaji": "nonde mo"
+      },
+      {
+        "jp": "のっては",
+        "romaji": "notte wa"
+      },
+      {
+        "jp": "のんでは",
+        "romaji": "nonde wa"
+      }
+    ],
+    "answer": 3,
+    "explain": "のみます (Kelompok I: み → んで) menjadi のんで + は いけません = のんでは いけません."
+  },
+  {
+    "id": "b15-66",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Larangan V-ては いけません",
+    "prompt": "テストですから、ともだちと （　） いけません。",
+    "promptRomaji": "Tesuto desu kara, tomodachi to _____ ikemasen.",
+    "sub": "Lengkapi kalimat larangan menggunakan はなします (berbicara).",
+    "options": [
+      {
+        "jp": "はなしても",
+        "romaji": "hanashite mo"
+      },
+      {
+        "jp": "はなしては",
+        "romaji": "hanashite wa"
+      },
+      {
+        "jp": "はなっては",
+        "romaji": "hanatte wa"
+      },
+      {
+        "jp": "はないては",
+        "romaji": "hanaite wa"
+      }
+    ],
+    "answer": 1,
+    "explain": "はなします (Kelompok I: し → して) menjadi はなして + は いけません = はなしては いけません."
+  },
+  {
+    "id": "b15-67",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Larangan V-ては いけません",
+    "prompt": "さむいですから、まどを （　） いけません。",
+    "promptRomaji": "Samui desu kara, mado o _____ ikemasen.",
+    "sub": "Lengkapi kalimat larangan menggunakan あけます (membuka).",
+    "options": [
+      {
+        "jp": "あけても",
+        "romaji": "akete mo"
+      },
+      {
+        "jp": "あけっては",
+        "romaji": "akette wa"
+      },
+      {
+        "jp": "あけては",
+        "romaji": "akete wa"
+      },
+      {
+        "jp": "あいては",
+        "romaji": "aite wa"
+      }
+    ],
+    "answer": 2,
+    "explain": "あけます (Kelompok II) menjadi あけて + は いけません = あけては いけません."
+  },
+  {
+    "id": "b15-68",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Larangan V-ては いけません",
+    "prompt": "きょうしつで でんわを （　） いけません。",
+    "promptRomaji": "Kyoushitsu de denwa o _____ ikemasen.",
+    "sub": "Lengkapi kalimat larangan menggunakan つかいます (memakai).",
+    "options": [
+      {
+        "jp": "つかっては",
+        "romaji": "tsukatte wa"
+      },
+      {
+        "jp": "つかいては",
+        "romaji": "tsukaite wa"
+      },
+      {
+        "jp": "つかっても",
+        "romaji": "tsukatte mo"
+      },
+      {
+        "jp": "つかては",
+        "romaji": "tsukate wa"
+      }
+    ],
+    "answer": 0,
+    "explain": "つかいます (Kelompok I: い → って) menjadi つかって + は いけません = つかっては いけません."
+  },
+  {
+    "id": "b15-69",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Larangan V-ては いけません",
+    "prompt": "ドアの まえに にもつを （　） いけません。",
+    "promptRomaji": "Doa no mae ni nimotsu o _____ ikemasen.",
+    "sub": "Lengkapi kalimat larangan menggunakan おきます (meletakkan).",
+    "options": [
+      {
+        "jp": "おきては",
+        "romaji": "okite wa"
+      },
+      {
+        "jp": "おいても",
+        "romaji": "oite mo"
+      },
+      {
+        "jp": "おっては",
+        "romaji": "otte wa"
+      },
+      {
+        "jp": "おいては",
+        "romaji": "oite wa"
+      }
+    ],
+    "answer": 3,
+    "explain": "おきます (meletakkan, Kelompok I: き → いて) menjadi おいて + は いけません = おいては いけません."
+  },
+  {
+    "id": "b15-70",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Larangan V-ては いけません",
+    "prompt": "まだ じかんが ありますから、きょうしつを （　） いけません。",
+    "promptRomaji": "Mada jikan ga arimasu kara, kyoushitsu o _____ ikemasen.",
+    "sub": "Lengkapi kalimat larangan menggunakan でます (keluar).",
+    "options": [
+      {
+        "jp": "でても",
+        "romaji": "dete mo"
+      },
+      {
+        "jp": "でては",
+        "romaji": "dete wa"
+      },
+      {
+        "jp": "でっては",
+        "romaji": "dette wa"
+      },
+      {
+        "jp": "でいては",
+        "romaji": "deite wa"
+      }
+    ],
+    "answer": 1,
+    "explain": "でます (Kelompok II) menjadi でて + は いけません = でては いけません."
+  },
+  {
+    "id": "b15-71",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Tempat Tinggal すんでいます",
+    "prompt": "ごりょうしんは どこに （　） か。",
+    "promptRomaji": "Goryoushin wa doko ni _____ ka.",
+    "sub": "Tanyakan tempat tinggal orang tua saat ini (すみます).",
+    "options": [
+      {
+        "jp": "すみって います",
+        "romaji": "sumitte imasu"
+      },
+      {
+        "jp": "すみて います",
+        "romaji": "sumite imasu"
+      },
+      {
+        "jp": "すんで います",
+        "romaji": "sunde imasu"
+      },
+      {
+        "jp": "すんで あります",
+        "romaji": "sunde arimasu"
+      }
+    ],
+    "answer": 2,
+    "explain": "すみます (Kelompok I: み → んで) menjadi すんで います untuk menyatakan tempat tinggal saat ini."
+  },
+  {
+    "id": "b15-72",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Kepemilikan もっています",
+    "prompt": "あなたは くるまを （　） か。",
+    "promptRomaji": "Anata wa kuruma o _____ ka.",
+    "sub": "Tanyakan status kepemilikan mobil (もちます).",
+    "options": [
+      {
+        "jp": "もって います",
+        "romaji": "motte imasu"
+      },
+      {
+        "jp": "もちて います",
+        "romaji": "mochite imasu"
+      },
+      {
+        "jp": "もいて います",
+        "romaji": "moite imasu"
+      },
+      {
+        "jp": "もんで います",
+        "romaji": "monde imasu"
+      }
+    ],
+    "answer": 0,
+    "explain": "もちます (ち → って) menjadi もって います untuk menanyakan apakah seseorang memiliki suatu barang."
+  },
+  {
+    "id": "b15-73",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Status Pernikahan",
+    "prompt": "おねえさんは もう （　） か。",
+    "promptRomaji": "Oneesan wa mou _____ ka.",
+    "sub": "Tanyakan apakah kakak perempuan sudah berstatus menikah (けっこんします).",
+    "options": [
+      {
+        "jp": "けっこんしって います",
+        "romaji": "kekkon shitte imasu"
+      },
+      {
+        "jp": "けっこんして ください",
+        "romaji": "kekkon shite kudasai"
+      },
+      {
+        "jp": "けっこんしまして います",
+        "romaji": "kekkon shimashite imasu"
+      },
+      {
+        "jp": "けっこんして います",
+        "romaji": "kekkon shite imasu"
+      }
+    ],
+    "answer": 3,
+    "explain": "Status pernikahan dinyatakan dengan けっこんして います (sudah menikah)."
+  },
+  {
+    "id": "b15-74",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Negatif Keadaan",
+    "prompt": "A：「おにいさんは もう けっこんして いますか。」 B：「いいえ、まだ （　）。」",
+    "promptRomaji": "A: \"Oniisan wa mou kekkon shite imasu ka.\" B: \"Iie, mada _____.\"",
+    "sub": "Pilih bentuk negatif yang tepat untuk けっこんして います.",
+    "options": [
+      {
+        "jp": "けっこんしません",
+        "romaji": "kekkon shimasen"
+      },
+      {
+        "jp": "けっこんして いません",
+        "romaji": "kekkon shite imasen"
+      },
+      {
+        "jp": "けっこんして ありません",
+        "romaji": "kekkon shite arimasen"
+      },
+      {
+        "jp": "しりません",
+        "romaji": "shirimasen"
+      }
+    ],
+    "answer": 1,
+    "explain": "Status けっこんして います dinegasikan menjadi けっこんして いません (belum menikah)."
+  },
+  {
+    "id": "b15-75",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Kosakata おもいだします",
+    "prompt": "A：「やまださんの じゅうしょを しって いますか。」 B：「きのうは わかりませんでしたが、いま （　）。」",
+    "promptRomaji": "A: \"Yamada-san no juusho o shitte imasu ka.\" B: \"Kinou wa wakarimasen deshita ga, ima _____.\"",
+    "sub": "Pilih kata kerja Bab 15 yang berarti 'baru saja teringat / ingat kembali'.",
+    "options": [
+      {
+        "jp": "しりません",
+        "romaji": "shirimasen"
+      },
+      {
+        "jp": "けんきゅうしました",
+        "romaji": "kenkyuu shimashita"
+      },
+      {
+        "jp": "おもいだしました",
+        "romaji": "omoidashimashita"
+      },
+      {
+        "jp": "すみました",
+        "romaji": "sumimashita"
+      }
+    ],
+    "answer": 2,
+    "explain": "おもいだします berarti teringat kembali akan sesuatu yang sebelumnya lupa atau tidak ingat."
+  },
+  {
+    "id": "b15-76",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Jebakan しりません",
+    "prompt": "すみません、わたしは きむらさんの たんじょうびを （　）。",
+    "promptRomaji": "Sumimasen, watashi wa Kimura-san no tanjoubi o _____.",
+    "sub": "Pilih bentuk 'tidak tahu' yang benar.",
+    "options": [
+      {
+        "jp": "しりません",
+        "romaji": "shirimasen"
+      },
+      {
+        "jp": "しって いません",
+        "romaji": "shitte imasen"
+      },
+      {
+        "jp": "しって ありません",
+        "romaji": "shitte arimasen"
+      },
+      {
+        "jp": "しりて いません",
+        "romaji": "shirite imasen"
+      }
+    ],
+    "answer": 0,
+    "explain": "Bentuk negatif dari しって います wajib memakai しりません, bukan しって いません."
+  },
+  {
+    "id": "b15-77",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Aktivitas Berulang",
+    "prompt": "あの プレイガイドで コンサートの チケットを （　）。",
+    "promptRomaji": "Ano pureigaido de konsaato no chiketto o _____.",
+    "sub": "Nyatakan barang yang rutin dijual di loket tersebut (うります).",
+    "options": [
+      {
+        "jp": "うりて います",
+        "romaji": "urite imasu"
+      },
+      {
+        "jp": "うんで います",
+        "romaji": "unde imasu"
+      },
+      {
+        "jp": "ういて います",
+        "romaji": "uite imasu"
+      },
+      {
+        "jp": "うって います",
+        "romaji": "utte imasu"
+      }
+    ],
+    "answer": 3,
+    "explain": "うります (Kelompok I: り → って) menjadi うって います untuk menyatakan barang yang biasa dijual."
+  },
+  {
+    "id": "b15-78",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Aktivitas Perusahaan",
+    "prompt": "ちちの かいしゃは でんしじしょを （　）。",
+    "promptRomaji": "Chichi no kaisha wa denshijisho o _____.",
+    "sub": "Nyatakan produk yang diproduksi perusahaan ayah (つくります).",
+    "options": [
+      {
+        "jp": "つくりて います",
+        "romaji": "tsukurite imasu"
+      },
+      {
+        "jp": "つくって います",
+        "romaji": "tsukutte imasu"
+      },
+      {
+        "jp": "つくんで います",
+        "romaji": "tsukunde imasu"
+      },
+      {
+        "jp": "つくいて います",
+        "romaji": "tsukuite imasu"
+      }
+    ],
+    "answer": 1,
+    "explain": "つくります (Kelompok I: り → って) menjadi つくって います."
+  },
+  {
+    "id": "b15-79",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Pekerjaan Tetap",
+    "prompt": "あねは しやくしょで （　）。",
+    "promptRomaji": "Ane wa shiyakusho de _____.",
+    "sub": "Nyatakan pekerjaan rutin kakak perempuan di balai kota (はたらきます).",
+    "options": [
+      {
+        "jp": "はたらきて います",
+        "romaji": "hatarakite imasu"
+      },
+      {
+        "jp": "はたらって います",
+        "romaji": "hataratte imasu"
+      },
+      {
+        "jp": "はたらいて います",
+        "romaji": "hataraite imasu"
+      },
+      {
+        "jp": "はたらいで います",
+        "romaji": "hataraide imasu"
+      }
+    ],
+    "answer": 2,
+    "explain": "はたらきます (Kelompok I: き → いて) menjadi はたらいて います."
+  },
+  {
+    "id": "b15-80",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Profesi Mengajar",
+    "prompt": "いもうとは こうこうで にほんごを （　）。",
+    "promptRomaji": "Imouto wa koukou de Nihongo o _____.",
+    "sub": "Nyatakan profesi adik perempuan sebagai pengajar (おしえます).",
+    "options": [
+      {
+        "jp": "おしえて います",
+        "romaji": "oshiete imasu"
+      },
+      {
+        "jp": "おしえって います",
+        "romaji": "oshiette imasu"
+      },
+      {
+        "jp": "おして います",
+        "romaji": "oshite imasu"
+      },
+      {
+        "jp": "おしえます います",
+        "romaji": "oshiemasu imasu"
+      }
+    ],
+    "answer": 0,
+    "explain": "おしえます (Kelompok II) menjadi おしえて います."
+  },
+  {
+    "id": "b15-81",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Studi Saat Ini",
+    "prompt": "タワポンさんは だいがくで けいざいを （　）。",
+    "promptRomaji": "Tawapon-san wa daigaku de keizai o _____.",
+    "sub": "Nyatakan kegiatan studi yang sedang dijalani (べんきょうします).",
+    "options": [
+      {
+        "jp": "べんきょうしって います",
+        "romaji": "benkyou shitte imasu"
+      },
+      {
+        "jp": "べんきょうすて います",
+        "romaji": "benkyou sute imasu"
+      },
+      {
+        "jp": "べんきょうしまして います",
+        "romaji": "benkyou shimashite imasu"
+      },
+      {
+        "jp": "べんきょうして います",
+        "romaji": "benkyou shite imasu"
+      }
+    ],
+    "answer": 3,
+    "explain": "べんきょうします (Kelompok III) menjadi べんきょうして います (sedang kuliah/menempuh studi ekonomi)."
+  },
+  {
+    "id": "b15-82",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Partikel しっています",
+    "prompt": "あなたは にっぽんばし （　） しって いますか。",
+    "promptRomaji": "Anata wa Nipponbashi _____ shitte imasu ka.",
+    "sub": "Pilih partikel objek yang tepat untuk しって います.",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      }
+    ],
+    "answer": 1,
+    "explain": "Hal atau tempat yang diketahui/dikenal dengan しって います ditandai partikel を (にっぽんばしを しって いますか)."
+  },
+  {
+    "id": "b15-83",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Partikel Tempat Kerja",
+    "prompt": "さとうさんは はいしゃ （　） はたらいて います。",
+    "promptRomaji": "Satou-san wa haisha _____ hataraite imasu.",
+    "sub": "Pilih partikel lokasi aksi bekerja.",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "へ",
+        "romaji": "e"
+      }
+    ],
+    "answer": 2,
+    "explain": "Berbeda dengan すんでいます (yang memakai に), lokasi melakukan pekerjaan はたらいています memakai partikel で."
+  },
+  {
+    "id": "b15-84",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Partikel いらっしゃいます",
+    "prompt": "A：「ごかぞくは どちら （　） いらっしゃいますか。」 B：「ブラジルに います。」",
+    "promptRomaji": "A: \"Gokazoku wa dochira _____ irasshaimasu ka.\" B: \"Burajiru ni imasu.\"",
+    "sub": "Pilih partikel tempat keberadaan untuk いらっしゃいます.",
+    "options": [
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      }
+    ],
+    "answer": 0,
+    "explain": "いらっしゃいます adalah bentuk hormat dari います, sehingga tempat keberadaan ditandai dengan partikel に."
+  },
+  {
+    "id": "b15-85",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Deteksi Kesalahan Negasi",
+    "prompt": "「～て います」の ひていけい（negatif）で ただしくない ぶんは どれですか。",
+    "promptRomaji": "\"~te imasu\" no hiteikei de tadashikunai bun wa dore desu ka.",
+    "sub": "Cari satu kalimat yang SALAH secara tata bahasa.",
+    "options": [
+      {
+        "jp": "いいえ、もって いません。",
+        "romaji": "Iie, motte imasen."
+      },
+      {
+        "jp": "いいえ、けっこんして いません。",
+        "romaji": "Iie, kekkon shite imasen."
+      },
+      {
+        "jp": "いいえ、しりません。",
+        "romaji": "Iie, shirimasen."
+      },
+      {
+        "jp": "いいえ、しって いません。",
+        "romaji": "Iie, shitte imasen."
+      }
+    ],
+    "answer": 3,
+    "explain": "「しって いません」 salah karena bentuk negatif dari しって います wajib memakai しりません."
+  },
+  {
+    "id": "b15-86",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Deteksi Kebenaran Pola",
+    "prompt": "「～ても いいですか」と 「～ては いけません」で、ただしい ぶんは どれですか。",
+    "promptRomaji": "\"~te mo ii desu ka\" to \"~te wa ikemasen\" de, tadashii bun wa dore desu ka.",
+    "sub": "Pilih satu kalimat izin atau larangan yang BENAR.",
+    "options": [
+      {
+        "jp": "ここで コーヒーを のんでは いいですか。",
+        "romaji": "Koko de koohii o nonde wa ii desu ka."
+      },
+      {
+        "jp": "ここで コーヒーを のんでも いいですか。",
+        "romaji": "Koko de koohii o nonde mo ii desu ka."
+      },
+      {
+        "jp": "ここで コーヒーを のんでも いけません。",
+        "romaji": "Koko de koohii o nonde mo ikemasen."
+      },
+      {
+        "jp": "ここで コーヒーを のみては いけません。",
+        "romaji": "Koko de koohii o nomite wa ikemasen."
+      }
+    ],
+    "answer": 1,
+    "explain": "Izin menggunakan V-ても いいですか (のんでも いいですか), sedangkan larangan menggunakan V-ては いけません (のんでは いけません)."
+  },
+  {
+    "id": "b15-87",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Jebakan おきます",
+    "prompt": "つくえの うえに にもつを （　） いけません。",
+    "promptRomaji": "Tsukue no ue ni nimotsu o _____ ikemasen.",
+    "sub": "Hati-hati membedakan おきます (meletakkan, Kel. I) dan おきます (bangun, Kel. II)!",
+    "options": [
+      {
+        "jp": "おきては",
+        "romaji": "okite wa"
+      },
+      {
+        "jp": "おっては",
+        "romaji": "otte wa"
+      },
+      {
+        "jp": "おいては",
+        "romaji": "oite wa"
+      },
+      {
+        "jp": "おいても",
+        "romaji": "oite mo"
+      }
+    ],
+    "answer": 2,
+    "explain": "おきます (meletakkan) termasuk Kelompok I, jadi bentuk-て-nya おいて → おいては いけません (Tidak boleh meletakkan)."
+  },
+  {
+    "id": "b15-88",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Terjemahan Kalimat",
+    "prompt": "Bahasa Jepang dari \"Bolehkah saya menyalakan AC?\" adalah...",
+    "promptRomaji": "Terjemahan Jepang (Bab 15)",
+    "sub": "Pilih terjemahan bahasa Jepang yang tepat.",
+    "options": [
+      {
+        "jp": "エアコンを つけても いいですか。",
+        "romaji": "Eakon o tsukete mo ii desu ka."
+      },
+      {
+        "jp": "エアコンを つけては いけませんか。",
+        "romaji": "Eakon o tsukete wa ikemasen ka."
+      },
+      {
+        "jp": "エアコンを つけって ください。",
+        "romaji": "Eakon o tsukette kudasai."
+      },
+      {
+        "jp": "エアコンを ついて いますか。",
+        "romaji": "Eakon o tsuite imasu ka."
+      }
+    ],
+    "answer": 0,
+    "explain": "つけます (menyalakan, Kelompok II) menjadi つけて + も いいですか = つけても いいですか."
+  },
+  {
+    "id": "b15-89",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Terjemahan Kalimat",
+    "prompt": "Bahasa Jepang dari \"Di dalam kamar ini tidak boleh merokok\" adalah...",
+    "promptRomaji": "Terjemahan Jepang (Bab 15)",
+    "sub": "Pilih terjemahan bahasa Jepang yang tepat.",
+    "options": [
+      {
+        "jp": "この へやで たばこを すっても いいです。",
+        "romaji": "Kono heya de tabako o sutte mo ii desu."
+      },
+      {
+        "jp": "この へやで たばこを すいては いけません。",
+        "romaji": "Kono heya de tabako o suite wa ikemasen."
+      },
+      {
+        "jp": "この へやに たばこを すっては いけません。",
+        "romaji": "Kono heya ni tabako o sutte wa ikemasen."
+      },
+      {
+        "jp": "この へやで たばこを すっては いけません。",
+        "romaji": "Kono heya de tabako o sutte wa ikemasen."
+      }
+    ],
+    "answer": 3,
+    "explain": "Lokasi aksi merokok memakai partikel で (この へやで), dan すいます → すって + は いけません = すっては いけません."
+  },
+  {
+    "id": "b15-90",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Terjemahan Kalimat",
+    "prompt": "Bahasa Jepang dari \"Saya tinggal di Indonesia bersama keluarga\" adalah...",
+    "promptRomaji": "Terjemahan Jepang (Bab 15)",
+    "sub": "Pilih terjemahan bahasa Jepang yang tepat.",
+    "options": [
+      {
+        "jp": "わたしは かぞくと インドネシアで すんで います。",
+        "romaji": "Watashi wa kazoku to Indoneshia de sunde imasu."
+      },
+      {
+        "jp": "わたしは かぞくに インドネシアを すんで います。",
+        "romaji": "Watashi wa kazoku ni Indoneshia o sunde imasu."
+      },
+      {
+        "jp": "わたしは かぞくと インドネシアに すんで います。",
+        "romaji": "Watashi wa kazoku to Indoneshia ni sunde imasu."
+      },
+      {
+        "jp": "わたしは かぞくと インドネシアに すみます。",
+        "romaji": "Watashi wa kazoku to Indoneshia ni sumimasu."
+      }
+    ],
+    "answer": 2,
+    "explain": "'Bersama keluarga' menggunakan と (かぞくと), dan tempat tinggal memakai partikel に + すんで います."
+  },
+  {
+    "id": "b15-91",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Terjemahan Kalimat",
+    "prompt": "Bahasa Jepang dari \"Saya tidak tahu nomor telepon balai kota\" adalah...",
+    "promptRomaji": "Terjemahan Jepang (Bab 15)",
+    "sub": "Pilih terjemahan bahasa Jepang yang tepat.",
+    "options": [
+      {
+        "jp": "しやくしょの でんわばんごうを しって いません。",
+        "romaji": "Shiyakusho no denwa bangou o shitte imasen."
+      },
+      {
+        "jp": "しやくしょの でんわばんごうを しりません。",
+        "romaji": "Shiyakusho no denwa bangou o shirimasen."
+      },
+      {
+        "jp": "しやくしょの でんわばんごうを おもいだします。",
+        "romaji": "Shiyakusho no denwa bangou o omoidashimasu."
+      },
+      {
+        "jp": "しやくしょの でんわばんごうを もって いません。",
+        "romaji": "Shiyakusho no denwa bangou o motte imasen."
+      }
+    ],
+    "answer": 1,
+    "explain": "しやくしょ = balai kota, dan bentuk negatif 'tidak tahu' wajib menggunakan しりません."
+  },
+  {
+    "id": "b15-92",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Arti Kalimat",
+    "prompt": "「あそこに くるまを とめても いいですか。」の いみは どれですか。",
+    "promptRomaji": "\"Asoko ni kuruma o tomete mo ii desu ka.\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan bahasa Indonesia yang tepat.",
+    "options": [
+      {
+        "jp": "Bolehkah saya memarkir mobil di sana?",
+        "romaji": ""
+      },
+      {
+        "jp": "Di sana tidak boleh memarkir mobil.",
+        "romaji": ""
+      },
+      {
+        "jp": "Tolong parkirkan mobilnya di sana.",
+        "romaji": ""
+      },
+      {
+        "jp": "Apakah Anda memiliki mobil di sana?",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "とめても いいですか adalah bentuk meminta izin dari くるまを とめます (memarkir mobil)."
+  },
+  {
+    "id": "b15-93",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Arti Kalimat",
+    "prompt": "「この しりょうを コピーしても いいですか。」の いみは どれですか。",
+    "promptRomaji": "\"Kono shiryou o kopii shite mo ii desu ka.\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan bahasa Indonesia yang tepat.",
+    "options": [
+      {
+        "jp": "Tidak boleh memfotokopi dokumen ini.",
+        "romaji": ""
+      },
+      {
+        "jp": "Tolong fotokopikan dokumen ini.",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya sedang memfotokopi dokumen ini.",
+        "romaji": ""
+      },
+      {
+        "jp": "Bolehkah saya memfotokopi dokumen ini?",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "しりょう = bahan/dokumen, コピーしても いいですか = bolehkah saya memfotokopi?"
+  },
+  {
+    "id": "b15-94",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Arti Kalimat",
+    "prompt": "「この へやで パソコンを つかっては いけません。」の いみは どれですか。",
+    "promptRomaji": "\"Kono heya de pasokon o tsukatte wa ikemasen.\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan bahasa Indonesia yang tepat.",
+    "options": [
+      {
+        "jp": "Boleh memakai komputer di ruangan ini.",
+        "romaji": ""
+      },
+      {
+        "jp": "Saya tidak mempunyai komputer di ruangan ini.",
+        "romaji": ""
+      },
+      {
+        "jp": "Tidak boleh memakai komputer di ruangan ini.",
+        "romaji": ""
+      },
+      {
+        "jp": "Tolong pakai komputer di ruangan ini.",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "つかっては いけません adalah larangan dari つかいます (memakai)."
+  },
+  {
+    "id": "b15-95",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Arti Kalimat",
+    "prompt": "「あには とこやで はたらいて います。」の いみは どれですか。",
+    "promptRomaji": "\"Ani wa tokoya de hataraite imasu.\" no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan bahasa Indonesia yang tepat.",
+    "options": [
+      {
+        "jp": "Kakak laki-laki saya tinggal di tukang cukur.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kakak laki-laki saya bekerja di tempat pangkas rambut.",
+        "romaji": ""
+      },
+      {
+        "jp": "Adik laki-laki saya bekerja di tempat pangkas rambut.",
+        "romaji": ""
+      },
+      {
+        "jp": "Kakak laki-laki saya sedang memotong rambut.",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "あに = kakak laki-laki (sendiri), とこや = tempat pangkas rambut / tukang cukur, はたらいて います = bekerja."
+  },
+  {
+    "id": "b15-96",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Pemahaman Kalimat",
+    "prompt": "「わたしは いま どくしんです。おおさかに すんで います。かいしゃで コンピューターの ソフトを つくって います。」Pernyataan mana yang BENAR?",
+    "promptRomaji": "\"Watashi wa ima dokushin desu. Oosaka ni sunde imasu. Kaisha de konpyuutaa no sofuto o tsukutte imasu.\"",
+    "sub": "Pilih simpulan yang sesuai dengan bacaan.",
+    "options": [
+      {
+        "jp": "Pembicara belum menikah, tinggal di Osaka, dan membuat software.",
+        "romaji": ""
+      },
+      {
+        "jp": "Pembicara sudah menikah dan menjual pakaian di Osaka.",
+        "romaji": ""
+      },
+      {
+        "jp": "Pembicara meneliti ekonomi di sebuah SMA di Osaka.",
+        "romaji": ""
+      },
+      {
+        "jp": "Pembicara belum tahu di mana letak kantornya.",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "どくしん = lajang/belum menikah, おおさかに すんで います = tinggal di Osaka, ソフトを つくって います = membuat software."
+  },
+  {
+    "id": "b15-97",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Dialog Keluarga",
+    "prompt": "A：「ごかぞくは どちらに いらっしゃいますか。」 B：「（　）。」",
+    "promptRomaji": "A: \"Gokazoku wa dochira ni irasshaimasu ka.\" B: \"_____.\"",
+    "sub": "Pilih jawaban yang alami mengenai keberadaan keluarga sendiri.",
+    "options": [
+      {
+        "jp": "はい、しって います。",
+        "romaji": "Hai, shitte imasu."
+      },
+      {
+        "jp": "いいえ、どくしんです。",
+        "romaji": "Iie, dokushin desu."
+      },
+      {
+        "jp": "すみません、ちょっと……",
+        "romaji": "Sumimasen, chotto......"
+      },
+      {
+        "jp": "インドネシアに います。",
+        "romaji": "Indoneshia ni imasu."
+      }
+    ],
+    "answer": 3,
+    "explain": "Untuk menjawab di mana keluarga sendiri berada, gunakan bentuk sopan netral います (bukan いらっしゃいます): 「インドネシアに います。」."
+  },
+  {
+    "id": "b15-98",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Dialog Menolak Halus",
+    "prompt": "A：「この しりょうを かりても いいですか。」 B：「すみません、いま つかって いますから、（　）。」",
+    "promptRomaji": "A: \"Kono shiryou o karite mo ii desu ka.\" B: \"Sumimasen, ima tsukatte imasu kara, _____.\"",
+    "sub": "Pilih penolakan halus saat sedang memakai barang tersebut.",
+    "options": [
+      {
+        "jp": "いいですよ",
+        "romaji": "ii desu yo"
+      },
+      {
+        "jp": "どうぞ",
+        "romaji": "douzo"
+      },
+      {
+        "jp": "ちょっと……",
+        "romaji": "chotto......"
+      },
+      {
+        "jp": "しりません",
+        "romaji": "shirimasen"
+      }
+    ],
+    "answer": 2,
+    "explain": "Saat menolak permintaan izin dengan alasan ('karena sedang dipakai'), gunakan penolakan halus 「ちょっと……」 (agak sulit / tidak bisa saat ini...)."
+  },
+  {
+    "id": "b15-99",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Kosakata みなさん",
+    "prompt": "せんせいが クラスで はなします。「（　）、きょうしつで たべては いけませんよ。」",
+    "promptRomaji": "Sensei ga kurasu de hanashimasu. \"_____, kyoushitsu de tabete wa ikemasen yo.\"",
+    "sub": "Pilih sapaan kepada seluruh siswa di kelas.",
+    "options": [
+      {
+        "jp": "ごかぞく",
+        "romaji": "gokazoku"
+      },
+      {
+        "jp": "みなさん",
+        "romaji": "minasan"
+      },
+      {
+        "jp": "ひとり",
+        "romaji": "hitori"
+      },
+      {
+        "jp": "どくしん",
+        "romaji": "dokushin"
+      }
+    ],
+    "answer": 1,
+    "explain": "みなさん berarti 'semuanya / hadirin sekalian', dipakai untuk menyapa sekelompok orang atau murid."
+  },
+  {
+    "id": "b15-100",
+    "bab": 15,
+    "type": "mcq",
+    "badge": "Bab 15 · Fungsi Ungkapan",
+    "prompt": "「でんしゃの なかで でんわを かけては いけません。」Kalimat ini menyatakan apa?",
+    "promptRomaji": "\"Densha no naka de denwa o kakete wa ikemasen.\"",
+    "sub": "Pilih makna fungsi tata bahasa ～ては いけません.",
+    "options": [
+      {
+        "jp": "Permintaan tolong agar menelepon di dalam kereta",
+        "romaji": ""
+      },
+      {
+        "jp": "Izin boleh menelepon di dalam kereta",
+        "romaji": ""
+      },
+      {
+        "jp": "Keadaan sedang menelepon di dalam kereta",
+        "romaji": ""
+      },
+      {
+        "jp": "Larangan keras menelepon di dalam kereta",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "Pola V-ては いけません selalu menyatakan larangan (tidak boleh melakukan sesuatu)."
   }
 ];

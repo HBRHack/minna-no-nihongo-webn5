@@ -898,5 +898,905 @@
     ],
     "answer": 3,
     "explain": "Rumus yang benar adalah mencoret い pada しない lalu menambah くても いいです → しなくても いいです. Pilihan lain tidak mencoret い, salah penutup なりません, atau salah memakai ないでも."
+  },
+  {
+    "id": "b17-51",
+    "bab": 17,
+    "section": "A · V-ない",
+    "type": "mcq",
+    "badge": "Bab 17 · Jebakan Akhiran い",
+    "prompt": "あいます (bertemu) → Bentuk -Nai:",
+    "promptRomaji": "aimasu → _____",
+    "sub": "Hati-hati pada kata kerja Kelompok I berakhiran い sebelum ます.",
+    "options": [
+      { "jp": "あわない", "romaji": "awanai" },
+      { "jp": "ああない", "romaji": "aanai" },
+      { "jp": "あいない", "romaji": "ainai" },
+      { "jp": "あらない", "romaji": "aranai" }
+    ],
+    "answer": 0,
+    "explain": "あいます adalah Kelompok I dengan huruf い sebelum ます, sehingga い berubah menjadi わ (BUKAN あ) + ない → あわない."
+  },
+  {
+    "id": "b17-52",
+    "bab": 17,
+    "section": "A · V-ない",
+    "type": "mcq",
+    "badge": "Bab 17 · Jebakan Akhiran い",
+    "prompt": "てつだいます (membantu) → Bentuk -Nai:",
+    "promptRomaji": "tetsudaimasu → _____",
+    "sub": "Pilih bentuk -Nai yang tepat untuk kata kerja akhiran います.",
+    "options": [
+      { "jp": "てつだあない", "romaji": "tetsudaanai" },
+      { "jp": "てつだいない", "romaji": "tetsudainai" },
+      { "jp": "てつだない", "romaji": "tetsudanai" },
+      { "jp": "てつだわない", "romaji": "tetsudawanai" }
+    ],
+    "answer": 3,
+    "explain": "てつだいます termasuk Kelompok I berakhiran い, sehingga い berubah menjadi わ + ない → てつだわない."
+  },
+  {
+    "id": "b17-53",
+    "bab": 17,
+    "section": "A · V-ない",
+    "type": "mcq",
+    "badge": "Bab 17 · Kelompok I (-chi → -ta)",
+    "prompt": "もちます (membawa / memegang) → Bentuk -Nai:",
+    "promptRomaji": "mochimasu → _____",
+    "sub": "Ubah bunyi ち (chi) ke baris -a.",
+    "options": [
+      { "jp": "もちない", "romaji": "mochinai" },
+      { "jp": "もたない", "romaji": "motanai" },
+      { "jp": "もつない", "romaji": "motsunai" },
+      { "jp": "もわない", "romaji": "mowanai" }
+    ],
+    "answer": 1,
+    "explain": "もちます adalah Kelompok I: ち (chi) turun ke baris -a menjadi た (ta) + ない → もたない."
+  },
+  {
+    "id": "b17-54",
+    "bab": 17,
+    "section": "A · V-ない",
+    "type": "mcq",
+    "badge": "Bab 17 · Kelompok I (-chi → -ta)",
+    "prompt": "Bentuk -Nai dari 「たちます」 (berdiri) adalah...",
+    "promptRomaji": "tachimasu → _____",
+    "sub": "Pilih bentuk -Nai Kelompok I yang tepat (ち → た + ない).",
+    "options": [
+      { "jp": "たちない", "romaji": "tachinai" },
+      { "jp": "たつない", "romaji": "tatsunai" },
+      { "jp": "たたない", "romaji": "tatanai" },
+      { "jp": "たわない", "romaji": "tawanai" }
+    ],
+    "answer": 2,
+    "explain": "たちます (Kelompok I) mengubah ち menjadi た + ない → たたない."
+  },
+  {
+    "id": "b17-55",
+    "bab": 17,
+    "section": "A · V-ない",
+    "type": "mcq",
+    "badge": "Bab 17 · Kelompok I (-gi → -ga)",
+    "prompt": "およぎます (berenang) → Bentuk -Nai:",
+    "promptRomaji": "oyogimasu → _____",
+    "sub": "Pertahankan tanda dakuten (゛) saat mengubah ぎ ke baris -a.",
+    "options": [
+      { "jp": "およがない", "romaji": "oyoganai" },
+      { "jp": "およかない", "romaji": "oyokanai" },
+      { "jp": "およぎない", "romaji": "oyoginai" },
+      { "jp": "およぐない", "romaji": "oyogunai" }
+    ],
+    "answer": 0,
+    "explain": "およぎます (Kelompok I) mengubah ぎ menjadi が + ない → およがない (jangan hilangkan dakuten menjadi か)."
+  },
+  {
+    "id": "b17-56",
+    "bab": 17,
+    "section": "A · V-ない",
+    "type": "mcq",
+    "badge": "Bab 17 · Kelompok I (-bi → -ba)",
+    "prompt": "よびます (memanggil) → Bentuk -Nai:",
+    "promptRomaji": "yobimasu → _____",
+    "sub": "Ubah kata kerja Kelompok I berakhiran び ke bentuk -Nai.",
+    "options": [
+      { "jp": "よびない", "romaji": "yobinai" },
+      { "jp": "よぱない", "romaji": "yopanai" },
+      { "jp": "よぶない", "romaji": "yobunai" },
+      { "jp": "よばない", "romaji": "yobanai" }
+    ],
+    "answer": 3,
+    "explain": "よびます (Kelompok I) mengubah び menjadi ば + ない → よばない."
+  },
+  {
+    "id": "b17-57",
+    "bab": 17,
+    "section": "A · V-ない",
+    "type": "mcq",
+    "badge": "Bab 17 · Kelompok I (-shi → -sa)",
+    "prompt": "はなします (berbicara) → Bentuk -Nai:",
+    "promptRomaji": "hanashimasu → _____",
+    "sub": "Ubah kata kerja Kelompok I berakhiran し ke bentuk -Nai.",
+    "options": [
+      { "jp": "はなしない", "romaji": "hanashinai" },
+      { "jp": "はなすない", "romaji": "hanasunai" },
+      { "jp": "はなさない", "romaji": "hanasanai" },
+      { "jp": "はなわない", "romaji": "hanawanai" }
+    ],
+    "answer": 2,
+    "explain": "はなします adalah Kelompok I: し berubah menjadi さ + ない → はなさない."
+  },
+  {
+    "id": "b17-58",
+    "bab": 17,
+    "section": "A · V-ない",
+    "type": "mcq",
+    "badge": "Bab 17 · Kelompok I (かえります)",
+    "prompt": "かえります (pulang) → Bentuk -Nai:",
+    "promptRomaji": "kaerimasu → _____",
+    "sub": "Ingat bahwa かえります adalah Kelompok I (bukan Kelompok II).",
+    "options": [
+      { "jp": "かえりない", "romaji": "kaerinai" },
+      { "jp": "かえらない", "romaji": "kaeranai" },
+      { "jp": "かえない", "romaji": "kaenai" },
+      { "jp": "かえさない", "romaji": "kaesanai" }
+    ],
+    "answer": 1,
+    "explain": "かえります (pulang) termasuk pengecualian Kelompok I, sehingga り → ら + ない = かえらない. Catatan: かえさない berasal dari かえします (mengembalikan)."
+  },
+  {
+    "id": "b17-59",
+    "bab": 17,
+    "section": "A · V-ない",
+    "type": "mcq",
+    "badge": "Bab 17 · Pengecualian Kel. II",
+    "prompt": "おります (turun dari kendaraan) → Bentuk -Nai:",
+    "promptRomaji": "orimasu → _____",
+    "sub": "Perhatikan bahwa おります termasuk kata kerja Kelompok II.",
+    "options": [
+      { "jp": "おりない", "romaji": "orinai" },
+      { "jp": "おらない", "romaji": "oranai" },
+      { "jp": "おれない", "romaji": "orenai" },
+      { "jp": "おわない", "romaji": "owanai" }
+    ],
+    "answer": 0,
+    "explain": "おります adalah pengecualian Kelompok II (bunyi -i sebelum ます). Cukup buang ます dan tambah ない → おりない."
+  },
+  {
+    "id": "b17-60",
+    "bab": 17,
+    "section": "A · V-ない",
+    "type": "mcq",
+    "badge": "Bab 17 · Pengecualian Kel. II",
+    "prompt": "あびます (mandi shower) → Bentuk -Nai:",
+    "promptRomaji": "abimasu → _____",
+    "sub": "Perhatikan bahwa あびます termasuk kata kerja Kelompok II.",
+    "options": [
+      { "jp": "あばない", "romaji": "abanai" },
+      { "jp": "あぶない", "romaji": "abunai" },
+      { "jp": "あわない", "romaji": "awanai" },
+      { "jp": "あびない", "romaji": "abinai" }
+    ],
+    "answer": 3,
+    "explain": "あびます termasuk pengecualian Kelompok II, sehingga bentuk -Nai-nya adalah あびない (bukan あばない)."
+  },
+  {
+    "id": "b17-61",
+    "bab": 17,
+    "section": "A · V-ない",
+    "type": "mcq",
+    "badge": "Bab 17 · Kelompok III (します)",
+    "prompt": "しんぱいします (khawatir) → Bentuk -Nai:",
+    "promptRomaji": "shinpai shimasu → _____",
+    "sub": "Pilih bentuk -Nai untuk kata kerja Kelompok III ～します.",
+    "options": [
+      { "jp": "しんぱいさない", "romaji": "shinpai sanai" },
+      { "jp": "しんぱいこない", "romaji": "shinpai konai" },
+      { "jp": "しんぱいしない", "romaji": "shinpai shinai" },
+      { "jp": "しんぱいすない", "romaji": "shinpai sunai" }
+    ],
+    "answer": 2,
+    "explain": "Kata kerja Kelompok III ～します berubah menjadi ～しない → しんぱいしない."
+  },
+  {
+    "id": "b17-62",
+    "bab": 17,
+    "section": "A · V-ない",
+    "type": "mcq",
+    "badge": "Bab 17 · Kontras おきます",
+    "prompt": "「おきます」（bangun tidur）と 「おきます」（meletakkan）の ないけい（bentuk-nai）の くみあわせで ただしい ものは どれですか。",
+    "promptRomaji": "\"Okimasu\" (bangun) to \"okimasu\" (meletakkan) no nai-kei no kumiawase de tadashii mono wa dore desu ka.",
+    "sub": "Bedakan Kelompok II (bangun) dan Kelompok I (meletakkan).",
+    "options": [
+      { "jp": "おかない ／ おかない", "romaji": "okanai / okanai" },
+      { "jp": "おきない ／ おかない", "romaji": "okinai / okanai" },
+      { "jp": "おきない ／ おきない", "romaji": "okinai / okinai" },
+      { "jp": "おかない ／ おきない", "romaji": "okanai / okinai" }
+    ],
+    "answer": 1,
+    "explain": "おきます (bangun tidur) adalah Kelompok II → おきない; sedangkan おきます (meletakkan) adalah Kelompok I → おかない."
+  },
+  {
+    "id": "b17-63",
+    "bab": 17,
+    "section": "B · ～ないでください",
+    "type": "mcq",
+    "badge": "Bab 17 · ～ないでください",
+    "prompt": "ここは せまいですから、くるまを （　） ください。 (Tolong jangan memarkir mobil di sini.)",
+    "promptRomaji": "Koko wa semai desu kara, kuruma o _____ kudasai.",
+    "sub": "とめます (menghentikan/memarkir) adalah Kelompok II.",
+    "options": [
+      { "jp": "とめないで", "romaji": "tomenaide" },
+      { "jp": "とまらないで", "romaji": "tomaranaide" },
+      { "jp": "とめなくて", "romaji": "tomenakute" },
+      { "jp": "とめってないで", "romaji": "tomettenaide" }
+    ],
+    "answer": 0,
+    "explain": "とめます (Kelompok II) → とめない + で ください = とめないで ください."
+  },
+  {
+    "id": "b17-64",
+    "bab": 17,
+    "section": "B · ～ないでください",
+    "type": "mcq",
+    "badge": "Bab 17 · ～ないでください",
+    "prompt": "まだ べんきょうして いますから、でんきを （　） ください。",
+    "promptRomaji": "Mada benkyou shite imasu kara, denki o _____ kudasai.",
+    "sub": "Lengkapi dengan bentuk -ないで dari けします (mematikan).",
+    "options": [
+      { "jp": "けしないで", "romaji": "keshinaide" },
+      { "jp": "けさなくて", "romaji": "kesanakute" },
+      { "jp": "けしてないで", "romaji": "keshitenaide" },
+      { "jp": "けさないで", "romaji": "kesanaide" }
+    ],
+    "answer": 3,
+    "explain": "けします (Kelompok I: し → さ) menjadi けさない + で ください = けさないで ください (tolong jangan matikan)."
+  },
+  {
+    "id": "b17-65",
+    "bab": 17,
+    "section": "B · ～ないでください",
+    "type": "mcq",
+    "badge": "Bab 17 · ～ないでください",
+    "prompt": "さむいですから、まどを （　） ください。",
+    "promptRomaji": "Samui desu kara, mado o _____ kudasai.",
+    "sub": "Lengkapi dengan bentuk -ないで dari あけます (membuka).",
+    "options": [
+      { "jp": "あけなくて", "romaji": "akenakute" },
+      { "jp": "あかないで", "romaji": "akanaide" },
+      { "jp": "あけないで", "romaji": "akenaide" },
+      { "jp": "あきないで", "romaji": "akinaide" }
+    ],
+    "answer": 2,
+    "explain": "あけます (Kelompok II) → あけない + で ください = あけないで ください."
+  },
+  {
+    "id": "b17-66",
+    "bab": 17,
+    "section": "B · ～ないでください",
+    "type": "mcq",
+    "badge": "Bab 17 · ～ないでください",
+    "prompt": "この ペンは わたしの ですから、（　） ください。",
+    "promptRomaji": "Kono pen wa watashi no desu kara, _____ kudasai.",
+    "sub": "Lengkapi dengan bentuk -ないで dari つかいます (memakai).",
+    "options": [
+      { "jp": "つかいないで", "romaji": "tsukainaide" },
+      { "jp": "つかわないで", "romaji": "tsukawanaide" },
+      { "jp": "つかあないで", "romaji": "tsukaanaide" },
+      { "jp": "つかわなくて", "romaji": "tsukawanakute" }
+    ],
+    "answer": 1,
+    "explain": "つかいます (Kelompok I: い → わ) menjadi つかわない + で ください = つかわないで ください."
+  },
+  {
+    "id": "b17-67",
+    "bab": 17,
+    "section": "B · ～ないでください",
+    "type": "mcq",
+    "badge": "Bab 17 · ～ないでください",
+    "prompt": "かぜですから、きょうは おさけを （　） ください。",
+    "promptRomaji": "Kaze desu kara, kyou wa osake o _____ kudasai.",
+    "sub": "Lengkapi saran dokter menggunakan のみます (minum).",
+    "options": [
+      { "jp": "のまないで", "romaji": "nomanaide" },
+      { "jp": "のみないで", "romaji": "nominaide" },
+      { "jp": "のまなくて", "romaji": "nomanakute" },
+      { "jp": "のわないで", "romaji": "nowanaide" }
+    ],
+    "answer": 0,
+    "explain": "のみます (Kelompok I: み → ま) menjadi のまない + で ください = のまないで ください."
+  },
+  {
+    "id": "b17-68",
+    "bab": 17,
+    "section": "B · ～ないでください",
+    "type": "mcq",
+    "badge": "Bab 17 · ～ないでください",
+    "prompt": "たいせつな しりょうですから、だれにも （　） ください。",
+    "promptRomaji": "Taisetsu na shiryou desu kara, dare ni mo _____ kudasai.",
+    "sub": "Lengkapi dengan bentuk -ないで dari みせます (memperlihatkan).",
+    "options": [
+      { "jp": "みさなくて", "romaji": "misanakute" },
+      { "jp": "みせなくて", "romaji": "misenakute" },
+      { "jp": "みしなくて", "romaji": "mishinakute" },
+      { "jp": "みせないで", "romaji": "misenaide" }
+    ],
+    "answer": 3,
+    "explain": "みせます (Kelompok II) → みせない + で ください = みせないで ください (tolong jangan perlihatkan kepada siapa pun)."
+  },
+  {
+    "id": "b17-69",
+    "bab": 17,
+    "section": "B · ～ないでください",
+    "type": "mcq",
+    "badge": "Bab 17 · ～ないでください",
+    "prompt": "まだ じかんが ありますから、（　） ください。",
+    "promptRomaji": "Mada jikan ga arimasu kara, _____ kudasai.",
+    "sub": "Lengkapi dengan bentuk -ないで dari いそぎます (bergegas).",
+    "options": [
+      { "jp": "いそぎないで", "romaji": "isoginaide" },
+      { "jp": "いそかないで", "romaji": "isokanaide" },
+      { "jp": "いそがないで", "romaji": "isoganaide" },
+      { "jp": "いそがなくて", "romaji": "isoganakute" }
+    ],
+    "answer": 2,
+    "explain": "いそぎます (Kelompok I: ぎ → が) menjadi いそがない + で ください = いそがないで ください (tolong jangan terburu-buru)."
+  },
+  {
+    "id": "b17-70",
+    "bab": 17,
+    "section": "B · ～ないでください",
+    "type": "mcq",
+    "badge": "Bab 17 · ～ないでください",
+    "prompt": "あぶないですから、ここへ （　） ください。",
+    "promptRomaji": "Abunai desu kara, koko e _____ kudasai.",
+    "sub": "Lengkapi dengan bentuk -ないで dari きます (datang, Kel. III).",
+    "options": [
+      { "jp": "きないで", "romaji": "kinaide" },
+      { "jp": "こないで", "romaji": "konaide" },
+      { "jp": "かないで", "romaji": "kanaide" },
+      { "jp": "こなくて", "romaji": "konakute" }
+    ],
+    "answer": 1,
+    "explain": "きます (Kelompok III) berubah menjadi こない + で ください = こないで ください (tolong jangan datang)."
+  },
+  {
+    "id": "b17-71",
+    "bab": 17,
+    "section": "B · ～ないでください",
+    "type": "mcq",
+    "badge": "Bab 17 · ～ないでください",
+    "prompt": "コーヒーに さとうを （　） ください。 (Tolong jangan masukkan gula ke kopi.)",
+    "promptRomaji": "Koohii ni satou o _____ kudasai.",
+    "sub": "Lengkapi dengan bentuk -ないで dari いれます (memasukkan).",
+    "options": [
+      { "jp": "いれないで", "romaji": "irenaide" },
+      { "jp": "いらなくて", "romaji": "iranakute" },
+      { "jp": "いらないで", "romaji": "iranaide" },
+      { "jp": "いれなくて", "romaji": "irenakute" }
+    ],
+    "answer": 0,
+    "explain": "いれます (memasukkan) adalah Kelompok II → いれない + で ください = いれないで ください."
+  },
+  {
+    "id": "b17-72",
+    "bab": 17,
+    "section": "B · ～ないでください",
+    "type": "mcq",
+    "badge": "Bab 17 · ～ないでください",
+    "prompt": "ねつが ありますから、きょうは ジョギングを （　） ください。",
+    "promptRomaji": "Netsu ga arimasu kara, kyou wa jogingu o _____ kudasai.",
+    "sub": "Lengkapi saran menggunakan します (melakukan).",
+    "options": [
+      { "jp": "さないで", "romaji": "sanaide" },
+      { "jp": "しなくて", "romaji": "shinakute" },
+      { "jp": "すないで", "romaji": "sunaide" },
+      { "jp": "しないで", "romaji": "shinaide" }
+    ],
+    "answer": 3,
+    "explain": "します (Kelompok III) menjadi しない + で ください = しないで ください."
+  },
+  {
+    "id": "b17-73",
+    "bab": 17,
+    "section": "B · ～ないでください",
+    "type": "mcq",
+    "badge": "Bab 17 · Terjemahan Kalimat",
+    "prompt": "Terjemahan yang tepat untuk \"Tolong jangan duduk di kursi ini\" adalah...",
+    "promptRomaji": "Terjemahan Jepang (Bab 17)",
+    "sub": "すわります (duduk) adalah Kelompok I.",
+    "options": [
+      { "jp": "この いすに すわりないで ください。", "romaji": "Kono isu ni suwarinaide kudasai." },
+      { "jp": "この いすに すわらないで ください。", "romaji": "Kono isu ni suwaranaide kudasai." },
+      { "jp": "この いすに すわらなくても いいです。", "romaji": "Kono isu ni suwaranakute mo ii desu." },
+      { "jp": "この いすに すわって ください。", "romaji": "Kono isu ni suwatte kudasai." }
+    ],
+    "answer": 1,
+    "explain": "すわります (り → ら) menjadi すわらない + で ください = この いすに すわらないで ください."
+  },
+  {
+    "id": "b17-74",
+    "bab": 17,
+    "section": "B · ～ないでください",
+    "type": "mcq",
+    "badge": "Bab 17 · Arti Kalimat",
+    "prompt": "「この てがみは よまないで ください。」 Arti kalimat ini adalah...",
+    "promptRomaji": "\"Kono tegami wa yomanaide kudasai.\" no imi wa dore desu ka.",
+    "sub": "Perhatikan objek topik は dan kata kerja よみます.",
+    "options": [
+      { "jp": "Surat ini tidak perlu dibaca.", "romaji": "" },
+      { "jp": "Surat ini harus dibaca.", "romaji": "" },
+      { "jp": "Surat ini tolong jangan dibaca.", "romaji": "" },
+      { "jp": "Tolong baca surat ini nanti.", "romaji": "" }
+    ],
+    "answer": 2,
+    "explain": "よみます → よまないで ください artinya 'tolong jangan membaca'."
+  },
+  {
+    "id": "b17-75",
+    "bab": 17,
+    "section": "B · ～ないでください",
+    "type": "mcq",
+    "badge": "Bab 17 · Koreksi Kalimat",
+    "prompt": "Manakah kalimat permintaan 「～ないで ください」 yang BENAR secara tata bahasa?",
+    "promptRomaji": "Pilih kalimat V-naide kudasai yang tepat.",
+    "sub": "Periksa perubahan bentuk -Nai dan partikel penghubungnya.",
+    "options": [
+      { "jp": "ここに なまえを かきないで ください。", "romaji": "Koko ni namae o kakinaide kudasai." },
+      { "jp": "ここに なまえを かかなくて ください。", "romaji": "Koko ni namae o kakanakute kudasai." },
+      { "jp": "ここに なまえを かかないて ください。", "romaji": "Koko ni namae o kakanaite kudasai." },
+      { "jp": "ここに なまえを かかないで ください。", "romaji": "Koko ni namae o kakanaide kudasai." }
+    ],
+    "answer": 3,
+    "explain": "かきます (き → か) menjadi かかない, lalu diikuti で ください → かかないで ください."
+  },
+  {
+    "id": "b17-76",
+    "bab": 17,
+    "section": "C · ～なければなりません",
+    "type": "mcq",
+    "badge": "Bab 17 · ～なければなりません",
+    "prompt": "びょういんへ いきますから、けんこうほけんしょうを （　）。 (Harus membawa pergi kartu asuransi kesehatan.)",
+    "promptRomaji": "Byouin e ikimasu kara, kenkou hokenshou o _____.",
+    "sub": "Gunakan もって いきます dalam pola keharusan.",
+    "options": [
+      { "jp": "もって いきなければ なりません", "romaji": "motte ikinakereba narimasen" },
+      { "jp": "もって いかなくても いいです", "romaji": "motte ikanakute mo ii desu" },
+      { "jp": "もって いかないければ なりません", "romaji": "motte ikanaikereba narimasen" },
+      { "jp": "もって いかなければ なりません", "romaji": "motte ikanakereba narimasen" }
+    ],
+    "answer": 3,
+    "explain": "もって いきます → もって いかない → coret い + ければ なりません = もって いかなければ なりません."
+  },
+  {
+    "id": "b17-77",
+    "bab": 17,
+    "section": "C · ～なければなりません",
+    "type": "mcq",
+    "badge": "Bab 17 · ～なければなりません",
+    "prompt": "あした 9じまでに この しりょうを （　）。 (Besok paling lambat jam 9 harus membawa datang dokumen ini.)",
+    "promptRomaji": "Ashita 9-ji made ni kono shiryou o _____.",
+    "sub": "Gunakan もって きます (Kel. III) dalam pola keharusan.",
+    "options": [
+      { "jp": "もって きなければ なりません", "romaji": "motte kinakereba narimasen" },
+      { "jp": "もって こなければ なりません", "romaji": "motte konakereba narimasen" },
+      { "jp": "もって こなくても いいです", "romaji": "motte konakute mo ii desu" },
+      { "jp": "もって こないければ なりません", "romaji": "motte konaikereba narimasen" }
+    ],
+    "answer": 1,
+    "explain": "もって きます (datang) → もって こない → coret い + ければ なりません = もって こなければ なりません."
+  },
+  {
+    "id": "b17-78",
+    "bab": 17,
+    "section": "C · ～なければなりません",
+    "type": "mcq",
+    "badge": "Bab 17 · ～なければなりません",
+    "prompt": "しごとが おおいですから、こんや （　）。 (Karena pekerjaan banyak, malam ini harus lembur.)",
+    "promptRomaji": "Shigoto ga ooi desu kara, konya _____.",
+    "sub": "Gunakan ざんぎょうします (Kel. III) dalam pola keharusan.",
+    "options": [
+      { "jp": "ざんぎょうさなければ なりません", "romaji": "zangyousanakereba narimasen" },
+      { "jp": "ざんぎょうしなくても いいです", "romaji": "zangyou shinakute mo ii desu" },
+      { "jp": "ざんぎょうしなければ なりません", "romaji": "zangyou shinakereba narimasen" },
+      { "jp": "ざんぎょうしないで ください", "romaji": "zangyou shinaide kudasai" }
+    ],
+    "answer": 2,
+    "explain": "ざんぎょうします → ざんぎょうしない → ざんぎょうしなければ なりません (harus lembur)."
+  },
+  {
+    "id": "b17-79",
+    "bab": 17,
+    "section": "C · ～なければなりません",
+    "type": "mcq",
+    "badge": "Bab 17 · ～なければなりません",
+    "prompt": "ねつが ありますから、びょういんへ （　）。 (Karena demam, harus pergi ke rumah sakit.)",
+    "promptRomaji": "Netsu ga arimasu kara, byouin e _____.",
+    "sub": "Gunakan いきます (pergi) dalam pola keharusan.",
+    "options": [
+      { "jp": "いかなければ なりません", "romaji": "ikanakereba narimasen" },
+      { "jp": "いきなければ なりません", "romaji": "ikinakereba narimasen" },
+      { "jp": "いかないければ なりません", "romaji": "ikanaikereba narimasen" },
+      { "jp": "いかなくても いいです", "romaji": "ikanakute mo ii desu" }
+    ],
+    "answer": 0,
+    "explain": "いきます (き → か) menjadi いかない → coret い + ければ なりません = いかなければ なりません."
+  },
+  {
+    "id": "b17-80",
+    "bab": 17,
+    "section": "C · ～なければなりません",
+    "type": "mcq",
+    "badge": "Bab 17 · ～なければなりません",
+    "prompt": "あした しんかんせんに のりますから、きょう きっぷを （　）。 (Hari ini harus membeli tiket.)",
+    "promptRomaji": "Ashita shinkansen ni norimasu kara, kyou kippu o _____.",
+    "sub": "かいます (い → わ) → ?",
+    "options": [
+      { "jp": "かいなければ なりません", "romaji": "kainakereba narimasen" },
+      { "jp": "かあなければ なりません", "romaji": "kaanakereba narimasen" },
+      { "jp": "かわなくても いいです", "romaji": "kawanakute mo ii desu" },
+      { "jp": "かわなければ なりません", "romaji": "kawanakereba narimasen" }
+    ],
+    "answer": 3,
+    "explain": "かいます → かわない → coret い + ければ なりません = かわなければ なりません."
+  },
+  {
+    "id": "b17-81",
+    "bab": 17,
+    "section": "C · ～なければなりません",
+    "type": "mcq",
+    "badge": "Bab 17 · ～なければなりません",
+    "prompt": "あした 6じの でんしゃに のりますから、はやく （　）。 (Besok harus bangun cepat.)",
+    "promptRomaji": "Ashita 6-ji no densha ni norimasu kara, hayaku _____.",
+    "sub": "おきます (bangun tidur) termasuk Kelompok II.",
+    "options": [
+      { "jp": "おかなければ なりません", "romaji": "okanakereba narimasen" },
+      { "jp": "おきなければ なりません", "romaji": "okinakereba narimasen" },
+      { "jp": "おきなくても いいです", "romaji": "okinakute mo ii desu" },
+      { "jp": "おきないければ なりません", "romaji": "okinaikereba narimasen" }
+    ],
+    "answer": 1,
+    "explain": "おきます (bangun tidur, Kelompok II) → おきない → おきなければ なりません."
+  },
+  {
+    "id": "b17-82",
+    "bab": 17,
+    "section": "C · ～なければなりません",
+    "type": "mcq",
+    "badge": "Bab 17 · ～なければなりません",
+    "prompt": "きょうとへ いきますから、うめだで ちかてつに （　）。 (Harus pindah ke kereta bawah tanah di Umeda.)",
+    "promptRomaji": "Kyouto e ikimasu kara, Umeda de chikatetsu ni _____.",
+    "sub": "のりかえます (ganti kendaraan) termasuk Kelompok II.",
+    "options": [
+      { "jp": "のりかえらなければ なりません", "romaji": "norikaeranakereba narimasen" },
+      { "jp": "のりかえなくても いいです", "romaji": "norikaenakute mo ii desu" },
+      { "jp": "のりかえなければ なりません", "romaji": "norikaenakereba narimasen" },
+      { "jp": "のりかえないければ なりません", "romaji": "norikaenaikereba narimasen" }
+    ],
+    "answer": 2,
+    "explain": "のりかえます (Kelompok II) → のりかえない → のりかえなければ なりません."
+  },
+  {
+    "id": "b17-83",
+    "bab": 17,
+    "section": "C · ～なければなりません",
+    "type": "mcq",
+    "badge": "Bab 17 · ～なければなりません",
+    "prompt": "らいしゅうまでに じゅうしょを （　）。 (Paling lambat minggu depan harus memberi tahu alamat.)",
+    "promptRomaji": "Raishuu made ni juusho o _____.",
+    "sub": "おしえます (memberi tahu) adalah Kelompok II.",
+    "options": [
+      { "jp": "おしえなければ なりません", "romaji": "oshienakereba narimasen" },
+      { "jp": "おしえらなければ なりません", "romaji": "oshieranakereba narimasen" },
+      { "jp": "おしえなくても いいです", "romaji": "oshienakute mo ii desu" },
+      { "jp": "おしえないければ なりません", "romaji": "oshienaikereba narimasen" }
+    ],
+    "answer": 0,
+    "explain": "おしえます (Kelompok II) → おしえない → おしえなければ なりません."
+  },
+  {
+    "id": "b17-84",
+    "bab": 17,
+    "section": "C · ～なければなりません",
+    "type": "mcq",
+    "badge": "Bab 17 · ～なければなりません",
+    "prompt": "ねつが ありますから、2、3にち かいしゃを （　）。 (Harus libur kerja selama 2 atau 3 hari.)",
+    "promptRomaji": "Netsu ga arimasu kara, 2, 3-nichi kaisha o _____.",
+    "sub": "やすみます (Kelompok I: み → ま) → ?",
+    "options": [
+      { "jp": "やすみなければ なりません", "romaji": "yasuminakereba narimasen" },
+      { "jp": "やすまなくても いいです", "romaji": "yasumanakute mo ii desu" },
+      { "jp": "やすまないければ なりません", "romaji": "yasumanaikereba narimasen" },
+      { "jp": "やすまなければ なりません", "romaji": "yasumanakereba narimasen" }
+    ],
+    "answer": 3,
+    "explain": "やすみます → やすまない → coret い + ければ なりません = やすまなければ なりません."
+  },
+  {
+    "id": "b17-85",
+    "bab": 17,
+    "section": "C · ～なければなりません",
+    "type": "mcq",
+    "badge": "Bab 17 · Keluhan Sakit",
+    "prompt": "いしゃ：「どう しましたか。」 かんじゃ：「きのうから あたま （　） いたいです。」",
+    "promptRomaji": "Isha: \"Dou shimashita ka.\" Kanja: \"Kinou kara atama _____ itai desu.\"",
+    "sub": "Pilih partikel yang tepat untuk menyatakan bagian tubuh yang sakit.",
+    "options": [
+      { "jp": "を", "romaji": "o" },
+      { "jp": "が", "romaji": "ga" },
+      { "jp": "は", "romaji": "wa" },
+      { "jp": "に", "romaji": "ni" }
+    ],
+    "answer": 1,
+    "explain": "Untuk menyatakan rasa sakit pada bagian tubuh, gunakan pola [Bagian tubuh] が いたいです → あたまが いたいです."
+  },
+  {
+    "id": "b17-86",
+    "bab": 17,
+    "section": "C · ～なければなりません",
+    "type": "mcq",
+    "badge": "Bab 17 · Kosakata 2、3～",
+    "prompt": "「2、3にち やすんで ください。」の 「2、3にち」の いみは どれですか。",
+    "promptRomaji": "\"2, 3-nichi yasunde kudasai.\" no \"2, 3-nichi\" no imi wa dore desu ka.",
+    "sub": "Pilih arti ungkapan perkiraan jumlah hari Bab 17 ini.",
+    "options": [
+      { "jp": "tepat 23 hari", "romaji": "" },
+      { "jp": "tanggal 23", "romaji": "" },
+      { "jp": "dua atau tiga hari", "romaji": "" },
+      { "jp": "setiap hari selama 3 minggu", "romaji": "" }
+    ],
+    "answer": 2,
+    "explain": "「2、3～ (に、さん～)」 + kata bantu bilangan berarti 'dua atau tiga ~', jadi 2、3にち berarti dua atau tiga hari."
+  },
+  {
+    "id": "b17-87",
+    "bab": 17,
+    "section": "C · ～なければなりません",
+    "type": "mcq",
+    "badge": "Bab 17 · Terjemahan Kalimat",
+    "prompt": "Terjemahan yang tepat untuk \"Besok paling lambat jam 8 harus datang ke kantor\" adalah...",
+    "promptRomaji": "Terjemahan Jepang (Bab 17)",
+    "sub": "Perhatikan batas waktu までに dan bentuk -Nai dari きます.",
+    "options": [
+      { "jp": "あした 8じまでに かいしゃへ こなければ なりません。", "romaji": "Ashita 8-ji made ni kaisha e konakereba narimasen." },
+      { "jp": "あした 8じまで かいしゃへ きなければ なりません。", "romaji": "Ashita 8-ji made kaisha e kinakereba narimasen." },
+      { "jp": "あした 8じまでに かいしゃへ こなくても いいです。", "romaji": "Ashita 8-ji made ni kaisha e konakute mo ii desu." },
+      { "jp": "あした 8じまでに かいしゃへ いかないで ください。", "romaji": "Ashita 8-ji made ni kaisha e ikanaide kudasai." }
+    ],
+    "answer": 0,
+    "explain": "Tenggat waktu memakai までに, dan datang (きます) → こない → こなければ なりません."
+  },
+  {
+    "id": "b17-88",
+    "bab": 17,
+    "section": "C · ～なければなりません",
+    "type": "mcq",
+    "badge": "Bab 17 · Koreksi Kalimat",
+    "prompt": "Manakah kalimat keharusan 「～なければ なりません」 yang BENAR secara tata bahasa?",
+    "promptRomaji": "Pilih kalimat V-nakereba narimasen yang tepat.",
+    "sub": "Periksa bentuk -Nai dan pencoretan huruf い.",
+    "options": [
+      { "jp": "5じまでに うちへ かえらないければ なりません。", "romaji": "5-ji made ni uchi e kaeranaikereba narimasen." },
+      { "jp": "5じまでに うちへ かえりなければ なりません。", "romaji": "5-ji made ni uchi e kaerinakereba narimasen." },
+      { "jp": "5じまでに うちへ かえらなくて なりません。", "romaji": "5-ji made ni uchi e kaeranakute narimasen." },
+      { "jp": "5じまでに うちへ かえらなければ なりません。", "romaji": "5-ji made ni uchi e kaeranakereba narimasen." }
+    ],
+    "answer": 3,
+    "explain": "かえります (り → ら) → かえらない → coret い + ければ なりません = かえらなければ なりません."
+  },
+  {
+    "id": "b17-89",
+    "bab": 17,
+    "section": "D · ～なくてもいいです",
+    "type": "mcq",
+    "badge": "Bab 17 · ～なくてもいいです",
+    "prompt": "じかんが まだ たくさん ありますから、（　）。 (Tidak perlu terburu-buru.)",
+    "promptRomaji": "Jikan ga mada takusan arimasu kara, _____.",
+    "sub": "いそぎます (ぎ → が) → ?",
+    "options": [
+      { "jp": "いそぎなくても いいです", "romaji": "isoginakute mo ii desu" },
+      { "jp": "いそがなければ なりません", "romaji": "isoganakereba narimasen" },
+      { "jp": "いそがなくても いいです", "romaji": "isoganakute mo ii desu" },
+      { "jp": "いそかなくても いいです", "romaji": "isokanakute mo ii desu" }
+    ],
+    "answer": 2,
+    "explain": "いそぎます (Kelompok I: ぎ → が) menjadi いそがない, lalu coret い + くても いいです = いそがなくても いいです."
+  },
+  {
+    "id": "b17-90",
+    "bab": 17,
+    "section": "D · ～なくてもいいです",
+    "type": "mcq",
+    "badge": "Bab 17 · ～なくてもいいです",
+    "prompt": "わたしが カメラを もって いきますから、あなたは （　）。 (Anda tidak perlu membawa datang kamera.)",
+    "promptRomaji": "Watashi ga kamera o motte ikimasu kara, anata wa _____.",
+    "sub": "もって きます (Kel. III) → ?",
+    "options": [
+      { "jp": "もって こなくても いいです", "romaji": "motte konakute mo ii desu" },
+      { "jp": "もって きなくても いいです", "romaji": "motte kinakute mo ii desu" },
+      { "jp": "もって こなければ なりません", "romaji": "motte konakereba narimasen" },
+      { "jp": "もって こないで ください", "romaji": "motte konaide kudasai" }
+    ],
+    "answer": 0,
+    "explain": "もって きます → もって こない → もって こなくても いいです (tidak usah membawa datang)."
+  },
+  {
+    "id": "b17-91",
+    "bab": 17,
+    "section": "D · ～なくてもいいです",
+    "type": "mcq",
+    "badge": "Bab 17 · ～なくてもいいです",
+    "prompt": "もう かんじを おぼえましたから、ノートを （　）。 (Tidak perlu melihat catatan lagi.)",
+    "promptRomaji": "Mou kanji o oboemashita kara, nooto o _____.",
+    "sub": "みます (Kelompok II) → ?",
+    "options": [
+      { "jp": "みなければ なりません", "romaji": "minakereba narimasen" },
+      { "jp": "まないで ください", "romaji": "manaide kudasai" },
+      { "jp": "みらなくても いいです", "romaji": "miranakute mo ii desu" },
+      { "jp": "みなくても いいです", "romaji": "minakute mo ii desu" }
+    ],
+    "answer": 3,
+    "explain": "みます (Kelompok II) menjadi みない → みなくても いいです (tidak perlu melihat)."
+  },
+  {
+    "id": "b17-92",
+    "bab": 17,
+    "section": "D · ～なくてもいいです",
+    "type": "mcq",
+    "badge": "Bab 17 · ～なくてもいいです",
+    "prompt": "しりょうは もう ありますから、（　）。 (Tidak perlu memfotokopi.)",
+    "promptRomaji": "Shiryou wa mou arimasu kara, _____.",
+    "sub": "コピーします (Kelompok III) → ?",
+    "options": [
+      { "jp": "コピーしなければ なりません", "romaji": "kopii shinakereba narimasen" },
+      { "jp": "コピーしなくても いいです", "romaji": "kopii shinakute mo ii desu" },
+      { "jp": "コピーさなくても いいです", "romaji": "kopii sanakute mo ii desu" },
+      { "jp": "コピーしないくても いいです", "romaji": "kopii shinaikute mo ii desu" }
+    ],
+    "answer": 1,
+    "explain": "コピーします (Kelompok III) → コピーしない → コピーしなくても いいです."
+  },
+  {
+    "id": "b17-93",
+    "bab": 17,
+    "section": "D · ～なくてもいいです",
+    "type": "mcq",
+    "badge": "Bab 17 · ～なくてもいいです",
+    "prompt": "おかねは いま （　）。あとで いいです。 (Uangnya tidak perlu dikeluarkan/diserahkan sekarang.)",
+    "promptRomaji": "Okane wa ima _____. Ato de ii desu.",
+    "sub": "だします (Kelompok I: し → さ) → ?",
+    "options": [
+      { "jp": "ださなければ なりません", "romaji": "dasanakereba narimasen" },
+      { "jp": "だしなくても いいです", "romaji": "dashinakute mo ii desu" },
+      { "jp": "ださなくても いいです", "romaji": "dasanakute mo ii desu" },
+      { "jp": "ださないくても いいです", "romaji": "dasanaikute mo ii desu" }
+    ],
+    "answer": 2,
+    "explain": "だします → ださない → ださなくても いいです (tidak perlu mengeluarkan/menyerahkan sekarang)."
+  },
+  {
+    "id": "b17-94",
+    "bab": 17,
+    "section": "D · ～なくてもいいです",
+    "type": "mcq",
+    "badge": "Bab 17 · ～なくてもいいです",
+    "prompt": "また つかいますから、エアコンを （　）。 (Tidak perlu mematikan AC.)",
+    "promptRomaji": "Mata tsukaimasu kara, eakon o _____.",
+    "sub": "けします (Kelompok I: し → さ) → ?",
+    "options": [
+      { "jp": "けさなくても いいです", "romaji": "kesanakute mo ii desu" },
+      { "jp": "けしなくても いいです", "romaji": "keshinakute mo ii desu" },
+      { "jp": "けさなければ なりません", "romaji": "kesanakereba narimasen" },
+      { "jp": "けさないくても いいです", "romaji": "kesanaikute mo ii desu" }
+    ],
+    "answer": 0,
+    "explain": "けします → けさない → けさなくても いいです (tidak perlu mematikan)."
+  },
+  {
+    "id": "b17-95",
+    "bab": 17,
+    "section": "D · ～なくてもいいです",
+    "type": "mcq",
+    "badge": "Bab 17 · ～なくてもいいです",
+    "prompt": "としょかんで かりますから、この ほんは （　）。 (Buku ini tidak perlu dibeli.)",
+    "promptRomaji": "Toshokan de karimasu kara, kono hon wa _____.",
+    "sub": "かいます (Kelompok I: い → わ) → ?",
+    "options": [
+      { "jp": "かいなくても いいです", "romaji": "kainakute mo ii desu" },
+      { "jp": "かわなければ なりません", "romaji": "kawanakereba narimasen" },
+      { "jp": "かあなくても いいです", "romaji": "kaanakute mo ii desu" },
+      { "jp": "かわなくても いいです", "romaji": "kawanakute mo ii desu" }
+    ],
+    "answer": 3,
+    "explain": "かいます (い → わ) menjadi かわない → かわなくても いいです (tidak perlu membeli)."
+  },
+  {
+    "id": "b17-96",
+    "bab": 17,
+    "section": "D · ～なくてもいいです",
+    "type": "mcq",
+    "badge": "Bab 17 · ～なくてもいいです",
+    "prompt": "にもつは ここに （　）。 (Barang bawaan tidak perlu diletakkan di sini.)",
+    "promptRomaji": "Nimotsu wa koko ni _____.",
+    "sub": "おきます (meletakkan, Kelompok I: き → か) → ?",
+    "options": [
+      { "jp": "おきなくても いいです", "romaji": "okinakute mo ii desu" },
+      { "jp": "おかなくても いいです", "romaji": "okanakute mo ii desu" },
+      { "jp": "おかなければ なりません", "romaji": "okanakereba narimasen" },
+      { "jp": "おかないくても いいです", "romaji": "okanaikute mo ii desu" }
+    ],
+    "answer": 1,
+    "explain": "おきます (meletakkan) adalah Kelompok I → おかない → おかなくても いいです."
+  },
+  {
+    "id": "b17-97",
+    "bab": 17,
+    "section": "D · ～なくてもいいです",
+    "type": "mcq",
+    "badge": "Bab 17 · Dialog Jawab 'Tidak'",
+    "prompt": "A：「きょう レポートを ださなければ なりませんか。」\nB：「いいえ、らいしゅうまでですから、きょう （　）。」",
+    "promptRomaji": "A: \"Kyou repooto o dasanakereba narimasen ka.\" B: \"Iie, raishuu made desu kara, kyou _____.\"",
+    "sub": "Jawab pertanyaan 'apakah harus ~?' dengan jawaban negatif 'tidak perlu ~'.",
+    "options": [
+      { "jp": "ださなくても いいです", "romaji": "dasanakute mo ii desu" },
+      { "jp": "ださなければ なりません", "romaji": "dasanakereba narimasen" },
+      { "jp": "ださないで ください", "romaji": "dasanaide kudasai" },
+      { "jp": "だしては いけません", "romaji": "dashite wa ikemasen" }
+    ],
+    "answer": 0,
+    "explain": "Untuk menjawab 「いいえ」 terhadap pertanyaan keharusan (～なければ なりませんか), gunakan pola 「V-なくても いいです」 (tidak perlu ~)."
+  },
+  {
+    "id": "b17-98",
+    "bab": 17,
+    "section": "D · ～なくてもいいです",
+    "type": "mcq",
+    "badge": "Bab 17 · Nuansa Pola",
+    "prompt": "\"Rapat hari ini tidak wajib; Anda boleh ikut atau tidak ikut.\" Kalimat yang paling tepat untuk situasi ini adalah...",
+    "promptRomaji": "Situasi tidak wajib (Bab 17)",
+    "sub": "Bedakan 'tolong jangan ikut' (～ないでください) dan 'tidak perlu ikut' (～なくてもいいです).",
+    "options": [
+      { "jp": "きょうの かいぎに でないで ください。", "romaji": "Kyou no kaigi ni denaide kudasai." },
+      { "jp": "きょうの かいぎに でては いけません。", "romaji": "Kyou no kaigi ni dete wa ikemasen." },
+      { "jp": "きょうの かいぎに でなくても いいです。", "romaji": "Kyou no kaigi ni denakute mo ii desu." },
+      { "jp": "きょうの かいぎに でなければ なりません。", "romaji": "Kyou no kaigi ni denakereba narimasen." }
+    ],
+    "answer": 2,
+    "explain": "Karena sifatnya tidak wajib (boleh ikut, boleh tidak), gunakan でます → でなくても いいです."
+  },
+  {
+    "id": "b17-99",
+    "bab": 17,
+    "section": "D · ～なくてもいいです",
+    "type": "mcq",
+    "badge": "Bab 17 · Terjemahan Kalimat",
+    "prompt": "Terjemahan yang tepat untuk \"Tidak perlu memanggil taksi\" adalah...",
+    "promptRomaji": "Terjemahan Jepang (Bab 17)",
+    "sub": "よびます (memanggil) adalah Kelompok I (び → ば).",
+    "options": [
+      { "jp": "タクシーを よびなくても いいです。", "romaji": "Takushii o yobinakute mo ii desu." },
+      { "jp": "タクシーを よばなくても いいです。", "romaji": "Takushii o yobanakute mo ii desu." },
+      { "jp": "タクシーを よばなければ なりません。", "romaji": "Takushii o yobanakereba narimasen." },
+      { "jp": "タクシーを よばないで ください。", "romaji": "Takushii o yobanaide kudasai." }
+    ],
+    "answer": 1,
+    "explain": "よびます → よばない → よばなくても いいです (tidak perlu memanggil)."
+  },
+  {
+    "id": "b17-100",
+    "bab": 17,
+    "section": "D · ～なくてもいいです",
+    "type": "mcq",
+    "badge": "Bab 17 · Koreksi Kalimat",
+    "prompt": "Manakah kalimat 「～なくても いいです」 yang BENAR secara tata bahasa?",
+    "promptRomaji": "Pilih kalimat V-nakute mo ii desu yang tepat.",
+    "sub": "Periksa bentuk -Nai dari きます (datang) dan akhiran ～なくても いいです.",
+    "options": [
+      { "jp": "あした かいしゃへ こなくても いいです。", "romaji": "Ashita kaisha e konakute mo ii desu." },
+      { "jp": "あした かいしゃへ きなくても いいです。", "romaji": "Ashita kaisha e kinakute mo ii desu." },
+      { "jp": "あした かいしゃへ こないくても いいです。", "romaji": "Ashita kaisha e konaikute mo ii desu." },
+      { "jp": "あした かいしゃへ こなくては いいです。", "romaji": "Ashita kaisha e konakute wa ii desu." }
+    ],
+    "answer": 0,
+    "explain": "きます (Kelompok III) → こない → coret い + くても いいです = こなくても いいです."
   }
 ]

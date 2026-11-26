@@ -1450,5 +1450,730 @@ window.MNN_BANK[9] = [
     ],
     "answer": 3,
     "explain": "たくさん あります berarti 'ada banyak'."
+  },
+  {
+    "id": "b9-51",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Kosakata ごしゅじん",
+    "prompt": "「ごしゅじん」は だれの ことですか。",
+    "promptRomaji": "Goshujin wa dare no koto desu ka.",
+    "sub": "Pilih penjelasan yang tepat untuk kata ごしゅじん.",
+    "options": [
+      {
+        "jp": "suami orang lain",
+        "romaji": ""
+      },
+      {
+        "jp": "suami sendiri",
+        "romaji": ""
+      },
+      {
+        "jp": "istri orang lain",
+        "romaji": ""
+      },
+      {
+        "jp": "anak sendiri",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "ごしゅじん dipakai untuk menyebut suami orang lain; suami sendiri disebut しゅじん atau おっと."
+  },
+  {
+    "id": "b9-52",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Kosakata かない vs おくさん",
+    "prompt": "わたしは （　）と とうきょうへ いきます。（Saya pergi ke Tokyo bersama istri saya.）",
+    "promptRomaji": "Watashi wa ( ) to Toukyou e ikimasu.",
+    "sub": "Pilih kata yang tepat untuk menyebut istri sendiri kepada orang lain.",
+    "options": [
+      {
+        "jp": "おくさん",
+        "romaji": "okusan"
+      },
+      {
+        "jp": "かない",
+        "romaji": "kanai"
+      },
+      {
+        "jp": "ごしゅじん",
+        "romaji": "goshujin"
+      },
+      {
+        "jp": "おかあさん",
+        "romaji": "okaasan"
+      }
+    ],
+    "answer": 1,
+    "explain": "Untuk menyebut istri sendiri kepada orang lain dipakai かない (atau つま); おくさん dipakai untuk istri orang lain."
+  },
+  {
+    "id": "b9-53",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Kontras partikel を vs が",
+    "prompt": "わたしは よく おんがく（　） ききます。クラシック（　） すきです。",
+    "promptRomaji": "Watashi wa yoku ongaku ( ) kikimasu. Kurashikku ( ) suki desu.",
+    "sub": "Pilih pasangan partikel yang tepat untuk ききます dan すきです.",
+    "options": [
+      {
+        "jp": "が / を",
+        "romaji": "ga / o"
+      },
+      {
+        "jp": "が / が",
+        "romaji": "ga / ga"
+      },
+      {
+        "jp": "を / が",
+        "romaji": "o / ga"
+      },
+      {
+        "jp": "を / を",
+        "romaji": "o / o"
+      }
+    ],
+    "answer": 2,
+    "explain": "ききます adalah kata kerja transitif yang memakai を, sedangkan すきです memakai が."
+  },
+  {
+    "id": "b9-54",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Kontras partikel が vs を",
+    "prompt": "サントスさんは やきゅう（　） じょうずです。どようびに やきゅう（　） します。",
+    "promptRomaji": "Santosu-san wa yakyuu ( ) jouzu desu. Doyoubi ni yakyuu ( ) shimasu.",
+    "sub": "Pilih pasangan partikel yang tepat untuk じょうずです dan します.",
+    "options": [
+      {
+        "jp": "を / が",
+        "romaji": "o / ga"
+      },
+      {
+        "jp": "が / が",
+        "romaji": "ga / ga"
+      },
+      {
+        "jp": "を / を",
+        "romaji": "o / o"
+      },
+      {
+        "jp": "が / を",
+        "romaji": "ga / o"
+      }
+    ],
+    "answer": 3,
+    "explain": "じょうずです memakai が untuk menandai keahlian, sedangkan します (bermain) memakai を."
+  },
+  {
+    "id": "b9-55",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Partikel が (わかります)",
+    "prompt": "ローマじと ひらがな（　） わかりますが、かたかなは あまり わかりません。",
+    "promptRomaji": "Roomaji to hiragana ( ) wakarimasu ga, katakana wa amari wakarimasen.",
+    "sub": "Pilih partikel yang tepat sebelum わかります.",
+    "options": [
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      }
+    ],
+    "answer": 0,
+    "explain": "Hal yang dimengerti oleh わかります selalu ditandai partikel が."
+  },
+  {
+    "id": "b9-56",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Partikel が (あります)",
+    "prompt": "きょうは ともだちと やくそく（　） ありますから、はやく かえります。",
+    "promptRomaji": "Kyou wa tomodachi to yakusoku ( ) arimasu kara, hayaku kaerimasu.",
+    "sub": "Pilih partikel yang tepat untuk やくそく ～ あります.",
+    "options": [
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      }
+    ],
+    "answer": 1,
+    "explain": "Benda atau hal yang dimiliki/ada pada あります (seperti やくそく) ditandai が."
+  },
+  {
+    "id": "b9-57",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Tanya dengan が",
+    "prompt": "A: 「どんな スポーツ（　） すきですか。」 B: 「テニスが すきです。」",
+    "promptRomaji": "A: Donna supootsu ( ) suki desu ka. B: Tenisu ga suki desu.",
+    "sub": "Pilih partikel yang tepat setelah どんな スポーツ.",
+    "options": [
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "に",
+        "romaji": "ni"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "で",
+        "romaji": "de"
+      }
+    ],
+    "answer": 2,
+    "explain": "Dalam kalimat tanya dengan すきですか pun, objek yang disukai tetap memakai が."
+  },
+  {
+    "id": "b9-58",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Keterangan tingkat あまり",
+    "prompt": "わたしは ダンスが （　） じょうずじゃありません。",
+    "promptRomaji": "Watashi wa dansu ga ( ) jouzu ja arimasen.",
+    "sub": "Pilih kata keterangan yang tepat untuk bentuk negatif 'tidak terlalu pandai'.",
+    "options": [
+      {
+        "jp": "よく",
+        "romaji": "yoku"
+      },
+      {
+        "jp": "だいたい",
+        "romaji": "daitai"
+      },
+      {
+        "jp": "たくさん",
+        "romaji": "takusan"
+      },
+      {
+        "jp": "あまり",
+        "romaji": "amari"
+      }
+    ],
+    "answer": 3,
+    "explain": "あまり wajib diikuti bentuk negatif dan berarti 'tidak terlalu'."
+  },
+  {
+    "id": "b9-59",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Keterangan よく (sering)",
+    "prompt": "ミラーさんは まいばん テレビを （　） みます。（Sdr. Miller sering menonton TV setiap malam.）",
+    "promptRomaji": "Miraa-san wa maiban terebi o ( ) mimasu.",
+    "sub": "Pilih kata keterangan yang berarti 'sering' untuk kata kerja aksi.",
+    "options": [
+      {
+        "jp": "よく",
+        "romaji": "yoku"
+      },
+      {
+        "jp": "だいたい",
+        "romaji": "daitai"
+      },
+      {
+        "jp": "たくさん",
+        "romaji": "takusan"
+      },
+      {
+        "jp": "ぜんぜん",
+        "romaji": "zenzen"
+      }
+    ],
+    "answer": 0,
+    "explain": "よく ketika dipasangkan dengan kata kerja aksi seperti みます berarti 'sering'."
+  },
+  {
+    "id": "b9-60",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Keterangan たくさん",
+    "prompt": "きのう デパートで おみやげを （　） かいました。（Kemarin membeli banyak oleh-oleh.）",
+    "promptRomaji": "Kinou depaato de omiyage o ( ) kaimashita.",
+    "sub": "Pilih kata keterangan jumlah benda 'banyak'.",
+    "options": [
+      {
+        "jp": "よく",
+        "romaji": "yoku"
+      },
+      {
+        "jp": "たくさん",
+        "romaji": "takusan"
+      },
+      {
+        "jp": "だいたい",
+        "romaji": "daitai"
+      },
+      {
+        "jp": "あまり",
+        "romaji": "amari"
+      }
+    ],
+    "answer": 1,
+    "explain": "Untuk jumlah benda yang banyak dipakai たくさん, bukan よく."
+  },
+  {
+    "id": "b9-61",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Terjemahan ID→JP (だいたい)",
+    "prompt": "「Saya mengerti huruf katakana secara garis besar (kira-kira).」を にほんごに すると、どれですか。",
+    "promptRomaji": "'Saya mengerti huruf katakana secara garis besar.' o nihongo ni suru to, dore desu ka.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      {
+        "jp": "わたしは かたかなが ぜんぜん わかります。",
+        "romaji": "Watashi wa katakana ga zenzen wakarimasu."
+      },
+      {
+        "jp": "わたしは かたかなが たくさん わかります。",
+        "romaji": "Watashi wa katakana ga takusan wakarimasu."
+      },
+      {
+        "jp": "わたしは かたかなが だいたい わかります。",
+        "romaji": "Watashi wa katakana ga daitai wakarimasu."
+      },
+      {
+        "jp": "わたしは かたかなが あまり わかります。",
+        "romaji": "Watashi wa katakana ga amari wakarimasu."
+      }
+    ],
+    "answer": 2,
+    "explain": "だいたい dipakai bersama kalimat positif untuk arti 'kira-kira / sebagian besar'."
+  },
+  {
+    "id": "b9-62",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Terjemahan ID→JP (ぜんぜん)",
+    "prompt": "「Hari ini sama sekali tidak ada waktu.」を にほんごに すると、どれですか。",
+    "promptRomaji": "'Hari ini sama sekali tidak ada waktu.' o nihongo ni suru to, dore desu ka.",
+    "sub": "Pilih kalimat bahasa Jepang yang benar.",
+    "options": [
+      {
+        "jp": "きょうは じかんが ぜんぜん あります。",
+        "romaji": "Kyou wa jikan ga zenzen arimasu."
+      },
+      {
+        "jp": "きょうは じかんを ぜんぜん ありません。",
+        "romaji": "Kyou wa jikan o zenzen arimasen."
+      },
+      {
+        "jp": "きょうは じかんが たくさん ありません。",
+        "romaji": "Kyou wa jikan ga takusan arimasen."
+      },
+      {
+        "jp": "きょうは じかんが ぜんぜん ありません。",
+        "romaji": "Kyou wa jikan ga zenzen arimasen."
+      }
+    ],
+    "answer": 3,
+    "explain": "ぜんぜん wajib diikuti bentuk negatif (ありません), dan objek ありません memakai が."
+  },
+  {
+    "id": "b9-63",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Cek kata keterangan",
+    "prompt": "「よく・たくさん・ぜんぜん」の つかいかたが ただしい ぶんは どれですか。",
+    "promptRomaji": "'Yoku / takusan / zenzen' no tsukaikata ga tadashii bun wa dore desu ka.",
+    "sub": "Pilih kalimat yang penggunaan kata keterangannya benar.",
+    "options": [
+      {
+        "jp": "わたしは えが ぜんぜん じょうずじゃありません。",
+        "romaji": "Watashi wa e ga zenzen jouzu ja arimasen."
+      },
+      {
+        "jp": "わたしは おかねが よく あります。",
+        "romaji": "Watashi wa okane ga yoku arimasu."
+      },
+      {
+        "jp": "わたしは にほんごが たくさん わかります。",
+        "romaji": "Watashi wa nihongo ga takusan wakarimasu."
+      },
+      {
+        "jp": "わたしは くだものを ぜんぜん たべます。",
+        "romaji": "Watashi wa kudamono o zenzen tabemasu."
+      }
+    ],
+    "answer": 0,
+    "explain": "ぜんぜん berpasangan dengan bentuk negatif (じょうずじゃありません). よく dan たくさん tidak dipakai terbalik antara jumlah benda dan tingkat pemahaman."
+  },
+  {
+    "id": "b9-64",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Tanya どうして",
+    "prompt": "A: 「（　） コンサートへ いきませんか。」 B: 「アルバイトが ありますから。」",
+    "promptRomaji": "A: ( ) konsaato e ikimasen ka. B: Arubaito ga arimasu kara.",
+    "sub": "Pilih kata tanya untuk menanyakan alasan.",
+    "options": [
+      {
+        "jp": "いつ",
+        "romaji": "itsu"
+      },
+      {
+        "jp": "どうして",
+        "romaji": "doushite"
+      },
+      {
+        "jp": "どんな",
+        "romaji": "donna"
+      },
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      }
+    ],
+    "answer": 1,
+    "explain": "Karena jawabannya menyebutkan alasan dengan から, kata tanya yang tepat adalah どうして (mengapa)."
+  },
+  {
+    "id": "b9-65",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Alasan から",
+    "prompt": "あついです（　）、つめたい ジュースを のみます。",
+    "promptRomaji": "Atsui desu ( ), tsumetai juusu o nomimasu.",
+    "sub": "Pilih kata hubung alasan 'karena'.",
+    "options": [
+      {
+        "jp": "が",
+        "romaji": "ga"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "から",
+        "romaji": "kara"
+      },
+      {
+        "jp": "まで",
+        "romaji": "made"
+      }
+    ],
+    "answer": 2,
+    "explain": "から diletakkan setelah klausa alasan (あついですから) sebelum klausa akibat."
+  },
+  {
+    "id": "b9-66",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Alasan から vs kontras が",
+    "prompt": "にほんごは おもしろいです（　）、かんじが むずかしいです。",
+    "promptRomaji": "Nihongo wa omoshiroi desu ( ), kanji ga muzukashii desu.",
+    "sub": "Pilih penghubung yang tepat: bahasa Jepang menarik, TETAPI kanjinya sulit.",
+    "options": [
+      {
+        "jp": "から",
+        "romaji": "kara"
+      },
+      {
+        "jp": "と",
+        "romaji": "to"
+      },
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
+      {
+        "jp": "が",
+        "romaji": "ga"
+      }
+    ],
+    "answer": 3,
+    "explain": "Kedua pernyataan berlawanan (menarik vs sulit), sehingga memakai が ('tetapi'), bukan から ('karena')."
+  },
+  {
+    "id": "b9-67",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Kelanjutan alasan から",
+    "prompt": "かぶきの チケットが ありますから、（　）。",
+    "promptRomaji": "Kabuki no chiketto ga arimasu kara, ( ).",
+    "sub": "Pilih kelanjutan ajakan yang logis dari alasan memiliki tiket Kabuki.",
+    "options": [
+      {
+        "jp": "いっしょに いきませんか",
+        "romaji": "isshoni ikimasen ka"
+      },
+      {
+        "jp": "ぜんぜん わかりません",
+        "romaji": "zenzen wakarimasen"
+      },
+      {
+        "jp": "ざんねんですが、だめです",
+        "romaji": "zannen desu ga, dame desu"
+      },
+      {
+        "jp": "おかねが ありません",
+        "romaji": "okane ga arimasen"
+      }
+    ],
+    "answer": 0,
+    "explain": "Karena ada tiket Kabuki, kelanjutan yang wajar adalah mengajak teman: いっしょに いきませんか."
+  },
+  {
+    "id": "b9-68",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Ungkapan menolak ajakan",
+    "prompt": "A: 「こんしゅうの どようび、いっしょに えいがを みませんか。」 B: 「すみません。どようびは （　）。」",
+    "promptRomaji": "A: Konshuu no doyoubi, isshoni eiga o mimasen ka. B: Sumimasen. Doyoubi wa ( ).",
+    "sub": "Pilih ungkapan halus khas Jepang untuk menolak ajakan.",
+    "options": [
+      {
+        "jp": "いいですよ",
+        "romaji": "ii desu yo"
+      },
+      {
+        "jp": "ちょっと……",
+        "romaji": "chotto......"
+      },
+      {
+        "jp": "そうですか",
+        "romaji": "sou desu ka"
+      },
+      {
+        "jp": "どう いたしまして",
+        "romaji": "dou itashimashite"
+      }
+    ],
+    "answer": 1,
+    "explain": "[～は] ちょっと…… adalah ungkapan halus untuk menolak ajakan tanpa berkata 'tidak bisa' secara langsung."
+  },
+  {
+    "id": "b9-69",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Ungkapan ざんねんですね",
+    "prompt": "A: 「きょうは ちょっと ようじが ありますから……。」 B: 「そうですか。（　）。また こんど おねがいします。」",
+    "promptRomaji": "A: Kyou wa chotto youji ga arimasu kara...... B: Sou desu ka. ( ). Mata kondo onegaishimasu.",
+    "sub": "Pilih ungkapan simpati ketika teman tidak bisa ikut.",
+    "options": [
+      {
+        "jp": "いいですよ",
+        "romaji": "ii desu yo"
+      },
+      {
+        "jp": "いただきます",
+        "romaji": "itadakimasu"
+      },
+      {
+        "jp": "ざんねんですね",
+        "romaji": "zannen desu ne"
+      },
+      {
+        "jp": "すてきですね",
+        "romaji": "suteki desu ne"
+      }
+    ],
+    "answer": 2,
+    "explain": "ざんねんですね berarti 'sayang sekali ya' saat menanggapi teman yang berhalangan."
+  },
+  {
+    "id": "b9-70",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Ungkapan meminjam",
+    "prompt": "A: 「すみません、えんぴつが ありませんから、その ボールペンを （　）。」 B: 「ええ、いいですよ。」",
+    "promptRomaji": "A: Sumimasen, enpitsu ga arimasen kara, sono boorupen o ( ). B: Ee, ii desu yo.",
+    "sub": "Pilih ungkapan meminta pinjam barang ('Tolong pinjamkan').",
+    "options": [
+      {
+        "jp": "みせて ください",
+        "romaji": "misete kudasai"
+      },
+      {
+        "jp": "おあがり ください",
+        "romaji": "oagari kudasai"
+      },
+      {
+        "jp": "いらっしゃって ください",
+        "romaji": "irasshatte kudasai"
+      },
+      {
+        "jp": "かして ください",
+        "romaji": "kashite kudasai"
+      }
+    ],
+    "answer": 3,
+    "explain": "Untuk meminta seseorang meminjamkan barang kepada kita dipakai かして ください ('tolong pinjamkan')."
+  },
+  {
+    "id": "b9-71",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Ungkapan telepon",
+    "prompt": "A: 「（　）、カリナさんですか。」 B: 「はい、カリナです。」",
+    "promptRomaji": "A: ( ), Karina-san desu ka. B: Hai, Karina desu.",
+    "sub": "Pilih sapaan pembuka saat menelepon teman.",
+    "options": [
+      {
+        "jp": "もしもし",
+        "romaji": "moshimoshi"
+      },
+      {
+        "jp": "ごめんください",
+        "romaji": "gomen kudasai"
+      },
+      {
+        "jp": "いらっしゃいませ",
+        "romaji": "irasshaimase"
+      },
+      {
+        "jp": "ごちそうさまでした",
+        "romaji": "gochisousama deshita"
+      }
+    ],
+    "answer": 0,
+    "explain": "もしもし ('halo') dipakai khusus saat membuka percakapan di telepon."
+  },
+  {
+    "id": "b9-72",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Terjemahan ID→JP (あまり すきじゃありません)",
+    "prompt": "「Saya tidak begitu suka olahraga.」を にほんごに すると、どれですか。",
+    "promptRomaji": "'Saya tidak begitu suka olahraga.' o nihongo ni suru to, dore desu ka.",
+    "sub": "Pilih kalimat bahasa Jepang yang tepat.",
+    "options": [
+      {
+        "jp": "わたしは スポーツを あまり すきじゃありません。",
+        "romaji": "Watashi wa supootsu o amari suki ja arimasen."
+      },
+      {
+        "jp": "わたしは スポーツが あまり すきじゃありません。",
+        "romaji": "Watashi wa supootsu ga amari suki ja arimasen."
+      },
+      {
+        "jp": "わたしは スポーツが あまり すきくないです。",
+        "romaji": "Watashi wa supootsu ga amari sukikunai desu."
+      },
+      {
+        "jp": "わたしは スポーツが とても すきじゃありません。",
+        "romaji": "Watashi wa supootsu ga totemo suki ja arimasen."
+      }
+    ],
+    "answer": 1,
+    "explain": "Objek すき memakai が, dan すき adalah kata sifat-な sehingga bentuk negatifnya すきじゃありません bersama あまり."
+  },
+  {
+    "id": "b9-73",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Terjemahan ID→JP (から)",
+    "prompt": "「Karena tidak ada uang receh, saya tidak membeli minuman.」を にほんごに すると、どれですか。",
+    "promptRomaji": "'Karena tidak ada uang receh, saya tidak membeli minuman.' o nihongo ni suru to, dore desu ka.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      {
+        "jp": "こまかい おかねを ありませんから、のみものを かいません。",
+        "romaji": "Komakai okane o arimasen kara, nomimono o kaimasen."
+      },
+      {
+        "jp": "こまかい おかねが ありますから、のみものを かいません。",
+        "romaji": "Komakai okane ga arimasu kara, nomimono o kaimasen."
+      },
+      {
+        "jp": "こまかい おかねが ありませんから、のみものを かいません。",
+        "romaji": "Komakai okane ga arimasen kara, nomimono o kaimasen."
+      },
+      {
+        "jp": "こまかい おかねが ありませんが、のみものを かいません。",
+        "romaji": "Komakai okane ga arimasen ga, nomimono o kaimasen."
+      }
+    ],
+    "answer": 2,
+    "explain": "あります/ありません memakai が, dan hubungan sebab-akibat memakai から."
+  },
+  {
+    "id": "b9-74",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Dialog どうして + からです",
+    "prompt": "A: 「どうして はやく かえりますか。」 B: 「（　）。」（Karena ada janji dengan teman.）",
+    "promptRomaji": "A: Doushite hayaku kaerimasu ka. B: ( ).",
+    "sub": "Pilih jawaban yang tepat dengan pola ～からです.",
+    "options": [
+      {
+        "jp": "ともだちと やくそくを ありますからです。",
+        "romaji": "Tomodachi to yakusoku o arimasu kara desu."
+      },
+      {
+        "jp": "ともだちと やくそくが ありますまでです。",
+        "romaji": "Tomodachi to yakusoku ga arimasu made desu."
+      },
+      {
+        "jp": "ともだちと やくそくが ありますにです。",
+        "romaji": "Tomodachi to yakusoku ga arimasu ni desu."
+      },
+      {
+        "jp": "ともだちと やくそくが ありますからです。",
+        "romaji": "Tomodachi to yakusoku ga arimasu kara desu."
+      }
+    ],
+    "answer": 3,
+    "explain": "やくそく memakai partikel が bersama あります, dan jawaban どうして ditutup ～からです."
+  },
+  {
+    "id": "b9-75",
+    "bab": 9,
+    "type": "mcq",
+    "badge": "Bab 9 · Cek kalimat が・から",
+    "prompt": "「が」と「から」の つかいかたが ただしい ぶんは どれですか。",
+    "promptRomaji": "'Ga' to 'kara' no tsukaikata ga tadashii bun wa dore desu ka.",
+    "sub": "Pilih kalimat yang gramatikalnya benar.",
+    "options": [
+      {
+        "jp": "あした しけんが ありますから、こんばん べんきょうします。",
+        "romaji": "Ashita shiken ga arimasu kara, konban benkyoushimasu."
+      },
+      {
+        "jp": "あした しけんを ありますから、こんばん べんきょうします。",
+        "romaji": "Ashita shiken o arimasu kara, konban benkyoushimasu."
+      },
+      {
+        "jp": "から あした しけんが あります、こんばん べんきょうします。",
+        "romaji": "Kara ashita shiken ga arimasu, konban benkyoushimasu."
+      },
+      {
+        "jp": "あした しけんが ありますまで、こんばん べんきょうします。",
+        "romaji": "Ashita shiken ga arimasu made, konban benkyoushimasu."
+      }
+    ],
+    "answer": 0,
+    "explain": "あります memakai が, dan から diletakkan di akhir klausa alasan sebelum klausa akibat."
   }
 ];

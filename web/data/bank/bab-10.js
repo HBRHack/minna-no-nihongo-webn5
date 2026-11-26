@@ -1450,5 +1450,1455 @@ window.MNN_BANK[10] = [
     ],
     "answer": 2,
     "explain": "なに (benda) + も + negatif memakai ありません."
+  },
+  {
+    "id": "b10-51",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Kosakata いろいろ",
+    "prompt": "「いろいろ[な]」の いみは どれですか。",
+    "promptRomaji": "Iroiro [na] no imi wa dore desu ka.",
+    "sub": "Pilih arti kata いろいろ[な].",
+    "options": [
+      {
+        "jp": "bermacam-macam / berbagai",
+        "romaji": ""
+      },
+      {
+        "jp": "sedikit",
+        "romaji": ""
+      },
+      {
+        "jp": "sama sekali",
+        "romaji": ""
+      },
+      {
+        "jp": "sangat",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "いろいろ[な] adalah kata sifat-な yang berarti bermacam-macam atau berbagai."
+  },
+  {
+    "id": "b10-52",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Kosakata でんち",
+    "prompt": "「でんち」の いみは どれですか。",
+    "promptRomaji": "Denchi no imi wa dore desu ka.",
+    "sub": "Pilih arti kata でんち.",
+    "options": [
+      {
+        "jp": "sakelar",
+        "romaji": ""
+      },
+      {
+        "jp": "baterai",
+        "romaji": ""
+      },
+      {
+        "jp": "kulkas",
+        "romaji": ""
+      },
+      {
+        "jp": "kotak pos",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "でんち berarti baterai, sedangkan sakelar adalah スイッチ."
+  },
+  {
+    "id": "b10-53",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Kosakata れいぞうこ",
+    "prompt": "「れいぞうこ」の いみは どれですか。",
+    "promptRomaji": "Reizouko no imi wa dore desu ka.",
+    "sub": "Pilih arti kata れいぞうこ.",
+    "options": [
+      {
+        "jp": "rak buku",
+        "romaji": ""
+      },
+      {
+        "jp": "meja makan",
+        "romaji": ""
+      },
+      {
+        "jp": "kulkas / lemari es",
+        "romaji": ""
+      },
+      {
+        "jp": "tempat tidur",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "れいぞうこ berarti kulkas atau lemari es."
+  },
+  {
+    "id": "b10-54",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Kosakata きっさてん",
+    "prompt": "「きっさてん」の いみは どれですか。",
+    "promptRomaji": "Kissaten no imi wa dore desu ka.",
+    "sub": "Pilih arti kata きっさてん.",
+    "options": [
+      {
+        "jp": "minimarket",
+        "romaji": ""
+      },
+      {
+        "jp": "toko buku",
+        "romaji": ""
+      },
+      {
+        "jp": "taman",
+        "romaji": ""
+      },
+      {
+        "jp": "kedai kopi / kafe",
+        "romaji": ""
+      }
+    ],
+    "answer": 3,
+    "explain": "きっさてん berarti kedai kopi atau kafe."
+  },
+  {
+    "id": "b10-55",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Kosakata おとこのこ",
+    "prompt": "「おとこの こ」の いみは どれですか。",
+    "promptRomaji": "Otoko no ko no imi wa dore desu ka.",
+    "sub": "Pilih arti kata おとこの こ.",
+    "options": [
+      {
+        "jp": "anak laki-laki",
+        "romaji": ""
+      },
+      {
+        "jp": "pria dewasa",
+        "romaji": ""
+      },
+      {
+        "jp": "anak perempuan",
+        "romaji": ""
+      },
+      {
+        "jp": "wanita dewasa",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "おとこの こ berarti anak laki-laki, sedangkan おとこの ひと berarti pria dewasa."
+  },
+  {
+    "id": "b10-56",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Kosakata のりば",
+    "prompt": "「タクシーのりば」の いみは どれですか。",
+    "promptRomaji": "Takushii noriba no imi wa dore desu ka.",
+    "sub": "Pilih arti kata タクシーのりば.",
+    "options": [
+      {
+        "jp": "tiket taksi",
+        "romaji": ""
+      },
+      {
+        "jp": "tempat naik / pangkalan taksi",
+        "romaji": ""
+      },
+      {
+        "jp": "sopir taksi",
+        "romaji": ""
+      },
+      {
+        "jp": "perusahaan taksi",
+        "romaji": ""
+      }
+    ],
+    "answer": 1,
+    "explain": "のりば berarti tempat naik atau pangkalan kendaraan seperti taksi dan bus."
+  },
+  {
+    "id": "b10-57",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · あります (acara)",
+    "prompt": "あした にほんごの しけんが （　）。",
+    "promptRomaji": "Ashita nihongo no shiken ga ( ).",
+    "sub": "Lengkapi kalimat. (Besok ada ujian bahasa Jepang.)",
+    "options": [
+      {
+        "jp": "います",
+        "romaji": "imasu"
+      },
+      {
+        "jp": "いきます",
+        "romaji": "ikimasu"
+      },
+      {
+        "jp": "あります",
+        "romaji": "arimasu"
+      },
+      {
+        "jp": "きます",
+        "romaji": "kimasu"
+      }
+    ],
+    "answer": 2,
+    "explain": "Acara atau kegiatan seperti しけん (ujian) memakai あります."
+  },
+  {
+    "id": "b10-58",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · あります (keperluan)",
+    "prompt": "きょうの ごご ようじが （　）。",
+    "promptRomaji": "Kyou no gogo youji ga ( ).",
+    "sub": "Lengkapi kalimat. (Siang/sore ini ada urusan.)",
+    "options": [
+      {
+        "jp": "います",
+        "romaji": "imasu"
+      },
+      {
+        "jp": "します",
+        "romaji": "shimasu"
+      },
+      {
+        "jp": "みます",
+        "romaji": "mimasu"
+      },
+      {
+        "jp": "あります",
+        "romaji": "arimasu"
+      }
+    ],
+    "answer": 3,
+    "explain": "ようじ (urusan) dan やくそく (janji) memakai あります."
+  },
+  {
+    "id": "b10-59",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · います (hewan)",
+    "prompt": "あそこに パンダが （　）。",
+    "promptRomaji": "Asoko ni panda ga ( ).",
+    "sub": "Lengkapi kalimat. (Di sana ada panda.)",
+    "options": [
+      {
+        "jp": "います",
+        "romaji": "imasu"
+      },
+      {
+        "jp": "あります",
+        "romaji": "arimasu"
+      },
+      {
+        "jp": "します",
+        "romaji": "shimasu"
+      },
+      {
+        "jp": "いきます",
+        "romaji": "ikimasu"
+      }
+    ],
+    "answer": 0,
+    "explain": "パンダ adalah hewan (makhluk hidup), jadi memakai います."
+  },
+  {
+    "id": "b10-60",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · います (hewan)",
+    "prompt": "きと きの あいだに ぞうが （　）。",
+    "promptRomaji": "Ki to ki no aida ni zou ga ( ).",
+    "sub": "Lengkapi kalimat. (Di antara pohon dan pohon ada gajah.)",
+    "options": [
+      {
+        "jp": "あります",
+        "romaji": "arimasu"
+      },
+      {
+        "jp": "います",
+        "romaji": "imasu"
+      },
+      {
+        "jp": "いきます",
+        "romaji": "ikimasu"
+      },
+      {
+        "jp": "きます",
+        "romaji": "kimasu"
+      }
+    ],
+    "answer": 1,
+    "explain": "ぞう (gajah) adalah hewan sehingga keberadaannya memakai います."
+  },
+  {
+    "id": "b10-61",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · います (orang)",
+    "prompt": "うけつけに おんなの ひとが （　）。",
+    "promptRomaji": "Uketsuke ni onna no hito ga ( ).",
+    "sub": "Lengkapi kalimat. (Di meja resepsionis ada seorang wanita.)",
+    "options": [
+      {
+        "jp": "あります",
+        "romaji": "arimasu"
+      },
+      {
+        "jp": "します",
+        "romaji": "shimasu"
+      },
+      {
+        "jp": "います",
+        "romaji": "imasu"
+      },
+      {
+        "jp": "いきます",
+        "romaji": "ikimasu"
+      }
+    ],
+    "answer": 2,
+    "explain": "おんなの ひと adalah manusia, jadi memakai います."
+  },
+  {
+    "id": "b10-62",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · います (orang)",
+    "prompt": "まどの そとに おとこの こが （　）。",
+    "promptRomaji": "Mado no soto ni otoko no ko ga ( ).",
+    "sub": "Lengkapi kalimat. (Di luar jendela ada anak laki-laki.)",
+    "options": [
+      {
+        "jp": "あります",
+        "romaji": "arimasu"
+      },
+      {
+        "jp": "いません",
+        "romaji": "imasen"
+      },
+      {
+        "jp": "ありません",
+        "romaji": "arimasen"
+      },
+      {
+        "jp": "います",
+        "romaji": "imasu"
+      }
+    ],
+    "answer": 3,
+    "explain": "おとこの こ adalah anak laki-laki (manusia), sehingga bentuk positifnya います."
+  },
+  {
+    "id": "b10-63",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · あります (benda)",
+    "prompt": "ドアの みぎに スイッチが （　）。",
+    "promptRomaji": "Doa no migi ni suitchi ga ( ).",
+    "sub": "Lengkapi kalimat. (Di sebelah kanan pintu ada sakelar.)",
+    "options": [
+      {
+        "jp": "あります",
+        "romaji": "arimasu"
+      },
+      {
+        "jp": "います",
+        "romaji": "imasu"
+      },
+      {
+        "jp": "します",
+        "romaji": "shimasu"
+      },
+      {
+        "jp": "いきます",
+        "romaji": "ikimasu"
+      }
+    ],
+    "answer": 0,
+    "explain": "スイッチ (sakelar) adalah benda mati, jadi memakai あります."
+  },
+  {
+    "id": "b10-64",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · あります (tumbuhan)",
+    "prompt": "やまに さくらが たくさん （　）。",
+    "promptRomaji": "Yama ni sakura ga takusan ( ).",
+    "sub": "Lengkapi kalimat. (Di gunung ada banyak bunga sakura.)",
+    "options": [
+      {
+        "jp": "います",
+        "romaji": "imasu"
+      },
+      {
+        "jp": "あります",
+        "romaji": "arimasu"
+      },
+      {
+        "jp": "いきます",
+        "romaji": "ikimasu"
+      },
+      {
+        "jp": "します",
+        "romaji": "shimasu"
+      }
+    ],
+    "answer": 1,
+    "explain": "Tumbuhan seperti さくら tidak bergerak sendiri, jadi memakai あります."
+  },
+  {
+    "id": "b10-65",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Lampau negatif (orang)",
+    "prompt": "きのう ロビーに だれも （　）。",
+    "promptRomaji": "Kinou robii ni dare mo ( ).",
+    "sub": "Lengkapi kalimat. (Kemarin di lobi tidak ada siapa pun.)",
+    "options": [
+      {
+        "jp": "ありませんでした",
+        "romaji": "arimasen deshita"
+      },
+      {
+        "jp": "いません",
+        "romaji": "imasen"
+      },
+      {
+        "jp": "いませんでした",
+        "romaji": "imasen deshita"
+      },
+      {
+        "jp": "いました",
+        "romaji": "imashita"
+      }
+    ],
+    "answer": 2,
+    "explain": "きのう menunjukkan lampau dan だれも mewajibkan bentuk negatif, jadi いませんでした."
+  },
+  {
+    "id": "b10-66",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Lampau negatif (benda)",
+    "prompt": "きのう つくえの うえに なにも （　）。",
+    "promptRomaji": "Kinou tsukue no ue ni nani mo ( ).",
+    "sub": "Lengkapi kalimat. (Kemarin di atas meja tidak ada apa pun.)",
+    "options": [
+      {
+        "jp": "いませんでした",
+        "romaji": "imasen deshita"
+      },
+      {
+        "jp": "ありました",
+        "romaji": "arimashita"
+      },
+      {
+        "jp": "ありません",
+        "romaji": "arimasen"
+      },
+      {
+        "jp": "ありませんでした",
+        "romaji": "arimasen deshita"
+      }
+    ],
+    "answer": 3,
+    "explain": "きのう dan なにも membentuk kalimat lampau negatif benda: ありませんでした."
+  },
+  {
+    "id": "b10-67",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Lampau positif (benda)",
+    "prompt": "けさ ポストの なかに てがみが （　）。",
+    "promptRomaji": "Kesa posuto no naka ni tegami ga ( ).",
+    "sub": "Lengkapi kalimat. (Tadi pagi di dalam kotak pos ada surat.)",
+    "options": [
+      {
+        "jp": "ありました",
+        "romaji": "arimashita"
+      },
+      {
+        "jp": "いました",
+        "romaji": "imashita"
+      },
+      {
+        "jp": "あります",
+        "romaji": "arimasu"
+      },
+      {
+        "jp": "いませんでした",
+        "romaji": "imasen deshita"
+      }
+    ],
+    "answer": 0,
+    "explain": "けさ (tadi pagi) menandai lampau dan てがみ adalah benda mati, jadi ありました."
+  },
+  {
+    "id": "b10-68",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Lampau positif (orang)",
+    "prompt": "きのうの 1じに かいぎしつに せんせいが （　）。",
+    "promptRomaji": "Kinou no ichiji ni kaigishitsu ni sensei ga ( ).",
+    "sub": "Lengkapi kalimat. (Kemarin jam 1 di ruang rapat ada guru.)",
+    "options": [
+      {
+        "jp": "ありました",
+        "romaji": "arimashita"
+      },
+      {
+        "jp": "いました",
+        "romaji": "imashita"
+      },
+      {
+        "jp": "います",
+        "romaji": "imasu"
+      },
+      {
+        "jp": "あります",
+        "romaji": "arimasu"
+      }
+    ],
+    "answer": 1,
+    "explain": "せんせい adalah orang dan きのう menandai waktu lampau, sehingga dipakai いました."
+  },
+  {
+    "id": "b10-69",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Posisi みぎ",
+    "prompt": "ほんやの （　）に ぎんこうが あります。",
+    "promptRomaji": "Hon'ya no ( ) ni ginkou ga arimasu.",
+    "sub": "Pilih kata posisi 'sebelah kanan'. (Di sebelah kanan toko buku ada bank.)",
+    "options": [
+      {
+        "jp": "ひだり",
+        "romaji": "hidari"
+      },
+      {
+        "jp": "あいだ",
+        "romaji": "aida"
+      },
+      {
+        "jp": "みぎ",
+        "romaji": "migi"
+      },
+      {
+        "jp": "なか",
+        "romaji": "naka"
+      }
+    ],
+    "answer": 2,
+    "explain": "みぎ berarti kanan; lawannya ひだり (kiri)."
+  },
+  {
+    "id": "b10-70",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Posisi ひだり",
+    "prompt": "まどの （　）に たなが あります。",
+    "promptRomaji": "Mado no ( ) ni tana ga arimasu.",
+    "sub": "Pilih kata posisi 'sebelah kiri'. (Di sebelah kiri jendela ada rak.)",
+    "options": [
+      {
+        "jp": "みぎ",
+        "romaji": "migi"
+      },
+      {
+        "jp": "うえ",
+        "romaji": "ue"
+      },
+      {
+        "jp": "そと",
+        "romaji": "soto"
+      },
+      {
+        "jp": "ひだり",
+        "romaji": "hidari"
+      }
+    ],
+    "answer": 3,
+    "explain": "ひだり berarti kiri; lawannya みぎ (kanan)."
+  },
+  {
+    "id": "b10-71",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Posisi あいだ",
+    "prompt": "テーブルと ベッドの （　）に いすが あります。",
+    "promptRomaji": "Teeburu to beddo no ( ) ni isu ga arimasu.",
+    "sub": "Pilih kata posisi 'antara'. (Di antara meja dan ranjang ada kursi.)",
+    "options": [
+      {
+        "jp": "あいだ",
+        "romaji": "aida"
+      },
+      {
+        "jp": "となり",
+        "romaji": "tonari"
+      },
+      {
+        "jp": "なか",
+        "romaji": "naka"
+      },
+      {
+        "jp": "うえ",
+        "romaji": "ue"
+      }
+    ],
+    "answer": 0,
+    "explain": "Pola A と B の あいだに menyatakan posisi di antara dua benda."
+  },
+  {
+    "id": "b10-72",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Posisi なか",
+    "prompt": "かばんの （　）に かぎが あります。",
+    "promptRomaji": "Kaban no ( ) ni kagi ga arimasu.",
+    "sub": "Pilih kata posisi 'dalam'. (Di dalam tas ada kunci.)",
+    "options": [
+      {
+        "jp": "そと",
+        "romaji": "soto"
+      },
+      {
+        "jp": "なか",
+        "romaji": "naka"
+      },
+      {
+        "jp": "うしろ",
+        "romaji": "ushiro"
+      },
+      {
+        "jp": "となり",
+        "romaji": "tonari"
+      }
+    ],
+    "answer": 1,
+    "explain": "なか berarti dalam; lawannya そと (luar)."
+  },
+  {
+    "id": "b10-73",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Posisi おく",
+    "prompt": "スパイス・コーナーは みせの （　）に あります。",
+    "promptRomaji": "Supaisu koonaa wa mise no ( ) ni arimasu.",
+    "sub": "Pilih kata posisi 'bagian dalam/belakang'. (Bagian bumbu ada di bagian dalam toko.)",
+    "options": [
+      {
+        "jp": "あいだ",
+        "romaji": "aida"
+      },
+      {
+        "jp": "うえ",
+        "romaji": "ue"
+      },
+      {
+        "jp": "おく",
+        "romaji": "oku"
+      },
+      {
+        "jp": "した",
+        "romaji": "shita"
+      }
+    ],
+    "answer": 2,
+    "explain": "おく berarti bagian dalam atau bagian belakang suatu ruangan atau toko."
+  },
+  {
+    "id": "b10-74",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Posisi いちばん うえ",
+    "prompt": "たなの （　）に ラジオが あります。",
+    "promptRomaji": "Tana no ( ) ni rajio ga arimasu.",
+    "sub": "Pilih ungkapan 'paling atas'. (Di rak paling atas ada radio.)",
+    "options": [
+      {
+        "jp": "いちばん した",
+        "romaji": "ichiban shita"
+      },
+      {
+        "jp": "いちばん そと",
+        "romaji": "ichiban soto"
+      },
+      {
+        "jp": "いちばん あいだ",
+        "romaji": "ichiban aida"
+      },
+      {
+        "jp": "いちばん うえ",
+        "romaji": "ichiban ue"
+      }
+    ],
+    "answer": 3,
+    "explain": "いちばん うえ berarti paling atas; lawannya いちばん した (paling bawah)."
+  },
+  {
+    "id": "b10-75",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Arti いちばん した",
+    "prompt": "「いちばん したの たなに チリソースが あります。」の いみは どれですか。",
+    "promptRomaji": "“Ichiban shita no tana ni chirisoosu ga arimasu.” no imi wa dore desu ka.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      {
+        "jp": "Di rak paling bawah ada saus cabai.",
+        "romaji": ""
+      },
+      {
+        "jp": "Di rak paling atas ada saus cabai.",
+        "romaji": ""
+      },
+      {
+        "jp": "Di sebelah rak ada saus cabai.",
+        "romaji": ""
+      },
+      {
+        "jp": "Di belakang rak ada saus cabai.",
+        "romaji": ""
+      }
+    ],
+    "answer": 0,
+    "explain": "いちばん したの たな berarti rak paling bawah."
+  },
+  {
+    "id": "b10-76",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Pola なにが ありますか",
+    "prompt": "A：はこの なかに なにが ありますか。 B：（　）。",
+    "promptRomaji": "A: Hako no naka ni nani ga arimasu ka. B: ( ).",
+    "sub": "Pilih jawaban yang alami. (Ada pensil, penghapus, dan lain-lain.)",
+    "options": [
+      {
+        "jp": "えんぴつや けしゴムなどが います。",
+        "romaji": "Enpitsu ya keshigomu nado ga imasu."
+      },
+      {
+        "jp": "えんぴつや けしゴムなどが あります。",
+        "romaji": "Enpitsu ya keshigomu nado ga arimasu."
+      },
+      {
+        "jp": "はこの なかは えんぴつです。",
+        "romaji": "Hako no naka wa enpitsu desu."
+      },
+      {
+        "jp": "えんぴつを あります。",
+        "romaji": "Enpitsu o arimasu."
+      }
+    ],
+    "answer": 1,
+    "explain": "Untuk menjawab なにが ありますか, sebutkan bendanya dengan が あります."
+  },
+  {
+    "id": "b10-77",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Pola だれが いますか",
+    "prompt": "A：きょうしつに だれが いますか。 B：（　）。",
+    "promptRomaji": "A: Kyoushitsu ni dare ga imasu ka. B: ( ).",
+    "sub": "Pilih jawaban yang tepat. (Ada Sdr. Yamada dan Sdr. Lin.)",
+    "options": [
+      {
+        "jp": "やまださんと リンさんが あります。",
+        "romaji": "Yamada-san to Rin-san ga arimasu."
+      },
+      {
+        "jp": "やまださんと リンさんを います。",
+        "romaji": "Yamada-san to Rin-san o imasu."
+      },
+      {
+        "jp": "やまださんと リンさんが います。",
+        "romaji": "Yamada-san to Rin-san ga imasu."
+      },
+      {
+        "jp": "きょうしつは やまださんに います。",
+        "romaji": "Kyoushitsu wa Yamada-san ni imasu."
+      }
+    ],
+    "answer": 2,
+    "explain": "Menjawab だれが いますか memakai [Orang] が います."
+  },
+  {
+    "id": "b10-78",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Susunan Benda は Tempat に",
+    "prompt": "A：ATMは どこに ありますか。 B：（　）。",
+    "promptRomaji": "A: ATM wa doko ni arimasu ka. B: ( ).",
+    "sub": "Pilih jawaban yang tepat. (Ada di dalam minimarket.)",
+    "options": [
+      {
+        "jp": "コンビニの なかが あります。",
+        "romaji": "Konbini no naka ga arimasu."
+      },
+      {
+        "jp": "コンビニの なかで あります。",
+        "romaji": "Konbini no naka de arimasu."
+      },
+      {
+        "jp": "コンビニの なかに います。",
+        "romaji": "Konbini no naka ni imasu."
+      },
+      {
+        "jp": "コンビニの なかに あります。",
+        "romaji": "Konbini no naka ni arimasu."
+      }
+    ],
+    "answer": 3,
+    "explain": "Pertanyaan どこに ありますか dijawab dengan [Tempat] に あります."
+  },
+  {
+    "id": "b10-79",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Susunan Orang は Tempat に",
+    "prompt": "A：カリナさんは どこに いますか。 B：（　）。",
+    "promptRomaji": "A: Karina-san wa doko ni imasu ka. B: ( ).",
+    "sub": "Pilih jawaban yang tepat. (Ada di kantin.)",
+    "options": [
+      {
+        "jp": "しょくどうに います。",
+        "romaji": "Shokudou ni imasu."
+      },
+      {
+        "jp": "しょくどうで います。",
+        "romaji": "Shokudou de imasu."
+      },
+      {
+        "jp": "しょくどうに あります。",
+        "romaji": "Shokudou ni arimasu."
+      },
+      {
+        "jp": "しょくどうが います。",
+        "romaji": "Shokudou ga imasu."
+      }
+    ],
+    "answer": 0,
+    "explain": "Lokasi keberadaan orang memakai [Tempat] に います."
+  },
+  {
+    "id": "b10-80",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Kata tanya なに",
+    "prompt": "へやに （　）が ありますか。…ベッドと つくえが あります。",
+    "promptRomaji": "Heya ni ( ) ga arimasu ka. ...Beddo to tsukue ga arimasu.",
+    "sub": "Pilih kata tanya untuk menanyakan benda.",
+    "options": [
+      {
+        "jp": "だれ",
+        "romaji": "dare"
+      },
+      {
+        "jp": "なに",
+        "romaji": "nani"
+      },
+      {
+        "jp": "どこ",
+        "romaji": "doko"
+      },
+      {
+        "jp": "いつ",
+        "romaji": "itsu"
+      }
+    ],
+    "answer": 1,
+    "explain": "Menanyakan benda yang ada memakai なにが ありますか."
+  },
+  {
+    "id": "b10-81",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Kata tanya だれ",
+    "prompt": "にわに （　）が いますか。…ちちと ははが います。",
+    "promptRomaji": "Niwa ni ( ) ga imasu ka. ...Chichi to haha ga imasu.",
+    "sub": "Pilih kata tanya untuk menanyakan orang.",
+    "options": [
+      {
+        "jp": "なに",
+        "romaji": "nani"
+      },
+      {
+        "jp": "どこ",
+        "romaji": "doko"
+      },
+      {
+        "jp": "だれ",
+        "romaji": "dare"
+      },
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      }
+    ],
+    "answer": 2,
+    "explain": "Menanyakan orang yang ada memakai だれが いますか."
+  },
+  {
+    "id": "b10-82",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Kata tanya どこ",
+    "prompt": "ぎんこうは （　）に ありますか。…えきの ちかくに あります。",
+    "promptRomaji": "Ginkou wa ( ) ni arimasu ka. ...Eki no chikaku ni arimasu.",
+    "sub": "Pilih kata tanya untuk menanyakan lokasi.",
+    "options": [
+      {
+        "jp": "なに",
+        "romaji": "nani"
+      },
+      {
+        "jp": "だれ",
+        "romaji": "dare"
+      },
+      {
+        "jp": "どれ",
+        "romaji": "dore"
+      },
+      {
+        "jp": "どこ",
+        "romaji": "doko"
+      }
+    ],
+    "answer": 3,
+    "explain": "Menanyakan lokasi keberadaan memakai どこに ありますか."
+  },
+  {
+    "id": "b10-83",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Dialog だれも いません",
+    "prompt": "A：じむしょに だれが いますか。 B：（　）。",
+    "promptRomaji": "A: Jimusho ni dare ga imasu ka. B: ( ).",
+    "sub": "Jawab dengan 'tidak ada siapa pun'.",
+    "options": [
+      {
+        "jp": "だれも いません。",
+        "romaji": "Dare mo imasen."
+      },
+      {
+        "jp": "なにも ありません。",
+        "romaji": "Nani mo arimasen."
+      },
+      {
+        "jp": "だれも ありません。",
+        "romaji": "Dare mo arimasen."
+      },
+      {
+        "jp": "だれが いません。",
+        "romaji": "Dare ga imasen."
+      }
+    ],
+    "answer": 0,
+    "explain": "Tidak ada siapa pun dinyatakan dengan だれも いません."
+  },
+  {
+    "id": "b10-84",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Dialog なにも ありません",
+    "prompt": "A：れいぞうこの なかに なにが ありますか。 B：（　）。",
+    "promptRomaji": "A: Reizouko no naka ni nani ga arimasu ka. B: ( ).",
+    "sub": "Jawab dengan 'tidak ada apa pun'.",
+    "options": [
+      {
+        "jp": "だれも いません。",
+        "romaji": "Dare mo imasen."
+      },
+      {
+        "jp": "なにも ありません。",
+        "romaji": "Nani mo arimasen."
+      },
+      {
+        "jp": "なにも いません。",
+        "romaji": "Nani mo imasen."
+      },
+      {
+        "jp": "なにが ありません。",
+        "romaji": "Nani ga arimasen."
+      }
+    ],
+    "answer": 1,
+    "explain": "Tidak ada apa pun dinyatakan dengan なにも ありません."
+  },
+  {
+    "id": "b10-85",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Perbedaan や vs と",
+    "prompt": "「パンや たまごなどを かいました」と 「パンと たまごを かいました」の ちがいは なんですか。",
+    "promptRomaji": "“Pan ya tamago nado o kaimashita” to “Pan to tamago o kaimashita” no chigai wa nan desu ka.",
+    "sub": "Pilih penjelasan yang tepat.",
+    "options": [
+      {
+        "jp": "や～など berarti hanya membeli roti saja",
+        "romaji": ""
+      },
+      {
+        "jp": "と berarti membeli lebih dari sepuluh barang",
+        "romaji": ""
+      },
+      {
+        "jp": "や～など menyebut sebagian contoh, sedangkan と menyebut semuanya",
+        "romaji": ""
+      },
+      {
+        "jp": "Keduanya memiliki arti yang persis sama",
+        "romaji": ""
+      }
+    ],
+    "answer": 2,
+    "explain": "や～など hanya menyebut contoh sebagian dari barang yang ada, sedangkan と menyebut daftar lengkap."
+  },
+  {
+    "id": "b10-86",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Kata sifat いろいろな",
+    "prompt": "スーパーに （　） くだものが あります。",
+    "promptRomaji": "Suupaa ni ( ) kudamono ga arimasu.",
+    "sub": "Pilih bentuk yang tepat. (Di supermarket ada bermacam-macam buah.)",
+    "options": [
+      {
+        "jp": "いろいろ",
+        "romaji": "iroiro"
+      },
+      {
+        "jp": "いろいろの",
+        "romaji": "iroiro no"
+      },
+      {
+        "jp": "いろいろに",
+        "romaji": "iroiro ni"
+      },
+      {
+        "jp": "いろいろな",
+        "romaji": "iroiro na"
+      }
+    ],
+    "answer": 3,
+    "explain": "いろいろ adalah kata sifat-な, sehingga saat menerangkan kata benda memakai いろいろな."
+  },
+  {
+    "id": "b10-87",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Terjemahan あいだ",
+    "prompt": "「Di antara toko buku dan kafe ada kantor pos」は にほんごで どれですか。",
+    "promptRomaji": "“Di antara toko buku dan kafe ada kantor pos” wa Nihongo de dore desu ka.",
+    "sub": "Pilih kalimat bahasa Jepang yang benar.",
+    "options": [
+      {
+        "jp": "ほんやと きっさてんの あいだに ゆうびんきょくが あります。",
+        "romaji": "Hon'ya to kissaten no aida ni yuubinkyoku ga arimasu."
+      },
+      {
+        "jp": "ほんやや きっさてんの となりに ゆうびんきょくが あります。",
+        "romaji": "Hon'ya ya kissaten no tonari ni yuubinkyoku ga arimasu."
+      },
+      {
+        "jp": "ほんやと きっさてんの あいだで ゆうびんきょくが います。",
+        "romaji": "Hon'ya to kissaten no aida de yuubinkyoku ga imasu."
+      },
+      {
+        "jp": "ゆうびんきょくは ほんやの あいだに あります。",
+        "romaji": "Yuubinkyoku wa hon'ya no aida ni arimasu."
+      }
+    ],
+    "answer": 0,
+    "explain": "Pola 'di antara A dan B' adalah A と B の あいだに."
+  },
+  {
+    "id": "b10-88",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Terjemahan みぎ",
+    "prompt": "「Di sebelah kanan kulkas ada meja」は にほんごで どれですか。",
+    "promptRomaji": "“Di sebelah kanan kulkas ada meja” wa Nihongo de dore desu ka.",
+    "sub": "Pilih kalimat bahasa Jepang yang benar.",
+    "options": [
+      {
+        "jp": "れいぞうこの ひだりに テーブルが あります。",
+        "romaji": "Reizouko no hidari ni teeburu ga arimasu."
+      },
+      {
+        "jp": "れいぞうこの みぎに テーブルが あります。",
+        "romaji": "Reizouko no migi ni teeburu ga arimasu."
+      },
+      {
+        "jp": "テーブルの みぎに れいぞうこが あります。",
+        "romaji": "Teeburu no migi ni reizouko ga arimasu."
+      },
+      {
+        "jp": "れいぞうこは みぎに テーブルが います。",
+        "romaji": "Reizouko wa migi ni teeburu ga imasu."
+      }
+    ],
+    "answer": 1,
+    "explain": "Di sebelah kanan kulkas adalah れいぞうこの みぎに."
+  },
+  {
+    "id": "b10-89",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Terjemahan は～に あります",
+    "prompt": "「Kunci ada di dalam kotak」は にほんごで どれですか。",
+    "promptRomaji": "“Kunci ada di dalam kotak” wa Nihongo de dore desu ka.",
+    "sub": "Pilih kalimat bahasa Jepang yang benar.",
+    "options": [
+      {
+        "jp": "かぎは はこの なかに います。",
+        "romaji": "Kagi wa hako no naka ni imasu."
+      },
+      {
+        "jp": "かぎに はこの なかが あります。",
+        "romaji": "Kagi ni hako no naka ga arimasu."
+      },
+      {
+        "jp": "かぎは はこの なかに あります。",
+        "romaji": "Kagi wa hako no naka ni arimasu."
+      },
+      {
+        "jp": "かぎを はこの なかで あります。",
+        "romaji": "Kagi o hako no naka de arimasu."
+      }
+    ],
+    "answer": 2,
+    "explain": "Pola [Benda] は [Tempat] に あります dipakai saat benda sudah menjadi topik pembicaraan."
+  },
+  {
+    "id": "b10-90",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Terjemahan います",
+    "prompt": "「Di taman ada anak laki-laki dan anjing」は にほんごで どれですか。",
+    "promptRomaji": "“Di taman ada anak laki-laki dan anjing” wa Nihongo de dore desu ka.",
+    "sub": "Pilih kalimat bahasa Jepang yang benar.",
+    "options": [
+      {
+        "jp": "こうえんに おとこの こと いぬが あります。",
+        "romaji": "Kouen ni otoko no ko to inu ga arimasu."
+      },
+      {
+        "jp": "こうえんで おとこの こと いぬが います。",
+        "romaji": "Kouen de otoko no ko to inu ga imasu."
+      },
+      {
+        "jp": "こうえんは おとこの こと いぬに います。",
+        "romaji": "Kouen wa otoko no ko to inu ni imasu."
+      },
+      {
+        "jp": "こうえんに おとこの こと いぬが います。",
+        "romaji": "Kouen ni otoko no ko to inu ga imasu."
+      }
+    ],
+    "answer": 3,
+    "explain": "Tempat ditandai に, dan karena keduanya makhluk hidup, dipakai います."
+  },
+  {
+    "id": "b10-91",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Terjemahan ちかく",
+    "prompt": "「Di dekat rumah ada toko bunga」は にほんごで どれですか。",
+    "promptRomaji": "“Di dekat rumah ada toko bunga” wa Nihongo de dore desu ka.",
+    "sub": "Pilih kalimat bahasa Jepang yang benar.",
+    "options": [
+      {
+        "jp": "うちの ちかくに はなやが あります。",
+        "romaji": "Uchi no chikaku ni hanaya ga arimasu."
+      },
+      {
+        "jp": "うちの となりに はなやが あります。",
+        "romaji": "Uchi no tonari ni hanaya ga arimasu."
+      },
+      {
+        "jp": "うちの ちかくで はなやが います。",
+        "romaji": "Uchi no chikaku de hanaya ga imasu."
+      },
+      {
+        "jp": "はなやに うちの ちかくが あります。",
+        "romaji": "Hanaya ni uchi no chikaku ga arimasu."
+      }
+    ],
+    "answer": 0,
+    "explain": "Di dekat rumah adalah うちの ちかくに; toko bunga adalah はなや."
+  },
+  {
+    "id": "b10-92",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Terjemahan うしろ",
+    "prompt": "「Di belakang kursi ada tas」は にほんごで どれですか。",
+    "promptRomaji": "“Di belakang kursi ada tas” wa Nihongo de dore desu ka.",
+    "sub": "Pilih kalimat bahasa Jepang yang benar.",
+    "options": [
+      {
+        "jp": "いすの まえに かばんが あります。",
+        "romaji": "Isu no mae ni kaban ga arimasu."
+      },
+      {
+        "jp": "いすの うしろに かばんが あります。",
+        "romaji": "Isu no ushiro ni kaban ga arimasu."
+      },
+      {
+        "jp": "いすの うしろに かばんが います。",
+        "romaji": "Isu no ushiro ni kaban ga imasu."
+      },
+      {
+        "jp": "かばんの うしろに いすが あります。",
+        "romaji": "Kaban no ushiro ni isu ga arimasu."
+      }
+    ],
+    "answer": 1,
+    "explain": "Di belakang kursi adalah いすの うしろに."
+  },
+  {
+    "id": "b10-93",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Analisis Kesalahan",
+    "prompt": "「Di depan jendela ada kucing」の ただしい ぶんは どれですか。",
+    "promptRomaji": "\"Di depan jendela ada kucing\" no tadashii bun wa dore desu ka.",
+    "sub": "Pilih kalimat yang benar secara tata bahasa.",
+    "options": [
+      {
+        "jp": "まどの まえに ねこが あります。",
+        "romaji": "Mado no mae ni neko ga arimasu."
+      },
+      {
+        "jp": "まどの まえで ねこが います。",
+        "romaji": "Mado no mae de neko ga imasu."
+      },
+      {
+        "jp": "まどの まえに ねこが います。",
+        "romaji": "Mado no mae ni neko ga imasu."
+      },
+      {
+        "jp": "まどに まえの ねこが います。",
+        "romaji": "Mado ni mae no neko ga imasu."
+      }
+    ],
+    "answer": 2,
+    "explain": "Tempat memakai に (bukan で), posisi memakai のまえ, dan ねこ memakai います (bukan あります)."
+  },
+  {
+    "id": "b10-94",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Analisis Kesalahan",
+    "prompt": "「Di kamar ada TV besar」の ただしい ぶんは どれですか。",
+    "promptRomaji": "\"Di kamar ada TV besar\" no tadashii bun wa dore desu ka.",
+    "sub": "Pilih kalimat yang benar untuk 'Di kamar ada TV besar.'",
+    "options": [
+      {
+        "jp": "へやで おおきい テレビが あります。",
+        "romaji": "Heya de ookii terebi ga arimasu."
+      },
+      {
+        "jp": "へやに おおきい テレビを あります。",
+        "romaji": "Heya ni ookii terebi o arimasu."
+      },
+      {
+        "jp": "へやに おおきい テレビが います。",
+        "romaji": "Heya ni ookii terebi ga imasu."
+      },
+      {
+        "jp": "へやに おおきい テレビが あります。",
+        "romaji": "Heya ni ookii terebi ga arimasu."
+      }
+    ],
+    "answer": 3,
+    "explain": "Keberadaan benda di suatu tempat memakai [Tempat] に [Benda] が あります."
+  },
+  {
+    "id": "b10-95",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Analisis Kesalahan",
+    "prompt": "「だれも」の ぶんの なかで、ただしくない ものは どれですか。",
+    "promptRomaji": "\"Dare mo\" no bun no naka de, tadashikunai mono wa dore desu ka.",
+    "sub": "Pilih kalimat yang SALAH secara tata bahasa.",
+    "options": [
+      {
+        "jp": "じむしょに だれも います。",
+        "romaji": "Jimusho ni dare mo imasu."
+      },
+      {
+        "jp": "じむしょに だれも いません。",
+        "romaji": "Jimusho ni dare mo imasen."
+      },
+      {
+        "jp": "じむしょに ミラーさんが います。",
+        "romaji": "Jimusho ni Miraa-san ga imasu."
+      },
+      {
+        "jp": "じむしょに パソコンが あります。",
+        "romaji": "Jimusho ni pasokon ga arimasu."
+      }
+    ],
+    "answer": 0,
+    "explain": "だれも wajib diikuti bentuk negatif (いません), tidak boleh memakai bentuk positif います."
+  },
+  {
+    "id": "b10-96",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Analisis Kesalahan",
+    "prompt": "「Di sebelah supermarket ada bank」の ただしい ぶんは どれですか。",
+    "promptRomaji": "\"Di sebelah supermarket ada bank\" no tadashii bun wa dore desu ka.",
+    "sub": "Pilih kalimat yang benar untuk 'Di sebelah supermarket ada bank.'",
+    "options": [
+      {
+        "jp": "スーパー となりに ぎんこうが あります。",
+        "romaji": "Suupaa tonari ni ginkou ga arimasu."
+      },
+      {
+        "jp": "スーパーの となりに ぎんこうが あります。",
+        "romaji": "Suupaa no tonari ni ginkou ga arimasu."
+      },
+      {
+        "jp": "スーパーの となりで ぎんこうが あります。",
+        "romaji": "Suupaa no tonari de ginkou ga arimasu."
+      },
+      {
+        "jp": "スーパーの となりに ぎんこうが います。",
+        "romaji": "Suupaa no tonari ni ginkou ga imasu."
+      }
+    ],
+    "answer": 1,
+    "explain": "Kata benda dan posisi dihubungkan dengan の, diikuti に dan あります."
+  },
+  {
+    "id": "b10-97",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Analisis Kesalahan",
+    "prompt": "「なにも」の ぶんの なかで、ただしくない ものは どれですか。",
+    "promptRomaji": "\"Nani mo\" no bun no naka de, tadashikunai mono wa dore desu ka.",
+    "sub": "Pilih kalimat yang SALAH secara tata bahasa.",
+    "options": [
+      {
+        "jp": "はこの なかに なにも ありません。",
+        "romaji": "Hako no naka ni nani mo arimasen."
+      },
+      {
+        "jp": "はこの なかに しゃしんが あります。",
+        "romaji": "Hako no naka ni shashin ga arimasu."
+      },
+      {
+        "jp": "はこの なかに なにも あります。",
+        "romaji": "Hako no naka ni nani mo arimasu."
+      },
+      {
+        "jp": "はこの なかに しゃしんや てがみなどが あります。",
+        "romaji": "Hako no naka ni shashin ya tegami nado ga arimasu."
+      }
+    ],
+    "answer": 2,
+    "explain": "なにも wajib diikuti bentuk negatif (ありません), bukan bentuk positif あります."
+  },
+  {
+    "id": "b10-98",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Dialog di Toko",
+    "prompt": "A：すみません、ナンプラーは どこに ありますか。 B：（　）。",
+    "promptRomaji": "A: Sumimasen, nanpuraa wa doko ni arimasu ka. B: ( ).",
+    "sub": "Pilih balasan pegawai toko yang tepat. (Ada di pojok bumbu.)",
+    "options": [
+      {
+        "jp": "スパイス・コーナーに います。",
+        "romaji": "Supaisu koonaa ni imasu."
+      },
+      {
+        "jp": "ナンプラーは ありませんでした。",
+        "romaji": "Nanpuraa wa arimasen deshita."
+      },
+      {
+        "jp": "スパイス・コーナーを あります。",
+        "romaji": "Supaisu koonaa o arimasu."
+      },
+      {
+        "jp": "スパイス・コーナーに あります。",
+        "romaji": "Supaisu koonaa ni arimasu."
+      }
+    ],
+    "answer": 3,
+    "explain": "Menunjukkan lokasi barang di toko memakai [Tempat] に あります."
+  },
+  {
+    "id": "b10-99",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Dialog di Toko",
+    "prompt": "A：フィルムは どこに ありますか。 B：あちらの コーナーの いちばん うえに あります。 A：（　）。",
+    "promptRomaji": "A: Firumu wa doko ni arimasu ka. B: Achira no koonaa no ichiban ue ni arimasu. A: ( ).",
+    "sub": "Pilih ungkapan terima kasih setelah diberitahu lokasi.",
+    "options": [
+      {
+        "jp": "どうも すみません。",
+        "romaji": "Doumo sumimasen."
+      },
+      {
+        "jp": "ごちそうさまでした。",
+        "romaji": "Gochisousama deshita."
+      },
+      {
+        "jp": "はじめまして。",
+        "romaji": "Hajimemashite."
+      },
+      {
+        "jp": "どう いたしまして。",
+        "romaji": "Dou itashimashite."
+      }
+    ],
+    "answer": 0,
+    "explain": "どうも すみません dipakai untuk berterima kasih atas bantuan orang lain (atau meminta maaf karena merepotkan)."
+  },
+  {
+    "id": "b10-100",
+    "bab": 10,
+    "type": "mcq",
+    "badge": "Bab 10 · Dialog Lokasi",
+    "prompt": "A：すみません、この ちかくに コンビニが ありますか。 B：ええ、（　）。",
+    "promptRomaji": "A: Sumimasen, kono chikaku ni konbini ga arimasu ka. B: Ee, ( ).",
+    "sub": "Pilih balasan yang tepat. (Ya, ada di sebelah stasiun.)",
+    "options": [
+      {
+        "jp": "えきの となりに います。",
+        "romaji": "Eki no tonari ni imasu."
+      },
+      {
+        "jp": "えきの となりに あります。",
+        "romaji": "Eki no tonari ni arimasu."
+      },
+      {
+        "jp": "えきの となりで あります。",
+        "romaji": "Eki no tonari de arimasu."
+      },
+      {
+        "jp": "えきの となりは あります。",
+        "romaji": "Eki no tonari wa arimasu."
+      }
+    ],
+    "answer": 1,
+    "explain": "コンビニ adalah bangunan/benda mati, sehingga lokasinya dijawab dengan えきの となりに あります."
   }
 ];

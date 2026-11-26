@@ -848,5 +848,855 @@
     ],
     "answer": 1,
     "explain": "Karena menjawab 'Tidak' atas pertanyaan 'apakah difotokan teman?', jawaban yang wajar memakai kosakata Bab 24 じぶんで (oleh diri sendiri): じぶんで とりました."
+  },
+  {
+    "id": "b24-51",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Pola くれます",
+    "prompt": "おじいちゃんは いつも わたしに おかしを （　）。",
+    "promptRomaji": "Ojiichan wa itsumo watashi ni okashi o _____.",
+    "sub": "Kakek (pemberi) memberi kue kepada saya (わたしに).",
+    "options": [
+      { "jp": "あげます", "romaji": "agemasu" },
+      { "jp": "もらいます", "romaji": "moraimasu" },
+      { "jp": "くれます", "romaji": "kuremasu" },
+      { "jp": "します", "romaji": "shimasu" }
+    ],
+    "answer": 2,
+    "explain": "Karena subjeknya adalah kakek (orang lain yang memberi) dan penerimanya adalah saya (わたしに), wajib memakai くれます (tidak boleh あげます)."
+  },
+  {
+    "id": "b24-52",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · くれます (Keluarga Pembicara)",
+    "prompt": "たんじょうびの プレゼントに、ミラーさんは わたしの おとうとに サッカーボールを （　）。",
+    "promptRomaji": "Tanjoubi no purezento ni, Miraa-san wa watashi no otouto ni sakkaabooru o _____.",
+    "sub": "Pemberi = Miller, penerima = adik laki-laki SAYA (わたしの おとうと).",
+    "options": [
+      { "jp": "くれました", "romaji": "kuremashita" },
+      { "jp": "あげました", "romaji": "agemashita" },
+      { "jp": "もらいました", "romaji": "moraimashita" },
+      { "jp": "かりました", "romaji": "karimashita" }
+    ],
+    "answer": 0,
+    "explain": "Adik laki-laki saya (おとうと) termasuk keluarga pembicara, sehingga ketika Sdr. Miller memberinya hadiah, kata kerjanya wajib memakai くれました."
+  },
+  {
+    "id": "b24-53",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Arah Pemberian ke Orang Luar",
+    "prompt": "わたしの ははは サントスさんの おくさんに おちゃを （　）。",
+    "promptRomaji": "Watashi no haha wa Santosu-san no okusan ni ocha o _____.",
+    "sub": "Ibu SAYA (pihak pembicara) memberi teh kepada istri Santos (orang lain).",
+    "options": [
+      { "jp": "くれました", "romaji": "kuremashita" },
+      { "jp": "もらいました", "romaji": "moraimashita" },
+      { "jp": "のみました", "romaji": "nomimashita" },
+      { "jp": "あげました", "romaji": "agemashita" }
+    ],
+    "answer": 3,
+    "explain": "Arah pemberian berasal dari keluarga saya (はは) menuju orang lain (サントスさんの おくさん), sehingga memakai あげました (bukan くれました)."
+  },
+  {
+    "id": "b24-54",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Partikel pada もらいます",
+    "prompt": "わたしは あね （　） この セーターを もらいました。",
+    "promptRomaji": "Watashi wa ane _____ kono seetaa o moraimashita.",
+    "sub": "Pilih partikel untuk pemberi benda pada pola もらいます.",
+    "options": [
+      { "jp": "が", "romaji": "ga" },
+      { "jp": "に", "romaji": "ni" },
+      { "jp": "を", "romaji": "o" },
+      { "jp": "へ", "romaji": "e" }
+    ],
+    "answer": 1,
+    "explain": "Pada pola [Penerima] は [Pemberi] に [Benda] を もらいます, orang yang memberi ditandai partikel に (atau から)."
+  },
+  {
+    "id": "b24-55",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Partikel Subjek くれます",
+    "prompt": "ともだち （　） わたしに かわいい ぼうしを くれました。",
+    "promptRomaji": "Tomodachi _____ watashi ni kawaii boushi o kuremashita.",
+    "sub": "Pilih partikel untuk pemberi sebagai subjek pola くれます.",
+    "options": [
+      { "jp": "に", "romaji": "ni" },
+      { "jp": "を", "romaji": "o" },
+      { "jp": "が", "romaji": "ga" },
+      { "jp": "から", "romaji": "kara" }
+    ],
+    "answer": 2,
+    "explain": "Dalam pola [Pemberi] が わたしに ～ くれます, pemberi adalah subjek sehingga memakai が (atau は)."
+  },
+  {
+    "id": "b24-56",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Gabungan Bab 22, 23 & 24",
+    "prompt": "これは わたしが こどもの とき、おばあちゃん （　） もらった とけいです。",
+    "promptRomaji": "Kore wa watashi ga kodomo no toki, obaachan _____ moratta tokei desu.",
+    "sub": "Pilih partikel untuk nenek sebagai pemberi jam tangan.",
+    "options": [
+      { "jp": "に", "romaji": "ni" },
+      { "jp": "が", "romaji": "ga" },
+      { "jp": "を", "romaji": "o" },
+      { "jp": "で", "romaji": "de" }
+    ],
+    "answer": 0,
+    "explain": "Di dalam anak kalimat penjelas benda sekalipun, penerima tetap memakai が (わたしが) dan pemberinya dengan もらった tetap memakai に (おばあちゃんに)."
+  },
+  {
+    "id": "b24-57",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Kosakata ほかに",
+    "prompt": "わたしは おかあさんに はなを あげました。ほかに だれ （　） あげませんでした。",
+    "promptRomaji": "Watashi wa okaasan ni hana o agemashita. Hoka ni dare _____ agemasen deshita.",
+    "sub": "Lengkapi frasa 'tidak memberi kepada siapa pun lagi'.",
+    "options": [
+      { "jp": "が", "romaji": "ga" },
+      { "jp": "を", "romaji": "o" },
+      { "jp": "で", "romaji": "de" },
+      { "jp": "にも", "romaji": "nimo" }
+    ],
+    "answer": 3,
+    "explain": "Penerima dari あげます memakai partikel に, dan dalam kalimat negatif 'tidak kepada siapa pun' menjadi だれにも ～ませんでした."
+  },
+  {
+    "id": "b24-58",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Kosakata ははの ひ",
+    "prompt": "ははの ひに、おとうとと わたしは ははに （　） を つくって あげました。",
+    "promptRomaji": "Haha no hi ni, otouto to watashi wa haha ni _____ o tsukutte agemashita.",
+    "sub": "Pilih kata benda Bab 24 yang cocok dibuatkan untuk ibu.",
+    "options": [
+      { "jp": "ひっこし", "romaji": "hikkoshi" },
+      { "jp": "おべんとう", "romaji": "obentou" },
+      { "jp": "ワゴンしゃ", "romaji": "wagonsha" },
+      { "jp": "いみ", "romaji": "imi" }
+    ],
+    "answer": 1,
+    "explain": "おべんとう (nasi bekal) adalah makanan yang cocok dengan kata kerja つくって あげました."
+  },
+  {
+    "id": "b24-59",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Anak Kalimat + くれます",
+    "prompt": "A：その カメラ、すてきですね。\nB：ええ、ちちが わたしに （　） カメラです。",
+    "promptRomaji": "A: Sono kamera, suteki desu ne. B: Ee, chichi ga watashi ni _____ kamera desu.",
+    "sub": "Lengkapi frasa 'kamera yang diberikan ayah kepada saya'.",
+    "options": [
+      { "jp": "あげた", "romaji": "ageta" },
+      { "jp": "もらった", "romaji": "moratta" },
+      { "jp": "くれた", "romaji": "kureta" },
+      { "jp": "くれました", "romaji": "kuremashita" }
+    ],
+    "answer": 2,
+    "explain": "Pemberi adalah ちちが dan penerimanya わたしに sehingga memakai くれます. Karena memodifikasi kata benda カメラ, gunakan bentuk biasa lampau くれた."
+  },
+  {
+    "id": "b24-60",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Memberi ke Orang Lain",
+    "prompt": "A：あした ともだちの たんじょうびですね。なにを （　） か。\nB：きれいな ネクタイが いいと おもいます。",
+    "promptRomaji": "A: Ashita tomodachi no tanjoubi desu ne. Nani o _____ ka. B: Kirei na nekutai ga ii to omoimasu.",
+    "sub": "Pilih kata kerja memberi yang tepat untuk ulang tahun teman.",
+    "options": [
+      { "jp": "あげます", "romaji": "agemasu" },
+      { "jp": "くれます", "romaji": "kuremasu" },
+      { "jp": "もらいます", "romaji": "moraimasu" },
+      { "jp": "かります", "romaji": "karimasu" }
+    ],
+    "answer": 0,
+    "explain": "A bertanya 'Apa yang akan kamu berikan kepada temanmu?', sehingga memakai あげますか (memberi kepada orang lain)."
+  },
+  {
+    "id": "b24-61",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Pemberian kepada Pembicara",
+    "prompt": "サントスさんの おくさんは わたしに きれいな はなを （　）。",
+    "promptRomaji": "Santosu-san no okusan wa watashi ni kirei na hana o _____.",
+    "sub": "Istri Santos memberi bunga kepada saya (わたしに).",
+    "options": [
+      { "jp": "あげました", "romaji": "agemashita" },
+      { "jp": "もらいました", "romaji": "moraimashita" },
+      { "jp": "いきました", "romaji": "ikimashita" },
+      { "jp": "くれました", "romaji": "kuremashita" }
+    ],
+    "answer": 3,
+    "explain": "Jika pemberinya orang lain dan penerimanya わたしに, wajib memakai くれました."
+  },
+  {
+    "id": "b24-62",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Pemberian antara Pihak Ketiga",
+    "prompt": "やまださんは たなかさんに おみやげを （　）。",
+    "promptRomaji": "Yamada-san wa Tanaka-san ni omiyage o _____.",
+    "sub": "Yamada memberi oleh-oleh kepada Tanaka (keduanya bukan pihak pembicara).",
+    "options": [
+      { "jp": "くれました", "romaji": "kuremashita" },
+      { "jp": "あげました", "romaji": "agemashita" },
+      { "jp": "いきました", "romaji": "ikimashita" },
+      { "jp": "しました", "romaji": "shimashita" }
+    ],
+    "answer": 1,
+    "explain": "Ketika pemberi (やまださん) dan penerima (たなかさん) sama-sama pihak luar, tidak boleh memakai くれました; gunakan あげました."
+  },
+  {
+    "id": "b24-63",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Konjugasi V-て あげます (つれて いきます)",
+    "prompt": "わたしは いもうとを おおさかへ （　） あげました。",
+    "promptRomaji": "Watashi wa imouto o Oosaka e _____ agemashita.",
+    "sub": "Lengkapi dengan bentuk-て dari つれて いきます ('mengajak pergi').",
+    "options": [
+      { "jp": "つれて いき", "romaji": "tsurete iki" },
+      { "jp": "つれて いった", "romaji": "tsurete itta" },
+      { "jp": "つれて いって", "romaji": "tsurete itte" },
+      { "jp": "つれて いく", "romaji": "tsurete iku" }
+    ],
+    "answer": 2,
+    "explain": "いきます adalah kata kerja Kelompok I spesial dengan bentuk-て いって. Jadi つれて いきます → つれて いって + あげました."
+  },
+  {
+    "id": "b24-64",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Konjugasi V-て くれます (おくります)",
+    "prompt": "あにが わたしを ワゴンしゃで くうこうまで （　） くれました。",
+    "promptRomaji": "Ani ga watashi o wagonsha de kuukou made _____ kuremashita.",
+    "sub": "Lengkapi dengan bentuk-て dari おくります ('mengantar seseorang').",
+    "options": [
+      { "jp": "おくって", "romaji": "okutte" },
+      { "jp": "おくりて", "romaji": "okurite" },
+      { "jp": "おくった", "romaji": "okutta" },
+      { "jp": "おくいて", "romaji": "okuite" }
+    ],
+    "answer": 0,
+    "explain": "おくります (Kelompok I berakhiran -り) memiliki bentuk-て おくって."
+  },
+  {
+    "id": "b24-65",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Partikel pada V-て もらいます",
+    "prompt": "わたしは きむらさん （　） あたらしい ともだちを しょうかいして もらいました。",
+    "promptRomaji": "Watashi wa Kimura-san _____ atarashii tomodachi o shoukai shite moraimashita.",
+    "sub": "Pilih partikel untuk orang yang memperkenalkan teman (pemberi jasa).",
+    "options": [
+      { "jp": "を", "romaji": "o" },
+      { "jp": "が", "romaji": "ga" },
+      { "jp": "で", "romaji": "de" },
+      { "jp": "に", "romaji": "ni" }
+    ],
+    "answer": 3,
+    "explain": "Pada pola V-て もらいます, orang yang memberikan tindakan/bantuan ditandai partikel に: きむらさんに しょうかいして もらいました."
+  },
+  {
+    "id": "b24-66",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Partikel pada V-て くれます",
+    "prompt": "カリナさんが わたし （　） ケーキの つくりかたを おしえて くれました。",
+    "promptRomaji": "Karina-san ga watashi _____ keeki no tsukurikata o oshiete kuremashita.",
+    "sub": "Pilih partikel untuk penerima ajaran pada V-て くれます.",
+    "options": [
+      { "jp": "を", "romaji": "o" },
+      { "jp": "に", "romaji": "ni" },
+      { "jp": "が", "romaji": "ga" },
+      { "jp": "から", "romaji": "kara" }
+    ],
+    "answer": 1,
+    "explain": "Pada おしえて くれます, orang yang diajari (penerima) ditandai dengan partikel に: わたしに おしえて くれました."
+  },
+  {
+    "id": "b24-67",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Konjugasi V-て もらいます (いれます)",
+    "prompt": "わたしは さとうさんに にほんの おちゃを （　） もらいました。",
+    "promptRomaji": "Watashi wa Satou-san ni Nihon no ocha o _____ moraimashita.",
+    "sub": "Lengkapi bentuk-て dari いれます ('menyeduh teh').",
+    "options": [
+      { "jp": "いれって", "romaji": "irette" },
+      { "jp": "いれた", "romaji": "ireta" },
+      { "jp": "いれて", "romaji": "irete" },
+      { "jp": "いれます", "romaji": "iremasu" }
+    ],
+    "answer": 2,
+    "explain": "いれます adalah kata kerja Kelompok II sehingga bentuk-て nya adalah いれて."
+  },
+  {
+    "id": "b24-68",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Konjugasi V-て あげます (せつめいします)",
+    "prompt": "わたしは おばあさんに かんじの いみを （　） あげました。",
+    "promptRomaji": "Watashi wa obaasan ni kanji no imi o _____ agemashita.",
+    "sub": "Lengkapi bentuk-て dari せつめいします ('menjelaskan').",
+    "options": [
+      { "jp": "せつめいして", "romaji": "setsumei shite" },
+      { "jp": "せつめいした", "romaji": "setsumei shita" },
+      { "jp": "せつめいします", "romaji": "setsumei shimasu" },
+      { "jp": "せつめいしって", "romaji": "setsumei shitte" }
+    ],
+    "answer": 0,
+    "explain": "せつめいします adalah kata kerja Kelompok III (～します) sehingga bentuk-て nya adalah せつめいして."
+  },
+  {
+    "id": "b24-69",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Konjugasi V-て くれます (なおします)",
+    "prompt": "おじいちゃんが わたしの じてんしゃを （　） くれました。",
+    "promptRomaji": "Ojiichan ga watashi no jitensha o _____ kuremashita.",
+    "sub": "Lengkapi bentuk-て dari なおします ('memperbaiki').",
+    "options": [
+      { "jp": "なおって", "romaji": "naotte" },
+      { "jp": "なおした", "romaji": "naoshita" },
+      { "jp": "なおす", "romaji": "naosu" },
+      { "jp": "なおして", "romaji": "naoshite" }
+    ],
+    "answer": 3,
+    "explain": "なおします adalah kata kerja Kelompok I berakhiran -します sehingga bentuk-て nya adalah なおして."
+  },
+  {
+    "id": "b24-70",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Konjugasi V-て くれます (てつだいます)",
+    "prompt": "ともだちが ひっこしの じゅんびを ぜんぶ （　） くれました。",
+    "promptRomaji": "Tomodachi ga hikkoshi no junbi o zenbu _____ kuremashita.",
+    "sub": "Lengkapi bentuk-て dari てつだいます ('membantu').",
+    "options": [
+      { "jp": "てつだいて", "romaji": "tetsudaite" },
+      { "jp": "てつだって", "romaji": "tetsudatte" },
+      { "jp": "てつだった", "romaji": "tetsudatta" },
+      { "jp": "てつだう", "romaji": "tetsudau" }
+    ],
+    "answer": 1,
+    "explain": "てつだいます (Kelompok I berakhiran -い) bentuk-て nya adalah てつだって."
+  },
+  {
+    "id": "b24-71",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Partikel pada V-て あげます",
+    "prompt": "わたしは ほかに ともだち （　） にほんの しゃしんを みせて あげました。",
+    "promptRomaji": "Watashi wa hoka ni tomodachi _____ Nihon no shashin o misete agemashita.",
+    "sub": "Pilih partikel untuk penerima jasa pada V-て あげます.",
+    "options": [
+      { "jp": "を", "romaji": "o" },
+      { "jp": "が", "romaji": "ga" },
+      { "jp": "に", "romaji": "ni" },
+      { "jp": "から", "romaji": "kara" }
+    ],
+    "answer": 2,
+    "explain": "Pada pola [Pelaku] は [Penerima] に V-て あげます, orang yang menerima kebaikan kita memakai partikel に."
+  },
+  {
+    "id": "b24-72",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Arah つれて いきます vs くれます",
+    "prompt": "きのう あねは わたしを きれいな きっさてんへ （　）。",
+    "promptRomaji": "Kinou ane wa watashi o kirei na kissaten e _____.",
+    "sub": "Kakak perempuan mengajak SAYA pergi ke kedai kopi yang bagus kemarin.",
+    "options": [
+      { "jp": "つれて いって くれました", "romaji": "tsurete itte kuremashita" },
+      { "jp": "つれて いって あげました", "romaji": "tsurete itte agemashita" },
+      { "jp": "つれて きて もらいました", "romaji": "tsurete kite moraimashita" },
+      { "jp": "つれて いって もらいました", "romaji": "tsurete itte moraimashita" }
+    ],
+    "answer": 0,
+    "explain": "Subjek adalah あねは (pemberi kebaikan) dan objek penerima adalah わたしを, sehingga memakai つれて いって くれました."
+  },
+  {
+    "id": "b24-73",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Pola V-て もらいます",
+    "prompt": "わたしは きむらさんに くるまを （　） もらって、えきまで いきました。",
+    "promptRomaji": "Watashi wa Kimura-san ni kuruma o _____ moratte, eki made ikimashita.",
+    "sub": "Lengkapi dengan bentuk-て dari うんてんします ('menyetirkan mobil').",
+    "options": [
+      { "jp": "うんてんした", "romaji": "unten shita" },
+      { "jp": "うんてんする", "romaji": "unten suru" },
+      { "jp": "うんてん", "romaji": "unten" },
+      { "jp": "うんてんして", "romaji": "unten shite" }
+    ],
+    "answer": 3,
+    "explain": "Di depan もらいます / もらって, kata kerja wajib dalam Bentuk-て: うんてんして もらって."
+  },
+  {
+    "id": "b24-74",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Konjugasi Bentuk-て (かきます)",
+    "prompt": "ちちは わたしに きょうとの ちずを （　） くれました。",
+    "promptRomaji": "Chichi wa watashi ni Kyouto no chizu o _____ kuremashita.",
+    "sub": "Lengkapi dengan bentuk-て dari かきます ('menggambarkan peta').",
+    "options": [
+      { "jp": "かって", "romaji": "katte" },
+      { "jp": "かいて", "romaji": "kaite" },
+      { "jp": "かきて", "romaji": "kakite" },
+      { "jp": "かいた", "romaji": "kaita" }
+    ],
+    "answer": 1,
+    "explain": "かきます (menggambar/menulis, Kelompok I -きます) bentuk-て nya adalah かいて."
+  },
+  {
+    "id": "b24-75",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Kosakata じぶんで",
+    "prompt": "おとうとは （　） じゅんびを しました。だれにも てつだって もらいませんでした。",
+    "promptRomaji": "Otouto wa _____ junbi o shimashita. Dare ni mo tetsudatte moraimasen deshita.",
+    "sub": "Adik tidak dibantu siapa pun, jadi dia mempersiapkan...",
+    "options": [
+      { "jp": "ほかに", "romaji": "hoka ni" },
+      { "jp": "ぜんぶで", "romaji": "zenbu de" },
+      { "jp": "じぶんで", "romaji": "jibun de" },
+      { "jp": "だれかに", "romaji": "dareka ni" }
+    ],
+    "answer": 2,
+    "explain": "じぶんで berarti 'oleh diri sendiri / sendirian tanpa bantuan orang lain'."
+  },
+  {
+    "id": "b24-76",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Pola V-て あげます",
+    "prompt": "わたしは ホームステイの かぞくに わたしの くにの りょうりを （　） あげました。",
+    "promptRomaji": "Watashi wa hoomusutei no kazoku ni watashi no kuni no ryouri o _____ agemashita.",
+    "sub": "Lengkapi bentuk-て dari つくります ('membuatkan masakan').",
+    "options": [
+      { "jp": "つくって", "romaji": "tsukutte" },
+      { "jp": "つくった", "romaji": "tsukutta" },
+      { "jp": "つくりて", "romaji": "tsukurite" },
+      { "jp": "つくります", "romaji": "tsukurimasu" }
+    ],
+    "answer": 0,
+    "explain": "つくります adalah Kelompok I berakhiran -り sehingga bentuk-て nya adalah つくって."
+  },
+  {
+    "id": "b24-77",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Terjemahan Indonesia -> Jepang",
+    "prompt": "Terjemahkan: 'Sdr. Tanaka memandu saya berkeliling Tokyo.' (gunakan ～て くれました)",
+    "promptRomaji": "Terjemahan Jepang (Bab 24)",
+    "sub": "Perhatikan subjek (たなかさんが) dan kata kerja akhir.",
+    "options": [
+      { "jp": "たなかさんが わたしに とうきょうを あんないして あげました。", "romaji": "Tanaka-san ga watashi ni Toukyou o annai shite agemashita." },
+      { "jp": "たなかさんが わたしに とうきょうを あんないして もらいました。", "romaji": "Tanaka-san ga watashi ni Toukyou o annai shite moraimashita." },
+      { "jp": "たなかさんに わたしは とうきょうを あんないして くれました。", "romaji": "Tanaka-san ni watashi wa Toukyou o annai shite kuremashita." },
+      { "jp": "たなかさんが わたしに とうきょうを あんないして くれました。", "romaji": "Tanaka-san ga watashi ni Toukyou o annai shite kuremashita." }
+    ],
+    "answer": 3,
+    "explain": "たなかさんが sebagai subjek pemberi kebaikan kepada saya (わたしに) wajib memakai あんないして くれました."
+  },
+  {
+    "id": "b24-78",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Terjemahan Indonesia -> Jepang",
+    "prompt": "Terjemahkan: 'Saya diantar sampai bandara oleh kakak laki-laki saya.' (gunakan ～て もらいました)",
+    "promptRomaji": "Terjemahan Jepang (Bab 24)",
+    "sub": "Subjek = わたしは, pemberi jasa = あにに.",
+    "options": [
+      { "jp": "わたしは あにに くうこうまで おくって くれました。", "romaji": "Watashi wa ani ni kuukou made okutte kuremashita." },
+      { "jp": "わたしは あにに くうこうまで おくって もらいました。", "romaji": "Watashi wa ani ni kuukou made okutte moraimashita." },
+      { "jp": "わたしは あにを くうこうまで おくって あげました。", "romaji": "Watashi wa ani o kuukou made okutte agemashita." },
+      { "jp": "わたしは あにが くうこうまで おくって もらいました。", "romaji": "Watashi wa ani ga kuukou made okutte moraimashita." }
+    ],
+    "answer": 1,
+    "explain": "Saya menerima bantuan diantar oleh kakak laki-laki: わたしは あにに くうこうまで おくって もらいました."
+  },
+  {
+    "id": "b24-79",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Terjemahan Indonesia -> Jepang",
+    "prompt": "Terjemahkan: 'Saya membacakan buku untuk adik perempuan saya.'",
+    "promptRomaji": "Terjemahan Jepang (Bab 24)",
+    "sub": "Subjek = わたしは, penerima = いもうとに.",
+    "options": [
+      { "jp": "わたしは いもうとに ほんを よんで くれました。", "romaji": "Watashi wa imouto ni hon o yonde kuremashita." },
+      { "jp": "わたしは いもうとに ほんを よんで もらいました。", "romaji": "Watashi wa imouto ni hon o yonde moraimashita." },
+      { "jp": "わたしは いもうとに ほんを よんで あげました。", "romaji": "Watashi wa imouto ni hon o yonde agemashita." },
+      { "jp": "いもうとは わたしに ほんを よんで あげました。", "romaji": "Imouto wa watashi ni hon o yonde agemashita." }
+    ],
+    "answer": 2,
+    "explain": "Saya melakukan kebaikan untuk adik perempuan: わたしは いもうとに ほんを よんで あげました."
+  },
+  {
+    "id": "b24-80",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Terjemahan Indonesia -> Jepang",
+    "prompt": "Terjemahkan: 'Kemarin Sdr. Miller meminjamkan payungnya kepada saya.'",
+    "promptRomaji": "Terjemahan Jepang (Bab 24)",
+    "sub": "Miller = subjek pemberi kebaikan kepada saya (かします).",
+    "options": [
+      { "jp": "きのう ミラーさんが わたしに かさを かして くれました。", "romaji": "Kinou Miraa-san ga watashi ni kasa o kashite kuremashita." },
+      { "jp": "きのう ミラーさんが わたしに かさを かして あげました。", "romaji": "Kinou Miraa-san ga watashi ni kasa o kashite agemashita." },
+      { "jp": "きのう ミラーさんに わたしは かさを かして くれました。", "romaji": "Kinou Miraa-san ni watashi wa kasa o kashite kuremashita." },
+      { "jp": "きのう ミラーさんが わたしに かさを かりて くれました。", "romaji": "Kinou Miraa-san ga watashi ni kasa o karite kuremashita." }
+    ],
+    "answer": 0,
+    "explain": "かします berarti meminjamkan (かりる = meminjam), dan karena Miller berbaik hati kepada saya, pakai かして くれました."
+  },
+  {
+    "id": "b24-81",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Terjemahan Indonesia -> Jepang",
+    "prompt": "Terjemahkan: 'Saya menyeduhkan kopi untuk tamu.'",
+    "promptRomaji": "Terjemahan Jepang (Bab 24)",
+    "sub": "Gunakan kosakata Bab 24 いれます dan pola ～て あげました.",
+    "options": [
+      { "jp": "わたしは おきゃくさんに コーヒーを いれて くれました。", "romaji": "Watashi wa okyakusan ni koohii o irete kuremashita." },
+      { "jp": "わたしは おきゃくさんに コーヒーを いれて もらいました。", "romaji": "Watashi wa okyakusan ni koohii o irete moraimashita." },
+      { "jp": "おきゃくさんは わたしに コーヒーを いれて あげました。", "romaji": "Okyakusan wa watashi ni koohii o irete agemashita." },
+      { "jp": "わたしは おきゃくさんに コーヒーを いれて あげました。", "romaji": "Watashi wa okyakusan ni koohii o irete agemashita." }
+    ],
+    "answer": 3,
+    "explain": "Saya menyeduhkan kopi untuk tamu: わたしは おきゃくさんに コーヒーを いれて あげました."
+  },
+  {
+    "id": "b24-82",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Pemahaman Kalimat",
+    "prompt": "「ひっこしの とき、やまださんが ワゴンしゃで にもつを もって いって くれました。」の いみは どれですか。",
+    "promptRomaji": "Hikkoshi no toki, Yamada-san ga wagonsha de nimotsu o motte itte kuremashita.",
+    "sub": "Pilih terjemahan yang paling akurat.",
+    "options": [
+      { "jp": "Saat pindah rumah, saya meminjam mobil station wagon milik Sdr. Yamada.", "romaji": "" },
+      { "jp": "Saat pindah rumah, Sdr. Yamada membawakan barang-barang saya dengan mobil station wagon.", "romaji": "" },
+      { "jp": "Saat Sdr. Yamada pindah rumah, saya mengantarnya dengan mobil station wagon.", "romaji": "" },
+      { "jp": "Sebelum pindah rumah, Sdr. Yamada menjual mobil station wagon kepada saya.", "romaji": "" }
+    ],
+    "answer": 1,
+    "explain": "やまださんが (subjek) ワゴンしゃで にもつを もって いって くれました = Sdr. Yamada berbaik hati membawakan barang saya dengan mobil station wagon."
+  },
+  {
+    "id": "b24-83",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Pemahaman Kalimat (～て もらっています)",
+    "prompt": "「わたしは せんせいに まいしゅう さくぶんを なおして もらっています。」の いみは どれですか。",
+    "promptRomaji": "Watashi wa sensei ni maishuu sakubun o naoshite moratte imasu.",
+    "sub": "Perhatikan bentuk kebiasaan まいしゅう + ～て もらっています.",
+    "options": [
+      { "jp": "Saya membantu guru mengoreksi karangan setiap minggu.", "romaji": "" },
+      { "jp": "Guru meminta saya menulis ulang karangan setiap minggu.", "romaji": "" },
+      { "jp": "Setiap minggu karangan saya dikoreksi oleh guru.", "romaji": "" },
+      { "jp": "Setiap minggu saya mengoreksi karangan saya sendiri.", "romaji": "" }
+    ],
+    "answer": 2,
+    "explain": "まいしゅう ... なおして もらっています berarti secara rutin setiap minggu saya menerima jasa koreksi karangan dari guru."
+  },
+  {
+    "id": "b24-84",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Pemahaman Kalimat (Keluarga)",
+    "prompt": "「ちちが おとうとを びょういんへ つれて いって くれました。」の いみは どれですか。",
+    "promptRomaji": "Chichi ga otouto o byouin e tsurete itte kuremashita.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      { "jp": "Ayah mengajak/mengantar adik laki-laki saya pergi ke rumah sakit.", "romaji": "" },
+      { "jp": "Saya mengantar ayah dan adik laki-laki ke rumah sakit.", "romaji": "" },
+      { "jp": "Adik laki-laki mengajak ayah pergi ke rumah sakit.", "romaji": "" },
+      { "jp": "Ayah menjemput adik laki-laki saya pulang dari rumah sakit.", "romaji": "" }
+    ],
+    "answer": 0,
+    "explain": "ちちが (ayah) おとうとを びょういんへ つれて いって くれました (mengajak/mengantar pergi adik laki-laki saya ke rumah sakit)."
+  },
+  {
+    "id": "b24-85",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Pemahaman Kalimat (ほかに・だれが)",
+    "prompt": "「パーティーの じゅんびは ほかに だれが てつだって くれましたか。」の いみは どれですか。",
+    "promptRomaji": "Paatii no junbi wa hoka ni dare ga tetsudatte kuremashita ka.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      { "jp": "Siapa saja yang Anda bantu saat persiapan pesta?", "romaji": "" },
+      { "jp": "Persiapan pesta apa lagi yang belum dikerjakan?", "romaji": "" },
+      { "jp": "Apakah semua orang sudah selesai menyiapkan pesta?", "romaji": "" },
+      { "jp": "Selain itu, siapa lagi yang membantu persiapan pesta?", "romaji": "" }
+    ],
+    "answer": 3,
+    "explain": "ほかに だれが てつだって くれましたか = selain itu, siapa lagi yang membantu (kita/kami)?"
+  },
+  {
+    "id": "b24-86",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Pemahaman Kalimat (～て あげました)",
+    "prompt": "「わたしは カリナさんに にほんの おかしを つくって あげました。」の いみは どれですか。",
+    "promptRomaji": "Watashi wa Karina-san ni Nihon no okashi o tsukutte agemashita.",
+    "sub": "Pilih terjemahan yang tepat.",
+    "options": [
+      { "jp": "Sdr. Karina membuatkan kue Jepang untuk saya.", "romaji": "" },
+      { "jp": "Saya membuatkan kue Jepang untuk Sdr. Karina.", "romaji": "" },
+      { "jp": "Saya dibelikan kue Jepang oleh Sdr. Karina.", "romaji": "" },
+      { "jp": "Saya dan Sdr. Karina membuat kue bersama-sama.", "romaji": "" }
+    ],
+    "answer": 1,
+    "explain": "わたしは カリナさんに ～ つくって あげました = saya membuatkan untuk Sdr. Karina."
+  },
+  {
+    "id": "b24-87",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Persamaan Makna (Perspektif)",
+    "prompt": "Kalimat mana yang maknanya SAMA dengan 「わたしは あねに にほんごを おしえて もらいました」?",
+    "promptRomaji": "Watashi wa ane ni nihongo o oshiete moraimashita.",
+    "sub": "Ubah subjeknya menjadi あねが!",
+    "options": [
+      { "jp": "あねが わたしに にほんごを おしえて あげました。", "romaji": "Ane ga watashi ni nihongo o oshiete agemashita." },
+      { "jp": "あねは わたしに にほんごを おしえて もらいました。", "romaji": "Ane wa watashi ni nihongo o oshiete moraimashita." },
+      { "jp": "あねが わたしに にほんごを おしえて くれました。", "romaji": "Ane ga watashi ni nihongo o oshiete kuremashita." },
+      { "jp": "わたしは あねに にほんごを おしえて あげました。", "romaji": "Watashi wa ane ni nihongo o oshiete agemashita." }
+    ],
+    "answer": 2,
+    "explain": "'Saya diajari bahasa Jepang oleh kakak perempuan' (～て もらいました) setara dengan 'Kakak perempuan mengajari saya bahasa Jepang' (あねが わたしに ～ おしえて くれました)."
+  },
+  {
+    "id": "b24-88",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Persamaan Makna (Perspektif)",
+    "prompt": "Kalimat mana yang maknanya SAMA dengan 「ワットさんが わたしに まちの ちずを かいて くれました」?",
+    "promptRomaji": "Watto-san ga watashi ni machi no chizu o kaite kuremashita.",
+    "sub": "Ubah subjeknya menjadi わたしは!",
+    "options": [
+      { "jp": "わたしは ワットさんに まちの ちずを かいて もらいました。", "romaji": "Watashi wa Watto-san ni machi no chizu o kaite moraimashita." },
+      { "jp": "わたしは ワットさんに まちの ちずを かいて あげました。", "romaji": "Watashi wa Watto-san ni machi no chizu o kaite agemashita." },
+      { "jp": "わたしは ワットさんに まちの ちずを かいて くれました。", "romaji": "Watashi wa Watto-san ni machi no chizu o kaite kuremashita." },
+      { "jp": "ワットさんは わたしに まちの ちずを かいて もらいました。", "romaji": "Watto-san wa watashi ni machi no chizu o kaite moraimashita." }
+    ],
+    "answer": 0,
+    "explain": "'Sdr. Watt menggambarkan peta kota untuk saya' setara dengan 'Saya digambarkan peta kota oleh Sdr. Watt' (わたしは ワットさんに ～ かいて もらいました)."
+  },
+  {
+    "id": "b24-89",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Deteksi Kalimat Benar",
+    "prompt": "Manakah kalimat berikut yang BENAR secara tata bahasa?",
+    "promptRomaji": "Periksa arah pemberian dan partikel!",
+    "sub": "Pilih satu kalimat yang tepat.",
+    "options": [
+      { "jp": "せんせいが わたしに じしょを かして あげました。", "romaji": "Sensei ga watashi ni jisho o kashite agemashita." },
+      { "jp": "わたしは いもうとに ケーキを つくって くれました。", "romaji": "Watashi wa imouto ni keeki o tsukutte kuremashita." },
+      { "jp": "わたしは ともだちが しゃしんを とって もらいました。", "romaji": "Watashi wa tomodachi ga shashin o totte moraimashita." },
+      { "jp": "さとうさんが わたしに パーティーの じゅんびを てつだって くれました。", "romaji": "Satou-san ga watashi ni paatii no junbi o tetsudatte kuremashita." }
+    ],
+    "answer": 3,
+    "explain": "Opsi 4 benar penuh. Opsi 1 salah memakai あげました kepada わたしに; opsi 2 salah memakai くれました dari わたし; opsi 3 salah memakai が (harus ともだちに)."
+  },
+  {
+    "id": "b24-90",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Deteksi Kesalahan (くれます)",
+    "prompt": "Manakah kalimat berikut yang SALAH penggunaan kata kerjanya?",
+    "promptRomaji": "Periksa arah pemberian ke/dari pembicara!",
+    "sub": "Ingat aturan siapa yang boleh menjadi penerima pada くれます!",
+    "options": [
+      { "jp": "わたしは おじいさんに てがみを かいて あげました。", "romaji": "Watashi wa ojiisan ni tegami o kaite agemashita." },
+      { "jp": "ミラーさんは サントスさんに ワインを くれました。", "romaji": "Miraa-san wa Santosu-san ni wain o kuremashita." },
+      { "jp": "たなかさんが わたしの いもうとに おかしを くれました。", "romaji": "Tanaka-san ga watashi no imouto ni okashi o kuremashita." },
+      { "jp": "わたしは かいしゃから あたらしい パソコンを もらいました。", "romaji": "Watashi wa kaisha kara atarashii pasokon o moraimashita." }
+    ],
+    "answer": 1,
+    "explain": "ミラーさんは サントスさんに ～ くれました salah karena baik Miller maupun Santos adalah orang lain (bukan pembicara/keluarga pembicara). Harusnya あげました."
+  },
+  {
+    "id": "b24-91",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Deteksi Kesalahan (あげます ke わたし)",
+    "prompt": "Manakah kalimat pemberian jasa (Bab 24) berikut yang SALAH?",
+    "promptRomaji": "Cari kalimat yang arah pemberiannya keliru!",
+    "sub": "Perhatikan subjek dan penerima.",
+    "options": [
+      { "jp": "ともだちが わたしを えきまで おくって くれました。", "romaji": "Tomodachi ga watashi o eki made okutte kuremashita." },
+      { "jp": "わたしは やまださんに パソコンの つかいかたを せつめいして もらいました。", "romaji": "Watashi wa Yamada-san ni pasokon no tsukaikata o setsumei shite moraimashita." },
+      { "jp": "ともだちは わたしに きょうとを あんないして あげました。", "romaji": "Tomodachi wa watashi ni Kyouto o annai shite agemashita." },
+      { "jp": "あねは じぶんで おべんとうを つくりました。", "romaji": "Ane wa jibun de obentou o tsukurimashita." }
+    ],
+    "answer": 2,
+    "explain": "Jika orang lain (ともだち) berbuat baik kepada saya (わたしに), TIDAK BOLEH memakai あげました; wajib memakai くれました."
+  },
+  {
+    "id": "b24-92",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Deteksi Kesalahan Partikel",
+    "prompt": "Manakah kalimat berikut yang memakai partikel dengan SALAH?",
+    "promptRomaji": "Periksa partikel penerima dan pemberi pada Bab 24.",
+    "sub": "Pilih satu kalimat yang partikelnya tidak tepat.",
+    "options": [
+      { "jp": "わたしは やまださんを かさを かして あげました。", "romaji": "Watashi wa Yamada-san o kasa o kashite agemashita." },
+      { "jp": "わたしは すずきさんに カメラを なおして もらいました。", "romaji": "Watashi wa Suzuki-san ni kamera o naoshite moraimashita." },
+      { "jp": "きむらさんが わたしに この いみを おしえて くれました。", "romaji": "Kimura-san ga watashi ni kono imi o oshiete kuremashita." },
+      { "jp": "おばあちゃんは わたしに かわいい ぼうしを くれました。", "romaji": "Obaachan wa watashi ni kawaii boushi o kuremashita." }
+    ],
+    "answer": 0,
+    "explain": "Pada kata kerja かします (meminjamkan), orang penerima ditandai partikel に (やまださんに), tidak boleh を (やまださんを)."
+  },
+  {
+    "id": "b24-93",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Etika Berbicara kepada Guru/Atasan",
+    "prompt": "Manakah kalimat penawaran bantuan yang TIDAK sopan jika diucapkan kepada guru (せんせい)?",
+    "promptRomaji": "Etika Bab 24: menawarkan jasa kepada atasan/guru",
+    "sub": "Hindari pola yang terkesan menggurui atau pamer kebaikan kepada atasan.",
+    "options": [
+      { "jp": "せんせい、にもつを もちましょうか。", "romaji": "Sensei, nimotsu o mochimashou ka." },
+      { "jp": "せんせい、タクシーを よびましょうか。", "romaji": "Sensei, takushii o yobimashou ka." },
+      { "jp": "せんせい、おちゃを いれましょうか。", "romaji": "Sensei, ocha o iremashou ka." },
+      { "jp": "せんせい、この かんじを おしえて あげましょうか。", "romaji": "Sensei, kono kanji o oshiete agemashou ka." }
+    ],
+    "answer": 3,
+    "explain": "Pola ～て あげましょうか kepada atasan atau guru dianggap tidak sopan karena bernuansa pamer/merendahkan. Gunakan V-ましょうか."
+  },
+  {
+    "id": "b24-94",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Arah Pemberian ke Ayah Saya",
+    "prompt": "サントスさんは わたしの ちちに ブラジルの コーヒーを （　）。",
+    "promptRomaji": "Santosu-san wa watashi no chichi ni Burajiru no koohii o _____.",
+    "sub": "Santos (orang lain) memberi kopi kepada ayah SAYA (わたしの ちち).",
+    "options": [
+      { "jp": "あげました", "romaji": "agemashita" },
+      { "jp": "くれました", "romaji": "kuremashita" },
+      { "jp": "もらいました", "romaji": "moraimashita" },
+      { "jp": "いれました", "romaji": "iremashita" }
+    ],
+    "answer": 1,
+    "explain": "Ayah saya (わたしの ちち) adalah keluarga pembicara (pihak dalam), jadi pemberian dari orang lain kepada ayah saya memakai くれました."
+  },
+  {
+    "id": "b24-95",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Dialog Meminta Tolong (～て くれませんか)",
+    "prompt": "A：すみません、この かんじの よみかたが わかりません。ちょっと （　）。\nB：ええ、いいですよ。",
+    "promptRomaji": "A: Sumimasen, kono kanji no yomikata ga wakarimasen. Chotto _____. B: Ee, ii desu yo.",
+    "sub": "Pilih ungkapan meminta tolong secara sopan kepada lawan bicara.",
+    "options": [
+      { "jp": "おしえて あげませんか", "romaji": "oshiete agemasen ka" },
+      { "jp": "おしえて もらいませんか", "romaji": "oshiete moraimasen ka" },
+      { "jp": "おしえて くれませんか", "romaji": "oshiete kuremasen ka" },
+      { "jp": "おしえて あげましょうか", "romaji": "oshiete agemashou ka" }
+    ],
+    "answer": 2,
+    "explain": "Untuk meminta lawan bicara melakukan sesuatu bagi kita ('Maukah Anda mengajari...'), gunakan V-て くれませんか."
+  },
+  {
+    "id": "b24-96",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Dialog Menawarkan Bantuan ke Atasan",
+    "prompt": "A：ぶちょう、たくさん にもつが ありますね。（　）。\nB：あ、ありがとう。おねがいします。",
+    "promptRomaji": "A: Buchou, takusan nimotsu ga arimasu ne. _____. B: A, arigatou. Onegai shimasu.",
+    "sub": "Pilih tawaran bantuan yang sopan kepada kepala bagian (ぶちょう).",
+    "options": [
+      { "jp": "ひとつ もちましょうか", "romaji": "hitotsu mochimashou ka" },
+      { "jp": "ひとつ もって あげましょうか", "romaji": "hitotsu motte agemashou ka" },
+      { "jp": "ひとつ もって くれませんか", "romaji": "hitotsu motte kuremasen ka" },
+      { "jp": "ひとつ もって もらいましたか", "romaji": "hitotsu motte moraimashita ka" }
+    ],
+    "answer": 0,
+    "explain": "Kepada atasan (ぶちょう), menawarkan bantuan tidak boleh memakai ～て あげましょうか; gunakan V-ましょうか: ひとつ もちましょうか."
+  },
+  {
+    "id": "b24-97",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Dialog Membantu Pindahan",
+    "prompt": "A：ひっこしは たいへんでしたね。だれか てつだって くれましたか。\nB：はい、かいしゃの ともだちが （　）。",
+    "promptRomaji": "A: Hikkoshi wa taihen deshita ne. Dareka tetsudatte kuremashita ka. B: Hai, kaisha no tomodachi ga _____.",
+    "sub": "Pilih jawaban yang selaras dengan pertanyaan dan subjek ともだちが.",
+    "options": [
+      { "jp": "ぜんぶ じぶんで しました", "romaji": "zenbu jibun de shimashita" },
+      { "jp": "いろいろ あんないして あげました", "romaji": "iroiro annai shite agemashita" },
+      { "jp": "ひっこしを もらいました", "romaji": "hikkoshi o moraimashita" },
+      { "jp": "ぜんぶ てつだって くれました", "romaji": "zenbu tetsudatte kuremashita" }
+    ],
+    "answer": 3,
+    "explain": "Karena menjawab はい dengan subjek かいしゃの ともだちが, lanjutannya adalah ぜんぶ てつだって くれました ('membantu semuanya')."
+  },
+  {
+    "id": "b24-98",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Dialog Pekerjaan Sendiri",
+    "prompt": "A：すごい おかしですね。みせで かいましたか。\nB：いいえ、わたしが （　）。",
+    "promptRomaji": "A: Sugoi okashi desu ne. Mise de kaimashita ka. B: Iie, watashi ga _____.",
+    "sub": "Perhatikan subjeknya adalah わたしが ('saya yang...').",
+    "options": [
+      { "jp": "ともだちに つくって くれました", "romaji": "tomodachi ni tsukutte kuremashita" },
+      { "jp": "じぶんで つくりました", "romaji": "jibun de tsukurimashita" },
+      { "jp": "ともだちに つくって あげました", "romaji": "tomodachi ni tsukutte agemashita" },
+      { "jp": "ははに つくって もらいました", "romaji": "haha ni tsukutte moraimashita" }
+    ],
+    "answer": 1,
+    "explain": "Karena diawali subjek わたしが (saya yang membuatnya), kalimat yang logis dan alami adalah じぶんで つくりました ('saya membuatnya sendiri')."
+  },
+  {
+    "id": "b24-99",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Dialog Homestay",
+    "prompt": "A：ホームステイは たのしかったですか。\nB：はい、ほかに おじいちゃんが わたしを おてらへ （　）。",
+    "promptRomaji": "A: Hoomusutei wa tanoshikatta desu ka. B: Hai, hoka ni ojiichan ga watashi o otera e _____.",
+    "sub": "Kakek keluarga angkat mengajak saya pergi ke kuil.",
+    "options": [
+      { "jp": "つれて いって あげました", "romaji": "tsurete itte agemashita" },
+      { "jp": "つれて きて もらいました", "romaji": "tsurete kite moraimashita" },
+      { "jp": "つれて いって くれました", "romaji": "tsurete itte kuremashita" },
+      { "jp": "おくって あげました", "romaji": "okutte agemashita" }
+    ],
+    "answer": 2,
+    "explain": "Subjek adalah おじいちゃんが (orang lain) dan penerimanya わたしを, sehingga memakai つれて いって くれました."
+  },
+  {
+    "id": "b24-100",
+    "bab": 24,
+    "type": "mcq",
+    "badge": "Bab 24 · Dialog Menawarkan Bantuan ke Teman",
+    "prompt": "A：この ことばの いみが よく わかりません。\nB：じゃ、わたしが （　）。（diucapkan kepada teman sebaya）",
+    "promptRomaji": "A: Kono kotoba no imi ga yoku wakarimasen. B: Ja, watashi ga _____.",
+    "sub": "B menawarkan diri menjelaskan kepada teman sebayanya.",
+    "options": [
+      { "jp": "せつめいして くれませんか", "romaji": "setsumei shite kuremasen ka" },
+      { "jp": "せつめいして もらいますか", "romaji": "setsumei shite moraimasu ka" },
+      { "jp": "せつめいして くれました", "romaji": "setsumei shite kuremashita" },
+      { "jp": "せつめいして あげましょうか", "romaji": "setsumei shite agemashou ka" }
+    ],
+    "answer": 3,
+    "explain": "Kepada teman sebaya atau adik, menawarkan bantuan boleh memakai ～て あげましょうか: せつめいして あげましょうか ('Mau saya jelaskan?')."
   }
 ]

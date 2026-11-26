@@ -848,5 +848,855 @@
     ],
     "answer": 3,
     "explain": "むり［な］ berarti berlebihan/memaksakan diri, ちょうしが わるく なりました berarti kondisinya menjadi buruk."
+  },
+  {
+    "id": "b19-51",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Bentuk -Ta (ち・り → った)",
+    "prompt": "もちます (memegang/membawa) dan つくります (membuat) → Bentuk -Ta:",
+    "promptRomaji": "mochimasu & tsukurimasu → _____",
+    "sub": "Keduanya mengikuti aturan い・ち・り → った.",
+    "options": [
+      { "jp": "もった ・ つくった", "romaji": "motta · tsukutta" },
+      { "jp": "もちた ・ つくりた", "romaji": "mochita · tsukurita" },
+      { "jp": "もんだ ・ つくんだ", "romaji": "monda · tsukunda" },
+      { "jp": "もった ・ つくりた", "romaji": "motta · tsukurita" }
+    ],
+    "answer": 0,
+    "explain": "ち dan り sebelum ます berubah menjadi った pada bentuk -Ta: もちます → もった, つくります → つくった."
+  },
+  {
+    "id": "b19-52",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Bentuk -Ta (み → んだ)",
+    "prompt": "やすみます (beristirahat) dan すみます (tinggal) → Bentuk -Ta:",
+    "promptRomaji": "yasumimasu & sumimasu → _____",
+    "sub": "Samakan aturannya dengan bentuk -Te (やすんで・すんで).",
+    "options": [
+      { "jp": "やすった ・ すった", "romaji": "yasutta · sutta" },
+      { "jp": "やすんだ ・ すんだ", "romaji": "yasunda · sunda" },
+      { "jp": "やすみた ・ すみた", "romaji": "yasumita · sumita" },
+      { "jp": "やすいた ・ すいだ", "romaji": "yasuita · suida" }
+    ],
+    "answer": 1,
+    "explain": "Kelompok I berakhiran み sebelum ます berubah menjadi んだ pada bentuk -Ta: やすんだ dan すんだ."
+  },
+  {
+    "id": "b19-53",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Bentuk -Ta (き・ぎ → いた・いだ)",
+    "prompt": "はたらきます (bekerja) dan いそぎます (terburu-buru) → Bentuk -Ta:",
+    "promptRomaji": "hatarakimasu & isogimasu → _____",
+    "sub": "Perhatikan perbedaan bunyi tanpa dakuten (き) dan dengan dakuten (ぎ).",
+    "options": [
+      { "jp": "はたらいた ・ いそいた", "romaji": "hataraita · isoita" },
+      { "jp": "はたらった ・ いそいだ", "romaji": "hataratta · isoida" },
+      { "jp": "はたらいた ・ いそいだ", "romaji": "hataraita · isoida" },
+      { "jp": "はたらきだ ・ いそぎだ", "romaji": "hatarakida · isogida" }
+    ],
+    "answer": 2,
+    "explain": "き berubah menjadi いた (はたらいた), sedangkan ぎ mempertahankan dakuten menjadi いだ (いそいだ)."
+  },
+  {
+    "id": "b19-54",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Bentuk -Ta (し → した)",
+    "prompt": "だします (mengeluarkan) dan かします (meminjamkan) → Bentuk -Ta:",
+    "promptRomaji": "dashimasu & kashimasu → _____",
+    "sub": "Pilih bentuk -Ta untuk kata kerja Kelompok I berakhiran し.",
+    "options": [
+      { "jp": "だった ・ かった", "romaji": "datta · katta" },
+      { "jp": "だいた ・ かいた", "romaji": "daita · kaita" },
+      { "jp": "だしだ ・ かしだ", "romaji": "dashida · kashida" },
+      { "jp": "だした ・ かした", "romaji": "dashita · kashita" }
+    ],
+    "answer": 3,
+    "explain": "Akhiran し berubah menjadi した pada bentuk -Ta → だした dan かした."
+  },
+  {
+    "id": "b19-55",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Bentuk -Ta (い → った)",
+    "prompt": "あらいます (mencuci) dan もらいます (menerima) → Bentuk -Ta:",
+    "promptRomaji": "araimasu & moraimasu → _____",
+    "sub": "い sebelum ます mengikuti aturan い・ち・り → った.",
+    "options": [
+      { "jp": "あらった ・ もらった", "romaji": "aratta · moratta" },
+      { "jp": "あらいた ・ もらいた", "romaji": "araita · moraita" },
+      { "jp": "あらんだ ・ もらんだ", "romaji": "aranda · moranda" },
+      { "jp": "あらいた ・ もらった", "romaji": "araita · moratta" }
+    ],
+    "answer": 0,
+    "explain": "Pada Kelompok I berakhiran います, huruf い berubah menjadi った → あらった dan もらった."
+  },
+  {
+    "id": "b19-56",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Bentuk -Ta (ち・り → った)",
+    "prompt": "たちます (berdiri) dan すわります (duduk) → Bentuk -Ta:",
+    "promptRomaji": "tachimasu & suwarimasu → _____",
+    "sub": "Ubah kedua kata kerja Kelompok I ini ke bentuk -Ta.",
+    "options": [
+      { "jp": "たちた ・ すわりた", "romaji": "tachita · suwarita" },
+      { "jp": "たった ・ すわった", "romaji": "tatta · suwatta" },
+      { "jp": "たんだ ・ すわんだ", "romaji": "tanda · suwanda" },
+      { "jp": "たいた ・ すわいた", "romaji": "taita · suwaita" }
+    ],
+    "answer": 1,
+    "explain": "ち dan り sebelum ます berubah menjadi った → たった dan すわった."
+  },
+  {
+    "id": "b19-57",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Bentuk -Ta (Kel. II)",
+    "prompt": "おぼえます (mengingat) dan わすれます (lupa) → Bentuk -Ta:",
+    "promptRomaji": "oboemasu & wasuremasu → _____",
+    "sub": "Keduanya kata kerja Kelompok II (bunyi -e sebelum ます).",
+    "options": [
+      { "jp": "おぼえった ・ わすれった", "romaji": "oboetta · wasuretta" },
+      { "jp": "おぼえんだ ・ わすれんだ", "romaji": "oboenda · wasurenda" },
+      { "jp": "おぼえた ・ わすれた", "romaji": "oboeta · wasureta" },
+      { "jp": "おぼいた ・ わすいた", "romaji": "oboita · wasuita" }
+    ],
+    "answer": 2,
+    "explain": "Kata kerja Kelompok II cukup membuang ます lalu menambah た → おぼえた dan わすれた."
+  },
+  {
+    "id": "b19-58",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Bentuk -Ta (Pengecualian Kel. II)",
+    "prompt": "あびます (mandi shower) dan かります (meminjam) → Bentuk -Ta:",
+    "promptRomaji": "abimasu & karimasu → _____",
+    "sub": "Keduanya adalah pengecualian Kelompok II.",
+    "options": [
+      { "jp": "あんだ ・ かった", "romaji": "anda · katta" },
+      { "jp": "あびった ・ かりった", "romaji": "abitta · karitta" },
+      { "jp": "あぶた ・ かるた", "romaji": "abuta · karuta" },
+      { "jp": "あびた ・ かりた", "romaji": "abita · karita" }
+    ],
+    "answer": 3,
+    "explain": "あびます dan かります termasuk Kelompok II meski berakhiran -i sebelum ます. Jadi cukup buang ます + た → あびた dan かりた."
+  },
+  {
+    "id": "b19-59",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Bentuk -Ta (Kel. III)",
+    "prompt": "れんしゅうします (berlatih) dan もって きます (membawa datang) → Bentuk -Ta:",
+    "promptRomaji": "renshuu shimasu & motte kimasu → _____",
+    "sub": "Pilih bentuk -Ta kata kerja Kelompok III.",
+    "options": [
+      { "jp": "れんしゅうした ・ もって きた", "romaji": "renshuu shita · motte kita" },
+      { "jp": "れんしゅうした ・ もって こた", "romaji": "renshuu shita · motte kota" },
+      { "jp": "れんしゅうしった ・ もって きった", "romaji": "renshuu shitta · motte kitta" },
+      { "jp": "れんしゅうすた ・ もって きた", "romaji": "renshuu suta · motte kita" }
+    ],
+    "answer": 0,
+    "explain": "します → した dan きます → きた. Jadi れんしゅうした dan もって きた."
+  },
+  {
+    "id": "b19-60",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Bentuk -Ta → Bentuk ます",
+    "prompt": "Bentuk -Ta 「ひいた」 (bermain piano) dan 「いそいだ」 (tergesa-gesa) berasal dari bentuk -ます...",
+    "promptRomaji": "hiita & isoida ← _____",
+    "sub": "Perhatikan akhiran いた (dari き) dan いだ (dari ぎ).",
+    "options": [
+      { "jp": "ひきます ・ いそきます", "romaji": "hikimasu · isokimasu" },
+      { "jp": "ひきます ・ いそぎます", "romaji": "hikimasu · isogimasu" },
+      { "jp": "ひります ・ いそぎます", "romaji": "hirimasu · isogimasu" },
+      { "jp": "ひいます ・ いそぎます", "romaji": "hiimasu · isogimasu" }
+    ],
+    "answer": 1,
+    "explain": "いた berasal dari akhiran き (ひきます), sedangkan いだ berasal dari akhiran ぎ dengan dakuten (いそぎます)."
+  },
+  {
+    "id": "b19-61",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Deteksi Kesalahan Bentuk -Ta",
+    "prompt": "Manakah perubahan Bentuk -Ta berikut yang keliru?",
+    "promptRomaji": "Cari pasangan Bentuk -Ta yang salah.",
+    "sub": "Periksa kelompok kata kerja masing-masing!",
+    "options": [
+      { "jp": "すてます → すてた", "romaji": "sutemasu → suteta" },
+      { "jp": "せんたくします → せんたくした", "romaji": "sentaku shimasu → sentaku shita" },
+      { "jp": "かえります → かえりた", "romaji": "kaerimasu → kaerita" },
+      { "jp": "おします → おした", "romaji": "oshimasu → oshita" }
+    ],
+    "answer": 2,
+    "explain": "かえります (pulang) adalah Kelompok I berakhiran り, sehingga bentuk -Ta-nya adalah かえった (bukan かえりた)."
+  },
+  {
+    "id": "b19-62",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Bentuk -Ta (あります・います)",
+    "prompt": "あります (ada, benda mati) dan います (ada, makhluk hidup) → Bentuk -Ta:",
+    "promptRomaji": "arimasu & imasu → _____",
+    "sub": "あります adalah Kelompok I, sedangkan います adalah Kelompok II.",
+    "options": [
+      { "jp": "ありた ・ いた", "romaji": "arita · ita" },
+      { "jp": "あった ・ いった", "romaji": "atta · itta" },
+      { "jp": "あんだ ・ いんだ", "romaji": "anda · inda" },
+      { "jp": "あった ・ いた", "romaji": "atta · ita" }
+    ],
+    "answer": 3,
+    "explain": "あります (Kelompok I: り → った) menjadi あった, sedangkan います (Kelompok II) menjadi いた. (いった berasal dari いきます)."
+  },
+  {
+    "id": "b19-63",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Pengalaman ～たことがあります",
+    "prompt": "わたしは とうきょうスカイツリーに （　） ことが あります。 (Saya pernah naik ke Tokyo Skytree.)",
+    "promptRomaji": "Watashi wa Toukyou Sukaitsurii ni _____ koto ga arimasu.",
+    "sub": "のぼります (naik/mendaki) dalam bentuk -Ta.",
+    "options": [
+      { "jp": "のぼった", "romaji": "nobotta" },
+      { "jp": "のぼって", "romaji": "nobotte" },
+      { "jp": "のぼる", "romaji": "noboru" },
+      { "jp": "のぼりた", "romaji": "noborita" }
+    ],
+    "answer": 0,
+    "explain": "Pola pengalaman memakai [V Bentuk -Ta] + ことが あります → のぼった ことが あります."
+  },
+  {
+    "id": "b19-64",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · いちど vs いちども",
+    "prompt": "A: 「にほんの おちゃを ならった ことが ありますか。」\nB: 「はい、（　） あります。」 (Ya, pernah sekali.)",
+    "promptRomaji": "A: Nihon no ocha o naratta koto ga arimasu ka. / B: Hai, _____ arimasu.",
+    "sub": "Bedakan 'sekali' (kalimat positif) dan 'sekali pun tidak' (kalimat negatif).",
+    "options": [
+      { "jp": "いちども", "romaji": "ichido mo" },
+      { "jp": "いちど", "romaji": "ichido" },
+      { "jp": "だんだん", "romaji": "dandan" },
+      { "jp": "もうすぐ", "romaji": "mousugu" }
+    ],
+    "answer": 1,
+    "explain": "Untuk menyatakan 'pernah sekali' pada kalimat positif, dipakai いちど (tanpa も). いちども hanya dipakai bersama kalimat negatif."
+  },
+  {
+    "id": "b19-65",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Pengalaman Negatif",
+    "prompt": "わたしは いちども パチンコを （　） ことが ありません。 (Saya sama sekali belum pernah bermain pachinko.)",
+    "promptRomaji": "Watashi wa ichido mo pachinko o _____ koto ga arimasen.",
+    "sub": "Meskipun kalimat berakhir negatif ありません, kata kerja sebelum ことが tetap berbentuk -Ta.",
+    "options": [
+      { "jp": "する", "romaji": "suru" },
+      { "jp": "して", "romaji": "shite" },
+      { "jp": "した", "romaji": "shita" },
+      { "jp": "しない", "romaji": "shinai" }
+    ],
+    "answer": 2,
+    "explain": "Pada pola pengalaman negatif 'belum pernah ~', kata kerjanya tetap berbentuk -Ta (した), sedangkan negatifnya diletakkan di akhir kalimat (ありません)."
+  },
+  {
+    "id": "b19-66",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Koreksi Kalimat Pengalaman",
+    "prompt": "Manakah kalimat pengalaman yang BENAR secara tata bahasa?",
+    "promptRomaji": "Pilih kalimat V-ta koto ga arimasu yang tepat.",
+    "sub": "Periksa bentuk kata kerja, kata keterangan, dan penanda waktu.",
+    "options": [
+      { "jp": "わたしは いちど すしを たべた ことが ありません。", "romaji": "Watashi wa ichido sushi o tabeta koto ga arimasen." },
+      { "jp": "わたしは にほんへ いく ことが あります。", "romaji": "Watashi wa Nihon e iku koto ga arimasu." },
+      { "jp": "わたしは きょねん きょうとへ いった ことが あります。", "romaji": "Watashi wa kyonen Kyouto e itta koto ga arimasu." },
+      { "jp": "わたしは びょうきで かいしゃを やすんだ ことが あります。", "romaji": "Watashi wa byouki de kaisha o yasunda koto ga arimasu." }
+    ],
+    "answer": 3,
+    "explain": "やすんだ ことが あります ('pernah libur kerja karena sakit') benar. Pilihan lain salah karena いちど tanpa も untuk negatif, memakai いく (bukan いった), atau memakai titik waktu spesifik きょねん dengan たことがあります."
+  },
+  {
+    "id": "b19-67",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Perbandingan Bab 18 vs Bab 19",
+    "prompt": "Perbedaan makna antara 「うまに のった ことが あります」 (Bab 19) dan 「うまに のる ことが できます」 (Bab 18) adalah...",
+    "promptRomaji": "notta koto ga arimasu vs noru koto ga dekimasu",
+    "sub": "Bedakan bentuk -Ta + ことがあります dan Bentuk Kamus + ことができます.",
+    "options": [
+      { "jp": "のった ことが あります = pernah menunggangi; のる ことが できます = bisa menunggangi", "romaji": "" },
+      { "jp": "のった ことが あります = sering menunggangi; のる ことが できます = tidak pernah menunggangi", "romaji": "" },
+      { "jp": "keduanya sama-sama berarti ingin menunggangi kuda", "romaji": "" },
+      { "jp": "のった ことが あります = belum bisa menunggangi; のる ことが できます = sudah lupa cara menunggangi", "romaji": "" }
+    ],
+    "answer": 0,
+    "explain": "V-た ことが あります menyatakan pengalaman ('pernah ~'), sedangkan V-る ことが できます menyatakan kemampuan ('bisa ~')."
+  },
+  {
+    "id": "b19-68",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Terjemahan Pengalaman",
+    "prompt": "Terjemahkan: \"Apakah Anda pernah melihat lukisan Katsushika Hokusai?\"",
+    "promptRomaji": "Terjemahan Jepang (Bab 19)",
+    "sub": "かつしかほくさいの え (lukisan Katsushika Hokusai) + みます.",
+    "options": [
+      { "jp": "かつしかほくさいの えを みる ことが ありますか。", "romaji": "Katsushika Hokusai no e o miru koto ga arimasu ka." },
+      { "jp": "かつしかほくさいの えを みた ことが ありますか。", "romaji": "Katsushika Hokusai no e o mita koto ga arimasu ka." },
+      { "jp": "かつしかほくさいの えを みて ことが ありますか。", "romaji": "Katsushika Hokusai no e o mite koto ga arimasu ka." },
+      { "jp": "かつしかほくさいの えを みった ことが ありますか。", "romaji": "Katsushika Hokusai no e o mitta koto ga arimasu ka." }
+    ],
+    "answer": 1,
+    "explain": "みます adalah Kelompok II, sehingga bentuk -Ta-nya みた, lalu diikuti ことが ありますか."
+  },
+  {
+    "id": "b19-69",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Terjemahan Pengalaman Negatif",
+    "prompt": "Terjemahkan: \"Saya sama sekali belum pernah bermain golf.\"",
+    "promptRomaji": "Terjemahan Jepang (Bab 19)",
+    "sub": "Gunakan いちども + bentuk negatif.",
+    "options": [
+      { "jp": "わたしは いちど ゴルフを した ことが ありません。", "romaji": "Watashi wa ichido gorufu o shita koto ga arimasen." },
+      { "jp": "わたしは いちども ゴルフを します ことが ありません。", "romaji": "Watashi wa ichido mo gorufu o shimasu koto ga arimasen." },
+      { "jp": "わたしは いちども ゴルフを した ことが ありません。", "romaji": "Watashi wa ichido mo gorufu o shita koto ga arimasen." },
+      { "jp": "わたしは なんかいも ゴルフを した ことが ありません。", "romaji": "Watashi wa nankaimo gorufu o shita koto ga arimasen." }
+    ],
+    "answer": 2,
+    "explain": "いちども ('sama sekali tidak pernah') + ゴルフを した ことが ありません menyatakan belum pernah bermain golf sekalipun."
+  },
+  {
+    "id": "b19-70",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Dialog Pengalaman",
+    "prompt": "A: 「ほっかいどうへ いった ことが ありますか。」\nB: 「はい、（　）。とても きれいでした。」",
+    "promptRomaji": "A: Hokkaidou e itta koto ga arimasu ka. / B: Hai, _____. Totemo kirei deshita.",
+    "sub": "Pilih jawaban singkat positif yang tepat untuk pertanyaan ～た ことが ありますか.",
+    "options": [
+      { "jp": "いきます", "romaji": "ikimasu" },
+      { "jp": "いきました", "romaji": "ikimashita" },
+      { "jp": "いません", "romaji": "imasen" },
+      { "jp": "あります", "romaji": "arimasu" }
+    ],
+    "answer": 3,
+    "explain": "Pertanyaan ～た ことが ありますか dijawab singkat dengan はい、あります (Ya, pernah) atau いいえ、ありません (Tidak, belum pernah)."
+  },
+  {
+    "id": "b19-71",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Penutup Lampau ～たり～たり",
+    "prompt": "きょねんの なつやすみは やまに のぼったり、うみで およいだり （　）。",
+    "promptRomaji": "Kyonen no natsuyasumi wa yama ni nobottari, umi de oyoidari _____.",
+    "sub": "Perhatikan waktu 'きょねんの なつやすみ' (libur musim panas tahun lalu)!",
+    "options": [
+      { "jp": "しました", "romaji": "shimashita" },
+      { "jp": "します", "romaji": "shimasu" },
+      { "jp": "ありました", "romaji": "arimashita" },
+      { "jp": "います", "romaji": "imasu" }
+    ],
+    "answer": 0,
+    "explain": "Kala lampau pada pola ～たり、～たり します ditunjukkan di paling akhir kalimat dengan しました."
+  },
+  {
+    "id": "b19-72",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Penutup Kebiasaan ～たり～たり",
+    "prompt": "まいしゅう にちようびは へやを そうじしたり、スーパーへ いったり （　）。",
+    "promptRomaji": "Maishuu nichiyoubi wa heya o souji shitari, suupaa e ittari _____.",
+    "sub": "Perhatikan keterangan kebiasaan 'まいしゅう にちようび' (setiap hari Minggu).",
+    "options": [
+      { "jp": "しました", "romaji": "shimashita" },
+      { "jp": "します", "romaji": "shimasu" },
+      { "jp": "ありました", "romaji": "arimashita" },
+      { "jp": "います", "romaji": "imasu" }
+    ],
+    "answer": 1,
+    "explain": "Karena merupakan kebiasaan rutin setiap hari Minggu (まいしゅう), penutupnya memakai bentuk non-lampau します."
+  },
+  {
+    "id": "b19-73",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Pola ～たり～たりします",
+    "prompt": "きのうの ゆうがたは テニスを （　）、ともだちに でんわを （　） しました。",
+    "promptRomaji": "Kinou no yuugata wa tenisu o _____, tomodachi ni denwa o _____ shimashita.",
+    "sub": "Kedua kegiatan menggunakan bentuk -たり.",
+    "options": [
+      { "jp": "して ・ して", "romaji": "shite · shite" },
+      { "jp": "した ・ した", "romaji": "shita · shita" },
+      { "jp": "したり ・ したり", "romaji": "shitari · shitari" },
+      { "jp": "する ・ する", "romaji": "suru · suru" }
+    ],
+    "answer": 2,
+    "explain": "Pola menyebutkan beberapa contoh aktivitas wajib memakai ～たり pada setiap kata kerja contoh: テニスを したり、でんわを したり しました."
+  },
+  {
+    "id": "b19-74",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · ～たり～たり (いったりきたり)",
+    "prompt": "えきの まえで ひとが いったり （　） して いますね。 (Di depan stasiun orang-orang bolak-balik pergi dan datang ya.)",
+    "promptRomaji": "Eki no mae de hito ga ittari _____ shite imasu ne.",
+    "sub": "きます (datang) diubah ke bentuk -たり.",
+    "options": [
+      { "jp": "くるり", "romaji": "kururi" },
+      { "jp": "こたり", "romaji": "kotari" },
+      { "jp": "きて", "romaji": "kite" },
+      { "jp": "きたり", "romaji": "kitari" }
+    ],
+    "answer": 3,
+    "explain": "きます (Kelompok III) bentuk -Ta-nya adalah きた, lalu tambah り → きたり. いったり きたり berarti bolak-balik."
+  },
+  {
+    "id": "b19-75",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · ～たり～たり (き → いたり)",
+    "prompt": "きのうの よるは にっきを （　）、おんがくを きいたり しました。",
+    "promptRomaji": "Kinou no yoru wa nikki o _____, ongaku o kiitari shimashita.",
+    "sub": "かきます (menulis) diubah ke bentuk -たり.",
+    "options": [
+      { "jp": "かいたり", "romaji": "kaitari" },
+      { "jp": "かったり", "romaji": "kattari" },
+      { "jp": "かきたり", "romaji": "kakitari" },
+      { "jp": "かいてり", "romaji": "kaiteri" }
+    ],
+    "answer": 0,
+    "explain": "かきます (き → いた) menjadi かいた, lalu tambah り → かいたり."
+  },
+  {
+    "id": "b19-76",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · ～たり～たり (い → ったり)",
+    "prompt": "やすみの ひは ともだちに （　）、しゃしんを とったり します。",
+    "promptRomaji": "Yasumi no hi wa tomodachi ni _____, shashin o tottari shimasu.",
+    "sub": "あいます (bertemu) diubah ke bentuk -たり.",
+    "options": [
+      { "jp": "あいたり", "romaji": "aitari" },
+      { "jp": "あったり", "romaji": "attari" },
+      { "jp": "あんだり", "romaji": "andari" },
+      { "jp": "あうり", "romaji": "auri" }
+    ],
+    "answer": 1,
+    "explain": "あいます (い → った) menjadi あった, lalu tambah り → あったり."
+  },
+  {
+    "id": "b19-77",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · ～たり～たり + したいです",
+    "prompt": "きょうの ごごは せんたくしたり、ケーキを （　） したいです。",
+    "promptRomaji": "Kyou no gogo wa sentaku shitari, keeki o _____ shitai desu.",
+    "sub": "つくります (membuat) diubah ke bentuk -たり.",
+    "options": [
+      { "jp": "つくりたり", "romaji": "tsukuritari" },
+      { "jp": "つくって", "romaji": "tsukutte" },
+      { "jp": "つくったり", "romaji": "tsukuttari" },
+      { "jp": "つくるり", "romaji": "tsukururi" }
+    ],
+    "answer": 2,
+    "explain": "つくります (り → った) menjadi つくった, lalu tambah り → つくったり."
+  },
+  {
+    "id": "b19-78",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Deteksi Kesalahan ～たり～たり",
+    "prompt": "Manakah kalimat 「～たり～たり」 yang SALAH?",
+    "promptRomaji": "Pilih kalimat V-tari V-tari yang keliru.",
+    "sub": "Periksa bentuk kata kerja sebelum り!",
+    "options": [
+      { "jp": "あしたは ほんを よんだり、かいものしたり します。", "romaji": "Ashita wa hon o yondari, kaimono shitari shimasu." },
+      { "jp": "きのうは コーヒーを のんだり、えいがを みたり しました。", "romaji": "Kinou wa koohii o nondari, eiga o mitari shimashita." },
+      { "jp": "やすみに りょこうしたり、おんがくを きいたり したいです。", "romaji": "Yasumi ni ryokou shitari, ongaku o kiitari shitai desu." },
+      { "jp": "きのうは こうえんを さんぽしましたり、ともだちと はなしましたり しました。", "romaji": "Kinou wa kouen o sanpo shimashitari, tomodachi to hanashimashitari shimashita." }
+    ],
+    "answer": 3,
+    "explain": "Bentuk -たり dibuat dari Bentuk -Ta (さんぽしたり、はなしたり), bukan dari ～ました + り (さんぽしましたり ❌)."
+  },
+  {
+    "id": "b19-79",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Terjemahan ～たり～たり",
+    "prompt": "Terjemahkan: \"Minggu lalu saya menginap di hotel, berjalan-jalan di taman, dan lain-lain.\"",
+    "promptRomaji": "Terjemahan Jepang (Bab 19)",
+    "sub": "Perhatikan waktu 'せんしゅう' (minggu lalu) pada kata kerja penutup!",
+    "options": [
+      { "jp": "せんしゅう ホテルに とまったり、こうえんを さんぽしたり しました。", "romaji": "Senshuu hoteru ni tomattari, kouen o sanpo shitari shimashita." },
+      { "jp": "せんしゅう ホテルに とまったり、こうえんを さんぽしたり します。", "romaji": "Senshuu hoteru ni tomattari, kouen o sanpo shitari shimasu." },
+      { "jp": "せんしゅう ホテルに とまりたり、こうえんを さんぽしたり しました。", "romaji": "Senshuu hoteru ni tomaritari, kouen o sanpo shitari shimashita." },
+      { "jp": "せんしゅう ホテルに とまって、こうえんを さんぽしたり しました。", "romaji": "Senshuu hoteru ni tomatte, kouen o sanpo shitari shimashita." }
+    ],
+    "answer": 0,
+    "explain": "とまります → とまったり, さんぽします → さんぽしたり, dan karena minggu lalu (せんしゅう) ditutup dengan しました."
+  },
+  {
+    "id": "b19-80",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Dialog ～たり～たり",
+    "prompt": "A: 「ふゆやすみは なにを しましたか。」\nB: 「かぞくに あったり、（　）。」",
+    "promptRomaji": "A: Fuyuyasumi wa nani o shimashita ka. / B: Kazoku ni attari, _____.",
+    "sub": "Lengkapi jawaban lampau untuk pertanyaan 'Apa yang Anda lakukan saat libur musim dingin?'.",
+    "options": [
+      { "jp": "おてらへ いってり しました", "romaji": "otera e itteri shimashita" },
+      { "jp": "おてらへ いったり しました", "romaji": "otera e ittari shimashita" },
+      { "jp": "おてらへ いったり します", "romaji": "otera e ittari shimasu" },
+      { "jp": "おてらへ いった ことが あります", "romaji": "otera e itta koto ga arimasu" }
+    ],
+    "answer": 1,
+    "explain": "Karena pertanyaannya lampau (しましたか) dan diawali あったり, lanjutannya memakai bentuk -たり dan ditutup lampau しました → おてらへ いったり しました."
+  },
+  {
+    "id": "b19-81",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Menjadi (KS-い + なります)",
+    "prompt": "こどもが だんだん （　） なりました。 (Anak itu lama-kelamaan menjadi besar. — おおきい)",
+    "promptRomaji": "Kodomo ga dandan _____ narimashita.",
+    "sub": "おおきい adalah Kata Sifat-い.",
+    "options": [
+      { "jp": "おおきい", "romaji": "ookii" },
+      { "jp": "おおきいに", "romaji": "ookii ni" },
+      { "jp": "おおきく", "romaji": "ookiku" },
+      { "jp": "おおきに", "romaji": "ooki ni" }
+    ],
+    "answer": 2,
+    "explain": "Kata Sifat-い sebelum なります membuang い terakhir lalu ditambah く → おおきく なりました."
+  },
+  {
+    "id": "b19-82",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Menjadi (KS-い + なります)",
+    "prompt": "あたらしい でんきを つけましたから、へやが （　） なりました。 (Karena menyalakan lampu baru, kamar menjadi terang. — あかるい)",
+    "promptRomaji": "Atarashii denki o tsukemashita kara, heya ga _____ narimashita.",
+    "sub": "あかるい (terang) adalah Kata Sifat-い.",
+    "options": [
+      { "jp": "あかるいに", "romaji": "akarui ni" },
+      { "jp": "あかるい", "romaji": "akarui" },
+      { "jp": "あかるな", "romaji": "akaruna" },
+      { "jp": "あかるく", "romaji": "akaruku" }
+    ],
+    "answer": 3,
+    "explain": "あかるい (KS-い) berubah menjadi あかるく sebelum なりました."
+  },
+  {
+    "id": "b19-83",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Menjadi (KS-い + なります)",
+    "prompt": "ふゆは ひるが （　） なります。 (Pada musim dingin, siang hari menjadi pendek. — みじかい)",
+    "promptRomaji": "Fuyu wa hiru ga _____ narimasu.",
+    "sub": "Ubah みじかい agar cocok sebelum なります.",
+    "options": [
+      { "jp": "みじかく", "romaji": "mijikaku" },
+      { "jp": "みじかに", "romaji": "mijika ni" },
+      { "jp": "みじかいに", "romaji": "mijikai ni" },
+      { "jp": "みじかい", "romaji": "mijikai" }
+    ],
+    "answer": 0,
+    "explain": "みじかい adalah Kata Sifat-い: coret い + く → みじかく なります."
+  },
+  {
+    "id": "b19-84",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Menjadi (KS-な + なります)",
+    "prompt": "よる 11じに なりましたから、まちが （　） なりました。 (Karena sudah jam 11 malam, kota menjadi sunyi. — しずか［な］)",
+    "promptRomaji": "Yoru 11-ji ni narimashita kara, machi ga _____ narimashita.",
+    "sub": "しずか adalah Kata Sifat-な.",
+    "options": [
+      { "jp": "しずかく", "romaji": "shizukaku" },
+      { "jp": "しずかに", "romaji": "shizuka ni" },
+      { "jp": "しずかな", "romaji": "shizuka na" },
+      { "jp": "しずかで", "romaji": "shizuka de" }
+    ],
+    "answer": 1,
+    "explain": "Kata Sifat-な sebelum なります ditambah に → しずかに なりました."
+  },
+  {
+    "id": "b19-85",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Menjadi (KS-な + なります)",
+    "prompt": "A: 「かぜは もう いいですか。」\nB: 「はい、おかげさまで （　） なりました。」 (げんき［な］)",
+    "promptRomaji": "A: Kaze wa mou ii desu ka. / B: Hai, okagesama de _____ narimashita.",
+    "sub": "げんき (sehat) adalah Kata Sifat-な.",
+    "options": [
+      { "jp": "げんきく", "romaji": "genkiku" },
+      { "jp": "げんきな", "romaji": "genki na" },
+      { "jp": "げんきに", "romaji": "genki ni" },
+      { "jp": "げんき", "romaji": "genki" }
+    ],
+    "answer": 2,
+    "explain": "Kata Sifat-な + に なります → げんきに なりました ('menjadi sehat')."
+  },
+  {
+    "id": "b19-86",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Menjadi (Kata Benda + なります)",
+    "prompt": "あには らいねん （　） なります。 (Kakak laki-laki saya tahun depan menjadi dokter.)",
+    "promptRomaji": "Ani wa rainen _____ narimasu.",
+    "sub": "いしゃ (dokter) adalah Kata Benda.",
+    "options": [
+      { "jp": "いしゃく", "romaji": "ishaku" },
+      { "jp": "いしゃの", "romaji": "isha no" },
+      { "jp": "いしゃが", "romaji": "isha ga" },
+      { "jp": "いしゃに", "romaji": "isha ni" }
+    ],
+    "answer": 3,
+    "explain": "Kata Benda sebelum なります wajib memakai partikel に → いしゃに なります."
+  },
+  {
+    "id": "b19-87",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Menjadi (Waktu + なります)",
+    "prompt": "もうすぐ 7じ（　） なります。 (Sebentar lagi pukul 7.)",
+    "promptRomaji": "Mousugu 7-ji _____ narimasu.",
+    "sub": "7じ adalah Kata Benda penunjuk waktu.",
+    "options": [
+      { "jp": "に", "romaji": "ni" },
+      { "jp": "く", "romaji": "ku" },
+      { "jp": "を", "romaji": "o" },
+      { "jp": "で", "romaji": "de" }
+    ],
+    "answer": 0,
+    "explain": "Waktu/Kata Benda sebelum なります memakai partikel に → 7じに なります."
+  },
+  {
+    "id": "b19-88",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Menjadi (KS-い + なります)",
+    "prompt": "まいにち むりな しごとを して、からだの ちょうしが （　） なりました。 (わるい)",
+    "promptRomaji": "Mainichi muri na shigoto o shite, karada no choushi ga _____ narimashita.",
+    "sub": "わるい adalah Kata Sifat-い.",
+    "options": [
+      { "jp": "わるいに", "romaji": "warui ni" },
+      { "jp": "わるく", "romaji": "waruku" },
+      { "jp": "わるな", "romaji": "waruna" },
+      { "jp": "わるい", "romaji": "warui" }
+    ],
+    "answer": 1,
+    "explain": "わるい (buruk) adalah KS-い: coret い + く → わるく なりました."
+  },
+  {
+    "id": "b19-89",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Deteksi Kesalahan なります",
+    "prompt": "Pilih kalimat perubahan kondisi dengan 「なります」 yang tidak tepat:",
+    "promptRomaji": "Cari penggunaan narimasu yang salah.",
+    "sub": "Periksa pemakaian ～く vs ～に!",
+    "options": [
+      { "jp": "にほんごが じょうずに なりました。", "romaji": "Nihongo ga jouzu ni narimashita." },
+      { "jp": "おとうとは 18さいに なりました。", "romaji": "Otouto wa 18-sai ni narimashita." },
+      { "jp": "きのうより きょうの ほうが あつくに なりました。", "romaji": "Kinou yori kyou no hou ga atsuku ni narimashita." },
+      { "jp": "かみが みじかく なりました。", "romaji": "Kami ga mijikaku narimashita." }
+    ],
+    "answer": 2,
+    "explain": "KS-い cukup memakai ～く tanpa に! Yang benar adalah あつく なりました (bukan あつくに なりました)."
+  },
+  {
+    "id": "b19-90",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Terjemahan なります",
+    "prompt": "Terjemahkan: \"Setelah masuk universitas, waktu luang menjadi sedikit.\"",
+    "promptRomaji": "Terjemahan Jepang (Bab 19)",
+    "sub": "すくない (sedikit) adalah Kata Sifat-い.",
+    "options": [
+      { "jp": "だいがくに はいってから、ひまが すくないに なりました。", "romaji": "Daigaku ni haitte kara, hima ga sukunai ni narimashita." },
+      { "jp": "だいがくに はいってから、ひまが すくなく なります。", "romaji": "Daigaku ni haitte kara, hima ga sukunaku narimasu." },
+      { "jp": "だいがくに はいってから、ひまが すくな なりました。", "romaji": "Daigaku ni haitte kara, hima ga sukuna narimashita." },
+      { "jp": "だいがくに はいってから、ひまが すくなく なりました。", "romaji": "Daigaku ni haitte kara, hima ga sukunaku narimashita." }
+    ],
+    "answer": 3,
+    "explain": "すくない (KS-い) → すくなく, dan karena sudah terjadi memakai lampau なりました."
+  },
+  {
+    "id": "b19-91",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Terjemahan なります (KS-な)",
+    "prompt": "Terjemahkan: \"Stasiun baru itu menjadi sangat ramai.\"",
+    "promptRomaji": "Terjemahan Jepang (Bab 19)",
+    "sub": "にぎやか［な］ (ramai) adalah Kata Sifat-な.",
+    "options": [
+      { "jp": "あたらしい えきは とても にぎやかに なりました。", "romaji": "Atarashii eki wa totemo nigiyaka ni narimashita." },
+      { "jp": "あたらしい えきは とても にぎやかくなりました。", "romaji": "Atarashii eki wa totemo nigiyakaku narimashita." },
+      { "jp": "あたらしい えきは とても にぎやかな なりました。", "romaji": "Atarashii eki wa totemo nigiyaka na narimashita." },
+      { "jp": "あたらしい えきは とても にぎやか なりました。", "romaji": "Atarashii eki wa totemo nigiyaka narimashita." }
+    ],
+    "answer": 0,
+    "explain": "にぎやか adalah Kata Sifat-な sehingga memakai に sebelum なりました → にぎやかに なりました."
+  },
+  {
+    "id": "b19-92",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Kosakata れんしゅう",
+    "prompt": "「まいにち テニスの れんしゅうを します。」 Arti 「れんしゅう」 adalah...",
+    "promptRomaji": "\"renshuu\" no imi wa nan desu ka.",
+    "sub": "Pilih arti kosakata Bab 19 ini.",
+    "options": [
+      { "jp": "pertandingan", "romaji": "" },
+      { "jp": "latihan", "romaji": "" },
+      { "jp": "kondisi", "romaji": "" },
+      { "jp": "diet", "romaji": "" }
+    ],
+    "answer": 1,
+    "explain": "れんしゅう (練習) berarti latihan; れんしゅうを します berarti berlatih."
+  },
+  {
+    "id": "b19-93",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Kata Penghubung でも",
+    "prompt": "まいにち およぎます。（　）、なかなか はやく およぐ ことが できません。",
+    "promptRomaji": "Mainichi oyogimasu. _____, nakanaka hayaku oyogu koto ga dekimasen.",
+    "sub": "Pilih kata penghubung yang menyatakan pertentangan ('tetapi / namun').",
+    "options": [
+      { "jp": "だんだん", "romaji": "dandan" },
+      { "jp": "もうすぐ", "romaji": "mousugu" },
+      { "jp": "でも", "romaji": "demo" },
+      { "jp": "おかげさまで", "romaji": "okagesama de" }
+    ],
+    "answer": 2,
+    "explain": "でも di awal kalimat berarti 'tetapi / namun' (sepadan dengan しかし pada gaya tulisan/formal)."
+  },
+  {
+    "id": "b19-94",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Kosakata ちょうし",
+    "prompt": "きょうは あたまが いたくて、ねつも あります。からだの （　） わるいです。",
+    "promptRomaji": "Kyou wa atama ga itakute, netsu mo arimasu. Karada no _____ warui desu.",
+    "sub": "Pilih kosakata Bab 19 untuk 'kondisi'.",
+    "options": [
+      { "jp": "ひが", "romaji": "hi ga" },
+      { "jp": "むりが", "romaji": "muri ga" },
+      { "jp": "しゅみが", "romaji": "shumi ga" },
+      { "jp": "ちょうしが", "romaji": "choushi ga" }
+    ],
+    "answer": 3,
+    "explain": "ちょうし (調子) berarti kondisi. からだの ちょうしが わるいです berarti kondisi tubuh sedang buruk."
+  },
+  {
+    "id": "b19-95",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Kosakata Kata Sifat",
+    "prompt": "きのう 3じかんだけ ねましたから、きょうは とても （　）です。",
+    "promptRomaji": "Kinou 3-jikan dake nemashita kara, kyou wa totemo _____ desu.",
+    "sub": "Pilih Kata Sifat-い yang berarti 'mengantuk'.",
+    "options": [
+      { "jp": "ねむい", "romaji": "nemui" },
+      { "jp": "つよい", "romaji": "tsuyoi" },
+      { "jp": "よわい", "romaji": "yowai" },
+      { "jp": "いたい", "romaji": "itai" }
+    ],
+    "answer": 0,
+    "explain": "ねむい (眠い) berarti mengantuk."
+  },
+  {
+    "id": "b19-96",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Dialog Percakapan",
+    "prompt": "A: 「あれ、ケーキを たべませんか。」\nB: 「ええ、（　） きょうから ダイエットを して います。」",
+    "promptRomaji": "A: Are, keeki o tabemasen ka. / B: Ee, _____ kyou kara daietto o shite imasu.",
+    "sub": "Pilih ungkapan Bab 19 yang berarti 'sebenarnya / sejujurnya'.",
+    "options": [
+      { "jp": "もうすぐ", "romaji": "mousugu" },
+      { "jp": "じつは", "romaji": "jitsuwa" },
+      { "jp": "いちども", "romaji": "ichido mo" },
+      { "jp": "おかげさまで", "romaji": "okagesama de" }
+    ],
+    "answer": 1,
+    "explain": "じつは (実は) berarti 'sebenarnya / terus terang', sering dipakai saat menjelaskan alasan kepada lawan bicara."
+  },
+  {
+    "id": "b19-97",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Kosakata Kerja",
+    "prompt": "「ふじさんに のぼって、やまの ホテルに とまりました。」 Arti kalimat ini adalah...",
+    "promptRomaji": "Fujisan ni nobotte, yama no hoteru ni tomarimashita.",
+    "sub": "Perhatikan arti のぼります dan とまります.",
+    "options": [
+      { "jp": "Saya memotret Gunung Fuji lalu pulang ke hotel.", "romaji": "" },
+      { "jp": "Saya melihat Gunung Fuji lalu beristirahat di rumah.", "romaji": "" },
+      { "jp": "Saya mendaki Gunung Fuji lalu menginap di hotel gunung.", "romaji": "" },
+      { "jp": "Saya pergi ke kaki Gunung Fuji lalu membersihkan hotel.", "romaji": "" }
+    ],
+    "answer": 2,
+    "explain": "のぼります berarti mendaki/naik, dan とまります berarti menginap."
+  },
+  {
+    "id": "b19-98",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Kosakata",
+    "prompt": "「すもう」 dan 「おちゃ (Bab 19)」 masing-masing berarti...",
+    "promptRomaji": "\"sumou\" & \"ocha\"",
+    "sub": "Pilih pasangan arti yang tepat sesuai daftar kosakata Bab 19.",
+    "options": [
+      { "jp": "renang dan kopi", "romaji": "" },
+      { "jp": "golf dan teh hitam", "romaji": "" },
+      { "jp": "tenis dan kue", "romaji": "" },
+      { "jp": "gulat sumo dan upacara minum teh", "romaji": "" }
+    ],
+    "answer": 3,
+    "explain": "Dalam Bab 19, すもう (相撲) adalah gulat sumo, dan おちゃ merujuk pada upacara minum teh tradisional Jepang."
+  },
+  {
+    "id": "b19-99",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Ungkapan Kesehatan",
+    "prompt": "「やさいを たくさん たべる ことは からだに いいです。」 Arti 「からだに いい」 adalah...",
+    "promptRomaji": "Yasai o takusan taberu koto wa karada ni ii desu. (\"karada ni ii\" no imi wa...)",
+    "sub": "Pilih arti ungkapan Bab 19 ini.",
+    "options": [
+      { "jp": "baik untuk tubuh / kesehatan", "romaji": "" },
+      { "jp": "tidak baik untuk tubuh", "romaji": "" },
+      { "jp": "memaksakan tubuh", "romaji": "" },
+      { "jp": "kondisi tubuh sedang sakit", "romaji": "" }
+    ],
+    "answer": 0,
+    "explain": "からだに いい (体に いい) berarti baik untuk tubuh/kesehatan."
+  },
+  {
+    "id": "b19-100",
+    "bab": 19,
+    "type": "mcq",
+    "badge": "Bab 19 · Pemahaman Kalimat",
+    "prompt": "「わたしは いちども すもうを みた ことが ありません。ですから、らいげつ ともだちと みに いきたいです。」 Arti kalimat ini adalah...",
+    "promptRomaji": "Watashi wa ichido mo sumou o mita koto ga arimasen. Desukara, raigetsu tomodachi to mi ni ikitai desu.",
+    "sub": "Perhatikan arti いちども ～ ことが ありません dan みに いきたいです.",
+    "options": [
+      { "jp": "Saya sudah berkali-kali menonton sumo bersama teman.", "romaji": "" },
+      { "jp": "Bulan depan teman saya tidak mau menonton sumo.", "romaji": "" },
+      { "jp": "Saya pernah menonton sumo sekali bulan lalu.", "romaji": "" },
+      { "jp": "Saya belum pernah menonton sumo sekalipun. Oleh karena itu, bulan depan saya ingin pergi menontonnya bersama teman.", "romaji": "" }
+    ],
+    "answer": 3,
+    "explain": "いちども みた ことが ありません berarti 'belum pernah menonton sekalipun', dan らいげつ ともだちと みに いきたいです berarti 'bulan depan ingin pergi menonton bersama teman'."
   }
 ]

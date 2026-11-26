@@ -128,7 +128,7 @@
   const REFERENCES = window.MNN_REFERENCES || [];
   const KAIWA_BY_BAB = window.MNN_KAIWA || {};
   const FINAL_EXAM = window.FINAL_EXAM_1_25 || [];
-  const ASSET_VERSION = "20261125-v22";
+  const ASSET_VERSION = "20261125-v23";
   const FINAL_MAX_PER_BAB = 10;
   const FINAL_HARD_CAP = 250;
   const FINAL_BANK_CACHE = {};
@@ -4146,7 +4146,7 @@
       </div>
       <h1 class="page-title">Evaluasi Akhir Komprehensif: Bab 1 – 25</h1>
       <p class="page-lead">
-        Bab 1–13 memanfaatkan bank <strong>50 soal JSON/bab</strong> (<code>data/bank/bab-01..13.json</code>), sedangkan Bab 14–25 memakai bank soal aktif dan siap menampung 50 soal JSON lewat bridge <code>data/bank/bab-14..25.json</code>.
+        Seluruh Bab 1–25 memanfaatkan bank <strong>50–100 soal JSON/bab</strong> (<code>data/bank/bab-01..25.json</code>, total 2.125 soal): Bab 1–6 (50 soal), Bab 8·9·13 (75 soal), dan Bab 7·10–12·14–25 (100 soal).
       </p>
     `;
   }

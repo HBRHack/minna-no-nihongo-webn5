@@ -17,6 +17,12 @@ const onlyBabs = babArg
 const JP_RE = /[\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]/;
 const norm = (s) => String(s || "").replace(/\s+/g, " ").trim();
 
+function expectedCountForBab(bab) {
+  if (bab >= 1 && bab <= 6) return 50;
+  if (bab === 8 || bab === 9 || bab === 13) return 75;
+  return 100;
+}
+
 const problems = [];
 const warnings = [];
 const globalPromptAnswer = new Map();
@@ -50,8 +56,9 @@ for (let bab = 1; bab <= 25; bab++) {
     problems.push(`${file}: root harus array`);
     continue;
   }
-  if (data.length !== 50) {
-    problems.push(`${file}: jumlah soal ${data.length}, harus tepat 50`);
+  const expectedCount = expectedCountForBab(bab);
+  if (data.length !== expectedCount) {
+    problems.push(`${file}: jumlah soal ${data.length}, harus tepat ${expectedCount}`);
   }
 
   const prompts = new Map();
@@ -68,6 +75,9 @@ for (let bab = 1; bab <= 25; bab++) {
     const expectedId = `b${bab}-${String(i + 1).padStart(2, "0")}`;
     if (q.id !== expectedId) problems.push(`${where}: id "${q.id}" harus "${expectedId}"`);
     if (q.bab !== bab) problems.push(`${where}: bab ${q.bab} harus ${bab}`);
+    if (bab === 17 && (typeof q.section !== "string" || !/^[ABCD]\s+·/.test(q.section))) {
+      problems.push(`${where}: Bab 17 section "${q.section}" harus dimulai dengan "A ·", "B ·", "C ·", atau "D ·"`);
+    }
     if (q.type !== "mcq") problems.push(`${where}: type harus "mcq"`);
 
     for (const field of ["prompt", "promptRomaji", "sub", "explain", "badge"]) {
