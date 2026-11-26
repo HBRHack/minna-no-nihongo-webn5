@@ -6,10 +6,26 @@ window.MNN_KAIWA = {
     bab: 1,
     title: "はじめまして — Perkenalan Pertama",
     scene: "佐藤（さとう）さん bertemu dengan pegawai baru dari Amerika, マイク・ミラーさん, yang diperkenalkan oleh 山田（やまだ）さん di kantor IMC.",
+    intro: {
+      speaker: "ナレーター (Narator CD)",
+      gender: "female",
+      tempo: "tenang",
+      jp: "第1課、会話。「はじめまして」。朝、IMCの 会社で、山田さんが 佐藤さんに アメリカから 来た マイク・ミラーさんを 紹介します。よく 聞いて、まねして ください。",
+      romaji: "Dai-ikka, Kaiwa. \"Hajimemashite.\" Asa, IMC no kaisha de, Yamada-san ga Satou-san ni Amerika kara kita Maiku Miraa-san o shoukai shimasu. Yoku kiite, maneshite kudasai.",
+      id: "Bab 1, Percakapan: \"Perkenalan Pertama\". Pagi hari di kantor IMC, Pak Yamada memperkenalkan Mike Miller yang datang dari Amerika kepada Bu Sato. Dengarkan baik-baik, lalu tirukan."
+    },
+    outro: {
+      speaker: "ナレーター (Narator CD)",
+      gender: "female",
+      tempo: "tenang",
+      jp: "おつかれさまでした。もう 一度 聞いて みましょう。",
+      romaji: "Otsukaresama deshita. Mou ichido kiite mimashou.",
+      id: "Kerja bagus! Mari coba dengarkan sekali lagi."
+    },
     roles: [
-      { id: "sato", name: "佐藤（さとう）", label: "Sato · Wanita", gender: "female", avatar: "👩‍💼" },
-      { id: "yamada", name: "山田（やまだ）", label: "Yamada · Pria", gender: "male", avatar: "👨‍💼" },
-      { id: "miller", name: "ミラー", label: "Mike Miller · Pria", gender: "male", avatar: "🙋‍♂️" }
+      { id: "sato", name: "佐藤（さとう）", label: "Sato · Wanita", gender: "female", tempo: "normal", avatar: "👩‍💼" },
+      { id: "yamada", name: "山田（やまだ）", label: "Yamada · Pria (Senior)", gender: "male", tempo: "tenang", avatar: "👨‍💼" },
+      { id: "miller", name: "ミラー", label: "Mike Miller · Pria (Baru)", gender: "male", tempo: "lincah", avatar: "🙋‍♂️" }
     ],
     lines: [
       {
