@@ -14,6 +14,9 @@ Kurikulum **Minna no Nihongo I** (みんなの日本語 初級 I) mencakup 25 ba
 | [bab-16-20.md](./bab-16-20.md) | **Bab 16 – 20** | Urutan aksi (`V-て`), **Bentuk-ない** (`ないで・なければなりません`), **Bentuk Kamus** (`ことができます`), **Bentuk-た** (`ことがあります`), **Bentuk Biasa (普通形)**. |
 | [bab-21-25.md](./bab-21-25.md) | **Bab 21 – 25** | Pendapat & kutipan (`と思います・と言いました`), modifikasi kata benda, `とき` & `と`, memberi/menerima aksi (`てあげます・てもらいます・てくれます`), `たら` & `ても`. |
 | [ringkasan-partikel-dan-konjugasi.md](./ringkasan-partikel-dan-konjugasi.md) | **Referensi** | Tabel konjugasi lengkap kata kerja (Kelompok I, II, III) dan daftar fungsi partikel penting Bab 1–25. |
+| [kaiwa-bab-1-5.md](./kaiwa-bab-1-5.md) | **Kaiwa 1–5** | Naskah percakapan asli Minna no Nihongo I Bab 1–5, lengkap dengan romaji, terjemahan, pembagian peran, dan catatan. |
+| [kaiwa-bab-6-10.md](./kaiwa-bab-6-10.md) | **Kaiwa 6–10** | Naskah percakapan Bab 6–10: ajakan, bertamu, kesan hidup di Jepang, alasan menolak, dan keberadaan barang. |
+| [kaiwa-bab-11-15.md](./kaiwa-bab-11-15.md) | **Kaiwa 11–15** | Naskah percakapan Bab 11–15: kuantitas & durasi, kala lampau/perbandingan, keinginan, bentuk-て, dan ～て います. |
 
 ---
 
@@ -31,9 +34,9 @@ Kurikulum **Minna no Nihongo I** (みんなの日本語 初級 I) mencakup 25 ba
 
 ---
 
-## Studio Web Lengkap (Kana + Bab 1–25 + 11 Referensi + Audio + Multi-Profil)
+## Studio Web Lengkap (Kana + Bab 1–25 + 11 Referensi + Kaiwa 1–15 + Audio + Multi-Profil)
 
-Seluruh aplikasi interaktif — **Hiragana & Katakana (46+46 + 40 soal)**, **Bab 1–25 lengkap (430 soal)**, **11 Kategori Referensi (110 soal)**, **Tes Akhir 1–25 (25 soal)**, total **605 soal tanpa timer** — ada di satu folder `web/`.
+Seluruh aplikasi interaktif — **Hiragana & Katakana (46+46 + 40 soal)**, **Bab 1–25 lengkap (1.250 soal; bank 50 soal per bab, 15–25 soal acak per sesi)**, **11 Kategori Referensi (110 soal)**, **Tes Akhir 1–25 (25 soal)**, **Kaiwa interaktif Bab 1–15 (147 baris dengan Voice Router Pria/Wanita)**, total **1.425 soal tanpa timer** — ada di satu folder `web/`.
 
 ### 1. Menjalankan di Laptop & HP Satu Wi-Fi (Lokal)
 

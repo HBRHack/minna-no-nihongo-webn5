@@ -128,7 +128,7 @@
   const REFERENCES = window.MNN_REFERENCES || [];
   const KAIWA_BY_BAB = window.MNN_KAIWA || {};
   const FINAL_EXAM = window.FINAL_EXAM_1_25 || [];
-  const ASSET_VERSION = "20261125-v16";
+  const ASSET_VERSION = "20261125-v21";
   const FINAL_MAX_PER_BAB = 10;
   const FINAL_HARD_CAP = 250;
   const FINAL_BANK_CACHE = {};
@@ -581,20 +581,27 @@
   const GOOGLE_FEMALE_DEFAULT_RE = /google\s*(?:日本語|japanese)/i;
   const CLOUD_VOICE_RE = /online|natural|google/i;
   const KAIWA_TEMPO_FACTORS = {
-    berwibawa: 0.85,
-    tenang: 0.90,
+    berwibawa: 0.76,
+    tenang: 0.80,
     normal: 1.0,
-    lincah: 1.13
+    lincah: 1.15
+  };
+  const FEMALE_TEMPO_FACTORS = {
+    berwibawa: 0.74,
+    tenang: 0.74,
+    normal: 1.0,
+    lincah: 1.18
   };
 
-  function resolveTempoFactor(roleTempo, slot, singleVoiceShared) {
+  function resolveTempoFactor(roleTempo, slot, singleVoiceShared, effectiveGender) {
     if (typeof roleTempo === "number" && Number.isFinite(roleTempo)) {
       return Math.min(1.35, Math.max(0.65, roleTempo));
     }
     if (typeof roleTempo === "string" && roleTempo.trim()) {
       const key = roleTempo.trim().toLowerCase();
-      if (Object.prototype.hasOwnProperty.call(KAIWA_TEMPO_FACTORS, key)) {
-        return KAIWA_TEMPO_FACTORS[key];
+      const map = effectiveGender === "female" ? FEMALE_TEMPO_FACTORS : KAIWA_TEMPO_FACTORS;
+      if (Object.prototype.hasOwnProperty.call(map, key)) {
+        return map[key];
       }
       const parsed = Number(key);
       if (Number.isFinite(parsed) && parsed > 0) {
@@ -646,7 +653,7 @@
       && (FEMALE_VOICE_RE.test(vTag) || GOOGLE_FEMALE_DEFAULT_RE.test(vTag));
 
     const hasExplicitTempo = roleTempo !== undefined && roleTempo !== null && String(roleTempo).trim() !== "";
-    const tempoFactor = resolveTempoFactor(roleTempo, slot, true);
+    const tempoFactor = resolveTempoFactor(roleTempo, slot, true, effectiveGender);
     const calcRate = (fallbackFactor) => {
       const f = hasExplicitTempo ? tempoFactor : (slot > 0 ? tempoFactor : fallbackFactor);
       return Number(Math.min(1.5, Math.max(0.55, baseRate * f)).toFixed(2));
@@ -1528,7 +1535,7 @@
             4. 🏆 Kuis Akhir Kotoba Bab ${ch.num}${kSaved ? ` (${kSaved.bestPct}%)` : ""}
           </button>
           <button type="button" class="mode-tab ${state.activeTab === "kaiwa" ? "is-active" : ""}" id="tabKaiwa" role="tab" aria-selected="${state.activeTab === "kaiwa"}">
-            5. 💬 Kaiwa (${KAIWA_BY_BAB[ch.num] ? `${KAIWA_BY_BAB[ch.num].lines.length} Baris` : "Trial Bab 1"})
+            5. 💬 Kaiwa (${KAIWA_BY_BAB[ch.num] ? `${KAIWA_BY_BAB[ch.num].lines.length} Baris` : "Belum Tersedia"})
           </button>
         </div>
       </section>
@@ -1567,6 +1574,12 @@
     } else {
       renderQuizBody(ch);
     }
+  }
+
+  function calcSpeechSafetyTimeoutMs(text, rate) {
+    const len = String(text || "").length;
+    const effRate = Math.max(0.5, Number(rate) || 1.0);
+    return Math.min(45000, Math.max(15000, Math.round((len * 320) / effRate) + 8000));
   }
 
   function startKaiwaAutoPlay(chNum) {
@@ -1610,11 +1623,14 @@
         onDone();
       };
 
-      kaiwaTimerId = setTimeout(doneFn, 14000);
-      speakJapanese(narObj.jp, null, {
+      const narTempo = narObj.rateBias !== undefined ? narObj.rateBias : 0.88;
+      const narText = narObj.tts || narObj.jp;
+      const narCfg = resolveJapaneseVoice(narObj.gender || "female", 0, narTempo);
+      kaiwaTimerId = setTimeout(doneFn, calcSpeechSafetyTimeoutMs(narText, narCfg.rate));
+      speakJapanese(narText, null, {
         gender: narObj.gender || "female",
         roleSlot: 0,
-        roleTempo: narObj.tempo || "tenang",
+        roleTempo: narTempo,
         onEnd: doneFn
       });
     };
@@ -1674,9 +1690,11 @@
       const roleSlots = buildKaiwaRoleSlots(kaiwa);
       const roleSlot = Object.prototype.hasOwnProperty.call(roleSlots, line.speakerId) ? roleSlots[line.speakerId] : 0;
       const roleObj = (kaiwa.roles || []).find((r) => r.id === line.speakerId) || {};
-      const roleTempo = roleObj.tempo !== undefined ? roleObj.tempo : roleObj.rateBias;
-      kaiwaTimerId = setTimeout(advance, 9000);
-      speakJapanese(line.jp, null, { gender: line.gender, roleSlot, roleTempo, onEnd: advance });
+      const roleTempo = roleObj.rateBias !== undefined ? roleObj.rateBias : roleObj.tempo;
+      const speechText = line.tts || line.jp;
+      const lineCfg = resolveJapaneseVoice(line.gender, roleSlot, roleTempo);
+      kaiwaTimerId = setTimeout(advance, calcSpeechSafetyTimeoutMs(speechText, lineCfg.rate));
+      speakJapanese(speechText, null, { gender: line.gender, roleSlot, roleTempo, onEnd: advance });
     };
 
     if (state.kaiwaWithIntro && kaiwa.intro) {
@@ -1710,13 +1728,13 @@
       body.innerHTML = `
         <section class="study-section">
           <div class="result-card">
-            <p class="eyebrow">TRIAL KAIWA AKTIF DI BAB 1</p>
+            <p class="eyebrow">KAIWA INTERAKTIF BAB 1–25</p>
             <div class="result-score" style="font-size:24px;">Kaiwa Bab ${ch.num} Belum Ditambahkan</div>
             <p class="result-msg">
-              Sesuai tahap uji coba, dialog percakapan interaktif beserta <strong>3-Layer Voice Router (Pria/Wanita)</strong> saat ini sedang aktif untuk dites pada <strong>Bab 1</strong> terlebih dahulu.
+              Dialog percakapan interaktif beserta <strong>3-Layer Voice Router (Pria/Wanita)</strong> saat ini tersedia untuk <strong>Bab 1–25</strong>.
             </p>
             <div class="result-actions">
-              <button type="button" class="btn-primary" id="btnGoTrialKaiwaBab1">💬 Buka Trial Kaiwa Bab 1 →</button>
+              <button type="button" class="btn-primary" id="btnGoTrialKaiwaBab1">💬 Buka Kaiwa Bab 1 →</button>
               <button type="button" class="btn-secondary" id="btnBackMateriFromKaiwa">← Kembali ke Materi Bab ${ch.num}</button>
             </div>
           </div>
@@ -1758,7 +1776,7 @@
       const roleObj = (kaiwa.roles || []).find((r) => r.id === line.speakerId) || {};
       const g = line.gender === "female" ? "female" : "male";
       const slot = Object.prototype.hasOwnProperty.call(roleSlots, line.speakerId) ? roleSlots[line.speakerId] : 0;
-      const roleTempo = roleObj.tempo !== undefined ? roleObj.tempo : roleObj.rateBias;
+      const roleTempo = roleObj.rateBias !== undefined ? roleObj.rateBias : roleObj.tempo;
       const genderLabel = `${g === "female" ? "Wanita" : "Pria"}${genderTotal[g] > 1 ? ` #${slot + 1}` : ""}`;
       return `
         <article class="kaiwa-row ${g === "female" ? "is-female" : "is-male"} ${isSpeaking ? "is-speaking-line" : ""} ${isMuted ? "is-role-muted" : ""}">
@@ -1770,7 +1788,7 @@
                 <span class="zone-pill ${g === "female" ? "zone-orange" : "zone-neutral"}">${genderLabel}</span>
                 ${isSpeaking ? `<span class="zone-pill zone-green">${isMuted ? "🎙️ Giliranmu Baca" : state.kaiwaRepeatPause ? "🎙️ Tirukan Sekarang..." : "🔊 Sedang Bicara"}</span>` : ""}
               </div>
-              ${ttsBtnHtml(line.jp, "tts-btn-sm", line.gender, slot, roleTempo)}
+              ${ttsBtnHtml(line.tts || line.jp, "tts-btn-sm", line.gender, slot, roleTempo)}
             </div>
             <div class="kaiwa-jp">${esc(line.jp)}</div>
             <div class="romaji">${esc(line.romaji)}</div>
@@ -1793,7 +1811,7 @@
             <span class="zone-pill zone-orange">Wanita · Pengantar CD</span>
             ${isIntroSpeaking ? `<span class="zone-pill zone-green">🔊 Intro CD Berjalan</span>` : isOutroSpeaking ? `<span class="zone-pill zone-green">🔊 Penutup CD</span>` : `<span class="zone-pill zone-neutral">${state.kaiwaWithIntro ? "Aktif di Awal" : "Dilewati"}</span>`}
           </div>
-          ${ttsBtnHtml(activeNar.jp, "tts-btn-sm", activeNar.gender || "female", 0, activeNar.tempo || "tenang")}
+          ${ttsBtnHtml(activeNar.tts || activeNar.jp, "tts-btn-sm", activeNar.gender || "female", 0, activeNar.rateBias !== undefined ? activeNar.rateBias : 0.88)}
         </div>
         <div class="kaiwa-jp">${esc(activeNar.jp)}</div>
         <div class="romaji">${esc(activeNar.romaji)}</div>
