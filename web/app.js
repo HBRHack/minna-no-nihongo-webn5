@@ -128,7 +128,7 @@
   const REFERENCES = window.MNN_REFERENCES || [];
   const KAIWA_BY_BAB = window.MNN_KAIWA || {};
   const FINAL_EXAM = window.FINAL_EXAM_1_25 || [];
-  const ASSET_VERSION = "20261125-v21";
+  const ASSET_VERSION = "20261125-v22";
   const FINAL_MAX_PER_BAB = 10;
   const FINAL_HARD_CAP = 250;
   const FINAL_BANK_CACHE = {};
@@ -500,6 +500,10 @@
     if (btn) btn.setAttribute("aria-pressed", String(isDark));
     if (icon) icon.textContent = isDark ? "🌙" : "☀️";
     if (label) label.textContent = isDark ? "Gelap" : "Terang";
+    if (typeof document.querySelector === "function") {
+      const metaTheme = document.querySelector('meta[name="theme-color"]');
+      if (metaTheme) metaTheme.setAttribute("content", isDark ? "#141923" : "#f6f4ef");
+    }
     try {
       localStorage.setItem(STORAGE_THEME, mode);
     } catch {
@@ -6237,6 +6241,51 @@
         nextQ(ch);
       }
     });
+
+    initPwa();
+  }
+
+  function initPwa() {
+    let deferredPrompt = null;
+    const installBtn = document.getElementById("btnInstallPwa");
+
+    if (typeof window !== "undefined" && window.addEventListener) {
+      window.addEventListener("beforeinstallprompt", (e) => {
+        if (e && e.preventDefault) e.preventDefault();
+        deferredPrompt = e;
+        if (installBtn) installBtn.hidden = false;
+      });
+      window.addEventListener("appinstalled", () => {
+        deferredPrompt = null;
+        if (installBtn) installBtn.hidden = true;
+      });
+    }
+
+    if (installBtn) {
+      installBtn.addEventListener("click", async () => {
+        if (!deferredPrompt) return;
+        try {
+          deferredPrompt.prompt();
+          if (deferredPrompt.userChoice) await deferredPrompt.userChoice;
+        } catch {}
+        deferredPrompt = null;
+        installBtn.hidden = true;
+      });
+    }
+
+    if (
+      typeof navigator !== "undefined"
+      && "serviceWorker" in navigator
+      && navigator.serviceWorker
+      && typeof navigator.serviceWorker.register === "function"
+      && typeof window !== "undefined"
+      && window.location
+      && (window.location.protocol === "https:" || window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
+    ) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./sw.js").catch(() => {});
+      });
+    }
   }
 
   document.addEventListener("DOMContentLoaded", init);

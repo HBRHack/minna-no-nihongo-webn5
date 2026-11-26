@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#141923"/>
+  <rect x="28" y="28" width="456" height="456" rx="92" fill="none" stroke="#e85d3f" stroke-width="14"/>
+  <circle cx="402" cy="110" r="34" fill="#e85d3f"/>
+  <text x="256" y="305" text-anchor="middle" font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" font-size="250" font-weight="700" fill="#f6f4ef">み</text>
+  <text x="256" y="420" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="64" font-weight="700" fill="#e85d3f">N5</text>
+</svg>
