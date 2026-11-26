@@ -1,6 +1,6 @@
-# PERINTAH UTAMA — BANK SOAL MINNA NO NIHONGO I (BAB 1–13)
+# PERINTAH UTAMA — BANK SOAL MINNA NO NIHONGO I (BAB 1–25)
 
-Dokumen ini adalah acuan tunggal untuk membuat bank soal. Setiap bab wajib menghasilkan **tepat 50 soal** yang tersimpan sebagai JSON, lalu digenerate menjadi file JS yang dibaca `web/app.js`.
+Dokumen ini adalah acuan tunggal untuk membuat dan mengaudit bank soal. Setiap bab tersimpan sebagai JSON (`50` soal untuk Bab 1–6; `75` soal untuk Bab 8, 9, 13; `100` soal untuk Bab 7, 10–12, 14–25 — total **2.125 soal**), lalu digenerate menjadi file JS yang dibaca `web/app.js`.
 
 ## 1. Peran
 
@@ -8,7 +8,7 @@ Kamu adalah penyusun bank soal bahasa Jepang level **JLPT N5** yang teliti. Tuga
 
 ## 2. Sumber wajib
 
-- `bab-01-05.md`, `bab-06-10.md`, `bab-11-15.md`
+- `bab-01-05.md` s.d. `bab-21-25.md`
 - `ringkasan-partikel-dan-konjugasi.md`
 - Soal lama di `web/data/*.js` boleh dipakai ulang jika sudah benar dan sesuai bab.
 
@@ -75,11 +75,18 @@ Aturan field:
 
 Untuk opsi yang berupa terjemahan Indonesia, `jp` diisi teks Indonesia dan `romaji` boleh `""`.
 
-## 5. Aturan 50 soal
+## 5. Aturan Wajib Soal (STRICT)
 
-- Tepat 50 soal per bab.
-- Tidak ada `prompt` yang duplikat di bab yang sama.
-- Tidak ada pasangan `prompt + jawaban benar` yang duplikat.
+- Kuota tepat per bab: `50` soal (Bab 1–6), `75` soal (Bab 8, 9, 13), `100` soal (Bab 7, 10–12, 14–25).
+- **WAJIB FULL FURIGANA dengan Kanji (`漢字[ふりがな]`):**
+  - Setiap Kanji pada `prompt`, `options[].jp`, `explain`, dan `badge` **wajib** diberi furigana dengan format `漢字[ふりがな]` (termasuk gabungan angka + satuan seperti `20歳[はたち]`, `4時[よじ]`, `3,800円[さんぜんはっぴゃくえん]`) agar dirender sebagai `<ruby>漢字<rt>ふりがな</rt></ruby>` dan terbaca bersih oleh TTS.
+  - **Satu-satunya pengecualian:** target kata yang sedang diuji cara bacanya di dalam `「...」` pada soal `よみかた` / `読み方` (misalnya `「20歳」の よみかたは どれですか。`) dibiarkan tanpa furigana di `prompt` agar tidak membocorkan jawaban, sedangkan bagian `explain` tetap wajib memakai furigana.
+  - Kanji tanpa furigana atau format kurung siku `[...]` yang tidak valid dianggap **GAGAL** oleh validator.
+- **WAJIB PEMISAH KALIMAT PERCAKAPAN (`A：` / `B：`):**
+  - Semua soal berbentuk percakapan wajib dipisah ke baris baru (`\n`) per pembicara: `A：...\nB：...` (dilarang menggabungkan `A:` dan `B:` dalam satu baris atau memakai `…` tunggal sebagai pemisah giliran).
+  - `promptRomaji` untuk percakapan multi-baris juga wajib dipisah per baris (`\n`) agar sejajar dengan dialog Jepangnya.
+- Tidak ada `prompt` yang duplikat di bab yang sama (pengecekan normalisasi mengabaikan markup `[ふりがな]`).
+- Tidak ada pasangan `prompt + jawaban benar` yang duplikat lintas bab.
 - Pengecoh harus masuk akal dan berasal dari kesalahan umum pelajar.
 - Hanya satu jawaban yang benar; tidak boleh ambigu.
 - Wajib ada teks Jepang di `prompt` atau opsi.
@@ -109,20 +116,22 @@ Catatan soal “jawaban tidak boleh duplikat”: teks jawaban pendek seperti `�
 
 ## 7. Validasi otomatis
 
-Jalankan:
+Jalankan dari folder `01-minna-no-nihongo-n5/`:
 
 ```bash
-node tools/validate-bank.mjs
+node tools/validate-bank.mjs --all
 ```
 
 Validator memeriksa:
 
-- jumlah soal = 50;
-- `id` berurutan dan sesuai bab;
+- jumlah soal sesuai kuota bab (`50` / `75` / `100`, total `2.125` soal untuk `--all`);
+- `id` berurutan dan sesuai bab (serta prefix `section` `A/B/C/D ·` pada Bab 17);
 - `bab` sesuai file;
 - `options.length = 4`;
 - `answer` berupa indeks `0`–`3`;
 - tidak ada opsi `jp` duplikat dalam satu soal;
+- **strict furigana:** nol Kanji tanpa `[ふりがな]` di `prompt` (kecuali target `「...」` pada soal `よみかた`), `options[].jp`, `explain`, dan `badge`;
+- **strict percakapan:** pembicara `A：` / `B：` terpisah baris (`\n`), tanpa pemisah `…` tunggal, dan `promptRomaji` multi-baris terpisah `\n`;
 - `prompt` tidak duplikat dalam satu bab;
 - pasangan `prompt + jawaban` tidak duplikat antar-bab;
 - `prompt`, `promptRomaji`, `sub`, `explain` tidak kosong;
