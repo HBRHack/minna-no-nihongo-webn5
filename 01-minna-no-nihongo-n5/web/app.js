@@ -128,7 +128,7 @@
   const REFERENCES = window.MNN_REFERENCES || [];
   const KAIWA_BY_BAB = window.MNN_KAIWA || {};
   const FINAL_EXAM = window.FINAL_EXAM_1_25 || [];
-  const ASSET_VERSION = "20261126-v24";
+  const ASSET_VERSION = "20261126-v25";
   const FINAL_MAX_PER_BAB = 10;
   const FINAL_HARD_CAP = 250;
   const FINAL_BANK_CACHE = {};

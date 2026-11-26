@@ -820,7 +820,7 @@ body.hide-romaji .romaji { display: none; }
   text-underline-offset: 3px;
 }
 
-.quiz-prompt { font-family: var(--font-jp); font-size: 19.5px; font-weight: 600; line-height: 1.85; margin-bottom: 6px; }
+.quiz-prompt { font-family: var(--font-jp); font-size: 19.5px; font-weight: 600; line-height: 2.1; margin-bottom: 6px; }
 .quiz-prompt-romaji { display: block; margin-bottom: var(--space-2); }
 .quiz-sub { font-size: 14px; color: var(--color-ink-muted); margin-bottom: var(--space-5); }
 
@@ -855,7 +855,7 @@ body.hide-romaji .romaji { display: none; }
   background: var(--color-paper-muted);
 }
 .option-content { display: flex; flex-direction: column; gap: 2px; }
-.option-jp { font-family: var(--font-jp); font-size: 15.5px; font-weight: 500; line-height: 1.7; }
+.option-jp { font-family: var(--font-jp); font-size: 15.5px; font-weight: 500; line-height: 2.0; }
 
 .option-btn.is-correct { border-color: var(--zone-green-fg); background: var(--zone-green-bg); }
 .option-btn.is-correct .option-key { background: var(--zone-green-fg); border-color: var(--zone-green-fg); color: var(--color-paper); }
@@ -2632,17 +2632,19 @@ ruby {
 }
 ruby rt {
   font-family: var(--font-jp);
-  font-size: 0.56em;
-  font-weight: 500;
-  line-height: 1;
-  opacity: 0.78;
+  font-size: clamp(12.5px, 0.76em, 15.5px);
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--color-ink);
+  opacity: 0.94;
+  letter-spacing: 0.01em;
   user-select: none;
 }
 .kaiwa-jp {
-  line-height: 1.85;
+  line-height: 2.1;
 }
 .feedback-explain {
-  line-height: 1.75;
+  line-height: 2.0;
 }
 .conv-block {
   display: flex;
@@ -2689,7 +2691,7 @@ ruby rt {
   line-height: 1.5;
 }
 .formula-jp {
-  line-height: 1.85;
+  line-height: 2.1;
 }
 .formula-romaji {
   margin-top: 6px;
@@ -2706,5 +2708,5 @@ ruby rt {
   line-height: 1.45;
 }
 .example-jp {
-  line-height: 1.85;
+  line-height: 2.1;
 }

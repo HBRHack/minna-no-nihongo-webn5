@@ -1,5 +1,5 @@
 /* Service Worker — Minna no Nihongo I (Bab 1–25) PWA */
-const CACHE_VERSION = "20261126-v24";
+const CACHE_VERSION = "20261126-v25";
 const CACHE_NAME = `mnn-n5-${CACHE_VERSION}`;
 
 const CORE_DATA_JS = [
