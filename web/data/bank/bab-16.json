@@ -119,30 +119,30 @@
     "id": "b16-05",
     "bab": 16,
     "type": "mcq",
-    "badge": "Bab 16 · Kosakata けんがくします",
-    "prompt": "「けんがくします」の いみは どれですか。",
-    "promptRomaji": "\"Kengaku shimasu\" no imi wa dore desu ka.",
+    "badge": "Bab 16 · Kosakata りゅうがくせい",
+    "prompt": "「りゅうがくせい」の いみは どれですか。",
+    "promptRomaji": "\"Ryuugakusei\" no imi wa dore desu ka.",
     "sub": "Pilih arti kata yang tepat.",
     "options": [
       {
-        "jp": "belajar di kelas",
+        "jp": "guru universitas",
         "romaji": ""
       },
       {
-        "jp": "bekerja lembur",
+        "jp": "karyawan perusahaan",
         "romaji": ""
       },
       {
-        "jp": "mengonfirmasi nomor",
+        "jp": "peneliti ekonomi",
         "romaji": ""
       },
       {
-        "jp": "berkunjung untuk belajar / meninjau",
+        "jp": "mahasiswa asing / pelajar pertukaran",
         "romaji": ""
       }
     ],
     "answer": 3,
-    "explain": "けんがくします (Kelompok III) berarti melakukan kunjungan studi atau meninjau tempat seperti pabrik, sekolah, atau gedung."
+    "explain": "りゅうがくせい berarti mahasiswa asing atau pelajar pertukaran yang belajar di luar negeri."
   },
   {
     "id": "b16-06",
@@ -468,7 +468,7 @@
     "bab": 16,
     "type": "mcq",
     "badge": "Bab 16 · Pola V1-てから、V2",
-    "prompt": "しごとが （　）、ともだちと しょくじします。",
+    "prompt": "しごとが （　）、ともだちと しょくじします。 (Setelah pekerjaan selesai, makan bersama teman.)",
     "promptRomaji": "Shigoto ga _____, tomodachi to shokuji shimasu.",
     "sub": "Nyatakan 'SETELAH pekerjaan selesai' menggunakan おわります.",
     "options": [
@@ -497,7 +497,7 @@
     "bab": 16,
     "type": "mcq",
     "badge": "Bab 16 · Pola V1-てから、V2",
-    "prompt": "くにへ （　）、ちちの かいしゃで はたらきます。",
+    "prompt": "くにへ （　）、ちちの かいしゃで はたらきます。 (Setelah pulang ke negara asal, bekerja di perusahaan ayah.)",
     "promptRomaji": "Kuni e _____, chichi no kaisha de hatarakimasu.",
     "sub": "Nyatakan 'setelah pulang ke tanah air' menggunakan かえります.",
     "options": [
@@ -1309,8 +1309,8 @@
     "bab": 16,
     "type": "mcq",
     "badge": "Bab 16 · Partikel Transit のりかえます",
-    "prompt": "うめだで ちかてつ （　） のりかえて、みなみもりまちで おります。",
-    "promptRomaji": "Umeda de chikatetsu _____ norikaete, Minamimorimachi de orimasu.",
+    "prompt": "うめだで JRから ちかてつ （　） のりかえて、みなみもりまちで おります。",
+    "promptRomaji": "Umeda de JR kara chikatetsu _____ norikaete, Minamimorimachi de orimasu.",
     "sub": "Pilih partikel untuk pindah/naik kereta tujuan dengan のりかえます.",
     "options": [
       {
@@ -1331,15 +1331,15 @@
       }
     ],
     "answer": 0,
-    "explain": "Pindah naik ke kereta berikutnya menggunakan partikel に (ちかてつに のりかえます)."
+    "explain": "Pindah naik dari satu kendaraan ke kereta berikutnya menggunakan partikel に (JRから ちかてつに のりかえます)."
   },
   {
     "id": "b16-47",
     "bab": 16,
     "type": "mcq",
     "badge": "Bab 16 · Dialog Rute (どうやって)",
-    "prompt": "A：「きょうとまで （　） いきますか。」 B：「JRに のって、おおさかえきで でんしゃを おります。」",
-    "promptRomaji": "A: \"Kyouto made _____ ikimasu ka.\" B: \"JR ni notte, Oosaka-eki de densha o orimasu.\"",
+    "prompt": "A：「きょうとまで （　） いきますか。」 B：「JRに のって、きょうとえきで でんしゃを おります。」",
+    "promptRomaji": "A: \"Kyouto made _____ ikimasu ka.\" B: \"JR ni notte, Kyouto-eki de densha o orimasu.\"",
     "sub": "Lengkapi pertanyaan menanyakan cara/rute perjalanan.",
     "options": [
       {

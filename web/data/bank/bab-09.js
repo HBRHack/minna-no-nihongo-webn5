@@ -570,8 +570,8 @@ window.MNN_BANK[9] = [
         "romaji": "made"
       },
       {
-        "jp": "が",
-        "romaji": "ga"
+        "jp": "で",
+        "romaji": "de"
       },
       {
         "jp": "と",
@@ -963,7 +963,7 @@ window.MNN_BANK[9] = [
     "bab": 9,
     "type": "mcq",
     "badge": "Bab 9 · すこし",
-    "prompt": "わたしは にほんごが すこし （　）。",
+    "prompt": "わたしは にほんごが すこし （　）。（Saya mengerti bahasa Jepang sedikit.）",
     "promptRomaji": "Watashi wa nihongo ga sukoshi ( ).",
     "sub": "Lengkapi kalimat. (Saya mengerti bahasa Jepang sedikit.)",
     "options": [
@@ -980,8 +980,8 @@ window.MNN_BANK[9] = [
         "romaji": "takusan"
       },
       {
-        "jp": "わかりません",
-        "romaji": "wakarimasen"
+        "jp": "だいたい",
+        "romaji": "daitai"
       }
     ],
     "answer": 1,
@@ -992,13 +992,13 @@ window.MNN_BANK[9] = [
     "bab": 9,
     "type": "mcq",
     "badge": "Bab 9 · よく",
-    "prompt": "カリナさんは かんじが （　） わかります。",
+    "prompt": "カリナさんは かんじが （　） わかります。（Karina mengerti kanji dengan baik.）",
     "promptRomaji": "Karina-san wa kanji ga ( ) wakarimasu.",
     "sub": "Pilih kata keterangan 'dengan baik'.",
     "options": [
       {
-        "jp": "すこし",
-        "romaji": "sukoshi"
+        "jp": "あまり",
+        "romaji": "amari"
       },
       {
         "jp": "ぜんぜん",
@@ -1079,7 +1079,7 @@ window.MNN_BANK[9] = [
     "bab": 9,
     "type": "mcq",
     "badge": "Bab 9 · すこし",
-    "prompt": "わたしは おかねが （　） あります。",
+    "prompt": "わたしは おかねが （　） あります。（Saya punya sedikit uang.）",
     "promptRomaji": "Watashi wa okane ga ( ) arimasu.",
     "sub": "Pilih kata keterangan 'sedikit'.",
     "options": [
@@ -1092,8 +1092,8 @@ window.MNN_BANK[9] = [
         "romaji": "yoku"
       },
       {
-        "jp": "たくさん",
-        "romaji": "takusan"
+        "jp": "あまり",
+        "romaji": "amari"
       },
       {
         "jp": "ぜんぜん",
@@ -1237,8 +1237,8 @@ window.MNN_BANK[9] = [
         "romaji": "Ashita youji ga arimasu made, kyou hayaku kaerimasu."
       },
       {
-        "jp": "あした ようじが ありますが、きょう はやく かえりますから。",
-        "romaji": "Ashita youji ga arimasu ga, kyou hayaku kaerimasu kara."
+        "jp": "あした ようじが ありますで、きょう はやく かえります。",
+        "romaji": "Ashita youji ga arimasu de, kyou hayaku kaerimasu."
       },
       {
         "jp": "あした ようじが ありますから、きょう はやく かえります。",

@@ -789,8 +789,8 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Anak Kalimat (Bentuk Negatif)",
-    "prompt": "わたしは （　） やさいが あまり すきじゃありません。（おいしくない）",
-    "promptRomaji": "Watashi wa _____ yasai ga amari suki ja arimasen.",
+    "prompt": "わたしは （　） やさいが あまり すきじゃありません。（tidak enak: おいしい）",
+    "promptRomaji": "Watashi wa _____ yasai ga amari suki ja arimasen. (tidak enak: oishii)",
     "sub": "Pilih bentuk biasa negatif di depan やさい.",
     "options": [
       {
@@ -1079,29 +1079,29 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Anak Kalimat dengan じょうず",
-    "prompt": "ピアノを （　） ともだちが います。",
-    "promptRomaji": "Piano o _____ tomodachi ga imasu.",
-    "sub": "Lengkapi dengan bentuk biasa dari ひく (bermain alat musik) yang sedang/bisa atau biasa dilakukan.",
+    "prompt": "わたしには ピアノが （　） ともだちが います。（じょうず）",
+    "promptRomaji": "Watashi ni wa piano ga _____ tomodachi ga imasu. (jouzu)",
+    "sub": "Lengkapi dengan bentuk KS-な yang tepat di depan ともだち ('pandai bermain piano').",
     "options": [
       {
-        "jp": "ひきます",
-        "romaji": "hikimasu"
+        "jp": "じょうずだ",
+        "romaji": "jouzu da"
       },
       {
-        "jp": "ひく",
-        "romaji": "hiku"
+        "jp": "じょうずな",
+        "romaji": "jouzu na"
       },
       {
-        "jp": "ひいて",
-        "romaji": "hiite"
+        "jp": "じょうずの",
+        "romaji": "jouzu no"
       },
       {
-        "jp": "ひいたの",
-        "romaji": "hiita no"
+        "jp": "じょうず",
+        "romaji": "jouzu"
       }
     ],
     "answer": 1,
-    "explain": "Bentuk kamus ひく langsung ditempelkan di depan ともだち."
+    "explain": "じょうず adalah kata sifat-な, sehingga saat menjelaskan kata benda (ともだち) wajib memakai な: ピアノが じょうずな ともだち."
   },
   {
     "id": "b22-39",

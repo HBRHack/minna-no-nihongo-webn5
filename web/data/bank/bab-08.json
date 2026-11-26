@@ -6,7 +6,7 @@
     "badge": "Bab 8 · Kosakata おおきい",
     "prompt": "「おおきい」の いみは どれですか。",
     "promptRomaji": "Ookii no imi wa dore desu ka.",
-    "sub": "Pilih arti kata sifat おおきい. (besar)",
+    "sub": "Pilih arti kata sifat おおきい.",
     "options": [
       {
         "jp": "besar",
@@ -35,7 +35,7 @@
     "badge": "Bab 8 · Kosakata ちいさい",
     "prompt": "「ちいさい」の いみは どれですか。",
     "promptRomaji": "Chiisai no imi wa dore desu ka.",
-    "sub": "Pilih arti kata sifat ちいさい. (kecil)",
+    "sub": "Pilih arti kata sifat ちいさい.",
     "options": [
       {
         "jp": "murah",
@@ -64,7 +64,7 @@
     "badge": "Bab 8 · Kosakata あたらしい",
     "prompt": "「あたらしい」の いみは どれですか。",
     "promptRomaji": "Atarashii no imi wa dore desu ka.",
-    "sub": "Pilih arti kata sifat あたらしい. (baru)",
+    "sub": "Pilih arti kata sifat あたらしい.",
     "options": [
       {
         "jp": "rendah",
@@ -93,7 +93,7 @@
     "badge": "Bab 8 · Kosakata ふるい",
     "prompt": "「ふるい」の いみは どれですか。",
     "promptRomaji": "Furui no imi wa dore desu ka.",
-    "sub": "Pilih arti kata sifat ふるい. (lama / tua untuk benda)",
+    "sub": "Pilih arti kata sifat ふるい.",
     "options": [
       {
         "jp": "enak",
@@ -122,7 +122,7 @@
     "badge": "Bab 8 · Kosakata たかい",
     "prompt": "「たかい」の いみは どれですか。",
     "promptRomaji": "Takai no imi wa dore desu ka.",
-    "sub": "Pilih arti kata sifat たかい. (mahal / tinggi)",
+    "sub": "Pilih arti kata sifat たかい.",
     "options": [
       {
         "jp": "mahal, tinggi",
@@ -151,7 +151,7 @@
     "badge": "Bab 8 · Kosakata やすい",
     "prompt": "「やすい」の いみは どれですか。",
     "promptRomaji": "Yasui no imi wa dore desu ka.",
-    "sub": "Pilih arti kata sifat やすい. (murah)",
+    "sub": "Pilih arti kata sifat やすい.",
     "options": [
       {
         "jp": "murah",
@@ -180,7 +180,7 @@
     "badge": "Bab 8 · Kosakata おいしい",
     "prompt": "「おいしい」の いみは どれですか。",
     "promptRomaji": "Oishii no imi wa dore desu ka.",
-    "sub": "Pilih arti kata sifat おいしい. (enak)",
+    "sub": "Pilih arti kata sifat おいしい.",
     "options": [
       {
         "jp": "menarik",
@@ -209,7 +209,7 @@
     "badge": "Bab 8 · Kosakata いそがしい",
     "prompt": "「いそがしい」の いみは どれですか。",
     "promptRomaji": "Isogashii no imi wa dore desu ka.",
-    "sub": "Pilih arti kata sifat いそがしい. (sibuk)",
+    "sub": "Pilih arti kata sifat いそがしい.",
     "options": [
       {
         "jp": "sibuk",
@@ -238,7 +238,7 @@
     "badge": "Bab 8 · Kosakata にぎやか",
     "prompt": "「にぎやか」の いみは どれですか。",
     "promptRomaji": "Nigiyaka no imi wa dore desu ka.",
-    "sub": "Pilih arti kata sifat にぎやか. (ramai)",
+    "sub": "Pilih arti kata sifat にぎやか.",
     "options": [
       {
         "jp": "terkenal",
@@ -267,7 +267,7 @@
     "badge": "Bab 8 · Kosakata しずか",
     "prompt": "「しずか」の いみは どれですか。",
     "promptRomaji": "Shizuka no imi wa dore desu ka.",
-    "sub": "Pilih arti kata sifat しずか. (tenang / sepi)",
+    "sub": "Pilih arti kata sifat しずか.",
     "options": [
       {
         "jp": "besar",
@@ -572,8 +572,8 @@
         "romaji": "ookikunai desu"
       },
       {
-        "jp": "おおきくありませ",
-        "romaji": "ookiku arimase"
+        "jp": "おおきではありません",
+        "romaji": "ooki dewa arimasen"
       }
     ],
     "answer": 2,
@@ -887,8 +887,8 @@
         "romaji": "yuumei ja arimasen"
       },
       {
-        "jp": "ゆうめかないです",
-        "romaji": "yuumenai desu"
+        "jp": "ゆうめいないです",
+        "romaji": "yuumeinai desu"
       },
       {
         "jp": "ゆうめいくないです",
@@ -995,8 +995,8 @@
     "sub": "Pilih bentuk yang benar sebelum kata benda.",
     "options": [
       {
-        "jp": "あたらしの",
-        "romaji": "atarashi no"
+        "jp": "あたらしいの",
+        "romaji": "atarashii no"
       },
       {
         "jp": "あたらしい",
@@ -1273,7 +1273,7 @@
       }
     ],
     "answer": 1,
-    "explain": "ゆうめi adalah kata sifat-な, sehingga bentuk sebelum benda adalah ゆうめいな."
+    "explain": "ゆうめい adalah kata sifat-な, sehingga bentuk sebelum benda adalah ゆうめいな."
   },
   {
     "id": "b8-45",

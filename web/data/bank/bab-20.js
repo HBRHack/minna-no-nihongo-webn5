@@ -122,8 +122,8 @@ window.MNN_BANK[20] = [
     "bab": 20,
     "type": "mcq",
     "badge": "Bab 20 · Kosakata こっち・そっち・あっち・どっち",
-    "prompt": "「こちら」の じしょじゃない ふつうの いいかたは どれですか。",
-    "promptRomaji": "Bentuk kasual dari \"kochira\" (Bab 20)",
+    "prompt": "「こちら」の くだけた いいかたは どれですか。",
+    "promptRomaji": "\"Kochira\" no kudaketa iikata wa dore desu ka.",
     "sub": "Pilih bentuk kasual dari こちら (sebelah sini).",
     "options": [
       {
@@ -441,8 +441,8 @@ window.MNN_BANK[20] = [
     "bab": 20,
     "type": "mcq",
     "badge": "Bab 20 · 普通形 Kata Kerja (ない)",
-    "prompt": "あしたは テストが ないから、テレビを （　）。",
-    "promptRomaji": "Ashita wa tesuto ga nai kara, terebi o _____.",
+    "prompt": "あしたは テストが あるから、テレビを （　）。",
+    "promptRomaji": "Ashita wa tesuto ga aru kara, terebi o _____.",
     "sub": "Pilih bentuk biasa dari 「みません」 (tidak menonton).",
     "options": [
       {
@@ -470,8 +470,8 @@ window.MNN_BANK[20] = [
     "bab": 20,
     "type": "mcq",
     "badge": "Bab 20 · 普通形 Jebakan いります",
-    "prompt": "日本へ いく とき、おみやげは （　） よ。（いりません → 普通形）",
-    "promptRomaji": "Omiyage wa _____ yo. (irimasen -> bentuk biasa)",
+    "prompt": "ともだちの うちへ いくけど、おみやげは （　） よ。（いりません → 普通形）",
+    "promptRomaji": "Tomodachi no uchi e iku kedo, omiyage wa _____ yo. (irimasen -> bentuk biasa)",
     "sub": "Hati-hati! いります adalah kata kerja Kelompok I.",
     "options": [
       {

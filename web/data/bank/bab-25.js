@@ -458,8 +458,8 @@ window.MNN_BANK[25] = [
         "romaji": "konakattara"
       },
       {
-        "jp": "こなくても",
-        "romaji": "konakute mo"
+        "jp": "きませんたら",
+        "romaji": "kimasentara"
       }
     ],
     "answer": 2,
@@ -922,8 +922,8 @@ window.MNN_BANK[25] = [
         "romaji": "nakute mo"
       },
       {
-        "jp": "あっても",
-        "romaji": "atte mo"
+        "jp": "ありなくても",
+        "romaji": "arinakute mo"
       }
     ],
     "answer": 2,

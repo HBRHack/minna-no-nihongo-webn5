@@ -707,8 +707,8 @@ window.MNN_BANK[10] = [
     "sub": "Pilih partikel topik. (Sdr. Miller ada di kantor.)",
     "options": [
       {
-        "jp": "が",
-        "romaji": "ga"
+        "jp": "へ",
+        "romaji": "e"
       },
       {
         "jp": "は",

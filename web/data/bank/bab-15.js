@@ -673,7 +673,7 @@ window.MNN_BANK[15] = [
     "bab": 15,
     "type": "mcq",
     "badge": "Bab 15 · Status Keadaan",
-    "prompt": "サントスさんは もう （　）。",
+    "prompt": "サントスさんは もう （　）。 (Sdr. Santos sudah menikah.)",
     "promptRomaji": "Santosu-san wa mou _____.",
     "sub": "Nyatakan status 'sudah menikah' (けっこんします).",
     "options": [

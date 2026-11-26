@@ -2440,3 +2440,135 @@ body.hide-romaji .romaji { display: none; }
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/* ===== KAIWA (DIALOG INTERAKTIF & 3-LAYER VOICE ROUTER) ===== */
+.kaiwa-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.kaiwa-roles-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.kaiwa-role-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: var(--color-paper);
+  font-size: 12.5px;
+}
+.kaiwa-role-chip.is-female {
+  border-color: var(--zone-orange-border);
+}
+.kaiwa-role-gender {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--color-ink-subtle);
+}
+.kaiwa-voice-status {
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background: var(--color-paper-muted);
+  font-size: 12px;
+  color: var(--color-ink-muted);
+  line-height: 1.45;
+}
+.kaiwa-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 10px 12px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background: var(--color-paper);
+}
+.kaiwa-stage {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.kaiwa-row {
+  display: flex;
+}
+.kaiwa-row.is-male {
+  justify-content: flex-start;
+}
+.kaiwa-row.is-female {
+  justify-content: flex-end;
+}
+.kaiwa-bubble {
+  width: min(640px, 94%);
+  padding: 12px 14px;
+  border-radius: var(--radius-md);
+  border: 1.5px solid var(--color-border);
+  background: var(--color-paper);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+.kaiwa-row.is-female .kaiwa-bubble {
+  background: var(--color-surface-elevated);
+}
+.kaiwa-row.is-speaking-line .kaiwa-bubble {
+  border-color: var(--color-accent);
+  background: var(--color-accent-soft);
+  box-shadow: 0 0 0 2px var(--color-accent-soft);
+}
+.kaiwa-row.is-role-muted .kaiwa-bubble {
+  opacity: 0.85;
+  border-style: dashed;
+}
+.kaiwa-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.kaiwa-speaker {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+.kaiwa-jp {
+  font-family: var(--font-jp);
+  font-size: clamp(17px, 2.8vw, 20px);
+  font-weight: 700;
+  color: var(--color-ink);
+  line-height: 1.45;
+  margin-top: 2px;
+}
+.kaiwa-id {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-accent);
+  line-height: 1.4;
+}
+.kaiwa-note {
+  margin-top: 4px;
+  font-size: 12.5px;
+  color: var(--color-ink-muted);
+  line-height: 1.45;
+}
+@media (max-width: 640px) {
+  .kaiwa-card {
+    padding: var(--space-4);
+  }
+  .kaiwa-bubble {
+    width: 100%;
+  }
+}

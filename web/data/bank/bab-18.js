@@ -947,8 +947,8 @@ window.MNN_BANK[18] = [
         "romaji": "ato de"
       },
       {
-        "jp": "から",
-        "romaji": "kara"
+        "jp": "の まえに",
+        "romaji": "no mae ni"
       },
       {
         "jp": "まえの",
@@ -1063,8 +1063,8 @@ window.MNN_BANK[18] = [
         "romaji": "no mae ni"
       },
       {
-        "jp": "から",
-        "romaji": "kara"
+        "jp": "あとで",
+        "romaji": "ato de"
       },
       {
         "jp": "ことが",
@@ -1179,12 +1179,12 @@ window.MNN_BANK[18] = [
         "romaji": "nakanaka"
       },
       {
-        "jp": "よく",
-        "romaji": "yoku"
+        "jp": "とても",
+        "romaji": "totemo"
       },
       {
-        "jp": "いつも",
-        "romaji": "itsumo"
+        "jp": "だいたい",
+        "romaji": "daitai"
       }
     ],
     "answer": 1,
@@ -1427,7 +1427,7 @@ window.MNN_BANK[18] = [
     "bab": 18,
     "type": "mcq",
     "badge": "Bab 18 · Dialog & Pola Lengkap",
-    "prompt": "A: 「おんがくの なかで なにが すきですか。」\nB: 「ビートルズが すきです。（　） 『ふるさと』を うたう ことが できます。」",
+    "prompt": "A: 「おんがくの なかで なにが すきですか。」\nB: 「ビートルズが すきです。（　） 『ふるさと』を うたう ことが できます。」 (Selain itu, saya bisa menyanyikan lagu \"Furusato\".)",
     "promptRomaji": "B: Biitoruzu ga suki desu. _____ \"Furusato\" o utau koto ga dekimasu.",
     "sub": "Pilih kata penghubung yang tepat untuk menambahkan informasi.",
     "options": [

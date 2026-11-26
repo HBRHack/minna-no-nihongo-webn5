@@ -6,7 +6,7 @@
     "badge": "Bab 7 · Kosakata きります",
     "prompt": "「きります」の いみは どれですか。",
     "promptRomaji": "Kirimasu no imi wa dore desu ka.",
-    "sub": "Pilih arti kata kerja きります. (memotong / menggunting)",
+    "sub": "Pilih arti kata kerja きります.",
     "options": [
       {
         "jp": "meminjam",
@@ -35,7 +35,7 @@
     "badge": "Bab 7 · Kosakata おくります",
     "prompt": "「おくります」の いみは どれですか。",
     "promptRomaji": "Okurimasu no imi wa dore desu ka.",
-    "sub": "Pilih arti kata kerja おくります. (mengirim)",
+    "sub": "Pilih arti kata kerja おくります.",
     "options": [
       {
         "jp": "mengajar",
@@ -64,7 +64,7 @@
     "badge": "Bab 7 · Kosakata かします",
     "prompt": "「かします」の いみは どれですか。",
     "promptRomaji": "Kashimasu no imi wa dore desu ka.",
-    "sub": "Pilih arti kata kerja かします. (meminjamkan)",
+    "sub": "Pilih arti kata kerja かします.",
     "options": [
       {
         "jp": "menerima",
@@ -93,7 +93,7 @@
     "badge": "Bab 7 · Kosakata かります",
     "prompt": "「かります」の いみは どれですか。",
     "promptRomaji": "Karimasu no imi wa dore desu ka.",
-    "sub": "Pilih arti kata kerja かります. (meminjam)",
+    "sub": "Pilih arti kata kerja かります.",
     "options": [
       {
         "jp": "mengirim",
@@ -122,7 +122,7 @@
     "badge": "Bab 7 · Kosakata おしえます",
     "prompt": "「おしえます」の いみは どれですか。",
     "promptRomaji": "Oshiemasu no imi wa dore desu ka.",
-    "sub": "Pilih arti kata kerja おしえます. (mengajar / memberitahu)",
+    "sub": "Pilih arti kata kerja おしえます.",
     "options": [
       {
         "jp": "menelepon",
@@ -151,7 +151,7 @@
     "badge": "Bab 7 · Kosakata ならいます",
     "prompt": "「ならいます」の いみは どれですか。",
     "promptRomaji": "Naraimasu no imi wa dore desu ka.",
-    "sub": "Pilih arti kata kerja ならいます. (belajar dari orang)",
+    "sub": "Pilih arti kata kerja ならいます.",
     "options": [
       {
         "jp": "belajar dari orang",
@@ -180,7 +180,7 @@
     "badge": "Bab 7 · Kosakata でんわ",
     "prompt": "「でんわを かけます」の いみは どれですか。",
     "promptRomaji": "Denwa o kakemasu no imi wa dore desu ka.",
-    "sub": "Pilih arti ungkapan でんわを かけます. (menelepon)",
+    "sub": "Pilih arti ungkapan でんわを かけます.",
     "options": [
       {
         "jp": "memotong telepon",
@@ -209,7 +209,7 @@
     "badge": "Bab 7 · Kosakata プレゼント",
     "prompt": "「プレゼント」の いみは どれですか。",
     "promptRomaji": "Purezento no imi wa dore desu ka.",
-    "sub": "Pilih arti kata プレゼント. (hadiah)",
+    "sub": "Pilih arti kata プレゼント.",
     "options": [
       {
         "jp": "uang",
@@ -238,7 +238,7 @@
     "badge": "Bab 7 · Kosakata にもつ",
     "prompt": "「にもつ」の いみは どれですか。",
     "promptRomaji": "Nimotsu no imi wa dore desu ka.",
-    "sub": "Pilih arti kata にもつ. (barang / paket)",
+    "sub": "Pilih arti kata にもつ.",
     "options": [
       {
         "jp": "hadiah",
@@ -390,8 +390,8 @@
         "romaji": "ni"
       },
       {
-        "jp": "を",
-        "romaji": "o"
+        "jp": "へ",
+        "romaji": "e"
       },
       {
         "jp": "で",
@@ -543,8 +543,8 @@
         "romaji": "o"
       },
       {
-        "jp": "に",
-        "romaji": "ni"
+        "jp": "へ",
+        "romaji": "e"
       }
     ],
     "answer": 0,
@@ -990,7 +990,7 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Pola あげます",
-    "prompt": "わたしは ははに はなを （　）。",
+    "prompt": "わたしは ははに はなを （　）。（Saya memberi bunga kepada ibu.）",
     "promptRomaji": "Watashi wa haha ni hana o ( ).",
     "sub": "Lengkapi: Saya memberi bunga kepada ibu.",
     "options": [
@@ -1019,7 +1019,7 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Pola もらいます",
-    "prompt": "わたしは ちちに とけいを （　）。",
+    "prompt": "わたしは ちちに とけいを （　）。（Saya menerima jam dari ayah.）",
     "promptRomaji": "Watashi wa chichi ni tokei o ( ).",
     "sub": "Lengkapi: Saya menerima jam dari ayah.",
     "options": [
@@ -1048,7 +1048,7 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Pola かします",
-    "prompt": "わたしは イーさんに おかねを （　）。",
+    "prompt": "わたしは イーさんに おかねを （　）。（Saya meminjamkan uang kepada Sdr. Lee.）",
     "promptRomaji": "Watashi wa Ii-san ni okane o ( ).",
     "sub": "Lengkapi: Saya meminjamkan uang kepada Sdr. Lee.",
     "options": [
@@ -1077,7 +1077,7 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Pola かります",
-    "prompt": "わたしは せんせいに じしょを （　）。",
+    "prompt": "わたしは せんせいに じしょを （　）。（Saya meminjam kamus dari guru.）",
     "promptRomaji": "Watashi wa sensei ni jisho o ( ).",
     "sub": "Lengkapi: Saya meminjam kamus dari guru.",
     "options": [
@@ -1106,7 +1106,7 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Pola おしえます",
-    "prompt": "わたしは ともだちに にほんごを （　）。",
+    "prompt": "わたしは ともだちに にほんごを （　）。（Saya mengajari teman bahasa Jepang.）",
     "promptRomaji": "Watashi wa tomodachi ni nihongo o ( ).",
     "sub": "Lengkapi: Saya mengajari teman bahasa Jepang.",
     "options": [
@@ -1135,7 +1135,7 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Pola ならいます",
-    "prompt": "わたしは ワンさんに ちゅうごくごを （　）。",
+    "prompt": "わたしは ワンさんに ちゅうごくごを （　）。（Saya belajar bahasa Mandarin dari Sdr. Wang.）",
     "promptRomaji": "Watashi wa Wan-san ni chuugokugo o ( ).",
     "sub": "Lengkapi: Saya belajar bahasa Mandarin dari Sdr. Wang.",
     "options": [

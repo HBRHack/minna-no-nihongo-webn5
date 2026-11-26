@@ -711,8 +711,8 @@ window.MNN_BANK[23] = [
         "romaji": "osu to"
       },
       {
-        "jp": "おしたとき",
-        "romaji": "oshita toki"
+        "jp": "おしたと",
+        "romaji": "oshita to"
       },
       {
         "jp": "おしてと",
@@ -789,9 +789,9 @@ window.MNN_BANK[23] = [
     "bab": 23,
     "type": "mcq",
     "badge": "Bab 23 · Partikel Gerak を",
-    "prompt": "まいあさ この こうえん （　） あるきます。",
-    "promptRomaji": "Maiasa kono kouen _____ arukimasu.",
-    "sub": "Pilih partikel untuk tempat yang dilalui/dijalani (Setiap pagi berjalan kaki melewati taman ini.)",
+    "prompt": "まいあさ えきの まえの みち （　） あるきます。",
+    "promptRomaji": "Maiasa eki no mae no michi _____ arukimasu.",
+    "sub": "Pilih partikel untuk jalan yang dilalui (Setiap pagi berjalan kaki menyusuri jalan di depan stasiun.)",
     "options": [
       {
         "jp": "に",
@@ -811,7 +811,7 @@ window.MNN_BANK[23] = [
       }
     ],
     "answer": 3,
-    "explain": "Kata kerja perpindahan ruang seperti あるきます, わたります, まがります memakai partikel を untuk tempat yang dilalui: こうえんを あるきます."
+    "explain": "Kata kerja perpindahan ruang seperti あるきます, わたります, まがります memakai partikel を untuk tempat/jalan yang dilalui: みちを あるきます."
   },
   {
     "id": "b23-29",
@@ -831,8 +831,8 @@ window.MNN_BANK[23] = [
         "romaji": "ni"
       },
       {
-        "jp": "で",
-        "romaji": "de"
+        "jp": "へ",
+        "romaji": "e"
       },
       {
         "jp": "が",
@@ -1311,8 +1311,8 @@ window.MNN_BANK[23] = [
     "bab": 23,
     "type": "mcq",
     "badge": "Bab 23 · Mini Dialog (Mesin Rusak)",
-    "prompt": "A：おかねを いれました。でも、きっぷが （　）。\nB：じゃ、でんきやさんに ききましょう。",
-    "promptRomaji": "A: Okane o iremashita. Demo, kippu ga _____. B: Ja, denkiyasan ni kikimashou.",
+    "prompt": "A：おかねを いれました。でも、きっぷが （　）。\nB：じゃ、えきの ひとに ききましょう。",
+    "promptRomaji": "A: Okane o iremashita. Demo, kippu ga _____. B: Ja, eki no hito ni kikimashou.",
     "sub": "Pilih keluhan yang wajar saat mesin tiket bermasalah.",
     "options": [
       {
@@ -1333,7 +1333,7 @@ window.MNN_BANK[23] = [
       }
     ],
     "answer": 1,
-    "explain": "Karena diawali でも (tetapi) setelah memasukkan uang dan dilanjutkan mengajak bertanya ke petugas, tiketnya 'tidak keluar' = でません."
+    "explain": "Karena diawali でも (tetapi) setelah memasukkan uang dan dilanjutkan mengajak bertanya ke petugas stasiun, tiketnya 'tidak keluar' = でません."
   },
   {
     "id": "b23-47",
@@ -1399,7 +1399,7 @@ window.MNN_BANK[23] = [
     "type": "mcq",
     "badge": "Bab 23 · Jebakan Partikel Tempat",
     "prompt": "Pilih kalimat yang memakai partikel tempat dengan BENAR.",
-    "promptRomaji": "Bandingkan partikel を, に, dan で pada kalimat gerak.",
+    "promptRomaji": "Bandingkan partikel を dan に pada kalimat gerak.",
     "sub": "Fokus pada penggunaan を untuk tempat yang dilalui.",
     "options": [
       {
@@ -1407,8 +1407,8 @@ window.MNN_BANK[23] = [
         "romaji": "Ano hashi o watatte kudasai."
       },
       {
-        "jp": "あの はしで わたって ください。",
-        "romaji": "Ano hashi de watatte kudasai."
+        "jp": "あの はしに わたって ください。",
+        "romaji": "Ano hashi ni watatte kudasai."
       },
       {
         "jp": "あの かどに ひだりへ まがって ください。",
@@ -1420,7 +1420,7 @@ window.MNN_BANK[23] = [
       }
     ],
     "answer": 0,
-    "explain": "Tempat yang diseberangi/dilewati/dibeloki dengan わたります, まがります, dan あるきます wajib memakai partikel を, bukan に atau で."
+    "explain": "Tempat yang diseberangi/dilewati/dibeloki dengan わたります, まがります, dan あるきます wajib memakai partikel を, bukan に."
   },
   {
     "id": "b23-50",

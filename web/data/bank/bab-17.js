@@ -582,8 +582,8 @@ window.MNN_BANK[17] = [
     "sub": "Objek yang dipindahkan ke depan kalimat menjadi topik penekanan.",
     "options": [
       {
-        "jp": "を",
-        "romaji": "o"
+        "jp": "で",
+        "romaji": "de"
       },
       {
         "jp": "が",
@@ -637,7 +637,7 @@ window.MNN_BANK[17] = [
     "section": "B · ～ないでください",
     "type": "mcq",
     "badge": "Bab 17 · Dialog Kesehatan",
-    "prompt": "A: 「ねつが あります。」\nB: 「そうですか。きょうは おふろに （　）。」",
+    "prompt": "A: 「ねつが あります。」\nB: 「そうですか。きょうは おふろに （　）。」 (Saran: hari ini tolong jangan berendam.)",
     "promptRomaji": "A: Netsu ga arimasu. / B: Sou desu ka. Kyou wa ofuro ni _____.",
     "sub": "Pilih saran yang tepat bagi orang yang sedang demam.",
     "options": [
@@ -886,7 +886,7 @@ window.MNN_BANK[17] = [
         "romaji": "kaeranakereba narimasen"
       },
       {
-        "jp": "かえししなければ なりません",
+        "jp": "かえしなければ なりません",
         "romaji": "kaeshinakereba narimasen"
       },
       {
@@ -954,12 +954,12 @@ window.MNN_BANK[17] = [
         "romaji": "Konshuu no kinyoubi made ni repooto o dasanakereba narimasen."
       },
       {
-        "jp": "きのう 12じまでに ねました。",
-        "romaji": "Kinou 12-ji made ni nemashita."
+        "jp": "きのう 9じから 12じまでに べんきょうしました。",
+        "romaji": "Kinou 9-ji kara 12-ji made ni benkyou shimashita."
       }
     ],
     "answer": 2,
-    "explain": "Mengumpulkan laporan (レポートを だします) adalah aksi sekali selesai dengan batas waktu, jadi wajib memakai までに. Bekerja atau tidur terus-menerus memakai まで."
+    "explain": "Mengumpulkan laporan (レポートを だします) adalah aksi sekali selesai dengan batas waktu, jadi wajib memakai までに. Bekerja atau belajar terus-menerus (termasuk rentang から～まで) memakai まで."
   },
   {
     "id": "b17-33",
@@ -967,7 +967,7 @@ window.MNN_BANK[17] = [
     "section": "C · ～なければなりません",
     "type": "mcq",
     "badge": "Bab 17 · Dialog Dokter",
-    "prompt": "いしゃ: 「どう しましたか。」\nかんじゃ: 「のどが いたいです。（　） ねつも あります。」",
+    "prompt": "いしゃ: 「どう しましたか。」\nかんじゃ: 「のどが いたいです。（　） ねつも あります。」 (Selain itu, saya juga demam.)",
     "promptRomaji": "Isha: Dou shimashita ka. / Kanja: Nodo ga itai desu. _____ netsu mo arimasu.",
     "sub": "Pilih kata penghubung yang tepat untuk menambahkan keluhan.",
     "options": [
@@ -1298,7 +1298,7 @@ window.MNN_BANK[17] = [
     "type": "mcq",
     "badge": "Bab 17 · Dialog Jawab 'Tidak'",
     "prompt": "A: 「きょう ざんぎょうしなければ なりませんか。」\nB: 「いいえ、（　）。5じに かえっても いいです。」",
-    "promptRomaji": "A: Kyou zangyou shinakereba narimasen ka. / B: Iie, _____.",
+    "promptRomaji": "A: Kyou zangyou shinakereba narimasen ka. / B: Iie, _____. 5-ji ni kaette mo ii desu.",
     "sub": "Perhatikan! Lawan kata jawab 'tidak' untuk pertanyaan 'apakah harus ~?' adalah 'tidak perlu ~'.",
     "options": [
       {
@@ -1327,7 +1327,7 @@ window.MNN_BANK[17] = [
     "section": "D · ～なくてもいいです",
     "type": "mcq",
     "badge": "Bab 17 · ～なくてもいいです",
-    "prompt": "こたえは ペンで （　）。えんぴつでも いいです。",
+    "prompt": "こたえは ペンで （　）。えんぴつでも いいです。 (Tidak perlu menulis jawaban dengan pulpen. Dengan pensil pun boleh.)",
     "promptRomaji": "Kotae wa pen de _____. Enpitsu demo ii desu.",
     "sub": "かきます (menulis) → かかない → coret い + くても いいです.",
     "options": [

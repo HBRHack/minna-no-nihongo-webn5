@@ -73,8 +73,8 @@ window.MNN_BANK[6] = [
         "romaji": "o"
       },
       {
-        "jp": "は",
-        "romaji": "wa"
+        "jp": "に",
+        "romaji": "ni"
       },
       {
         "jp": "と",
@@ -276,8 +276,8 @@ window.MNN_BANK[6] = [
         "romaji": "o"
       },
       {
-        "jp": "と",
-        "romaji": "to"
+        "jp": "へ",
+        "romaji": "e"
       },
       {
         "jp": "で",
@@ -367,8 +367,8 @@ window.MNN_BANK[6] = [
         "romaji": "nani o"
       },
       {
-        "jp": "なにで",
-        "romaji": "nani de"
+        "jp": "なにに",
+        "romaji": "nani ni"
       },
       {
         "jp": "なにが",
@@ -500,7 +500,7 @@ window.MNN_BANK[6] = [
     "type": "mcq",
     "badge": "Bab 6 · Konjugasi 飲みます",
     "prompt": "「飲みます」の 「Ayo minum!」という 形は どれですか。",
-    "promptRomaji": "'Nomimasu' no 'ayo nomu!' to iu katachi wa dore desu ka.",
+    "promptRomaji": "'Nomimasu' no 'Ayo minum!' to iu katachi wa dore desu ka.",
     "sub": "Bentuk ajakan langsung.",
     "options": [
       {
@@ -529,7 +529,7 @@ window.MNN_BANK[6] = [
     "type": "mcq",
     "badge": "Bab 6 · Konjugasi 飲みます",
     "prompt": "「飲みます」の 「Maukah minum?」という 形は どれですか。",
-    "promptRomaji": "'Nomimasu' no 'maukah nomu?' to iu katachi wa dore desu ka.",
+    "promptRomaji": "'Nomimasu' no 'Maukah minum?' to iu katachi wa dore desu ka.",
     "sub": "Bentuk ajakan sopan menanyakan kesediaan.",
     "options": [
       {
@@ -1038,8 +1038,8 @@ window.MNN_BANK[6] = [
         "romaji": "nani o"
       },
       {
-        "jp": "なにで",
-        "romaji": "nani de"
+        "jp": "なにに",
+        "romaji": "nani ni"
       }
     ],
     "answer": 2,

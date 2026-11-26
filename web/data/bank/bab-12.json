@@ -444,8 +444,8 @@
     "sub": "Mobil ini lebih besar daripada mobil itu.",
     "options": [
       {
-        "jp": "が",
-        "romaji": "ga"
+        "jp": "で",
+        "romaji": "de"
       },
       {
         "jp": "を",
@@ -642,9 +642,9 @@
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · Lampau KS-な negatif",
-    "prompt": "その へやは しずか（　）。",
-    "promptRomaji": "Sono heya wa shizuka ( ).",
-    "sub": "Kamar itu tidak tenang.",
+    "prompt": "きのう、その へやは しずか（　）。",
+    "promptRomaji": "Kinou, sono heya wa shizuka ( ).",
+    "sub": "Kemarin kamar itu tidak tenang.",
     "options": [
       {
         "jp": "じゃありません",
@@ -990,9 +990,9 @@
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · Lampau やすい negatif",
-    "prompt": "その みせの やさいは あまり （　）。",
-    "promptRomaji": "Sono mise no yasai wa amari ( ).",
-    "sub": "Sayur di toko itu tidak terlalu murah. (やすい)",
+    "prompt": "きのう、その みせの やさいは あまり （　）。",
+    "promptRomaji": "Kinou, sono mise no yasai wa amari ( ).",
+    "sub": "Kemarin sayur di toko itu tidak terlalu murah. (やすい)",
     "options": [
       {
         "jp": "やすかったです",
@@ -1019,9 +1019,9 @@
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · Lampau きれい",
-    "prompt": "その まちは とても （　）。",
-    "promptRomaji": "Sono machi wa totemo ( ).",
-    "sub": "Kota itu sangat indah. (きれい = KS-な)",
+    "prompt": "きのうの レストランは とても （　）。",
+    "promptRomaji": "Kinou no resutoran wa totemo ( ).",
+    "sub": "Restoran kemarin sangat bersih. (きれい = KS-な)",
     "options": [
       {
         "jp": "きれいくなかったです",
@@ -1222,8 +1222,8 @@
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · いちばん + だれ",
-    "prompt": "クラスの なかで （　）が いちばん たかいですか。…ヤンさんです。",
-    "promptRomaji": "Kurasu no naka de ( ) ga ichiban takai desu ka. ...Yan-san desu.",
+    "prompt": "クラスの なかで （　）が いちばん はやいですか。…ヤンさんです。",
+    "promptRomaji": "Kurasu no naka de ( ) ga ichiban hayai desu ka. ...Yan-san desu.",
     "sub": "Menanyakan orang.",
     "options": [
       {

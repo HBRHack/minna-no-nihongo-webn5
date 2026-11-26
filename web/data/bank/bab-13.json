@@ -932,8 +932,8 @@
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Konjugasi たくなかった",
-    "prompt": "きのうは ねます → （　）",
-    "promptRomaji": "Kinou wa nemasu → ( )",
+    "prompt": "ねます → （　）",
+    "promptRomaji": "Nemasu → ( )",
     "sub": "Ubah ke bentuk lampau negatif 'dulu tidak ingin tidur' (sopan).",
     "options": [
       {
@@ -1106,29 +1106,29 @@
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Pola たかった",
-    "prompt": "こどもの とき、せんせいに なりたかったです。",
-    "promptRomaji": "Kodomo no toki, sensei ni naritakatta desu.",
+    "prompt": "きのう、えいがを みたかったです。",
+    "promptRomaji": "Kinou, eiga o mitakatta desu.",
     "sub": "Apa arti kalimat ini?",
     "options": [
       {
-        "jp": "Saya pernah menjadi guru.",
+        "jp": "Kemarin saya sudah menonton film.",
         "romaji": ""
       },
       {
-        "jp": "Dulu saya ingin menjadi guru.",
+        "jp": "Kemarin saya ingin menonton film.",
         "romaji": ""
       },
       {
-        "jp": "Dulu saya tidak ingin menjadi guru.",
+        "jp": "Kemarin saya tidak ingin menonton film.",
         "romaji": ""
       },
       {
-        "jp": "Sekarang saya ingin menjadi guru.",
+        "jp": "Sekarang saya ingin menonton film.",
         "romaji": ""
       }
     ],
     "answer": 1,
-    "explain": "なりたかったです menyatakan keinginan pada masa lampau."
+    "explain": "みたかったです menyatakan keinginan menonton pada masa lampau."
   },
   {
     "id": "b13-40",

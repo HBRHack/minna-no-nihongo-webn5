@@ -1398,7 +1398,7 @@ window.MNN_BANK[19] = [
     "bab": 19,
     "type": "mcq",
     "badge": "Bab 19 · Dialog Lengkap",
-    "prompt": "A: 「やまださんは まいにち どんな ことを していますか。」\nB: 「じむで れんしゅうしたり、からだに いい たべものを （　） しています。」",
+    "prompt": "A: 「やまださんは まいにち どんな ことを していますか。」\nB: 「ジムで れんしゅうしたり、からだに いい たべものを （　） しています。」",
     "promptRomaji": "B: Jimu de renshuu shitari, karada ni ii tabemono o _____ shite imasu.",
     "sub": "Pilih bentuk -たり dari たべます.",
     "options": [

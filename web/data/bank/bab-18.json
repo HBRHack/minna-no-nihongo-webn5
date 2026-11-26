@@ -554,7 +554,7 @@
     "options": [
       { "jp": "まえに", "romaji": "mae ni" },
       { "jp": "あとで", "romaji": "ato de" },
-      { "jp": "から", "romaji": "kara" },
+      { "jp": "の まえに", "romaji": "no mae ni" },
       { "jp": "まえの", "romaji": "mae no" }
     ],
     "answer": 0,
@@ -622,7 +622,7 @@
     "options": [
       { "jp": "まえに", "romaji": "mae ni" },
       { "jp": "の まえに", "romaji": "no mae ni" },
-      { "jp": "から", "romaji": "kara" },
+      { "jp": "あとで", "romaji": "ato de" },
       { "jp": "ことが", "romaji": "koto ga" }
     ],
     "answer": 0,
@@ -690,8 +690,8 @@
     "options": [
       { "jp": "ぜひ", "romaji": "zehi" },
       { "jp": "なかなか", "romaji": "nakanaka" },
-      { "jp": "よく", "romaji": "yoku" },
-      { "jp": "いつも", "romaji": "itsumo" }
+      { "jp": "とても", "romaji": "totemo" },
+      { "jp": "だいたい", "romaji": "daitai" }
     ],
     "answer": 1,
     "explain": "なかなか + bentuk negatif berarti 'susah untuk / tidak kunjung ~'. ぜひ dipakai pada kalimat positif (harapan/ajakan)."
@@ -837,7 +837,7 @@
     "bab": 18,
     "type": "mcq",
     "badge": "Bab 18 · Dialog & Pola Lengkap",
-    "prompt": "A: 「おんがくの なかで なにが すきですか。」\nB: 「ビートルズが すきです。（　） 『ふるさと』を うたう ことが できます。」",
+    "prompt": "A: 「おんがくの なかで なにが すきですか。」\nB: 「ビートルズが すきです。（　） 『ふるさと』を うたう ことが できます。」 (Selain itu, saya bisa menyanyikan lagu \"Furusato\".)",
     "promptRomaji": "B: Biitoruzu ga suki desu. _____ \"Furusato\" o utau koto ga dekimasu.",
     "sub": "Pilih kata penghubung yang tepat untuk menambahkan informasi.",
     "options": [

@@ -169,7 +169,7 @@ window.MNN_BANK[1] = [
       },
       {
         "jp": "にじゅっさい",
-        "romaji": "nijuusai"
+        "romaji": "nijussai"
       }
     ],
     "answer": 2,
@@ -209,8 +209,8 @@ window.MNN_BANK[1] = [
     "bab": 1,
     "type": "mcq",
     "badge": "Bab 1 · Positif",
-    "prompt": "わたしは にほんじん （　） 。",
-    "promptRomaji": "Watashi wa Nihonjin ( ).",
+    "prompt": "わたしは にほんじん （　） 。（Saya adalah orang Jepang）",
+    "promptRomaji": "Watashi wa Nihonjin _____ . (positif)",
     "sub": "Saya orang Jepang.",
     "options": [
       {
@@ -296,8 +296,8 @@ window.MNN_BANK[1] = [
     "bab": 1,
     "type": "mcq",
     "badge": "Bab 1 · Negatif",
-    "prompt": "ミラーさんは アメリカじん （　） 。",
-    "promptRomaji": "Miraa-san wa Amerika-jin ( ).",
+    "prompt": "ミラーさんは ぎんこういん （　） 。（Sdr. Miller BUKAN pegawai bank）",
+    "promptRomaji": "Miraa-san wa ginkouin _____ . (negatif)",
     "sub": "Sdr. Miller bukan orang Amerika.",
     "options": [
       {
@@ -318,15 +318,15 @@ window.MNN_BANK[1] = [
       }
     ],
     "answer": 0,
-    "explain": "Negatif kata benda non-lampau memakai じゃありません."
+    "explain": "ミラー adalah karyawan IMC (bukan pegawai bank); negatif kata benda non-lampau memakai じゃありません."
   },
   {
     "id": "b1-12",
     "bab": 1,
     "type": "mcq",
     "badge": "Bab 1 · Profesi",
-    "prompt": "ミラーさんは いしゃ （　） 。",
-    "promptRomaji": "Miraa-san wa isha ( ).",
+    "prompt": "ミラーさんは かいしゃいん （　） 。（Sdr. Miller adalah pegawai perusahaan）",
+    "promptRomaji": "Miraa-san wa kaishain _____ . (positif)",
     "sub": "Sdr. Miller dokter.",
     "options": [
       {
@@ -347,7 +347,7 @@ window.MNN_BANK[1] = [
       }
     ],
     "answer": 3,
-    "explain": "Profesi adalah kata benda, jadi predikat positifnya です."
+    "explain": "Profesi adalah kata benda, jadi kalimat positifnya ditutup dengan です."
   },
   {
     "id": "b1-13",
@@ -434,28 +434,28 @@ window.MNN_BANK[1] = [
       }
     ],
     "answer": 0,
-    "explain": "おなまえは なんですか adalah pola tetap untuk menanyakan nama."
+    "explain": "Dalam bahasa Jepang, 'nama' ditanyakan memakai なん (apa — sama seperti bahasa Inggris 'What is your name?'), BUKAN だれ (siapa) seperti pola bahasa Indonesia. だれ/どなた hanya untuk menanyakan orang (mis. あのかたは どなたですか)."
   },
   {
     "id": "b1-16",
     "bab": 1,
     "type": "mcq",
-    "badge": "Bab 1 · Kata Tanya Sopan",
-    "prompt": "おくには （　） ですか。",
-    "promptRomaji": "Okuni wa ( ) desu ka.",
+    "badge": "Bab 1 · Kata Tanya Umur Sopan",
+    "prompt": "あのかたは （　） ですか。…28さいです。（bentuk sopan）",
+    "promptRomaji": "Ano kata wa _____ desu ka. ...Nijuuhassai desu.",
     "sub": "Negara asal Anda di mana?",
     "options": [
       {
-        "jp": "なんさい",
-        "romaji": "nansai"
+        "jp": "なん",
+        "romaji": "nan"
       },
       {
         "jp": "だれ",
         "romaji": "dare"
       },
       {
-        "jp": "どちら",
-        "romaji": "dochira"
+        "jp": "おいくつ",
+        "romaji": "oikutsu"
       },
       {
         "jp": "いくら",
@@ -463,7 +463,7 @@ window.MNN_BANK[1] = [
       }
     ],
     "answer": 2,
-    "explain": "どちら adalah bentuk sopan untuk menanyakan asal/arah."
+    "explain": "Menanyakan umur kepada orang yang dihormati (あのかた) memakai bentuk sopan おいくつですか (bukan なん/だれ)."
   },
   {
     "id": "b1-17",
@@ -545,12 +545,12 @@ window.MNN_BANK[1] = [
         "romaji": "juusai"
       },
       {
-        "jp": "じっさい",
-        "romaji": "jissai"
+        "jp": "じゅさい",
+        "romaji": "jusai"
       }
     ],
     "answer": 0,
-    "explain": "10歳 dibaca じゅっさい (jussai)."
+    "explain": "10歳 dibaca じゅっさい (jussai) atau じっさい (jissai), dengan bunyi rangkap っ (tidak boleh dibaca じゅさい/じゅうさい)."
   },
   {
     "id": "b1-20",

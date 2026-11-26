@@ -232,7 +232,7 @@
       { "jp": "あげました", "romaji": "agemashita" },
       { "jp": "くれました", "romaji": "kuremashita" },
       { "jp": "もらいました", "romaji": "moraimashita" },
-      { "jp": "おくりました", "romaji": "okurimashita" }
+      { "jp": "しました", "romaji": "shimashita" }
     ],
     "answer": 1,
     "explain": "Jika subjek pemberi adalah orang lain (サントスさんは) dan penerimanya adalah saya (わたしに), wajib memakai くれました."
@@ -283,7 +283,7 @@
       { "jp": "あげました", "romaji": "agemashita" },
       { "jp": "くれました", "romaji": "kuremashita" },
       { "jp": "もらいました", "romaji": "moraimashita" },
-      { "jp": "みました", "romaji": "mimashita" }
+      { "jp": "しました", "romaji": "shimashita" }
     ],
     "answer": 0,
     "explain": "Subjek adalah わたしは dan saya melakukan kebaikan/jasa untuk orang lain (おばあさんに), jadi memakai V-てあげました: もって あげました."
@@ -317,7 +317,7 @@
       { "jp": "あげました", "romaji": "agemashita" },
       { "jp": "もらいました", "romaji": "moraimashita" },
       { "jp": "くれました", "romaji": "kuremashita" },
-      { "jp": "おきました", "romaji": "okimashita" }
+      { "jp": "しました", "romaji": "shimashita" }
     ],
     "answer": 2,
     "explain": "Subjek adalah pemberi kebaikan (ちちが) dan penerimanya adalah saya (わたしに), sehingga memakai V-てくれました: かって くれました."

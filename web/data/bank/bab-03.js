@@ -644,8 +644,8 @@ window.MNN_BANK[3] = [
     "bab": 3,
     "type": "mcq",
     "badge": "Bab 3 · Partikel か",
-    "prompt": "サントスさんは がくせいです （　） 。",
-    "promptRomaji": "Santosu-san wa gakusei desu ( ).",
+    "prompt": "エレベーターは そこです （　） 。",
+    "promptRomaji": "Erebeetaa wa soko desu _____ .",
     "sub": "Pilih partikel pertanyaan. (Apakah Sdr. Santos mahasiswa?)",
     "options": [
       {
@@ -818,8 +818,8 @@ window.MNN_BANK[3] = [
     "bab": 3,
     "type": "mcq",
     "badge": "Bab 3 · Partikel の",
-    "prompt": "これは わたし （　） ほんです。",
-    "promptRomaji": "Kore wa watashi ( ) hon desu.",
+    "prompt": "これは インドネシア （　） コーヒーです。",
+    "promptRomaji": "Kore wa Indoneshia _____ koohii desu.",
     "sub": "Pilih partikel kepemilikan. (Ini buku saya.)",
     "options": [
       {
@@ -840,7 +840,7 @@ window.MNN_BANK[3] = [
       }
     ],
     "answer": 0,
-    "explain": "の menghubungkan pemilik dan benda: わたしの ほん."
+    "explain": "の menghubungkan negara asal dengan produknya: インドネシアの コーヒー."
   },
   {
     "id": "b3-30",
@@ -1079,7 +1079,7 @@ window.MNN_BANK[3] = [
     "bab": 3,
     "type": "mcq",
     "badge": "Bab 3 · お国は どちら",
-    "prompt": "A:「おくには （　） ですか。」 B:「インドネシアです。」",
+    "prompt": "A:「おくには （　） ですか。」 B:「インドネシアです。」（tanya sopan）",
     "promptRomaji": "Okuni wa ( ) desu ka. ...Indoneshia desu.",
     "sub": "Menanyakan negara asal secara sopan.",
     "options": [
@@ -1108,7 +1108,7 @@ window.MNN_BANK[3] = [
     "bab": 3,
     "type": "mcq",
     "badge": "Bab 3 · 会社は どちら",
-    "prompt": "A:「かいしゃは （　） ですか。」 B:「IMCです。」",
+    "prompt": "A:「かいしゃは （　） ですか。」 B:「IMCです。」（tanya sopan）",
     "promptRomaji": "Kaisha wa ( ) desu ka. ...IMC desu.",
     "sub": "Menanyakan nama perusahaan secara sopan.",
     "options": [
@@ -1137,7 +1137,7 @@ window.MNN_BANK[3] = [
     "bab": 3,
     "type": "mcq",
     "badge": "Bab 3 · 学校は どちら",
-    "prompt": "A:「がっこうは （　） ですか。」 B:「ふじだいがくです。」",
+    "prompt": "A:「がっこうは （　） ですか。」 B:「ふじだいがくです。」（tanya sopan）",
     "promptRomaji": "Gakkou wa ( ) desu ka. ...Fujidaigaku desu.",
     "sub": "Menanyakan nama sekolah secara sopan.",
     "options": [
@@ -1325,7 +1325,7 @@ window.MNN_BANK[3] = [
       },
       {
         "jp": "ろっびゃくえん",
-        "romaji": "roppyaku en"
+        "romaji": "robbyaku en"
       },
       {
         "jp": "ろっぴゃくえん",

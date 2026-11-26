@@ -354,17 +354,17 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · Partikel に (waktu)",
-    "prompt": "あした 9じ （　） べんきょうします。",
-    "promptRomaji": "Ashita kuji ( ) benkyou shimasu.",
+    "prompt": "あした 9じ （　） はじまります。（dimulai pada jam 9）",
+    "promptRomaji": "Ashita kuji _____ hajimarimasu.",
     "sub": "Pilih partikel waktu. (Besok saya belajar pada jam 9.)",
     "options": [
       {
-        "jp": "から",
-        "romaji": "kara"
+        "jp": "で",
+        "romaji": "de"
       },
       {
-        "jp": "まで",
-        "romaji": "made"
+        "jp": "を",
+        "romaji": "o"
       },
       {
         "jp": "に",
@@ -376,7 +376,7 @@ window.MNN_BANK[4] = [
       }
     ],
     "answer": 2,
-    "explain": "Jam spesifik ditandai dengan に, sedangkan あした sendiri tidak memakai に."
+    "explain": "Jam spesifik terjadinya aksi (mulai jam 9) ditandai dengan に, sedangkan あした tidak memakai に."
   },
   {
     "id": "b4-14",
@@ -425,8 +425,8 @@ window.MNN_BANK[4] = [
         "romaji": "ni"
       },
       {
-        "jp": "から",
-        "romaji": "kara"
+        "jp": "へ",
+        "romaji": "e"
       },
       {
         "jp": "を",
@@ -441,7 +441,7 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · Partikel から",
-    "prompt": "わたしは 9じ （　） はたらきます。",
+    "prompt": "わたしは 9じ （　） はたらきます。（bekerja mulai dari jam 9）",
     "promptRomaji": "Watashi wa kuji ( ) hatarakimasu.",
     "sub": "Pilih partikel 'dari'. (Saya bekerja dari jam 9.)",
     "options": [
@@ -470,7 +470,7 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · Partikel から",
-    "prompt": "ひるやすみは 12じ （　） です。",
+    "prompt": "ひるやすみは 12じ （　） です。（istirahat siang mulai dari jam 12）",
     "promptRomaji": "Hiruyasumi wa juuniji ( ) desu.",
     "sub": "Pilih partikel 'dari'. (Istirahat siang mulai jam 12.)",
     "options": [
@@ -499,7 +499,7 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · Partikel まで",
-    "prompt": "わたしは 5じ （　） はたらきます。",
+    "prompt": "わたしは 5じ （　） はたらきます。（bekerja sampai jam 5）",
     "promptRomaji": "Watashi wa goji ( ) hatarakimasu.",
     "sub": "Pilih partikel 'sampai'. (Saya bekerja sampai jam 5.)",
     "options": [
@@ -528,7 +528,7 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · Partikel まで",
-    "prompt": "べんきょうは 10じ （　） です。",
+    "prompt": "べんきょうは 10じ （　） です。（belajar sampai jam 10）",
     "promptRomaji": "Benkyou wa juuji ( ) desu.",
     "sub": "Pilih partikel 'sampai'. (Belajarnya sampai jam 10.)",
     "options": [
@@ -586,7 +586,7 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · Partikel と",
-    "prompt": "かいぎは 2じ （　） 4じです。",
+    "prompt": "かいぎは 2じ （　） 4じです。（rapat ada jam 2 dan jam 4）",
     "promptRomaji": "Kaigi wa niji ( ) yoji desu.",
     "sub": "Pilih partikel 'dan'. (Rapatnya jam 2 dan jam 4.)",
     "options": [
@@ -644,7 +644,7 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · V-ません",
-    "prompt": "わたしは にちようびに （　）。",
+    "prompt": "わたしは にちようびに （　）。（hari Minggu tidak bekerja）",
     "promptRomaji": "Watashi wa nichiyoubi ni ( ).",
     "sub": "Pilih bentuk yang tepat. (Saya tidak bekerja pada hari Minggu.)",
     "options": [
@@ -673,7 +673,7 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · V-ました",
-    "prompt": "きのうの ばん （　）。",
+    "prompt": "きのうの ばん （　）。（tadi malam belajar）",
     "promptRomaji": "Kinou no ban ( ).",
     "sub": "Pilih bentuk yang tepat. (Kemarin malam saya belajar.)",
     "options": [
@@ -702,7 +702,7 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · V-ませんでした",
-    "prompt": "きのう 6じに （　）。",
+    "prompt": "きのう 6じに （　）。（kemarin tidak bangun jam 6）",
     "promptRomaji": "Kinou rokuji ni ( ).",
     "sub": "Pilih bentuk yang tepat. (Kemarin saya tidak bangun jam 6.)",
     "options": [
@@ -731,7 +731,7 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · V-ました",
-    "prompt": "きのうの ばん 11じに （　）。",
+    "prompt": "きのうの ばん 11じに （　）。（tadi malam tidur jam 11）",
     "promptRomaji": "Kinou no ban juuichiji ni ( ).",
     "sub": "Pilih bentuk yang tepat. (Kemarin malam saya tidur jam 11.)",
     "options": [
@@ -760,7 +760,7 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · V-ません",
-    "prompt": "かいぎは 5じに （　）。",
+    "prompt": "かいぎは 5じに （　）。（rapat tidak selesai jam 5）",
     "promptRomaji": "Kaigi wa goji ni ( ).",
     "sub": "Pilih bentuk yang tepat. (Rapat tidak selesai jam 5.)",
     "options": [
@@ -789,7 +789,7 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · V-ました",
-    "prompt": "きのう わたしは （　）。",
+    "prompt": "きのう わたしは （　）。（kemarin saya libur）",
     "promptRomaji": "Kinou watashi wa ( ).",
     "sub": "Pilih bentuk yang tepat. (Kemarin saya beristirahat.)",
     "options": [
@@ -818,7 +818,7 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · V-ます",
-    "prompt": "まいあさ 6じに （　）。",
+    "prompt": "まいあさ 6じに （　）。（setiap pagi bangun jam 6）",
     "promptRomaji": "Maiasa rokuji ni ( ).",
     "sub": "Pilih bentuk yang tepat. (Setiap pagi saya bangun jam 6.)",
     "options": [
@@ -847,7 +847,7 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · V-ました",
-    "prompt": "きのう 9じから 5じまで （　）。",
+    "prompt": "きのう 9じから 5じまで （　）。（kemarin bekerja dari jam 9 sampai 5）",
     "promptRomaji": "Kinou kuji kara goji made ( ).",
     "sub": "Pilih bentuk yang tepat. (Kemarin saya bekerja dari jam 9 sampai jam 5.)",
     "options": [
@@ -876,7 +876,7 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · V-ません",
-    "prompt": "あしたは （　）。",
+    "prompt": "あしたは （　）。（besok tidak belajar）",
     "promptRomaji": "Ashita wa ( ).",
     "sub": "Pilih bentuk yang tepat. (Besok saya tidak belajar.)",
     "options": [
@@ -905,7 +905,7 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · V-ませんでした",
-    "prompt": "にちようびの ばん （　）。",
+    "prompt": "にちようびの ばん （　）。（Minggu malam lalu tidak tidur）",
     "promptRomaji": "Nichiyoubi no ban ( ).",
     "sub": "Pilih bentuk yang tepat. (Minggu malam saya tidak tidur.)",
     "options": [
@@ -934,7 +934,7 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · V-ました",
-    "prompt": "かいぎは 4じに （　）。",
+    "prompt": "かいぎは 4じに （　）。（rapat sudah selesai jam 4）",
     "promptRomaji": "Kaigi wa yoji ni ( ).",
     "sub": "Pilih bentuk yang tepat. (Rapat selesai jam 4.)",
     "options": [
@@ -1021,8 +1021,8 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · Bentuk Negatif",
-    "prompt": "「べんきょうします」の ネガティブ（bentuk negatif non-lampau）は どれですか。",
-    "promptRomaji": "Benkyou shimasu no negatibu wa dore desu ka.",
+    "prompt": "「べんきょうします」の ひていけい（bentuk negatif non-lampau）は どれですか。",
+    "promptRomaji": "Benkyou shimasu no hitei-kei wa dore desu ka.",
     "sub": "Pilih bentuk negatif non-lampau yang benar.",
     "options": [
       {

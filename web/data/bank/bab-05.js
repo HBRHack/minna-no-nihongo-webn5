@@ -11,8 +11,8 @@ window.MNN_BANK[5] = [
     "sub": "Pilih partikel arah tujuan. (Saya besok pergi ke Jepang.)",
     "options": [
       {
-        "jp": "に",
-        "romaji": "ni"
+        "jp": "と",
+        "romaji": "to"
       },
       {
         "jp": "で",
@@ -98,8 +98,8 @@ window.MNN_BANK[5] = [
     "sub": "Lengkapi penyangkalan total. (Hari ini tidak pergi ke mana pun.)",
     "options": [
       {
-        "jp": "に",
-        "romaji": "ni"
+        "jp": "を",
+        "romaji": "o"
       },
       {
         "jp": "へ",
@@ -325,8 +325,8 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · あるいて",
-    "prompt": "わたしは まいにち （　） えきへ 行きます。",
-    "promptRomaji": "Watashi wa mainichi ( ) eki e ikimasu.",
+    "prompt": "わたしは まいにち （　） えきへ 行きます。（dengan berjalan kaki）",
+    "promptRomaji": "Watashi wa mainichi _____ eki e ikimasu. (berjalan kaki)",
     "sub": "Pilih bentuk 'berjalan kaki'. (Saya setiap hari pergi ke stasiun dengan berjalan kaki.)",
     "options": [
       {
@@ -342,8 +342,8 @@ window.MNN_BANK[5] = [
         "romaji": "aruite de"
       },
       {
-        "jp": "でんしゃで",
-        "romaji": "densha de"
+        "jp": "あるいてを",
+        "romaji": "aruite o"
       }
     ],
     "answer": 1,

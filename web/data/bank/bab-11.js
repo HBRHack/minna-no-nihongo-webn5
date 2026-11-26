@@ -790,12 +790,12 @@ window.MNN_BANK[11] = [
     "type": "mcq",
     "badge": "Bab 11 · Bentuk 10かい",
     "prompt": "「10かい」の ただしい よみかたは どれですか。",
-    "promptRomaji": "\"Juukkai\" no tadashii yomikata wa dore desu ka.",
+    "promptRomaji": "10-kai no tadashii yomikata wa dore desu ka.",
     "sub": "Bacaan untuk sepuluh kali.",
     "options": [
       {
-        "jp": "じゅっまい",
-        "romaji": "jumai"
+        "jp": "じゅうまい",
+        "romaji": "juumai"
       },
       {
         "jp": "とおかい",

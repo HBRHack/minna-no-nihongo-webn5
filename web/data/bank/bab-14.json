@@ -845,8 +845,8 @@
     "bab": 14,
     "type": "mcq",
     "badge": "Bab 14 · V-ましょうか (Tawaran)",
-    "prompt": "おもそうですね。その にもつを （　）。",
-    "promptRomaji": "Omosou desu ne. Sono nimotsu o _____.",
+    "prompt": "おおきい にもつですね。その にもつを （　）。 (Mau saya bawakan?)",
+    "promptRomaji": "Ookii nimotsu desu ne. Sono nimotsu o _____.",
     "sub": "Tawarkan bantuan membawakan barang (もちます).",
     "options": [
       {
@@ -874,7 +874,7 @@
     "bab": 14,
     "type": "mcq",
     "badge": "Bab 14 · V-ましょうか (Tawaran)",
-    "prompt": "さむいですね。エアコンを （　）。",
+    "prompt": "さむいですね。エアコンを （　）。 (Mau saya matikan?)",
     "promptRomaji": "Samui desu ne. Eakon o _____.",
     "sub": "Tawarkan bantuan mematikan AC (けします).",
     "options": [
@@ -903,8 +903,8 @@
     "bab": 14,
     "type": "mcq",
     "badge": "Bab 14 · V-ましょうか (Tawaran)",
-    "prompt": "しごとが おおくて たいへんですね。ちょっと （　）。",
-    "promptRomaji": "Shigoto ga ookute taihen desu ne. Chotto _____.",
+    "prompt": "しごとが たいへんですね。ちょっと （　）。 (Mau saya bantu?)",
+    "promptRomaji": "Shigoto ga taihen desu ne. Chotto _____.",
     "sub": "Tawarkan bantuan membantu pekerjaan (てつだいます).",
     "options": [
       {
@@ -1061,8 +1061,8 @@
         "romaji": "takushii o yonde imasu ka."
       },
       {
-        "jp": "タクシーを よぶ ましょうか。",
-        "romaji": "takushii o yobu mashou ka."
+        "jp": "タクシーを よんで ましょうか。",
+        "romaji": "takushii o yonde mashou ka."
       },
       {
         "jp": "タクシーを よびましょうか。",
@@ -1251,8 +1251,8 @@
     "bab": 14,
     "type": "mcq",
     "badge": "Bab 14 · Dialog Menolak Halus",
-    "prompt": "A：「えきまで くるまで おくりましょうか。」 B：「ありがとう ございます。でも、（　）。」",
-    "promptRomaji": "A: \"Eki made kuruma de okurimashou ka.\" B: \"Arigatou gozaimasu. Demo, _____.\"",
+    "prompt": "A：「この ちずを コピーしましょうか。」 B：「ありがとう ございます。でも、（　）。」",
+    "promptRomaji": "A: \"Kono chizu o kopii shimashou ka.\" B: \"Arigatou gozaimasu. Demo, _____.\"",
     "sub": "Pilih respons menolak tawaran bantuan secara halus.",
     "options": [
       {
@@ -1264,8 +1264,8 @@
         "romaji": "itte kudasai"
       },
       {
-        "jp": "おくりましょうか",
-        "romaji": "okurimashou ka"
+        "jp": "コピーしましょうか",
+        "romaji": "kopii shimashou ka"
       },
       {
         "jp": "けっこうです",
@@ -1395,22 +1395,22 @@
     "id": "b14-49",
     "bab": 14,
     "type": "mcq",
-    "badge": "Bab 14 · Jebakan Partikel はいります/でます",
-    "prompt": "12じに きっさてん （　） でます。",
-    "promptRomaji": "Juuniji ni kissaten _____ demasu.",
-    "sub": "Pilih partikel yang tepat untuk keluar dari tempat (でます).",
+    "badge": "Bab 14 · Partikel ふります",
+    "prompt": "あさから ずっと ゆき （　） ふって います。",
+    "promptRomaji": "Asa kara zutto yuki _____ futte imasu.",
+    "sub": "Pilih partikel subjek fenomena alam untuk ふります (turun salju/hujan).",
     "options": [
+      {
+        "jp": "を",
+        "romaji": "o"
+      },
       {
         "jp": "に",
         "romaji": "ni"
       },
       {
-        "jp": "で",
-        "romaji": "de"
-      },
-      {
-        "jp": "を",
-        "romaji": "o"
+        "jp": "が",
+        "romaji": "ga"
       },
       {
         "jp": "へ",
@@ -1418,7 +1418,7 @@
       }
     ],
     "answer": 2,
-    "explain": "Masuk tempat memakai に (きっさてんに はいります), sedangkan keluar dari tempat memakai を (きっさてんを でます)."
+    "explain": "Fenomena alam seperti hujan (あめ) dan salju (ゆき) dengan kata kerja ふります selalu memakai partikel が (ゆきが ふって います)."
   },
   {
     "id": "b14-50",

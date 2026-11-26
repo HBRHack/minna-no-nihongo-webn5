@@ -4,8 +4,8 @@
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · これ・それ・あれ",
-    "prompt": "（　） は わたしの ほんです。",
-    "promptRomaji": "( ) wa watashi no hon desu.",
+    "prompt": "（　） は わたしの ほんです。（benda dekat pembicara）",
+    "promptRomaji": "_____ wa watashi no hon desu. (dekat pembicara)",
     "sub": "Benda ini dekat dengan pembicara. (Ini buku saya.)",
     "options": [
       {
@@ -33,8 +33,8 @@
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · これ・それ・あれ",
-    "prompt": "（　） は あなたの かばんですか。",
-    "promptRomaji": "( ) wa anata no kaban desu ka.",
+    "prompt": "（　） は あなたの かばんですか。（benda dekat lawan bicara）",
+    "promptRomaji": "_____ wa anata no kaban desu ka. (dekat lawan bicara)",
     "sub": "Benda itu dekat dengan lawan bicara. (Apakah itu tas Anda?)",
     "options": [
       {
@@ -62,8 +62,8 @@
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · これ・それ・あれ",
-    "prompt": "（　） は ミラーさんのです。",
-    "promptRomaji": "( ) wa Miraa-san no desu.",
+    "prompt": "（　） は ミラーさんのです。（benda jauh dari keduanya）",
+    "promptRomaji": "_____ wa Miraa-san no desu. (jauh dari keduanya)",
     "sub": "Benda itu jauh dari pembicara dan lawan bicara. (Itu milik Sdr. Miller.)",
     "options": [
       {
@@ -91,8 +91,8 @@
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · この・その・あの",
-    "prompt": "（　） ほんは わたしのです。",
-    "promptRomaji": "( ) hon wa watashi no desu.",
+    "prompt": "（　） ほんは わたしのです。（benda dekat pembicara）",
+    "promptRomaji": "_____ hon wa watashi no desu. (dekat pembicara)",
     "sub": "Buku ini (dekat pembicara) milik saya.",
     "options": [
       {
@@ -120,8 +120,8 @@
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · この・その・あの",
-    "prompt": "（　） かばんは あなたのですか。",
-    "promptRomaji": "( ) kaban wa anata no desu ka.",
+    "prompt": "（　） かばんは あなたのですか。（benda dekat lawan bicara）",
+    "promptRomaji": "_____ kaban wa anata no desu ka. (dekat lawan bicara)",
     "sub": "Tas itu (dekat lawan bicara) milik Anda?",
     "options": [
       {
@@ -149,8 +149,8 @@
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · この・その・あの",
-    "prompt": "（　） くるまは ミラーさんのです。",
-    "promptRomaji": "( ) kuruma wa Miraa-san no desu.",
+    "prompt": "（　） くるまは ミラーさんのです。（benda jauh dari keduanya）",
+    "promptRomaji": "_____ kuruma wa Miraa-san no desu. (jauh dari keduanya)",
     "sub": "Mobil itu (jauh) milik Sdr. Miller.",
     "options": [
       {
@@ -468,21 +468,21 @@
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · Pilihan ～か、～か",
-    "prompt": "これは じしょですか、ざっしですか。…（　） です。",
-    "promptRomaji": "Kore wa jisho desu ka, zasshi desu ka. ...( ) desu.",
+    "prompt": "これは じしょですか、ざっしですか。…（　） です。（Jawab: majalah）",
+    "promptRomaji": "Kore wa jisho desu ka, zasshi desu ka. ..._____ desu. (majalah)",
     "sub": "Ini kamus atau majalah? ...Majalah.",
     "options": [
       {
-        "jp": "ほん",
-        "romaji": "hon"
+        "jp": "はい、ざっし",
+        "romaji": "hai, zasshi"
       },
       {
         "jp": "ざっし",
         "romaji": "zasshi"
       },
       {
-        "jp": "じしょ",
-        "romaji": "jisho"
+        "jp": "いいえ、ざっし",
+        "romaji": "iie, zasshi"
       },
       {
         "jp": "しんぶん",
@@ -490,15 +490,15 @@
       }
     ],
     "answer": 1,
-    "explain": "Pertanyaan ～か、～か dijawab dengan memilih salah satunya."
+    "explain": "Pertanyaan pilihan ～か、～か dijawab langsung dengan memilih bendanya (ざっしです), TANPA はい atau いいえ."
   },
   {
     "id": "b2-18",
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · Pilihan ～か、～か",
-    "prompt": "それは 「9」ですか、「7」ですか。…（　） です。",
-    "promptRomaji": "Sore wa '9' desu ka, '7' desu ka. ...( ) desu.",
+    "prompt": "それは 「9」ですか、「7」ですか。…（　） です。（Jawab: angka 7）",
+    "promptRomaji": "Sore wa '9' desu ka, '7' desu ka. ..._____ desu. (angka 7)",
     "sub": "Itu angka 9 atau 7? ...7.",
     "options": [
       {
@@ -510,8 +510,8 @@
         "romaji": "hachi"
       },
       {
-        "jp": "「9」",
-        "romaji": "kyuu"
+        "jp": "はい、「7」",
+        "romaji": "hai, nana"
       },
       {
         "jp": "「6」",
@@ -519,15 +519,15 @@
       }
     ],
     "answer": 0,
-    "explain": "Jawab langsung pilihan yang disebutkan."
+    "explain": "Pertanyaan pilihan ～か、～か langsung menyebut pilihannya (「7」です) tanpa はい."
   },
   {
     "id": "b2-19",
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · Pilihan ～か、～か",
-    "prompt": "この かばんは あなたのですか、サントスさんのですか。…（　） 。",
-    "promptRomaji": "Kono kaban wa anata no desu ka, Santosu-san no desu ka. ...( ).",
+    "prompt": "この かばんは あなたのですか、サントスさんのですか。…（　） 。（Jawab: milik Sdr. Santos）",
+    "promptRomaji": "Kono kaban wa anata no desu ka, Santosu-san no desu ka. ..._____ . (milik Sdr. Santos)",
     "sub": "Tas ini milik Anda atau Sdr. Santos? ...Milik Sdr. Santos.",
     "options": [
       {
@@ -539,8 +539,8 @@
         "romaji": "Santosu-san no desu ka"
       },
       {
-        "jp": "わたしのです",
-        "romaji": "watashi no desu"
+        "jp": "いいえ、サントスさんのです",
+        "romaji": "iie, Santosu-san no desu"
       },
       {
         "jp": "サントスさんのです",
@@ -548,7 +548,7 @@
       }
     ],
     "answer": 3,
-    "explain": "Saat bendanya disingkat, の wajib tetap ada: サントスさんのです."
+    "explain": "Saat bendanya disingkat, の wajib tetap ada: サントスさんのです (tanpa はい/いいえ)."
   },
   {
     "id": "b2-20",
@@ -1367,7 +1367,7 @@
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · Kalimat Benar",
-    "prompt": "Manakah kalimat yang benar untuk 「Itu payung Sdr. Santos」?",
+    "prompt": "Manakah kalimat yang benar untuk 「Itu (dekat lawan bicara) payung Sdr. Santos」?",
     "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
     "sub": "Benda itu dekat lawan bicara.",
     "options": [

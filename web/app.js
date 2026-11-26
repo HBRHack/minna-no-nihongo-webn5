@@ -126,8 +126,9 @@
     return out;
   }
   const REFERENCES = window.MNN_REFERENCES || [];
+  const KAIWA_BY_BAB = window.MNN_KAIWA || {};
   const FINAL_EXAM = window.FINAL_EXAM_1_25 || [];
-  const ASSET_VERSION = "20261125-v14";
+  const ASSET_VERSION = "20261125-v15";
   const FINAL_MAX_PER_BAB = 10;
   const FINAL_HARD_CAP = 250;
   const FINAL_BANK_CACHE = {};
@@ -384,6 +385,10 @@
     activeRefQuizObj: null,
     // Audio state
     hasJaVoice: null,
+    kaiwaPlaying: false,
+    kaiwaLineIdx: -1,
+    kaiwaHideId: false,
+    kaiwaMuteGender: "none", // 'none' | 'male' | 'female'
     profileFeedbackMsg: "",
     confirmResetArmed: false,
     // Quiz state (NO TIMER!)
@@ -546,11 +551,15 @@
     return "";
   }
 
-  function ttsBtnHtml(jpText, extraCls) {
+  function ttsBtnHtml(jpText, extraCls, gender) {
     const cleaned = cleanJpSpeech(jpText);
     if (!cleaned || !hasJapaneseText(cleaned)) return "";
-    return `<button type="button" class="tts-btn ${extraCls || ""}" data-speak="${esc(cleaned)}" aria-label="Dengarkan audio Jepang" title="Putar pelafalan Jepang (🔊)">🔊</button>`;
+    const gAttr = gender ? ` data-speak-gender="${esc(gender)}"` : "";
+    return `<button type="button" class="tts-btn ${extraCls || ""}" data-speak="${esc(cleaned)}"${gAttr} aria-label="Dengarkan audio Jepang" title="Putar pelafalan Jepang (🔊)">🔊</button>`;
   }
+
+  const MALE_VOICE_RE = /keita|ichiro|otoya|\bmale\b|ja-jp-x-jab|ja-jp-x-jad|\bjab\b|\bjad\b/i;
+  const FEMALE_VOICE_RE = /nanami|haruka|ayumi|kyoko|\bfemale\b|ja-jp-x-jac|ja-jp-x-htm|\bjac\b|\bhtm\b/i;
 
   function detectJaVoices() {
     if (typeof window === "undefined" || !("speechSynthesis" in window)) {
@@ -564,30 +573,138 @@
     return voices;
   }
 
-  function speakJapanese(rawText, triggerEl) {
+  function getJapaneseVoiceList() {
+    const voices = detectJaVoices();
+    const strictJp = voices.filter((v) => /^ja[-_]?jp/i.test(v.lang));
+    const looseJa = voices.filter((v) => /^ja\b/i.test(v.lang));
+    return strictJp.length > 0 ? strictJp : looseJa;
+  }
+
+  function resolveJapaneseVoice(gender) {
+    const baseRate = state.speechRate || 1.0;
+    const jpVoices = getJapaneseVoiceList();
+    const tagOf = (v) => `${(v && v.name) || ""} ${(v && v.voiceURI) || ""}`;
+    const maleNamed = jpVoices.find((v) => MALE_VOICE_RE.test(tagOf(v)));
+    const femaleNamed = jpVoices.find((v) => FEMALE_VOICE_RE.test(tagOf(v)));
+
+    // Prioritas 1: Deteksi nama suara spesifik pria vs wanita
+    if (gender === "male" && maleNamed) {
+      return { voice: maleNamed, pitch: 1.0, rate: baseRate, tier: 1, label: maleNamed.name || "Pria Spesifik" };
+    }
+    if (gender === "female" && femaleNamed) {
+      return { voice: femaleNamed, pitch: 1.0, rate: baseRate, tier: 1, label: femaleNamed.name || "Wanita Spesifik" };
+    }
+
+    // Prioritas 2: 2+ suara ja-JP tanpa label gender lengkap -> pasangkan jpVoices[0] & jpVoices[1]
+    if (jpVoices.length >= 2 && (gender === "male" || gender === "female")) {
+      let vMale = maleNamed || jpVoices[0];
+      let vFemale = femaleNamed || jpVoices[1];
+      if (vMale === vFemale) {
+        vMale = jpVoices[0];
+        vFemale = jpVoices[1];
+      }
+      const chosen = gender === "male" ? vMale : vFemale;
+      return {
+        voice: chosen,
+        pitch: 1.0,
+        rate: baseRate,
+        tier: 2,
+        label: (chosen && chosen.name) || `Suara ja-JP #${gender === "male" ? 1 : 2}`
+      };
+    }
+
+    // Prioritas 3: Fallback tunggal via pitch & rate
+    const single = jpVoices[0] || null;
+    if (gender === "male") {
+      return {
+        voice: single,
+        pitch: 0.85,
+        rate: Number((baseRate * 0.95).toFixed(2)),
+        tier: 3,
+        label: single ? `${single.name} (Pitch 0.85)` : "Fallback Pria (Pitch 0.85)"
+      };
+    }
+    if (gender === "female") {
+      return {
+        voice: single,
+        pitch: 1.12,
+        rate: baseRate,
+        tier: 3,
+        label: single ? `${single.name} (Pitch 1.12)` : "Fallback Wanita (Pitch 1.12)"
+      };
+    }
+    return {
+      voice: single,
+      pitch: 1.0,
+      rate: baseRate,
+      tier: single ? 1 : 3,
+      label: (single && single.name) || "Default ja-JP"
+    };
+  }
+
+  function describeVoiceRouterStatus() {
+    const jpVoices = getJapaneseVoiceList();
+    const m = resolveJapaneseVoice("male");
+    const f = resolveJapaneseVoice("female");
+    if (jpVoices.length === 0) {
+      return "⚠️ Suara ja-JP belum terdeteksi; Fallback Prioritas 3 aktif (Pria pitch 0.85 · Wanita pitch 1.12).";
+    }
+    return `✓ Terdeteksi ${jpVoices.length} suara ja-JP · Pria: [Prioritas ${m.tier}] ${m.label} · Wanita: [Prioritas ${f.tier}] ${f.label}`;
+  }
+
+  let kaiwaTimerId = null;
+  let kaiwaRunToken = 0;
+
+  function stopKaiwaPlayback(rerender) {
+    kaiwaRunToken += 1;
+    if (kaiwaTimerId !== null) {
+      clearTimeout(kaiwaTimerId);
+      kaiwaTimerId = null;
+    }
+    if (typeof window !== "undefined" && "speechSynthesis" in window && window.speechSynthesis.cancel) {
+      try { window.speechSynthesis.cancel(); } catch {}
+    }
+    const wasPlaying = state.kaiwaPlaying || state.kaiwaLineIdx !== -1;
+    state.kaiwaPlaying = false;
+    state.kaiwaLineIdx = -1;
+    if (rerender && wasPlaying && state.view === "chapter" && state.activeTab === "kaiwa") {
+      const ch = getChapter(state.selectedNum);
+      if (ch) renderChapterKaiwa(ch);
+    }
+  }
+
+  function speakJapanese(rawText, triggerEl, opts) {
     const text = cleanJpSpeech(rawText);
     if (!text) return;
+    const options = opts && typeof opts === "object" ? opts : {};
     if (typeof window === "undefined" || !("speechSynthesis" in window) || typeof SpeechSynthesisUtterance === "undefined") {
-      openProfileModal("Browser kamu belum mendukung Web Speech API untuk audio teks-ke-suara.");
+      if (typeof options.onEnd === "function") options.onEnd();
+      else openProfileModal("Browser kamu belum mendukung Web Speech API untuk audio teks-ke-suara.");
       return;
     }
     try {
       window.speechSynthesis.cancel();
       const utter = new SpeechSynthesisUtterance(text);
+      const cfg = resolveJapaneseVoice(options.gender);
       utter.lang = "ja-JP";
-      utter.rate = state.speechRate || 1.0;
-      const voices = detectJaVoices();
-      const jaVoice = voices.find((v) => /^ja[-_]?jp/i.test(v.lang)) || voices.find((v) => /^ja\b/i.test(v.lang));
-      if (jaVoice) utter.voice = jaVoice;
-      if (triggerEl) {
-        triggerEl.classList.add("is-speaking");
-        const clear = () => triggerEl.classList.remove("is-speaking");
-        utter.onend = clear;
-        utter.onerror = clear;
-      }
+      utter.rate = cfg.rate;
+      utter.pitch = cfg.pitch;
+      if (cfg.voice) utter.voice = cfg.voice;
+
+      let finished = false;
+      const done = () => {
+        if (finished) return;
+        finished = true;
+        if (triggerEl) triggerEl.classList.remove("is-speaking");
+        if (typeof options.onEnd === "function") options.onEnd();
+      };
+      if (triggerEl) triggerEl.classList.add("is-speaking");
+      utter.onend = done;
+      utter.onerror = done;
       window.speechSynthesis.speak(utter);
     } catch {
       if (triggerEl) triggerEl.classList.remove("is-speaking");
+      if (typeof options.onEnd === "function") options.onEnd();
     }
   }
 
@@ -918,6 +1035,7 @@
 
   // ===== OVERVIEW PETA BAB 1–25 =====
   function renderOverview() {
+    stopKaiwaPlayback();
     state.view = "overview";
     state.selectedNum = null;
     updateCheatButtonLabel();
@@ -1108,6 +1226,7 @@
 
   // ===== BUKA SATU BAB =====
   function openChapter(num, tab) {
+    stopKaiwaPlayback();
     const ch = getChapter(num);
     if (!ch) return;
     state.view = "chapter";
@@ -1184,6 +1303,9 @@
           <button type="button" class="mode-tab" id="tabKotobaFinal" role="tab">
             4. 🏆 Kuis Akhir Kotoba Bab ${ch.num}${kSaved ? ` (${kSaved.bestPct}%)` : ""}
           </button>
+          <button type="button" class="mode-tab ${state.activeTab === "kaiwa" ? "is-active" : ""}" id="tabKaiwa" role="tab" aria-selected="${state.activeTab === "kaiwa"}">
+            5. 💬 Kaiwa (${KAIWA_BY_BAB[ch.num] ? `${KAIWA_BY_BAB[ch.num].lines.length} Baris` : "Trial Bab 1"})
+          </button>
         </div>
       </section>
 
@@ -1191,25 +1313,213 @@
     `;
 
     document.getElementById("tabMateri").addEventListener("click", () => {
+      stopKaiwaPlayback();
       state.activeTab = "materi";
       renderChapterView();
     });
     document.getElementById("tabKuis").addEventListener("click", () => {
+      stopKaiwaPlayback();
       state.activeTab = "kuis";
       renderChapterView();
     });
     document.getElementById("tabKotobaFlash").addEventListener("click", () => {
+      stopKaiwaPlayback();
       openKotobaFlashcard(String(ch.num), "flip");
     });
     document.getElementById("tabKotobaFinal").addEventListener("click", () => {
+      stopKaiwaPlayback();
       openKotobaFlashcard(String(ch.num), "final");
+    });
+    document.getElementById("tabKaiwa").addEventListener("click", () => {
+      stopKaiwaPlayback();
+      state.activeTab = "kaiwa";
+      renderChapterView();
     });
 
     if (state.activeTab === "materi") {
       renderChapterMateri(ch);
+    } else if (state.activeTab === "kaiwa") {
+      renderChapterKaiwa(ch);
     } else {
       renderQuizBody(ch);
     }
+  }
+
+  function startKaiwaAutoPlay(chNum) {
+    const kaiwa = KAIWA_BY_BAB[chNum];
+    if (!kaiwa || !Array.isArray(kaiwa.lines) || kaiwa.lines.length === 0) return;
+    stopKaiwaPlayback();
+    const token = kaiwaRunToken;
+    state.kaiwaPlaying = true;
+
+    const playStep = (idx) => {
+      if (token !== kaiwaRunToken || state.view !== "chapter" || state.selectedNum !== chNum || state.activeTab !== "kaiwa") {
+        return;
+      }
+      if (idx >= kaiwa.lines.length) {
+        state.kaiwaPlaying = false;
+        state.kaiwaLineIdx = -1;
+        const ch = getChapter(chNum);
+        if (ch) renderChapterKaiwa(ch);
+        return;
+      }
+      state.kaiwaLineIdx = idx;
+      const ch = getChapter(chNum);
+      if (ch) renderChapterKaiwa(ch);
+
+      const line = kaiwa.lines[idx];
+      const isMuted = state.kaiwaMuteGender === line.gender;
+      if (isMuted) {
+        kaiwaTimerId = setTimeout(() => {
+          if (token === kaiwaRunToken) playStep(idx + 1);
+        }, 2600);
+        return;
+      }
+
+      let advanced = false;
+      const advance = () => {
+        if (advanced || token !== kaiwaRunToken) return;
+        advanced = true;
+        if (kaiwaTimerId !== null) {
+          clearTimeout(kaiwaTimerId);
+          kaiwaTimerId = null;
+        }
+        kaiwaTimerId = setTimeout(() => {
+          if (token === kaiwaRunToken) playStep(idx + 1);
+        }, 420);
+      };
+
+      // Safety fallback jika browser gagal memicu utterance.onend
+      kaiwaTimerId = setTimeout(advance, 9000);
+      speakJapanese(line.jp, null, { gender: line.gender, onEnd: advance });
+    };
+
+    playStep(0);
+  }
+
+  function renderChapterKaiwa(ch) {
+    const body = document.getElementById("chapterBody");
+    if (!body) return;
+    const kaiwa = KAIWA_BY_BAB[ch.num];
+
+    if (!kaiwa) {
+      body.innerHTML = `
+        <section class="study-section">
+          <div class="result-card">
+            <p class="eyebrow">TRIAL KAIWA AKTIF DI BAB 1</p>
+            <div class="result-score" style="font-size:24px;">Kaiwa Bab ${ch.num} Belum Ditambahkan</div>
+            <p class="result-msg">
+              Sesuai tahap uji coba, dialog percakapan interaktif beserta <strong>3-Layer Voice Router (Pria/Wanita)</strong> saat ini sedang aktif untuk dites pada <strong>Bab 1</strong> terlebih dahulu.
+            </p>
+            <div class="result-actions">
+              <button type="button" class="btn-primary" id="btnGoTrialKaiwaBab1">💬 Buka Trial Kaiwa Bab 1 →</button>
+              <button type="button" class="btn-secondary" id="btnBackMateriFromKaiwa">← Kembali ke Materi Bab ${ch.num}</button>
+            </div>
+          </div>
+        </section>
+      `;
+      document.getElementById("btnGoTrialKaiwaBab1").addEventListener("click", () => openChapter(1, "kaiwa"));
+      document.getElementById("btnBackMateriFromKaiwa").addEventListener("click", () => {
+        state.activeTab = "materi";
+        renderChapterView();
+      });
+      return;
+    }
+
+    const routerSummary = describeVoiceRouterStatus();
+    const rolesHtml = (kaiwa.roles || []).map((r) => `
+      <span class="kaiwa-role-chip ${r.gender === "female" ? "is-female" : "is-male"}">
+        <span>${r.avatar || (r.gender === "female" ? "👩" : "👨")}</span>
+        <strong>${esc(r.name)}</strong>
+        <span class="kaiwa-role-gender">${r.gender === "female" ? "Wanita" : "Pria"}</span>
+      </span>
+    `).join("");
+
+    const linesHtml = kaiwa.lines.map((line, idx) => {
+      const isSpeaking = state.kaiwaPlaying && state.kaiwaLineIdx === idx;
+      const isMuted = state.kaiwaMuteGender === line.gender;
+      const roleObj = (kaiwa.roles || []).find((r) => r.id === line.speakerId) || {};
+      const genderLabel = line.gender === "female" ? "Wanita" : "Pria";
+      return `
+        <article class="kaiwa-row ${line.gender === "female" ? "is-female" : "is-male"} ${isSpeaking ? "is-speaking-line" : ""} ${isMuted ? "is-role-muted" : ""}">
+          <div class="kaiwa-bubble">
+            <div class="kaiwa-head">
+              <div class="kaiwa-speaker">
+                <span aria-hidden="true">${roleObj.avatar || (line.gender === "female" ? "👩" : "👨")}</span>
+                <strong>${esc(line.speaker)}</strong>
+                <span class="zone-pill ${line.gender === "female" ? "zone-orange" : "zone-neutral"}">${genderLabel}</span>
+                ${isSpeaking ? `<span class="zone-pill zone-green">${isMuted ? "🎙️ Giliranmu Baca" : "🔊 Sedang Bicara"}</span>` : ""}
+              </div>
+              ${ttsBtnHtml(line.jp, "tts-btn-sm", line.gender)}
+            </div>
+            <div class="kaiwa-jp">${esc(line.jp)}</div>
+            <div class="romaji">${esc(line.romaji)}</div>
+            ${!state.kaiwaHideId ? `<div class="kaiwa-id">${esc(line.id)}</div>` : ""}
+            ${line.note ? `<div class="kaiwa-note">💡 ${esc(line.note)}</div>` : ""}
+          </div>
+        </article>
+      `;
+    }).join("");
+
+    const tipsHtml = Array.isArray(kaiwa.tips) && kaiwa.tips.length > 0 ? `
+      <div class="cheatsheet-takeaway" style="margin-top: 16px;">
+        <strong>Catatan Percakapan Bab ${ch.num}:</strong>
+        <ul style="margin:6px 0 0 18px; padding:0;">
+          ${kaiwa.tips.map((t) => `<li>${esc(t)}</li>`).join("")}
+        </ul>
+      </div>
+    ` : "";
+
+    body.innerHTML = `
+      <section class="study-section">
+        <div class="kaiwa-card">
+          <div class="kaiwa-meta-top">
+            <div>
+              <h2 class="study-section-title" style="margin:0;">💬 ${esc(kaiwa.title)}</h2>
+              <p class="section-sub" style="margin:4px 0 0;">${esc(kaiwa.scene)}</p>
+            </div>
+          </div>
+
+          <div class="kaiwa-roles-bar">${rolesHtml}</div>
+
+          <div class="kaiwa-voice-status">${esc(routerSummary)}</div>
+
+          <div class="kaiwa-toolbar">
+            <div class="kotoba-setting-pills">
+              <button type="button" class="${state.kaiwaPlaying ? "btn-danger-soft" : "btn-primary"}" id="btnKaiwaPlayAll">
+                ${state.kaiwaPlaying ? "⏹️ Hentikan Dialog" : "▶️ Putar Seluruh Dialog"}
+              </button>
+              <button type="button" class="pill-btn ${state.kaiwaHideId ? "pill-btn-accent" : ""}" id="btnKaiwaToggleId">
+                ${state.kaiwaHideId ? "👀 Tampilkan Arti" : "🙈 Sembunyikan Arti"}
+              </button>
+            </div>
+            <div class="kotoba-setting-pills">
+              <button type="button" class="filter-chip ${state.kaiwaMuteGender === "none" ? "is-active" : ""}" data-kmute="none">🔊 Semua Suara</button>
+              <button type="button" class="filter-chip ${state.kaiwaMuteGender === "male" ? "is-active" : ""}" data-kmute="male">🎭 Bisukan Pria</button>
+              <button type="button" class="filter-chip ${state.kaiwaMuteGender === "female" ? "is-active" : ""}" data-kmute="female">🎭 Bisukan Wanita</button>
+            </div>
+          </div>
+
+          <div class="kaiwa-stage">${linesHtml}</div>
+          ${tipsHtml}
+        </div>
+      </section>
+    `;
+
+    document.getElementById("btnKaiwaPlayAll").addEventListener("click", () => {
+      if (state.kaiwaPlaying) stopKaiwaPlayback(true);
+      else startKaiwaAutoPlay(ch.num);
+    });
+    document.getElementById("btnKaiwaToggleId").addEventListener("click", () => {
+      state.kaiwaHideId = !state.kaiwaHideId;
+      renderChapterKaiwa(ch);
+    });
+    body.querySelectorAll("[data-kmute]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        state.kaiwaMuteGender = btn.dataset.kmute;
+        renderChapterKaiwa(ch);
+      });
+    });
   }
 
   // ===== MATERI PER BAB (TERMASUK MERGED BAB 17 UTUH + AUDIO TTS!) =====
@@ -1578,6 +1888,7 @@
   }
 
   function openKana(subTab) {
+    stopKaiwaPlayback();
     state.view = "kana";
     state.selectedNum = null;
     state.kanaTab = subTab || "hiragana";
@@ -1915,6 +2226,7 @@
   }
 
   function openKotobaFlashcard(scope, mode, customIds) {
+    stopKaiwaPlayback();
     state.view = "kotoba";
     state.selectedNum = null;
     if (scope) state.kotobaScope = String(scope);
@@ -2931,6 +3243,7 @@
   }
 
   function openReferences(refId, tab) {
+    stopKaiwaPlayback();
     state.view = "references";
     state.selectedNum = null;
     if (refId) state.selectedRefId = refId;
@@ -3446,6 +3759,7 @@
   }
 
   function openFinalExam() {
+    stopKaiwaPlayback();
     clearFinalTimer();
     state.view = "final_exam";
     state.selectedNum = null;
@@ -4909,14 +5223,18 @@
           <button type="button" class="pill-btn ${state.speechRate === 1.0 ? "pill-btn-accent" : ""}" data-rate="1.0">
             🐇 1.0× Normal Jepang
           </button>
-          <button type="button" class="btn-secondary" id="btnTestVoice">
-            🔊 Tes Suara Jepang
+          <button type="button" class="btn-secondary" id="btnTestVoiceMale">
+            👨🔊 Tes Pria
+          </button>
+          <button type="button" class="btn-secondary" id="btnTestVoiceFemale">
+            👩🔊 Tes Wanita
           </button>
           <button type="button" class="pill-btn ${state.showRomaji ? "pill-btn-accent" : ""}" id="btnModalRomaji">
             Romaji: ${state.showRomaji ? "ON" : "OFF"}
           </button>
         </div>
         <p style="font-size: 12.5px; color: var(--color-ink-muted);">${esc(voiceNote)}</p>
+        <p style="font-size: 12px; color: var(--color-ink-subtle); margin-top:4px;">${esc(describeVoiceRouterStatus())}</p>
       </section>
 
       <section class="profile-section">
@@ -4993,9 +5311,18 @@
       });
     });
 
-    document.getElementById("btnTestVoice").addEventListener("click", (e) => {
-      speakJapanese("こんにちは！いっしょに 日本語を 勉強しましょう。", e.currentTarget);
-    });
+    const btnTestMale = document.getElementById("btnTestVoiceMale");
+    if (btnTestMale) {
+      btnTestMale.addEventListener("click", (e) => {
+        speakJapanese("はじめまして。マイク・ミラーです。よろしく おねがいします。", e.currentTarget, { gender: "male" });
+      });
+    }
+    const btnTestFemale = document.getElementById("btnTestVoiceFemale");
+    if (btnTestFemale) {
+      btnTestFemale.addEventListener("click", (e) => {
+        speakJapanese("おはよう ございます。佐藤 けい子です。どうぞ よろしく。", e.currentTarget, { gender: "female" });
+      });
+    }
 
     document.getElementById("btnModalRomaji").addEventListener("click", () => {
       state.showRomaji = !state.showRomaji;
@@ -5149,7 +5476,7 @@
       const speakBtn = e.target.closest("[data-speak]");
       if (speakBtn) {
         e.stopPropagation();
-        speakJapanese(speakBtn.dataset.speak, speakBtn);
+        speakJapanese(speakBtn.dataset.speak, speakBtn, { gender: speakBtn.dataset.speakGender || "neutral" });
       }
     });
 

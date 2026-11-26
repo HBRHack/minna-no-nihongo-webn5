@@ -266,7 +266,7 @@
       { "jp": "きなかったら", "romaji": "kinakattara" },
       { "jp": "こないたら", "romaji": "konaitara" },
       { "jp": "こなかったら", "romaji": "konakattara" },
-      { "jp": "こなくても", "romaji": "konakute mo" }
+      { "jp": "きませんたら", "romaji": "kimasentara" }
     ],
     "answer": 2,
     "explain": "きます (Kel. III) → Bentuk-ない: こない → Lampau negatif biasa: こなかった + ら = こなかったら."
@@ -538,7 +538,7 @@
       { "jp": "なかったら", "romaji": "nakattara" },
       { "jp": "ないても", "romaji": "naitemo" },
       { "jp": "なくても", "romaji": "nakute mo" },
-      { "jp": "あっても", "romaji": "atte mo" }
+      { "jp": "ありなくても", "romaji": "arinakute mo" }
     ],
     "answer": 2,
     "explain": "あります bentuk negatif biasanya adalah ない, dan bentuk ～ても nya adalah なくても ('walaupun tidak ada')."

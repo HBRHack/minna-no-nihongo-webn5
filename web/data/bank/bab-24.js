@@ -400,8 +400,8 @@ window.MNN_BANK[24] = [
         "romaji": "moraimashita"
       },
       {
-        "jp": "おくりました",
-        "romaji": "okurimashita"
+        "jp": "しました",
+        "romaji": "shimashita"
       }
     ],
     "answer": 1,
@@ -487,8 +487,8 @@ window.MNN_BANK[24] = [
         "romaji": "moraimashita"
       },
       {
-        "jp": "みました",
-        "romaji": "mimashita"
+        "jp": "しました",
+        "romaji": "shimashita"
       }
     ],
     "answer": 0,
@@ -545,8 +545,8 @@ window.MNN_BANK[24] = [
         "romaji": "kuremashita"
       },
       {
-        "jp": "おきました",
-        "romaji": "okimashita"
+        "jp": "しました",
+        "romaji": "shimashita"
       }
     ],
     "answer": 2,
