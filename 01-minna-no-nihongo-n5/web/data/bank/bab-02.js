@@ -180,8 +180,8 @@ window.MNN_BANK[2] = [
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · Kata Tanya なん",
-    "prompt": "これは （　） ですか。…じしょです。",
-    "promptRomaji": "Kore wa ( ) desu ka. ...Jisho desu.",
+    "prompt": "A：これは （　） ですか。\nB：じしょです。",
+    "promptRomaji": "A: Kore wa ( ) desu ka.\nB: Jisho desu.",
     "sub": "Ini apa? ...Kamus.",
     "options": [
       {
@@ -209,8 +209,8 @@ window.MNN_BANK[2] = [
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · なんの",
-    "prompt": "それは （　） の ほんですか。…にほんごの ほんです。",
-    "promptRomaji": "Sore wa ( ) no hon desu ka. ...Nihongo no hon desu.",
+    "prompt": "A：それは （　） の ほんですか。\nB：にほんごの ほんです。",
+    "promptRomaji": "A: Sore wa ( ) no hon desu ka.\nB: Nihongo no hon desu.",
     "sub": "Buku itu buku apa? ...Buku bahasa Jepang.",
     "options": [
       {
@@ -238,8 +238,8 @@ window.MNN_BANK[2] = [
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · Kepemilikan",
-    "prompt": "この かさは （　） のですか。…わたしのです。",
-    "promptRomaji": "Kono kasa wa ( ) no desu ka. ...Watashi no desu.",
+    "prompt": "A：この かさは （　） のですか。\nB：わたしのです。",
+    "promptRomaji": "A: Kono kasa wa ( ) no desu ka.\nB: Watashi no desu.",
     "sub": "Payung ini milik siapa? ...Milik saya.",
     "options": [
       {
@@ -267,8 +267,8 @@ window.MNN_BANK[2] = [
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · Kepemilikan",
-    "prompt": "その とけいは （　） のですか。…サントスさんのです。",
-    "promptRomaji": "Sono tokei wa ( ) no desu ka. ...Santosu-san no desu.",
+    "prompt": "A：その とけいは （　） のですか。\nB：サントスさんのです。",
+    "promptRomaji": "A: Sono tokei wa ( ) no desu ka.\nB: Santosu-san no desu.",
     "sub": "Jam itu milik siapa? ...Milik Sdr. Santos.",
     "options": [
       {
@@ -470,8 +470,8 @@ window.MNN_BANK[2] = [
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · Pilihan ～か、～か",
-    "prompt": "これは じしょですか、ざっしですか。…（　） です。（Jawab: majalah）",
-    "promptRomaji": "Kore wa jisho desu ka, zasshi desu ka. ..._____ desu. (majalah)",
+    "prompt": "A：これは じしょですか、ざっしですか。\nB：（　） です。（Jawab: majalah）",
+    "promptRomaji": "A: Kore wa jisho desu ka, zasshi desu ka.\nB: _____ desu. (majalah)",
     "sub": "Ini kamus atau majalah? ...Majalah.",
     "options": [
       {
@@ -499,8 +499,8 @@ window.MNN_BANK[2] = [
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · Pilihan ～か、～か",
-    "prompt": "それは 「9」ですか、「7」ですか。…（　） です。（Jawab: angka 7）",
-    "promptRomaji": "Sore wa '9' desu ka, '7' desu ka. ..._____ desu. (angka 7)",
+    "prompt": "A：それは 「9」ですか、「7」ですか。\nB：（　） です。（Jawab: angka 7）",
+    "promptRomaji": "A: Sore wa '9' desu ka, '7' desu ka.\nB: _____ desu. (angka 7)",
     "sub": "Itu angka 9 atau 7? ...7.",
     "options": [
       {
@@ -528,8 +528,8 @@ window.MNN_BANK[2] = [
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · Pilihan ～か、～か",
-    "prompt": "この かばんは あなたのですか、サントスさんのですか。…（　） 。（Jawab: milik Sdr. Santos）",
-    "promptRomaji": "Kono kaban wa anata no desu ka, Santosu-san no desu ka. ..._____ . (milik Sdr. Santos)",
+    "prompt": "A：この かばんは あなたのですか、サントスさんのですか。\nB：（　） 。（Jawab: milik Sdr. Santos）",
+    "promptRomaji": "A: Kono kaban wa anata no desu ka, Santosu-san no desu ka.\nB: _____ . (milik Sdr. Santos)",
     "sub": "Tas ini milik Anda atau Sdr. Santos? ...Milik Sdr. Santos.",
     "options": [
       {
@@ -557,8 +557,8 @@ window.MNN_BANK[2] = [
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · そうです",
-    "prompt": "それは テレホンカードですか。…いいえ、（　） 。",
-    "promptRomaji": "Sore wa terehonkaado desu ka. ...Iie, ( ).",
+    "prompt": "A：それは テレホンカードですか。\nB：いいえ、（　） 。",
+    "promptRomaji": "A: Sore wa terehonkaado desu ka.\nB: Iie, ( ).",
     "sub": "Apakah itu kartu telepon? ...Tidak, bukan.",
     "options": [
       {
@@ -586,8 +586,8 @@ window.MNN_BANK[2] = [
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · そうです",
-    "prompt": "これは あなたの ほんですか。…はい、（　） 。",
-    "promptRomaji": "Kore wa anata no hon desu ka. ...Hai, ( ).",
+    "prompt": "A：これは あなたの ほんですか。\nB：はい、（　） 。",
+    "promptRomaji": "A: Kore wa anata no hon desu ka.\nB: Hai, ( ).",
     "sub": "Apakah ini buku Anda? ...Ya, benar.",
     "options": [
       {
@@ -615,8 +615,8 @@ window.MNN_BANK[2] = [
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · そうです",
-    "prompt": "あれは えきですか。…いいえ、（　） 。",
-    "promptRomaji": "Are wa eki desu ka. ...Iie, ( ).",
+    "prompt": "A：あれは えきですか。\nB：いいえ、（　） 。",
+    "promptRomaji": "A: Are wa eki desu ka.\nB: Iie, ( ).",
     "sub": "Apakah itu stasiun? ...Tidak, bukan.",
     "options": [
       {
@@ -1166,8 +1166,8 @@ window.MNN_BANK[2] = [
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · Arti Dialog",
-    "prompt": "その ざっしは あなたのですか。…いいえ、ちがいます。ミラーさんのです。",
-    "promptRomaji": "Sono zasshi wa anata no desu ka. ...Iie, chigaimasu. Miraa-san no desu.",
+    "prompt": "A：その ざっしは あなたのですか。\nB：いいえ、ちがいます。ミラーさんのです。",
+    "promptRomaji": "A: Sono zasshi wa anata no desu ka.\nB: Iie, chigaimasu. Miraa-san no desu.",
     "sub": "Apa arti dialog tersebut?",
     "options": [
       {
@@ -1195,8 +1195,8 @@ window.MNN_BANK[2] = [
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · Arti Dialog",
-    "prompt": "あれは なんですか。…あれは じしょです。",
-    "promptRomaji": "Are wa nan desu ka. ...Are wa jisho desu.",
+    "prompt": "A：あれは なんですか。\nB：あれは じしょです。",
+    "promptRomaji": "A: Are wa nan desu ka.\nB: Are wa jisho desu.",
     "sub": "Apa arti dialog tersebut?",
     "options": [
       {
@@ -1253,8 +1253,8 @@ window.MNN_BANK[2] = [
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · Arti Dialog",
-    "prompt": "その かぎは あなたのですか。…はい、わたしのです。",
-    "promptRomaji": "Sono kagi wa anata no desu ka. ...Hai, watashi no desu.",
+    "prompt": "A：その かぎは あなたのですか。\nB：はい、わたしのです。",
+    "promptRomaji": "A: Sono kagi wa anata no desu ka.\nB: Hai, watashi no desu.",
     "sub": "Apa arti dialog tersebut?",
     "options": [
       {
@@ -1282,8 +1282,8 @@ window.MNN_BANK[2] = [
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · Arti Dialog",
-    "prompt": "この しんぶんは だれのですか。…ヤンさんのです。",
-    "promptRomaji": "Kono shinbun wa dare no desu ka. ...Yan-san no desu.",
+    "prompt": "A：この しんぶんは だれのですか。\nB：ヤンさんのです。",
+    "promptRomaji": "A: Kono shinbun wa dare no desu ka.\nB: Yan-san no desu.",
     "sub": "Apa arti dialog tersebut?",
     "options": [
       {
@@ -1311,8 +1311,8 @@ window.MNN_BANK[2] = [
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · Arti Dialog",
-    "prompt": "あの ノートは あなたのですか。…いいえ、そうじゃありません。",
-    "promptRomaji": "Ano nooto wa anata no desu ka. ...Iie, sou ja arimasen.",
+    "prompt": "A：あの ノートは あなたのですか。\nB：いいえ、そうじゃありません。",
+    "promptRomaji": "A: Ano nooto wa anata no desu ka.\nB: Iie, sou ja arimasen.",
     "sub": "Apa arti dialog tersebut?",
     "options": [
       {

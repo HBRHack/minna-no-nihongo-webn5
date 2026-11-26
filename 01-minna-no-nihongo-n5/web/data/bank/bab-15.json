@@ -26,7 +26,7 @@
       }
     ],
     "answer": 2,
-    "explain": "おきます (置きます, Kelompok I) berarti meletakkan atau menaruh benda di suatu tempat (dengan partikel に)."
+    "explain": "おきます (置[お]きます, Kelompok I) berarti meletakkan atau menaruh benda di suatu tempat (dengan partikel に)."
   },
   {
     "id": "b15-02",
@@ -758,8 +758,8 @@
     "bab": 15,
     "type": "mcq",
     "badge": "Bab 15 · Jebakan しりません",
-    "prompt": "A：「あの かたを しって いますか。」 B：「いいえ、（　）。」",
-    "promptRomaji": "A: \"Ano kata o shitte imasu ka.\" B: \"Iie, _____.\"",
+    "prompt": "A：「あの かたを しって いますか。」\nB：「いいえ、（　）。」",
+    "promptRomaji": "A: \"Ano kata o shitte imasu ka.\"\nB: \"Iie, _____.\"",
     "sub": "Pilih jawaban negatif yang benar untuk しって いますか.",
     "options": [
       {
@@ -1222,8 +1222,8 @@
     "bab": 15,
     "type": "mcq",
     "badge": "Bab 15 · Dialog Memberi Izin",
-    "prompt": "A：「ここに すわっても いいですか。」 B：「（　）。」",
-    "promptRomaji": "A: \"Koko ni suwatte mo ii desu ka.\" B: \"_____.\"",
+    "prompt": "A：「ここに すわっても いいですか。」\nB：「（　）。」",
+    "promptRomaji": "A: \"Koko ni suwatte mo ii desu ka.\"\nB: \"_____.\"",
     "sub": "Pilih jawaban yang mengizinkan dengan ramah.",
     "options": [
       {
@@ -1251,8 +1251,8 @@
     "bab": 15,
     "type": "mcq",
     "badge": "Bab 15 · Dialog Menolak Izin Halus",
-    "prompt": "A：「この カタログを もらっても いいですか。」 B：「すみません、（　）。」",
-    "promptRomaji": "A: \"Kono katarogu o moratte mo ii desu ka.\" B: \"Sumimasen, _____.\"",
+    "prompt": "A：「この カタログを もらっても いいですか。」\nB：「すみません、（　）。」",
+    "promptRomaji": "A: \"Kono katarogu o moratte mo ii desu ka.\"\nB: \"Sumimasen, _____.\"",
     "sub": "Pilih penolakan halus atas permintaan izin.",
     "options": [
       {
@@ -1331,15 +1331,15 @@
       }
     ],
     "answer": 1,
-    "explain": "おきます yang berarti 'meletakkan' (置きます) adalah Kelompok I, jadi bentuk-て-nya adalah おいて (き → いて). Sedangkan おきて berasal dari おきます (bangun tidur, Kelompok II)."
+    "explain": "おきます yang berarti 'meletakkan' (置[お]きます) adalah Kelompok I, jadi bentuk-て-nya adalah おいて (き → いて). Sedangkan おきて berasal dari おきます (bangun tidur, Kelompok II)."
   },
   {
     "id": "b15-47",
     "bab": 15,
     "type": "mcq",
     "badge": "Bab 15 · Jebakan Partikel Tempat Tinggal",
-    "prompt": "A：「どこに すんで いますか。」 B: Kalimat jawaban yang BENAR adalah...",
-    "promptRomaji": "A: \"Doko ni sunde imasu ka.\"",
+    "prompt": "A：「どこに すんで いますか。」\nB：Kalimat jawaban yang BENAR adalah...",
+    "promptRomaji": "A: \"Doko ni sunde imasu ka.\"\nB: (Pilih jawaban yang benar)",
     "sub": "Perhatikan partikel untuk kata kerja すんで います.",
     "options": [
       {
@@ -1367,8 +1367,8 @@
     "bab": 15,
     "type": "mcq",
     "badge": "Bab 15 · Kontras もっています vs しっています",
-    "prompt": "A：「じこくひょうを もって いますか。」 B：「いいえ、（　）。」",
-    "promptRomaji": "A: \"Jikokuhyou o motte imasu ka.\" B: \"Iie, _____.\"",
+    "prompt": "A：「じこくひょうを もって いますか。」\nB：「いいえ、（　）。」",
+    "promptRomaji": "A: \"Jikokuhyou o motte imasu ka.\"\nB: \"Iie, _____.\"",
     "sub": "Berbeda dengan しっています, bagaimana bentuk negatif dari もって います?",
     "options": [
       {
@@ -1396,8 +1396,8 @@
     "bab": 15,
     "type": "mcq",
     "badge": "Bab 15 · Status Pernikahan",
-    "prompt": "A：「カリナさんは けっこんして いますか。」 B：「いいえ、まだ （　）。」",
-    "promptRomaji": "A: \"Karina-san wa kekkon shite imasu ka.\" B: \"Iie, mada _____.\"",
+    "prompt": "A：「カリナさんは けっこんして いますか。」\nB：「いいえ、まだ （　）。」",
+    "promptRomaji": "A: \"Karina-san wa kekkon shite imasu ka.\"\nB: \"Iie, mada _____.\"",
     "sub": "Lengkapi jawaban yang tepat dengan kosakata Bab 15.",
     "options": [
       {
@@ -1425,8 +1425,8 @@
     "bab": 15,
     "type": "mcq",
     "badge": "Bab 15 · Dialog Larangan",
-    "prompt": "A：「すみません、ここで しりょうを コピーしても いいですか。」 B：「いいえ、（　）。」",
-    "promptRomaji": "A: \"Sumimasen, koko de shiryou o kopii shite mo ii desu ka.\" B: \"Iie, _____.\"",
+    "prompt": "A：「すみません、ここで しりょうを コピーしても いいですか。」\nB：「いいえ、（　）。」",
+    "promptRomaji": "A: \"Sumimasen, koko de shiryou o kopii shite mo ii desu ka.\"\nB: \"Iie, _____.\"",
     "sub": "Pilih jawaban yang melarang secara langsung.",
     "options": [
       {
@@ -1505,7 +1505,7 @@
       }
     ],
     "answer": 0,
-    "explain": "ふく (服) berarti pakaian atau baju."
+    "explain": "ふく (服[ふく]) berarti pakaian atau baju."
   },
   {
     "id": "b15-53",
@@ -1534,7 +1534,7 @@
       }
     ],
     "answer": 3,
-    "explain": "こうこう (高校) berarti Sekolah Menengah Atas (SMA)."
+    "explain": "こうこう (高校[こうこう]) berarti Sekolah Menengah Atas (SMA)."
   },
   {
     "id": "b15-54",
@@ -2121,8 +2121,8 @@
     "bab": 15,
     "type": "mcq",
     "badge": "Bab 15 · Negatif Keadaan",
-    "prompt": "A：「おにいさんは もう けっこんして いますか。」 B：「いいえ、まだ （　）。」",
-    "promptRomaji": "A: \"Oniisan wa mou kekkon shite imasu ka.\" B: \"Iie, mada _____.\"",
+    "prompt": "A：「おにいさんは もう けっこんして いますか。」\nB：「いいえ、まだ （　）。」",
+    "promptRomaji": "A: \"Oniisan wa mou kekkon shite imasu ka.\"\nB: \"Iie, mada _____.\"",
     "sub": "Pilih bentuk negatif yang tepat untuk けっこんして います.",
     "options": [
       {
@@ -2150,8 +2150,8 @@
     "bab": 15,
     "type": "mcq",
     "badge": "Bab 15 · Kosakata おもいだします",
-    "prompt": "A：「やまださんの じゅうしょを しって いますか。」 B：「きのうは わかりませんでしたが、いま （　）。」",
-    "promptRomaji": "A: \"Yamada-san no juusho o shitte imasu ka.\" B: \"Kinou wa wakarimasen deshita ga, ima _____.\"",
+    "prompt": "A：「やまださんの じゅうしょを しって いますか。」\nB：「きのうは わかりませんでしたが、いま （　）。」",
+    "promptRomaji": "A: \"Yamada-san no juusho o shitte imasu ka.\"\nB: \"Kinou wa wakarimasen deshita ga, ima _____.\"",
     "sub": "Pilih kata kerja Bab 15 yang berarti 'baru saja teringat / ingat kembali'.",
     "options": [
       {
@@ -2411,8 +2411,8 @@
     "bab": 15,
     "type": "mcq",
     "badge": "Bab 15 · Partikel いらっしゃいます",
-    "prompt": "A：「ごかぞくは どちら （　） いらっしゃいますか。」 B：「ブラジルに います。」",
-    "promptRomaji": "A: \"Gokazoku wa dochira _____ irasshaimasu ka.\" B: \"Burajiru ni imasu.\"",
+    "prompt": "A：「ごかぞくは どちら （　） いらっしゃいますか。」\nB：「ブラジルに います。」",
+    "promptRomaji": "A: \"Gokazoku wa dochira _____ irasshaimasu ka.\"\nB: \"Burajiru ni imasu.\"",
     "sub": "Pilih partikel tempat keberadaan untuk いらっしゃいます.",
     "options": [
       {
@@ -2788,8 +2788,8 @@
     "bab": 15,
     "type": "mcq",
     "badge": "Bab 15 · Dialog Keluarga",
-    "prompt": "A：「ごかぞくは どちらに いらっしゃいますか。」 B：「（　）。」",
-    "promptRomaji": "A: \"Gokazoku wa dochira ni irasshaimasu ka.\" B: \"_____.\"",
+    "prompt": "A：「ごかぞくは どちらに いらっしゃいますか。」\nB：「（　）。」",
+    "promptRomaji": "A: \"Gokazoku wa dochira ni irasshaimasu ka.\"\nB: \"_____.\"",
     "sub": "Pilih jawaban yang alami mengenai keberadaan keluarga sendiri.",
     "options": [
       {
@@ -2817,8 +2817,8 @@
     "bab": 15,
     "type": "mcq",
     "badge": "Bab 15 · Dialog Menolak Halus",
-    "prompt": "A：「この しりょうを かりても いいですか。」 B：「すみません、いま つかって いますから、（　）。」",
-    "promptRomaji": "A: \"Kono shiryou o karite mo ii desu ka.\" B: \"Sumimasen, ima tsukatte imasu kara, _____.\"",
+    "prompt": "A：「この しりょうを かりても いいですか。」\nB：「すみません、いま つかって いますから、（　）。」",
+    "promptRomaji": "A: \"Kono shiryou o karite mo ii desu ka.\"\nB: \"Sumimasen, ima tsukatte imasu kara, _____.\"",
     "sub": "Pilih penolakan halus saat sedang memakai barang tersebut.",
     "options": [
       {

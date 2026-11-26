@@ -1164,8 +1164,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Pola もう～ましたか",
-    "prompt": "A: 「もう ひるごはんを たべましたか。」 B: 「はい、（　）。」",
-    "promptRomaji": "Mou hirugohan o tabemashita ka. ...Hai, ( ).",
+    "prompt": "A：「もう ひるごはんを たべましたか。」\nB：「はい、（　）。」",
+    "promptRomaji": "A: Mou hirugohan o tabemashita ka.\nB: Hai, ( ).",
     "sub": "Jawab bahwa sudah makan. (Ya, sudah makan.)",
     "options": [
       {
@@ -1193,8 +1193,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Pola まだです",
-    "prompt": "A: 「もう てがみを かきましたか。」 B: 「いいえ、（　）。これから かきます。」",
-    "promptRomaji": "Mou tegami o kakimashita ka. ...Iie, ( ). Korekara kakimasu.",
+    "prompt": "A：「もう てがみを かきましたか。」\nB：「いいえ、（　）。これから かきます。」",
+    "promptRomaji": "A: Mou tegami o kakimashita ka.\nB: Iie, ( ). Korekara kakimasu.",
     "sub": "Jawab bahwa belum menulis. (Belum. Mulai sekarang akan menulis.)",
     "options": [
       {
@@ -1251,8 +1251,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Pola まだです",
-    "prompt": "A: 「もう にもつを おくりましたか。」 B: 「（　）。」 (Belum. Saya akan mengirim sekarang.)",
-    "promptRomaji": "Mou nimotsu o okurimashita ka. ...( ).",
+    "prompt": "A：「もう にもつを おくりましたか。」\nB：「（　）。」 (Belum. Saya akan mengirim sekarang.)",
+    "promptRomaji": "A: Mou nimotsu o okurimashita ka.\nB: ( ).",
     "sub": "Pilih jawaban yang tepat untuk keadaan belum mengirim.",
     "options": [
       {
@@ -1280,8 +1280,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Pola kata tanya だれ",
-    "prompt": "A: 「（　）に チョコレートを もらいましたか。」 B: 「カリナさんに もらいました。」",
-    "promptRomaji": "( ) ni chokoreeto o moraimashita ka. ...Karina-san ni moraimashita.",
+    "prompt": "A：「（　）に チョコレートを もらいましたか。」\nB：「カリナさんに もらいました。」",
+    "promptRomaji": "A: ( ) ni chokoreeto o moraimashita ka.\nB: Karina-san ni moraimashita.",
     "sub": "Pilih kata tanya untuk menanyakan 'dari siapa'.",
     "options": [
       {
@@ -1309,8 +1309,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Pola kata tanya なに",
-    "prompt": "A: 「きのう （　）を おくりましたか。」 B: 「しゃしんを おくりました。」",
-    "promptRomaji": "Kinou ( ) o okurimashita ka. ...Shashin o okurimashita.",
+    "prompt": "A：「きのう （　）を おくりましたか。」\nB：「しゃしんを おくりました。」",
+    "promptRomaji": "A: Kinou ( ) o okurimashita ka.\nB: Shashin o okurimashita.",
     "sub": "Pilih kata tanya untuk menanyakan benda yang dikirim.",
     "options": [
       {
@@ -1454,8 +1454,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Partikel で (alat tanya)",
-    "prompt": "A: 「なに（　） かみを きりますか。」 B: 「はさみで きります。」",
-    "promptRomaji": "A: Nani ( ) kami o kirimasu ka. B: Hasami de kirimasu.",
+    "prompt": "A：「なに（　） かみを きりますか。」\nB：「はさみで きります。」",
+    "promptRomaji": "A: Nani ( ) kami o kirimasu ka.\nB: Hasami de kirimasu.",
     "sub": "Pilih partikel untuk menanyakan alat yang digunakan. (Memotong kertas dengan apa?)",
     "options": [
       {
@@ -1570,8 +1570,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Dialog bahasa",
-    "prompt": "A: 「『Terima kasih』は にほんごで なんですか。」 B: 「（　）。」",
-    "promptRomaji": "A: 'Terima kasih' wa nihongo de nan desu ka. B: ( ).",
+    "prompt": "A：「『Terima kasih』は にほんごで なんですか。」\nB：「（　）。」",
+    "promptRomaji": "A: 'Terima kasih' wa nihongo de nan desu ka.\nB: ( ).",
     "sub": "Pilih jawaban yang tepat dalam bahasa Jepang.",
     "options": [
       {
@@ -2179,8 +2179,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Kata tanya だれに",
-    "prompt": "A: 「（　） クリスマスプレゼントを あげましたか。」 B: 「かぞくに あげました。」",
-    "promptRomaji": "A: ( ) kurisumasu purezento o agemashita ka. B: Kazoku ni agemashita.",
+    "prompt": "A：「（　） クリスマスプレゼントを あげましたか。」\nB：「かぞくに あげました。」",
+    "promptRomaji": "A: ( ) kurisumasu purezento o agemashita ka.\nB: Kazoku ni agemashita.",
     "sub": "Pilih bentuk kata tanya + partikel untuk menanyakan 'kepada siapa'.",
     "options": [
       {
@@ -2208,8 +2208,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Dialog もらいました",
-    "prompt": "A: 「その ネクタイ、すてきですね。」 B: 「ありがとうございます。（　）。」",
-    "promptRomaji": "A: Sono nekutai, suteki desu ne. B: Arigatou gozaimasu. ( ).",
+    "prompt": "A：「その ネクタイ、すてきですね。」\nB：「ありがとうございます。（　）。」",
+    "promptRomaji": "A: Sono nekutai, suteki desu ne.\nB: Arigatou gozaimasu. ( ).",
     "sub": "Pilih kelanjutan yang wajar jika dasi itu pemberian dari ibu.",
     "options": [
       {
@@ -2237,8 +2237,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Dialog もらいました",
-    "prompt": "A: 「その ボールペン、すてきですね。」 B: 「ええ、せんせいに （　）。」",
-    "promptRomaji": "A: Sono boorupen, suteki desu ne. B: Ee, sensei ni ( ).",
+    "prompt": "A：「その ボールペン、すてきですね。」\nB：「ええ、せんせいに （　）。」",
+    "promptRomaji": "A: Sono boorupen, suteki desu ne.\nB: Ee, sensei ni ( ).",
     "sub": "Pilih kata kerja yang tepat untuk menyatakan bolpoin itu pemberian dari guru.",
     "options": [
       {
@@ -2440,7 +2440,7 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Jawaban もう～ましたか",
-    "prompt": "A: 「もう レポートを かきましたか。」 の へんじとして ただしい ものは どれですか。",
+    "prompt": "A：「もう レポートを かきましたか。」 の へんじとして ただしい ものは どれですか。",
     "promptRomaji": "A: 'Mou repooto o kakimashita ka.' no henji to shite tadashii mono wa dore desu ka.",
     "sub": "Pilih jawaban yang benar jika Anda belum menulis laporan.",
     "options": [
@@ -2469,8 +2469,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Pola はい、もう～ました",
-    "prompt": "A: 「もう あさごはんを たべましたか。」 B: 「はい、（　）。」",
-    "promptRomaji": "A: Mou asagohan o tabemashita ka. B: Hai, ( ).",
+    "prompt": "A：「もう あさごはんを たべましたか。」\nB：「はい、（　）。」",
+    "promptRomaji": "A: Mou asagohan o tabemashita ka.\nB: Hai, ( ).",
     "sub": "Pilih jawaban yang tepat untuk menyatakan sudah sarapan.",
     "options": [
       {
@@ -2498,8 +2498,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Pola まだです + これから",
-    "prompt": "A: 「もう きっぷを かいましたか。」 B: 「いいえ、まだです。（　） かいます。」",
-    "promptRomaji": "A: Mou kippu o kaimashita ka. B: Iie, mada desu. ( ) kaimasu.",
+    "prompt": "A：「もう きっぷを かいましたか。」\nB：「いいえ、まだです。（　） かいます。」",
+    "promptRomaji": "A: Mou kippu o kaimashita ka.\nB: Iie, mada desu. ( ) kaimasu.",
     "sub": "Pilih kata keterangan waktu yang berarti 'mulai sekarang / sebentar lagi'.",
     "options": [
       {
@@ -2527,8 +2527,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Pola もう",
-    "prompt": "A: 「もう しゅくだいを しましたか。」 B: 「はい、（　） しました。」",
-    "promptRomaji": "A: Mou shukudai o shimashita ka. B: Hai, ( ) shimashita.",
+    "prompt": "A：「もう しゅくだいを しましたか。」\nB：「はい、（　） しました。」",
+    "promptRomaji": "A: Mou shukudai o shimashita ka.\nB: Hai, ( ) shimashita.",
     "sub": "Pilih kata keterangan yang berarti 'sudah'.",
     "options": [
       {
@@ -2585,8 +2585,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Dialog まだです",
-    "prompt": "A: 「もう びじゅつかんへ いきましたか。」 B: 「（　）。らいしゅう いきます。」",
-    "promptRomaji": "A: Mou bijutsukan e ikimashita ka. B: ( ). Raishuu ikimasu.",
+    "prompt": "A：「もう びじゅつかんへ いきましたか。」\nB：「（　）。らいしゅう いきます。」",
+    "promptRomaji": "A: Mou bijutsukan e ikimashita ka.\nB: ( ). Raishuu ikimasu.",
     "sub": "Pilih jawaban yang tepat jika belum pergi dan baru akan pergi minggu depan.",
     "options": [
       {
@@ -2643,8 +2643,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Ungkapan tuan rumah",
-    "prompt": "A: 「ごめんください。」 B: 「いらっしゃい。（　）。」",
-    "promptRomaji": "A: Gomen kudasai. B: Irasshai. ( ).",
+    "prompt": "A：「ごめんください。」\nB：「いらっしゃい。（　）。」",
+    "promptRomaji": "A: Gomen kudasai.\nB: Irasshai. ( ).",
     "sub": "Pilih ucapan tuan rumah untuk mempersilakan tamu masuk.",
     "options": [
       {
@@ -2672,8 +2672,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Ungkapan menawarkan",
-    "prompt": "A: 「おちゃは （　）。」 B: 「ありがとうございます。いただきます。」",
-    "promptRomaji": "A: Ocha wa ( ). B: Arigatou gozaimasu. Itadakimasu.",
+    "prompt": "A：「おちゃは （　）。」\nB：「ありがとうございます。いただきます。」",
+    "promptRomaji": "A: Ocha wa ( ).\nB: Arigatou gozaimasu. Itadakimasu.",
     "sub": "Pilih ungkapan sopan untuk menawarkan teh kepada tamu.",
     "options": [
       {
@@ -2730,8 +2730,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Ungkapan masuk rumah",
-    "prompt": "A: 「どうぞ おあがり ください。」 B: 「（　）。」",
-    "promptRomaji": "A: Douzo oagari kudasai. B: ( ).",
+    "prompt": "A：「どうぞ おあがり ください。」\nB：「（　）。」",
+    "promptRomaji": "A: Douzo oagari kudasai.\nB: ( ).",
     "sub": "Pilih jawaban sopan saat dipersilakan masuk ke rumah orang.",
     "options": [
       {
@@ -2875,8 +2875,8 @@
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Dialog sarana で",
-    "prompt": "A: 「もう レポートを せんせいに おくりましたか。」 B: 「はい、きのう メール（　） おくりました。」",
-    "promptRomaji": "A: Mou repooto o sensei ni okurimashita ka. B: Hai, kinou meeru ( ) okurimashita.",
+    "prompt": "A：「もう レポートを せんせいに おくりましたか。」\nB：「はい、きのう メール（　） おくりました。」",
+    "promptRomaji": "A: Mou repooto o sensei ni okurimashita ka.\nB: Hai, kinou meeru ( ) okurimashita.",
     "sub": "Pilih partikel yang tepat untuk sarana pengiriman email.",
     "options": [
       {

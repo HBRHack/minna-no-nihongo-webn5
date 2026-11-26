@@ -57,7 +57,7 @@ window.MNN_BANK[24] = [
       }
     ],
     "answer": 0,
-    "explain": "なおします (直します) berarti memperbaiki (benda rusak) atau mengoreksi (tulisan/kesalahan)."
+    "explain": "なおします (直[なお]します) berarti memperbaiki (benda rusak) atau mengoreksi (tulisan/kesalahan)."
   },
   {
     "id": "b24-03",
@@ -86,7 +86,7 @@ window.MNN_BANK[24] = [
       }
     ],
     "answer": 1,
-    "explain": "あんないします (案内します) berarti memandu atau mengantar berkeliling suatu tempat."
+    "explain": "あんないします (案内[あんない]します) berarti memandu atau mengantar berkeliling suatu tempat."
   },
   {
     "id": "b24-04",
@@ -115,7 +115,7 @@ window.MNN_BANK[24] = [
       }
     ],
     "answer": 3,
-    "explain": "しょうかいします (紹介します) berarti memperkenalkan. せつめいします = menjelaskan, あんないします = memandu."
+    "explain": "しょうかいします (紹介[しょうかい]します) berarti memperkenalkan. せつめいします = menjelaskan, あんないします = memandu."
   },
   {
     "id": "b24-05",
@@ -144,7 +144,7 @@ window.MNN_BANK[24] = [
       }
     ],
     "answer": 0,
-    "explain": "せつめいします (説明します) berarti menjelaskan (misalnya menjelaskan arti atau cara memakai)."
+    "explain": "せつめいします (説明[せつめい]します) berarti menjelaskan (misalnya menjelaskan arti atau cara memakai)."
   },
   {
     "id": "b24-06",
@@ -173,7 +173,7 @@ window.MNN_BANK[24] = [
       }
     ],
     "answer": 1,
-    "explain": "つれて いきます (連れて 行きます) berarti mengajak atau membawa pergi seseorang (atau hewan) ke suatu tempat."
+    "explain": "つれて いきます (連[つ]れて 行[い]きます) berarti mengajak atau membawa pergi seseorang (atau hewan) ke suatu tempat."
   },
   {
     "id": "b24-07",
@@ -231,7 +231,7 @@ window.MNN_BANK[24] = [
       }
     ],
     "answer": 3,
-    "explain": "ひっこし (引っ越し) berarti pindahan rumah. じゅんび berarti persiapan."
+    "explain": "ひっこし (引[ひ]っ越[こ]し) berarti pindahan rumah. じゅんび berarti persiapan."
   },
   {
     "id": "b24-09",
@@ -260,7 +260,7 @@ window.MNN_BANK[24] = [
       }
     ],
     "answer": 0,
-    "explain": "じぶんで (自分で) berarti 'oleh diri sendiri' atau 'melakukannya sendiri tanpa bantuan orang lain'."
+    "explain": "じぶんで (自分[じぶん]で) berarti 'oleh diri sendiri' atau 'melakukannya sendiri tanpa bantuan orang lain'."
   },
   {
     "id": "b24-10",
@@ -289,7 +289,7 @@ window.MNN_BANK[24] = [
       }
     ],
     "answer": 1,
-    "explain": "ぜんぶ (全部) berarti semuanya atau seluruhnya. ほかに berarti selain itu."
+    "explain": "ぜんぶ (全部[ぜんぶ]) berarti semuanya atau seluruhnya. ほかに berarti selain itu."
   },
   {
     "id": "b24-11",
@@ -318,7 +318,7 @@ window.MNN_BANK[24] = [
       }
     ],
     "answer": 2,
-    "explain": "おかし (お菓子) berarti kue-kue, permen, atau camilan. おべんとう berarti nasi bekal."
+    "explain": "おかし (お菓子[かし]) berarti kue-kue, permen, atau camilan. おべんとう berarti nasi bekal."
   },
   {
     "id": "b24-12",
@@ -347,7 +347,7 @@ window.MNN_BANK[24] = [
       }
     ],
     "answer": 3,
-    "explain": "じゅんび (準備) berarti persiapan; じゅんびします berarti mempersiapkan."
+    "explain": "じゅんび (準備[じゅんび]) berarti persiapan; じゅんびします berarti mempersiapkan."
   },
   {
     "id": "b24-13",
@@ -441,7 +441,7 @@ window.MNN_BANK[24] = [
     "bab": 24,
     "type": "mcq",
     "badge": "Bab 24 · Kontras あげます vs もらいます vs くれます",
-    "prompt": "わたしは ははの ひに ははに 花を （　）。",
+    "prompt": "わたしは ははの ひに ははに 花[はな]を （　）。",
     "promptRomaji": "Watashi wa haha no hi ni haha ni hana o _____.",
     "sub": "Subjek = わたしは, memberi bunga kepada ibu.",
     "options": [
@@ -819,7 +819,7 @@ window.MNN_BANK[24] = [
     "type": "mcq",
     "badge": "Bab 24 · Pertanyaan siapa yang memberi jasa",
     "prompt": "A：いい セーターですね。\nB：ええ、あねが つくって （　）。",
-    "promptRomaji": "A: Ii seetaa desu ne. B: Ee, ane ga tsukutte _____.",
+    "promptRomaji": "A: Ii seetaa desu ne.\nB: Ee, ane ga tsukutte _____.",
     "sub": "Kakak perempuan saya (あねが) yang membuatkannya untuk saya.",
     "options": [
       {
@@ -848,7 +848,7 @@ window.MNN_BANK[24] = [
     "type": "mcq",
     "badge": "Bab 24 · Pertanyaan dengan だれに",
     "prompt": "A：その かんじの いみを （　） おしえて もらいましたか。\nB：せんせいに おしえて もらいました。",
-    "promptRomaji": "A: Sono kanji no imi o _____ oshiete moraimashita ka. B: Sensei ni oshiete moraimashita.",
+    "promptRomaji": "A: Sono kanji no imi o _____ oshiete moraimashita ka.\nB: Sensei ni oshiete moraimashita.",
     "sub": "Pilih kata tanya dan partikel yang tepat untuk 'diajari oleh siapa'.",
     "options": [
       {
@@ -877,7 +877,7 @@ window.MNN_BANK[24] = [
     "type": "mcq",
     "badge": "Bab 24 · Kata tanya だれが",
     "prompt": "A：ひっこしの じゅんびは （　） てつだって くれましたか。\nB：ともだちが ぜんぶ てつだって くれました。",
-    "promptRomaji": "A: Hikkoshi no junbi wa _____ tetsudatte kuremashita ka. B: Tomodachi ga zenbu tetsudatte kuremashita.",
+    "promptRomaji": "A: Hikkoshi no junbi wa _____ tetsudatte kuremashita ka.\nB: Tomodachi ga zenbu tetsudatte kuremashita.",
     "sub": "Pilih kata tanya subjek yang tepat untuk pola V-てくれました.",
     "options": [
       {
@@ -1312,7 +1312,7 @@ window.MNN_BANK[24] = [
     "type": "mcq",
     "badge": "Bab 24 · Etika Penawaran (Teman Akrab)",
     "prompt": "A：しゅくだいの かんじが むずかしいですね。\nB：わたしが （　）。（diucapkan ke teman dekat）",
-    "promptRomaji": "A: Shukudai no kanji ga muzukashii desu ne. B: Watashi ga _____.",
+    "promptRomaji": "A: Shukudai no kanji ga muzukashii desu ne.\nB: Watashi ga _____.",
     "sub": "B menawarkan diri membantu teman dekatnya (おしえます).",
     "options": [
       {
@@ -1341,7 +1341,7 @@ window.MNN_BANK[24] = [
     "type": "mcq",
     "badge": "Bab 24 · Mini Dialog (Permintaan Tolong)",
     "prompt": "A：すみません、えきの ちずを かいて （　）。\nB：ええ、いいですよ。",
-    "promptRomaji": "A: Sumimasen, eki no chizu o kaite _____. B: Ee, ii desu yo.",
+    "promptRomaji": "A: Sumimasen, eki no chizu o kaite _____.\nB: Ee, ii desu yo.",
     "sub": "Meminta tolong secara halus menggunakan bentuk tanya negatif dari くれます.",
     "options": [
       {
@@ -1370,7 +1370,7 @@ window.MNN_BANK[24] = [
     "type": "mcq",
     "badge": "Bab 24 · Mini Dialog (Kejadian Masa Lalu)",
     "prompt": "A：きのうの パーティーは どうでしたか。\nB：とても たのしかったです。やまださんが おいしい りょうりを （　）。",
-    "promptRomaji": "A: Kinou no paatii wa dou deshita ka. B: Totemo tanoshikatta desu. Yamada-san ga oishii ryouri o _____.",
+    "promptRomaji": "A: Kinou no paatii wa dou deshita ka.\nB: Totemo tanoshikatta desu. Yamada-san ga oishii ryouri o _____.",
     "sub": "Yamada memasakkan hidangan enak untuk kami kemarin.",
     "options": [
       {
@@ -1399,7 +1399,7 @@ window.MNN_BANK[24] = [
     "type": "mcq",
     "badge": "Bab 24 · Mini Dialog (Arah Kepemilikan)",
     "prompt": "A：いい カメラですね。だれに かりましたか。\nB：いいえ、かりませんでした。おじいさんが （　）。",
-    "promptRomaji": "A: Ii kamera desu ne. Dare ni karimashita ka. B: Iie, karimasen deshita. Ojiisan ga _____.",
+    "promptRomaji": "A: Ii kamera desu ne. Dare ni karimashita ka.\nB: Iie, karimasen deshita. Ojiisan ga _____.",
     "sub": "Bukan meminjam, melainkan kakek memberikannya kepada B.",
     "options": [
       {
@@ -1428,7 +1428,7 @@ window.MNN_BANK[24] = [
     "type": "mcq",
     "badge": "Bab 24 · Mini Dialog (Pekerjaan Sendiri vs Bantuan)",
     "prompt": "A：その きれいな しゃしんは ともだちに とって もらいましたか。\nB：いいえ、（　）。",
-    "promptRomaji": "A: Sono kirei na shashin wa tomodachi ni totte moraimashita ka. B: Iie, _____.",
+    "promptRomaji": "A: Sono kirei na shashin wa tomodachi ni totte moraimashita ka.\nB: Iie, _____.",
     "sub": "Menyangkal dibantu teman: saya memotretnya sendiri.",
     "options": [
       {
@@ -1689,7 +1689,7 @@ window.MNN_BANK[24] = [
     "type": "mcq",
     "badge": "Bab 24 · Anak Kalimat + くれます",
     "prompt": "A：その カメラ、すてきですね。\nB：ええ、ちちが わたしに （　） カメラです。",
-    "promptRomaji": "A: Sono kamera, suteki desu ne. B: Ee, chichi ga watashi ni _____ kamera desu.",
+    "promptRomaji": "A: Sono kamera, suteki desu ne.\nB: Ee, chichi ga watashi ni _____ kamera desu.",
     "sub": "Lengkapi frasa 'kamera yang diberikan ayah kepada saya'.",
     "options": [
       {
@@ -1718,7 +1718,7 @@ window.MNN_BANK[24] = [
     "type": "mcq",
     "badge": "Bab 24 · Memberi ke Orang Lain",
     "prompt": "A：あした ともだちの たんじょうびですね。なにを （　） か。\nB：きれいな ネクタイが いいと おもいます。",
-    "promptRomaji": "A: Ashita tomodachi no tanjoubi desu ne. Nani o _____ ka. B: Kirei na nekutai ga ii to omoimasu.",
+    "promptRomaji": "A: Ashita tomodachi no tanjoubi desu ne. Nani o _____ ka.\nB: Kirei na nekutai ga ii to omoimasu.",
     "sub": "Pilih kata kerja memberi yang tepat untuk ulang tahun teman.",
     "options": [
       {
@@ -2733,7 +2733,7 @@ window.MNN_BANK[24] = [
     "type": "mcq",
     "badge": "Bab 24 · Dialog Meminta Tolong (～て くれませんか)",
     "prompt": "A：すみません、この かんじの よみかたが わかりません。ちょっと （　）。\nB：ええ、いいですよ。",
-    "promptRomaji": "A: Sumimasen, kono kanji no yomikata ga wakarimasen. Chotto _____. B: Ee, ii desu yo.",
+    "promptRomaji": "A: Sumimasen, kono kanji no yomikata ga wakarimasen. Chotto _____.\nB: Ee, ii desu yo.",
     "sub": "Pilih ungkapan meminta tolong secara sopan kepada lawan bicara.",
     "options": [
       {
@@ -2762,7 +2762,7 @@ window.MNN_BANK[24] = [
     "type": "mcq",
     "badge": "Bab 24 · Dialog Menawarkan Bantuan ke Atasan",
     "prompt": "A：ぶちょう、たくさん にもつが ありますね。（　）。\nB：あ、ありがとう。おねがいします。",
-    "promptRomaji": "A: Buchou, takusan nimotsu ga arimasu ne. _____. B: A, arigatou. Onegai shimasu.",
+    "promptRomaji": "A: Buchou, takusan nimotsu ga arimasu ne. _____.\nB: A, arigatou. Onegai shimasu.",
     "sub": "Pilih tawaran bantuan yang sopan kepada kepala bagian (ぶちょう).",
     "options": [
       {
@@ -2791,7 +2791,7 @@ window.MNN_BANK[24] = [
     "type": "mcq",
     "badge": "Bab 24 · Dialog Membantu Pindahan",
     "prompt": "A：ひっこしは たいへんでしたね。だれか てつだって くれましたか。\nB：はい、かいしゃの ともだちが （　）。",
-    "promptRomaji": "A: Hikkoshi wa taihen deshita ne. Dareka tetsudatte kuremashita ka. B: Hai, kaisha no tomodachi ga _____.",
+    "promptRomaji": "A: Hikkoshi wa taihen deshita ne. Dareka tetsudatte kuremashita ka.\nB: Hai, kaisha no tomodachi ga _____.",
     "sub": "Pilih jawaban yang selaras dengan pertanyaan dan subjek ともだちが.",
     "options": [
       {
@@ -2820,7 +2820,7 @@ window.MNN_BANK[24] = [
     "type": "mcq",
     "badge": "Bab 24 · Dialog Pekerjaan Sendiri",
     "prompt": "A：すごい おかしですね。みせで かいましたか。\nB：いいえ、わたしが （　）。",
-    "promptRomaji": "A: Sugoi okashi desu ne. Mise de kaimashita ka. B: Iie, watashi ga _____.",
+    "promptRomaji": "A: Sugoi okashi desu ne. Mise de kaimashita ka.\nB: Iie, watashi ga _____.",
     "sub": "Perhatikan subjeknya adalah わたしが ('saya yang...').",
     "options": [
       {
@@ -2849,7 +2849,7 @@ window.MNN_BANK[24] = [
     "type": "mcq",
     "badge": "Bab 24 · Dialog Homestay",
     "prompt": "A：ホームステイは たのしかったですか。\nB：はい、ほかに おじいちゃんが わたしを おてらへ （　）。",
-    "promptRomaji": "A: Hoomusutei wa tanoshikatta desu ka. B: Hai, hoka ni ojiichan ga watashi o otera e _____.",
+    "promptRomaji": "A: Hoomusutei wa tanoshikatta desu ka.\nB: Hai, hoka ni ojiichan ga watashi o otera e _____.",
     "sub": "Kakek keluarga angkat mengajak saya pergi ke kuil.",
     "options": [
       {
@@ -2878,7 +2878,7 @@ window.MNN_BANK[24] = [
     "type": "mcq",
     "badge": "Bab 24 · Dialog Menawarkan Bantuan ke Teman",
     "prompt": "A：この ことばの いみが よく わかりません。\nB：じゃ、わたしが （　）。（diucapkan kepada teman sebaya）",
-    "promptRomaji": "A: Kono kotoba no imi ga yoku wakarimasen. B: Ja, watashi ga _____.",
+    "promptRomaji": "A: Kono kotoba no imi ga yoku wakarimasen.\nB: Ja, watashi ga _____.",
     "sub": "B menawarkan diri menjelaskan kepada teman sebayanya.",
     "options": [
       {

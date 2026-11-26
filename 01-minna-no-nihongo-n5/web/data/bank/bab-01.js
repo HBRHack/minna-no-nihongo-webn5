@@ -180,8 +180,8 @@ window.MNN_BANK[1] = [
     "bab": 1,
     "type": "mcq",
     "badge": "Bab 1 · Jawaban Singkat",
-    "prompt": "あなたは がくせい ですか。…はい、（　） です。",
-    "promptRomaji": "Anata wa gakusei desu ka. ...Hai, ( ) desu.",
+    "prompt": "A：あなたは がくせい ですか。\nB：はい、（　） です。",
+    "promptRomaji": "A: Anata wa gakusei desu ka.\nB: Hai, ( ) desu.",
     "sub": "Jawaban singkat untuk 'Ya, benar'.",
     "options": [
       {
@@ -238,8 +238,8 @@ window.MNN_BANK[1] = [
     "bab": 1,
     "type": "mcq",
     "badge": "Bab 1 · Afiliasi",
-    "prompt": "あのひとは だれ ですか。…さくらだいがく （　） ワットさんです。",
-    "promptRomaji": "Ano hito wa dare desu ka. ...Sakura daigaku ( ) Watto-san desu.",
+    "prompt": "A：あのひとは だれ ですか。\nB：さくらだいがく （　） ワットさんです。",
+    "promptRomaji": "A: Ano hito wa dare desu ka.\nB: Sakura daigaku ( ) Watto-san desu.",
     "sub": "Orang itu Sdr. Watt dari Universitas Sakura.",
     "options": [
       {
@@ -354,8 +354,8 @@ window.MNN_BANK[1] = [
     "bab": 1,
     "type": "mcq",
     "badge": "Bab 1 · Jawaban Negatif",
-    "prompt": "あなたは せんせい ですか。…いいえ、（　） 。",
-    "promptRomaji": "Anata wa sensei desu ka. ...Iie, ( ).",
+    "prompt": "A：あなたは せんせい ですか。\nB：いいえ、（　） 。",
+    "promptRomaji": "A: Anata wa sensei desu ka.\nB: Iie, ( ).",
     "sub": "Tidak, saya bukan guru.",
     "options": [
       {
@@ -383,8 +383,8 @@ window.MNN_BANK[1] = [
     "bab": 1,
     "type": "mcq",
     "badge": "Bab 1 · Jawaban Positif",
-    "prompt": "マリアさんは フィリピンじん ですか。…はい、（　） 。",
-    "promptRomaji": "Maria-san wa Firipin-jin desu ka. ...Hai, ( ).",
+    "prompt": "A：マリアさんは フィリピンじん ですか。\nB：はい、（　） 。",
+    "promptRomaji": "A: Maria-san wa Firipin-jin desu ka.\nB: Hai, ( ).",
     "sub": "Ya, Maria orang Filipina.",
     "options": [
       {
@@ -441,8 +441,8 @@ window.MNN_BANK[1] = [
     "bab": 1,
     "type": "mcq",
     "badge": "Bab 1 · Kata Tanya Umur Sopan",
-    "prompt": "あのかたは （　） ですか。…28さいです。（bentuk sopan）",
-    "promptRomaji": "Ano kata wa _____ desu ka. ...Nijuuhassai desu.",
+    "prompt": "A：あのかたは （　） ですか。\nB：28さいです。（bentuk sopan）",
+    "promptRomaji": "A: Ano kata wa _____ desu ka.\nB: Nijuuhassai desu.",
     "sub": "Negara asal Anda di mana?",
     "options": [
       {
@@ -492,7 +492,7 @@ window.MNN_BANK[1] = [
       }
     ],
     "answer": 0,
-    "explain": "8歳 dibaca はっさい (hassai), dengan bunyi っ."
+    "explain": "8歳[はっさい] dibaca はっさい (hassai), dengan bunyi っ."
   },
   {
     "id": "b1-18",
@@ -521,7 +521,7 @@ window.MNN_BANK[1] = [
       }
     ],
     "answer": 3,
-    "explain": "1歳 dibaca いっさい (issai)."
+    "explain": "1歳[いっさい] dibaca いっさい (issai)."
   },
   {
     "id": "b1-19",
@@ -550,7 +550,7 @@ window.MNN_BANK[1] = [
       }
     ],
     "answer": 0,
-    "explain": "10歳 dibaca じゅっさい (jussai) atau じっさい (jissai), dengan bunyi rangkap っ (tidak boleh dibaca じゅさい/じゅうさい)."
+    "explain": "10歳[じゅっさい] dibaca じゅっさい (jussai) atau じっさい (jissai), dengan bunyi rangkap っ (tidak boleh dibaca じゅさい/じゅうさい)."
   },
   {
     "id": "b1-20",

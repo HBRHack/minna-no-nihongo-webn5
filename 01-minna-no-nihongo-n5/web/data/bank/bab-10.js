@@ -1101,7 +1101,7 @@ window.MNN_BANK[10] = [
       }
     ],
     "answer": 3,
-    "explain": "Pola 人 は 場所 に います menyatakan lokasi orang berada."
+    "explain": "Pola 人[ひと] は 場所[ばしょ] に います menyatakan lokasi orang berada."
   },
   {
     "id": "b10-39",
@@ -1340,8 +1340,8 @@ window.MNN_BANK[10] = [
     "bab": 10,
     "type": "mcq",
     "badge": "Bab 10 · Pola どこに ありますか",
-    "prompt": "A: でんわは どこに ありますか。 B: つくえの うえに （　）。",
-    "promptRomaji": "A: Denwa wa doko ni arimasu ka. B: Tsukue no ue ni ( ).",
+    "prompt": "A：でんわは どこに ありますか。\nB：つくえの うえに （　）。",
+    "promptRomaji": "A: Denwa wa doko ni arimasu ka.\nB: Tsukue no ue ni ( ).",
     "sub": "Lengkapi jawaban. (Di atas meja.)",
     "options": [
       {
@@ -1369,8 +1369,8 @@ window.MNN_BANK[10] = [
     "bab": 10,
     "type": "mcq",
     "badge": "Bab 10 · Pola どこに いますか",
-    "prompt": "A: ミラーさんは どこに いますか。 B: じむしょに （　）。",
-    "promptRomaji": "A: Miraa-san wa doko ni imasu ka. B: Jimusho ni ( ).",
+    "prompt": "A：ミラーさんは どこに いますか。\nB：じむしょに （　）。",
+    "promptRomaji": "A: Miraa-san wa doko ni imasu ka.\nB: Jimusho ni ( ).",
     "sub": "Lengkapi jawaban. (Di kantor.)",
     "options": [
       {
@@ -2181,8 +2181,8 @@ window.MNN_BANK[10] = [
     "bab": 10,
     "type": "mcq",
     "badge": "Bab 10 · Pola なにが ありますか",
-    "prompt": "A：はこの なかに なにが ありますか。 B：（　）。",
-    "promptRomaji": "A: Hako no naka ni nani ga arimasu ka. B: ( ).",
+    "prompt": "A：はこの なかに なにが ありますか。\nB：（　）。",
+    "promptRomaji": "A: Hako no naka ni nani ga arimasu ka.\nB: ( ).",
     "sub": "Pilih jawaban yang alami. (Ada pensil, penghapus, dan lain-lain.)",
     "options": [
       {
@@ -2210,8 +2210,8 @@ window.MNN_BANK[10] = [
     "bab": 10,
     "type": "mcq",
     "badge": "Bab 10 · Pola だれが いますか",
-    "prompt": "A：きょうしつに だれが いますか。 B：（　）。",
-    "promptRomaji": "A: Kyoushitsu ni dare ga imasu ka. B: ( ).",
+    "prompt": "A：きょうしつに だれが いますか。\nB：（　）。",
+    "promptRomaji": "A: Kyoushitsu ni dare ga imasu ka.\nB: ( ).",
     "sub": "Pilih jawaban yang tepat. (Ada Sdr. Yamada dan Sdr. Lin.)",
     "options": [
       {
@@ -2239,8 +2239,8 @@ window.MNN_BANK[10] = [
     "bab": 10,
     "type": "mcq",
     "badge": "Bab 10 · Susunan Benda は Tempat に",
-    "prompt": "A：ATMは どこに ありますか。 B：（　）。",
-    "promptRomaji": "A: ATM wa doko ni arimasu ka. B: ( ).",
+    "prompt": "A：ATMは どこに ありますか。\nB：（　）。",
+    "promptRomaji": "A: ATM wa doko ni arimasu ka.\nB: ( ).",
     "sub": "Pilih jawaban yang tepat. (Ada di dalam minimarket.)",
     "options": [
       {
@@ -2268,8 +2268,8 @@ window.MNN_BANK[10] = [
     "bab": 10,
     "type": "mcq",
     "badge": "Bab 10 · Susunan Orang は Tempat に",
-    "prompt": "A：カリナさんは どこに いますか。 B：（　）。",
-    "promptRomaji": "A: Karina-san wa doko ni imasu ka. B: ( ).",
+    "prompt": "A：カリナさんは どこに いますか。\nB：（　）。",
+    "promptRomaji": "A: Karina-san wa doko ni imasu ka.\nB: ( ).",
     "sub": "Pilih jawaban yang tepat. (Ada di kantin.)",
     "options": [
       {
@@ -2297,8 +2297,8 @@ window.MNN_BANK[10] = [
     "bab": 10,
     "type": "mcq",
     "badge": "Bab 10 · Kata tanya なに",
-    "prompt": "へやに （　）が ありますか。…ベッドと つくえが あります。",
-    "promptRomaji": "Heya ni ( ) ga arimasu ka. ...Beddo to tsukue ga arimasu.",
+    "prompt": "A：へやに （　）が ありますか。\nB：ベッドと つくえが あります。",
+    "promptRomaji": "A: Heya ni ( ) ga arimasu ka.\nB: Beddo to tsukue ga arimasu.",
     "sub": "Pilih kata tanya untuk menanyakan benda.",
     "options": [
       {
@@ -2326,8 +2326,8 @@ window.MNN_BANK[10] = [
     "bab": 10,
     "type": "mcq",
     "badge": "Bab 10 · Kata tanya だれ",
-    "prompt": "にわに （　）が いますか。…ちちと ははが います。",
-    "promptRomaji": "Niwa ni ( ) ga imasu ka. ...Chichi to haha ga imasu.",
+    "prompt": "A：にわに （　）が いますか。\nB：ちちと ははが います。",
+    "promptRomaji": "A: Niwa ni ( ) ga imasu ka.\nB: Chichi to haha ga imasu.",
     "sub": "Pilih kata tanya untuk menanyakan orang.",
     "options": [
       {
@@ -2355,8 +2355,8 @@ window.MNN_BANK[10] = [
     "bab": 10,
     "type": "mcq",
     "badge": "Bab 10 · Kata tanya どこ",
-    "prompt": "ぎんこうは （　）に ありますか。…えきの ちかくに あります。",
-    "promptRomaji": "Ginkou wa ( ) ni arimasu ka. ...Eki no chikaku ni arimasu.",
+    "prompt": "A：ぎんこうは （　）に ありますか。\nB：えきの ちかくに あります。",
+    "promptRomaji": "A: Ginkou wa ( ) ni arimasu ka.\nB: Eki no chikaku ni arimasu.",
     "sub": "Pilih kata tanya untuk menanyakan lokasi.",
     "options": [
       {
@@ -2384,8 +2384,8 @@ window.MNN_BANK[10] = [
     "bab": 10,
     "type": "mcq",
     "badge": "Bab 10 · Dialog だれも いません",
-    "prompt": "A：じむしょに だれが いますか。 B：（　）。",
-    "promptRomaji": "A: Jimusho ni dare ga imasu ka. B: ( ).",
+    "prompt": "A：じむしょに だれが いますか。\nB：（　）。",
+    "promptRomaji": "A: Jimusho ni dare ga imasu ka.\nB: ( ).",
     "sub": "Jawab dengan 'tidak ada siapa pun'.",
     "options": [
       {
@@ -2413,8 +2413,8 @@ window.MNN_BANK[10] = [
     "bab": 10,
     "type": "mcq",
     "badge": "Bab 10 · Dialog なにも ありません",
-    "prompt": "A：れいぞうこの なかに なにが ありますか。 B：（　）。",
-    "promptRomaji": "A: Reizouko no naka ni nani ga arimasu ka. B: ( ).",
+    "prompt": "A：れいぞうこの なかに なにが ありますか。\nB：（　）。",
+    "promptRomaji": "A: Reizouko no naka ni nani ga arimasu ka.\nB: ( ).",
     "sub": "Jawab dengan 'tidak ada apa pun'.",
     "options": [
       {
@@ -2819,8 +2819,8 @@ window.MNN_BANK[10] = [
     "bab": 10,
     "type": "mcq",
     "badge": "Bab 10 · Dialog di Toko",
-    "prompt": "A：すみません、ナンプラーは どこに ありますか。 B：（　）。",
-    "promptRomaji": "A: Sumimasen, nanpuraa wa doko ni arimasu ka. B: ( ).",
+    "prompt": "A：すみません、ナンプラーは どこに ありますか。\nB：（　）。",
+    "promptRomaji": "A: Sumimasen, nanpuraa wa doko ni arimasu ka.\nB: ( ).",
     "sub": "Pilih balasan pegawai toko yang tepat. (Ada di pojok bumbu.)",
     "options": [
       {
@@ -2848,8 +2848,8 @@ window.MNN_BANK[10] = [
     "bab": 10,
     "type": "mcq",
     "badge": "Bab 10 · Dialog di Toko",
-    "prompt": "A：フィルムは どこに ありますか。 B：あちらの コーナーの いちばん うえに あります。 A：（　）。",
-    "promptRomaji": "A: Firumu wa doko ni arimasu ka. B: Achira no koonaa no ichiban ue ni arimasu. A: ( ).",
+    "prompt": "A：フィルムは どこに ありますか。\nB：あちらの コーナーの いちばん うえに あります。\nA：（　）。",
+    "promptRomaji": "A: Firumu wa doko ni arimasu ka.\nB: Achira no koonaa no ichiban ue ni arimasu. A: ( ).",
     "sub": "Pilih ungkapan terima kasih setelah diberitahu lokasi.",
     "options": [
       {
@@ -2877,8 +2877,8 @@ window.MNN_BANK[10] = [
     "bab": 10,
     "type": "mcq",
     "badge": "Bab 10 · Dialog Lokasi",
-    "prompt": "A：すみません、この ちかくに コンビニが ありますか。 B：ええ、（　）。",
-    "promptRomaji": "A: Sumimasen, kono chikaku ni konbini ga arimasu ka. B: Ee, ( ).",
+    "prompt": "A：すみません、この ちかくに コンビニが ありますか。\nB：ええ、（　）。",
+    "promptRomaji": "A: Sumimasen, kono chikaku ni konbini ga arimasu ka.\nB: Ee, ( ).",
     "sub": "Pilih balasan yang tepat. (Ya, ada di sebelah stasiun.)",
     "options": [
       {

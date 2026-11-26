@@ -615,8 +615,8 @@ window.MNN_BANK[3] = [
     "bab": 3,
     "type": "mcq",
     "badge": "Bab 3 · どこの N",
-    "prompt": "それは どこ （　） かばんですか。…イタリアのです。",
-    "promptRomaji": "Sore wa doko ( ) kaban desu ka. ...Itaria no desu.",
+    "prompt": "A：それは どこ （　） かばんですか。\nB：イタリアのです。",
+    "promptRomaji": "A: Sore wa doko ( ) kaban desu ka.\nB: Itaria no desu.",
     "sub": "Pilih partikel untuk menanyakan asal produk. (Tas itu buatan mana? ...Buatan Italia.)",
     "options": [
       {
@@ -1078,9 +1078,9 @@ window.MNN_BANK[3] = [
     "id": "b3-38",
     "bab": 3,
     "type": "mcq",
-    "badge": "Bab 3 · お国は どちら",
-    "prompt": "A:「おくには （　） ですか。」 B:「インドネシアです。」（tanya sopan）",
-    "promptRomaji": "Okuni wa ( ) desu ka. ...Indoneshia desu.",
+    "badge": "Bab 3 · お国[くに]は どちら",
+    "prompt": "A：「おくには （　） ですか。」\nB：「インドネシアです。」（tanya sopan）",
+    "promptRomaji": "A: Okuni wa ( ) desu ka.\nB: Indoneshia desu.",
     "sub": "Menanyakan negara asal secara sopan.",
     "options": [
       {
@@ -1101,15 +1101,15 @@ window.MNN_BANK[3] = [
       }
     ],
     "answer": 1,
-    "explain": "お国は どちらですか adalah cara sopan menanyakan negara asal."
+    "explain": "お国[くに]は どちらですか adalah cara sopan menanyakan negara asal."
   },
   {
     "id": "b3-39",
     "bab": 3,
     "type": "mcq",
-    "badge": "Bab 3 · 会社は どちら",
-    "prompt": "A:「かいしゃは （　） ですか。」 B:「IMCです。」（tanya sopan）",
-    "promptRomaji": "Kaisha wa ( ) desu ka. ...IMC desu.",
+    "badge": "Bab 3 · 会社[かいしゃ]は どちら",
+    "prompt": "A：「かいしゃは （　） ですか。」\nB：「IMCです。」（tanya sopan）",
+    "promptRomaji": "A: Kaisha wa ( ) desu ka.\nB: IMC desu.",
     "sub": "Menanyakan nama perusahaan secara sopan.",
     "options": [
       {
@@ -1136,9 +1136,9 @@ window.MNN_BANK[3] = [
     "id": "b3-40",
     "bab": 3,
     "type": "mcq",
-    "badge": "Bab 3 · 学校は どちら",
-    "prompt": "A:「がっこうは （　） ですか。」 B:「ふじだいがくです。」（tanya sopan）",
-    "promptRomaji": "Gakkou wa ( ) desu ka. ...Fujidaigaku desu.",
+    "badge": "Bab 3 · 学校[がっこう]は どちら",
+    "prompt": "A：「がっこうは （　） ですか。」\nB：「ふじだいがくです。」（tanya sopan）",
+    "promptRomaji": "A: Gakkou wa ( ) desu ka.\nB: Fujidaigaku desu.",
     "sub": "Menanyakan nama sekolah secara sopan.",
     "options": [
       {
@@ -1166,8 +1166,8 @@ window.MNN_BANK[3] = [
     "bab": 3,
     "type": "mcq",
     "badge": "Bab 3 · どこの N",
-    "prompt": "これは （　） くるまですか。…にほんの くるまです。",
-    "promptRomaji": "Kore wa ( ) kuruma desu ka. ...Nihon no kuruma desu.",
+    "prompt": "A：これは （　） くるまですか。\nB：にほんの くるまです。",
+    "promptRomaji": "A: Kore wa ( ) kuruma desu ka.\nB: Nihon no kuruma desu.",
     "sub": "Menanyakan asal produk.",
     "options": [
       {
@@ -1195,8 +1195,8 @@ window.MNN_BANK[3] = [
     "bab": 3,
     "type": "mcq",
     "badge": "Bab 3 · どこの N",
-    "prompt": "これは （　） ワインですか。…フランスの ワインです。",
-    "promptRomaji": "Kore wa ( ) wain desu ka. ...Furansu no wain desu.",
+    "prompt": "A：これは （　） ワインですか。\nB：フランスの ワインです。",
+    "promptRomaji": "A: Kore wa ( ) wain desu ka.\nB: Furansu no wain desu.",
     "sub": "Menanyakan asal produk.",
     "options": [
       {
@@ -1224,8 +1224,8 @@ window.MNN_BANK[3] = [
     "bab": 3,
     "type": "mcq",
     "badge": "Bab 3 · いくら",
-    "prompt": "この ネクタイは （　） ですか。…3,000えんです。",
-    "promptRomaji": "Kono nekutai wa ( ) desu ka. ...Sanzen en desu.",
+    "prompt": "A：この ネクタイは （　） ですか。\nB：3,000えんです。",
+    "promptRomaji": "A: Kono nekutai wa ( ) desu ka.\nB: Sanzen en desu.",
     "sub": "Menanyakan harga.",
     "options": [
       {
@@ -1253,8 +1253,8 @@ window.MNN_BANK[3] = [
     "bab": 3,
     "type": "mcq",
     "badge": "Bab 3 · いくら",
-    "prompt": "その かばんは （　） ですか。…8,000えんです。",
-    "promptRomaji": "Sono kaban wa ( ) desu ka. ...Hassen en desu.",
+    "prompt": "A：その かばんは （　） ですか。\nB：8,000えんです。",
+    "promptRomaji": "A: Sono kaban wa ( ) desu ka.\nB: Hassen en desu.",
     "sub": "Menanyakan harga.",
     "options": [
       {
@@ -1427,8 +1427,8 @@ window.MNN_BANK[3] = [
     "bab": 3,
     "type": "mcq",
     "badge": "Bab 3 · Arti Dialog",
-    "prompt": "「うけつけは どこですか。…あそこです。」の いみは どれですか。",
-    "promptRomaji": "Uketsuke wa doko desu ka. ...Asoko desu.",
+    "prompt": "A：「うけつけは どこですか。\nB：あそこです。」の いみは どれですか。",
+    "promptRomaji": "A: Uketsuke wa doko desu ka.\nB: Asoko desu.",
     "sub": "Pilih terjemahan dialog yang tepat.",
     "options": [
       {

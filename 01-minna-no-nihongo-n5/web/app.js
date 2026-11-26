@@ -128,7 +128,7 @@
   const REFERENCES = window.MNN_REFERENCES || [];
   const KAIWA_BY_BAB = window.MNN_KAIWA || {};
   const FINAL_EXAM = window.FINAL_EXAM_1_25 || [];
-  const ASSET_VERSION = "20261125-v23";
+  const ASSET_VERSION = "20261126-v24";
   const FINAL_MAX_PER_BAB = 10;
   const FINAL_HARD_CAP = 250;
   const FINAL_BANK_CACHE = {};
@@ -547,6 +547,9 @@
 
   function cleanJpSpeech(raw) {
     return String(raw || "")
+      .replace(/([0-9０-９,]*[\u4e00-\u9faf々ヶ]+)\[([\u3040-\u309f\u30a0-\u30ffー]+)\]/g, "$2")
+      .replace(/(?:^|\n)\s*[ABＡＢ]\s*[:：]\s*/g, "\n")
+      .replace(/\r?\n+/g, "、")
       .replace(/（[　\s]*）/g, "")
       .replace(/\([^\)]*\)/g, "")
       .replace(/（[^）]*）/g, "")
@@ -556,6 +559,7 @@
       .replace(/\//g, "、")
       .replace(/・/g, "、")
       .replace(/\s+/g, " ")
+      .replace(/^[\s、]+|[\s、]+$/g, "")
       .trim();
   }
 
@@ -1108,12 +1112,49 @@
     return ordered[(idx + 1) % ordered.length];
   }
 
+  const FURIGANA_PAIR_RE = /([0-9０-９,]*[\u4e00-\u9faf々ヶ]+)\[([\u3040-\u309f\u30a0-\u30ffー]+)\]/g;
+
   function esc(str) {
     return String(str)
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
+  }
+
+  function stripFuriganaMarkup(str) {
+    return String(str || "").replace(FURIGANA_PAIR_RE, "$1");
+  }
+
+  function formatJpHtml(str) {
+    return esc(String(str || ""))
+      .replace(FURIGANA_PAIR_RE, "<ruby>$1<rt>$2</rt></ruby>")
+      .replace(/\r?\n/g, "<br>");
+  }
+
+  function formatPromptHtml(str) {
+    const raw = String(str || "");
+    const lines = raw.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+    const speakerLines = lines.filter((l) => /^[ABＡＢ]\s*[:：]\s*/.test(l));
+    if (lines.length > 1 && speakerLines.length >= 2) {
+      const inner = lines.map((line) => {
+        const m = /^([ABＡＢ])\s*[:：]\s*(.*)$/.exec(line);
+        if (!m) return `<div class="conv-note">${formatJpHtml(line)}</div>`;
+        const spk = m[1] === "Ａ" ? "A" : m[1] === "Ｂ" ? "B" : m[1];
+        return `<div class="conv-turn"><span class="conv-speaker">${esc(spk)}</span><span class="conv-text">${formatJpHtml(m[2])}</span></div>`;
+      }).join("");
+      return `<div class="conv-block">${inner}</div>`;
+    }
+    return formatJpHtml(raw);
+  }
+
+  function formatRomajiHtml(str) {
+    const raw = String(str || "");
+    const lines = raw.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+    if (lines.length > 1) {
+      return lines.map((l) => `<span class="conv-romaji-line">${esc(l)}</span>`).join("");
+    }
+    return esc(raw);
   }
 
   function norm(str) {
@@ -1137,11 +1178,11 @@
   // ===== RENDER CHEAT SHEET HTML =====
   function buildCheatSheetTablesHtml(cs) {
     return `
-      ${cs.takeaway ? `<div class="cheatsheet-takeaway">💡 Kunci Utama: ${esc(cs.takeaway)}</div>` : ""}
+      ${cs.takeaway ? `<div class="cheatsheet-takeaway">💡 Kunci Utama: ${formatJpHtml(cs.takeaway)}</div>` : ""}
       <div class="cheatsheet-tables">
         ${cs.tables.map((t) => `
           <div>
-            <div class="cheatsheet-subhead">${esc(t.heading)}</div>
+            <div class="cheatsheet-subhead">${formatJpHtml(t.heading)}</div>
             <div class="table-wrap">
               <table class="vocab-table">
                 <thead>
@@ -1149,7 +1190,7 @@
                 </thead>
                 <tbody>
                   ${t.rows.map((r) => `
-                    <tr>${r.map((cell, ci) => `<td class="${ci === 0 ? "jp" : ""}">${esc(cell)}</td>`).join("")}</tr>
+                    <tr>${r.map((cell, ci) => `<td class="${ci === 0 ? "jp" : ""}">${formatJpHtml(cell)}</td>`).join("")}</tr>
                   `).join("")}
                 </tbody>
               </table>
@@ -1522,8 +1563,8 @@
           ${kDone ? `<span class="zone-pill zone-green">✓ Kotoba (${kSaved.bestPct}%)</span>` : kSaved ? `<span class="zone-pill zone-amber">Kuis Kotoba: ${kSaved.bestPct}%</span>` : ""}
           <span class="zone-pill zone-neutral">Rumus Cepat + Audio 🔊 Bab ${ch.num}</span>
         </div>
-        <h1 class="page-title">Bab ${ch.num}: ${esc(ch.title)}</h1>
-        <p class="page-lead">${teman ? `Materi tata bahasa lengkap, kosakata ber-audio, dan ${quizInfo}.` : esc(ch.shortBug)}</p>
+        <h1 class="page-title">Bab ${ch.num}: ${formatJpHtml(ch.title)}</h1>
+        <p class="page-lead">${teman ? `Materi tata bahasa lengkap, kosakata ber-audio, dan ${quizInfo}.` : formatJpHtml(ch.shortBug)}</p>
 
         <div class="mode-tabs" role="tablist">
           <button type="button" class="mode-tab ${state.activeTab === "materi" ? "is-active" : ""}" id="tabMateri" role="tab" aria-selected="${state.activeTab === "materi"}">
@@ -1768,7 +1809,7 @@
       return `
         <span class="kaiwa-role-chip ${g === "female" ? "is-female" : "is-male"}">
           <span>${r.avatar || (g === "female" ? "👩" : "👨")}</span>
-          <strong>${esc(r.name)}</strong>
+          <strong>${formatJpHtml(r.name)}</strong>
           <span class="kaiwa-role-gender">${gText}${slotSuffix}</span>
         </span>
       `;
@@ -1788,16 +1829,16 @@
             <div class="kaiwa-head">
               <div class="kaiwa-speaker">
                 <span aria-hidden="true">${roleObj.avatar || (g === "female" ? "👩" : "👨")}</span>
-                <strong>${esc(line.speaker)}</strong>
+                <strong>${formatJpHtml(line.speaker)}</strong>
                 <span class="zone-pill ${g === "female" ? "zone-orange" : "zone-neutral"}">${genderLabel}</span>
                 ${isSpeaking ? `<span class="zone-pill zone-green">${isMuted ? "🎙️ Giliranmu Baca" : state.kaiwaRepeatPause ? "🎙️ Tirukan Sekarang..." : "🔊 Sedang Bicara"}</span>` : ""}
               </div>
               ${ttsBtnHtml(line.tts || line.jp, "tts-btn-sm", line.gender, slot, roleTempo)}
             </div>
-            <div class="kaiwa-jp">${esc(line.jp)}</div>
+            <div class="kaiwa-jp">${formatJpHtml(line.jp)}</div>
             <div class="romaji">${esc(line.romaji)}</div>
             ${!state.kaiwaHideId ? `<div class="kaiwa-id">${esc(line.id)}</div>` : ""}
-            ${line.note ? `<div class="kaiwa-note">💡 ${esc(line.note)}</div>` : ""}
+            ${line.note ? `<div class="kaiwa-note">💡 ${formatJpHtml(line.note)}</div>` : ""}
           </div>
         </article>
       `;
@@ -1811,13 +1852,13 @@
         <div class="kaiwa-head">
           <div class="kaiwa-speaker">
             <span aria-hidden="true">🎙️</span>
-            <strong>${esc(activeNar.speaker || "ナレーター (Narator CD)")}</strong>
+            <strong>${formatJpHtml(activeNar.speaker || "ナレーター (Narator CD)")}</strong>
             <span class="zone-pill zone-orange">Wanita · Pengantar CD</span>
             ${isIntroSpeaking ? `<span class="zone-pill zone-green">🔊 Intro CD Berjalan</span>` : isOutroSpeaking ? `<span class="zone-pill zone-green">🔊 Penutup CD</span>` : `<span class="zone-pill zone-neutral">${state.kaiwaWithIntro ? "Aktif di Awal" : "Dilewati"}</span>`}
           </div>
           ${ttsBtnHtml(activeNar.tts || activeNar.jp, "tts-btn-sm", activeNar.gender || "female", 0, activeNar.rateBias !== undefined ? activeNar.rateBias : 0.88)}
         </div>
-        <div class="kaiwa-jp">${esc(activeNar.jp)}</div>
+        <div class="kaiwa-jp">${formatJpHtml(activeNar.jp)}</div>
         <div class="romaji">${esc(activeNar.romaji)}</div>
         ${!state.kaiwaHideId ? `<div class="kaiwa-id">${esc(activeNar.id)}</div>` : ""}
       </div>
@@ -1827,7 +1868,7 @@
       <div class="cheatsheet-takeaway" style="margin-top: 16px;">
         <strong>Catatan Percakapan Bab ${ch.num}:</strong>
         <ul style="margin:6px 0 0 18px; padding:0;">
-          ${kaiwa.tips.map((t) => `<li>${esc(t)}</li>`).join("")}
+          ${kaiwa.tips.map((t) => `<li>${formatJpHtml(t)}</li>`).join("")}
         </ul>
       </div>
     ` : "";
@@ -1837,7 +1878,7 @@
         <div class="kaiwa-card">
           <div class="kaiwa-meta-top">
             <div>
-              <h2 class="study-section-title" style="margin:0;">💬 ${esc(kaiwa.title)}</h2>
+              <h2 class="study-section-title" style="margin:0;">💬 ${formatJpHtml(kaiwa.title)}</h2>
               <p class="section-sub" style="margin:4px 0 0;">${esc(kaiwa.scene)}</p>
             </div>
           </div>
@@ -1929,9 +1970,9 @@
     const bugsHtml = ch.bugs.map((b) => `
       <li>
         <strong>${esc(b.soal)}:</strong>
-        <span class="bug-wrong">${esc(b.salah)}</span> →
-        <span class="bug-right">${esc(b.benar)}</span>
-        <div class="bug-why">${esc(b.kenapa)}</div>
+        <span class="bug-wrong">${formatJpHtml(b.salah)}</span> →
+        <span class="bug-right">${formatJpHtml(b.benar)}</span>
+        <div class="bug-why">${formatJpHtml(b.kenapa)}</div>
       </li>
     `).join("");
 
@@ -1945,14 +1986,22 @@
           <div class="example-item">
             <div class="jp-audio-row">
               <div>
-                <div class="example-jp">${esc(ex.jp)}</div>
-                <span class="romaji example-romaji">${esc(ex.romaji)}</span>
+                <div class="example-jp">${formatPromptHtml(ex.jp)}</div>
+                <span class="romaji example-romaji">${formatRomajiHtml(ex.romaji)}</span>
               </div>
               ${ttsBtnHtml(ex.jp)}
             </div>
-            <span class="example-id">${esc(ex.id)}</span>
+            <span class="example-id">${formatJpHtml(ex.id)}</span>
           </div>
         `).join("")}
+      </div>
+    `;
+
+    const renderFormulaBox = (g) => `
+      <div class="formula-box">
+        <div class="formula-jp">${formatJpHtml(g.formula)}</div>
+        ${g.formulaRomaji ? `<div class="romaji formula-romaji">${esc(g.formulaRomaji)}</div>` : ""}
+        ${g.formulaId ? `<div class="formula-id">${esc(g.formulaId)}</div>` : ""}
       </div>
     `;
 
@@ -1960,7 +2009,7 @@
       extraLabHtml = `
         <section class="study-section">
           <h2 class="study-section-title">Lab Konjugasi Interaktif Bab 17: Klik Kata Kerja, Lihat Rumus Turunannya</h2>
-          <p class="section-sub">Pilih satu dari 14 kata kerja di bawah untuk melihat perubahan <code>ます形 → ない形 → 3 rumus Bab 17</code> sekaligus mendengar audionya.</p>
+          <p class="section-sub">Pilih satu dari 14 kata kerja di bawah untuk melihat perubahan <code><ruby>ます形<rt>けい</rt></ruby> → <ruby>ない形<rt>けい</rt></ruby> → 3 rumus Bab 17</code> sekaligus mendengar audionya.</p>
           <div class="lab-shell">
             <div class="lab-chips" id="labChips"></div>
             <div class="lab-stage" id="labStage"></div>
@@ -1971,21 +2020,21 @@
       grammarHtml = ch.grammarPointsRaw.map((g) => `
         <article class="grammar-card">
           <span class="grammar-num">${esc(g.num)}</span>
-          <h3 class="grammar-title">${esc(g.title)}</h3>
-          <div class="formula-box">${esc(g.formula)}</div>
-          <p class="grammar-explain">${esc(g.explain)}</p>
+          <h3 class="grammar-title">${formatJpHtml(g.title)}</h3>
+          ${renderFormulaBox(g)}
+          <p class="grammar-explain">${formatJpHtml(g.explain)}</p>
           ${g.table ? `
             <div class="table-wrap" style="margin-bottom: 14px;">
               <table class="vocab-table">
                 <thead><tr><th>Kelompok</th><th>Aturan Perubahan</th><th>Contoh</th></tr></thead>
                 <tbody>
-                  ${g.table.map((r) => `<tr><td><strong>${esc(r.k)}</strong></td><td>${esc(r.aturan)}</td><td class="jp">${esc(r.contoh)}</td></tr>`).join("")}
+                  ${g.table.map((r) => `<tr><td><strong>${esc(r.k)}</strong></td><td>${formatJpHtml(r.aturan)}</td><td class="jp">${formatJpHtml(r.contoh)}</td></tr>`).join("")}
                 </tbody>
               </table>
             </div>
           ` : ""}
           ${renderExamples(g.examples)}
-          <div class="trap-note"><strong>Catatan Jebakan:</strong> ${esc(g.trap)}</div>
+          <div class="trap-note"><strong>Catatan Jebakan:</strong> ${formatJpHtml(g.trap)}</div>
         </article>
       `).join("");
 
@@ -2021,11 +2070,11 @@
       grammarHtml = ch.grammar.map((g) => `
         <article class="grammar-card">
           <span class="grammar-num">${esc(g.num)}</span>
-          <h3 class="grammar-title">${esc(g.title)}</h3>
-          <div class="formula-box">${esc(g.formula).replace(/\n/g, "<br>")}</div>
-          <p class="grammar-explain">${esc(g.explain)}</p>
+          <h3 class="grammar-title">${formatJpHtml(g.title)}</h3>
+          ${renderFormulaBox(g)}
+          <p class="grammar-explain">${formatJpHtml(g.explain)}</p>
           ${renderExamples(g.examples)}
-          <div class="trap-note"><strong>Catatan Jebakan:</strong> ${esc(g.trap)}</div>
+          <div class="trap-note"><strong>Catatan Jebakan:</strong> ${formatJpHtml(g.trap)}</div>
         </article>
       `).join("");
 
@@ -4785,7 +4834,7 @@
                 <button type="button" class="option-btn ${cls}" data-opt="${idx}" ${locked ? "disabled" : ""}>
                   <span class="option-key">${idx + 1}</span>
                   <div class="option-content">
-                    <span class="option-jp">${esc(opt.jp)}</span>
+                    <span class="option-jp">${formatJpHtml(opt.jp)}</span>
                     ${opt.romaji ? `<span class="romaji">${esc(opt.romaji)}</span>` : ""}
                   </div>
                 </button>
@@ -4816,7 +4865,7 @@
           ${isDrill && !rec ? `<button type="submit" class="btn-primary">Cek Jawaban</button>` : ""}
         </form>
         ${isDrill && rec && !rec.ok ? `
-          <div class="expected-answer-line">Jawaban benar: <strong class="jp">${esc(q.displayAnswer)}</strong></div>
+          <div class="expected-answer-line">Jawaban benar: <strong class="jp">${formatJpHtml(q.displayAnswer)}</strong></div>
         ` : ""}
       `;
     }
@@ -4859,15 +4908,15 @@
 
         <div class="quiz-card">
           <div class="quiz-tag-row">
-            <span class="quiz-type-badge">${esc(q.badge || `Bab ${q.bab || ""}`)}</span>
+            <span class="quiz-type-badge">${formatJpHtml(q.badge || `Bab ${q.bab || ""}`)}</span>
             <button type="button" class="link-btn" id="btnPeekCheat">${q.bab ? `Intip Rumus Cepat Bab ${q.bab}` : "Intip Master Rumus Cepat"}</button>
           </div>
 
           <div class="quiz-prompt-row">
-            <div class="quiz-prompt">${esc(q.prompt)}</div>
+            <div class="quiz-prompt">${formatPromptHtml(q.prompt)}</div>
             ${speakPrompt ? ttsBtnHtml(speakPrompt) : ""}
           </div>
-          ${q.promptRomaji ? `<span class="romaji quiz-prompt-romaji">${esc(q.promptRomaji)}</span>` : ""}
+          ${q.promptRomaji ? `<span class="romaji quiz-prompt-romaji">${formatRomajiHtml(q.promptRomaji)}</span>` : ""}
           <p class="quiz-sub">${esc(q.sub || "")}</p>
 
           ${interactionHtml}
@@ -4875,7 +4924,7 @@
           ${isDrill && rec ? `
             <div class="feedback-box ${rec.ok ? "is-correct" : "is-wrong"}">
               <div class="feedback-title">${rec.ok ? "✓ Benar!" : rec.timedOut ? "⏱ Waktu soal habis — pelajari penjelasannya:" : "✕ Belum tepat — pelajari penjelasannya:"}</div>
-              <p class="feedback-explain">${esc(q.explain || "")}</p>
+              <p class="feedback-explain">${formatJpHtml(q.explain || "")}</p>
             </div>
           ` : ""}
 
@@ -4988,15 +5037,15 @@
       return `
         <article class="final-review-item ${rec.ok ? "is-correct" : "is-wrong"}">
           <div class="final-review-meta">
-            <span><strong>No. ${idx + 1}</strong> · ${q.bab ? `Bab ${q.bab}` : "Lintas Bab"} · ${esc(q.badge || "")}</span>
+            <span><strong>No. ${idx + 1}</strong> · ${q.bab ? `Bab ${q.bab}` : "Lintas Bab"} · ${formatJpHtml(q.badge || "")}</span>
             <span class="zone-pill ${rec.ok ? "zone-green" : "zone-red"}">${rec.ok ? "✓ Benar" : rec.timedOut ? "⏱ Waktu Habis" : "✕ Salah"}</span>
           </div>
-          <div class="final-review-prompt">${esc(q.prompt)}</div>
+          <div class="final-review-prompt">${formatPromptHtml(q.prompt)}</div>
           <div class="final-review-ans">
-            <span>Jawaban kamu: <strong class="jp">${esc(userAnsText)}</strong></span>
-            ${!rec.ok ? `<span>Jawaban benar: <strong class="jp">${esc(correctAnsText)}</strong></span>` : ""}
+            <span>Jawaban kamu: <strong class="jp">${formatJpHtml(userAnsText)}</strong></span>
+            ${!rec.ok ? `<span>Jawaban benar: <strong class="jp">${formatJpHtml(correctAnsText)}</strong></span>` : ""}
           </div>
-          ${q.explain ? `<p class="final-review-explain">${esc(q.explain)}</p>` : ""}
+          ${q.explain ? `<p class="final-review-explain">${formatJpHtml(q.explain)}</p>` : ""}
         </article>
       `;
     }).join("");
@@ -5233,7 +5282,7 @@
                 <button type="button" class="option-btn ${cls}" data-opt="${idx}" ${state.answered ? "disabled" : ""}>
                   <span class="option-key">${idx + 1}</span>
                   <div class="option-content">
-                    <span class="option-jp">${esc(opt.jp)}</span>
+                    <span class="option-jp">${formatJpHtml(opt.jp)}</span>
                     ${opt.romaji ? `<span class="romaji">${esc(opt.romaji)}</span>` : ""}
                   </div>
                 </button>
@@ -5262,7 +5311,7 @@
           ${!state.answered ? `<button type="submit" class="btn-primary">Cek Jawaban</button>` : ""}
         </form>
         ${state.answered && !state.isCorrectCurrent ? `
-          <div class="expected-answer-line">Jawaban benar: <strong class="jp">${esc(q.displayAnswer)}</strong></div>
+          <div class="expected-answer-line">Jawaban benar: <strong class="jp">${formatJpHtml(q.displayAnswer)}</strong></div>
         ` : ""}
       `;
     }
@@ -5289,15 +5338,15 @@
 
         <div class="quiz-card">
           <div class="quiz-tag-row">
-            <span class="quiz-type-badge">${esc(q.badge)}</span>
+            <span class="quiz-type-badge">${formatJpHtml(q.badge)}</span>
             <button type="button" class="link-btn" id="btnPeekCheat">${esc(peekText)}</button>
           </div>
 
           <div class="quiz-prompt-row">
-            <div class="quiz-prompt">${esc(q.prompt)}</div>
+            <div class="quiz-prompt">${formatPromptHtml(q.prompt)}</div>
             ${!ch.isKanaQuiz && speakPrompt ? ttsBtnHtml(speakPrompt) : ""}
           </div>
-          ${q.promptRomaji ? `<span class="romaji quiz-prompt-romaji">${esc(q.promptRomaji)}</span>` : ""}
+          ${q.promptRomaji ? `<span class="romaji quiz-prompt-romaji">${formatRomajiHtml(q.promptRomaji)}</span>` : ""}
           <p class="quiz-sub">${esc(q.sub)}</p>
 
           ${interactionHtml}
@@ -5305,7 +5354,7 @@
           ${state.answered ? `
             <div class="feedback-box ${state.isCorrectCurrent ? "is-correct" : "is-wrong"}">
               <div class="feedback-title">${state.isCorrectCurrent ? "✓ Benar!" : "✕ Belum tepat — pelajari penjelasannya:"}</div>
-              <p class="feedback-explain">${esc(q.explain)}</p>
+              <p class="feedback-explain">${formatJpHtml(q.explain)}</p>
             </div>
           ` : ""}
 
@@ -5472,7 +5521,7 @@
     const ch = getChapter(num);
     if (!ch || !ch.cheatSheet) return;
     document.getElementById("cheatModalEyebrow").textContent = `RUMUS CEPAT KHUSUS · BAB ${ch.num}`;
-    document.getElementById("cheatModalTitle").textContent = ch.cheatSheet.title;
+    document.getElementById("cheatModalTitle").innerHTML = formatJpHtml(ch.cheatSheet.title);
     document.getElementById("cheatModalBody").innerHTML = buildCheatSheetTablesHtml(ch.cheatSheet);
     document.getElementById("cheatModal").hidden = false;
   }

@@ -16,10 +16,18 @@ const KAIWA_FILES = [
 ];
 
 const JP_RE = /[\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]/;
+const FURIGANA_PAIR_RE = /([0-9０-９,]*[\u4e00-\u9faf々ヶ]+)\[([\u3040-\u309f\u30a0-\u30ffー]+)\]/g;
 const TEMPO_KEYS = new Set(["berwibawa", "tenang", "normal", "lincah"]);
 const MIN_LINES = 7;
 const MIN_TIPS = 2;
 const DEFAULT_MAX_BAB = 25;
+
+function findBareKanji(str) {
+  let s = String(str || "").replace(FURIGANA_PAIR_RE, "");
+  if (/[\u4e00-\u9faf々ヶ]\s*\[/.test(s)) return "format furigana [...] tidak valid";
+  const bare = s.match(/[\u4e00-\u9faf]+/g);
+  return bare ? `kanji tanpa furigana (${bare.join(", ")})` : null;
+}
 
 const babArg = process.argv.find((a) => a.startsWith("--bab="));
 const onlyBabs = babArg
@@ -60,13 +68,17 @@ if (!data || typeof data !== "object") {
   process.exit(1);
 }
 
-const checkText = (where, field, value, { japanese = false } = {}) => {
+const checkText = (where, field, value, { japanese = false, checkKanji = false } = {}) => {
   if (typeof value !== "string" || !value.trim()) {
     problems.push(`${where}: ${field} kosong/tidak valid`);
     return false;
   }
   if (japanese && !JP_RE.test(value)) {
     problems.push(`${where}: ${field} tidak mengandung teks Jepang`);
+  }
+  if (checkKanji) {
+    const err = findBareKanji(value);
+    if (err) problems.push(`${where}: ${field} ${err}`);
   }
   return true;
 };
@@ -76,8 +88,8 @@ const checkNarrator = (where, name, obj) => {
     problems.push(`${where}: ${name} harus objek`);
     return;
   }
-  checkText(`${where}.${name}`, "speaker", obj.speaker);
-  checkText(`${where}.${name}`, "jp", obj.jp, { japanese: true });
+  checkText(`${where}.${name}`, "speaker", obj.speaker, { checkKanji: true });
+  checkText(`${where}.${name}`, "jp", obj.jp, { japanese: true, checkKanji: true });
   checkText(`${where}.${name}`, "romaji", obj.romaji);
   checkText(`${where}.${name}`, "id", obj.id);
   if (obj.gender !== "male" && obj.gender !== "female") {
@@ -99,7 +111,7 @@ for (const bab of targetBabs) {
 
   const where = `Bab ${bab}`;
   if (k.bab !== bab) problems.push(`${where}: field bab ${k.bab} harus ${bab}`);
-  checkText(where, "title", k.title);
+  checkText(where, "title", k.title, { checkKanji: true });
   checkText(where, "scene", k.scene);
   checkNarrator(where, "intro", k.intro);
   checkNarrator(where, "outro", k.outro);
@@ -120,7 +132,7 @@ for (const bab of targetBabs) {
     else if (roleIds.has(r.id)) problems.push(`${rw}: id role duplikat "${r.id}"`);
     else roleIds.add(r.id);
 
-    checkText(rw, "name", r.name);
+    checkText(rw, "name", r.name, { checkKanji: true });
     checkText(rw, "label", r.label);
     checkText(rw, "avatar", r.avatar);
     if (r.gender !== "male" && r.gender !== "female") {
@@ -146,8 +158,8 @@ for (const bab of targetBabs) {
     }
 
     checkText(lw, "speakerId", line.speakerId);
-    checkText(lw, "speaker", line.speaker);
-    checkText(lw, "jp", line.jp, { japanese: true });
+    checkText(lw, "speaker", line.speaker, { checkKanji: true });
+    checkText(lw, "jp", line.jp, { japanese: true, checkKanji: true });
     if (line.tts !== undefined) {
       checkText(lw, "tts", line.tts, { japanese: true });
     }
@@ -155,6 +167,9 @@ for (const bab of targetBabs) {
     checkText(lw, "id", line.id);
     if (line.note !== undefined && typeof line.note !== "string") {
       problems.push(`${lw}: note harus string`);
+    } else if (typeof line.note === "string") {
+      const noteErr = findBareKanji(line.note);
+      if (noteErr) problems.push(`${lw}: note ${noteErr}`);
     }
 
     if (line.speakerId) {
@@ -198,6 +213,9 @@ for (const bab of targetBabs) {
     k.tips.forEach((t, i) => {
       if (typeof t !== "string" || !t.trim()) {
         problems.push(`${where} tips #${i + 1}: kosong/tidak valid`);
+      } else {
+        const tipErr = findBareKanji(t);
+        if (tipErr) problems.push(`${where} tips #${i + 1}: ${tipErr}`);
       }
     });
   }

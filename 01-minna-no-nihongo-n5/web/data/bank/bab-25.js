@@ -28,7 +28,7 @@ window.MNN_BANK[25] = [
       }
     ],
     "answer": 3,
-    "explain": "かんがえます (考えます) adalah kata kerja Kelompok II yang berarti berpikir atau mempertimbangkan."
+    "explain": "かんがえます (考[かんが]えます) adalah kata kerja Kelompok II yang berarti berpikir atau mempertimbangkan."
   },
   {
     "id": "b25-02",
@@ -57,7 +57,7 @@ window.MNN_BANK[25] = [
       }
     ],
     "answer": 0,
-    "explain": "つきます (着きます) berarti tiba atau sampai di suatu tempat, dan tempat tujuannya ditandai partikel に (えきに つきます)."
+    "explain": "つきます (着[つ]きます) berarti tiba atau sampai di suatu tempat, dan tempat tujuannya ditandai partikel に (えきに つきます)."
   },
   {
     "id": "b25-03",
@@ -86,7 +86,7 @@ window.MNN_BANK[25] = [
       }
     ],
     "answer": 1,
-    "explain": "としを とります (年を 取ります) berarti bertambah tua atau menua."
+    "explain": "としを とります (年[とし]を 取[と]ります) berarti bertambah tua atau menua."
   },
   {
     "id": "b25-04",
@@ -115,7 +115,7 @@ window.MNN_BANK[25] = [
       }
     ],
     "answer": 2,
-    "explain": "たります (足ります) adalah kata kerja Kelompok II (bentuk-ない: たりない) yang berarti cukup atau mencukupi."
+    "explain": "たります (足[た]ります) adalah kata kerja Kelompok II (bentuk-ない: たりない) yang berarti cukup atau mencukupi."
   },
   {
     "id": "b25-05",
@@ -144,7 +144,7 @@ window.MNN_BANK[25] = [
       }
     ],
     "answer": 3,
-    "explain": "いなか (田舎) berarti pedesaan atau kampung halaman. たいしかん = kedutaan besar, てんきん = mutasi kerja."
+    "explain": "いなか (田舎[いなか]) berarti pedesaan atau kampung halaman. たいしかん = kedutaan besar, てんきん = mutasi kerja."
   },
   {
     "id": "b25-06",
@@ -173,7 +173,7 @@ window.MNN_BANK[25] = [
       }
     ],
     "answer": 0,
-    "explain": "たいしかん (大使館) berarti kedutaan besar."
+    "explain": "たいしかん (大使館[たいしかん]) berarti kedutaan besar."
   },
   {
     "id": "b25-07",
@@ -202,7 +202,7 @@ window.MNN_BANK[25] = [
       }
     ],
     "answer": 1,
-    "explain": "てんきん (転勤) berarti pindah tugas kerja atau mutasi ke cabang/kota lain."
+    "explain": "てんきん (転勤[てんきん]) berarti pindah tugas kerja atau mutasi ke cabang/kota lain."
   },
   {
     "id": "b25-08",
@@ -231,7 +231,7 @@ window.MNN_BANK[25] = [
       }
     ],
     "answer": 2,
-    "explain": "りゅうがくします (留学します) berarti belajar/kuliah di luar negeri."
+    "explain": "りゅうがくします (留学[りゅうがく]します) berarti belajar/kuliah di luar negeri."
   },
   {
     "id": "b25-09",
@@ -260,7 +260,7 @@ window.MNN_BANK[25] = [
       }
     ],
     "answer": 3,
-    "explain": "１おく (一億) berarti seratus juta (100.000.000)."
+    "explain": "１おく (一億[いちおく]) berarti seratus juta (100.000.000)."
   },
   {
     "id": "b25-10",
@@ -376,7 +376,7 @@ window.MNN_BANK[25] = [
       }
     ],
     "answer": 3,
-    "explain": "がんばります (頑張ります) berarti berusaha sebaik mungkin atau berjuang."
+    "explain": "がんばります (頑張[がんば]ります) berarti berusaha sebaik mungkin atau berjuang."
   },
   {
     "id": "b25-14",
@@ -1283,7 +1283,7 @@ window.MNN_BANK[25] = [
     "type": "mcq",
     "badge": "Bab 25 · Mini Dialog (Pengandaian vs Fakta)",
     "prompt": "A：おなかが いっぱいですね。もう たべませんか。\nB：ええ。でも、おいしい ケーキが （　）、すこし たべます。",
-    "promptRomaji": "A: Onaka ga ippai desu ne. Mou tabemasen ka. B: Ee. Demo, oishii keeki ga _____, sukoshi tabemasu.",
+    "promptRomaji": "A: Onaka ga ippai desu ne. Mou tabemasen ka.\nB: Ee. Demo, oishii keeki ga _____, sukoshi tabemasu.",
     "sub": "Lengkapi: 'kalau ada kue yang enak, saya makan sedikit' (あります).",
     "options": [
       {
@@ -1312,7 +1312,7 @@ window.MNN_BANK[25] = [
     "type": "mcq",
     "badge": "Bab 25 · Mini Dialog (Perpisahan / Mutasi)",
     "prompt": "A：らいしゅう おおさかへ てんきんします。いろいろ おせわに なりました。\nB：そうですか。おおさかへ （　）、また れんらくして くださいね。",
-    "promptRomaji": "A: Raishuu Oosaka e tenkin shimasu. Iroiro osewa ni narimashita. B: Sou desu ka. Oosaka e _____, mata renraku shite kudasai ne.",
+    "promptRomaji": "A: Raishuu Oosaka e tenkin shimasu. Iroiro osewa ni narimashita.\nB: Sou desu ka. Oosaka e _____, mata renraku shite kudasai ne.",
     "sub": "Lengkapi: 'setelah pergi ke Osaka' (いきます).",
     "options": [
       {
@@ -1341,7 +1341,7 @@ window.MNN_BANK[25] = [
     "type": "mcq",
     "badge": "Bab 25 · Mini Dialog (Kontras ～ても)",
     "prompt": "A：この じしょ、たかかったでしょう。\nB：いいえ、あまり たかく なかったですよ。でも、いくら （　）、ぜんぶの かんじは わかりません。",
-    "promptRomaji": "A: Kono jisho, takakatta deshou. B: Iie, amari takaku nakatta desu yo. Demo, ikura _____, zenbu no kanji wa wakarimasen.",
+    "promptRomaji": "A: Kono jisho, takakatta deshou.\nB: Iie, amari takaku nakatta desu yo. Demo, ikura _____, zenbu no kanji wa wakarimasen.",
     "sub": "Lengkapi dengan kata kerja しらべます ('seberapa pun dicari/dicek di kamus').",
     "options": [
       {
@@ -1399,7 +1399,7 @@ window.MNN_BANK[25] = [
     "type": "mcq",
     "badge": "Bab 25 · Mini Dialog (Syarat Cukup)",
     "prompt": "A：この おかねで たりますか。\nB：ええ、これだけ あったら、じゅうぶんです。もし （　）、また いいます。",
-    "promptRomaji": "A: Kono okane de tarimasu ka. B: Ee, kore dake attara, juubun desu. Moshi _____, mata iimasu.",
+    "promptRomaji": "A: Kono okane de tarimasu ka.\nB: Ee, kore dake attara, juubun desu. Moshi _____, mata iimasu.",
     "sub": "Lengkapi: 'kalau tidak cukup' dari たります (Kel. II → たりない).",
     "options": [
       {
@@ -1428,7 +1428,7 @@ window.MNN_BANK[25] = [
     "type": "mcq",
     "badge": "Bab 25 · Konteks Percakapan (いなか・チャンス)",
     "prompt": "A：にほんの だいがくへ りゅうがくしたいですか。\nB：はい、チャンスが （　）、ぜひ いきたいです。",
-    "promptRomaji": "A: Nihon no daigaku e ryuugaku shitai desu ka. B: Hai, chansu ga _____, zehi ikitai desu.",
+    "promptRomaji": "A: Nihon no daigaku e ryuugaku shitai desu ka.\nB: Hai, chansu ga _____, zehi ikitai desu.",
     "sub": "Lengkapi syarat 'kalau ada kesempatan'.",
     "options": [
       {
@@ -2704,7 +2704,7 @@ window.MNN_BANK[25] = [
     "type": "mcq",
     "badge": "Bab 25 · Dialog (いくら ～ても)",
     "prompt": "A：この かばん、デザインは いいですね。\nB：でも、（　） やすくても、おおきさが たりません。",
-    "promptRomaji": "A: Kono kaban, dezain wa ii desu ne. B: Demo, _____ yasukute mo, ookisa ga tarimasen.",
+    "promptRomaji": "A: Kono kaban, dezain wa ii desu ne.\nB: Demo, _____ yasukute mo, ookisa ga tarimasen.",
     "sub": "Pilih kata yang tepat untuk melengkapi ～ても.",
     "options": [
       {
@@ -2733,7 +2733,7 @@ window.MNN_BANK[25] = [
     "type": "mcq",
     "badge": "Bab 25 · Dialog Salam Perpisahan",
     "prompt": "A：きょうまで いろいろ （　）。ベトナムへ いっても、がんばります。\nB：こちらこそ。どうぞ おげんきで。",
-    "promptRomaji": "A: Kyou made iroiro _____. Betonamu e itte mo, ganbarimasu. B: Kochira koso. Douzo ogenki de.",
+    "promptRomaji": "A: Kyou made iroiro _____. Betonamu e itte mo, ganbarimasu.\nB: Kochira koso. Douzo ogenki de.",
     "sub": "Pilih ungkapan terima kasih atas bantuan selama ini sebelum berpisah.",
     "options": [
       {
@@ -2762,7 +2762,7 @@ window.MNN_BANK[25] = [
     "type": "mcq",
     "badge": "Bab 25 · Dialog Balasan Salam Perpisahan",
     "prompt": "A：らいしゅう いなかへ かえります。ほんとうに ありがとうございました。\nB：そうですか。さびしく なりますね。（　）。",
-    "promptRomaji": "A: Raishuu inaka e kaerimasu. Hontou ni arigatou gozaimashita. B: Sou desu ka. Sabishiku narimasu ne. _____.",
+    "promptRomaji": "A: Raishuu inaka e kaerimasu. Hontou ni arigatou gozaimashita.\nB: Sou desu ka. Sabishiku narimasu ne. _____.",
     "sub": "Pilih doa perpisahan yang tepat untuk orang yang akan pulang jauh.",
     "options": [
       {
@@ -2791,7 +2791,7 @@ window.MNN_BANK[25] = [
     "type": "mcq",
     "badge": "Bab 25 · Dialog Rencana Masa Depan (～たら)",
     "prompt": "A：だいがくを でたら、どう しますか。\nB：（　）。",
-    "promptRomaji": "A: Daigaku o detara, dou shimasu ka. B: _____.",
+    "promptRomaji": "A: Daigaku o detara, dou shimasu ka.\nB: _____.",
     "sub": "Pilih jawaban yang alami untuk pertanyaan 'setelah lulus universitas, mau apa?'.",
     "options": [
       {
@@ -2820,7 +2820,7 @@ window.MNN_BANK[25] = [
     "type": "mcq",
     "badge": "Bab 25 · Dialog Pengandaian (もし ～だったら)",
     "prompt": "A：あしたの おはなみ、もし あめだったら どう しますか。\nB：（　）。",
-    "promptRomaji": "A: Ashita no ohanami, moshi ame dattara dou shimasu ka. B: _____.",
+    "promptRomaji": "A: Ashita no ohanami, moshi ame dattara dou shimasu ka.\nB: _____.",
     "sub": "Pilih balasan yang tepat untuk pengandaian 'kalau hujan'.",
     "options": [
       {
@@ -2849,7 +2849,7 @@ window.MNN_BANK[25] = [
     "type": "mcq",
     "badge": "Bab 25 · Dialog Urutan Waktu (ついたら)",
     "prompt": "A：これから えきへ いきます。\nB：わかりました。えきに （　）、すぐ でんわして くださいね。",
-    "promptRomaji": "A: Korekara eki e ikimasu. B: Wakarimashita. Eki ni _____, sugu denwa shite kudasai ne.",
+    "promptRomaji": "A: Korekara eki e ikimasu.\nB: Wakarimashita. Eki ni _____, sugu denwa shite kudasai ne.",
     "sub": "Lengkapi 'setelah tiba di stasiun, tolong segera telepon' (つきます).",
     "options": [
       {
@@ -2878,7 +2878,7 @@ window.MNN_BANK[25] = [
     "type": "mcq",
     "badge": "Bab 25 · Dialog Setelah Pekerjaan Selesai",
     "prompt": "A：きょうの しごとは もうすぐ おわりますね。\nB：ええ、おわったら、（　）。",
-    "promptRomaji": "A: Kyou no shigoto wa mou sugu owarimasu ne. B: Ee, owattara, _____.",
+    "promptRomaji": "A: Kyou no shigoto wa mou sugu owarimasu ne.\nB: Ee, owattara, _____.",
     "sub": "Pilih ajakan yang wajar setelah pekerjaan selesai.",
     "options": [
       {

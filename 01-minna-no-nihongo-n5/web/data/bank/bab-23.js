@@ -86,7 +86,7 @@ window.MNN_BANK[23] = [
       }
     ],
     "answer": 2,
-    "explain": "かえます (変えます) berarti mengubah atau mengganti, sedangkan かいます (買います) berarti membeli."
+    "explain": "かえます (変[か]えます) berarti mengubah atau mengganti, sedangkan かいます (買[か]います) berarti membeli."
   },
   {
     "id": "b23-04",
@@ -144,7 +144,7 @@ window.MNN_BANK[23] = [
       }
     ],
     "answer": 0,
-    "explain": "おゆ (お湯) berarti air panas, berbeda dengan みず yang berarti air biasa/dingin."
+    "explain": "おゆ (お湯[ゆ]) berarti air panas, berbeda dengan みず yang berarti air biasa/dingin."
   },
   {
     "id": "b23-06",
@@ -173,7 +173,7 @@ window.MNN_BANK[23] = [
       }
     ],
     "answer": 1,
-    "explain": "こうさてん (交差点) berarti perempatan/persimpangan jalan. しんごう adalah lampu lalu lintas, はし adalah jembatan."
+    "explain": "こうさてん (交差点[こうさてん]) berarti perempatan/persimpangan jalan. しんごう adalah lampu lalu lintas, はし adalah jembatan."
   },
   {
     "id": "b23-07",
@@ -202,7 +202,7 @@ window.MNN_BANK[23] = [
       }
     ],
     "answer": 2,
-    "explain": "しんごう (信号) berarti lampu lalu lintas. かど = sudut tikungan, たてもの = bangunan, ちゅうしゃじょう = tempat parkir."
+    "explain": "しんごう (信号[しんごう]) berarti lampu lalu lintas. かど = sudut tikungan, たてもの = bangunan, ちゅうしゃじょう = tempat parkir."
   },
   {
     "id": "b23-08",
@@ -231,7 +231,7 @@ window.MNN_BANK[23] = [
       }
     ],
     "answer": 3,
-    "explain": "かど (角) berarti sudut atau tikungan jalan. はし = jembatan, みち = jalan, おと = suara/bunyi."
+    "explain": "かど (角[かど]) berarti sudut atau tikungan jalan. はし = jembatan, みち = jalan, おと = suara/bunyi."
   },
   {
     "id": "b23-09",
@@ -260,7 +260,7 @@ window.MNN_BANK[23] = [
       }
     ],
     "answer": 0,
-    "explain": "きかい berarti mesin, dan こしょうします (故障します) berarti rusak atau mengalami kerusakan."
+    "explain": "きかい berarti mesin, dan こしょうします (故障[こしょう]します) berarti rusak atau mengalami kerusakan."
   },
   {
     "id": "b23-10",
@@ -289,7 +289,7 @@ window.MNN_BANK[23] = [
       }
     ],
     "answer": 1,
-    "explain": "おと (音) berarti bunyi atau suara (benda/mesin/musik)."
+    "explain": "おと (音[おと]) berarti bunyi atau suara (benda/mesin/musik)."
   },
   {
     "id": "b23-11",
@@ -347,7 +347,7 @@ window.MNN_BANK[23] = [
       }
     ],
     "answer": 3,
-    "explain": "ちゅうしゃじょう (駐車場) berarti tempat parkir. でんきや = toko elektronik."
+    "explain": "ちゅうしゃじょう (駐車場[ちゅうしゃじょう]) berarti tempat parkir. でんきや = toko elektronik."
   },
   {
     "id": "b23-13",
@@ -376,7 +376,7 @@ window.MNN_BANK[23] = [
       }
     ],
     "answer": 0,
-    "explain": "わたります (渡ります) berarti menyeberang. あるきます = berjalan kaki, まがります = berbelok, うごきます = bergerak/berfungsi."
+    "explain": "わたります (渡[わた]ります) berarti menyeberang. あるきます = berjalan kaki, まがります = berbelok, うごきます = bergerak/berfungsi."
   },
   {
     "id": "b23-14",
@@ -992,7 +992,7 @@ window.MNN_BANK[23] = [
     "bab": 23,
     "type": "mcq",
     "badge": "Bab 23 · Terjemahan Kalimat",
-    "prompt": "「あの はしを わたって、まっすぐ 行くと、ひだりに ぎんこうが あります。」の いみは どれですか。",
+    "prompt": "「あの はしを わたって、まっすぐ 行[い]くと、ひだりに ぎんこうが あります。」の いみは どれですか。",
     "promptRomaji": "Ano hashi o watatte, massugu iku to, hidari ni ginkou ga arimasu.",
     "sub": "Pilih terjemahan petunjuk jalan yang tepat.",
     "options": [
@@ -1014,7 +1014,7 @@ window.MNN_BANK[23] = [
       }
     ],
     "answer": 2,
-    "explain": "はしを わたって = seberangi jembatan, まっすぐ 行くと = lalu jalan lurus maka, ひだりに ぎんこうが あります = di sebelah kiri ada bank."
+    "explain": "はしを わたって = seberangi jembatan, まっすぐ 行[い]くと = lalu jalan lurus maka, ひだりに ぎんこうが あります = di sebelah kiri ada bank."
   },
   {
     "id": "b23-36",
@@ -1282,8 +1282,8 @@ window.MNN_BANK[23] = [
     "bab": 23,
     "type": "mcq",
     "badge": "Bab 23 · Mini Dialog (Arah Jalan)",
-    "prompt": "A：すみません、ゆうびんきょくは どこですか。\nB：この みちを まっすぐ 行って、ひとつめの かどを （　）。みぎに ありますよ。",
-    "promptRomaji": "A: Sumimasen, yuubinkyoku wa doko desu ka. B: Kono michi o massugu itte, hitotsume no kado o _____. Migi ni arimasu yo.",
+    "prompt": "A：すみません、ゆうびんきょくは どこですか。\nB：この みちを まっすぐ 行[い]って、ひとつめの かどを （　）。みぎに ありますよ。",
+    "promptRomaji": "A: Sumimasen, yuubinkyoku wa doko desu ka.\nB: Kono michi o massugu itte, hitotsume no kado o _____. Migi ni arimasu yo.",
     "sub": "Lengkapi petunjuk arah yang benar dalam dialog.",
     "options": [
       {
@@ -1312,7 +1312,7 @@ window.MNN_BANK[23] = [
     "type": "mcq",
     "badge": "Bab 23 · Mini Dialog (Mesin Rusak)",
     "prompt": "A：おかねを いれました。でも、きっぷが （　）。\nB：じゃ、えきの ひとに ききましょう。",
-    "promptRomaji": "A: Okane o iremashita. Demo, kippu ga _____. B: Ja, eki no hito ni kikimashou.",
+    "promptRomaji": "A: Okane o iremashita. Demo, kippu ga _____.\nB: Ja, eki no hito ni kikimashou.",
     "sub": "Pilih keluhan yang wajar saat mesin tiket bermasalah.",
     "options": [
       {
@@ -1341,7 +1341,7 @@ window.MNN_BANK[23] = [
     "type": "mcq",
     "badge": "Bab 23 · Mini Dialog (V-る vs V-た とき)",
     "prompt": "A：その きれいな カメラは どこで かいましたか。\nB：アメリカへ （　） とき、くうこうの みせで かいました。まだ のる まえでした。",
-    "promptRomaji": "A: Sono kirei na kamera wa doko de kaimashita ka. B: Amerika e _____ toki, kuukou no mise de kaimashita. Mada noru mae deshita.",
+    "promptRomaji": "A: Sono kirei na kamera wa doko de kaimashita ka.\nB: Amerika e _____ toki, kuukou no mise de kaimashita. Mada noru mae deshita.",
     "sub": "Pembeli membeli kamera di bandara SEBELUM naik pesawat berangkat ke Amerika.",
     "options": [
       {
@@ -1370,7 +1370,7 @@ window.MNN_BANK[23] = [
     "type": "mcq",
     "badge": "Bab 23 · Mini Dialog (Klausa ～とき)",
     "prompt": "A：テストの とき、じしょを つかっても いいですか。\nB：いいえ、（　）。",
-    "promptRomaji": "A: Tesuto no toki, jisho o tsukatte mo ii desu ka. B: Iie, _____.",
+    "promptRomaji": "A: Tesuto no toki, jisho o tsukatte mo ii desu ka.\nB: Iie, _____.",
     "sub": "Pilih jawaban penolakan izin yang sopan dan tepat.",
     "options": [
       {
@@ -2348,7 +2348,7 @@ window.MNN_BANK[23] = [
       }
     ],
     "answer": 0,
-    "explain": "ひっこしします (引っ越しします) berarti pindah rumah atau pindah tempat tinggal."
+    "explain": "ひっこしします (引[ひ]っ越[こ]しします) berarti pindah rumah atau pindah tempat tinggal."
   },
   {
     "id": "b23-82",
@@ -2435,7 +2435,7 @@ window.MNN_BANK[23] = [
       }
     ],
     "answer": 0,
-    "explain": "がいこくじんとうろくしょう (外国人登録証) berarti kartu registrasi penduduk asing."
+    "explain": "がいこくじんとうろくしょう (外国人登録証[がいこくじんとうろくしょう]) berarti kartu registrasi penduduk asing."
   },
   {
     "id": "b23-85",
@@ -2762,7 +2762,7 @@ window.MNN_BANK[23] = [
     "type": "mcq",
     "badge": "Bab 23 · Dialog Petunjuk Jalan",
     "prompt": "A：すみません、としょかんへ いく みちを おしえて ください。\nB：この みちを まっすぐ いって、はしを （　）、ひだりに ありますよ。",
-    "promptRomaji": "A: Sumimasen, toshokan e iku michi o oshiete kudasai. B: Kono michi o massugu itte, hashi o _____, hidari ni arimasu yo.",
+    "promptRomaji": "A: Sumimasen, toshokan e iku michi o oshiete kudasai.\nB: Kono michi o massugu itte, hashi o _____, hidari ni arimasu yo.",
     "sub": "Lengkapi petunjuk jalan dengan pola ～と yang tepat.",
     "options": [
       {
@@ -2791,7 +2791,7 @@ window.MNN_BANK[23] = [
     "type": "mcq",
     "badge": "Bab 23 · Dialog Cara Kerja Mesin",
     "prompt": "A：すみません、この きかいの つまみを まわすと、どう なりますか。\nB：みぎへ （　）、おゆが でますよ。",
-    "promptRomaji": "A: Sumimasen, kono kikai no tsumami o mawasu to, dou narimasu ka. B: Migi e _____, oyu ga demasu yo.",
+    "promptRomaji": "A: Sumimasen, kono kikai no tsumami o mawasu to, dou narimasu ka.\nB: Migi e _____, oyu ga demasu yo.",
     "sub": "Lengkapi penjelasan cara kerja kenop mesin.",
     "options": [
       {
@@ -2820,7 +2820,7 @@ window.MNN_BANK[23] = [
     "type": "mcq",
     "badge": "Bab 23 · Dialog Kondisi Perasaan",
     "prompt": "A：くにへ かえりたいですか。さびしい ときは どう しますか。\nB：（　）。",
-    "promptRomaji": "A: Kuni e kaeritai desu ka. Sabishii toki wa dou shimasu ka. B: _____.",
+    "promptRomaji": "A: Kuni e kaeritai desu ka. Sabishii toki wa dou shimasu ka.\nB: _____.",
     "sub": "Pilih balasan yang tepat secara tata bahasa maupun konteks.",
     "options": [
       {
@@ -2849,7 +2849,7 @@ window.MNN_BANK[23] = [
     "type": "mcq",
     "badge": "Bab 23 · Dialog Bertanya kepada Ahli",
     "prompt": "A：きかいの つかいかたが わからない とき、だれに ききますか。\nB：（　）。",
-    "promptRomaji": "A: Kikai no tsukaikata ga wakaranai toki, dare ni kikimasu ka. B: _____.",
+    "promptRomaji": "A: Kikai no tsukaikata ga wakaranai toki, dare ni kikimasu ka.\nB: _____.",
     "sub": "Pilih jawaban yang memakai kata benda dan partikel tepat.",
     "options": [
       {

@@ -382,7 +382,7 @@ window.MNN_BANK[12] = [
     "id": "b12-14",
     "bab": 12,
     "type": "mcq",
-    "badge": "Bab 12 · Partikel で (の中で)",
+    "badge": "Bab 12 · Partikel で (の中[なか]で)",
     "prompt": "スポーツの なか（　） サッカーが いちばん おもしろいです。",
     "promptRomaji": "Supootsu no naka ( ) sakkaa ga ichiban omoshiroi desu.",
     "sub": "Di antara olahraga, sepak bola paling menarik.",
@@ -405,7 +405,7 @@ window.MNN_BANK[12] = [
       }
     ],
     "answer": 2,
-    "explain": "の中で berarti di antara suatu kelompok."
+    "explain": "の中[なか]で berarti di antara suatu kelompok."
   },
   {
     "id": "b12-15",
@@ -1079,8 +1079,8 @@ window.MNN_BANK[12] = [
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · のほうが",
-    "prompt": "なつと ふゆと どちらが すきですか。…ふゆ（　） すきです。",
-    "promptRomaji": "Natsu to fuyu to dochira ga suki desu ka. ...Fuyu ( ) suki desu.",
+    "prompt": "A：なつと ふゆと どちらが すきですか。\nB：ふゆ（　） すきです。",
+    "promptRomaji": "A: Natsu to fuyu to dochira ga suki desu ka.\nB: Fuyu ( ) suki desu.",
     "sub": "Lebih suka musim dingin.",
     "options": [
       {
@@ -1108,8 +1108,8 @@ window.MNN_BANK[12] = [
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · のほうが (pilihan)",
-    "prompt": "コーヒーと こうちゃと どちらが いいですか。…コーヒー（　） いいです。",
-    "promptRomaji": "Koohii to koucha to dochira ga ii desu ka. ...Koohii ( ) ii desu.",
+    "prompt": "A：コーヒーと こうちゃと どちらが いいですか。\nB：コーヒー（　） いいです。",
+    "promptRomaji": "A: Koohii to koucha to dochira ga ii desu ka.\nB: Koohii ( ) ii desu.",
     "sub": "Kopi lebih baik.",
     "options": [
       {
@@ -1137,8 +1137,8 @@ window.MNN_BANK[12] = [
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · どちらも",
-    "prompt": "やきゅうと サッカーと どちらが すきですか。…（　） すきです。",
-    "promptRomaji": "Yakyuu to sakkaa to dochira ga suki desu ka. ...( ) suki desu.",
+    "prompt": "A：やきゅうと サッカーと どちらが すきですか。\nB：（　） すきです。",
+    "promptRomaji": "A: Yakyuu to sakkaa to dochira ga suki desu ka.\nB: ( ) suki desu.",
     "sub": "Suka kedua-duanya.",
     "options": [
       {
@@ -1166,8 +1166,8 @@ window.MNN_BANK[12] = [
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · いちばん + なに",
-    "prompt": "スポーツの なかで （　）が いちばん おもしろいですか。…サッカーです。",
-    "promptRomaji": "Supootsu no naka de ( ) ga ichiban omoshiroi desu ka. ...Sakkaa desu.",
+    "prompt": "A：スポーツの なかで （　）が いちばん おもしろいですか。\nB：サッカーです。",
+    "promptRomaji": "A: Supootsu no naka de ( ) ga ichiban omoshiroi desu ka.\nB: Sakkaa desu.",
     "sub": "Menanyakan hal atau benda.",
     "options": [
       {
@@ -1195,8 +1195,8 @@ window.MNN_BANK[12] = [
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · いちばん + どこ",
-    "prompt": "にほんの なかで （　）が いちばん きれいですか。…きょうとです。",
-    "promptRomaji": "Nihon no naka de ( ) ga ichiban kirei desu ka. ...Kyouto desu.",
+    "prompt": "A：にほんの なかで （　）が いちばん きれいですか。\nB：きょうとです。",
+    "promptRomaji": "A: Nihon no naka de ( ) ga ichiban kirei desu ka.\nB: Kyouto desu.",
     "sub": "Menanyakan tempat.",
     "options": [
       {
@@ -1224,8 +1224,8 @@ window.MNN_BANK[12] = [
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · いちばん + だれ",
-    "prompt": "クラスの なかで （　）が いちばん はやいですか。…ヤンさんです。",
-    "promptRomaji": "Kurasu no naka de ( ) ga ichiban hayai desu ka. ...Yan-san desu.",
+    "prompt": "A：クラスの なかで （　）が いちばん はやいですか。\nB：ヤンさんです。",
+    "promptRomaji": "A: Kurasu no naka de ( ) ga ichiban hayai desu ka.\nB: Yan-san desu.",
     "sub": "Menanyakan orang.",
     "options": [
       {
@@ -1253,8 +1253,8 @@ window.MNN_BANK[12] = [
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · いちばん + いつ",
-    "prompt": "1ねんで （　）が いちばん さむいですか。…2がつです。",
-    "promptRomaji": "Ichinen de ( ) ga ichiban samui desu ka. ...Nigatsu desu.",
+    "prompt": "A：1ねんで （　）が いちばん さむいですか。\nB：2がつです。",
+    "promptRomaji": "A: Ichinen de ( ) ga ichiban samui desu ka.\nB: Nigatsu desu.",
     "sub": "Menanyakan waktu atau bulan.",
     "options": [
       {
@@ -1333,7 +1333,7 @@ window.MNN_BANK[12] = [
       }
     ],
     "answer": 1,
-    "explain": "Superlatif memakai の中で ... が いちばん."
+    "explain": "Superlatif memakai の中[なか]で ... が いちばん."
   },
   {
     "id": "b12-47",
@@ -1391,7 +1391,7 @@ window.MNN_BANK[12] = [
       }
     ],
     "answer": 0,
-    "explain": "Pola の中で ... が いちばん menyatakan yang paling di antara kelompok."
+    "explain": "Pola の中[なか]で ... が いちばん menyatakan yang paling di antara kelompok."
   },
   {
     "id": "b12-49",
@@ -1594,7 +1594,7 @@ window.MNN_BANK[12] = [
       }
     ],
     "answer": 0,
-    "explain": "きせつ (季節) berarti musim (はる・なつ・あき・ふゆ)."
+    "explain": "きせつ (季節[きせつ]) berarti musim (はる・なつ・あき・ふゆ)."
   },
   {
     "id": "b12-56",
@@ -1652,7 +1652,7 @@ window.MNN_BANK[12] = [
       }
     ],
     "answer": 2,
-    "explain": "もみじ (紅葉) berarti daun maple yang memerah di musim gugur."
+    "explain": "もみじ (紅葉[もみじ]) berarti daun maple yang memerah di musim gugur."
   },
   {
     "id": "b12-58",
@@ -1681,7 +1681,7 @@ window.MNN_BANK[12] = [
       }
     ],
     "answer": 3,
-    "explain": "はじめて (初めて) berarti untuk pertama kalinya."
+    "explain": "はじめて (初[はじ]めて) berarti untuk pertama kalinya."
   },
   {
     "id": "b12-59",
@@ -2268,8 +2268,8 @@ window.MNN_BANK[12] = [
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · Pola どちらが",
-    "prompt": "A：あきと はると （　） すずしいですか。 B：あきの ほうが すずしいです。",
-    "promptRomaji": "A: Aki to haru to ( ) suzushii desu ka. B: Aki no hou ga suzushii desu.",
+    "prompt": "A：あきと はると （　） すずしいですか。\nB：あきの ほうが すずしいです。",
+    "promptRomaji": "A: Aki to haru to ( ) suzushii desu ka.\nB: Aki no hou ga suzushii desu.",
     "sub": "Menanyakan mana yang lebih sejuk di antara dua musim.",
     "options": [
       {
@@ -2297,8 +2297,8 @@ window.MNN_BANK[12] = [
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · Pola のほうが (lampau)",
-    "prompt": "A：すきやきと てんぷらと どちらが おいしかったですか。 B：すきやき（　） おいしかったです。",
-    "promptRomaji": "A: Sukiyaki to tenpura to dochira ga oishikatta desu ka. B: Sukiyaki ( ) oishikatta desu.",
+    "prompt": "A：すきやきと てんぷらと どちらが おいしかったですか。\nB：すきやき（　） おいしかったです。",
+    "promptRomaji": "A: Sukiyaki to tenpura to dochira ga oishikatta desu ka.\nB: Sukiyaki ( ) oishikatta desu.",
     "sub": "Sukiyaki lebih enak.",
     "options": [
       {
@@ -2355,8 +2355,8 @@ window.MNN_BANK[12] = [
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · Superlatif かぞくで",
-    "prompt": "A：かぞくで だれが いちばん にほんごが じょうずですか。 B：（　）。",
-    "promptRomaji": "A: Kazoku de dare ga ichiban nihongo ga jouzu desu ka. B: ( ).",
+    "prompt": "A：かぞくで だれが いちばん にほんごが じょうずですか。\nB：（　）。",
+    "promptRomaji": "A: Kazoku de dare ga ichiban nihongo ga jouzu desu ka.\nB: ( ).",
     "sub": "Ibu yang paling pandai.",
     "options": [
       {
@@ -2384,8 +2384,8 @@ window.MNN_BANK[12] = [
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · Superlatif いつ",
-    "prompt": "1ねんで （　）が いちばん すずしいですか。…あきです。",
-    "promptRomaji": "Ichinen de ( ) ga ichiban suzushii desu ka. ...Aki desu.",
+    "prompt": "A：1ねんで （　）が いちばん すずしいですか。\nB：あきです。",
+    "promptRomaji": "A: Ichinen de ( ) ga ichiban suzushii desu ka.\nB: Aki desu.",
     "sub": "Dalam satu tahun, kapan yang paling sejuk?",
     "options": [
       {
@@ -2413,8 +2413,8 @@ window.MNN_BANK[12] = [
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · Pilihan が いいです",
-    "prompt": "A：ぎゅうにくと とりにくと どちらが いいですか。 B：とりにくの ほうが （　）。",
-    "promptRomaji": "A: Gyuuniku to toriniku to dochira ga ii desu ka. B: Toriniku no hou ga ( ).",
+    "prompt": "A：ぎゅうにくと とりにくと どちらが いいですか。\nB：とりにくの ほうが （　）。",
+    "promptRomaji": "A: Gyuuniku to toriniku to dochira ga ii desu ka.\nB: Toriniku no hou ga ( ).",
     "sub": "Saya lebih memilih daging ayam.",
     "options": [
       {
@@ -2761,8 +2761,8 @@ window.MNN_BANK[12] = [
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · Dialog Pulang",
-    "prompt": "A：ただいま。 B：（　）。",
-    "promptRomaji": "A: Tadaima. B: ( ).",
+    "prompt": "A：ただいま。\nB：（　）。",
+    "promptRomaji": "A: Tadaima.\nB: ( ).",
     "sub": "Pilih balasan saat seseorang pulang ke rumah.",
     "options": [
       {
@@ -2790,8 +2790,8 @@ window.MNN_BANK[12] = [
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · Dialog Festival",
-    "prompt": "A：ぎおんまつりは どうでしたか。 B：（　）。",
-    "promptRomaji": "A: Gionmatsuri wa dou deshita ka. B: ( ).",
+    "prompt": "A：ぎおんまつりは どうでしたか。\nB：（　）。",
+    "promptRomaji": "A: Gionmatsuri wa dou deshita ka.\nB: ( ).",
     "sub": "Menjawab kesan tentang festival kemarin.",
     "options": [
       {
@@ -2819,8 +2819,8 @@ window.MNN_BANK[12] = [
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · Dialog Keramaian",
-    "prompt": "A：わあ、すごい ひとですね。 B：（　）。",
-    "promptRomaji": "A: Waa, sugoi hito desu ne. B: ( ).",
+    "prompt": "A：わあ、すごい ひとですね。\nB：（　）。",
+    "promptRomaji": "A: Waa, sugoi hito desu ne.\nB: ( ).",
     "sub": "Pilih tanggapan yang alami saat melihat banyak sekali orang di festival.",
     "options": [
       {
@@ -2848,8 +2848,8 @@ window.MNN_BANK[12] = [
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · Dialog Pilihan",
-    "prompt": "A：すしと すきやきと どちらが いいですか。 B：（　）。",
-    "promptRomaji": "A: Sushi to sukiyaki to dochira ga ii desu ka. B: ( ).",
+    "prompt": "A：すしと すきやきと どちらが いいですか。\nB：（　）。",
+    "promptRomaji": "A: Sushi to sukiyaki to dochira ga ii desu ka.\nB: ( ).",
     "sub": "Menjawab bahwa dua-duanya bagus/mau.",
     "options": [
       {
@@ -2877,8 +2877,8 @@ window.MNN_BANK[12] = [
     "bab": 12,
     "type": "mcq",
     "badge": "Bab 12 · Penghubung でも",
-    "prompt": "A：ホンコンの りょこうは どうでしたか。 B：ごはんは おいしかったです。（　）、とても あつかったです。",
-    "promptRomaji": "A: Honkon no ryokou wa dou deshita ka. B: Gohan wa oishikatta desu. ( ), totemo atsukatta desu.",
+    "prompt": "A：ホンコンの りょこうは どうでしたか。\nB：ごはんは おいしかったです。（　）、とても あつかったです。",
+    "promptRomaji": "A: Honkon no ryokou wa dou deshita ka.\nB: Gohan wa oishikatta desu. ( ), totemo atsukatta desu.",
     "sub": "Makanannya enak. Tetapi, sangat panas.",
     "options": [
       {

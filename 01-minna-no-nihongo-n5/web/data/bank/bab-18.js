@@ -6,7 +6,7 @@ window.MNN_BANK[18] = [
     "bab": 18,
     "type": "mcq",
     "badge": "Bab 18 · Bentuk Kamus (Kel. I)",
-    "prompt": "Bentuk Kamus (辞書形) dari 「かきます」 (menulis / menggambar) adalah...",
+    "prompt": "Bentuk Kamus (辞書形[じしょけい]) dari 「かきます」 (menulis / menggambar) adalah...",
     "promptRomaji": "kakimasu → _____",
     "sub": "Pilih bentuk kamus Kelompok I (き → く).",
     "options": [
@@ -586,8 +586,8 @@ window.MNN_BANK[18] = [
     "bab": 18,
     "type": "mcq",
     "badge": "Bab 18 · ことができます",
-    "prompt": "A: 「100メートル （　） ことが できますか。」\nB: 「いいえ、25メートルしか およぐ ことが できません。」",
-    "promptRomaji": "A: 100-meetoru _____ koto ga dekimasu ka.",
+    "prompt": "A：「100メートル （　） ことが できますか。」\nB：「いいえ、25メートルしか およぐ ことが できません。」",
+    "promptRomaji": "A: 100-meetoru _____ koto ga dekimasu ka.\nB: Iie, 25-meetoru shika oyogu koto ga dekimasen.",
     "sub": "Pilih bentuk yang tepat untuk melengkapi pertanyaan 'bisakah berenang 100 meter?'.",
     "options": [
       {
@@ -644,8 +644,8 @@ window.MNN_BANK[18] = [
     "bab": 18,
     "type": "mcq",
     "badge": "Bab 18 · Dialog Kemampuan",
-    "prompt": "A: 「この みせで ドルを えんに かえる ことが できますか。」\nB: 「いいえ、（　）。」",
-    "promptRomaji": "A: Kono mise de doru o en ni kaeru koto ga dekimasu ka. / B: Iie, _____.",
+    "prompt": "A：「この みせで ドルを えんに かえる ことが できますか。」\nB：「いいえ、（　）。」",
+    "promptRomaji": "A: Kono mise de doru o en ni kaeru koto ga dekimasu ka.\nB: Iie, _____.",
     "sub": "Pilih jawaban singkat negatif yang paling tepat untuk pertanyaan ～ことが できますか.",
     "options": [
       {
@@ -695,7 +695,7 @@ window.MNN_BANK[18] = [
       }
     ],
     "answer": 2,
-    "explain": "げんきん (現金) berarti uang tunai."
+    "explain": "げんきん (現金[げんきん]) berarti uang tunai."
   },
   {
     "id": "b18-25",
@@ -789,8 +789,8 @@ window.MNN_BANK[18] = [
     "bab": 18,
     "type": "mcq",
     "badge": "Bab 18 · Hobi (しゅみ)",
-    "prompt": "A: 「やまださんの しゅみは （　）ですか。」\nB: 「えいがを みる ことです。」",
-    "promptRomaji": "A: Yamada-san no shumi wa _____ desu ka. / B: Eiga o miru koto desu.",
+    "prompt": "A：「やまださんの しゅみは （　）ですか。」\nB：「えいがを みる ことです。」",
+    "promptRomaji": "A: Yamada-san no shumi wa _____ desu ka.\nB: Eiga o miru koto desu.",
     "sub": "Pilih kata tanya yang tepat untuk menanyakan hobi.",
     "options": [
       {
@@ -1304,7 +1304,7 @@ window.MNN_BANK[18] = [
       }
     ],
     "answer": 1,
-    "explain": "けんがくします (見学します) artinya meninjau atau berkunjung untuk belajar/observasi (misalnya ke pabrik atau museum)."
+    "explain": "けんがくします (見学[けんがく]します) artinya meninjau atau berkunjung untuk belajar/observasi (misalnya ke pabrik atau museum)."
   },
   {
     "id": "b18-46",
@@ -1333,15 +1333,15 @@ window.MNN_BANK[18] = [
       }
     ],
     "answer": 3,
-    "explain": "どうぶつ (動物) berarti hewan/binatang, dan うま (馬) berarti kuda."
+    "explain": "どうぶつ (動物[どうぶつ]) berarti hewan/binatang, dan うま (馬[うま]) berarti kuda."
   },
   {
     "id": "b18-47",
     "bab": 18,
     "type": "mcq",
     "badge": "Bab 18 · Ungkapan Percakapan",
-    "prompt": "A: 「わたしの しゅみは にほんの うたを うたう ことです。」\nB: 「（　）、それは おもしろいですね。」",
-    "promptRomaji": "A: Watashi no shumi wa Nihon no uta o utau koto desu. / B: _____, sore wa omoshiroi desu ne.",
+    "prompt": "A：「わたしの しゅみは にほんの うたを うたう ことです。」\nB：「（　）、それは おもしろいですね。」",
+    "promptRomaji": "A: Watashi no shumi wa Nihon no uta o utau koto desu.\nB: _____, sore wa omoshiroi desu ne.",
     "sub": "Pilih ekspresi kagum/tertarik yang ada di Bab 18.",
     "options": [
       {
@@ -1391,7 +1391,7 @@ window.MNN_BANK[18] = [
       }
     ],
     "answer": 0,
-    "explain": "とくに (特に) berarti 'terutama / khususnya' (misalnya: とくに ビートルズが すきです)."
+    "explain": "とくに (特[とく]に) berarti 'terutama / khususnya' (misalnya: とくに ビートルズが すきです)."
   },
   {
     "id": "b18-49",
@@ -1427,8 +1427,8 @@ window.MNN_BANK[18] = [
     "bab": 18,
     "type": "mcq",
     "badge": "Bab 18 · Dialog & Pola Lengkap",
-    "prompt": "A: 「おんがくの なかで なにが すきですか。」\nB: 「ビートルズが すきです。（　） 『ふるさと』を うたう ことが できます。」 (Selain itu, saya bisa menyanyikan lagu \"Furusato\".)",
-    "promptRomaji": "B: Biitoruzu ga suki desu. _____ \"Furusato\" o utau koto ga dekimasu.",
+    "prompt": "A：「おんがくの なかで なにが すきですか。」\nB：「ビートルズが すきです。（　） 『ふるさと』を うたう ことが できます。」 (Selain itu, saya bisa menyanyikan lagu \"Furusato\".)",
+    "promptRomaji": "A: Ongaku no naka de nani ga suki desu ka.\nB: Biitoruzu ga suki desu. _____ \"Furusato\" o utau koto ga dekimasu.",
     "sub": "Pilih kata penghubung yang tepat untuk menambahkan informasi.",
     "options": [
       {
@@ -1775,7 +1775,7 @@ window.MNN_BANK[18] = [
     "bab": 18,
     "type": "mcq",
     "badge": "Bab 18 · Bentuk Kamus → Bentuk ます",
-    "prompt": "Bentuk sopan (ます形) dari kata kerja 「だす」 (mengeluarkan) dan 「けす」 (mematikan) adalah...",
+    "prompt": "Bentuk sopan (ます形[けい]) dari kata kerja 「だす」 (mengeluarkan) dan 「けす」 (mematikan) adalah...",
     "promptRomaji": "dasu & kesu → _____",
     "sub": "Kembalikan bunyi akhiran す ke baris -i.",
     "options": [
@@ -1862,7 +1862,7 @@ window.MNN_BANK[18] = [
     "bab": 18,
     "type": "mcq",
     "badge": "Bab 18 · Kemampuan Kata Benda",
-    "prompt": "チェンさんは 日本の りょうり（　） できますか。 (Apakah Sdr. Chen bisa masakan Jepang?)",
+    "prompt": "チェンさんは 日本[にほん]の りょうり（　） できますか。 (Apakah Sdr. Chen bisa masakan Jepang?)",
     "promptRomaji": "Chen-san wa Nihon no ryouri _____ dekimasu ka.",
     "sub": "Pilih partikel untuk objek kemampuan berupa Kata Benda.",
     "options": [
@@ -2123,8 +2123,8 @@ window.MNN_BANK[18] = [
     "bab": 18,
     "type": "mcq",
     "badge": "Bab 18 · Dialog Kemampuan",
-    "prompt": "A: 「どんな ことが できますか。」\nB: 「（　）。」 (Saya bisa membuat masakan Indonesia.)",
-    "promptRomaji": "A: Donna koto ga dekimasu ka. / B: _____.",
+    "prompt": "A：「どんな ことが できますか。」\nB：「（　）。」 (Saya bisa membuat masakan Indonesia.)",
+    "promptRomaji": "A: Donna koto ga dekimasu ka.\nB: _____.",
     "sub": "Pilih jawaban yang memakai pola kemampuan Bab 18 secara benar.",
     "options": [
       {
@@ -2326,8 +2326,8 @@ window.MNN_BANK[18] = [
     "bab": 18,
     "type": "mcq",
     "badge": "Bab 18 · Dialog Hobi",
-    "prompt": "A: 「しゅみは なんですか。」\nB: 「（　）。とくに 『ふるさと』が すきです。」",
-    "promptRomaji": "A: Shumi wa nan desu ka. / B: _____. Tokuni \"Furusato\" ga suki desu.",
+    "prompt": "A：「しゅみは なんですか。」\nB：「（　）。とくに 『ふるさと』が すきです。」",
+    "promptRomaji": "A: Shumi wa nan desu ka.\nB: _____. Tokuni \"Furusato\" ga suki desu.",
     "sub": "Pilih jawaban hobi yang tepat secara tata bahasa.",
     "options": [
       {
@@ -2754,14 +2754,14 @@ window.MNN_BANK[18] = [
       }
     ],
     "answer": 2,
-    "explain": "おいのり (お祈り) artinya doa, dan おいのりを します artinya berdoa."
+    "explain": "おいのり (お祈[いの]り) artinya doa, dan おいのりを します artinya berdoa."
   },
   {
     "id": "b18-96",
     "bab": 18,
     "type": "mcq",
     "badge": "Bab 18 · Kosakata",
-    "prompt": "「にっき」 dan 「かえます (換えます)」 masing-masing berarti...",
+    "prompt": "「にっき」 dan 「かえます (換[か]えます)」 masing-masing berarti...",
     "promptRomaji": "\"nikki\" & \"kaemasu\"",
     "sub": "Pilih pasangan arti yang tepat.",
     "options": [
@@ -2783,7 +2783,7 @@ window.MNN_BANK[18] = [
       }
     ],
     "answer": 0,
-    "explain": "にっき (日記) berarti buku harian, dan かえます (換えます) berarti menukar atau mengganti (seperti menukar uang)."
+    "explain": "にっき (日記[にっき]) berarti buku harian, dan かえます (換[か]えます) berarti menukar atau mengganti (seperti menukar uang)."
   },
   {
     "id": "b18-97",
@@ -2812,7 +2812,7 @@ window.MNN_BANK[18] = [
       }
     ],
     "answer": 1,
-    "explain": "ぼくじょう (牧場) adalah peternakan, dan こくさい～ (国際～) berarti internasional sehingga こくさいくうこう adalah bandara internasional."
+    "explain": "ぼくじょう (牧場[ぼくじょう]) adalah peternakan, dan こくさい～ (国際[こくさい]～) berarti internasional sehingga こくさいくうこう adalah bandara internasional."
   },
   {
     "id": "b18-98",
@@ -2848,8 +2848,8 @@ window.MNN_BANK[18] = [
     "bab": 18,
     "type": "mcq",
     "badge": "Bab 18 · Dialog Percakapan",
-    "prompt": "A: 「ほっかいどうの ぼくじょうで うまに のる ことが できますよ。」\nB: 「（　）。ぜひ いきたいです。」",
-    "promptRomaji": "A: Hokkaidou no bokujou de uma ni noru koto ga dekimasu yo. / B: _____. Zehi ikitai desu.",
+    "prompt": "A：「ほっかいどうの ぼくじょうで うまに のる ことが できますよ。」\nB：「（　）。ぜひ いきたいです。」",
+    "promptRomaji": "A: Hokkaidou no bokujou de uma ni noru koto ga dekimasu yo.\nB: _____. Zehi ikitai desu.",
     "sub": "Pilih ungkapan terkejut/bertanya 'Benarkah?' dari Bab 18.",
     "options": [
       {

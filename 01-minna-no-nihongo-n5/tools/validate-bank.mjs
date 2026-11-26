@@ -15,7 +15,22 @@ const onlyBabs = babArg
   : null;
 
 const JP_RE = /[\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]/;
-const norm = (s) => String(s || "").replace(/\s+/g, " ").trim();
+const FURIGANA_PAIR_RE = /([0-9０-９,]*[\u4e00-\u9faf々ヶ]+)\[([\u3040-\u309f\u30a0-\u30ffー]+)\]/g;
+const norm = (s) => String(s || "").replace(FURIGANA_PAIR_RE, "$1").replace(/\s+/g, " ").trim();
+
+function findFuriganaIssues(str, { allowReadingTarget = false } = {}) {
+  const raw = String(str || "");
+  let stripped = raw.replace(FURIGANA_PAIR_RE, "");
+  if (/[\u4e00-\u9faf々ヶ]\s*\[/.test(stripped)) {
+    return "format furigana [...] pada kanji tidak valid";
+  }
+  if (allowReadingTarget && /よみかた|読み方/.test(raw)) {
+    stripped = stripped.replace(/「[^」]+」/g, "");
+  }
+  const bare = stripped.match(/[\u4e00-\u9faf]+/g);
+  if (bare) return `kanji tanpa furigana (${bare.join(", ")})`;
+  return null;
+}
 
 function expectedCountForBab(bab) {
   if (bab >= 1 && bab <= 6) return 50;
@@ -86,6 +101,30 @@ for (let bab = 1; bab <= 25; bab++) {
       }
     }
 
+    for (const [field, allowReading] of [["prompt", true], ["explain", false], ["badge", false]]) {
+      if (typeof q[field] === "string") {
+        const err = findFuriganaIssues(q[field], { allowReadingTarget: allowReading });
+        if (err) problems.push(`${where} (${field}): ${err}`);
+      }
+    }
+
+    if (typeof q.prompt === "string") {
+      const lines = q.prompt.split(/\r?\n/);
+      for (const l of lines) {
+        if ((l.match(/[ABＡＢ]\s*[:：]/g) || []).length > 1) {
+          problems.push(`${where} (prompt): pembicara A/B tidak dipisah ke baris baru`);
+        }
+      }
+      if (/(?<!…)…(?!…)/.test(q.prompt)) {
+        problems.push(`${where} (prompt): pemisah percakapan '…' belum dipisah menjadi A/B per baris`);
+      }
+      const hasA = lines.some((l) => /^\s*A\s*[:：]/.test(l));
+      const hasB = lines.some((l) => /^\s*B\s*[:：]/.test(l));
+      if (hasA && hasB && typeof q.promptRomaji === "string" && !q.promptRomaji.includes("\n")) {
+        problems.push(`${where} (promptRomaji): percakapan multi-baris harus punya romaji terpisah per baris (\\n)`);
+      }
+    }
+
     if (!Array.isArray(q.options) || q.options.length !== 4) {
       problems.push(`${where}: options harus 4`);
     } else {
@@ -97,6 +136,9 @@ for (let bab = 1; bab <= 25; bab++) {
         }
         if (typeof opt.jp !== "string" || !opt.jp.trim()) {
           problems.push(`${where}: opsi ${oi + 1} jp kosong`);
+        } else {
+          const optErr = findFuriganaIssues(opt.jp);
+          if (optErr) problems.push(`${where} (opsi ${oi + 1}): ${optErr}`);
         }
         if (typeof opt.romaji !== "string") {
           problems.push(`${where}: opsi ${oi + 1} romaji harus string`);

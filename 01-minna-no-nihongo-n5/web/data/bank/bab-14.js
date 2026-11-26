@@ -1224,8 +1224,8 @@ window.MNN_BANK[14] = [
     "bab": 14,
     "type": "mcq",
     "badge": "Bab 14 · Dialog Tawaran Bantuan",
-    "prompt": "A：「あめが ふって いますね。かさを かしましょうか。」 B：「（　）。」",
-    "promptRomaji": "A: \"Ame ga futte imasu ne. Kasa o kashimashou ka.\" B: \"_____.\"",
+    "prompt": "A：「あめが ふって いますね。かさを かしましょうか。」\nB：「（　）。」",
+    "promptRomaji": "A: \"Ame ga futte imasu ne. Kasa o kashimashou ka.\"\nB: \"_____.\"",
     "sub": "Pilih respons menerima bantuan dengan sopan.",
     "options": [
       {
@@ -1253,8 +1253,8 @@ window.MNN_BANK[14] = [
     "bab": 14,
     "type": "mcq",
     "badge": "Bab 14 · Dialog Menolak Halus",
-    "prompt": "A：「この ちずを コピーしましょうか。」 B：「ありがとう ございます。でも、（　）。」",
-    "promptRomaji": "A: \"Kono chizu o kopii shimashou ka.\" B: \"Arigatou gozaimasu. Demo, _____.\"",
+    "prompt": "A：「この ちずを コピーしましょうか。」\nB：「ありがとう ございます。でも、（　）。」",
+    "promptRomaji": "A: \"Kono chizu o kopii shimashou ka.\"\nB: \"Arigatou gozaimasu. Demo, _____.\"",
     "sub": "Pilih respons menolak tawaran bantuan secara halus.",
     "options": [
       {
@@ -1369,8 +1369,8 @@ window.MNN_BANK[14] = [
     "bab": 14,
     "type": "mcq",
     "badge": "Bab 14 · Jebakan いま + V-ています",
-    "prompt": "A：「やまださんは いますか。」 B：「いいえ、いま ひるごはんを （　）。」",
-    "promptRomaji": "A: \"Yamada-san wa imasu ka.\" B: \"Iie, ima hirugohan o _____.\"",
+    "prompt": "A：「やまださんは いますか。」\nB：「いいえ、いま ひるごはんを （　）。」",
+    "promptRomaji": "A: \"Yamada-san wa imasu ka.\"\nB: \"Iie, ima hirugohan o _____.\"",
     "sub": "Lengkapi jawaban untuk aksi yang sedang berlangsung sekarang.",
     "options": [
       {
@@ -2297,8 +2297,8 @@ window.MNN_BANK[14] = [
     "bab": 14,
     "type": "mcq",
     "badge": "Bab 14 · Tanya Jawab V-ています",
-    "prompt": "A：「カリナさんは いま なにを （　）。」 B：「えを かいて います。」",
-    "promptRomaji": "A: \"Karina-san wa ima nani o _____.\" B: \"E o kaite imasu.\"",
+    "prompt": "A：「カリナさんは いま なにを （　）。」\nB：「えを かいて います。」",
+    "promptRomaji": "A: \"Karina-san wa ima nani o _____.\"\nB: \"E o kaite imasu.\"",
     "sub": "Lengkapi pertanyaan 'sedang melakukan apa?'.",
     "options": [
       {
@@ -2819,8 +2819,8 @@ window.MNN_BANK[14] = [
     "bab": 14,
     "type": "mcq",
     "badge": "Bab 14 · Dialog Menerima Permintaan",
-    "prompt": "A：「すみませんが、ちょっと てつだって ください。」 B：「はい、（　）。」",
-    "promptRomaji": "A: \"Sumimasen ga, chotto tetsudatte kudasai.\" B: \"Hai, _____.\"",
+    "prompt": "A：「すみませんが、ちょっと てつだって ください。」\nB：「はい、（　）。」",
+    "promptRomaji": "A: \"Sumimasen ga, chotto tetsudatte kudasai.\"\nB: \"Hai, _____.\"",
     "sub": "Pilih respons yang menyetujui permintaan tolong dengan ramah.",
     "options": [
       {
@@ -2877,8 +2877,8 @@ window.MNN_BANK[14] = [
     "bab": 14,
     "type": "mcq",
     "badge": "Bab 14 · Dialog Penunjuk Arah",
-    "prompt": "A：「すみません、うめだへ いきたいです。」 B：「あの しんごうを （　）。」",
-    "promptRomaji": "A: \"Sumimasen, Umeda e ikitai desu.\" B: \"Ano shingou o _____.\"",
+    "prompt": "A：「すみません、うめだへ いきたいです。」\nB：「あの しんごうを （　）。」",
+    "promptRomaji": "A: \"Sumimasen, Umeda e ikitai desu.\"\nB: \"Ano shingou o _____.\"",
     "sub": "Pilih petunjuk arah yang paling tepat.",
     "options": [
       {

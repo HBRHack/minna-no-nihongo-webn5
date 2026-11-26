@@ -6,7 +6,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Partikel へ",
-    "prompt": "わたしは あした 日本（　） 行きます。",
+    "prompt": "わたしは あした 日本[にほん]（　） 行[い]きます。",
     "promptRomaji": "Watashi wa ashita Nihon ( ) ikimasu.",
     "sub": "Pilih partikel arah tujuan. (Saya besok pergi ke Jepang.)",
     "options": [
@@ -35,7 +35,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Bacaan へ",
-    "prompt": "Partikel へ dalam 「がっこうへ 行きます」 dibaca...",
+    "prompt": "Partikel へ dalam 「がっこうへ 行[い]きます」 dibaca...",
     "promptRomaji": "Partikel 'he' dalam kalimat tersebut dibaca...",
     "sub": "Pilih bacaan yang benar.",
     "options": [
@@ -64,7 +64,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Partikel へ",
-    "prompt": "あの バスは えき（　） 行きますか。",
+    "prompt": "あの バスは えき（　） 行[い]きますか。",
     "promptRomaji": "Ano basu wa eki ( ) ikimasu ka.",
     "sub": "Pilih partikel arah. (Apakah bus itu pergi ke stasiun?)",
     "options": [
@@ -86,14 +86,14 @@ window.MNN_BANK[5] = [
       }
     ],
     "answer": 3,
-    "explain": "えきへ 行きます menandai stasiun sebagai tujuan perpindahan."
+    "explain": "えきへ 行[い]きます menandai stasiun sebagai tujuan perpindahan."
   },
   {
     "id": "b5-04",
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · どこも",
-    "prompt": "きょうは どこ（　）も 行きません。",
+    "prompt": "きょうは どこ（　）も 行[い]きません。",
     "promptRomaji": "Kyou wa doko ( ) mo ikimasen.",
     "sub": "Lengkapi penyangkalan total. (Hari ini tidak pergi ke mana pun.)",
     "options": [
@@ -115,14 +115,14 @@ window.MNN_BANK[5] = [
       }
     ],
     "answer": 1,
-    "explain": "どこへも 行きません berarti tidak pergi ke mana pun; へ boleh dipakai sebelum も."
+    "explain": "どこへも 行[い]きません berarti tidak pergi ke mana pun; へ boleh dipakai sebelum も."
   },
   {
     "id": "b5-05",
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · で (transportasi)",
-    "prompt": "まいにち でんしゃ（　） がっこうへ 行きます。",
+    "prompt": "まいにち でんしゃ（　） がっこうへ 行[い]きます。",
     "promptRomaji": "Mainichi densha ( ) gakkou e ikimasu.",
     "sub": "Pilih partikel alat transportasi. (Setiap hari pergi ke sekolah naik kereta listrik.)",
     "options": [
@@ -144,14 +144,14 @@ window.MNN_BANK[5] = [
       }
     ],
     "answer": 0,
-    "explain": "で menandai alat transportasi: でんしゃで 行きます."
+    "explain": "で menandai alat transportasi: でんしゃで 行[い]きます."
   },
   {
     "id": "b5-06",
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · で (transportasi)",
-    "prompt": "わたしは ひこうき（　） 日本へ 来ました。",
+    "prompt": "わたしは ひこうき（　） 日本[にほん]へ 来[き]ました。",
     "promptRomaji": "Watashi wa hikouki ( ) Nihon e kimashita.",
     "sub": "Pilih partikel kendaraan. (Saya datang ke Jepang naik pesawat.)",
     "options": [
@@ -180,7 +180,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · で (transportasi)",
-    "prompt": "タクシー（　） うちへ 帰ります。",
+    "prompt": "タクシー（　） うちへ 帰[かえ]ります。",
     "promptRomaji": "Takushii ( ) uchi e kaerimasu.",
     "sub": "Pilih partikel kendaraan. (Pulang ke rumah naik taksi.)",
     "options": [
@@ -202,14 +202,14 @@ window.MNN_BANK[5] = [
       }
     ],
     "answer": 2,
-    "explain": "タクシーで 帰ります: で menandai alat transportasi."
+    "explain": "タクシーで 帰[かえ]ります: で menandai alat transportasi."
   },
   {
     "id": "b5-08",
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · で (transportasi)",
-    "prompt": "えきまで ちかてつ（　） 行きます。",
+    "prompt": "えきまで ちかてつ（　） 行[い]きます。",
     "promptRomaji": "Eki made chikatetsu ( ) ikimasu.",
     "sub": "Pilih partikel kendaraan. (Ke stasiun naik kereta bawah tanah.)",
     "options": [
@@ -231,14 +231,14 @@ window.MNN_BANK[5] = [
       }
     ],
     "answer": 0,
-    "explain": "ちかてつで 行きます memakai で untuk alat transportasi."
+    "explain": "ちかてつで 行[い]きます memakai で untuk alat transportasi."
   },
   {
     "id": "b5-09",
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Partikel と",
-    "prompt": "かぞく（　） 日本へ 来ました。",
+    "prompt": "かぞく（　） 日本[にほん]へ 来[き]ました。",
     "promptRomaji": "Kazoku ( ) Nihon e kimashita.",
     "sub": "Pilih partikel 'bersama'. (Datang ke Jepang bersama keluarga.)",
     "options": [
@@ -260,14 +260,14 @@ window.MNN_BANK[5] = [
       }
     ],
     "answer": 3,
-    "explain": "と menandai orang yang menemani: かぞくと 来ました."
+    "explain": "と menandai orang yang menemani: かぞくと 来[き]ました."
   },
   {
     "id": "b5-10",
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Partikel と",
-    "prompt": "あした ともだち（　） こうえんへ 行きます。",
+    "prompt": "あした ともだち（　） こうえんへ 行[い]きます。",
     "promptRomaji": "Ashita tomodachi ( ) kouen e ikimasu.",
     "sub": "Pilih partikel 'bersama'. (Besok pergi ke taman bersama teman.)",
     "options": [
@@ -289,14 +289,14 @@ window.MNN_BANK[5] = [
       }
     ],
     "answer": 0,
-    "explain": "ともだちと 行きます berarti pergi bersama teman."
+    "explain": "ともだちと 行[い]きます berarti pergi bersama teman."
   },
   {
     "id": "b5-11",
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · ひとりで",
-    "prompt": "きのう ひとり（　） デパートへ 行きました。",
+    "prompt": "きのう ひとり（　） デパートへ 行[い]きました。",
     "promptRomaji": "Kinou hitori ( ) depaato e ikimashita.",
     "sub": "Lengkapi 'sendirian'. (Kemarin pergi ke department store sendirian.)",
     "options": [
@@ -325,7 +325,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · あるいて",
-    "prompt": "わたしは まいにち （　） えきへ 行きます。（dengan berjalan kaki）",
+    "prompt": "わたしは まいにち （　） えきへ 行[い]きます。（dengan berjalan kaki）",
     "promptRomaji": "Watashi wa mainichi _____ eki e ikimasu. (berjalan kaki)",
     "sub": "Pilih bentuk 'berjalan kaki'. (Saya setiap hari pergi ke stasiun dengan berjalan kaki.)",
     "options": [
@@ -354,7 +354,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Partikel に (tanggal)",
-    "prompt": "わたしは 3月 24日（　） 日本へ 来ました。",
+    "prompt": "わたしは 3月[さんがつ] 24日[にじゅうよっか]（　） 日本[にほん]へ 来[き]ました。",
     "promptRomaji": "Watashi wa sangatsu nijuuyokka ( ) Nihon e kimashita.",
     "sub": "Pilih partikel waktu. (Saya datang ke Jepang pada tanggal 24 Maret.)",
     "options": [
@@ -383,7 +383,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · どこも",
-    "prompt": "にちようびは どこ（　） 行きませんでした。",
+    "prompt": "にちようびは どこ（　） 行[い]きませんでした。",
     "promptRomaji": "Nichiyoubi wa doko ( ) ikimasen deshita.",
     "sub": "Pilih partikel penyangkalan total. (Hari Minggu tidak pergi ke mana pun.)",
     "options": [
@@ -411,240 +411,240 @@ window.MNN_BANK[5] = [
     "id": "b5-15",
     "bab": 5,
     "type": "mcq",
-    "badge": "Bab 5 · Konjugasi 行きます",
-    "prompt": "「行きます」の ていねいな 否定形は どれですか。",
+    "badge": "Bab 5 · Konjugasi 行[い]きます",
+    "prompt": "「行[い]きます」の ていねいな 否定形[ひていけい]は どれですか。",
     "promptRomaji": "'Ikimasu' no teinei na hitei-kei wa dore desu ka.",
     "sub": "Bentuk negatif sopan dari 'pergi'.",
     "options": [
       {
-        "jp": "行きます",
+        "jp": "行[い]きます",
         "romaji": "ikimasu"
       },
       {
-        "jp": "行きました",
+        "jp": "行[い]きました",
         "romaji": "ikimashita"
       },
       {
-        "jp": "行きません",
+        "jp": "行[い]きません",
         "romaji": "ikimasen"
       },
       {
-        "jp": "行きませんでした",
+        "jp": "行[い]きませんでした",
         "romaji": "ikimasen deshita"
       }
     ],
     "answer": 2,
-    "explain": "Bentuk negatif sopan dari 行きます adalah 行きません."
+    "explain": "Bentuk negatif sopan dari 行[い]きます adalah 行[い]きません."
   },
   {
     "id": "b5-16",
     "bab": 5,
     "type": "mcq",
-    "badge": "Bab 5 · Konjugasi 行きます",
-    "prompt": "「行きます」の 過去形は どれですか。",
+    "badge": "Bab 5 · Konjugasi 行[い]きます",
+    "prompt": "「行[い]きます」の 過去形[かこけい]は どれですか。",
     "promptRomaji": "'Ikimasu' no kako-kei wa dore desu ka.",
     "sub": "Bentuk lampau sopan dari 'pergi'.",
     "options": [
       {
-        "jp": "行きません",
+        "jp": "行[い]きません",
         "romaji": "ikimasen"
       },
       {
-        "jp": "行きませんでした",
+        "jp": "行[い]きませんでした",
         "romaji": "ikimasen deshita"
       },
       {
-        "jp": "行きました",
+        "jp": "行[い]きました",
         "romaji": "ikimashita"
       },
       {
-        "jp": "行きます",
+        "jp": "行[い]きます",
         "romaji": "ikimasu"
       }
     ],
     "answer": 2,
-    "explain": "Bentuk lampau sopan dari 行きます adalah 行きました."
+    "explain": "Bentuk lampau sopan dari 行[い]きます adalah 行[い]きました."
   },
   {
     "id": "b5-17",
     "bab": 5,
     "type": "mcq",
-    "badge": "Bab 5 · Konjugasi 行きます",
-    "prompt": "「行きます」の 過去否定形は どれですか。",
+    "badge": "Bab 5 · Konjugasi 行[い]きます",
+    "prompt": "「行[い]きます」の 過去否定形[かこひていけい]は どれですか。",
     "promptRomaji": "'Ikimasu' no kako hitei-kei wa dore desu ka.",
     "sub": "Bentuk lampau negatif sopan dari 'pergi'.",
     "options": [
       {
-        "jp": "行きました",
+        "jp": "行[い]きました",
         "romaji": "ikimashita"
       },
       {
-        "jp": "行きませんでした",
+        "jp": "行[い]きませんでした",
         "romaji": "ikimasen deshita"
       },
       {
-        "jp": "行きます",
+        "jp": "行[い]きます",
         "romaji": "ikimasu"
       },
       {
-        "jp": "行きません",
+        "jp": "行[い]きません",
         "romaji": "ikimasen"
       }
     ],
     "answer": 1,
-    "explain": "Bentuk lampau negatif sopan dari 行きます adalah 行きませんでした."
+    "explain": "Bentuk lampau negatif sopan dari 行[い]きます adalah 行[い]きませんでした."
   },
   {
     "id": "b5-18",
     "bab": 5,
     "type": "mcq",
-    "badge": "Bab 5 · Konjugasi 来ます",
-    "prompt": "「来ます」の 過去形は どれですか。",
+    "badge": "Bab 5 · Konjugasi 来[き]ます",
+    "prompt": "「来[き]ます」の 過去形[かこけい]は どれですか。",
     "promptRomaji": "'Kimasu' no kako-kei wa dore desu ka.",
     "sub": "Bentuk lampau sopan dari 'datang'.",
     "options": [
       {
-        "jp": "来ませんでした",
+        "jp": "来[き]ませんでした",
         "romaji": "kimasen deshita"
       },
       {
-        "jp": "来ません",
+        "jp": "来[き]ません",
         "romaji": "kimasen"
       },
       {
-        "jp": "来ました",
+        "jp": "来[き]ました",
         "romaji": "kimashita"
       },
       {
-        "jp": "来ます",
+        "jp": "来[き]ます",
         "romaji": "kimasu"
       }
     ],
     "answer": 2,
-    "explain": "Bentuk lampau sopan dari 来ます adalah 来ました."
+    "explain": "Bentuk lampau sopan dari 来[き]ます adalah 来[き]ました."
   },
   {
     "id": "b5-19",
     "bab": 5,
     "type": "mcq",
-    "badge": "Bab 5 · Konjugasi 来ます",
-    "prompt": "「来ます」の 過去否定形は どれですか。",
+    "badge": "Bab 5 · Konjugasi 来[き]ます",
+    "prompt": "「来[き]ます」の 過去否定形[かこひていけい]は どれですか。",
     "promptRomaji": "'Kimasu' no kako hitei-kei wa dore desu ka.",
     "sub": "Bentuk lampau negatif sopan dari 'datang'.",
     "options": [
       {
-        "jp": "来ませんでした",
+        "jp": "来[き]ませんでした",
         "romaji": "kimasen deshita"
       },
       {
-        "jp": "来ません",
+        "jp": "来[き]ません",
         "romaji": "kimasen"
       },
       {
-        "jp": "来ました",
+        "jp": "来[き]ました",
         "romaji": "kimashita"
       },
       {
-        "jp": "来ます",
+        "jp": "来[き]ます",
         "romaji": "kimasu"
       }
     ],
     "answer": 0,
-    "explain": "Bentuk lampau negatif sopan dari 来ます adalah 来ませんでした."
+    "explain": "Bentuk lampau negatif sopan dari 来[き]ます adalah 来[き]ませんでした."
   },
   {
     "id": "b5-20",
     "bab": 5,
     "type": "mcq",
-    "badge": "Bab 5 · Konjugasi 帰ります",
-    "prompt": "「帰ります」の 過去形は どれですか。",
+    "badge": "Bab 5 · Konjugasi 帰[かえ]ります",
+    "prompt": "「帰[かえ]ります」の 過去形[かこけい]は どれですか。",
     "promptRomaji": "'Kaerimasu' no kako-kei wa dore desu ka.",
     "sub": "Bentuk lampau sopan dari 'pulang'.",
     "options": [
       {
-        "jp": "帰りませんでした",
+        "jp": "帰[かえ]りませんでした",
         "romaji": "kaerimasen deshita"
       },
       {
-        "jp": "帰ります",
+        "jp": "帰[かえ]ります",
         "romaji": "kaerimasu"
       },
       {
-        "jp": "帰りました",
+        "jp": "帰[かえ]りました",
         "romaji": "kaerimashita"
       },
       {
-        "jp": "帰りません",
+        "jp": "帰[かえ]りません",
         "romaji": "kaerimasen"
       }
     ],
     "answer": 2,
-    "explain": "Bentuk lampau sopan dari 帰ります adalah 帰りました."
+    "explain": "Bentuk lampau sopan dari 帰[かえ]ります adalah 帰[かえ]りました."
   },
   {
     "id": "b5-21",
     "bab": 5,
     "type": "mcq",
-    "badge": "Bab 5 · Konjugasi 帰ります",
-    "prompt": "「帰ります」の 否定形は どれですか。",
+    "badge": "Bab 5 · Konjugasi 帰[かえ]ります",
+    "prompt": "「帰[かえ]ります」の 否定形[ひていけい]は どれですか。",
     "promptRomaji": "'Kaerimasu' no hitei-kei wa dore desu ka.",
     "sub": "Bentuk negatif sopan dari 'pulang'.",
     "options": [
       {
-        "jp": "帰ります",
+        "jp": "帰[かえ]ります",
         "romaji": "kaerimasu"
       },
       {
-        "jp": "帰りませんでした",
+        "jp": "帰[かえ]りませんでした",
         "romaji": "kaerimasen deshita"
       },
       {
-        "jp": "帰りません",
+        "jp": "帰[かえ]りません",
         "romaji": "kaerimasen"
       },
       {
-        "jp": "帰りました",
+        "jp": "帰[かえ]りました",
         "romaji": "kaerimashita"
       }
     ],
     "answer": 2,
-    "explain": "Bentuk negatif sopan dari 帰ります adalah 帰りません."
+    "explain": "Bentuk negatif sopan dari 帰[かえ]ります adalah 帰[かえ]りません."
   },
   {
     "id": "b5-22",
     "bab": 5,
     "type": "mcq",
-    "badge": "Bab 5 · Konjugasi 来ます",
-    "prompt": "「来ます」の 否定形は どれですか。",
+    "badge": "Bab 5 · Konjugasi 来[き]ます",
+    "prompt": "「来[き]ます」の 否定形[ひていけい]は どれですか。",
     "promptRomaji": "'Kimasu' no hitei-kei wa dore desu ka.",
     "sub": "Bentuk negatif sopan dari 'datang'.",
     "options": [
       {
-        "jp": "来ません",
+        "jp": "来[き]ません",
         "romaji": "kimasen"
       },
       {
-        "jp": "来ました",
+        "jp": "来[き]ました",
         "romaji": "kimashita"
       },
       {
-        "jp": "来ます",
+        "jp": "来[き]ます",
         "romaji": "kimasu"
       },
       {
-        "jp": "来ませんでした",
+        "jp": "来[き]ませんでした",
         "romaji": "kimasen deshita"
       }
     ],
     "answer": 0,
-    "explain": "Bentuk negatif sopan dari 来ます adalah 来ません."
+    "explain": "Bentuk negatif sopan dari 来[き]ます adalah 来[き]ません."
   },
   {
     "id": "b5-23",
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Kosakata",
-    "prompt": "「いきます」の 意味は どれですか。",
+    "prompt": "「いきます」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Ikimasu' no imi wa dore desu ka.",
     "sub": "Pilih arti kata kerja いきます.",
     "options": [
@@ -673,7 +673,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Kosakata",
-    "prompt": "「きます」の 意味は どれですか。",
+    "prompt": "「きます」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Kimasu' no imi wa dore desu ka.",
     "sub": "Pilih arti kata kerja きます.",
     "options": [
@@ -702,7 +702,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Kosakata",
-    "prompt": "「かえります」の 意味は どれですか。",
+    "prompt": "「かえります」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Kaerimasu' no imi wa dore desu ka.",
     "sub": "Pilih arti kata kerja かえります.",
     "options": [
@@ -731,7 +731,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Kosakata",
-    "prompt": "「でんしゃ」の 意味は どれですか。",
+    "prompt": "「でんしゃ」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Densha' no imi wa dore desu ka.",
     "sub": "Pilih arti kata でんしゃ.",
     "options": [
@@ -760,7 +760,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Kosakata",
-    "prompt": "「ひこうき」の 意味は どれですか。",
+    "prompt": "「ひこうき」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Hikouki' no imi wa dore desu ka.",
     "sub": "Pilih arti kata ひこうき.",
     "options": [
@@ -789,7 +789,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Kosakata",
-    "prompt": "「じてんしゃ」の 意味は どれですか。",
+    "prompt": "「じてんしゃ」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Jitensha' no imi wa dore desu ka.",
     "sub": "Pilih arti kata じてんしゃ.",
     "options": [
@@ -818,7 +818,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Kosakata",
-    "prompt": "「ちかてつ」の 意味は どれですか。",
+    "prompt": "「ちかてつ」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Chikatetsu' no imi wa dore desu ka.",
     "sub": "Pilih arti kata ちかてつ.",
     "options": [
@@ -847,7 +847,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Kosakata",
-    "prompt": "「あるいて」の 意味は どれですか。",
+    "prompt": "「あるいて」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Aruite' no imi wa dore desu ka.",
     "sub": "Pilih arti kata あるいて.",
     "options": [
@@ -876,7 +876,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Kosakata",
-    "prompt": "「ひとりで」の 意味は どれですか。",
+    "prompt": "「ひとりで」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Hitori de' no imi wa dore desu ka.",
     "sub": "Pilih arti kata ひとりで.",
     "options": [
@@ -905,7 +905,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Kosakata",
-    "prompt": "「かぞく」の 意味は どれですか。",
+    "prompt": "「かぞく」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Kazoku' no imi wa dore desu ka.",
     "sub": "Pilih arti kata かぞく.",
     "options": [
@@ -956,7 +956,7 @@ window.MNN_BANK[5] = [
       }
     ],
     "answer": 3,
-    "explain": "4月 dibaca しがつ, bukan よんがつ."
+    "explain": "4月[しがつ] dibaca しがつ, bukan よんがつ."
   },
   {
     "id": "b5-34",
@@ -985,7 +985,7 @@ window.MNN_BANK[5] = [
       }
     ],
     "answer": 2,
-    "explain": "7月 dibaca しちがつ, bukan なながつ."
+    "explain": "7月[しちがつ] dibaca しちがつ, bukan なながつ."
   },
   {
     "id": "b5-35",
@@ -1014,7 +1014,7 @@ window.MNN_BANK[5] = [
       }
     ],
     "answer": 0,
-    "explain": "9月 dibaca くがつ, bukan きゅうがつ."
+    "explain": "9月[くがつ] dibaca くがつ, bukan きゅうがつ."
   },
   {
     "id": "b5-36",
@@ -1043,7 +1043,7 @@ window.MNN_BANK[5] = [
       }
     ],
     "answer": 1,
-    "explain": "Tanggal berakhiran 4 memakai よっか, jadi 24日 = にじゅうよっか."
+    "explain": "Tanggal berakhiran 4 memakai よっか, jadi 24日[にじゅうよっか] = にじゅうよっか."
   },
   {
     "id": "b5-37",
@@ -1072,7 +1072,7 @@ window.MNN_BANK[5] = [
       }
     ],
     "answer": 1,
-    "explain": "20日 dibaca はつか, bukan にじゅうにち."
+    "explain": "20日[はつか] dibaca はつか, bukan にじゅうにち."
   },
   {
     "id": "b5-38",
@@ -1130,7 +1130,7 @@ window.MNN_BANK[5] = [
       }
     ],
     "answer": 0,
-    "explain": "14日 dibaca じゅうよっか, sama polanya dengan 4日."
+    "explain": "14日[じゅうよっか] dibaca じゅうよっか, sama polanya dengan 4日[よっか]."
   },
   {
     "id": "b5-40",
@@ -1142,19 +1142,19 @@ window.MNN_BANK[5] = [
     "sub": "Pilih kalimat tanya yang benar.",
     "options": [
       {
-        "jp": "いつで 日本へ 来ましたか。",
+        "jp": "いつで 日本[にほん]へ 来[き]ましたか。",
         "romaji": "Itsu de Nihon e kimashita ka."
       },
       {
-        "jp": "いつへ 日本へ 来ましたか。",
+        "jp": "いつへ 日本[にほん]へ 来[き]ましたか。",
         "romaji": "Itsu e Nihon e kimashita ka."
       },
       {
-        "jp": "いつに 日本へ 来ましたか。",
+        "jp": "いつに 日本[にほん]へ 来[き]ましたか。",
         "romaji": "Itsu ni Nihon e kimashita ka."
       },
       {
-        "jp": "いつ 日本へ 来ましたか。",
+        "jp": "いつ 日本[にほん]へ 来[き]ましたか。",
         "romaji": "Itsu Nihon e kimashita ka."
       }
     ],
@@ -1166,24 +1166,24 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · いつ",
-    "prompt": "A:「いつ 日本へ 来ましたか。」 B:「（　） 来ました。」",
-    "promptRomaji": "A: 'Itsu Nihon e kimashita ka.' B: '( ) kimashita.'",
+    "prompt": "A：「いつ 日本[にほん]へ 来[き]ましたか。」\nB：「（　） 来[き]ました。」",
+    "promptRomaji": "A: 'Itsu Nihon e kimashita ka.'\nB: '( ) kimashita.'",
     "sub": "Jawaban yang tepat untuk 'kapan'. (Datang pada bulan Maret.)",
     "options": [
       {
-        "jp": "3月で",
+        "jp": "3月[さんがつ]で",
         "romaji": "sangatsu de"
       },
       {
-        "jp": "3月と",
+        "jp": "3月[さんがつ]と",
         "romaji": "sangatsu to"
       },
       {
-        "jp": "3月を",
+        "jp": "3月[さんがつ]を",
         "romaji": "sangatsu o"
       },
       {
-        "jp": "3月に",
+        "jp": "3月[さんがつ]に",
         "romaji": "sangatsu ni"
       }
     ],
@@ -1200,24 +1200,24 @@ window.MNN_BANK[5] = [
     "sub": "Pilih urutan partikel yang benar.",
     "options": [
       {
-        "jp": "かぞくと しんかんせんで きょうとへ 行きます。",
+        "jp": "かぞくと しんかんせんで きょうとへ 行[い]きます。",
         "romaji": "Kazoku to shinkansen de Kyouto e ikimasu."
       },
       {
-        "jp": "かぞくと しんかんせんへ きょうとで 行きます。",
+        "jp": "かぞくと しんかんせんへ きょうとで 行[い]きます。",
         "romaji": "Kazoku to shinkansen e Kyouto de ikimasu."
       },
       {
-        "jp": "かぞくで しんかんせんと きょうとへ 行きます。",
+        "jp": "かぞくで しんかんせんと きょうとへ 行[い]きます。",
         "romaji": "Kazoku de shinkansen to Kyouto e ikimasu."
       },
       {
-        "jp": "かぞくへ しんかんせんで きょうとと 行きます。",
+        "jp": "かぞくへ しんかんせんで きょうとと 行[い]きます。",
         "romaji": "Kazoku e shinkansen de Kyouto to ikimasu."
       }
     ],
     "answer": 0,
-    "explain": "Urutannya: orang と + kendaraan で + tujuan へ + 行きます."
+    "explain": "Urutannya: orang と + kendaraan で + tujuan へ + 行[い]きます."
   },
   {
     "id": "b5-43",
@@ -1229,19 +1229,19 @@ window.MNN_BANK[5] = [
     "sub": "Pilih kalimat dengan partikel yang benar.",
     "options": [
       {
-        "jp": "まいにち じてんしゃに がっこうへ 行きます。",
+        "jp": "まいにち じてんしゃに がっこうへ 行[い]きます。",
         "romaji": "Mainichi jitensha ni gakkou e ikimasu."
       },
       {
-        "jp": "まいにち じてんしゃと がっこうへ 行きます。",
+        "jp": "まいにち じてんしゃと がっこうへ 行[い]きます。",
         "romaji": "Mainichi jitensha to gakkou e ikimasu."
       },
       {
-        "jp": "まいにち じてんしゃで がっこうへ 行きます。",
+        "jp": "まいにち じてんしゃで がっこうへ 行[い]きます。",
         "romaji": "Mainichi jitensha de gakkou e ikimasu."
       },
       {
-        "jp": "まいにち がっこうで じてんしゃへ 行きます。",
+        "jp": "まいにち がっこうで じてんしゃへ 行[い]きます。",
         "romaji": "Mainichi gakkou de jitensha e ikimasu."
       }
     ],
@@ -1253,7 +1253,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Arti kalimat",
-    "prompt": "「かぞくと ひこうきで くにへ 帰ります。」の 意味は どれですか。",
+    "prompt": "「かぞくと ひこうきで くにへ 帰[かえ]ります。」の 意味[いみ]は どれですか。",
     "promptRomaji": "Kazoku to hikouki de kuni e kaerimasu.",
     "sub": "Pilih terjemahan yang tepat.",
     "options": [
@@ -1275,7 +1275,7 @@ window.MNN_BANK[5] = [
       }
     ],
     "answer": 2,
-    "explain": "かぞくと = bersama keluarga, ひこうきで = naik pesawat, くにへ 帰ります = pulang ke negara asal."
+    "explain": "かぞくと = bersama keluarga, ひこうきで = naik pesawat, くにへ 帰[かえ]ります = pulang ke negara asal."
   },
   {
     "id": "b5-45",
@@ -1287,19 +1287,19 @@ window.MNN_BANK[5] = [
     "sub": "Perhatikan aturan ひとりで dan あるいて.",
     "options": [
       {
-        "jp": "ひとりに あるいて えきへ 行きます。",
+        "jp": "ひとりに あるいて えきへ 行[い]きます。",
         "romaji": "Hitori ni aruite eki e ikimasu."
       },
       {
-        "jp": "ひとりで あるいてで えきへ 行きます。",
+        "jp": "ひとりで あるいてで えきへ 行[い]きます。",
         "romaji": "Hitori de aruite de eki e ikimasu."
       },
       {
-        "jp": "ひとりで あるいて えきへ 行きます。",
+        "jp": "ひとりで あるいて えきへ 行[い]きます。",
         "romaji": "Hitori de aruite eki e ikimasu."
       },
       {
-        "jp": "ひとりと あるいてで えきへ 行きます。",
+        "jp": "ひとりと あるいてで えきへ 行[い]きます。",
         "romaji": "Hitori to aruite de eki e ikimasu."
       }
     ],
@@ -1311,7 +1311,7 @@ window.MNN_BANK[5] = [
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · Arti kalimat",
-    "prompt": "「にちようびは どこも 行きませんでした。」の 意味は どれですか。",
+    "prompt": "「にちようびは どこも 行[い]きませんでした。」の 意味[いみ]は どれですか。",
     "promptRomaji": "Nichiyoubi wa doko mo ikimasen deshita.",
     "sub": "Pilih terjemahan yang tepat.",
     "options": [
@@ -1345,90 +1345,90 @@ window.MNN_BANK[5] = [
     "sub": "Pilih kalimat dengan partikel waktu yang benar.",
     "options": [
       {
-        "jp": "4月 20日と 日本へ 来ました。",
+        "jp": "4月[しがつ] 20日[はつか]と 日本[にほん]へ 来[き]ました。",
         "romaji": "Shigatsu hatsuka to Nihon e kimashita."
       },
       {
-        "jp": "4月 20日で 日本へ 来ました。",
+        "jp": "4月[しがつ] 20日[はつか]で 日本[にほん]へ 来[き]ました。",
         "romaji": "Shigatsu hatsuka de Nihon e kimashita."
       },
       {
-        "jp": "4月 20日を 日本へ 来ました。",
+        "jp": "4月[しがつ] 20日[はつか]を 日本[にほん]へ 来[き]ました。",
         "romaji": "Shigatsu hatsuka o Nihon e kimashita."
       },
       {
-        "jp": "4月 20日に 日本へ 来ました。",
+        "jp": "4月[しがつ] 20日[はつか]に 日本[にほん]へ 来[き]ました。",
         "romaji": "Shigatsu hatsuka ni Nihon e kimashita."
       }
     ],
     "answer": 3,
-    "explain": "Tanggal spesifik ditandai に: 4月 20日に 来ました."
+    "explain": "Tanggal spesifik ditandai に: 4月[しがつ] 20日[はつか]に 来[き]ました."
   },
   {
     "id": "b5-48",
     "bab": 5,
     "type": "mcq",
-    "badge": "Bab 5 · 帰ります",
+    "badge": "Bab 5 · 帰[かえ]ります",
     "prompt": "「Tahun depan saya pulang ke negara asal.」の ただしい いいかたは どれですか。",
     "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
     "sub": "Pilih kata kerja yang tepat untuk 'pulang'.",
     "options": [
       {
-        "jp": "らいねん くにへ 来ます。",
+        "jp": "らいねん くにへ 来[き]ます。",
         "romaji": "Rainen kuni e kimasu."
       },
       {
-        "jp": "らいねん くにへ 帰ります。",
+        "jp": "らいねん くにへ 帰[かえ]ります。",
         "romaji": "Rainen kuni e kaerimasu."
       },
       {
-        "jp": "らいねん くにで 帰ります。",
+        "jp": "らいねん くにで 帰[かえ]ります。",
         "romaji": "Rainen kuni de kaerimasu."
       },
       {
-        "jp": "らいねん くにへ 行きます。",
+        "jp": "らいねん くにへ 行[い]きます。",
         "romaji": "Rainen kuni e ikimasu."
       }
     ],
     "answer": 1,
-    "explain": "Pulang ke negara asal memakai 帰ります, bukan 行きます."
+    "explain": "Pulang ke negara asal memakai 帰[かえ]ります, bukan 行[い]きます."
   },
   {
     "id": "b5-49",
     "bab": 5,
     "type": "mcq",
-    "badge": "Bab 5 · 来ます",
+    "badge": "Bab 5 · 来[き]ます",
     "prompt": "「Sdr. Miller datang ke Jepang bulan lalu.」の ただしい いいかたは どれですか。",
     "promptRomaji": "Pilih kalimat atau ungkapan bahasa Jepang yang tepat.",
     "sub": "Pilih kata kerja yang tepat untuk 'datang'.",
     "options": [
       {
-        "jp": "ミラーさんは せんげつ 日本へ 行きました。",
+        "jp": "ミラーさんは せんげつ 日本[にほん]へ 行[い]きました。",
         "romaji": "Miraa-san wa sengetsu Nihon e ikimashita."
       },
       {
-        "jp": "ミラーさんは せんげつ 日本へ 来ました。",
+        "jp": "ミラーさんは せんげつ 日本[にほん]へ 来[き]ました。",
         "romaji": "Miraa-san wa sengetsu Nihon e kimashita."
       },
       {
-        "jp": "ミラーさんは せんげつ 日本へ 帰りました。",
+        "jp": "ミラーさんは せんげつ 日本[にほん]へ 帰[かえ]りました。",
         "romaji": "Miraa-san wa sengetsu Nihon e kaerimashita."
       },
       {
-        "jp": "ミラーさんは せんげつ 日本で 来ました。",
+        "jp": "ミラーさんは せんげつ 日本[にほん]で 来[き]ました。",
         "romaji": "Miraa-san wa sengetsu Nihon de kimashita."
       }
     ],
     "answer": 1,
-    "explain": "Datang ke tempat pembicara memakai 来ました."
+    "explain": "Datang ke tempat pembicara memakai 来[き]ました."
   },
   {
     "id": "b5-50",
     "bab": 5,
     "type": "mcq",
     "badge": "Bab 5 · いつ",
-    "prompt": "「（　） がっこうへ 行きますか。」…「あした 行きます。」",
-    "promptRomaji": "( ) gakkou e ikimasu ka. ...Ashita ikimasu.",
+    "prompt": "A：「（　） がっこうへ 行[い]きますか。」\nB：「あした 行[い]きます。」",
+    "promptRomaji": "A: ( ) gakkou e ikimasu ka.\nB: Ashita ikimasu.",
     "sub": "Pilih kata tanya yang tepat. (Kapan pergi ke sekolah? ...Besok.)",
     "options": [
       {

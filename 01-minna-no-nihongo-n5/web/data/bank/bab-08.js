@@ -1108,8 +1108,8 @@ window.MNN_BANK[8] = [
     "bab": 8,
     "type": "mcq",
     "badge": "Bab 8 · Pola どうですか",
-    "prompt": "日本の せいかつは （　） ですか。…たのしいです。",
-    "promptRomaji": "Nihon no seikatsu wa ( ) desu ka. ...Tanoshii desu.",
+    "prompt": "A：日本[にほん]の せいかつは （　） ですか。\nB：たのしいです。",
+    "promptRomaji": "A: Nihon no seikatsu wa ( ) desu ka.\nB: Tanoshii desu.",
     "sub": "Pilih kata tanya untuk menanyakan kesan umum.",
     "options": [
       {
@@ -1137,8 +1137,8 @@ window.MNN_BANK[8] = [
     "bab": 8,
     "type": "mcq",
     "badge": "Bab 8 · Pola どんな N",
-    "prompt": "ワットせんせいは （　） せんせいですか。…しんせつな せんせいです。",
-    "promptRomaji": "Watto-sensei wa ( ) sensei desu ka. ...Shinsetsu na sensei desu.",
+    "prompt": "A：ワットせんせいは （　） せんせいですか。\nB：しんせつな せんせいです。",
+    "promptRomaji": "A: Watto-sensei wa ( ) sensei desu ka.\nB: Shinsetsu na sensei desu.",
     "sub": "Pilih kata tanya yang langsung diikuti kata benda.",
     "options": [
       {
@@ -1166,8 +1166,8 @@ window.MNN_BANK[8] = [
     "bab": 8,
     "type": "mcq",
     "badge": "Bab 8 · Pola どんな N",
-    "prompt": "ならは （　） まちですか。…しずかな まちです。",
-    "promptRomaji": "Nara wa ( ) machi desu ka. ...Shizuka na machi desu.",
+    "prompt": "A：ならは （　） まちですか。\nB：しずかな まちです。",
+    "promptRomaji": "A: Nara wa ( ) machi desu ka.\nB: Shizuka na machi desu.",
     "sub": "Pilih kata tanya yang tepat sebelum まち.",
     "options": [
       {
@@ -1195,8 +1195,8 @@ window.MNN_BANK[8] = [
     "bab": 8,
     "type": "mcq",
     "badge": "Bab 8 · Pola どれ",
-    "prompt": "カリナさんの かばんは （　） ですか。…あの しろい かばんです。",
-    "promptRomaji": "Karina-san no kaban wa ( ) desu ka. ...Ano shiroi kaban desu.",
+    "prompt": "A：カリナさんの かばんは （　） ですか。\nB：あの しろい かばんです。",
+    "promptRomaji": "A: Karina-san no kaban wa ( ) desu ka.\nB: Ano shiroi kaban desu.",
     "sub": "Pilih kata tanya untuk memilih satu di antara beberapa benda.",
     "options": [
       {
@@ -1862,8 +1862,8 @@ window.MNN_BANK[8] = [
     "bab": 8,
     "type": "mcq",
     "badge": "Bab 8 · Dialog どうですか",
-    "prompt": "A: 「あたらしい くるまは どうですか。」 B: 「（　）。」",
-    "promptRomaji": "A: Atarashii kuruma wa dou desu ka. B: ( ).",
+    "prompt": "A：「あたらしい くるまは どうですか。」\nB：「（　）。」",
+    "promptRomaji": "A: Atarashii kuruma wa dou desu ka.\nB: ( ).",
     "sub": "Pilih jawaban yang tepat untuk pertanyaan kesan (どうですか).",
     "options": [
       {
@@ -1891,8 +1891,8 @@ window.MNN_BANK[8] = [
     "bab": 8,
     "type": "mcq",
     "badge": "Bab 8 · Dialog どんな N ですか",
-    "prompt": "A: 「りょうは どんな ところですか。」 B: 「（　）。」",
-    "promptRomaji": "A: Ryou wa donna tokoro desu ka. B: ( ).",
+    "prompt": "A：「りょうは どんな ところですか。」\nB：「（　）。」",
+    "promptRomaji": "A: Ryou wa donna tokoro desu ka.\nB: ( ).",
     "sub": "Pilih jawaban yang sesuai pola どんな ところですか.",
     "options": [
       {
@@ -1920,8 +1920,8 @@ window.MNN_BANK[8] = [
     "bab": 8,
     "type": "mcq",
     "badge": "Bab 8 · Tanya どう vs どんな",
-    "prompt": "A: 「おしごとは （　）ですか。」 B: 「いそがしいですが、たのしいです。」",
-    "promptRomaji": "A: Oshigoto wa ( ) desu ka. B: Isogashii desu ga, tanoshii desu.",
+    "prompt": "A：「おしごとは （　）ですか。」\nB：「いそがしいですが、たのしいです。」",
+    "promptRomaji": "A: Oshigoto wa ( ) desu ka.\nB: Isogashii desu ga, tanoshii desu.",
     "sub": "Pilih kata tanya yang tepat untuk menanyakan kesan tentang pekerjaan.",
     "options": [
       {
@@ -1949,8 +1949,8 @@ window.MNN_BANK[8] = [
     "bab": 8,
     "type": "mcq",
     "badge": "Bab 8 · Dialog どんな ひとですか",
-    "prompt": "A: 「カリナさんは どんな ひとですか。」 B: 「（　）。」",
-    "promptRomaji": "A: Karina-san wa donna hito desu ka. B: ( ).",
+    "prompt": "A：「カリナさんは どんな ひとですか。」\nB：「（　）。」",
+    "promptRomaji": "A: Karina-san wa donna hito desu ka.\nB: ( ).",
     "sub": "Pilih deskripsi sifat yang cocok untuk どんな ひとですか.",
     "options": [
       {
@@ -2094,8 +2094,8 @@ window.MNN_BANK[8] = [
     "bab": 8,
     "type": "mcq",
     "badge": "Bab 8 · Ungkapan menolak halus",
-    "prompt": "A: 「コーヒー、もう いっぱい いかがですか。」 B: 「いいえ、（　）。」",
-    "promptRomaji": "A: Koohii, mou ippai ikaga desu ka. B: Iie, ( ).",
+    "prompt": "A：「コーヒー、もう いっぱい いかがですか。」\nB：「いいえ、（　）。」",
+    "promptRomaji": "A: Koohii, mou ippai ikaga desu ka.\nB: Iie, ( ).",
     "sub": "Pilih ungkapan sopan untuk menolak tawaran segelas lagi.",
     "options": [
       {
@@ -2123,8 +2123,8 @@ window.MNN_BANK[8] = [
     "bab": 8,
     "type": "mcq",
     "badge": "Bab 8 · Ungkapan berpamitan",
-    "prompt": "A: 「もう １０じですね。そろそろ （　）。」 B: 「そうですか。また いらっしゃって ください。」",
-    "promptRomaji": "A: Mou juu-ji desu ne. Sorosoro ( ). B: Sou desu ka. Mata irasshatte kudasai.",
+    "prompt": "A：「もう １０じですね。そろそろ （　）。」\nB：「そうですか。また いらっしゃって ください。」",
+    "promptRomaji": "A: Mou juu-ji desu ne. Sorosoro ( ).\nB: Sou desu ka. Mata irasshatte kudasai.",
     "sub": "Pilih ungkapan untuk berpamitan pulang dari rumah orang.",
     "options": [
       {
@@ -2152,8 +2152,8 @@ window.MNN_BANK[8] = [
     "bab": 8,
     "type": "mcq",
     "badge": "Bab 8 · Dialog せいかつに なれましたか",
-    "prompt": "A: 「にほんの せいかつに なれましたか。」 B: 「ええ、まいにち とても （　）。」",
-    "promptRomaji": "A: Nihon no seikatsu ni naremashita ka. B: Ee, mainichi totemo ( ).",
+    "prompt": "A：「にほんの せいかつに なれましたか。」\nB：「ええ、まいにち とても （　）。」",
+    "promptRomaji": "A: Nihon no seikatsu ni naremashita ka.\nB: Ee, mainichi totemo ( ).",
     "sub": "Pilih kata sifat yang tepat untuk menyatakan kehidupan sehari-hari sangat menyenangkan.",
     "options": [
       {

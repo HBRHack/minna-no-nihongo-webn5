@@ -6,7 +6,7 @@ window.MNN_BANK[19] = [
     "bab": 19,
     "type": "mcq",
     "badge": "Bab 19 · Bentuk -Ta (み・び・に → んだ)",
-    "prompt": "Bentuk -Ta (た形) dari 「のみます」 (minum) adalah...",
+    "prompt": "Bentuk -Ta (た形[けい]) dari 「のみます」 (minum) adalah...",
     "promptRomaji": "nomimasu → _____",
     "sub": "Samakan aturannya dengan Bentuk -Te (のんで → ?).",
     "options": [
@@ -557,8 +557,8 @@ window.MNN_BANK[19] = [
     "bab": 19,
     "type": "mcq",
     "badge": "Bab 19 · Dialog Pengalaman",
-    "prompt": "A: 「すきやきを たべた ことが ありますか。」\nB: 「はい、（　） あります。」 (Ya, pernah berkali-kali.)",
-    "promptRomaji": "A: Sukiyaki o tabeta koto ga arimasu ka. / B: Hai, _____ arimasu.",
+    "prompt": "A：「すきやきを たべた ことが ありますか。」\nB：「はい、（　） あります。」 (Ya, pernah berkali-kali.)",
+    "promptRomaji": "A: Sukiyaki o tabeta koto ga arimasu ka.\nB: Hai, _____ arimasu.",
     "sub": "Pilih kata yang berarti 'berkali-kali' dari kosakata Bab 19.",
     "options": [
       {
@@ -586,8 +586,8 @@ window.MNN_BANK[19] = [
     "bab": 19,
     "type": "mcq",
     "badge": "Bab 19 · Dialog Pengalaman",
-    "prompt": "A: 「かぶきを みた ことが ありますか。」\nB: 「いいえ、（　）。」",
-    "promptRomaji": "A: Kabuki o mita koto ga arimasu ka. / B: Iie, _____.",
+    "prompt": "A：「かぶきを みた ことが ありますか。」\nB：「いいえ、（　）。」",
+    "promptRomaji": "A: Kabuki o mita koto ga arimasu ka.\nB: Iie, _____.",
     "sub": "Pilih jawaban singkat yang benar untuk pertanyaan ～た ことが ありますか.",
     "options": [
       {
@@ -1195,8 +1195,8 @@ window.MNN_BANK[19] = [
     "bab": 19,
     "type": "mcq",
     "badge": "Bab 19 · Ungkapan Terima Kasih",
-    "prompt": "A: 「おげんきに なりましたか。」\nB: 「はい、（　） げんきに なりました。」 (Ya, berkat doa/bantuan Anda saya sudah sehat.)",
-    "promptRomaji": "A: Ogenki ni narimashita ka. / B: Hai, _____ genki ni narimashita.",
+    "prompt": "A：「おげんきに なりましたか。」\nB：「はい、（　） げんきに なりました。」 (Ya, berkat doa/bantuan Anda saya sudah sehat.)",
+    "promptRomaji": "A: Ogenki ni narimashita ka.\nB: Hai, _____ genki ni narimashita.",
     "sub": "Pilih ungkapan sopan dari kosakata Bab 19.",
     "options": [
       {
@@ -1275,7 +1275,7 @@ window.MNN_BANK[19] = [
       }
     ],
     "answer": 1,
-    "explain": "じつは (実は) berarti 'sebenarnya / sejujurnya', dan しかし berarti 'tetapi / namun'."
+    "explain": "じつは (実[じつ]は) berarti 'sebenarnya / sejujurnya', dan しかし berarti 'tetapi / namun'."
   },
   {
     "id": "b19-45",
@@ -1362,7 +1362,7 @@ window.MNN_BANK[19] = [
       }
     ],
     "answer": 0,
-    "explain": "かんぱい (乾杯) adalah ungkapan untuk bersulang ('Cheers!')."
+    "explain": "かんぱい (乾杯[かんぱい]) adalah ungkapan untuk bersulang ('Cheers!')."
   },
   {
     "id": "b19-48",
@@ -1398,8 +1398,8 @@ window.MNN_BANK[19] = [
     "bab": 19,
     "type": "mcq",
     "badge": "Bab 19 · Dialog Lengkap",
-    "prompt": "A: 「やまださんは まいにち どんな ことを していますか。」\nB: 「ジムで れんしゅうしたり、からだに いい たべものを （　） しています。」",
-    "promptRomaji": "B: Jimu de renshuu shitari, karada ni ii tabemono o _____ shite imasu.",
+    "prompt": "A：「やまださんは まいにち どんな ことを していますか。」\nB：「ジムで れんしゅうしたり、からだに いい たべものを （　） しています。」",
+    "promptRomaji": "A: Yamada-san wa mainichi donna koto o shite imasu ka.\nB: Jimu de renshuu shitari, karada ni ii tabemono o _____ shite imasu.",
     "sub": "Pilih bentuk -たり dari たべます.",
     "options": [
       {
@@ -1833,8 +1833,8 @@ window.MNN_BANK[19] = [
     "bab": 19,
     "type": "mcq",
     "badge": "Bab 19 · いちど vs いちども",
-    "prompt": "A: 「にほんの おちゃを ならった ことが ありますか。」\nB: 「はい、（　） あります。」 (Ya, pernah sekali.)",
-    "promptRomaji": "A: Nihon no ocha o naratta koto ga arimasu ka. / B: Hai, _____ arimasu.",
+    "prompt": "A：「にほんの おちゃを ならった ことが ありますか。」\nB：「はい、（　） あります。」 (Ya, pernah sekali.)",
+    "promptRomaji": "A: Nihon no ocha o naratta koto ga arimasu ka.\nB: Hai, _____ arimasu.",
     "sub": "Bedakan 'sekali' (kalimat positif) dan 'sekali pun tidak' (kalimat negatif).",
     "options": [
       {
@@ -2007,8 +2007,8 @@ window.MNN_BANK[19] = [
     "bab": 19,
     "type": "mcq",
     "badge": "Bab 19 · Dialog Pengalaman",
-    "prompt": "A: 「ほっかいどうへ いった ことが ありますか。」\nB: 「はい、（　）。とても きれいでした。」",
-    "promptRomaji": "A: Hokkaidou e itta koto ga arimasu ka. / B: Hai, _____. Totemo kirei deshita.",
+    "prompt": "A：「ほっかいどうへ いった ことが ありますか。」\nB：「はい、（　）。とても きれいでした。」",
+    "promptRomaji": "A: Hokkaidou e itta koto ga arimasu ka.\nB: Hai, _____. Totemo kirei deshita.",
     "sub": "Pilih jawaban singkat positif yang tepat untuk pertanyaan ～た ことが ありますか.",
     "options": [
       {
@@ -2297,8 +2297,8 @@ window.MNN_BANK[19] = [
     "bab": 19,
     "type": "mcq",
     "badge": "Bab 19 · Dialog ～たり～たり",
-    "prompt": "A: 「ふゆやすみは なにを しましたか。」\nB: 「かぞくに あったり、（　）。」",
-    "promptRomaji": "A: Fuyuyasumi wa nani o shimashita ka. / B: Kazoku ni attari, _____.",
+    "prompt": "A：「ふゆやすみは なにを しましたか。」\nB：「かぞくに あったり、（　）。」",
+    "promptRomaji": "A: Fuyuyasumi wa nani o shimashita ka.\nB: Kazoku ni attari, _____.",
     "sub": "Lengkapi jawaban lampau untuk pertanyaan 'Apa yang Anda lakukan saat libur musim dingin?'.",
     "options": [
       {
@@ -2442,8 +2442,8 @@ window.MNN_BANK[19] = [
     "bab": 19,
     "type": "mcq",
     "badge": "Bab 19 · Menjadi (KS-な + なります)",
-    "prompt": "A: 「かぜは もう いいですか。」\nB: 「はい、おかげさまで （　） なりました。」 (げんき［な］)",
-    "promptRomaji": "A: Kaze wa mou ii desu ka. / B: Hai, okagesama de _____ narimashita.",
+    "prompt": "A：「かぜは もう いいですか。」\nB：「はい、おかげさまで （　） なりました。」 (げんき［な］)",
+    "promptRomaji": "A: Kaze wa mou ii desu ka.\nB: Hai, okagesama de _____ narimashita.",
     "sub": "げんき (sehat) adalah Kata Sifat-な.",
     "options": [
       {
@@ -2667,7 +2667,7 @@ window.MNN_BANK[19] = [
       }
     ],
     "answer": 1,
-    "explain": "れんしゅう (練習) berarti latihan; れんしゅうを します berarti berlatih."
+    "explain": "れんしゅう (練習[れんしゅう]) berarti latihan; れんしゅうを します berarti berlatih."
   },
   {
     "id": "b19-93",
@@ -2725,7 +2725,7 @@ window.MNN_BANK[19] = [
       }
     ],
     "answer": 3,
-    "explain": "ちょうし (調子) berarti kondisi. からだの ちょうしが わるいです berarti kondisi tubuh sedang buruk."
+    "explain": "ちょうし (調子[ちょうし]) berarti kondisi. からだの ちょうしが わるいです berarti kondisi tubuh sedang buruk."
   },
   {
     "id": "b19-95",
@@ -2754,15 +2754,15 @@ window.MNN_BANK[19] = [
       }
     ],
     "answer": 0,
-    "explain": "ねむい (眠い) berarti mengantuk."
+    "explain": "ねむい (眠[ねむ]い) berarti mengantuk."
   },
   {
     "id": "b19-96",
     "bab": 19,
     "type": "mcq",
     "badge": "Bab 19 · Dialog Percakapan",
-    "prompt": "A: 「あれ、ケーキを たべませんか。」\nB: 「ええ、（　） きょうから ダイエットを して います。」",
-    "promptRomaji": "A: Are, keeki o tabemasen ka. / B: Ee, _____ kyou kara daietto o shite imasu.",
+    "prompt": "A：「あれ、ケーキを たべませんか。」\nB：「ええ、（　） きょうから ダイエットを して います。」",
+    "promptRomaji": "A: Are, keeki o tabemasen ka.\nB: Ee, _____ kyou kara daietto o shite imasu.",
     "sub": "Pilih ungkapan Bab 19 yang berarti 'sebenarnya / sejujurnya'.",
     "options": [
       {
@@ -2783,7 +2783,7 @@ window.MNN_BANK[19] = [
       }
     ],
     "answer": 1,
-    "explain": "じつは (実は) berarti 'sebenarnya / terus terang', sering dipakai saat menjelaskan alasan kepada lawan bicara."
+    "explain": "じつは (実[じつ]は) berarti 'sebenarnya / terus terang', sering dipakai saat menjelaskan alasan kepada lawan bicara."
   },
   {
     "id": "b19-97",
@@ -2841,7 +2841,7 @@ window.MNN_BANK[19] = [
       }
     ],
     "answer": 3,
-    "explain": "Dalam Bab 19, すもう (相撲) adalah gulat sumo, dan おちゃ merujuk pada upacara minum teh tradisional Jepang."
+    "explain": "Dalam Bab 19, すもう (相撲[すもう]) adalah gulat sumo, dan おちゃ merujuk pada upacara minum teh tradisional Jepang."
   },
   {
     "id": "b19-99",
@@ -2870,7 +2870,7 @@ window.MNN_BANK[19] = [
       }
     ],
     "answer": 0,
-    "explain": "からだに いい (体に いい) berarti baik untuk tubuh/kesehatan."
+    "explain": "からだに いい (体[からだ]に いい) berarti baik untuk tubuh/kesehatan."
   },
   {
     "id": "b19-100",

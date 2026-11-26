@@ -637,8 +637,8 @@ window.MNN_BANK[17] = [
     "section": "B · ～ないでください",
     "type": "mcq",
     "badge": "Bab 17 · Dialog Kesehatan",
-    "prompt": "A: 「ねつが あります。」\nB: 「そうですか。きょうは おふろに （　）。」 (Saran: hari ini tolong jangan berendam.)",
-    "promptRomaji": "A: Netsu ga arimasu. / B: Sou desu ka. Kyou wa ofuro ni _____.",
+    "prompt": "A：「ねつが あります。」\nB：「そうですか。きょうは おふろに （　）。」 (Saran: hari ini tolong jangan berendam.)",
+    "promptRomaji": "A: Netsu ga arimasu.\nB: Sou desu ka. Kyou wa ofuro ni _____.",
     "sub": "Pilih saran yang tepat bagi orang yang sedang demam.",
     "options": [
       {
@@ -1297,8 +1297,8 @@ window.MNN_BANK[17] = [
     "section": "D · ～なくてもいいです",
     "type": "mcq",
     "badge": "Bab 17 · Dialog Jawab 'Tidak'",
-    "prompt": "A: 「きょう ざんぎょうしなければ なりませんか。」\nB: 「いいえ、（　）。5じに かえっても いいです。」",
-    "promptRomaji": "A: Kyou zangyou shinakereba narimasen ka. / B: Iie, _____. 5-ji ni kaette mo ii desu.",
+    "prompt": "A：「きょう ざんぎょうしなければ なりませんか。」\nB：「いいえ、（　）。5じに かえっても いいです。」",
+    "promptRomaji": "A: Kyou zangyou shinakereba narimasen ka.\nB: Iie, _____. 5-ji ni kaette mo ii desu.",
     "sub": "Perhatikan! Lawan kata jawab 'tidak' untuk pertanyaan 'apakah harus ~?' adalah 'tidak perlu ~'.",
     "options": [
       {
@@ -2888,7 +2888,7 @@ window.MNN_BANK[17] = [
     "type": "mcq",
     "badge": "Bab 17 · Dialog Jawab 'Tidak'",
     "prompt": "A：「きょう レポートを ださなければ なりませんか。」\nB：「いいえ、らいしゅうまでですから、きょう （　）。」",
-    "promptRomaji": "A: \"Kyou repooto o dasanakereba narimasen ka.\" B: \"Iie, raishuu made desu kara, kyou _____.\"",
+    "promptRomaji": "A: \"Kyou repooto o dasanakereba narimasen ka.\"\nB: \"Iie, raishuu made desu kara, kyou _____.\"",
     "sub": "Jawab pertanyaan 'apakah harus ~?' dengan jawaban negatif 'tidak perlu ~'.",
     "options": [
       {

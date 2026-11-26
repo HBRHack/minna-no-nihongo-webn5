@@ -1478,7 +1478,7 @@ window.MNN_BANK[11] = [
       }
     ],
     "answer": 0,
-    "explain": "ふなびん (船便) berarti pos laut yang dikirim melalui kapal."
+    "explain": "ふなびん (船便[ふなびん]) berarti pos laut yang dikirim melalui kapal."
   },
   {
     "id": "b11-52",
@@ -1507,7 +1507,7 @@ window.MNN_BANK[11] = [
       }
     ],
     "answer": 1,
-    "explain": "こうくうびん (航空便) atau エアメール berarti pos udara."
+    "explain": "こうくうびん (航空便[こうくうびん]) atau エアメール berarti pos udara."
   },
   {
     "id": "b11-53",
@@ -1536,7 +1536,7 @@ window.MNN_BANK[11] = [
       }
     ],
     "answer": 2,
-    "explain": "そくたつ (速達) berarti pos kilat atau pengiriman ekspres."
+    "explain": "そくたつ (速達[そくたつ]) berarti pos kilat atau pengiriman ekspres."
   },
   {
     "id": "b11-54",
@@ -1565,7 +1565,7 @@ window.MNN_BANK[11] = [
       }
     ],
     "answer": 3,
-    "explain": "かきとめ (書留) berarti pos tercatat."
+    "explain": "かきとめ (書留[かきとめ]) berarti pos tercatat."
   },
   {
     "id": "b11-55",
@@ -1623,7 +1623,7 @@ window.MNN_BANK[11] = [
       }
     ],
     "answer": 1,
-    "explain": "がいこく (外国) berarti luar negeri atau negara asing."
+    "explain": "がいこく (外国[がいこく]) berarti luar negeri atau negara asing."
   },
   {
     "id": "b11-57",
@@ -1949,8 +1949,8 @@ window.MNN_BANK[11] = [
     "bab": 11,
     "type": "mcq",
     "badge": "Bab 11 · Kata tanya いくつ",
-    "prompt": "A：テーブルの うえに みかんが （　） ありますか。 B：みっつ あります。",
-    "promptRomaji": "A: Teeburu no ue ni mikan ga ( ) arimasu ka. B: Mittsu arimasu.",
+    "prompt": "A：テーブルの うえに みかんが （　） ありますか。\nB：みっつ あります。",
+    "promptRomaji": "A: Teeburu no ue ni mikan ga ( ) arimasu ka.\nB: Mittsu arimasu.",
     "sub": "Pilih kata tanya untuk menanyakan jumlah buah jeruk.",
     "options": [
       {
@@ -1978,8 +1978,8 @@ window.MNN_BANK[11] = [
     "bab": 11,
     "type": "mcq",
     "badge": "Bab 11 · Kata tanya なんまい",
-    "prompt": "A：しゃしんを （　） とりましたか。 B：5まい とりました。",
-    "promptRomaji": "A: Shashin o ( ) torimashita ka. B: Gomai torimashita.",
+    "prompt": "A：しゃしんを （　） とりましたか。\nB：5まい とりました。",
+    "promptRomaji": "A: Shashin o ( ) torimashita ka.\nB: Gomai torimashita.",
     "sub": "Pilih kata tanya untuk menanyakan jumlah lembar foto.",
     "options": [
       {
@@ -2007,8 +2007,8 @@ window.MNN_BANK[11] = [
     "bab": 11,
     "type": "mcq",
     "badge": "Bab 11 · Kata tanya なんだい",
-    "prompt": "A：じむしょに パソコンが （　） ありますか。 B：2だい あります。",
-    "promptRomaji": "A: Jimusho ni pasokon ga ( ) arimasu ka. B: Nidai arimasu.",
+    "prompt": "A：じむしょに パソコンが （　） ありますか。\nB：2だい あります。",
+    "promptRomaji": "A: Jimusho ni pasokon ga ( ) arimasu ka.\nB: Nidai arimasu.",
     "sub": "Pilih kata tanya untuk menanyakan jumlah unit komputer.",
     "options": [
       {
@@ -2036,8 +2036,8 @@ window.MNN_BANK[11] = [
     "bab": 11,
     "type": "mcq",
     "badge": "Bab 11 · Kata tanya なんかい",
-    "prompt": "A：1かげつに （　） くにへ でんわを かけますか。 B：2かい かけます。",
-    "promptRomaji": "A: Ikkagetsu ni ( ) kuni e denwa o kakemasu ka. B: Nikai kakemasu.",
+    "prompt": "A：1かげつに （　） くにへ でんわを かけますか。\nB：2かい かけます。",
+    "promptRomaji": "A: Ikkagetsu ni ( ) kuni e denwa o kakemasu ka.\nB: Nikai kakemasu.",
     "sub": "Pilih kata tanya untuk menanyakan frekuensi.",
     "options": [
       {
@@ -2239,8 +2239,8 @@ window.MNN_BANK[11] = [
     "bab": 11,
     "type": "mcq",
     "badge": "Bab 11 · Kata tanya どのくらい",
-    "prompt": "A：（　） かかりますか。 B：バスで 30ぷんぐらい かかります。",
-    "promptRomaji": "A: ( ) kakarimasu ka. B: Basu de sanjuppun gurai kakarimasu.",
+    "prompt": "A：（　） かかりますか。\nB：バスで 30ぷんぐらい かかります。",
+    "promptRomaji": "A: ( ) kakarimasu ka.\nB: Basu de sanjuppun gurai kakarimasu.",
     "sub": "Menanyakan berapa lama waktu yang diperlukan.",
     "options": [
       {
@@ -2297,8 +2297,8 @@ window.MNN_BANK[11] = [
     "bab": 11,
     "type": "mcq",
     "badge": "Bab 11 · Pola だけ",
-    "prompt": "A：りんごを いくつ かいましたか。 B：2つ（　） かいました。",
-    "promptRomaji": "A: Ringo o ikutsu kaimashita ka. B: Futatsu ( ) kaimashita.",
+    "prompt": "A：りんごを いくつ かいましたか。\nB：2つ（　） かいました。",
+    "promptRomaji": "A: Ringo o ikutsu kaimashita ka.\nB: Futatsu ( ) kaimashita.",
     "sub": "Hanya membeli dua buah.",
     "options": [
       {
@@ -2761,8 +2761,8 @@ window.MNN_BANK[11] = [
     "bab": 11,
     "type": "mcq",
     "badge": "Bab 11 · Dialog Berangkat",
-    "prompt": "A：じゃ、いって きます。 B：（　）。",
-    "promptRomaji": "A: Ja, itte kimasu. B: ( ).",
+    "prompt": "A：じゃ、いって きます。\nB：（　）。",
+    "promptRomaji": "A: Ja, itte kimasu.\nB: ( ).",
     "sub": "Pilih balasan saat anggota keluarga pamit berangkat.",
     "options": [
       {
@@ -2790,8 +2790,8 @@ window.MNN_BANK[11] = [
     "bab": 11,
     "type": "mcq",
     "badge": "Bab 11 · Dialog Tetangga",
-    "prompt": "A：いい おてんきですね。おでかけですか。 B：（　）。",
-    "promptRomaji": "A: Ii otenki desu ne. Odekake desu ka. B: ( ).",
+    "prompt": "A：いい おてんきですね。おでかけですか。\nB：（　）。",
+    "promptRomaji": "A: Ii otenki desu ne. Odekake desu ka.\nB: ( ).",
     "sub": "Pilih jawaban yang alami saat ditanya mau pergi ke mana.",
     "options": [
       {
@@ -2819,8 +2819,8 @@ window.MNN_BANK[11] = [
     "bab": 11,
     "type": "mcq",
     "badge": "Bab 11 · Dialog Kantor Pos",
-    "prompt": "A：オーストラリアまで エアメールで おねがいします。 B：（　）。",
-    "promptRomaji": "A: Oosutoraria made eameeru de onegaishimasu. B: ( ).",
+    "prompt": "A：オーストラリアまで エアメールで おねがいします。\nB：（　）。",
+    "promptRomaji": "A: Oosutoraria made eameeru de onegaishimasu.\nB: ( ).",
     "sub": "Pilih balasan petugas kantor pos yang sopan.",
     "options": [
       {
@@ -2848,8 +2848,8 @@ window.MNN_BANK[11] = [
     "bab": 11,
     "type": "mcq",
     "badge": "Bab 11 · Dialog di Toko",
-    "prompt": "A：いらっしゃいませ。 B：すみません、アイスクリームを （　） ください。",
-    "promptRomaji": "A: Irasshaimase. B: Sumimasen, aisukuriimu o ( ) kudasai.",
+    "prompt": "A：いらっしゃいませ。\nB：すみません、アイスクリームを （　） ください。",
+    "promptRomaji": "A: Irasshaimase.\nB: Sumimasen, aisukuriimu o ( ) kudasai.",
     "sub": "Meminta dua buah es krim.",
     "options": [
       {
@@ -2877,8 +2877,8 @@ window.MNN_BANK[11] = [
     "bab": 11,
     "type": "mcq",
     "badge": "Bab 11 · Dialog Keluarga",
-    "prompt": "A：きょうだいは なんにんですか。 B：（　）。",
-    "promptRomaji": "A: Kyoudai wa nannin desu ka. B: ( ).",
+    "prompt": "A：きょうだいは なんにんですか。\nB：（　）。",
+    "promptRomaji": "A: Kyoudai wa nannin desu ka.\nB: ( ).",
     "sub": "Pilih jawaban yang alami. (Tiga orang. Ada kakak laki-laki dan adik perempuan.)",
     "options": [
       {

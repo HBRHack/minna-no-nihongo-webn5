@@ -6,7 +6,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · Partikel を",
-    "prompt": "わたしは まいあさ コーヒー（　） 飲みます。",
+    "prompt": "わたしは まいあさ コーヒー（　） 飲[の]みます。",
     "promptRomaji": "Watashi wa maiasa koohii ( ) nomimasu.",
     "sub": "Pilih partikel objek langsung. (Saya setiap pagi minum kopi.)",
     "options": [
@@ -35,7 +35,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · Partikel を",
-    "prompt": "きのう デパートで くつ（　） 買いました。",
+    "prompt": "きのう デパートで くつ（　） 買[か]いました。",
     "promptRomaji": "Kinou depaato de kutsu ( ) kaimashita.",
     "sub": "Pilih partikel objek. (Kemarin membeli sepatu di department store.)",
     "options": [
@@ -57,14 +57,14 @@ window.MNN_BANK[6] = [
       }
     ],
     "answer": 0,
-    "explain": "くつを 買いました: を menandai benda yang dibeli."
+    "explain": "くつを 買[か]いました: を menandai benda yang dibeli."
   },
   {
     "id": "b6-03",
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · Partikel を",
-    "prompt": "まいばん 日本語の 本（　） 読みます。",
+    "prompt": "まいばん 日本語[にほんご]の 本[ほん]（　） 読[よ]みます。",
     "promptRomaji": "Maiban Nihongo no hon ( ) yomimasu.",
     "sub": "Pilih partikel objek. (Setiap malam membaca buku bahasa Jepang.)",
     "options": [
@@ -86,14 +86,14 @@ window.MNN_BANK[6] = [
       }
     ],
     "answer": 0,
-    "explain": "本を 読みます: を menandai objek dari kata kerja 読みます."
+    "explain": "本[ほん]を 読[よ]みます: を menandai objek dari kata kerja 読[よ]みます."
   },
   {
     "id": "b6-04",
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · Partikel を",
-    "prompt": "あした ともだちと えいが（　） 見ます。",
+    "prompt": "あした ともだちと えいが（　） 見[み]ます。",
     "promptRomaji": "Ashita tomodachi to eiga ( ) mimasu.",
     "sub": "Pilih partikel objek. (Besok menonton film bersama teman.)",
     "options": [
@@ -115,7 +115,7 @@ window.MNN_BANK[6] = [
       }
     ],
     "answer": 2,
-    "explain": "えいがを 見ます: を menandai objek yang ditonton."
+    "explain": "えいがを 見[み]ます: を menandai objek yang ditonton."
   },
   {
     "id": "b6-05",
@@ -151,7 +151,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · で (tempat aksi)",
-    "prompt": "しょくどう（　） ひるごはんを 食べます。",
+    "prompt": "しょくどう（　） ひるごはんを 食[た]べます。",
     "promptRomaji": "Shokudou ( ) hirugohan o tabemasu.",
     "sub": "Pilih partikel tempat aksi. (Makan siang di kantin.)",
     "options": [
@@ -180,7 +180,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · で (tempat aksi)",
-    "prompt": "としょかん（　） 本を 読みます。",
+    "prompt": "としょかん（　） 本[ほん]を 読[よ]みます。",
     "promptRomaji": "Toshokan ( ) hon o yomimasu.",
     "sub": "Pilih partikel tempat aksi. (Membaca buku di perpustakaan.)",
     "options": [
@@ -209,7 +209,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · で (tempat aksi)",
-    "prompt": "スーパー（　） やさいを 買います。",
+    "prompt": "スーパー（　） やさいを 買[か]います。",
     "promptRomaji": "Suupaa ( ) yasai o kaimasu.",
     "sub": "Pilih partikel tempat aksi. (Membeli sayur di supermarket.)",
     "options": [
@@ -231,14 +231,14 @@ window.MNN_BANK[6] = [
       }
     ],
     "answer": 2,
-    "explain": "スーパーで 買います: で menandai tempat aksi membeli."
+    "explain": "スーパーで 買[か]います: で menandai tempat aksi membeli."
   },
   {
     "id": "b6-09",
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · で (tempat aksi)",
-    "prompt": "にわ（　） しゃしんを 撮りました。",
+    "prompt": "にわ（　） しゃしんを 撮[と]りました。",
     "promptRomaji": "Niwa ( ) shashin o torimashita.",
     "sub": "Pilih partikel tempat aksi. (Mengambil foto di halaman.)",
     "options": [
@@ -267,7 +267,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · に (あいます)",
-    "prompt": "えきで ミラーさん（　） 会いました。",
+    "prompt": "えきで ミラーさん（　） 会[あ]いました。",
     "promptRomaji": "Eki de Miraa-san ( ) aimashita.",
     "sub": "Pilih partikel untuk orang yang ditemui. (Bertemu Sdr. Miller di stasiun.)",
     "options": [
@@ -289,14 +289,14 @@ window.MNN_BANK[6] = [
       }
     ],
     "answer": 3,
-    "explain": "Kata kerja 会います memakai に untuk orang yang ditemui."
+    "explain": "Kata kerja 会[あ]います memakai に untuk orang yang ditemui."
   },
   {
     "id": "b6-11",
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · に (あいます)",
-    "prompt": "あした ともだち（　） 会います。",
+    "prompt": "あした ともだち（　） 会[あ]います。",
     "promptRomaji": "Ashita tomodachi ( ) aimasu.",
     "sub": "Pilih partikel yang tepat. (Besok bertemu teman.)",
     "options": [
@@ -318,14 +318,14 @@ window.MNN_BANK[6] = [
       }
     ],
     "answer": 3,
-    "explain": "ともだちに 会います: orang yang ditemui ditandai に, bukan を."
+    "explain": "ともだちに 会[あ]います: orang yang ditemui ditandai に, bukan を."
   },
   {
     "id": "b6-12",
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · なにも",
-    "prompt": "けさ （　） 食べませんでした。",
+    "prompt": "けさ （　） 食[た]べませんでした。",
     "promptRomaji": "Kesa ( ) tabemasen deshita.",
     "sub": "Lengkapi 'tidak makan apa pun'. (Tadi pagi tidak makan apa-apa.)",
     "options": [
@@ -354,7 +354,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · なに vs なん",
-    "prompt": "あさごはんに （　） 食べますか。",
+    "prompt": "あさごはんに （　） 食[た]べますか。",
     "promptRomaji": "Asagohan ni ( ) tabemasu ka.",
     "sub": "Pilih kata tanya + partikel. (Makan apa untuk sarapan?)",
     "options": [
@@ -411,112 +411,112 @@ window.MNN_BANK[6] = [
     "id": "b6-15",
     "bab": 6,
     "type": "mcq",
-    "badge": "Bab 6 · Konjugasi 食べます",
-    "prompt": "「食べます」の 否定形は どれですか。",
+    "badge": "Bab 6 · Konjugasi 食[た]べます",
+    "prompt": "「食[た]べます」の 否定形[ひていけい]は どれですか。",
     "promptRomaji": "'Tabemasu' no hitei-kei wa dore desu ka.",
     "sub": "Bentuk negatif sopan dari 'makan'.",
     "options": [
       {
-        "jp": "食べませんでした",
+        "jp": "食[た]べませんでした",
         "romaji": "tabemasen deshita"
       },
       {
-        "jp": "食べません",
+        "jp": "食[た]べません",
         "romaji": "tabemasen"
       },
       {
-        "jp": "食べました",
+        "jp": "食[た]べました",
         "romaji": "tabemashita"
       },
       {
-        "jp": "食べます",
+        "jp": "食[た]べます",
         "romaji": "tabemasu"
       }
     ],
     "answer": 1,
-    "explain": "Bentuk negatif sopan dari 食べます adalah 食べません."
+    "explain": "Bentuk negatif sopan dari 食[た]べます adalah 食[た]べません."
   },
   {
     "id": "b6-16",
     "bab": 6,
     "type": "mcq",
-    "badge": "Bab 6 · Konjugasi 食べます",
-    "prompt": "「食べます」の 過去形は どれですか。",
+    "badge": "Bab 6 · Konjugasi 食[た]べます",
+    "prompt": "「食[た]べます」の 過去形[かこけい]は どれですか。",
     "promptRomaji": "'Tabemasu' no kako-kei wa dore desu ka.",
     "sub": "Bentuk lampau sopan dari 'makan'.",
     "options": [
       {
-        "jp": "食べます",
+        "jp": "食[た]べます",
         "romaji": "tabemasu"
       },
       {
-        "jp": "食べません",
+        "jp": "食[た]べません",
         "romaji": "tabemasen"
       },
       {
-        "jp": "食べませんでした",
+        "jp": "食[た]べませんでした",
         "romaji": "tabemasen deshita"
       },
       {
-        "jp": "食べました",
+        "jp": "食[た]べました",
         "romaji": "tabemashita"
       }
     ],
     "answer": 3,
-    "explain": "Bentuk lampau sopan dari 食べます adalah 食べました."
+    "explain": "Bentuk lampau sopan dari 食[た]べます adalah 食[た]べました."
   },
   {
     "id": "b6-17",
     "bab": 6,
     "type": "mcq",
-    "badge": "Bab 6 · Konjugasi 食べます",
-    "prompt": "「食べます」の 過去否定形は どれですか。",
+    "badge": "Bab 6 · Konjugasi 食[た]べます",
+    "prompt": "「食[た]べます」の 過去否定形[かこひていけい]は どれですか。",
     "promptRomaji": "'Tabemasu' no kako hitei-kei wa dore desu ka.",
     "sub": "Bentuk lampau negatif sopan dari 'makan'.",
     "options": [
       {
-        "jp": "食べます",
+        "jp": "食[た]べます",
         "romaji": "tabemasu"
       },
       {
-        "jp": "食べませんでした",
+        "jp": "食[た]べませんでした",
         "romaji": "tabemasen deshita"
       },
       {
-        "jp": "食べました",
+        "jp": "食[た]べました",
         "romaji": "tabemashita"
       },
       {
-        "jp": "食べません",
+        "jp": "食[た]べません",
         "romaji": "tabemasen"
       }
     ],
     "answer": 1,
-    "explain": "Bentuk lampau negatif sopan dari 食べます adalah 食べませんでした."
+    "explain": "Bentuk lampau negatif sopan dari 食[た]べます adalah 食[た]べませんでした."
   },
   {
     "id": "b6-18",
     "bab": 6,
     "type": "mcq",
-    "badge": "Bab 6 · Konjugasi 飲みます",
-    "prompt": "「飲みます」の 「Ayo minum!」という 形は どれですか。",
+    "badge": "Bab 6 · Konjugasi 飲[の]みます",
+    "prompt": "「飲[の]みます」の 「Ayo minum!」という 形[けい]は どれですか。",
     "promptRomaji": "'Nomimasu' no 'Ayo minum!' to iu katachi wa dore desu ka.",
     "sub": "Bentuk ajakan langsung.",
     "options": [
       {
-        "jp": "飲みません",
+        "jp": "飲[の]みません",
         "romaji": "nomimasen"
       },
       {
-        "jp": "飲みました",
+        "jp": "飲[の]みました",
         "romaji": "nomimashita"
       },
       {
-        "jp": "飲みませんか",
+        "jp": "飲[の]みませんか",
         "romaji": "nomimasen ka"
       },
       {
-        "jp": "飲みましょう",
+        "jp": "飲[の]みましょう",
         "romaji": "nomimashou"
       }
     ],
@@ -527,25 +527,25 @@ window.MNN_BANK[6] = [
     "id": "b6-19",
     "bab": 6,
     "type": "mcq",
-    "badge": "Bab 6 · Konjugasi 飲みます",
-    "prompt": "「飲みます」の 「Maukah minum?」という 形は どれですか。",
+    "badge": "Bab 6 · Konjugasi 飲[の]みます",
+    "prompt": "「飲[の]みます」の 「Maukah minum?」という 形[けい]は どれですか。",
     "promptRomaji": "'Nomimasu' no 'Maukah minum?' to iu katachi wa dore desu ka.",
     "sub": "Bentuk ajakan sopan menanyakan kesediaan.",
     "options": [
       {
-        "jp": "飲みましょう",
+        "jp": "飲[の]みましょう",
         "romaji": "nomimashou"
       },
       {
-        "jp": "飲みませんか",
+        "jp": "飲[の]みませんか",
         "romaji": "nomimasen ka"
       },
       {
-        "jp": "飲みましたか",
+        "jp": "飲[の]みましたか",
         "romaji": "nomimashita ka"
       },
       {
-        "jp": "飲みません",
+        "jp": "飲[の]みません",
         "romaji": "nomimasen"
       }
     ],
@@ -556,95 +556,95 @@ window.MNN_BANK[6] = [
     "id": "b6-20",
     "bab": 6,
     "type": "mcq",
-    "badge": "Bab 6 · Konjugasi 見ます",
-    "prompt": "「見ます」の ましょう形は どれですか。",
+    "badge": "Bab 6 · Konjugasi 見[み]ます",
+    "prompt": "「見[み]ます」の ましょう形[けい]は どれですか。",
     "promptRomaji": "'Mimasu' no mashou-kei wa dore desu ka.",
     "sub": "Bentuk 'ayo menonton'.",
     "options": [
       {
-        "jp": "見ません",
+        "jp": "見[み]ません",
         "romaji": "mimasen"
       },
       {
-        "jp": "見ます",
+        "jp": "見[み]ます",
         "romaji": "mimasu"
       },
       {
-        "jp": "見ましょう",
+        "jp": "見[み]ましょう",
         "romaji": "mimashou"
       },
       {
-        "jp": "見ました",
+        "jp": "見[み]ました",
         "romaji": "mimashita"
       }
     ],
     "answer": 2,
-    "explain": "見ます → 見ましょう (ayo menonton)."
+    "explain": "見[み]ます → 見[み]ましょう (ayo menonton)."
   },
   {
     "id": "b6-21",
     "bab": 6,
     "type": "mcq",
-    "badge": "Bab 6 · Konjugasi 買います",
-    "prompt": "「買います」の ましょう形は どれですか。",
+    "badge": "Bab 6 · Konjugasi 買[か]います",
+    "prompt": "「買[か]います」の ましょう形[けい]は どれですか。",
     "promptRomaji": "'Kaimasu' no mashou-kei wa dore desu ka.",
     "sub": "Bentuk 'ayo membeli'.",
     "options": [
       {
-        "jp": "買いました",
+        "jp": "買[か]いました",
         "romaji": "kaimashita"
       },
       {
-        "jp": "買いません",
+        "jp": "買[か]いません",
         "romaji": "kaimasen"
       },
       {
-        "jp": "買います",
+        "jp": "買[か]います",
         "romaji": "kaimasu"
       },
       {
-        "jp": "買いましょう",
+        "jp": "買[か]いましょう",
         "romaji": "kaimashou"
       }
     ],
     "answer": 3,
-    "explain": "買います → 買いましょう (ayo membeli)."
+    "explain": "買[か]います → 買[か]いましょう (ayo membeli)."
   },
   {
     "id": "b6-22",
     "bab": 6,
     "type": "mcq",
-    "badge": "Bab 6 · Konjugasi 来ます",
-    "prompt": "「来ます」の ましょう形は どれですか。",
+    "badge": "Bab 6 · Konjugasi 来[き]ます",
+    "prompt": "「来[き]ます」の ましょう形[けい]は どれですか。",
     "promptRomaji": "'Kimasu' no mashou-kei wa dore desu ka.",
     "sub": "Bentuk 'ayo datang'.",
     "options": [
       {
-        "jp": "来ましょう",
+        "jp": "来[き]ましょう",
         "romaji": "kimashou"
       },
       {
-        "jp": "来ません",
+        "jp": "来[き]ません",
         "romaji": "kimasen"
       },
       {
-        "jp": "来ました",
+        "jp": "来[き]ました",
         "romaji": "kimashita"
       },
       {
-        "jp": "来ます",
+        "jp": "来[き]ます",
         "romaji": "kimasu"
       }
     ],
     "answer": 0,
-    "explain": "来ます → 来ましょう (ayo datang)."
+    "explain": "来[き]ます → 来[き]ましょう (ayo datang)."
   },
   {
     "id": "b6-23",
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · Kosakata",
-    "prompt": "「たべます」の 意味は どれですか。",
+    "prompt": "「たべます」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Tabemasu' no imi wa dore desu ka.",
     "sub": "Pilih arti kata kerja たべます.",
     "options": [
@@ -673,7 +673,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · Kosakata",
-    "prompt": "「のみます」の 意味は どれですか。",
+    "prompt": "「のみます」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Nomimasu' no imi wa dore desu ka.",
     "sub": "Pilih arti kata kerja のみます.",
     "options": [
@@ -702,7 +702,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · Kosakata",
-    "prompt": "「すいます」の 意味は どれですか。",
+    "prompt": "「すいます」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Suimasu' no imi wa dore desu ka.",
     "sub": "Pilih arti kata kerja すいます.",
     "options": [
@@ -731,7 +731,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · Kosakata",
-    "prompt": "「みます」の 意味は どれですか。",
+    "prompt": "「みます」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Mimasu' no imi wa dore desu ka.",
     "sub": "Pilih arti kata kerja みます.",
     "options": [
@@ -760,7 +760,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · Kosakata",
-    "prompt": "「ききます」の 意味は どれですか。",
+    "prompt": "「ききます」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Kikimasu' no imi wa dore desu ka.",
     "sub": "Pilih arti kata kerja ききます.",
     "options": [
@@ -789,7 +789,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · Kosakata",
-    "prompt": "「よみます」の 意味は どれですか。",
+    "prompt": "「よみます」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Yomimasu' no imi wa dore desu ka.",
     "sub": "Pilih arti kata kerja よみます.",
     "options": [
@@ -818,7 +818,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · Kosakata",
-    "prompt": "「かきます」の 意味は どれですか。",
+    "prompt": "「かきます」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Kakimasu' no imi wa dore desu ka.",
     "sub": "Pilih arti kata kerja かきます.",
     "options": [
@@ -847,7 +847,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · Kosakata",
-    "prompt": "「かいます」の 意味は どれですか。",
+    "prompt": "「かいます」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Kaimasu' no imi wa dore desu ka.",
     "sub": "Pilih arti kata kerja かいます.",
     "options": [
@@ -876,7 +876,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · Kosakata",
-    "prompt": "「とります」の 意味は どれですか。",
+    "prompt": "「とります」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Torimasu' no imi wa dore desu ka.",
     "sub": "Pilih arti kata kerja とります.",
     "options": [
@@ -905,7 +905,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · Kosakata",
-    "prompt": "「あいます」の 意味は どれですか。",
+    "prompt": "「あいます」の 意味[いみ]は どれですか。",
     "promptRomaji": "'Aimasu' no imi wa dore desu ka.",
     "sub": "Pilih arti kata kerja あいます.",
     "options": [
@@ -934,8 +934,8 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · なん vs なに",
-    "prompt": "これは （　） ですか。…それは じしょです。",
-    "promptRomaji": "Kore wa ( ) desu ka. ...Sore wa jisho desu.",
+    "prompt": "A：これは （　） ですか。\nB：それは じしょです。",
+    "promptRomaji": "A: Kore wa ( ) desu ka.\nB: Sore wa jisho desu.",
     "sub": "Pilih kata tanya yang tepat. (Ini apa? ...Itu kamus.)",
     "options": [
       {
@@ -963,8 +963,8 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · なん vs なに",
-    "prompt": "それは （　） 本ですか。…日本語の 本です。",
-    "promptRomaji": "Sore wa ( ) hon desu ka. ...Nihongo no hon desu.",
+    "prompt": "A：それは （　） 本[ほん]ですか。\nB：日本語[にほんご]の 本[ほん]です。",
+    "promptRomaji": "A: Sore wa ( ) hon desu ka.\nB: Nihongo no hon desu.",
     "sub": "Pilih kata tanya yang tepat. (Itu buku apa? ...Buku bahasa Jepang.)",
     "options": [
       {
@@ -985,7 +985,7 @@ window.MNN_BANK[6] = [
       }
     ],
     "answer": 0,
-    "explain": "Sebelum の dipakai なん: なんの 本."
+    "explain": "Sebelum の dipakai なん: なんの 本[ほん]."
   },
   {
     "id": "b6-35",
@@ -1021,7 +1021,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · なん vs なに",
-    "prompt": "きのう えきで （　） 買いましたか。",
+    "prompt": "きのう えきで （　） 買[か]いましたか。",
     "promptRomaji": "Kinou eki de ( ) kaimashita ka.",
     "sub": "Pilih kata tanya yang tepat. (Kemarin membeli apa di stasiun?)",
     "options": [
@@ -1043,14 +1043,14 @@ window.MNN_BANK[6] = [
       }
     ],
     "answer": 2,
-    "explain": "なに dipakai sebelum を: なにを 買いましたか."
+    "explain": "なに dipakai sebelum を: なにを 買[か]いましたか."
   },
   {
     "id": "b6-37",
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · Arti なんの",
-    "prompt": "「これは なんの 本ですか。」の 意味は どれですか。",
+    "prompt": "「これは なんの 本[ほん]ですか。」の 意味[いみ]は どれですか。",
     "promptRomaji": "Kore wa nan no hon desu ka.",
     "sub": "Pilih terjemahan yang tepat.",
     "options": [
@@ -1072,14 +1072,14 @@ window.MNN_BANK[6] = [
       }
     ],
     "answer": 0,
-    "explain": "なんの 本 menanyakan isi atau tema buku."
+    "explain": "なんの 本[ほん] menanyakan isi atau tema buku."
   },
   {
     "id": "b6-38",
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · ませんか",
-    "prompt": "「いっしょに コーヒーを 飲みませんか。」の 意味は どれですか。",
+    "prompt": "「いっしょに コーヒーを 飲[の]みませんか。」の 意味[いみ]は どれですか。",
     "promptRomaji": "Issho ni koohii o nomimasen ka.",
     "sub": "Pilih terjemahan yang tepat.",
     "options": [
@@ -1113,19 +1113,19 @@ window.MNN_BANK[6] = [
     "sub": "Pilih kalimat ajakan sopan.",
     "options": [
       {
-        "jp": "いっしょに きょうとへ 行きません。",
+        "jp": "いっしょに きょうとへ 行[い]きません。",
         "romaji": "Issho ni Kyouto e ikimasen."
       },
       {
-        "jp": "いっしょに きょうとへ 行きましょう。",
+        "jp": "いっしょに きょうとへ 行[い]きましょう。",
         "romaji": "Issho ni Kyouto e ikimashou."
       },
       {
-        "jp": "いっしょに きょうとへ 行きませんか。",
+        "jp": "いっしょに きょうとへ 行[い]きませんか。",
         "romaji": "Issho ni Kyouto e ikimasen ka."
       },
       {
-        "jp": "いっしょに きょうとへ 行きましたか。",
+        "jp": "いっしょに きょうとへ 行[い]きましたか。",
         "romaji": "Issho ni Kyouto e ikimashita ka."
       }
     ],
@@ -1142,19 +1142,19 @@ window.MNN_BANK[6] = [
     "sub": "Pilih kalimat dengan partikel tempat dan ajakan yang benar.",
     "options": [
       {
-        "jp": "しょくどうで いっしょに ひるごはんを 食べませんか。",
+        "jp": "しょくどうで いっしょに ひるごはんを 食[た]べませんか。",
         "romaji": "Shokudou de issho ni hirugohan o tabemasen ka."
       },
       {
-        "jp": "しょくどうで いっしょに ひるごはんを 食べません。",
+        "jp": "しょくどうで いっしょに ひるごはんを 食[た]べません。",
         "romaji": "Shokudou de issho ni hirugohan o tabemasen."
       },
       {
-        "jp": "しょくどうに いっしょに ひるごはんを 食べませんか。",
+        "jp": "しょくどうに いっしょに ひるごはんを 食[た]べませんか。",
         "romaji": "Shokudou ni issho ni hirugohan o tabemasen ka."
       },
       {
-        "jp": "しょくどうで いっしょに ひるごはんを 食べましょう。",
+        "jp": "しょくどうで いっしょに ひるごはんを 食[た]べましょう。",
         "romaji": "Shokudou de issho ni hirugohan o tabemashou."
       }
     ],
@@ -1166,7 +1166,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · ましょう",
-    "prompt": "「ちょっと 休みましょう。」の 意味は どれですか。",
+    "prompt": "「ちょっと 休[やす]みましょう。」の 意味[いみ]は どれですか。",
     "promptRomaji": "Chotto yasumimashou.",
     "sub": "Pilih terjemahan yang tepat.",
     "options": [
@@ -1195,24 +1195,24 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · ましょう",
-    "prompt": "A:「いっしょに お茶を 飲みませんか。」 B:「ええ、（　）。」",
-    "promptRomaji": "A: 'Issho ni ocha o nomimasen ka.' B: 'Ee, ( ).'",
+    "prompt": "A：「いっしょに お茶[ちゃ]を 飲[の]みませんか。」\nB：「ええ、（　）。」",
+    "promptRomaji": "A: 'Issho ni ocha o nomimasen ka.'\nB: 'Ee, ( ).'",
     "sub": "Pilih jawaban setuju yang tepat. (Ya, ayo minum.)",
     "options": [
       {
-        "jp": "飲みましょう",
+        "jp": "飲[の]みましょう",
         "romaji": "nomimashou"
       },
       {
-        "jp": "飲みません",
+        "jp": "飲[の]みません",
         "romaji": "nomimasen"
       },
       {
-        "jp": "飲みませんでした",
+        "jp": "飲[の]みませんでした",
         "romaji": "nomimasen deshita"
       },
       {
-        "jp": "飲みました",
+        "jp": "飲[の]みました",
         "romaji": "nomimashita"
       }
     ],
@@ -1229,19 +1229,19 @@ window.MNN_BANK[6] = [
     "sub": "Pilih kalimat ajakan langsung.",
     "options": [
       {
-        "jp": "わたしの うちに えいがを 見ましょう。",
+        "jp": "わたしの うちに えいがを 見[み]ましょう。",
         "romaji": "Watashi no uchi ni eiga o mimashou."
       },
       {
-        "jp": "わたしの うちで えいがを 見ました。",
+        "jp": "わたしの うちで えいがを 見[み]ました。",
         "romaji": "Watashi no uchi de eiga o mimashita."
       },
       {
-        "jp": "わたしの うちで えいがを 見ましょう。",
+        "jp": "わたしの うちで えいがを 見[み]ましょう。",
         "romaji": "Watashi no uchi de eiga o mimashou."
       },
       {
-        "jp": "わたしの うちで えいがを 見ます。",
+        "jp": "わたしの うちで えいがを 見[み]ます。",
         "romaji": "Watashi no uchi de eiga o mimasu."
       }
     ],
@@ -1258,19 +1258,19 @@ window.MNN_BANK[6] = [
     "sub": "Pilih kalimat dengan partikel dan kata sambung yang benar.",
     "options": [
       {
-        "jp": "デパートに くつを 買いました。それから、えいがを 見ました。",
+        "jp": "デパートに くつを 買[か]いました。それから、えいがを 見[み]ました。",
         "romaji": "Depaato ni kutsu o kaimashita. Sorekara, eiga o mimashita."
       },
       {
-        "jp": "デパートで くつを 買いました。しかし、えいがを 見ました。",
+        "jp": "デパートで くつを 買[か]いました。しかし、えいがを 見[み]ました。",
         "romaji": "Depaato de kutsu o kaimashita. Shikashi, eiga o mimashita."
       },
       {
-        "jp": "デパートで くつを 買いました。いつも、えいがを 見ました。",
+        "jp": "デパートで くつを 買[か]いました。いつも、えいがを 見[み]ました。",
         "romaji": "Depaato de kutsu o kaimashita. Itsumo, eiga o mimashita."
       },
       {
-        "jp": "デパートで くつを 買いました。それから、えいがを 見ました。",
+        "jp": "デパートで くつを 買[か]いました。それから、えいがを 見[み]ました。",
         "romaji": "Depaato de kutsu o kaimashita. Sorekara, eiga o mimashita."
       }
     ],
@@ -1282,8 +1282,8 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · どこで",
-    "prompt": "A:「（　） しんぶんを 買いますか。」 B:「えきで 買います。」",
-    "promptRomaji": "A: '( ) shinbun o kaimasu ka.' B: 'Eki de kaimasu.'",
+    "prompt": "A：「（　） しんぶんを 買[か]いますか。」\nB：「えきで 買[か]います。」",
+    "promptRomaji": "A: '( ) shinbun o kaimasu ka.'\nB: 'Eki de kaimasu.'",
     "sub": "Pilih kata tanya tempat. (Di mana membeli koran?)",
     "options": [
       {
@@ -1311,8 +1311,8 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · だれに",
-    "prompt": "A:「（　） 会いましたか。」 B:「ミラーさんに 会いました。」",
-    "promptRomaji": "A: '( ) aimashita ka.' B: 'Miraa-san ni aimashita.'",
+    "prompt": "A：「（　） 会[あ]いましたか。」\nB：「ミラーさんに 会[あ]いました。」",
+    "promptRomaji": "A: '( ) aimashita ka.'\nB: 'Miraa-san ni aimashita.'",
     "sub": "Pilih kata tanya orang. (Bertemu dengan siapa?)",
     "options": [
       {
@@ -1345,19 +1345,19 @@ window.MNN_BANK[6] = [
     "sub": "Pilih kalimat dengan kata tanya + negatif yang benar.",
     "options": [
       {
-        "jp": "けさ なにも 食べませんでした。",
+        "jp": "けさ なにも 食[た]べませんでした。",
         "romaji": "Kesa nani mo tabemasen deshita."
       },
       {
-        "jp": "けさ なにを 食べませんでした。",
+        "jp": "けさ なにを 食[た]べませんでした。",
         "romaji": "Kesa nani o tabemasen deshita."
       },
       {
-        "jp": "けさ なにも 食べました。",
+        "jp": "けさ なにも 食[た]べました。",
         "romaji": "Kesa nani mo tabemashita."
       },
       {
-        "jp": "けさ なんも 食べませんでした。",
+        "jp": "けさ なんも 食[た]べませんでした。",
         "romaji": "Kesa nan mo tabemasen deshita."
       }
     ],
@@ -1369,7 +1369,7 @@ window.MNN_BANK[6] = [
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · Arti kalimat",
-    "prompt": "「わたしは えきで しんぶんを 買いました。」の 意味は どれですか。",
+    "prompt": "「わたしは えきで しんぶんを 買[か]いました。」の 意味[いみ]は どれですか。",
     "promptRomaji": "Watashi wa eki de shinbun o kaimashita.",
     "sub": "Pilih terjemahan yang tepat.",
     "options": [
@@ -1391,14 +1391,14 @@ window.MNN_BANK[6] = [
       }
     ],
     "answer": 2,
-    "explain": "えきで = di stasiun, しんぶんを 買いました = membeli koran."
+    "explain": "えきで = di stasiun, しんぶんを 買[か]いました = membeli koran."
   },
   {
     "id": "b6-49",
     "bab": 6,
     "type": "mcq",
     "badge": "Bab 6 · Bacaan を",
-    "prompt": "Partikel を dalam 「水を 飲みます」 dibaca...",
+    "prompt": "Partikel を dalam 「水[みず]を 飲[の]みます」 dibaca...",
     "promptRomaji": "Partikel 'wo' dalam kalimat tersebut dibaca...",
     "sub": "Pilih bacaan yang benar.",
     "options": [
@@ -1432,19 +1432,19 @@ window.MNN_BANK[6] = [
     "sub": "Periksa partikel tempat, partikel objek, dan bentuk ajakan.",
     "options": [
       {
-        "jp": "あした としょかんで 本が 読みましょう。",
+        "jp": "あした としょかんで 本[ほん]が 読[よ]みましょう。",
         "romaji": "Ashita toshokan de hon ga yomimashou."
       },
       {
-        "jp": "あした としょかんで 本を 読みましょう。",
+        "jp": "あした としょかんで 本[ほん]を 読[よ]みましょう。",
         "romaji": "Ashita toshokan de hon o yomimashou."
       },
       {
-        "jp": "あした としょかんで 本を 読むましょう。",
+        "jp": "あした としょかんで 本[ほん]を 読[よ]むましょう。",
         "romaji": "Ashita toshokan de hon o yomumashou."
       },
       {
-        "jp": "あした としょかんに 本を 読みましょう。",
+        "jp": "あした としょかんに 本[ほん]を 読[よ]みましょう。",
         "romaji": "Ashita toshokan ni hon o yomimashou."
       }
     ],

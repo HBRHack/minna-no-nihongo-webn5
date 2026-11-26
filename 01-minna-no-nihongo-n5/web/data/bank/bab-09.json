@@ -903,8 +903,8 @@
     "bab": 9,
     "type": "mcq",
     "badge": "Bab 9 · Jawaban どうして",
-    "prompt": "どうして きのう やすみましたか。…ようじが ありました （　）。",
-    "promptRomaji": "Doushite kinou yasumimashita ka. ... Youji ga arimashita ( ).",
+    "prompt": "A：どうして きのう やすみましたか。\nB：ようじが ありました （　）。",
+    "promptRomaji": "A: Doushite kinou yasumimashita ka.\nB: Youji ga arimashita ( ).",
     "sub": "Lengkapi jawaban pertanyaan どうして. (Karena ada urusan.)",
     "options": [
       {
@@ -1251,8 +1251,8 @@
     "bab": 9,
     "type": "mcq",
     "badge": "Bab 9 · Pola からです",
-    "prompt": "A: どうして きのう はやく かえりましたか。 B: （　）。",
-    "promptRomaji": "A: Doushite kinou hayaku kaerimashita ka. B: ( ).",
+    "prompt": "A：どうして きのう はやく かえりましたか。\nB：（　）。",
+    "promptRomaji": "A: Doushite kinou hayaku kaerimashita ka.\nB: ( ).",
     "sub": "Pilih jawaban yang tepat. (Karena ada urusan.)",
     "options": [
       {
@@ -1367,8 +1367,8 @@
     "bab": 9,
     "type": "mcq",
     "badge": "Bab 9 · から (alasan)",
-    "prompt": "A: どうして にほんごを べんきょうしますか。 B: にほんごが すきです （　）。",
-    "promptRomaji": "A: Doushite nihongo o benkyoushimasu ka. B: Nihongo ga suki desu ( ).",
+    "prompt": "A：どうして にほんごを べんきょうしますか。\nB：にほんごが すきです （　）。",
+    "promptRomaji": "A: Doushite nihongo o benkyoushimasu ka.\nB: Nihongo ga suki desu ( ).",
     "sub": "Lengkapi jawaban alasan. (Karena saya suka bahasa Jepang.)",
     "options": [
       {
@@ -1628,8 +1628,8 @@
     "bab": 9,
     "type": "mcq",
     "badge": "Bab 9 · Tanya dengan が",
-    "prompt": "A: 「どんな スポーツ（　） すきですか。」 B: 「テニスが すきです。」",
-    "promptRomaji": "A: Donna supootsu ( ) suki desu ka. B: Tenisu ga suki desu.",
+    "prompt": "A：「どんな スポーツ（　） すきですか。」\nB：「テニスが すきです。」",
+    "promptRomaji": "A: Donna supootsu ( ) suki desu ka.\nB: Tenisu ga suki desu.",
     "sub": "Pilih partikel yang tepat setelah どんな スポーツ.",
     "options": [
       {
@@ -1831,8 +1831,8 @@
     "bab": 9,
     "type": "mcq",
     "badge": "Bab 9 · Tanya どうして",
-    "prompt": "A: 「（　） コンサートへ いきませんか。」 B: 「アルバイトが ありますから。」",
-    "promptRomaji": "A: ( ) konsaato e ikimasen ka. B: Arubaito ga arimasu kara.",
+    "prompt": "A：「（　） コンサートへ いきませんか。」\nB：「アルバイトが ありますから。」",
+    "promptRomaji": "A: ( ) konsaato e ikimasen ka.\nB: Arubaito ga arimasu kara.",
     "sub": "Pilih kata tanya untuk menanyakan alasan.",
     "options": [
       {
@@ -1947,8 +1947,8 @@
     "bab": 9,
     "type": "mcq",
     "badge": "Bab 9 · Ungkapan menolak ajakan",
-    "prompt": "A: 「こんしゅうの どようび、いっしょに えいがを みませんか。」 B: 「すみません。どようびは （　）。」",
-    "promptRomaji": "A: Konshuu no doyoubi, isshoni eiga o mimasen ka. B: Sumimasen. Doyoubi wa ( ).",
+    "prompt": "A：「こんしゅうの どようび、いっしょに えいがを みませんか。」\nB：「すみません。どようびは （　）。」",
+    "promptRomaji": "A: Konshuu no doyoubi, isshoni eiga o mimasen ka.\nB: Sumimasen. Doyoubi wa ( ).",
     "sub": "Pilih ungkapan halus khas Jepang untuk menolak ajakan.",
     "options": [
       {
@@ -1976,8 +1976,8 @@
     "bab": 9,
     "type": "mcq",
     "badge": "Bab 9 · Ungkapan ざんねんですね",
-    "prompt": "A: 「きょうは ちょっと ようじが ありますから……。」 B: 「そうですか。（　）。また こんど おねがいします。」",
-    "promptRomaji": "A: Kyou wa chotto youji ga arimasu kara...... B: Sou desu ka. ( ). Mata kondo onegaishimasu.",
+    "prompt": "A：「きょうは ちょっと ようじが ありますから……。」\nB：「そうですか。（　）。また こんど おねがいします。」",
+    "promptRomaji": "A: Kyou wa chotto youji ga arimasu kara......\nB: Sou desu ka. ( ). Mata kondo onegaishimasu.",
     "sub": "Pilih ungkapan simpati ketika teman tidak bisa ikut.",
     "options": [
       {
@@ -2005,8 +2005,8 @@
     "bab": 9,
     "type": "mcq",
     "badge": "Bab 9 · Ungkapan meminjam",
-    "prompt": "A: 「すみません、えんぴつが ありませんから、その ボールペンを （　）。」 B: 「ええ、いいですよ。」",
-    "promptRomaji": "A: Sumimasen, enpitsu ga arimasen kara, sono boorupen o ( ). B: Ee, ii desu yo.",
+    "prompt": "A：「すみません、えんぴつが ありませんから、その ボールペンを （　）。」\nB：「ええ、いいですよ。」",
+    "promptRomaji": "A: Sumimasen, enpitsu ga arimasen kara, sono boorupen o ( ).\nB: Ee, ii desu yo.",
     "sub": "Pilih ungkapan meminta pinjam barang ('Tolong pinjamkan').",
     "options": [
       {
@@ -2034,8 +2034,8 @@
     "bab": 9,
     "type": "mcq",
     "badge": "Bab 9 · Ungkapan telepon",
-    "prompt": "A: 「（　）、カリナさんですか。」 B: 「はい、カリナです。」",
-    "promptRomaji": "A: ( ), Karina-san desu ka. B: Hai, Karina desu.",
+    "prompt": "A：「（　）、カリナさんですか。」\nB：「はい、カリナです。」",
+    "promptRomaji": "A: ( ), Karina-san desu ka.\nB: Hai, Karina desu.",
     "sub": "Pilih sapaan pembuka saat menelepon teman.",
     "options": [
       {
@@ -2121,8 +2121,8 @@
     "bab": 9,
     "type": "mcq",
     "badge": "Bab 9 · Dialog どうして + からです",
-    "prompt": "A: 「どうして はやく かえりますか。」 B: 「（　）。」（Karena ada janji dengan teman.）",
-    "promptRomaji": "A: Doushite hayaku kaerimasu ka. B: ( ).",
+    "prompt": "A：「どうして はやく かえりますか。」\nB：「（　）。」（Karena ada janji dengan teman.）",
+    "promptRomaji": "A: Doushite hayaku kaerimasu ka.\nB: ( ).",
     "sub": "Pilih jawaban yang tepat dengan pola ～からです.",
     "options": [
       {

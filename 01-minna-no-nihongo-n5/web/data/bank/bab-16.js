@@ -318,7 +318,7 @@ window.MNN_BANK[16] = [
       }
     ],
     "answer": 0,
-    "explain": "Dalam konteks ciri tubuh (かみが ながいです), かみ (髪) berarti rambut."
+    "explain": "Dalam konteks ciri tubuh (かみが ながいです), かみ (髪[かみ]) berarti rambut."
   },
   {
     "id": "b16-12",
@@ -1340,8 +1340,8 @@ window.MNN_BANK[16] = [
     "bab": 16,
     "type": "mcq",
     "badge": "Bab 16 · Dialog Rute (どうやって)",
-    "prompt": "A：「きょうとまで （　） いきますか。」 B：「JRに のって、きょうとえきで でんしゃを おります。」",
-    "promptRomaji": "A: \"Kyouto made _____ ikimasu ka.\" B: \"JR ni notte, Kyouto-eki de densha o orimasu.\"",
+    "prompt": "A：「きょうとまで （　） いきますか。」\nB：「JRに のって、きょうとえきで でんしゃを おります。」",
+    "promptRomaji": "A: \"Kyouto made _____ ikimasu ka.\"\nB: \"JR ni notte, Kyouto-eki de densha o orimasu.\"",
     "sub": "Lengkapi pertanyaan menanyakan cara/rute perjalanan.",
     "options": [
       {
@@ -1427,8 +1427,8 @@ window.MNN_BANK[16] = [
     "bab": 16,
     "type": "mcq",
     "badge": "Bab 16 · Dialog Ungkapan Merendah",
-    "prompt": "A：「にほんごが おじょうずですね。すごいですね。」 B：「いいえ、（　）。」",
-    "promptRomaji": "A: \"Nihongo ga ojouzu desu ne. Sugoi desu ne.\" B: \"Iie, _____.\"",
+    "prompt": "A：「にほんごが おじょうずですね。すごいですね。」\nB：「いいえ、（　）。」",
+    "promptRomaji": "A: \"Nihongo ga ojouzu desu ne. Sugoi desu ne.\"\nB: \"Iie, _____.\"",
     "sub": "Pilih balasan merendah yang tepat saat dipuji.",
     "options": [
       {
@@ -1565,7 +1565,7 @@ window.MNN_BANK[16] = [
       }
     ],
     "answer": 1,
-    "explain": "からだ (体) berarti tubuh atau badan."
+    "explain": "からだ (体[からだ]) berarti tubuh atau badan."
   },
   {
     "id": "b16-55",
@@ -1594,7 +1594,7 @@ window.MNN_BANK[16] = [
       }
     ],
     "answer": 2,
-    "explain": "おてら (お寺) berarti kuil Buddha, sedangkan じんじゃ (神社) berarti kuil Shinto."
+    "explain": "おてら (お寺[てら]) berarti kuil Buddha, sedangkan じんじゃ (神社[じんじゃ]) berarti kuil Shinto."
   },
   {
     "id": "b16-56",
@@ -1623,7 +1623,7 @@ window.MNN_BANK[16] = [
       }
     ],
     "answer": 0,
-    "explain": "かくにんします (確認します) berarti mengonfirmasi atau memeriksa kebenaran data/nominal."
+    "explain": "かくにんします (確認[かくにん]します) berarti mengonfirmasi atau memeriksa kebenaran data/nominal."
   },
   {
     "id": "b16-57",
@@ -2442,8 +2442,8 @@ window.MNN_BANK[16] = [
     "bab": 16,
     "type": "mcq",
     "badge": "Bab 16 · Kata Tanya どうやって",
-    "prompt": "A：「（　） うちへ かえりますか。」 B：「ちかてつに のって、バスに のりかえます。」",
-    "promptRomaji": "A: \"_____ uchi e kaerimasu ka.\" B: \"Chikatetsu ni notte, basu ni norikaemasu.\"",
+    "prompt": "A：「（　） うちへ かえりますか。」\nB：「ちかてつに のって、バスに のりかえます。」",
+    "promptRomaji": "A: \"_____ uchi e kaerimasu ka.\"\nB: \"Chikatetsu ni notte, basu ni norikaemasu.\"",
     "sub": "Pilih kata tanya yang sesuai dengan penjelasan langkah rute di jawaban B.",
     "options": [
       {
@@ -2877,8 +2877,8 @@ window.MNN_BANK[16] = [
     "bab": 16,
     "type": "mcq",
     "badge": "Bab 16 · Dialog Menunjuk Orang",
-    "prompt": "A：「サントスさんは どの ひとですか。」 B：「（　）。」",
-    "promptRomaji": "A: \"Santosu-san wa dono hito desu ka.\" B: \"_____.\"",
+    "prompt": "A：「サントスさんは どの ひとですか。」\nB：「（　）。」",
+    "promptRomaji": "A: \"Santosu-san wa dono hito desu ka.\"\nB: \"_____.\"",
     "sub": "Pilih jawaban yang mendeskripsikan dua ciri fisik/sifat dengan benar.",
     "options": [
       {

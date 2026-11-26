@@ -34,7 +34,7 @@ window.MNN_BANK[13] = [
     "id": "b13-02",
     "bab": 13,
     "type": "mcq",
-    "badge": "Bab 13 · Kosakata お金",
+    "badge": "Bab 13 · Kosakata お金[かね]",
     "prompt": "「おかね」の いみは どれですか。",
     "promptRomaji": "Okane no imi wa dore desu ka.",
     "sub": "Pilih arti kata yang tepat.",
@@ -63,7 +63,7 @@ window.MNN_BANK[13] = [
     "id": "b13-03",
     "bab": 13,
     "type": "mcq",
-    "badge": "Bab 13 · Kosakata 時間",
+    "badge": "Bab 13 · Kosakata 時間[じかん]",
     "prompt": "「じかん」の いみは どれですか。",
     "promptRomaji": "Jikan no imi wa dore desu ka.",
     "sub": "Pilih arti kata yang tepat.",
@@ -92,7 +92,7 @@ window.MNN_BANK[13] = [
     "id": "b13-04",
     "bab": 13,
     "type": "mcq",
-    "badge": "Bab 13 · Kosakata 用事",
+    "badge": "Bab 13 · Kosakata 用事[ようじ]",
     "prompt": "「ようじ」の いみは どれですか。",
     "promptRomaji": "Youji no imi wa dore desu ka.",
     "sub": "Pilih arti kata yang tepat.",
@@ -121,7 +121,7 @@ window.MNN_BANK[13] = [
     "id": "b13-05",
     "bab": 13,
     "type": "mcq",
-    "badge": "Bab 13 · Kosakata 約束",
+    "badge": "Bab 13 · Kosakata 約束[やくそく]",
     "prompt": "「やくそく」の いみは どれですか。",
     "promptRomaji": "Yakusoku no imi wa dore desu ka.",
     "sub": "Pilih arti kata yang tepat.",
@@ -150,7 +150,7 @@ window.MNN_BANK[13] = [
     "id": "b13-06",
     "bab": 13,
     "type": "mcq",
-    "badge": "Bab 13 · Kosakata 旅行",
+    "badge": "Bab 13 · Kosakata 旅行[りょこう]",
     "prompt": "「りょこう」の いみは どれですか。",
     "promptRomaji": "Ryokou no imi wa dore desu ka.",
     "sub": "Pilih arti kata yang tepat.",
@@ -179,7 +179,7 @@ window.MNN_BANK[13] = [
     "id": "b13-07",
     "bab": 13,
     "type": "mcq",
-    "badge": "Bab 13 · Kosakata 買い物",
+    "badge": "Bab 13 · Kosakata 買[か]い物[もの]",
     "prompt": "「かいもの」の いみは どれですか。",
     "promptRomaji": "Kaimono no imi wa dore desu ka.",
     "sub": "Pilih arti kata yang tepat.",
@@ -208,7 +208,7 @@ window.MNN_BANK[13] = [
     "id": "b13-08",
     "bab": 13,
     "type": "mcq",
-    "badge": "Bab 13 · Kosakata 見物",
+    "badge": "Bab 13 · Kosakata 見物[けんぶつ]",
     "prompt": "「けんぶつ」の いみは どれですか。",
     "promptRomaji": "Kenbutsu no imi wa dore desu ka.",
     "sub": "Pilih arti kata yang tepat.",
@@ -237,7 +237,7 @@ window.MNN_BANK[13] = [
     "id": "b13-09",
     "bab": 13,
     "type": "mcq",
-    "badge": "Bab 13 · Kosakata 食事",
+    "badge": "Bab 13 · Kosakata 食事[しょくじ]",
     "prompt": "「しょくじ」の いみは どれですか。",
     "promptRomaji": "Shokuji no imi wa dore desu ka.",
     "sub": "Pilih arti kata yang tepat.",
@@ -266,7 +266,7 @@ window.MNN_BANK[13] = [
     "id": "b13-10",
     "bab": 13,
     "type": "mcq",
-    "badge": "Bab 13 · Kosakata 散歩",
+    "badge": "Bab 13 · Kosakata 散歩[さんぽ]",
     "prompt": "「さんぽ」の いみは どれですか。",
     "promptRomaji": "Sanpo no imi wa dore desu ka.",
     "sub": "Pilih arti kata yang tepat.",
@@ -295,7 +295,7 @@ window.MNN_BANK[13] = [
     "id": "b13-11",
     "bab": 13,
     "type": "mcq",
-    "badge": "Bab 13 · Kosakata 迎え",
+    "badge": "Bab 13 · Kosakata 迎[むか]え",
     "prompt": "「むかえ」の いみは どれですか。",
     "promptRomaji": "Mukae no imi wa dore desu ka.",
     "sub": "Pilih arti kata yang tepat.",
@@ -324,7 +324,7 @@ window.MNN_BANK[13] = [
     "id": "b13-12",
     "bab": 13,
     "type": "mcq",
-    "badge": "Bab 13 · Kosakata 練習",
+    "badge": "Bab 13 · Kosakata 練習[れんしゅう]",
     "prompt": "「れんしゅう」の いみは どれですか。",
     "promptRomaji": "Renshuu no imi wa dore desu ka.",
     "sub": "Pilih arti kata yang tepat.",
@@ -412,7 +412,7 @@ window.MNN_BANK[13] = [
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Partikel を (tujuan)",
-    "prompt": "デパートへ くつ （　） かいに 行きます。",
+    "prompt": "デパートへ くつ （　） かいに 行[い]きます。",
     "promptRomaji": "Depaato e kutsu ( ) kai ni ikimasu.",
     "sub": "Pilih partikel objek dari かいます. (Pergi ke department store untuk membeli sepatu.)",
     "options": [
@@ -441,7 +441,7 @@ window.MNN_BANK[13] = [
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Partikel を (tujuan)",
-    "prompt": "わたしは くうこうへ ともだち （　） むかえに 行きます。",
+    "prompt": "わたしは くうこうへ ともだち （　） むかえに 行[い]きます。",
     "promptRomaji": "Watashi wa kuukou e tomodachi ( ) mukae ni ikimasu.",
     "sub": "Pilih partikel objek dari むかえます. (Saya pergi ke bandara untuk menjemput teman.)",
     "options": [
@@ -499,7 +499,7 @@ window.MNN_BANK[13] = [
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Partikel に (tujuan)",
-    "prompt": "にほんへ けいざいの べんきょう （　） 来ました。",
+    "prompt": "にほんへ けいざいの べんきょう （　） 来[き]ました。",
     "promptRomaji": "Nihon e keizai no benkyou ( ) kimashita.",
     "sub": "Pilih partikel penanda tujuan kegiatan. (Datang ke Jepang untuk belajar ekonomi.)",
     "options": [
@@ -521,14 +521,14 @@ window.MNN_BANK[13] = [
       }
     ],
     "answer": 3,
-    "explain": "Kegiatan tujuan べんきょう ditandai に sebelum 来ました."
+    "explain": "Kegiatan tujuan べんきょう ditandai に sebelum 来[き]ました."
   },
   {
     "id": "b13-19",
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Partikel へ (arah)",
-    "prompt": "あした どこ （　） 行きたいですか。",
+    "prompt": "あした どこ （　） 行[い]きたいですか。",
     "promptRomaji": "Ashita doko ( ) ikitai desu ka.",
     "sub": "Pilih partikel arah tujuan. (Besok Anda ingin pergi ke mana?)",
     "options": [
@@ -557,7 +557,7 @@ window.MNN_BANK[13] = [
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Partikel に (kegiatan)",
-    "prompt": "デパートへ かいもの （　） 行きます。",
+    "prompt": "デパートへ かいもの （　） 行[い]きます。",
     "promptRomaji": "Depaato e kaimono ( ) ikimasu.",
     "sub": "Pilih partikel penanda tujuan berupa kata benda kegiatan. (Pergi ke department store untuk belanja.)",
     "options": [
@@ -1166,7 +1166,7 @@ window.MNN_BANK[13] = [
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Tujuan に (V-ます)",
-    "prompt": "デパートへ くつを （　） 行きます。",
+    "prompt": "デパートへ くつを （　） 行[い]きます。",
     "promptRomaji": "Depaato e kutsu o ( ) ikimasu.",
     "sub": "Lengkapi dengan bentuk tujuan dari かいます. (Pergi ke department store untuk membeli sepatu.)",
     "options": [
@@ -1188,14 +1188,14 @@ window.MNN_BANK[13] = [
       }
     ],
     "answer": 2,
-    "explain": "かいます → かい + に 行きます menjadi かいに 行きます."
+    "explain": "かいます → かい + に 行[い]きます menjadi かいに 行[い]きます."
   },
   {
     "id": "b13-42",
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Tujuan に (V-ます)",
-    "prompt": "としょかんへ ほんを （　） 行きます。",
+    "prompt": "としょかんへ ほんを （　） 行[い]きます。",
     "promptRomaji": "Toshokan e hon o ( ) ikimasu.",
     "sub": "Lengkapi dengan bentuk tujuan dari かります. (Pergi ke perpustakaan untuk meminjam buku.)",
     "options": [
@@ -1217,14 +1217,14 @@ window.MNN_BANK[13] = [
       }
     ],
     "answer": 3,
-    "explain": "かります → かり + に 行きます menjadi かりに 行きます."
+    "explain": "かります → かり + に 行[い]きます menjadi かりに 行[い]きます."
   },
   {
     "id": "b13-43",
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Tujuan に (V-ます)",
-    "prompt": "レストランへ ひるごはんを （　） 行きます。",
+    "prompt": "レストランへ ひるごはんを （　） 行[い]きます。",
     "promptRomaji": "Resutoran e hirugohan o ( ) ikimasu.",
     "sub": "Lengkapi dengan bentuk tujuan dari たべます. (Pergi ke restoran untuk makan siang.)",
     "options": [
@@ -1246,14 +1246,14 @@ window.MNN_BANK[13] = [
       }
     ],
     "answer": 1,
-    "explain": "たべます → たべ + に 行きます menjadi たべに 行きます."
+    "explain": "たべます → たべ + に 行[い]きます menjadi たべに 行[い]きます."
   },
   {
     "id": "b13-44",
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Tujuan に (kata benda)",
-    "prompt": "にほんへ にほんごの （　） 来ました。",
+    "prompt": "にほんへ にほんごの （　） 来[き]ました。",
     "promptRomaji": "Nihon e nihongo no ( ) kimashita.",
     "sub": "Lengkapi dengan tujuan kegiatan. (Datang ke Jepang untuk belajar bahasa Jepang.)",
     "options": [
@@ -1282,7 +1282,7 @@ window.MNN_BANK[13] = [
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Tujuan に (kata benda)",
-    "prompt": "こうえんへ （　） 行きませんか。",
+    "prompt": "こうえんへ （　） 行[い]きませんか。",
     "promptRomaji": "Kouen e ( ) ikimasen ka.",
     "sub": "Lengkapi dengan tujuan kegiatan. (Mau pergi ke taman untuk jalan-jalan?)",
     "options": [
@@ -1311,7 +1311,7 @@ window.MNN_BANK[13] = [
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Tujuan に (kata benda)",
-    "prompt": "スーパーへ （　） 行きます。",
+    "prompt": "スーパーへ （　） 行[い]きます。",
     "promptRomaji": "Suupaa e ( ) ikimasu.",
     "sub": "Lengkapi dengan tujuan kegiatan. (Pergi ke supermarket untuk belanja.)",
     "options": [
@@ -1340,7 +1340,7 @@ window.MNN_BANK[13] = [
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Tujuan に (V-ます)",
-    "prompt": "えいがを （　） 行きます。",
+    "prompt": "えいがを （　） 行[い]きます。",
     "promptRomaji": "Eiga o ( ) ikimasu.",
     "sub": "Lengkapi dengan bentuk tujuan dari みます. (Pergi untuk menonton film.)",
     "options": [
@@ -1362,14 +1362,14 @@ window.MNN_BANK[13] = [
       }
     ],
     "answer": 2,
-    "explain": "みます → み + に 行きます menjadi みに 行きます."
+    "explain": "みます → み + に 行[い]きます menjadi みに 行[い]きます."
   },
   {
     "id": "b13-48",
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Tujuan に (V-ます)",
-    "prompt": "あした くうこうへ ともだちを （　） 行きます。",
+    "prompt": "あした くうこうへ ともだちを （　） 行[い]きます。",
     "promptRomaji": "Ashita kuukou e tomodachi o ( ) ikimasu.",
     "sub": "Lengkapi dengan bentuk tujuan dari むかえます. (Besok pergi ke bandara untuk menjemput teman.)",
     "options": [
@@ -1391,44 +1391,44 @@ window.MNN_BANK[13] = [
       }
     ],
     "answer": 2,
-    "explain": "むかえます → むかえ + に 行きます menjadi むかえに 行きます."
+    "explain": "むかえます → むかえ + に 行[い]きます menjadi むかえに 行[い]きます."
   },
   {
     "id": "b13-49",
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Pola たい (jawaban)",
-    "prompt": "A：どこへ 行きたいですか。 B：おきなわへ （　）。",
-    "promptRomaji": "A: Doko e ikitai desu ka. B: Okinawa e ( ).",
+    "prompt": "A：どこへ 行[い]きたいですか。\nB：おきなわへ （　）。",
+    "promptRomaji": "A: Doko e ikitai desu ka.\nB: Okinawa e ( ).",
     "sub": "Pilih jawaban yang tepat. (A: Anda ingin pergi ke mana? B: Saya ingin pergi ke Okinawa.)",
     "options": [
       {
-        "jp": "行きますたいです",
+        "jp": "行[い]きますたいです",
         "romaji": "ikimasutai desu"
       },
       {
-        "jp": "行くたいです",
+        "jp": "行[い]くたいです",
         "romaji": "ikutai desu"
       },
       {
-        "jp": "行きたいです",
+        "jp": "行[い]きたいです",
         "romaji": "ikitai desu"
       },
       {
-        "jp": "行きたいでした",
+        "jp": "行[い]きたいでした",
         "romaji": "ikitai deshita"
       }
     ],
     "answer": 2,
-    "explain": "Pertanyaan 行きたいですか dijawab dengan bentuk 行きたいです."
+    "explain": "Pertanyaan 行[い]きたいですか dijawab dengan bentuk 行[い]きたいです."
   },
   {
     "id": "b13-50",
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Pola たい (jawaban)",
-    "prompt": "A：なにを たべたいですか。 B：すしが （　）。",
-    "promptRomaji": "A: Nani o tabetai desu ka. B: Sushi ga ( ).",
+    "prompt": "A：なにを たべたいですか。\nB：すしが （　）。",
+    "promptRomaji": "A: Nani o tabetai desu ka.\nB: Sushi ga ( ).",
     "sub": "Pilih jawaban yang tepat. (A: Anda ingin makan apa? B: Saya ingin makan sushi.)",
     "options": [
       {
@@ -1565,7 +1565,7 @@ window.MNN_BANK[13] = [
       }
     ],
     "answer": 2,
-    "explain": "ひろい (広い) berarti luas atau lapang (lawan kata dari せまい)."
+    "explain": "ひろい (広[ひろ]い) berarti luas atau lapang (lawan kata dari せまい)."
   },
   {
     "id": "b13-55",
@@ -1920,8 +1920,8 @@ window.MNN_BANK[13] = [
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Kosakata なにか",
-    "prompt": "A：おなかが すきましたね。（　） たべませんか。 B：ええ、そう しましょう。",
-    "promptRomaji": "A: Onaka ga sukimashita ne. ( ) tabemasen ka. B: Ee, sou shimashou.",
+    "prompt": "A：おなかが すきましたね。（　） たべませんか。\nB：ええ、そう しましょう。",
+    "promptRomaji": "A: Onaka ga sukimashita ne. ( ) tabemasen ka.\nB: Ee, sou shimashou.",
     "sub": "Lapar ya. Mau makan sesuatu?",
     "options": [
       {
@@ -1949,8 +1949,8 @@ window.MNN_BANK[13] = [
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Kosakata どこか",
-    "prompt": "A：しゅうまつ （　） いきませんか。 B：いいですね。うみへ いきましょう。",
-    "promptRomaji": "A: Shuumatsu ( ) ikimasen ka. B: Ii desu ne. Umi e ikimashou.",
+    "prompt": "A：しゅうまつ （　） いきませんか。\nB：いいですね。うみへ いきましょう。",
+    "promptRomaji": "A: Shuumatsu ( ) ikimasen ka.\nB: Ii desu ne. Umi e ikimashou.",
     "sub": "Akhir pekan mau pergi ke suatu tempat?",
     "options": [
       {
@@ -2123,8 +2123,8 @@ window.MNN_BANK[13] = [
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Dialog di Restoran",
-    "prompt": "A：ごちゅうもんは？ B：（　）。 A：しょうしょう おまち ください。",
-    "promptRomaji": "A: Gochuumon wa? B: ( ). A: Shoushou omachi kudasai.",
+    "prompt": "A：ごちゅうもんは？\nB：（　）。\nA：しょうしょう おまち ください。",
+    "promptRomaji": "A: Gochuumon wa?\nB: ( ). A: Shoushou omachi kudasai.",
     "sub": "Pilih jawaban pelanggan saat ditanya mau pesan apa.",
     "options": [
       {
@@ -2152,8 +2152,8 @@ window.MNN_BANK[13] = [
     "bab": 13,
     "type": "mcq",
     "badge": "Bab 13 · Dialog Ajakan",
-    "prompt": "A：12じですね。しょくじに いきませんか。 B：（　）。",
-    "promptRomaji": "A: Juuniji desu ne. Shokuji ni ikimasen ka. B: ( ).",
+    "prompt": "A：12じですね。しょくじに いきませんか。\nB：（　）。",
+    "promptRomaji": "A: Juuniji desu ne. Shokuji ni ikimasen ka.\nB: ( ).",
     "sub": "Pilih jawaban untuk menyetujui usulan makan bersama.",
     "options": [
       {

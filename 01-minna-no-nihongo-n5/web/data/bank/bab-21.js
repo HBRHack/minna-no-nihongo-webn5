@@ -267,7 +267,7 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Kosakata ユーモア",
-    "prompt": "山田さんは おもしろい じょうだんを いいます。（　） が ある ひとですね。",
+    "prompt": "山田[やまだ]さんは おもしろい じょうだんを いいます。（　） が ある ひとですね。",
     "promptRomaji": "Yamada-san wa omoshiroi joudan o iimasu. _____ ga aru hito desu ne.",
     "sub": "Pilih kosakata yang berarti 'rasa humor'.",
     "options": [
@@ -296,7 +296,7 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Kosakata しゅしょう・だいとうりょう",
-    "prompt": "「しゅしょう」と 「だいとうりょう」の いみの くみあわせで 正しいのは どれですか。",
+    "prompt": "「しゅしょう」と 「だいとうりょう」の いみの くみあわせで 正[ただ]しいのは どれですか。",
     "promptRomaji": "\"Shushou\" to \"daitouryou\" no imi no kumiawase (Bab 21)",
     "sub": "Pilih pasangan arti yang benar.",
     "options": [
@@ -318,15 +318,15 @@ window.MNN_BANK[21] = [
       }
     ],
     "answer": 2,
-    "explain": "しゅしょう (首相) berarti perdana menteri, sedangkan だいとうりょう (大統領) berarti presiden."
+    "explain": "しゅしょう (首相[しゅしょう]) berarti perdana menteri, sedangkan だいとうりょう (大統領[だいとうりょう]) berarti presiden."
   },
   {
     "id": "b21-12",
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Kosakata おなじ",
-    "prompt": "A：わたしは ３月３日に 日本へ きました。\nB：あ、わたしと （　） です！",
-    "promptRomaji": "A: Watashi wa sangatsu mikka ni Nihon e kimashita. B: A, watashi to _____ desu!",
+    "prompt": "A：わたしは ３月[さんがつ]３日[みっか]に 日本[にほん]へ きました。\nB：あ、わたしと （　） です！",
+    "promptRomaji": "A: Watashi wa sangatsu mikka ni Nihon e kimashita.\nB: A, watashi to _____ desu!",
     "sub": "Pilih kata untuk 'sama'.",
     "options": [
       {
@@ -384,7 +384,7 @@ window.MNN_BANK[21] = [
     "type": "mcq",
     "badge": "Bab 21 · Ungkapan しかたが ありません",
     "prompt": "A：もう バスが ありませんね。\nB：そうですね。（　）。あるいて かえりましょう。",
-    "promptRomaji": "A: Mou basu ga arimasen ne. B: Sou desu ne. _____. Aruite kaerimashou.",
+    "promptRomaji": "A: Mou basu ga arimasen ne.\nB: Sou desu ne. _____. Aruite kaerimashou.",
     "sub": "Pilih ungkapan yang berarti 'mau bagaimana lagi / tidak ada pilihan lain'.",
     "options": [
       {
@@ -557,8 +557,8 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · と おもいます (Tidak Setuju)",
-    "prompt": "A：日本の こうつうは ふべんだと おもいますか。\nB：いいえ、わたしは （　） と おもいます。",
-    "promptRomaji": "A: Nihon no koutsuu wa fuben da to omoimasu ka. B: Iie, watashi wa _____ to omoimasu.",
+    "prompt": "A：日本[にほん]の こうつうは ふべんだと おもいますか。\nB：いいえ、わたしは （　） と おもいます。",
+    "promptRomaji": "A: Nihon no koutsuu wa fuben da to omoimasu ka.\nB: Iie, watashi wa _____ to omoimasu.",
     "sub": "Pilih bentuk negatif KS-な sebelum と おもいます.",
     "options": [
       {
@@ -587,7 +587,7 @@ window.MNN_BANK[21] = [
     "type": "mcq",
     "badge": "Bab 21 · と おもいます (そんなに + Negatif)",
     "prompt": "A：この デザインは むずかしいと おもいます。\nB：そうですか。わたしは そんなに （　） と おもいます。",
-    "promptRomaji": "A: Kono dezain wa muzukashii to omoimasu. B: Sou desu ka. Watashi wa sonnani _____ to omoimasu.",
+    "promptRomaji": "A: Kono dezain wa muzukashii to omoimasu.\nB: Sou desu ka. Watashi wa sonnani _____ to omoimasu.",
     "sub": "そんなに selalu diikuti bentuk negatif!",
     "options": [
       {
@@ -615,8 +615,8 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Menanggapi Pendapat",
-    "prompt": "A：東京は ぶっかが たかいと おもいます。\nB：いいえ、わたしは （　）。",
-    "promptRomaji": "A: Toukyou wa bukka ga takai to omoimasu. B: Iie, watashi wa _____.",
+    "prompt": "A：東京[とうきょう]は ぶっかが たかいと おもいます。\nB：いいえ、わたしは （　）。",
+    "promptRomaji": "A: Toukyou wa bukka ga takai to omoimasu.\nB: Iie, watashi wa _____.",
     "sub": "Pilih ungkapan standar untuk 'Saya tidak berpendapat demikian'.",
     "options": [
       {
@@ -703,7 +703,7 @@ window.MNN_BANK[21] = [
     "type": "mcq",
     "badge": "Bab 21 · ～について どう おもいますか",
     "prompt": "A：アニメ （　） どう おもいますか。\nB：とても おもしろいと おもいます。",
-    "promptRomaji": "A: Anime _____ dou omoimasu ka. B: Totemo omoshiroi to omoimasu.",
+    "promptRomaji": "A: Anime _____ dou omoimasu ka.\nB: Totemo omoshiroi to omoimasu.",
     "sub": "Pilih ungkapan untuk 'tentang / mengenai'.",
     "options": [
       {
@@ -731,7 +731,7 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Tanya Pendapat (どう)",
-    "prompt": "新しい ケータイの デザインについて、（　） おもいますか。",
+    "prompt": "新[あたら]しい ケータイの デザインについて、（　） おもいますか。",
     "promptRomaji": "Atarashii keetai no dezain ni tsuite, _____ omoimasu ka.",
     "sub": "Pilih kata tanya untuk menanyakan pendapat ('bagaimana').",
     "options": [
@@ -847,7 +847,7 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Kutipan Tidak Langsung (Kata Kerja)",
-    "prompt": "ミラーさんは 「あした 東京へ いきます」と いいました。\n→ ミラーさんは あした 東京へ （　） と いいました。",
+    "prompt": "ミラーさんは 「あした 東京[とうきょう]へ いきます」と いいました。\n→ ミラーさんは あした 東京[とうきょう]へ （　） と いいました。",
     "promptRomaji": "Miraa-san wa ashita Toukyou e _____ to iimashita.",
     "sub": "Ubah kutipan langsung menjadi kutipan tidak langsung.",
     "options": [
@@ -876,7 +876,7 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Kutipan Tidak Langsung (Kata Benda)",
-    "prompt": "先生は 「あしたは やすみです」と いいました。\n→ 先生は あしたは （　） と いいました。",
+    "prompt": "先生[せんせい]は 「あしたは やすみです」と いいました。\n→ 先生[せんせい]は あしたは （　） と いいました。",
     "promptRomaji": "Sensei wa ashita wa _____ to iimashita.",
     "sub": "Ingat aturan Kata Benda sebelum と いいました!",
     "options": [
@@ -997,19 +997,19 @@ window.MNN_BANK[21] = [
     "sub": "Pada kutipan langsung dengan tanda 「…」, bentuk kata aslinya dipertahankan.",
     "options": [
       {
-        "jp": "先生は 「あした テストが ある」 だと いいました。",
+        "jp": "先生[せんせい]は 「あした テストが ある」 だと いいました。",
         "romaji": "Sensei wa \"Ashita tesuto ga aru\" da to iimashita."
       },
       {
-        "jp": "先生は 「あした テストが あります」 を いいました。",
+        "jp": "先生[せんせい]は 「あした テストが あります」 を いいました。",
         "romaji": "Sensei wa \"Ashita tesuto ga arimasu\" o iimashita."
       },
       {
-        "jp": "先生は 「あした テストが あります」 と いいました。",
+        "jp": "先生[せんせい]は 「あした テストが あります」 と いいました。",
         "romaji": "Sensei wa \"Ashita tesuto ga arimasu\" to iimashita."
       },
       {
-        "jp": "先生は 「あした テストが あります」 に いいました。",
+        "jp": "先生[せんせい]は 「あした テストが あります」 に いいました。",
         "romaji": "Sensei wa \"Ashita tesuto ga arimasu\" ni iimashita."
       }
     ],
@@ -1021,7 +1021,7 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Pemahaman Kutipan",
-    "prompt": "「社長は きょう かいぎに 出ないと いいました。」の いみは どれですか。",
+    "prompt": "「社長[しゃちょう]は きょう かいぎに 出[で]ないと いいました。」の いみは どれですか。",
     "promptRomaji": "\"Shachou wa kyou kaigi ni denai to iimashita.\" no imi wa dore desu ka.",
     "sub": "Perhatikan 出ない (bentuk negatif dari 出ます).",
     "options": [
@@ -1043,14 +1043,14 @@ window.MNN_BANK[21] = [
       }
     ],
     "answer": 3,
-    "explain": "出ない (bentuk -nai dari 出ます = hadir/keluar) + と いいました berarti berkata tidak akan menghadiri."
+    "explain": "出[で]ない (bentuk -nai dari 出[で]ます = hadir/keluar) + と いいました berarti berkata tidak akan menghadiri."
   },
   {
     "id": "b21-37",
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Konfirmasi でしょう？ (KS-な)",
-    "prompt": "日本の 電車は とても （　） でしょう？ (Kereta di Jepang sangat praktis, kan?)",
+    "prompt": "日本[にほん]の 電車[でんしゃ]は とても （　） でしょう？ (Kereta di Jepang sangat praktis, kan?)",
     "promptRomaji": "Nihon no densha wa totemo _____ deshou?",
     "sub": "Hati-hati! Sebelum でしょう？, apakah KS-な memakai だ?",
     "options": [
@@ -1079,8 +1079,8 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Konfirmasi でしょう？ (Kata Benda)",
-    "prompt": "A：もう すぐ テスト （　）？\nB：ええ、来週の 月曜日です。",
-    "promptRomaji": "A: Mou sugu tesuto _____? B: Ee, raishuu no getsuyoubi desu.",
+    "prompt": "A：もう すぐ テスト （　）？\nB：ええ、来週[らいしゅう]の 月曜日[げつようび]です。",
+    "promptRomaji": "A: Mou sugu tesuto _____?\nB: Ee, raishuu no getsuyoubi desu.",
     "sub": "Kata benda + でしょう？ (tanpa だ).",
     "options": [
       {
@@ -1109,7 +1109,7 @@ window.MNN_BANK[21] = [
     "type": "mcq",
     "badge": "Bab 21 · Konfirmasi でしょう？ (Kata Kerja)",
     "prompt": "A：あなたも あしたの パーティーに （　） でしょう？\nB：ええ、いきますよ。",
-    "promptRomaji": "A: Anata mo ashita no paatii ni _____ deshou? B: Ee, ikimasu yo.",
+    "promptRomaji": "A: Anata mo ashita no paatii ni _____ deshou?\nB: Ee, ikimasu yo.",
     "sub": "Pilih bentuk kata kerja sebelum でしょう？.",
     "options": [
       {
@@ -1138,7 +1138,7 @@ window.MNN_BANK[21] = [
     "type": "mcq",
     "badge": "Bab 21 · Konfirmasi でしょう？ (Lampau KS-な)",
     "prompt": "A：ほっかいどうは さむくて、（　） でしょう？\nB：ええ、とても たいへんでした。",
-    "promptRomaji": "A: Hokkaidou wa samukute, _____ deshou? B: Ee, totemo taihen deshita.",
+    "promptRomaji": "A: Hokkaidou wa samukute, _____ deshou?\nB: Ee, totemo taihen deshita.",
     "sub": "Perhatikan jawaban B dalam bentuk lampau (たいへんでした)!",
     "options": [
       {
@@ -1166,8 +1166,8 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Konfirmasi でしょう？ (Negatif)",
-    "prompt": "A：そんな 高い くつは あまり （　） でしょう？\nB：はい、ぜんぜん ほしくありません。",
-    "promptRomaji": "A: Sonna takai kutsu wa amari _____ deshou? B: Hai, zenzen hoshiku arimasen.",
+    "prompt": "A：そんな 高[たか]い くつは あまり （　） でしょう？\nB：はい、ぜんぜん ほしくありません。",
+    "promptRomaji": "A: Sonna takai kutsu wa amari _____ deshou?\nB: Hai, zenzen hoshiku arimasen.",
     "sub": "Lengkapi dengan bentuk biasa negatif dari ほしい.",
     "options": [
       {
@@ -1253,7 +1253,7 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Tempat Acara (で…があります)",
-    "prompt": "来月 大阪 （　） てんじんまつりが あります。",
+    "prompt": "来月[らいげつ] 大阪[おおさか] （　） てんじんまつりが あります。",
     "promptRomaji": "Raigetsu Oosaka _____ Tenjinmatsuri ga arimasu.",
     "sub": "Perhatikan partikel tempat untuk acara/festival!",
     "options": [
@@ -1287,11 +1287,11 @@ window.MNN_BANK[21] = [
     "sub": "Bedakan keberadaan benda dengan penyelenggaraan acara!",
     "options": [
       {
-        "jp": "きょう 東京で ゆうめいな おまつりが ありました。",
+        "jp": "きょう 東京[とうきょう]で ゆうめいな おまつりが ありました。",
         "romaji": "Kyou Toukyou de yuumei na omatsuri ga arimashita."
       },
       {
-        "jp": "きょう 東京に ゆうめいな おまつりが ありました。",
+        "jp": "きょう 東京[とうきょう]に ゆうめいな おまつりが ありました。",
         "romaji": "Kyou Toukyou ni yuumei na omatsuri ga arimashita."
       },
       {
@@ -1311,8 +1311,8 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Ungkapan Percakapan",
-    "prompt": "A：あ、もう 五時ですね。そろそろ （　）。\nB：そうですね。おさきに しつれいします。",
-    "promptRomaji": "A: A, mou goji desu ne. Sorosoro _____. B: Sou desu ne. Osaki ni shitsurei shimasu.",
+    "prompt": "A：あ、もう 五時[ごじ]ですね。そろそろ （　）。\nB：そうですね。おさきに しつれいします。",
+    "promptRomaji": "A: A, mou goji desu ne. Sorosoro _____.\nB: Sou desu ne. Osaki ni shitsurei shimasu.",
     "sub": "Pilih ungkapan Bab 21 yang berarti 'harus segera pulang...'.",
     "options": [
       {
@@ -1341,7 +1341,7 @@ window.MNN_BANK[21] = [
     "type": "mcq",
     "badge": "Bab 21 · Ajakan ～でも",
     "prompt": "A：ひさしぶりですね。あちらの きっさてんで おちゃ （　） のみませんか。\nB：ええ、いいですね。",
-    "promptRomaji": "A: Hisashiburi desu ne. Achira no kissaten de ocha _____ nomimasen ka. B: Ee, ii desu ne.",
+    "promptRomaji": "A: Hisashiburi desu ne. Achira no kissaten de ocha _____ nomimasen ka.\nB: Ee, ii desu ne.",
     "sub": "Pilih partikel untuk menawarkan sesuatu secara santai ('minum teh atau semacamnya').",
     "options": [
       {
@@ -1456,7 +1456,7 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · と おもいます (Kata Kerja)",
-    "prompt": "こんばんの しあいは 日本が （　） と おもいます。 (Saya rasa pertandingan malam ini Jepang akan menang.)",
+    "prompt": "こんばんの しあいは 日本[にほん]が （　） と おもいます。 (Saya rasa pertandingan malam ini Jepang akan menang.)",
     "promptRomaji": "Konban no shiai wa Nihon ga _____ to omoimasu.",
     "sub": "かちます (menang) diubah ke Bentuk Biasa (Kamus).",
     "options": [
@@ -1688,8 +1688,8 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Menanggapi Pendapat (Setuju)",
-    "prompt": "A: 「さいきん ぶっかが たかく なりましたね。」\nB: 「ええ、（　）。」",
-    "promptRomaji": "A: Saikin bukka ga takaku narimashita ne. / B: Ee, _____.",
+    "prompt": "A：「さいきん ぶっかが たかく なりましたね。」\nB：「ええ、（　）。」",
+    "promptRomaji": "A: Saikin bukka ga takaku narimashita ne.\nB: Ee, _____.",
     "sub": "Pilih ungkapan standar untuk menyatakan setuju ('Saya juga berpikir begitu').",
     "options": [
       {
@@ -1717,8 +1717,8 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Tanya Pendapat (どちら)",
-    "prompt": "A: 「日本と ブラジルと、（　） かつと おもいますか。」\nB: 「ブラジルだと おもいます。」",
-    "promptRomaji": "A: Nihon to Burajiru to, _____ katsu to omoimasu ka. / B: Burajiru da to omoimasu.",
+    "prompt": "A：「日本[にほん]と ブラジルと、（　） かつと おもいますか。」\nB：「ブラジルだと おもいます。」",
+    "promptRomaji": "A: Nihon to Burajiru to, _____ katsu to omoimasu ka.\nB: Burajiru da to omoimasu.",
     "sub": "Pilih kata tanya untuk membandingkan dua pilihan ('yang mana').",
     "options": [
       {
@@ -1739,7 +1739,7 @@ window.MNN_BANK[21] = [
       }
     ],
     "answer": 2,
-    "explain": "Untuk memilih antara dua tim/pihak (日本と ブラジルと), gunakan kata tanya どちらが."
+    "explain": "Untuk memilih antara dua tim/pihak (日本[にほん]と ブラジルと), gunakan kata tanya どちらが."
   },
   {
     "id": "b21-61",
@@ -1978,8 +1978,8 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Bertanya Siapa yang Mengatakan",
-    "prompt": "A: 「（　） あした やすみだと いいましたか。」\nB: 「やまだ せんせいが いいました。」",
-    "promptRomaji": "A: _____ ashita yasumi da to iimashita ka. / B: Yamada-sensei ga iimashita.",
+    "prompt": "A：「（　） あした やすみだと いいましたか。」\nB：「やまだ せんせいが いいました。」",
+    "promptRomaji": "A: _____ ashita yasumi da to iimashita ka.\nB: Yamada-sensei ga iimashita.",
     "sub": "Pilih kata tanya dan partikel subjek untuk menanyakan 'Siapa yang berkata...?'.",
     "options": [
       {
@@ -2065,7 +2065,7 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Pemahaman Kutipan",
-    "prompt": "「やまださんは らいげつ 日本へ かえらないと いいました。」 Arti kalimat ini adalah...",
+    "prompt": "「やまださんは らいげつ 日本[にほん]へ かえらないと いいました。」 Arti kalimat ini adalah...",
     "promptRomaji": "Yamada-san wa raigetsu Nihon e kaeranai to iimashita.",
     "sub": "Bedakan と いいました dengan と おもいます serta bentuk かえらない.",
     "options": [
@@ -2355,8 +2355,8 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Dialog でしょう？",
-    "prompt": "A: 「ほっかいどうの ふゆは さむい でしょう？」\nB: 「（　）。」",
-    "promptRomaji": "A: Hokkaidou no fuyu wa samui deshou? / B: _____.",
+    "prompt": "A：「ほっかいどうの ふゆは さむい でしょう？」\nB：「（　）。」",
+    "promptRomaji": "A: Hokkaidou no fuyu wa samui deshou?\nB: _____.",
     "sub": "Pilih jawaban menyetujui yang logis dan alami.",
     "options": [
       {
@@ -2384,7 +2384,7 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Pola ～について",
-    "prompt": "きのうの スピーチで、わたしは 日本の アニメ（　） はなしました。 (Dalam pidato kemarin, saya berbicara tentang anime Jepang.)",
+    "prompt": "きのうの スピーチで、わたしは 日本[にほん]の アニメ（　） はなしました。 (Dalam pidato kemarin, saya berbicara tentang anime Jepang.)",
     "promptRomaji": "Kinou no supiichi de, watashi wa Nihon no anime _____ hanashimashita.",
     "sub": "Pilih frasa untuk 'tentang / mengenai'.",
     "options": [
@@ -2413,7 +2413,7 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Pola ～について",
-    "prompt": "日本の こうつう（　） レポートを かきます。 (Menulis laporan mengenai transportasi Jepang.)",
+    "prompt": "日本[にほん]の こうつう（　） レポートを かきます。 (Menulis laporan mengenai transportasi Jepang.)",
     "promptRomaji": "Nihon no koutsuu _____ repooto o kakimasu.",
     "sub": "Pilih penghubung yang berarti 'tentang / mengenai'.",
     "options": [
@@ -2435,7 +2435,7 @@ window.MNN_BANK[21] = [
       }
     ],
     "answer": 0,
-    "explain": "日本の こうつうに ついて レポートを かきます berarti menulis laporan mengenai transportasi Jepang."
+    "explain": "日本[にほん]の こうつうに ついて レポートを かきます berarti menulis laporan mengenai transportasi Jepang."
   },
   {
     "id": "b21-85",
@@ -2529,8 +2529,8 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Dialog Ajakan ～でも",
-    "prompt": "A: 「つかれましたね。ちかくの きっさてんで （　）。」\nB: 「ええ、いいですね。」",
-    "promptRomaji": "A: Tsukaremashita ne. Chikaku no kissaten de _____. / B: Ee, ii desu ne.",
+    "prompt": "A：「つかれましたね。ちかくの きっさてんで （　）。」\nB：「ええ、いいですね。」",
+    "promptRomaji": "A: Tsukaremashita ne. Chikaku no kissaten de _____.\nB: Ee, ii desu ne.",
     "sub": "Pilih ajakan yang tepat memakai ～でも.",
     "options": [
       {
@@ -2609,7 +2609,7 @@ window.MNN_BANK[21] = [
       }
     ],
     "answer": 3,
-    "explain": "ほうそう (放送) berarti siaran atau penyiaran (TV/radio)."
+    "explain": "ほうそう (放送[ほうそう]) berarti siaran atau penyiaran (TV/radio)."
   },
   {
     "id": "b21-91",
@@ -2638,7 +2638,7 @@ window.MNN_BANK[21] = [
       }
     ],
     "answer": 2,
-    "explain": "ゆめ (夢) berarti mimpi atau cita-cita."
+    "explain": "ゆめ (夢[ゆめ]) berarti mimpi atau cita-cita."
   },
   {
     "id": "b21-92",
@@ -2667,7 +2667,7 @@ window.MNN_BANK[21] = [
       }
     ],
     "answer": 0,
-    "explain": "ちきゅう (地球) berarti bumi dan つき (月) berarti bulan."
+    "explain": "ちきゅう (地球[ちきゅう]) berarti bumi dan つき (月[つき]) berarti bulan."
   },
   {
     "id": "b21-93",
@@ -2696,7 +2696,7 @@ window.MNN_BANK[21] = [
       }
     ],
     "answer": 1,
-    "explain": "いけん (意見) berarti pendapat atau opini."
+    "explain": "いけん (意見[いけん]) berarti pendapat atau opini."
   },
   {
     "id": "b21-94",
@@ -2761,8 +2761,8 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Ungkapan Sapaan",
-    "prompt": "A: 「あ、サントスさん、（　）。」\nB: 「おひさしぶりです。おげんきですか。」",
-    "promptRomaji": "A: A, Santosu-san, _____. / B: Ohisashiburi desu. Ogenki desu ka.",
+    "prompt": "A：「あ、サントスさん、（　）。」\nB：「おひさしぶりです。おげんきですか。」",
+    "promptRomaji": "A: A, Santosu-san, _____.\nB: Ohisashiburi desu. Ogenki desu ka.",
     "sub": "Pilih ungkapan lain yang berarti 'Sudah lama tidak bertemu, ya' di Bab 21.",
     "options": [
       {
@@ -2819,8 +2819,8 @@ window.MNN_BANK[21] = [
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Kosakata もちろん",
-    "prompt": "A: 「あしたの しあいに いきますか。」\nB: 「（　） いきますよ。」 (Tentu saja saya pergi!)",
-    "promptRomaji": "A: Ashita no shiai ni ikimasu ka. / B: _____ ikimasu yo.",
+    "prompt": "A：「あしたの しあいに いきますか。」\nB：「（　） いきますよ。」 (Tentu saja saya pergi!)",
+    "promptRomaji": "A: Ashita no shiai ni ikimasu ka.\nB: _____ ikimasu yo.",
     "sub": "Pilih kosakata Bab 21 yang berarti 'tentu saja'.",
     "options": [
       {

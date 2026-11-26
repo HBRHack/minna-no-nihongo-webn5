@@ -28,14 +28,14 @@ window.MNN_BANK[22] = [
       }
     ],
     "answer": 0,
-    "explain": "やちん (家賃) berarti uang sewa tempat tinggal (rumah atau apartemen)."
+    "explain": "やちん (家賃[やちん]) berarti uang sewa tempat tinggal (rumah atau apartemen)."
   },
   {
     "id": "b22-02",
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Kosakata わしつ・おしいれ・ふとん",
-    "prompt": "おしいれの 中に （　） を いれます。",
+    "prompt": "おしいれの 中[なか]に （　） を いれます。",
     "promptRomaji": "Oshiire no naka ni _____ o iremasu.",
     "sub": "Pilih barang yang disimpan di dalam おしいれ (lemari dinding Jepang).",
     "options": [
@@ -64,7 +64,7 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Kosakata わしつ",
-    "prompt": "たたみが ある 日本の へやを なんといいますか。",
+    "prompt": "たたみが ある 日本[にほん]の へやを なんといいますか。",
     "promptRomaji": "Tatami ga aru Nihon no heya o nan to iimasu ka.",
     "sub": "Pilih istilah untuk kamar bergaya Jepang.",
     "options": [
@@ -86,14 +86,14 @@ window.MNN_BANK[22] = [
       }
     ],
     "answer": 2,
-    "explain": "わしつ (和室) berarti kamar bergaya Jepang yang berlantai tatami."
+    "explain": "わしつ (和室[わしつ]) berarti kamar bergaya Jepang yang berlantai tatami."
   },
   {
     "id": "b22-04",
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Kosakata うまれます",
-    "prompt": "わたしは １９９９年に ジャカルタ （　） うまれました。",
+    "prompt": "わたしは １９９９年[せんきゅうひゃくきゅうじゅうきゅうねん]に ジャカルタ （　） うまれました。",
     "promptRomaji": "Watashi wa 1999-nen ni Jakaruta _____ umaremashita.",
     "sub": "Pilih partikel tempat yang tepat untuk 'lahir di...'.",
     "options": [
@@ -152,7 +152,7 @@ window.MNN_BANK[22] = [
     "type": "mcq",
     "badge": "Bab 22 · Kosakata おめでとうございます",
     "prompt": "A：きょうは わたしの たんじょうびです。\nB：そうですか。（　）。",
-    "promptRomaji": "A: Kyou wa watashi no tanjoubi desu. B: Sou desu ka. _____.",
+    "promptRomaji": "A: Kyou wa watashi no tanjoubi desu.\nB: Sou desu ka. _____.",
     "sub": "Pilih ucapan selamat yang tepat.",
     "options": [
       {
@@ -296,7 +296,7 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Kosakata わたしたち",
-    "prompt": "「わたしたちの 学校」の いみは どれですか。",
+    "prompt": "「わたしたちの 学校[がっこう]」の いみは どれですか。",
     "promptRomaji": "\"Watashitachi no gakkou\" no imi wa dore desu ka.",
     "sub": "Pilih arti kata ganti jamak Bab 22.",
     "options": [
@@ -325,8 +325,8 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Kosakata では・こちら",
-    "prompt": "A：駅に ちかくて しずかな へやが いいです。\nB：（　）、（　） の アパートは いかがですか。",
-    "promptRomaji": "A: Eki ni chikakute shizuka na heya ga ii desu. B: _____, _____ no apaato wa ikaga desu ka.",
+    "prompt": "A：駅[えき]に ちかくて しずかな へやが いいです。\nB：（　）、（　） の アパートは いかがですか。",
+    "promptRomaji": "A: Eki ni chikakute shizuka na heya ga ii desu.\nB: _____, _____ no apaato wa ikaga desu ka.",
     "sub": "Pilih ungkapan 'Kalau begitu, apartemen yang ini bagaimana?'.",
     "options": [
       {
@@ -412,7 +412,7 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Kata Kerja Pakaian (かけます)",
-    "prompt": "あそこで めがねを （　） 女の ひとが わたしの 母です。",
+    "prompt": "あそこで めがねを （　） 女[おんな]の ひとが わたしの 母[はは]です。",
     "promptRomaji": "Asoko de megane o _____ onna no hito ga watashi no haha desu.",
     "sub": "めがね (kacamata) memakai kata kerja apa?",
     "options": [
@@ -441,7 +441,7 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Kata Kerja Pakaian (します)",
-    "prompt": "あかい ネクタイを （　） 男の ひとは 山田さんです。",
+    "prompt": "あかい ネクタイを （　） 男[おとこ]の ひとは 山田[やまだ]さんです。",
     "promptRomaji": "Akai nekutai o _____ otoko no hito wa Yamada-san desu.",
     "sub": "ネクタイ (dasi) dan aksesoris memakai kata kerja apa?",
     "options": [
@@ -528,7 +528,7 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Kata Kerja Pakaian (くつ)",
-    "prompt": "あたらしい くつを （　） 学校へ いきました。",
+    "prompt": "あたらしい くつを （　） 学校[がっこう]へ いきました。",
     "promptRomaji": "Atarashii kutsu o _____ gakkou e ikimashita.",
     "sub": "Pilih kata kerja dan bentuk -te yang tepat untuk くつ (sepatu).",
     "options": [
@@ -586,7 +586,7 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Perbandingan Tense Pakaian",
-    "prompt": "「めがねを かけた ひと」と 「めがねを かけている ひと」、今 めがねが 顔に あるのは どちらですか。",
+    "prompt": "「めがねを かけた ひと」と 「めがねを かけている ひと」、今[いま] めがねが 顔[かお]に あるのは どちらですか。",
     "promptRomaji": "\"Megane o kaketa hito\" vs \"megane o kakete iru hito\" (Bab 22)",
     "sub": "Pilih bentuk yang menyatakan kondisi sekarang sedang berkacamata.",
     "options": [
@@ -644,7 +644,7 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Subjek Anak Kalimat (が vs は)",
-    "prompt": "これは 母 （　） つくった おべんとう です。",
+    "prompt": "これは 母[はは] （　） つくった おべんとう です。",
     "promptRomaji": "Kore wa haha _____ tsukutta obentou desu.",
     "sub": "Pilih partikel subjek di dalam anak kalimat penjelas benda!",
     "options": [
@@ -666,7 +666,7 @@ window.MNN_BANK[22] = [
       }
     ],
     "answer": 2,
-    "explain": "Subjek di dalam anak kalimat penjelas kata benda (母が つくった) wajib memakai partikel が, tidak boleh memakai は!"
+    "explain": "Subjek di dalam anak kalimat penjelas kata benda (母[はは]が つくった) wajib memakai partikel が, tidak boleh memakai は!"
   },
   {
     "id": "b22-24",
@@ -760,29 +760,29 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Anak Kalimat (Kata Benda)",
-    "prompt": "あちらに いる （　） 人は ミラーさんの ともだちです。（アメリカ人）",
+    "prompt": "あちらに いる （　） 人[ひと]は ミラーさんの ともだちです。（アメリカ人[じん]）",
     "promptRomaji": "Achira ni iru _____ hito wa Miraa-san no tomodachi desu. (Amerikajin)",
     "sub": "Bagaimana menyambungkan Kata Benda ke Kata Benda lain?",
     "options": [
       {
-        "jp": "アメリカ人だ",
+        "jp": "アメリカ人[じん]だ",
         "romaji": "Amerikajin da"
       },
       {
-        "jp": "アメリカ人な",
+        "jp": "アメリカ人[じん]な",
         "romaji": "Amerikajin na"
       },
       {
-        "jp": "アメリカ人の",
+        "jp": "アメリカ人[じん]の",
         "romaji": "Amerikajin no"
       },
       {
-        "jp": "アメリカ人",
+        "jp": "アメリカ人[じん]",
         "romaji": "Amerikajin"
       }
     ],
     "answer": 2,
-    "explain": "Kata benda positif non-lampau yang menjelaskan kata benda lain tidak memakai だ, melainkan partikel の: アメリカ人の 人."
+    "explain": "Kata benda positif non-lampau yang menjelaskan kata benda lain tidak memakai だ, melainkan partikel の: アメリカ人[じん]の 人[ひと]."
   },
   {
     "id": "b22-28",
@@ -847,7 +847,7 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Anak Kalimat sebagai Objek (を)",
-    "prompt": "きのう ともだちが （　） しゃしんを 見せて ください。",
+    "prompt": "きのう ともだちが （　） しゃしんを 見[み]せて ください。",
     "promptRomaji": "Kinou tomodachi ga _____ shashin o misete kudasai.",
     "sub": "Lengkapi frasa 'foto yang diambil teman kemarin'.",
     "options": [
@@ -869,7 +869,7 @@ window.MNN_BANK[22] = [
       }
     ],
     "answer": 1,
-    "explain": "Karena terjadi kemarin (きのう), kata kerja とります diubah ke Bentuk -Ta: ともだちが とった しゃしんを 見せて ください."
+    "explain": "Karena terjadi kemarin (きのう), kata kerja とります diubah ke Bentuk -Ta: ともだちが とった しゃしんを 見[み]せて ください."
   },
   {
     "id": "b22-31",
@@ -905,7 +905,7 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Anak Kalimat dengan ほしい",
-    "prompt": "今 いちばん （　） ものは あたらしい パソコンです。",
+    "prompt": "今[いま] いちばん （　） ものは あたらしい パソコンです。",
     "promptRomaji": "Ima ichiban _____ mono wa atarashii pasokon desu.",
     "sub": "Lengkapi frasa 'barang yang paling saya inginkan sekarang'.",
     "options": [
@@ -927,7 +927,7 @@ window.MNN_BANK[22] = [
       }
     ],
     "answer": 3,
-    "explain": "ほしい adalah kata sifat-い, sehingga langsung menempel pada kata benda もの untuk menyatakan sekarang (今): いちばん ほしい もの."
+    "explain": "ほしい adalah kata sifat-い, sehingga langsung menempel pada kata benda もの untuk menyatakan sekarang (今[いま]): いちばん ほしい もの."
   },
   {
     "id": "b22-33",
@@ -992,7 +992,7 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Anak Kalimat (すむ・はたらく)",
-    "prompt": "「父が はたらいて いる 会社」の いみは どれですか。",
+    "prompt": "「父[ちち]が はたらいて いる 会社[かいしゃ]」の いみは どれですか。",
     "promptRomaji": "\"Chichi ga hataraite iru kaisha\" no imi wa dore desu ka.",
     "sub": "Perhatikan subjek 父が dan predikat はたらいて いる.",
     "options": [
@@ -1014,7 +1014,7 @@ window.MNN_BANK[22] = [
       }
     ],
     "answer": 2,
-    "explain": "Kata benda inti selalu terletak di paling belakang (会社 = perusahaan), dijelaskan oleh 父が はたらいて いる ('tempat ayah bekerja sekarang')."
+    "explain": "Kata benda inti selalu terletak di paling belakang (会社[かいしゃ] = perusahaan), dijelaskan oleh 父[ちち]が はたらいて いる ('tempat ayah bekerja sekarang')."
   },
   {
     "id": "b22-36",
@@ -1051,7 +1051,7 @@ window.MNN_BANK[22] = [
     "type": "mcq",
     "badge": "Bab 22 · Memilih Tempat Tinggal",
     "prompt": "A：どんな へやが いいですか。\nB：あかるくて、（　） へやが いいです。",
-    "promptRomaji": "A: Donna heya ga ii desu ka. B: Akarukute, _____ heya ga ii desu.",
+    "promptRomaji": "A: Donna heya ga ii desu ka.\nB: Akarukute, _____ heya ga ii desu.",
     "sub": "Pilih pengisi yang tepat untuk 'kamar yang terang dan dekat dengan stasiun'.",
     "options": [
       {
@@ -1108,7 +1108,7 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Anak Kalimat (ない)",
-    "prompt": "きのう 宿題を （　） がくせいが おおいです。",
+    "prompt": "きのう 宿題[しゅくだい]を （　） がくせいが おおいです。",
     "promptRomaji": "Kinou shukudai o _____ gakusei ga ooi desu.",
     "sub": "Lengkapi frasa 'siswa yang kemarin tidak mengerjakan PR'.",
     "options": [
@@ -1130,7 +1130,7 @@ window.MNN_BANK[22] = [
       }
     ],
     "answer": 2,
-    "explain": "Karena ada keterangan waktu lampau きのう, bentuk biasa negatif lampau dari します adalah しなかった: 宿題を しなかった がくせい."
+    "explain": "Karena ada keterangan waktu lampau きのう, bentuk biasa negatif lampau dari します adalah しなかった: 宿題[しゅくだい]を しなかった がくせい."
   },
   {
     "id": "b22-40",
@@ -1195,7 +1195,7 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Pola V-る やくそく",
-    "prompt": "らいしゅうの 土曜日に ともだちと えいがを （　） やくそくが あります。",
+    "prompt": "らいしゅうの 土曜日[どようび]に ともだちと えいがを （　） やくそくが あります。",
     "promptRomaji": "Raishuu no doyoubi ni tomodachi to eiga o _____ yakusoku ga arimasu.",
     "sub": "Pilih bentuk kata kerja sebelum やくそく (janji untuk menonton).",
     "options": [
@@ -1225,7 +1225,7 @@ window.MNN_BANK[22] = [
     "type": "mcq",
     "badge": "Bab 22 · Pola V-る ようじ",
     "prompt": "A：きょうの ごご、いっしょに かいものに いきませんか。\nB：すみません、ぎんこうへ （　） ようじが あります。",
-    "promptRomaji": "A: Kyou no gogo, issho ni kaimono ni ikimasen ka. B: Sumimasen, ginkou e _____ youji ga arimasu.",
+    "promptRomaji": "A: Kyou no gogo, issho ni kaimono ni ikimasen ka.\nB: Sumimasen, ginkou e _____ youji ga arimasu.",
     "sub": "Pilih bentuk kata kerja untuk 'ada urusan pergi ke bank'.",
     "options": [
       {
@@ -1253,7 +1253,7 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Pilihan Konteks じかん・やくそく・ようじ",
-    "prompt": "「これから 市役所へ いく （　） が ありますから、おさきに しつれいします。」",
+    "prompt": "「これから 市役所[しやくしょ]へ いく （　） が ありますから、おさきに しつれいします。」",
     "promptRomaji": "\"Korekara shiyakusho e iku _____ ga arimasu kara, osaki ni shitsurei shimasu.\"",
     "sub": "Pilih kata benda yang paling cocok dengan urusan resmi ke balai kota.",
     "options": [
@@ -1275,7 +1275,7 @@ window.MNN_BANK[22] = [
       }
     ],
     "answer": 3,
-    "explain": "ようじ berarti urusan/keperluan, sangat tepat untuk keperluan pergi ke balai kota (市役所)."
+    "explain": "ようじ berarti urusan/keperluan, sangat tepat untuk keperluan pergi ke balai kota (市役所[しやくしょ])."
   },
   {
     "id": "b22-45",
@@ -1316,7 +1316,7 @@ window.MNN_BANK[22] = [
     "sub": "Periksa sambungan kata kerja pakaian atau kata sifat.",
     "options": [
       {
-        "jp": "あそこで 白い ぼうしを かぶっている ひとは だれですか。",
+        "jp": "あそこで 白[しろ]い ぼうしを かぶっている ひとは だれですか。",
         "romaji": "Asoko de shiroi boushi o kabutte iru hito wa dare desu ka."
       },
       {
@@ -1340,7 +1340,7 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Pemahaman Kalimat",
-    "prompt": "「おしいれが あって、やちんが あまり 高くない アパートを さがして います。」の いみは どれですか。",
+    "prompt": "「おしいれが あって、やちんが あまり 高[たか]くない アパートを さがして います。」の いみは どれですか。",
     "promptRomaji": "\"Oshiire ga atte, yachin ga amari takakunai apaato o sagashite imasu.\" no imi wa dore desu ka.",
     "sub": "Pilih terjemahan yang paling akurat.",
     "options": [
@@ -1362,14 +1362,14 @@ window.MNN_BANK[22] = [
       }
     ],
     "answer": 2,
-    "explain": "おしいれが あって = memiliki lemari dinding, やちんが あまり 高くない = uang sewanya tidak terlalu mahal, アパートを さがして います = sedang mencari apartemen."
+    "explain": "おしいれが あって = memiliki lemari dinding, やちんが あまり 高[たか]くない = uang sewanya tidak terlalu mahal, アパートを さがして います = sedang mencari apartemen."
   },
   {
     "id": "b22-48",
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Pemahaman Kalimat",
-    "prompt": "「あそこで しゃしんを とっている ひとが わたしの 兄です。」の いみは どれですか。",
+    "prompt": "「あそこで しゃしんを とっている ひとが わたしの 兄[あに]です。」の いみは どれですか。",
     "promptRomaji": "\"Asoko de shashin o totte iru hito ga watashi no ani desu.\" no imi wa dore desu ka.",
     "sub": "Perhatikan bentuk ～ている dan subjek kalimat.",
     "options": [
@@ -1391,7 +1391,7 @@ window.MNN_BANK[22] = [
       }
     ],
     "answer": 3,
-    "explain": "とっている ひと berarti 'orang yang sedang memotret', dan sebagai topik/subjek utama kalimat dijelaskan sebagai わたしの 兄です."
+    "explain": "とっている ひと berarti 'orang yang sedang memotret', dan sebagai topik/subjek utama kalimat dijelaskan sebagai わたしの 兄[あに]です."
   },
   {
     "id": "b22-49",
@@ -1571,7 +1571,7 @@ window.MNN_BANK[22] = [
     "id": "b22-55",
     "bab": 22,
     "type": "mcq",
-    "badge": "Bab 22 · Anak Kalimat (～た 料理)",
+    "badge": "Bab 22 · Anak Kalimat (～た 料理[りょうり])",
     "prompt": "きのう ははが （　） りょうりを みんなで たべました。",
     "promptRomaji": "Kinou haha ga _____ ryouri o minna de tabemashita.",
     "sub": "Lengkapi frasa 'masakan yang dibuat ibu kemarin'.",
@@ -2203,7 +2203,7 @@ window.MNN_BANK[22] = [
       }
     ],
     "answer": 0,
-    "explain": "Kamar bertatami adalah わしつ (和室), sedangkan area dapur dan ruang makan adalah ダイニングキッチン."
+    "explain": "Kamar bertatami adalah わしつ (和室[わしつ]), sedangkan area dapur dan ruang makan adalah ダイニングキッチン."
   },
   {
     "id": "b22-77",
@@ -2268,7 +2268,7 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Kosakata つごう",
-    "prompt": "こんしゅうの 土曜日は （　） ですから、ぜひ わたしの うちへ あそびに きて ください。",
+    "prompt": "こんしゅうの 土曜日[どようび]は （　） ですから、ぜひ わたしの うちへ あそびに きて ください。",
     "promptRomaji": "Konshuu no doyoubi wa _____ desu kara, zehi watashi no uchi e asobi ni kite kudasai.",
     "sub": "Pilih ungkapan yang menyatakan hari Sabtu ada keluangan waktu / cocok.",
     "options": [
@@ -2762,7 +2762,7 @@ window.MNN_BANK[22] = [
     "type": "mcq",
     "badge": "Bab 22 · Dialog Menunjuk Orang di Foto",
     "prompt": "A：この しゃしんの なかで、どれが さとうさんですか。\nB：ほら、いちばん うしろで （　）。",
-    "promptRomaji": "A: Kono shashin no naka de, dore ga Satou-san desu ka. B: Hora, ichiban ushiro de _____.",
+    "promptRomaji": "A: Kono shashin no naka de, dore ga Satou-san desu ka.\nB: Hora, ichiban ushiro de _____.",
     "sub": "Pilih deskripsi ciri pakaian yang kata kerjanya benar semua.",
     "options": [
       {
@@ -2791,7 +2791,7 @@ window.MNN_BANK[22] = [
     "type": "mcq",
     "badge": "Bab 22 · Dialog Menolak Ajakan dengan Halus",
     "prompt": "A：あしたの よる、サッカーの しあいを みに いきませんか。\nB：すみません。あしたは ちょっと （　）。",
-    "promptRomaji": "A: Ashita no yoru, sakkaa no shiai o mi ni ikimasen ka. B: Sumimasen. Ashita wa chotto _____.",
+    "promptRomaji": "A: Ashita no yoru, sakkaa no shiai o mi ni ikimasen ka.\nB: Sumimasen. Ashita wa chotto _____.",
     "sub": "Pilih alasan penolakan yang alami dengan kosakata/pola Bab 22.",
     "options": [
       {
@@ -2820,7 +2820,7 @@ window.MNN_BANK[22] = [
     "type": "mcq",
     "badge": "Bab 22 · Dialog (Kata Benda + の + Kata Benda)",
     "prompt": "A：その きれいな はなは だれに あげますか。\nB：きょう （　）。",
-    "promptRomaji": "A: Sono kirei na hana wa dare ni agemasu ka. B: Kyou _____.",
+    "promptRomaji": "A: Sono kirei na hana wa dare ni agemasu ka.\nB: Kyou _____.",
     "sub": "Lengkapi: 'Saya memberikannya kepada teman yang berulang tahun hari ini.'",
     "options": [
       {
@@ -2849,7 +2849,7 @@ window.MNN_BANK[22] = [
     "type": "mcq",
     "badge": "Bab 22 · Dialog Ucapan Selamat",
     "prompt": "A：らいげつ けっこんします。\nB：ほんとうですか。（　）！ どんな ひとですか。\nA：ユーモアが あって、とても やさしい ひとです。",
-    "promptRomaji": "A: Raigetsu kekkon shimasu. B: Hontou desu ka. _____! Donna hito desu ka. A: Yuumoa ga atte, totemo yasashii hito desu.",
+    "promptRomaji": "A: Raigetsu kekkon shimasu.\nB: Hontou desu ka. _____! Donna hito desu ka. A: Yuumoa ga atte, totemo yasashii hito desu.",
     "sub": "Pilih ucapan selamat atas kabar pernikahan.",
     "options": [
       {
@@ -2877,7 +2877,7 @@ window.MNN_BANK[22] = [
     "bab": 22,
     "type": "mcq",
     "badge": "Bab 22 · Pemahaman Kalimat Kompleks",
-    "prompt": "「これは きょねん 日本へ りゅうがくした ともだちが わたしに かいた てがみです。」の いみは どれですか。",
+    "prompt": "「これは きょねん 日本[にほん]へ りゅうがくした ともだちが わたしに かいた てがみです。」の いみは どれですか。",
     "promptRomaji": "\"Kore wa kyonen Nihon e ryuugaku shita tomodachi ga watashi ni kaita tegami desu.\" no imi wa dore desu ka.",
     "sub": "Perhatikan dua lapisan anak kalimat penjelas benda!",
     "options": [
@@ -2899,6 +2899,6 @@ window.MNN_BANK[22] = [
       }
     ],
     "answer": 3,
-    "explain": "きょねん 日本へ りゅうがくした menjelaskan ともだち ('teman yang tahun lalu belajar di Jepang'), lalu ともだちが わたしに かいた menjelaskan てがみ ('surat yang teman tulis untuk saya')."
+    "explain": "きょねん 日本[にほん]へ りゅうがくした menjelaskan ともだち ('teman yang tahun lalu belajar di Jepang'), lalu ともだちが わたしに かいた menjelaskan てがみ ('surat yang teman tulis untuk saya')."
   }
 ];

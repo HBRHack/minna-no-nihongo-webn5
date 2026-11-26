@@ -1050,8 +1050,8 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · なんじ",
-    "prompt": "いま （　） ですか。…ごぜん 8じです。",
-    "promptRomaji": "Ima ( ) desu ka. ...Gozen hachiji desu.",
+    "prompt": "A：いま （　） ですか。\nB：ごぜん 8じです。",
+    "promptRomaji": "A: Ima ( ) desu ka.\nB: Gozen hachiji desu.",
     "sub": "Menanyakan jam.",
     "options": [
       {
@@ -1282,8 +1282,8 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · なんじに",
-    "prompt": "まいあさ （　） おきますか。…6じに おきます。",
-    "promptRomaji": "Maiasa ( ) okimasu ka. ...Rokuji ni okimasu.",
+    "prompt": "A：まいあさ （　） おきますか。\nB：6じに おきます。",
+    "promptRomaji": "A: Maiasa ( ) okimasu ka.\nB: Rokuji ni okimasu.",
     "sub": "Menanyakan waktu melakukan kegiatan.",
     "options": [
       {
@@ -1398,8 +1398,8 @@ window.MNN_BANK[4] = [
     "bab": 4,
     "type": "mcq",
     "badge": "Bab 4 · Jawaban Lampau Negatif",
-    "prompt": "A:「きのう べんきょうしましたか。」 B:「いいえ、（　）。」",
-    "promptRomaji": "Kinou benkyou shimashita ka. ...Iie, ( ).",
+    "prompt": "A：「きのう べんきょうしましたか。」\nB：「いいえ、（　）。」",
+    "promptRomaji": "A: Kinou benkyou shimashita ka.\nB: Iie, ( ).",
     "sub": "Jawab bahwa kemarin tidak belajar.",
     "options": [
       {
