@@ -2,7 +2,7 @@
 # Static site murni (tanpa build bundler), seluruh aplikasi ada di folder `web/`.
 
 [build]
-  publish = "web"
+  publish = "01-minna-no-nihongo-n5/web"
   command = ""
 
 [[headers]]
