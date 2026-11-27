@@ -1,5 +1,5 @@
 /* Service Worker — Minna no Nihongo I (Bab 1–25) + Mode Mobile PWA */
-const CACHE_VERSION = "20261127-v28";
+const CACHE_VERSION = "20261127-v29";
 const CACHE_NAME = `mnn-n5-${CACHE_VERSION}`;
 
 const CORE_DATA_JS = [
@@ -40,6 +40,7 @@ const PRECACHE_URLS = [
   `./mobile/mobile.js?v=${CACHE_VERSION}`,
   `./manifest.webmanifest?v=${CACHE_VERSION}`,
   `./styles.css?v=${CACHE_VERSION}`,
+  `./shared-core.js?v=${CACHE_VERSION}`,
   `./app.js?v=${CACHE_VERSION}`,
   `./icons/icon.svg?v=${CACHE_VERSION}`,
   `./icons/apple-touch-icon.png?v=${CACHE_VERSION}`,

@@ -1,22 +1,84 @@
 /* Dedicated Mobile App — Minna no Nihongo I (Bab 1–25)
- * Parity penuh pada 4 fokus Mobile (tanpa Modul Tata Bahasa & tanpa Tes Akhir Bab 1–25):
- * 1. Kotoba: Swipe Tinder, Tabel Buku, Flip Kartu Multi-Grid, Kuis Kotoba (1–50), Tes Hafalan Ketik, & Kuis Akhir Kotoba
- * 2. Kaiwa: Kontrol lengkap PC (Putar Dialog, Intro CD, Mode Tirukan, Sembunyikan Arti, Tukar/Atur/Bisukan Suara)
- * 3. Referensi (11 Kategori): Materi + Lab Angka/Kalender + Mode Flashcard + Kuis 10 Soal & Acak 20 Soal
- * 4. Kana Dasar: Swipe, Tebak Huruf Pintar, & Papan 5 Kolom
+ * 6 Tab Fokus Mobile (tanpa Modul Pembahasan Tata Bahasa & tanpa Tes Akhir Gabungan 1–25):
+ * 1. Kotoba: Swipe Tinder, Tabel Buku, & Flip Kartu Multi-Grid (hafalan)
+ * 2. Kuis Kotoba: Kuis Kotoba (1–50), Tes Hafalan Ketik, & Tes Akhir Kotoba (Edisi 2)
+ * 3. Kuis Modul: Kuis soal bank Bab 1–25 (on-demand JSON) + pintasan Materi Pembahasan di Versi PC
+ * 4. Kaiwa: Kontrol lengkap PC (Putar Dialog, Intro CD, Mode Tirukan, Sembunyikan Arti, Tukar/Atur/Bisukan Suara)
+ * 5. Referensi (11 Kategori): Materi + Lab Angka/Kalender + Mode Flashcard + Kuis 10 Soal & Acak 20 Soal
+ * 6. Kana Dasar: Swipe, Tebak Huruf Pintar, & Papan 5 Kolom
  */
 (function () {
   "use strict";
+
+  const {
+    ASSET_VERSION,
+    esc,
+    norm,
+    hasJapaneseText,
+    cleanJpSpeech,
+    extractSpeakablePrompt,
+    formatJpHtml,
+    formatPromptHtml,
+    formatRomajiHtml,
+    shuffleCopy,
+    shuffleQuestionOptions,
+    isKotobaEd2,
+    orderKotobaEd2First,
+    kotobaEditionBadgeHtml,
+    clampKotobaQuizCount,
+    sanitizeKotobaBatchSize,
+    sanitizeKotobaBatchByScope,
+    getAcceptedKotobaForms,
+    numberToJapanese,
+    DATE_READINGS
+  } = window.MNN_SHARED || {};
 
   const STORAGE_PROFILES_V3 = "mnn_profiles_v3";
   const STORAGE_PREFS_V3 = "mnn_prefs_v3";
   const STORAGE_THEME = "mnn_theme_mode_v1";
   const STORAGE_UI_MODE = "mnn_ui_mode";
+  const BANK_VERSION = ASSET_VERSION || "20261127-v29";
 
   const KOTOBA_DATA = window.MNN_KOTOBA || {};
   const KAIWA_DATA = window.MNN_KAIWA || {};
   const KANA_DATA = window.MNN_KANA_DATA || { hiraganaRows: [], katakanaRows: [] };
   const REFERENCES = Array.isArray(window.MNN_REFERENCES) ? window.MNN_REFERENCES : [];
+
+  const CHAPTER_TITLES = {
+    1: "Perkenalan Diri & Kalimat Nominal (は・です・も・の)",
+    2: "Kata Tunjuk Benda (これ・この), Kepemilikan の, & Pilihan ～か、～か",
+    3: "Kata Tunjuk Tempat (ここ・こちら), Asal Produk, & Angka Harga",
+    4: "Jam, Hari, 4 Bentuk Kata Kerja ます, & Partikel に / から～まで",
+    5: "Perpindahan (へ・で・と), Waktu せん/こん/らい, & Tanggal Khusus",
+    6: "Objek (を), Tempat Aksi (で), Bertemu (に), & Ajakan (～ませんか・～ましょう)",
+    7: "Alat & Bahasa (で), Memberi-Menerima Dasar (あげます・もらいます), & もう／まだ",
+    8: "Kata Sifat-い & Kata Sifat-な, とても／あまり, どう／どんな, & が (Tetapi)",
+    9: "Partikel が (Suka, Pandai, Mengerti), Adverbia Tingkat, & Alasan から",
+    10: "Keberadaan (あります・います), 11 Kata Posisi, & や～など",
+    11: "Kata Bantu Bilangan (～つ・～にん・～まい・～だい), Durasi, & だけ",
+    12: "Kala Lampau Kata Sifat/Benda & Perbandingan (より・どちら・いちばん)",
+    13: "Keinginan Benda (がほしい), Keinginan Aksi (V-たい), & Tujuan Pergi",
+    14: "3 Kelompok Kata Kerja, Bentuk-て, ～てください, ～ています, & ～ましょうか",
+    15: "Izin (～てもいいですか), Larangan (～てはいけません), & Status Keadaan (～ています)",
+    16: "Urutan Aksi (V1-て、V2 / てから), Gabung Kata Sifat (～くて・～で), & Ciri (N1はN2が)",
+    17: "Bentuk -Nai (ない形), Larangan, Keharusan, & Tidak Perlu",
+    18: "Bentuk Kamus (辞書形), ことができます, しゅみは～ことです, & まえに",
+    19: "Bentuk -Ta (た形), Pengalaman (～たことがあります), ～たり～たり, & なります",
+    20: "Bentuk Biasa / Kasual (普通形 / Plain Form) & Percakapan Akrab",
+    21: "Pendapat (と思います), Kutipan (と言いました), でしょう？, & Acara (で…があります)",
+    22: "Anak Kalimat Penjelas Kata Benda (名詞修飾) & Kata Kerja Memakai Pakaian",
+    23: "Klausa Waktu (～とき), Kondisi Pasti (～と), & Partikel Gerak を",
+    24: "くれます & Memberi-Menerima Jasa (～てあげます・～てもらいます・～てくれます)",
+    25: "Pengandaian & Urutan Masa Depan (～たら) serta Kontradiksi (～ても)"
+  };
+
+  const BAB17_SECTIONS = [
+    "all",
+    "A · V-ない",
+    "B · ～ないでください",
+    "C · ～なければなりません",
+    "D · ～なくてもいいです"
+  ];
 
   const ALL_KOTOBA = Object.keys(KOTOBA_DATA)
     .map(Number)
@@ -34,167 +96,8 @@
     ["ハ", "ホ", "ネ"], ["ロ", "ム", "モ"]
   ];
 
-  const DATE_READINGS = {
-    1: ["ついたち", "tsuitachi", true], 2: ["ふつか", "futsuka", true], 3: ["みっか", "mikka", true],
-    4: ["よっか", "yokka", true], 5: ["いつか", "itsuka", true], 6: ["むいか", "muika", true],
-    7: ["なのか", "nanoka", true], 8: ["ようか", "youka", true], 9: ["ここのか", "kokonoka", true],
-    10: ["とおか", "tooka", true], 11: ["じゅういちにち", "juuichinichi", false], 12: ["じゅうににち", "juuninichi", false],
-    13: ["じゅうさんにち", "juusannichi", false], 14: ["じゅうよっか", "juuyokka", true], 15: ["じゅうごにち", "juugonichi", false],
-    16: ["じゅうろくにち", "juurokunichi", false], 17: ["じゅうしちにち", "juushichinichi", false], 18: ["じゅうはちにち", "juuhachinichi", false],
-    19: ["じゅうくにち", "juukunichi", true], 20: ["はつか", "hatsuka", true], 21: ["にじゅういちにち", "nijuuichinichi", false],
-    22: ["にじゅうににち", "nijuuninichi", false], 23: ["にじゅうさんにち", "nijuusannichi", false], 24: ["にじゅうよっか", "nijuuyokka", true],
-    25: ["にじゅうごにち", "nijuugonichi", false], 26: ["にじゅうろくにち", "nijuurokunichi", false], 27: ["にじゅうしちにち", "nijuushichinichi", false],
-    28: ["にじゅうはちにち", "nijuuhachinichi", false], 29: ["にじゅうくにち", "nijuukunichi", true], 30: ["さんじゅうにち", "sanjuunichi", false],
-    31: ["さんじゅういちにち", "sanjuuichinichi", false]
-  };
-
-  function numberToJapanese(n) {
-    const num = Math.max(0, Math.min(99999, Math.floor(Number(n) || 0)));
-    if (num === 0) return { jp: "ゼロ（れい）", romaji: "zero (rei)", note: "Nol" };
-    const ones = ["", "いち", "に", "さん", "よん", "ご", "ろく", "なな", "はち", "きゅう"];
-    const onesR = ["", "ichi", "ni", "san", "yon", "go", "roku", "nana", "hachi", "kyuu"];
-    const hundreds = ["", "ひゃく", "にひゃく", "さんびゃく", "よんひゃく", "ごひゃく", "ろっぴゃく", "ななひゃく", "はっぴゃく", "きゅうひゃく"];
-    const hundredsR = ["", "hyaku", "nihyaku", "sanbyaku", "yonhyaku", "gohyaku", "roppyaku", "nanahyaku", "happyaku", "kyuuhyaku"];
-    const thousands = ["", "せん", "にせん", "さんぜん", "よんせん", "ごせん", "ろくせん", "ななせん", "はっせん", "きゅうせん"];
-    const thousandsR = ["", "sen", "nisen", "sanzen", "yonsen", "gosen", "rokusen", "nanasen", "hassen", "kyuusen"];
-
-    const man = Math.floor(num / 10000);
-    const sen = Math.floor((num % 10000) / 1000);
-    const hyaku = Math.floor((num % 1000) / 100);
-    const juu = Math.floor((num % 100) / 10);
-    const ichi = num % 10;
-
-    const jpParts = [];
-    const rParts = [];
-    const notes = [];
-    if (man > 0) {
-      jpParts.push(ones[man] + "まん");
-      rParts.push(onesR[man] + "man");
-      if (man === 1) notes.push("10.000 wajib いちまん");
-    }
-    if (sen > 0) {
-      jpParts.push(thousands[sen]);
-      rParts.push(thousandsR[sen]);
-      if (sen === 3) notes.push("3.000 = さんぜん");
-      if (sen === 8) notes.push("8.000 = はっせん");
-    }
-    if (hyaku > 0) {
-      jpParts.push(hundreds[hyaku]);
-      rParts.push(hundredsR[hyaku]);
-      if (hyaku === 3) notes.push("300 = さんびゃく");
-      if (hyaku === 6) notes.push("600 = ろっぴゃく");
-      if (hyaku === 8) notes.push("800 = はっぴゃく");
-    }
-    if (juu > 0) {
-      jpParts.push((juu === 1 ? "" : ones[juu]) + "じゅう");
-      rParts.push((juu === 1 ? "" : onesR[juu]) + "juu");
-    }
-    if (ichi > 0) {
-      jpParts.push(ones[ichi]);
-      rParts.push(onesR[ichi]);
-    }
-    return {
-      jp: jpParts.join(" "),
-      romaji: rParts.join(" "),
-      note: notes.length ? notes.join(" · ") : "Aturan normal."
-    };
-  }
-
-  // ===== UTILITIES =====
-  function esc(str) {
-    return String(str || "")
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;");
-  }
-
-  function norm(s) {
-    return String(s || "").trim().toLowerCase().replace(/\s+/g, " ").replace(/[~～。．.!?！？]/g, "");
-  }
-
-  function hasJapaneseText(s) {
-    return /[\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]/.test(String(s || ""));
-  }
-
-  function isKotobaEd2(w) {
-    return !w || !Array.isArray(w.ed) || w.ed.includes(2);
-  }
-
-  function isKotobaEd2New(w) {
-    return !!(w && Array.isArray(w.ed) && w.ed.length === 1 && w.ed[0] === 2);
-  }
-
-  function isKotobaArchiveEd1(w) {
-    return !!(w && Array.isArray(w.ed) && w.ed.length === 1 && w.ed[0] === 1);
-  }
-
-  function orderKotobaEd2First(list) {
-    const arr = Array.isArray(list) ? list : [];
-    return [...arr.filter(isKotobaEd2), ...arr.filter(isKotobaArchiveEd1)];
-  }
-
-  function kotobaEdBadge(w) {
-    if (isKotobaArchiveEd1(w)) return `<span class="m-ed-pill is-ed1">Arsip Ed. 1</span>`;
-    if (isKotobaEd2New(w)) return `<span class="m-ed-pill is-ed2">Ed. 2</span>`;
-    return "";
-  }
-
-  function formatJpHtml(raw) {
-    const tokens = [];
-    const withMarkers = String(raw || "").replace(
-      /([0-9０-９,]*[\u4e00-\u9faf々ヶ]+)\[([\u3040-\u309f\u30a0-\u30ffー]+)\]/g,
-      (_, kanji, reading) => {
-        const idx = tokens.length;
-        tokens.push(`<ruby>${esc(kanji)}<rt>${esc(reading)}</rt></ruby>`);
-        return `\uE000${idx}\uE001`;
-      }
-    );
-    return esc(withMarkers).replace(/\uE000(\d+)\uE001/g, (_, idx) => tokens[Number(idx)] || "");
-  }
-
-  function cleanJpSpeech(raw) {
-    return String(raw || "")
-      .replace(/([0-9０-９,]*[\u4e00-\u9faf々ヶ]+)\[([\u3040-\u309f\u30a0-\u30ffー]+)\]/g, "$2")
-      .replace(/(?:^|\n)\s*[ABＡＢ]\s*[:：]\s*/g, "\n")
-      .replace(/\r?\n+/g, "、")
-      .replace(/（[　\s]*）/g, "")
-      .replace(/［[^］]*］/g, "")
-      .replace(/\s*[／/]\s*/g, "、")
-      .replace(/（([^）]+)）/g, "、$1")
-      .replace(/\(([^)]+)\)/g, "")
-      .replace(/[～~]/g, "")
-      .replace(/\s+/g, " ")
-      .trim();
-  }
-
-  function shuffleCopy(arr) {
-    const copy = [...(arr || [])];
-    for (let i = copy.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [copy[i], copy[j]] = [copy[j], copy[i]];
-    }
-    return copy;
-  }
-
-  function clampKotobaQuizCount(val) {
-    const n = Math.floor(Number(val));
-    if (!Number.isFinite(n) || n < 1) return 20;
-    return Math.min(50, Math.max(1, n));
-  }
-
-  function sanitizeKotobaBatchSize(v) {
-    return ["5", "10", "15", "all"].includes(String(v)) ? String(v) : "5";
-  }
-
-  function sanitizeKotobaBatchByScope(raw) {
-    const out = {};
-    if (raw && typeof raw === "object") {
-      Object.entries(raw).forEach(([k, v]) => {
-        if (["5", "10", "15", "all"].includes(String(v))) out[String(k)] = String(v);
-      });
-    }
-    return out;
+  function mKotobaEdBadge(w) {
+    return kotobaEditionBadgeHtml(w, "m-ed-pill");
   }
 
   // ===== SHARED STORAGE SYNC =====
@@ -214,6 +117,8 @@
   }
 
   function ensureProfileShapes(prof) {
+    if (!prof.chapters || typeof prof.chapters !== "object") prof.chapters = {};
+    if (!prof.seenBankIds || typeof prof.seenBankIds !== "object") prof.seenBankIds = {};
     if (!prof.kotoba || typeof prof.kotoba !== "object") {
       prof.kotoba = { masteredIds: [], reviewIds: [], bestStreak: 0, totalPlayed: 0, chapterScores: {}, wrongIdsByScope: {} };
     }
@@ -399,7 +304,7 @@
 
   // ===== APP STATE =====
   const state = {
-    tab: "kotoba", // 'kotoba' | 'kaiwa' | 'refs' | 'kana'
+    tab: "kotoba", // 'kotoba' | 'kquiz' | 'mquiz' | 'kaiwa' | 'refs' | 'kana'
     theme: loadTheme(),
     showRomaji: typeof savedPrefs.showRomaji === "boolean" ? savedPrefs.showRomaji : true,
     speechRate: savedPrefs.speechRate === 0.75 ? 0.75 : 1.0,
@@ -414,11 +319,13 @@
     voiceMaleURI: typeof savedPrefs.voiceMaleURI === "string" ? savedPrefs.voiceMaleURI : "",
     voiceFemaleURI: typeof savedPrefs.voiceFemaleURI === "string" ? savedPrefs.voiceFemaleURI : "",
 
-    // Tab 1: Kotoba (Full PC Parity + Swipe & Tabel)
-    kotobaMode: "swipe", // 'swipe' | 'table' | 'flip' | 'quiz' | 'recall' | 'final'
+    // Shared Kotoba Deck & Mode split across Tab 1 (Hafalan) & Tab 2 (Kuis)
+    kotobaMemMode: "swipe", // 'swipe' | 'table' | 'flip'
+    kquizMode: "quiz", // 'quiz' | 'recall' | 'final'
     kotobaScope: "1", // '1'..'25' | '1-5'..'21-25' | 'review' | 'all'
     kotobaDir: "jp2id", // 'jp2id' | 'id2jp' | 'emoji'
-    kotobaSettingsOpen: false,
+    kotobaMemSettingsOpen: false,
+    kquizSettingsOpen: false,
     kotobaFullPool: [],
     kotobaDeck: [],
     kotobaFinalKinds: [],
@@ -429,11 +336,9 @@
     kotobaSearch: "",
     kotobaMaskArti: false,
     kotobaRevealedRowIds: {},
-    // Flip Multi-Grid state
     kotobaFlippedMap: {},
     kotobaGridPage: 0,
-    kotobaGridFilter: "all", // 'all' | 'unmastered' | 'mastered'
-    // Kotoba Quiz/Recall state
+    kotobaGridFilter: "all",
     kotobaMcqOptions: [],
     kotobaMcqCorrectIdx: 0,
     kotobaMcqPicked: null,
@@ -444,19 +349,34 @@
     kotobaSessionWrongIds: [],
     kotobaIsWrongRetry: false,
 
-    // Tab 2: Kaiwa Full Parity
+    // Tab 3: Kuis Modul Bab 1-25 (Bank JSON on-demand)
+    mquizBab: 1,
+    mquizSection: "all", // Bab 17 filter
+    bankCache: {},
+    bankLoading: false,
+    bankError: "",
+    mquizDeck: [],
+    mquizIdx: 0,
+    mquizPicked: null,
+    mquizCorrectCount: 0,
+    mquizWrongList: [],
+    mquizModeTag: "flash", // 'flash' (10-15) | 'rapid' (20-25) | 'retry'
+    mquizFlashCount: 10,
+    mquizRapidCount: 20,
+
+    // Tab 4: Kaiwa Full Parity
     kaiwaBab: 1,
     kaiwaPlaying: false,
     kaiwaLineIdx: -1,
     kaiwaWithIntro: true,
     kaiwaRepeatMode: false,
     kaiwaHideId: false,
-    kaiwaMuteGender: "none", // 'none' | 'male' | 'female'
+    kaiwaMuteGender: "none",
     kaiwaVoicePanelOpen: false,
 
-    // Tab 3: Referensi (11 Kategori)
+    // Tab 5: Referensi (11 Kategori)
     refId: REFERENCES[0] ? REFERENCES[0].id : "warna",
-    refTab: "materi", // 'materi' | 'kuis'
+    refTab: "materi",
     refFlashcardMode: false,
     refConverterVal: 3800,
     refSelectedDate: 1,
@@ -469,9 +389,9 @@
     refQuizOk: false,
     refQuizCorrectCount: 0,
 
-    // Tab 4: Kana Practice
+    // Tab 6: Kana Practice
     kanaSet: "hiragana",
-    kanaMode: "swipe", // 'swipe' | 'guess' | 'chart'
+    kanaMode: "swipe",
     kanaDir: "jp2rom",
     kanaDeck: [],
     kanaIdx: 0,
@@ -488,11 +408,48 @@
     kanaQuizCorrect: 0
   };
 
-  // ===== SHARED HELPERS =====
+  // ===== SHARED UI BUILDERS (DRY INTERNAL HELPERS) =====
   function goPcDesktop() {
     stopKaiwaPlayback();
     try { localStorage.setItem(STORAGE_UI_MODE, "desktop"); } catch {}
     window.location.href = "../?mode=desktop";
+  }
+
+  function renderMcqOptionsHtml(items, answered, pickedIdx, correctIdx, dataAttr, optMapper) {
+    return `
+      <div class="m-quiz-options">
+        ${items.map((rawOpt, idx) => {
+          let cls = "";
+          if (answered) {
+            if (idx === correctIdx) cls = "is-correct";
+            else if (idx === pickedIdx) cls = "is-wrong";
+          }
+          const mapped = optMapper(rawOpt, idx);
+          return `
+            <button type="button" class="m-opt-btn ${cls}" ${dataAttr}="${idx}" ${answered ? "disabled" : ""}>
+              <span class="m-opt-key">${idx + 1}</span>
+              <div class="m-opt-text">
+                <span class="m-opt-main">${mapped.mainHtml}</span>
+                ${mapped.subHtml ? `<span class="m-opt-sub m-romaji">${mapped.subHtml}</span>` : ""}
+              </div>
+            </button>
+          `;
+        }).join("")}
+      </div>
+    `;
+  }
+
+  function renderQuizResultCardHtml({ eyebrow, score, total, subtitle, extraHtml = "", actionsHtml = "" }) {
+    const pct = total > 0 ? Math.round((score / total) * 100) : 0;
+    return `
+      <div class="m-result-card">
+        <p class="m-eyebrow">${eyebrow}</p>
+        <div class="m-result-score">${score} / ${total}</div>
+        <p style="margin:0; font-weight:700; color:var(--color-ink-muted);">${subtitle || `${pct}% Tepat`}</p>
+        ${extraHtml}
+        ${actionsHtml ? `<div style="display:flex; gap:8px; flex-wrap:wrap; width:100%; margin-top:6px;">${actionsHtml}</div>` : ""}
+      </div>
+    `;
   }
 
   function renderTopBarSync() {
@@ -504,8 +461,11 @@
       bRom.textContent = state.showRomaji ? "R:ON" : "R:OFF";
       bRom.classList.toggle("is-active", state.showRomaji);
     }
+    const scopeLbl = state.kotobaScope === "all" ? "1–25" : state.kotobaScope;
     const subMap = {
-      kotoba: `Kotoba · Bab ${state.kotobaScope === "all" ? "1–25" : state.kotobaScope}`,
+      kotoba: `Kotoba · Bab ${scopeLbl} (Hafalan)`,
+      kquiz: `Kuis Kotoba · Bab ${scopeLbl}`,
+      mquiz: `Kuis Modul · Bab ${state.mquizBab}`,
       kaiwa: `Kaiwa · Bab ${state.kaiwaBab}`,
       refs: `Referensi (${REFERENCES.length} Kategori)`,
       kana: "Kana · Swipe, Tebak, & Papan"
@@ -518,20 +478,26 @@
     if (app) app.classList.toggle("m-romaji-off", !state.showRomaji);
   }
 
-  function renderBabRailHtml(activeVal, attrName, includeExtras = false) {
+  function renderBabRailHtml(activeVal, attrName, modeType = "none") {
     const prof = activeProfile();
     const mSet = new Set(prof.kotoba.masteredIds);
     const pills = [];
-    if (includeExtras) {
+    if (modeType === "kotoba") {
       pills.push(`<button type="button" class="m-rail-pill ${activeVal === "all" ? "is-active" : ""}" data-${attrName}="all">Semua</button>`);
       pills.push(`<button type="button" class="m-rail-pill ${activeVal === "review" ? "is-active" : ""}" data-${attrName}="review">🔁 Ulang (${prof.kotoba.reviewIds.length})</button>`);
     }
-    const allowEd1 = state.kotobaMode !== "final" && Boolean(state.showEd1Archive);
+    const allowEd1 = Boolean(state.showEd1Archive) && !(state.tab === "kquiz" && state.kquizMode === "final");
     for (let b = 1; b <= 25; b++) {
-      const list = (KOTOBA_DATA[b] || []).filter((w) => allowEd1 || isKotobaEd2(w));
-      const allKnown = includeExtras && list.length > 0 && list.every((w) => mSet.has(w.id));
-      const sc = prof.kotoba.chapterScores[b];
-      const done = includeExtras && (allKnown || !!(sc && sc.bestPct >= 80));
+      let done = false;
+      if (modeType === "kotoba") {
+        const list = (KOTOBA_DATA[b] || []).filter((w) => allowEd1 || isKotobaEd2(w));
+        const allKnown = list.length > 0 && list.every((w) => mSet.has(w.id));
+        const sc = prof.kotoba.chapterScores[b];
+        done = allKnown || !!(sc && sc.bestPct >= 80);
+      } else if (modeType === "mquiz") {
+        const sc = prof.chapters[b];
+        done = !!(sc && sc.bestPct >= 80);
+      }
       pills.push(
         `<button type="button" class="m-rail-pill ${String(activeVal) === String(b) ? "is-active" : ""} ${done ? "is-done" : ""}" data-${attrName}="${b}">${done ? "✓ " : ""}Bab ${b}</button>`
       );
@@ -539,45 +505,7 @@
     return `<div class="m-pill-rail" role="tablist">${pills.join("")}</div>`;
   }
 
-  // ===== KOTOBA LOGIC (FULL PARITY WITH PC + SWIPE + TABEL) =====
-  function stripKotobaMeta(str) {
-    return String(str || "")
-      .replace(/\[[^\]]*\]/g, "")
-      .replace(/［[^］]*］/g, "")
-      .replace(/\([^\)]*\)/g, "")
-      .replace(/（[^）]*）/g, "")
-      .replace(/[～~－\-「」"]/g, "")
-      .replace(/[。．.!！?？]/g, "")
-      .trim();
-  }
-
-  function getAcceptedKotobaForms(card) {
-    const forms = new Set();
-    const pushCleaned = (s) => {
-      const c = norm(String(s || "").replace(/[～~－\-「」"]/g, ""));
-      if (c) {
-        forms.add(c);
-        forms.add(c.replace(/\s+/g, ""));
-      }
-    };
-    const addVariants = (raw) => {
-      if (!raw) return;
-      const parts = String(raw).split(/[／/]/);
-      parts.concat([String(raw)]).forEach((p) => {
-        pushCleaned(stripKotobaMeta(p));
-        const unwrapped = p.replace(/\([^\)]*\)/g, "").replace(/（[^）]*）/g, "").replace(/[\[\]［］]/g, "");
-        pushCleaned(unwrapped);
-        for (const m of p.matchAll(/[（(]([^）)]+)[）)]/g)) {
-          pushCleaned(stripKotobaMeta(m[1]));
-        }
-      });
-    };
-    addVariants(card.kana);
-    addVariants(card.romaji);
-    if (card.kanji) addVariants(card.kanji);
-    return [...forms].filter(Boolean);
-  }
-
+  // ===== KOTOBA SHARED ENGINE (USED BY TAB 1 HAFALAN & TAB 2 KUIS KOTOBA) =====
   function getActiveKotobaBatchSize(scope) {
     const key = String(scope || state.kotobaScope || "1");
     if (state.kotobaBatchByScope && ["5", "10", "15", "all"].includes(state.kotobaBatchByScope[key])) {
@@ -603,17 +531,25 @@
     return shuffleCopy(babList.length > 0 ? babList : baseAll.slice(0, 40));
   }
 
+  function getActiveKotobaMode() {
+    return state.tab === "kquiz" ? state.kquizMode : state.kotobaMemMode;
+  }
+
+  function isFinalKotobaActive() {
+    return state.tab === "kquiz" && state.kquizMode === "final";
+  }
+
   function getActiveKotobaQuestionKind() {
-    if (state.kotobaMode === "recall") return "recall";
-    if (state.kotobaMode === "quiz") return state.kotobaDir === "emoji" ? "emoji" : "mcq";
-    if (state.kotobaMode === "final") return state.kotobaFinalKinds[state.kotobaIdx] || "mcq";
-    return state.kotobaMode;
+    if (state.kquizMode === "recall") return "recall";
+    if (state.kquizMode === "quiz") return state.kotobaDir === "emoji" ? "emoji" : "mcq";
+    if (state.kquizMode === "final") return state.kotobaFinalKinds[state.kotobaIdx] || "mcq";
+    return "mcq";
   }
 
   function prepareKotobaMcqOptions() {
     const card = state.kotobaDeck[state.kotobaIdx];
     if (!card) return;
-    const allowEd1 = state.kotobaMode !== "final" && Boolean(state.showEd1Archive);
+    const allowEd1 = !isFinalKotobaActive() && Boolean(state.showEd1Archive);
     const sameBab = (KOTOBA_DATA[card.bab] || []).filter((w) => w.id !== card.id && w.arti !== card.arti && (allowEd1 || isKotobaEd2(w)));
     const wider = ALL_KOTOBA.filter((w) => w.id !== card.id && w.arti !== card.arti && (allowEd1 || isKotobaEd2(w)));
     const distractors = [];
@@ -631,13 +567,19 @@
     state.kotobaMcqPicked = null;
   }
 
-  function openKotobaMode(scope, mode, customIds) {
+  function startKotobaSession(scope, mode, customIds, targetTab) {
+    const useTab = targetTab || (["quiz", "recall", "final"].includes(mode) ? "kquiz" : "kotoba");
     if (scope) state.kotobaScope = String(scope);
-    if (mode) state.kotobaMode = mode;
+    if (mode) {
+      if (useTab === "kquiz") state.kquizMode = mode;
+      else state.kotobaMemMode = mode;
+    }
 
+    const activeMode = useTab === "kquiz" ? state.kquizMode : state.kotobaMemMode;
+    const isFinal = useTab === "kquiz" && activeMode === "final";
     const prof = activeProfile();
     const mSet = new Set(prof.kotoba.masteredIds);
-    const allowEd1 = state.kotobaMode !== "final" && Boolean(state.showEd1Archive);
+    const allowEd1 = !isFinal && Boolean(state.showEd1Archive);
     let pool;
 
     if (Array.isArray(customIds) && customIds.length > 0) {
@@ -646,21 +588,21 @@
       state.kotobaIsWrongRetry = true;
     } else {
       pool = getKotobaPool(state.kotobaScope, allowEd1);
-      if (state.kotobaMode === "final") pool = pool.filter(isKotobaEd2);
+      if (isFinal) pool = pool.filter(isKotobaEd2);
       state.kotobaIsWrongRetry = false;
     }
 
-    if (state.kotobaMode === "quiz" && state.kotobaDir === "emoji" && !state.kotobaIsWrongRetry) {
+    if (useTab === "kquiz" && activeMode === "quiz" && state.kotobaDir === "emoji" && !state.kotobaIsWrongRetry) {
       const emojiCards = pool.filter((w) => !!w.emoji);
       if (emojiCards.length >= 4) pool = emojiCards;
-    } else if (state.kotobaMode === "recall" && !state.kotobaIsWrongRetry) {
+    } else if (useTab === "kquiz" && activeMode === "recall" && !state.kotobaIsWrongRetry) {
       const recallable = pool.filter((w) => !(/[。？?]/.test(w.kana) && /[～~]/.test(w.kana)));
       if (recallable.length >= 5) pool = recallable;
     }
 
-    if ((state.kotobaMode === "flip" || state.kotobaMode === "swipe") && !state.kotobaIsWrongRetry) {
+    if (useTab === "kotoba" && (activeMode === "flip" || activeMode === "swipe") && !state.kotobaIsWrongRetry) {
       const ed2 = pool.filter(isKotobaEd2);
-      const ed1 = pool.filter(isKotobaArchiveEd1);
+      const ed1 = pool.filter((w) => !isKotobaEd2(w));
       pool = [
         ...ed2.filter((w) => !mSet.has(w.id)),
         ...ed2.filter((w) => mSet.has(w.id)),
@@ -678,7 +620,7 @@
     state.kotobaHistory = [];
     state.kotobaFlipped = false;
 
-    if (state.kotobaMode === "swipe" || state.kotobaMode === "flip" || state.kotobaMode === "table") {
+    if (useTab === "kotoba") {
       state.kotobaDeck = pool;
     } else {
       const maxQ = clampKotobaQuizCount(state.kotobaQuizCount);
@@ -702,9 +644,10 @@
     state.kotobaRecallAnswered = false;
     state.kotobaRecallOk = false;
 
-    if (state.kotobaDeck.length > 0 && (state.kotobaMode === "quiz" || state.kotobaMode === "final")) {
+    if (useTab === "kquiz" && state.kotobaDeck.length > 0 && (activeMode === "quiz" || activeMode === "final")) {
       prepareKotobaMcqOptions();
     }
+    if (targetTab && state.tab !== targetTab) state.tab = targetTab;
     renderCurrentTab();
   }
 
@@ -726,7 +669,7 @@
   function saveKotobaChapterQuizScore(correct, total) {
     if (state.kotobaIsWrongRetry || total <= 0) return;
     if (!/^\d+$/.test(state.kotobaScope)) return;
-    if (state.kotobaMode === "flip" || state.kotobaMode === "swipe" || state.kotobaMode === "table") return;
+    if (state.tab !== "kquiz") return;
     const bab = Number(state.kotobaScope);
     const prof = activeProfile();
     const pct = Math.round((correct / total) * 100);
@@ -773,16 +716,15 @@
     return `<div class="${cls || ""}" style="line-height:1.05; ${sz}" aria-hidden="true">${card.emoji}</div>`;
   }
 
-  function renderKotobaTab(app) {
+  function renderKotobaDeckHeader(isQuizTab) {
     const prof = activeProfile();
-    const mSet = new Set(prof.kotoba.masteredIds);
-    const rSet = new Set(prof.kotoba.reviewIds);
-    const allowEd1 = state.kotobaMode !== "final" && Boolean(state.showEd1Archive);
+    const allowEd1 = !(isQuizTab && state.kquizMode === "final") && Boolean(state.showEd1Archive);
     const activeAll = allowEd1 ? ALL_KOTOBA : ALL_KOTOBA.filter(isKotobaEd2);
     const isSingleBab = /^\d+$/.test(state.kotobaScope);
     const curBabNum = isSingleBab ? Number(state.kotobaScope) : null;
     const savedWrongForScope = prof.kotoba.wrongIdsByScope[state.kotobaScope] || [];
     const activeBatch = getActiveKotobaBatchSize(state.kotobaScope);
+    const settingsOpen = isQuizTab ? state.kquizSettingsOpen : state.kotobaMemSettingsOpen;
 
     const scopeOptions = [
       `<option value="all" ${state.kotobaScope === "all" ? "selected" : ""}>Semua Bab 1–25 (${activeAll.length} kata)</option>`,
@@ -799,45 +741,42 @@
       })
     ].join("");
 
-    const controlsHtml = `
-      <section class="m-controls-card">
-        <div class="m-deck-row">
-          <select class="m-select" id="mSelKotobaScope" aria-label="Pilih Dek Bab">${scopeOptions}</select>
-          <button type="button" class="m-btn-soft" id="btnMobReshuffle" style="min-height:38px; padding:6px 10px;">🔀 Acak</button>
-          <button type="button" class="m-btn-soft ${state.kotobaSettingsOpen ? "is-active" : ""}" id="btnToggleKotobaSettings" style="min-height:38px; padding:6px 10px;">⚙️ Setingan</button>
+    const modeButtonsHtml = isQuizTab
+      ? `
+        <div class="m-mode-rail" role="tablist" aria-label="Mode Kuis Kotoba">
+          <button type="button" class="m-mode-btn ${state.kquizMode === "quiz" ? "is-active" : ""}" data-kqmode="quiz">⚡ Kuis (1–50)</button>
+          <button type="button" class="m-mode-btn ${state.kquizMode === "recall" ? "is-active" : ""}" data-kqmode="recall">✍️ Tes Ketik</button>
+          <button type="button" class="m-mode-btn ${state.kquizMode === "final" ? "is-active" : ""}" data-kqmode="final">🏆 Tes Akhir${isSingleBab ? ` B${curBabNum}` : " Ktb"}</button>
         </div>
-        ${savedWrongForScope.length > 0 ? `
-          <div class="m-deck-row">
-            <button type="button" class="m-chip is-warn" id="btnMobWrongSaved">🔁 Salah Tersimpan (${savedWrongForScope.length})</button>
+      `
+      : `
+        <div class="m-mode-rail" role="tablist" aria-label="Mode Hafalan Kotoba">
+          <button type="button" class="m-mode-btn ${state.kotobaMemMode === "swipe" ? "is-active" : ""}" data-kmode="swipe">👆 Swipe</button>
+          <button type="button" class="m-mode-btn ${state.kotobaMemMode === "table" ? "is-active" : ""}" data-kmode="table">📋 Tabel</button>
+          <button type="button" class="m-mode-btn ${state.kotobaMemMode === "flip" ? "is-active" : ""}" data-kmode="flip">🃏 Flip Kartu</button>
+        </div>
+      `;
+
+    const settingsBodyHtml = settingsOpen
+      ? `
+        <div class="m-settings-grid">
+          <div class="m-setting-group">
+            <span class="m-setting-label">Emot Visual (Kata Konkret)</span>
+            <div class="m-chip-row">
+              <button type="button" class="m-chip ${state.kotobaEmojiSize === "large" ? "is-active" : ""}" data-kemoji="large">Gede (Biar Hafal!)</button>
+              <button type="button" class="m-chip ${state.kotobaEmojiSize === "normal" ? "is-active" : ""}" data-kemoji="normal">Normal</button>
+              <button type="button" class="m-chip ${state.kotobaEmojiSize === "off" ? "is-active" : ""}" data-kemoji="off">OFF</button>
+            </div>
           </div>
-        ` : ""}
-        ${renderBabRailHtml(state.kotobaScope, "kbab", true)}
-        <div class="m-mode-rail" role="tablist" aria-label="Mode Kotoba">
-          <button type="button" class="m-mode-btn ${state.kotobaMode === "swipe" ? "is-active" : ""}" data-kmode="swipe">👆 Swipe</button>
-          <button type="button" class="m-mode-btn ${state.kotobaMode === "table" ? "is-active" : ""}" data-kmode="table">📋 Tabel</button>
-          <button type="button" class="m-mode-btn ${state.kotobaMode === "flip" ? "is-active" : ""}" data-kmode="flip">🃏 Flip Kartu</button>
-          <button type="button" class="m-mode-btn ${state.kotobaMode === "quiz" ? "is-active" : ""}" data-kmode="quiz">⚡ Kuis (1–50)</button>
-          <button type="button" class="m-mode-btn ${state.kotobaMode === "recall" ? "is-active" : ""}" data-kmode="recall">✍️ Tes Ketik</button>
-          <button type="button" class="m-mode-btn ${state.kotobaMode === "final" ? "is-active" : ""}" data-kmode="final">🏆 Kuis Akhir${isSingleBab ? ` B${curBabNum}` : ""}</button>
-        </div>
-        ${state.kotobaSettingsOpen ? `
-          <div class="m-settings-grid">
-            <div class="m-setting-group">
-              <span class="m-setting-label">Emot Visual (Kata Konkret)</span>
-              <div class="m-chip-row">
-                <button type="button" class="m-chip ${state.kotobaEmojiSize === "large" ? "is-active" : ""}" data-kemoji="large">Gede (Biar Hafal!)</button>
-                <button type="button" class="m-chip ${state.kotobaEmojiSize === "normal" ? "is-active" : ""}" data-kemoji="normal">Normal</button>
-                <button type="button" class="m-chip ${state.kotobaEmojiSize === "off" ? "is-active" : ""}" data-kemoji="off">OFF</button>
-              </div>
+          <div class="m-setting-group">
+            <span class="m-setting-label">Setingan Romaji di Kotoba</span>
+            <div class="m-chip-row">
+              <button type="button" class="m-chip ${state.kotobaRomajiMode === "on" ? "is-active" : ""}" data-krom="on">Romaji: ON</button>
+              <button type="button" class="m-chip ${state.kotobaRomajiMode === "back" ? "is-active" : ""}" data-krom="back">Intip di Jawaban</button>
+              <button type="button" class="m-chip ${state.kotobaRomajiMode === "off" ? "is-active" : ""}" data-krom="off">OFF (Murni Kana)</button>
             </div>
-            <div class="m-setting-group">
-              <span class="m-setting-label">Setingan Romaji di Kotoba</span>
-              <div class="m-chip-row">
-                <button type="button" class="m-chip ${state.kotobaRomajiMode === "on" ? "is-active" : ""}" data-krom="on">Romaji: ON</button>
-                <button type="button" class="m-chip ${state.kotobaRomajiMode === "back" ? "is-active" : ""}" data-krom="back">Intip di Jawaban</button>
-                <button type="button" class="m-chip ${state.kotobaRomajiMode === "off" ? "is-active" : ""}" data-krom="off">OFF (Murni Kana)</button>
-              </div>
-            </div>
+          </div>
+          ${isQuizTab ? `
             <div class="m-setting-group">
               <span class="m-setting-label">Jumlah Soal Kuis (Maks 50)</span>
               <div class="m-chip-row">
@@ -846,11 +785,20 @@
               </div>
             </div>
             <div class="m-setting-group">
-              <span class="m-setting-label">Arah Uji &amp; Setingan Sesi</span>
+              <span class="m-setting-label">Arah Uji &amp; Audio</span>
               <div class="m-chip-row">
                 <button type="button" class="m-chip ${state.kotobaDir === "jp2id" ? "is-active" : ""}" data-kdir="jp2id">🇯🇵→🇮🇩</button>
                 <button type="button" class="m-chip ${state.kotobaDir === "id2jp" ? "is-active" : ""}" data-kdir="id2jp">🇮🇩→🇯🇵</button>
                 <button type="button" class="m-chip ${state.kotobaDir === "emoji" ? "is-active" : ""}" data-kdir="emoji">😀 Tebak Emot</button>
+                <button type="button" class="m-chip ${state.kotobaAutoAudio ? "is-active" : ""}" id="btnMobAutoAudio">🔊 Auto: ${state.kotobaAutoAudio ? "ON" : "OFF"}</button>
+              </div>
+            </div>
+          ` : `
+            <div class="m-setting-group">
+              <span class="m-setting-label">Arah Flip, Audio, &amp; Arsip</span>
+              <div class="m-chip-row">
+                <button type="button" class="m-chip ${state.kotobaDir !== "id2jp" ? "is-active" : ""}" data-kdir="jp2id">🇯🇵 Depan</button>
+                <button type="button" class="m-chip ${state.kotobaDir === "id2jp" ? "is-active" : ""}" data-kdir="id2jp">🇮🇩 Depan</button>
                 <button type="button" class="m-chip ${state.kotobaAutoAudio ? "is-active" : ""}" id="btnMobAutoAudio">🔊 Auto: ${state.kotobaAutoAudio ? "ON" : "OFF"}</button>
                 <button type="button" class="m-chip ${state.showEd1Archive ? "is-active" : ""}" id="btnMobToggleEd1">📚 Arsip Ed. 1: ${state.showEd1Archive ? "ON" : "OFF"}</button>
               </div>
@@ -864,16 +812,116 @@
                 <button type="button" class="m-chip is-warn" id="btnMobResetDeck">🔄 Reset Hafal Dek Ini</button>
               </div>
             </div>
+          `}
+        </div>
+      `
+      : "";
+
+    return `
+      <section class="m-controls-card">
+        <div class="m-deck-row">
+          <select class="m-select" id="mSelKotobaScope" aria-label="Pilih Dek Bab">${scopeOptions}</select>
+          <button type="button" class="m-btn-soft" id="btnMobReshuffle" style="min-height:38px; padding:6px 10px;">🔀 Acak</button>
+          <button type="button" class="m-btn-soft ${settingsOpen ? "is-active" : ""}" id="btnToggleKotobaSettings" style="min-height:38px; padding:6px 10px;">⚙️ Setingan</button>
+        </div>
+        ${savedWrongForScope.length > 0 ? `
+          <div class="m-deck-row">
+            <button type="button" class="m-chip is-warn" id="btnMobWrongSaved">🔁 Salah Tersimpan (${savedWrongForScope.length})</button>
           </div>
         ` : ""}
+        ${renderBabRailHtml(state.kotobaScope, "kbab", "kotoba")}
+        ${modeButtonsHtml}
+        ${isQuizTab && state.kquizMode === "final" ? `<div class="m-desktop-note">🏆 <strong>Tes Akhir Kotoba Edisi 2:</strong> Menguji kosakata aktif Edisi 2 saja (Arsip Ed. 1 otomatis dikecualikan).</div>` : ""}
+        ${settingsBodyHtml}
       </section>
     `;
+  }
 
+  function wireKotobaDeckHeader(app, isQuizTab) {
+    const prof = activeProfile();
+    const targetMode = getActiveKotobaMode();
+    const savedWrongForScope = prof.kotoba.wrongIdsByScope[state.kotobaScope] || [];
+
+    const selScope = document.getElementById("mSelKotobaScope");
+    if (selScope) selScope.addEventListener("change", () => startKotobaSession(selScope.value, targetMode, null, isQuizTab ? "kquiz" : "kotoba"));
+    const btnReshuffle = document.getElementById("btnMobReshuffle");
+    if (btnReshuffle) btnReshuffle.addEventListener("click", () => startKotobaSession(state.kotobaScope, targetMode, null, isQuizTab ? "kquiz" : "kotoba"));
+    const btnToggleSet = document.getElementById("btnToggleKotobaSettings");
+    if (btnToggleSet) {
+      btnToggleSet.addEventListener("click", () => {
+        if (isQuizTab) state.kquizSettingsOpen = !state.kquizSettingsOpen;
+        else state.kotobaMemSettingsOpen = !state.kotobaMemSettingsOpen;
+        renderCurrentTab();
+      });
+    }
+    const btnWrongSaved = document.getElementById("btnMobWrongSaved");
+    if (btnWrongSaved) {
+      btnWrongSaved.addEventListener("click", () => {
+        const qMode = isQuizTab ? state.kquizMode : "final";
+        startKotobaSession(state.kotobaScope, qMode, savedWrongForScope, "kquiz");
+      });
+    }
+
+    app.querySelectorAll("[data-kbab]").forEach((b) => b.addEventListener("click", () => startKotobaSession(b.dataset.kbab, targetMode, null, isQuizTab ? "kquiz" : "kotoba")));
+    app.querySelectorAll("[data-kmode]").forEach((b) => b.addEventListener("click", () => startKotobaSession(state.kotobaScope, b.dataset.kmode, null, "kotoba")));
+    app.querySelectorAll("[data-kqmode]").forEach((b) => b.addEventListener("click", () => startKotobaSession(state.kotobaScope, b.dataset.kqmode, null, "kquiz")));
+    app.querySelectorAll("[data-kemoji]").forEach((b) => b.addEventListener("click", () => { state.kotobaEmojiSize = b.dataset.kemoji; persistPrefs(); renderCurrentTab(); }));
+    app.querySelectorAll("[data-krom]").forEach((b) => b.addEventListener("click", () => { state.kotobaRomajiMode = b.dataset.krom; persistPrefs(); renderCurrentTab(); }));
+    app.querySelectorAll("[data-kcount]").forEach((b) => b.addEventListener("click", () => {
+      state.kotobaQuizCount = clampKotobaQuizCount(b.dataset.kcount);
+      persistPrefs();
+      startKotobaSession(state.kotobaScope, targetMode, null, isQuizTab ? "kquiz" : "kotoba");
+    }));
+    const inpCnt = document.getElementById("mInpKotobaCount");
+    if (inpCnt) {
+      inpCnt.addEventListener("change", () => {
+        state.kotobaQuizCount = clampKotobaQuizCount(inpCnt.value);
+        persistPrefs();
+        startKotobaSession(state.kotobaScope, targetMode, null, isQuizTab ? "kquiz" : "kotoba");
+      });
+    }
+    app.querySelectorAll("[data-kdir]").forEach((b) => b.addEventListener("click", () => {
+      state.kotobaDir = b.dataset.kdir;
+      startKotobaSession(state.kotobaScope, targetMode, null, isQuizTab ? "kquiz" : "kotoba");
+    }));
+    const btnAuto = document.getElementById("btnMobAutoAudio");
+    if (btnAuto) btnAuto.addEventListener("click", () => { state.kotobaAutoAudio = !state.kotobaAutoAudio; persistPrefs(); renderCurrentTab(); });
+    const btnEd1 = document.getElementById("btnMobToggleEd1");
+    if (btnEd1) btnEd1.addEventListener("click", () => {
+      state.showEd1Archive = !state.showEd1Archive;
+      persistPrefs();
+      startKotobaSession(state.kotobaScope, targetMode, null, isQuizTab ? "kquiz" : "kotoba");
+    });
+    app.querySelectorAll("[data-kbatch]").forEach((b) => b.addEventListener("click", () => {
+      state.kotobaBatchByScope[state.kotobaScope] = sanitizeKotobaBatchSize(b.dataset.kbatch);
+      state.kotobaGridPage = 0;
+      persistPrefs();
+      renderCurrentTab();
+    }));
+    const btnResetDeck = document.getElementById("btnMobResetDeck");
+    if (btnResetDeck) {
+      btnResetDeck.addEventListener("click", () => {
+        const ids = new Set((state.kotobaFullPool || []).map((w) => w.id));
+        prof.kotoba.masteredIds = prof.kotoba.masteredIds.filter((id) => !ids.has(id));
+        prof.kotoba.reviewIds = prof.kotoba.reviewIds.filter((id) => !ids.has(id));
+        persistProfile();
+        startKotobaSession(state.kotobaScope, targetMode, null, isQuizTab ? "kquiz" : "kotoba");
+      });
+    }
+  }
+
+  // ===== TAB 1: KOTOBA HAFALAN (SWIPE · TABEL · FLIP KARTU) =====
+  function renderKotobaTab(app) {
+    const prof = activeProfile();
+    const mSet = new Set(prof.kotoba.masteredIds);
+    const rSet = new Set(prof.kotoba.reviewIds);
+    const activeBatch = getActiveKotobaBatchSize(state.kotobaScope);
     const showFrontRomaji = state.showRomaji && state.kotobaRomajiMode === "on";
     const showBackRomaji = state.showRomaji && state.kotobaRomajiMode !== "off";
+    const controlsHtml = renderKotobaDeckHeader(false);
     let stageHtml = "";
 
-    if (state.kotobaMode === "table") {
+    if (state.kotobaMemMode === "table") {
       let ordered = state.kotobaScope === "all"
         ? ALL_KOTOBA
         : state.kotobaScope === "review"
@@ -890,7 +938,7 @@
           )
         : ordered;
       const ed2Rows = filtered.filter(isKotobaEd2);
-      const ed1Rows = state.showEd1Archive ? filtered.filter(isKotobaArchiveEd1) : [];
+      const ed1Rows = state.showEd1Archive ? filtered.filter((w) => !isKotobaEd2(w)) : [];
       const rowHtml = (w, isEd1) => {
         const known = mSet.has(w.id);
         const masked = state.kotobaMaskArti && !state.kotobaRevealedRowIds[w.id];
@@ -901,7 +949,7 @@
                 ${w.emoji && state.kotobaEmojiSize !== "off" ? `<span aria-hidden="true">${w.emoji}</span>` : ""}
                 <span>${esc(w.kana)}</span>
                 ${w.kanji ? `<span class="m-book-kanji">(${esc(w.kanji)})</span>` : ""}
-                ${kotobaEdBadge(w)}
+                ${mKotobaEdBadge(w)}
               </div>
               ${showBackRomaji ? `<div class="m-book-romaji m-romaji">${esc(w.romaji)}</div>` : ""}
               <div class="m-book-arti ${masked ? "is-masked" : ""}">${esc(w.arti)}</div>
@@ -929,7 +977,7 @@
           ${ed2Rows.length === 0 && ed1Rows.length === 0 ? `<div class="m-result-card"><p>Tidak ada kosakata cocok.</p></div>` : ""}
         </div>
       `;
-    } else if (state.kotobaMode === "flip") {
+    } else if (state.kotobaMemMode === "flip") {
       const pool = state.kotobaFullPool || [];
       const masteredHere = pool.filter((w) => mSet.has(w.id)).length;
       const q = state.kotobaSearch.trim().toLowerCase();
@@ -968,12 +1016,12 @@
             const flipped = !!state.kotobaFlippedMap[w.id];
             const known = mSet.has(w.id);
             const rev = !known && rSet.has(w.id);
-            const ed1 = isKotobaArchiveEd1(w);
+            const ed1 = !isKotobaEd2(w);
             return `
               <article class="m-multi-card ${flipped ? "is-flipped" : ""} ${known ? "is-mastered" : rev ? "is-review" : ""} ${ed1 ? "is-ed1-archive" : ""}">
                 <div class="m-multi-face" role="button" tabindex="0" data-mcardflip="${esc(w.id)}">
                   <div class="m-swipe-top">
-                    <span>${known ? "✅ Hafal" : rev ? "🔁 Ulang" : `Bab ${w.bab}`} ${kotobaEdBadge(w)}</span>
+                    <span>${known ? "✅ Hafal" : rev ? "🔁 Ulang" : `Bab ${w.bab}`} ${mKotobaEdBadge(w)}</span>
                     <button type="button" class="m-tts-btn" data-mspeak="${esc(w.kana)}" aria-label="Audio">🔊</button>
                   </div>
                   ${getKotobaEmojiHtml(w)}
@@ -1007,7 +1055,7 @@
           </div>
         ` : ""}
       `;
-    } else if (state.kotobaMode === "swipe") {
+    } else {
       const deck = state.kotobaDeck;
       const total = deck.length;
       const cur = deck[state.kotobaIdx];
@@ -1020,7 +1068,7 @@
             <p style="margin:0; font-size:13.5px; color:var(--color-ink-muted);">Hafal ${masteredHere} dari ${total} kata di dek ini.</p>
             <div style="display:flex; gap:8px; width:100%; margin-top:6px;">
               <button type="button" class="m-btn-primary" id="btnSwipeRestart" style="flex:1;">🔄 Ulangi</button>
-              <button type="button" class="m-btn-soft" id="btnSwipeGoQuiz" style="flex:1;">⚡ Uji Kuis</button>
+              <button type="button" class="m-btn-soft" id="btnSwipeGoQuiz" style="flex:1;">⚡ Uji di Kuis Kotoba</button>
             </div>
           </div>
         `;
@@ -1040,7 +1088,7 @@
                 <span class="m-stamp m-stamp-ok" aria-hidden="true">✅ HAFAL</span>
                 <span class="m-stamp m-stamp-again" aria-hidden="true">🔁 ULANG</span>
                 <div class="m-swipe-top">
-                  <span>Bab ${cur.bab} ${kotobaEdBadge(cur)}</span>
+                  <span>Bab ${cur.bab} ${mKotobaEdBadge(cur)}</span>
                   <button type="button" class="m-tts-btn" data-mspeak="${esc(cur.kana)}" aria-label="Audio">🔊</button>
                 </div>
                 <div class="m-swipe-center">
@@ -1062,162 +1110,22 @@
           </div>
         `;
       }
-    } else {
-      // quiz / recall / final
-      const deck = state.kotobaDeck;
-      const total = deck.length;
-      const cur = deck[state.kotobaIdx];
-      if (!cur) {
-        const pct = total > 0 ? Math.round((state.kotobaSessionKnown / total) * 100) : 0;
-        stageHtml = `
-          <div class="m-result-card">
-            <p class="m-eyebrow">${state.kotobaMode === "final" ? "HASIL KUIS AKHIR KOTOBA" : state.kotobaMode === "recall" ? "HASIL TES HAFALAN KETIK" : "HASIL KUIS KOTOBA"}</p>
-            <div class="m-result-score">${state.kotobaSessionKnown} / ${total}</div>
-            <p style="margin:0; font-weight:700; color:var(--color-ink-muted);">${pct}% · Benar ${state.kotobaSessionKnown}, Salah ${state.kotobaSessionWrongIds.length}</p>
-            <div style="display:flex; gap:8px; flex-wrap:wrap; width:100%; margin-top:8px;">
-              ${state.kotobaSessionWrongIds.length > 0 ? `<button type="button" class="m-btn-primary" id="btnMobRetryWrong" style="flex:1;">🔁 Ulangi ${state.kotobaSessionWrongIds.length} Salah</button>` : ""}
-              <button type="button" class="m-btn-soft" id="btnMobReplay" style="flex:1;">🔀 Main Lagi</button>
-            </div>
-          </div>
-        `;
-      } else {
-        const qKind = getActiveKotobaQuestionKind();
-        if (qKind === "recall") {
-          const pct = Math.round(((state.kotobaIdx + (state.kotobaRecallAnswered ? 1 : 0)) / total) * 100);
-          stageHtml = `
-            <div class="m-hud-row">
-              <span>Soal ${state.kotobaIdx + 1} / ${total} (Bab ${cur.bab})</span>
-              <span>🔥 Streak: ${state.kotobaStreak}</span>
-            </div>
-            <div class="m-progress-track"><div class="m-progress-fill" style="width:${pct}%"></div></div>
-            <article class="m-quiz-card">
-              <div class="m-hud-row">
-                <span>✍️ Tes Hafalan Ketik · Bab ${cur.bab} ${kotobaEdBadge(cur)}</span>
-                <button type="button" class="m-tts-btn" data-mspeak="${esc(cur.kana)}" aria-label="Audio">🔊</button>
-              </div>
-              ${getKotobaEmojiHtml(cur)}
-              <div class="m-quiz-prompt" style="font-family:var(--font-body);">${esc(cur.arti)}</div>
-              <form class="m-recall-form" id="mKotobaRecallForm">
-                <input type="text" class="m-text-input ${state.kotobaRecallAnswered ? (state.kotobaRecallOk ? "is-correct" : "is-wrong") : ""}" id="mKotobaRecallInput" value="${esc(state.kotobaRecallInput)}" placeholder="Ketik Romaji atau Kana..." autocomplete="off" ${state.kotobaRecallAnswered ? "disabled" : ""}>
-                ${!state.kotobaRecallAnswered ? `<button type="submit" class="m-btn-primary" style="width:100%;">Cek Hafalan</button>` : ""}
-              </form>
-              ${state.kotobaRecallAnswered ? `
-                <div class="m-feedback ${state.kotobaRecallOk ? "is-ok" : "is-bad"}">
-                  ${state.kotobaRecallOk ? "✓ Hafalan Tepat!" : `✕ Jawaban: ${esc(cur.kana)} (${esc(cur.romaji)})`}
-                </div>
-                <button type="button" class="m-btn-primary" id="btnMobRecallNext" style="width:100%;">${state.kotobaIdx + 1 < total ? "Lanjut →" : "Lihat Hasil →"}</button>
-              ` : ""}
-            </article>
-          `;
-        } else {
-          const isEmoji = qKind === "emoji" && !!cur.emoji;
-          const askJp = !isEmoji && state.kotobaDir !== "id2jp";
-          const answered = state.kotobaMcqPicked !== null;
-          const isOk = answered && state.kotobaMcqPicked === state.kotobaMcqCorrectIdx;
-          const pct = Math.round(((state.kotobaIdx + (answered ? 1 : 0)) / total) * 100);
-          stageHtml = `
-            <div class="m-hud-row">
-              <span>Soal ${state.kotobaIdx + 1} / ${total} (Bab ${cur.bab})</span>
-              <span>Benar: ${state.kotobaSessionKnown} · 🔥 ${state.kotobaStreak}</span>
-            </div>
-            <div class="m-progress-track"><div class="m-progress-fill" style="width:${pct}%"></div></div>
-            <article class="m-quiz-card">
-              <div class="m-hud-row">
-                <span>${isEmoji ? "😀 Tebak Emot" : state.kotobaMode === "final" ? "🏆 Kuis Akhir Kotoba" : "⚡ Kuis Kotoba"} ${kotobaEdBadge(cur)}</span>
-                ${askJp || isEmoji ? `<button type="button" class="m-tts-btn" data-mspeak="${esc(cur.kana)}" aria-label="Audio">🔊</button>` : ""}
-              </div>
-              ${isEmoji ? `
-                <div style="font-size:56px; text-align:center;">${cur.emoji}</div>
-                <div class="m-quiz-prompt" style="font-family:var(--font-body); font-size:19px;">Apa bahasa Jepang untuk "${esc(cur.arti)}"?</div>
-              ` : askJp ? `
-                ${getKotobaEmojiHtml(cur)}
-                <div class="m-quiz-prompt">${esc(cur.kana)} ${cur.kanji ? `<span class="m-book-kanji">(${esc(cur.kanji)})</span>` : ""}</div>
-                ${showFrontRomaji ? `<div class="m-book-romaji m-romaji">${esc(cur.romaji)}</div>` : ""}
-              ` : `
-                ${getKotobaEmojiHtml(cur)}
-                <div class="m-quiz-prompt" style="font-family:var(--font-body);">${esc(cur.arti)}</div>
-              `}
-              <div class="m-quiz-options">
-                ${state.kotobaMcqOptions.map((opt, idx) => {
-                  let cls = "";
-                  if (answered) {
-                    if (idx === state.kotobaMcqCorrectIdx) cls = "is-correct";
-                    else if (idx === state.kotobaMcqPicked) cls = "is-wrong";
-                  }
-                  const optJp = isEmoji || !askJp;
-                  return `
-                    <button type="button" class="m-opt-btn ${cls}" data-kmcq="${idx}" ${answered ? "disabled" : ""}>
-                      <span class="m-opt-key">${idx + 1}</span>
-                      <div class="m-opt-text">
-                        <span class="m-opt-main">${esc(optJp ? `${opt.kana}${opt.kanji ? ` (${opt.kanji})` : ""}` : opt.arti)}</span>
-                        ${optJp && showBackRomaji ? `<span class="m-opt-sub m-romaji">${esc(opt.romaji)}</span>` : ""}
-                      </div>
-                    </button>
-                  `;
-                }).join("")}
-              </div>
-              ${answered ? `
-                <div class="m-feedback ${isOk ? "is-ok" : "is-bad"}">${isOk ? "✓ Tepat!" : `✕ Jawaban: ${esc(cur.kana)} — ${esc(cur.arti)}`}</div>
-                <button type="button" class="m-btn-primary" id="btnMobMcqNext" style="width:100%;">${state.kotobaIdx + 1 < total ? "Lanjut →" : "Lihat Hasil →"}</button>
-              ` : ""}
-            </article>
-          `;
-        }
-      }
     }
 
     app.innerHTML = `${controlsHtml}${stageHtml}`;
+    wireKotobaDeckHeader(app, false);
 
-    // Wire Kotoba controls
-    const selScope = document.getElementById("mSelKotobaScope");
-    if (selScope) selScope.addEventListener("change", () => openKotobaMode(selScope.value, state.kotobaMode));
-    const btnReshuffle = document.getElementById("btnMobReshuffle");
-    if (btnReshuffle) btnReshuffle.addEventListener("click", () => openKotobaMode(state.kotobaScope, state.kotobaMode));
-    const btnToggleSet = document.getElementById("btnToggleKotobaSettings");
-    if (btnToggleSet) btnToggleSet.addEventListener("click", () => { state.kotobaSettingsOpen = !state.kotobaSettingsOpen; renderKotobaTab(app); });
-    const btnWrongSaved = document.getElementById("btnMobWrongSaved");
-    if (btnWrongSaved) btnWrongSaved.addEventListener("click", () => openKotobaMode(state.kotobaScope, state.kotobaMode === "flip" || state.kotobaMode === "swipe" || state.kotobaMode === "table" ? "final" : state.kotobaMode, savedWrongForScope));
-
-    app.querySelectorAll("[data-kbab]").forEach((b) => b.addEventListener("click", () => openKotobaMode(b.dataset.kbab, state.kotobaMode)));
-    app.querySelectorAll("[data-kmode]").forEach((b) => b.addEventListener("click", () => openKotobaMode(state.kotobaScope, b.dataset.kmode)));
-    app.querySelectorAll("[data-kemoji]").forEach((b) => b.addEventListener("click", () => { state.kotobaEmojiSize = b.dataset.kemoji; persistPrefs(); renderKotobaTab(app); }));
-    app.querySelectorAll("[data-krom]").forEach((b) => b.addEventListener("click", () => { state.kotobaRomajiMode = b.dataset.krom; persistPrefs(); renderKotobaTab(app); }));
-    app.querySelectorAll("[data-kcount]").forEach((b) => b.addEventListener("click", () => {
-      state.kotobaQuizCount = clampKotobaQuizCount(b.dataset.kcount);
-      persistPrefs();
-      openKotobaMode(state.kotobaScope, state.kotobaMode);
-    }));
-    const inpCnt = document.getElementById("mInpKotobaCount");
-    if (inpCnt) inpCnt.addEventListener("change", () => { state.kotobaQuizCount = clampKotobaQuizCount(inpCnt.value); persistPrefs(); openKotobaMode(state.kotobaScope, state.kotobaMode); });
-    app.querySelectorAll("[data-kdir]").forEach((b) => b.addEventListener("click", () => { state.kotobaDir = b.dataset.kdir; openKotobaMode(state.kotobaScope, state.kotobaMode); }));
-    const btnAuto = document.getElementById("btnMobAutoAudio");
-    if (btnAuto) btnAuto.addEventListener("click", () => { state.kotobaAutoAudio = !state.kotobaAutoAudio; persistPrefs(); renderKotobaTab(app); });
-    const btnEd1 = document.getElementById("btnMobToggleEd1");
-    if (btnEd1) btnEd1.addEventListener("click", () => { state.showEd1Archive = !state.showEd1Archive; persistPrefs(); openKotobaMode(state.kotobaScope, state.kotobaMode); });
-    app.querySelectorAll("[data-kbatch]").forEach((b) => b.addEventListener("click", () => {
-      state.kotobaBatchByScope[state.kotobaScope] = sanitizeKotobaBatchSize(b.dataset.kbatch);
-      state.kotobaGridPage = 0;
-      persistPrefs();
-      renderKotobaTab(app);
-    }));
-    const btnResetDeck = document.getElementById("btnMobResetDeck");
-    if (btnResetDeck) btnResetDeck.addEventListener("click", () => {
-      const ids = new Set((state.kotobaFullPool || []).map((w) => w.id));
-      prof.kotoba.masteredIds = prof.kotoba.masteredIds.filter((id) => !ids.has(id));
-      prof.kotoba.reviewIds = prof.kotoba.reviewIds.filter((id) => !ids.has(id));
-      persistProfile();
-      openKotobaMode(state.kotobaScope, state.kotobaMode);
-    });
-
-    // Mode-specific listeners
+    // Table listeners
     const sInput = document.getElementById("mKotobaSearch");
-    if (sInput) sInput.addEventListener("input", () => {
-      state.kotobaSearch = sInput.value;
-      state.kotobaGridPage = 0;
-      renderKotobaTab(app);
-      const nx = document.getElementById("mKotobaSearch");
-      if (nx) { nx.focus(); if (typeof nx.setSelectionRange === "function") nx.setSelectionRange(state.kotobaSearch.length, state.kotobaSearch.length); }
-    });
+    if (sInput) {
+      sInput.addEventListener("input", () => {
+        state.kotobaSearch = sInput.value;
+        state.kotobaGridPage = 0;
+        renderKotobaTab(app);
+        const nx = document.getElementById("mKotobaSearch");
+        if (nx) { nx.focus(); if (typeof nx.setSelectionRange === "function") nx.setSelectionRange(state.kotobaSearch.length, state.kotobaSearch.length); }
+      });
+    }
     const btnMask = document.getElementById("btnToggleMaskArti");
     if (btnMask) btnMask.addEventListener("click", () => { state.kotobaMaskArti = !state.kotobaMaskArti; state.kotobaRevealedRowIds = {}; renderKotobaTab(app); });
     app.querySelectorAll("[data-brow]").forEach((r) => r.addEventListener("click", (e) => {
@@ -1284,27 +1192,123 @@
       });
     }
     const btnSwRest = document.getElementById("btnSwipeRestart");
-    if (btnSwRest) btnSwRest.addEventListener("click", () => openKotobaMode(state.kotobaScope, "swipe"));
+    if (btnSwRest) btnSwRest.addEventListener("click", () => startKotobaSession(state.kotobaScope, "swipe", null, "kotoba"));
     const btnSwQuiz = document.getElementById("btnSwipeGoQuiz");
-    if (btnSwQuiz) btnSwQuiz.addEventListener("click", () => openKotobaMode(state.kotobaScope, "quiz"));
+    if (btnSwQuiz) btnSwQuiz.addEventListener("click", () => startKotobaSession(state.kotobaScope, "quiz", null, "kquiz"));
+  }
 
-    // Quiz / Recall listeners
+  // ===== TAB 2: KUIS KOTOBA & TES AKHIR KOTOBA (TERPISAH DARI HAFALAN) =====
+  function renderKotobaQuizTab(app) {
+    const showFrontRomaji = state.showRomaji && state.kotobaRomajiMode === "on";
+    const showBackRomaji = state.showRomaji && state.kotobaRomajiMode !== "off";
+    const controlsHtml = renderKotobaDeckHeader(true);
+    const deck = state.kotobaDeck;
+    const total = deck.length;
+    const cur = deck[state.kotobaIdx];
+    let stageHtml = "";
+
+    if (!cur) {
+      const actions = [
+        state.kotobaSessionWrongIds.length > 0 ? `<button type="button" class="m-btn-primary" id="btnMobRetryWrong" style="flex:1;">🔁 Ulangi ${state.kotobaSessionWrongIds.length} Salah</button>` : "",
+        `<button type="button" class="m-btn-soft" id="btnMobReplay" style="flex:1;">🔀 Main Lagi</button>`
+      ].filter(Boolean).join("");
+      stageHtml = renderQuizResultCardHtml({
+        eyebrow: state.kquizMode === "final" ? "HASIL TES AKHIR KOTOBA" : state.kquizMode === "recall" ? "HASIL TES HAFALAN KETIK" : "HASIL KUIS KOTOBA",
+        score: state.kotobaSessionKnown,
+        total,
+        subtitle: `${total > 0 ? Math.round((state.kotobaSessionKnown / total) * 100) : 0}% · Benar ${state.kotobaSessionKnown}, Salah ${state.kotobaSessionWrongIds.length}`,
+        actionsHtml: actions
+      });
+    } else {
+      const qKind = getActiveKotobaQuestionKind();
+      if (qKind === "recall") {
+        const pct = Math.round(((state.kotobaIdx + (state.kotobaRecallAnswered ? 1 : 0)) / total) * 100);
+        stageHtml = `
+          <div class="m-hud-row">
+            <span>Soal ${state.kotobaIdx + 1} / ${total} (Bab ${cur.bab})</span>
+            <span>🔥 Streak: ${state.kotobaStreak}</span>
+          </div>
+          <div class="m-progress-track"><div class="m-progress-fill" style="width:${pct}%"></div></div>
+          <article class="m-quiz-card">
+            <div class="m-hud-row">
+              <span>✍️ Tes Hafalan Ketik · Bab ${cur.bab} ${mKotobaEdBadge(cur)}</span>
+              <button type="button" class="m-tts-btn" data-mspeak="${esc(cur.kana)}" aria-label="Audio">🔊</button>
+            </div>
+            ${getKotobaEmojiHtml(cur)}
+            <div class="m-quiz-prompt" style="font-family:var(--font-body);">${esc(cur.arti)}</div>
+            <form class="m-recall-form" id="mKotobaRecallForm">
+              <input type="text" class="m-text-input ${state.kotobaRecallAnswered ? (state.kotobaRecallOk ? "is-correct" : "is-wrong") : ""}" id="mKotobaRecallInput" value="${esc(state.kotobaRecallInput)}" placeholder="Ketik Romaji atau Kana..." autocomplete="off" ${state.kotobaRecallAnswered ? "disabled" : ""}>
+              ${!state.kotobaRecallAnswered ? `<button type="submit" class="m-btn-primary" style="width:100%;">Cek Hafalan</button>` : ""}
+            </form>
+            ${state.kotobaRecallAnswered ? `
+              <div class="m-feedback ${state.kotobaRecallOk ? "is-ok" : "is-bad"}">
+                ${state.kotobaRecallOk ? "✓ Hafalan Tepat!" : `✕ Jawaban: ${esc(cur.kana)} (${esc(cur.romaji)})`}
+              </div>
+              <button type="button" class="m-btn-primary" id="btnMobRecallNext" style="width:100%;">${state.kotobaIdx + 1 < total ? "Lanjut →" : "Lihat Hasil →"}</button>
+            ` : ""}
+          </article>
+        `;
+      } else {
+        const isEmoji = qKind === "emoji" && !!cur.emoji;
+        const askJp = !isEmoji && state.kotobaDir !== "id2jp";
+        const answered = state.kotobaMcqPicked !== null;
+        const isOk = answered && state.kotobaMcqPicked === state.kotobaMcqCorrectIdx;
+        const pct = Math.round(((state.kotobaIdx + (answered ? 1 : 0)) / total) * 100);
+        const optJp = isEmoji || !askJp;
+        stageHtml = `
+          <div class="m-hud-row">
+            <span>Soal ${state.kotobaIdx + 1} / ${total} (Bab ${cur.bab})</span>
+            <span>Benar: ${state.kotobaSessionKnown} · 🔥 ${state.kotobaStreak}</span>
+          </div>
+          <div class="m-progress-track"><div class="m-progress-fill" style="width:${pct}%"></div></div>
+          <article class="m-quiz-card">
+            <div class="m-hud-row">
+              <span>${isEmoji ? "😀 Tebak Emot" : state.kquizMode === "final" ? "🏆 Tes Akhir Kotoba" : "⚡ Kuis Kotoba"} ${mKotobaEdBadge(cur)}</span>
+              ${askJp || isEmoji ? `<button type="button" class="m-tts-btn" data-mspeak="${esc(cur.kana)}" aria-label="Audio">🔊</button>` : ""}
+            </div>
+            ${isEmoji ? `
+              <div style="font-size:56px; text-align:center;">${cur.emoji}</div>
+              <div class="m-quiz-prompt" style="font-family:var(--font-body); font-size:19px;">Apa bahasa Jepang untuk "${esc(cur.arti)}"?</div>
+            ` : askJp ? `
+              ${getKotobaEmojiHtml(cur)}
+              <div class="m-quiz-prompt">${esc(cur.kana)} ${cur.kanji ? `<span class="m-book-kanji">(${esc(cur.kanji)})</span>` : ""}</div>
+              ${showFrontRomaji ? `<div class="m-book-romaji m-romaji">${esc(cur.romaji)}</div>` : ""}
+            ` : `
+              ${getKotobaEmojiHtml(cur)}
+              <div class="m-quiz-prompt" style="font-family:var(--font-body);">${esc(cur.arti)}</div>
+            `}
+            ${renderMcqOptionsHtml(state.kotobaMcqOptions, answered, state.kotobaMcqPicked, state.kotobaMcqCorrectIdx, "data-kmcq", (opt) => ({
+              mainHtml: esc(optJp ? `${opt.kana}${opt.kanji ? ` (${opt.kanji})` : ""}` : opt.arti),
+              subHtml: optJp && showBackRomaji ? esc(opt.romaji) : ""
+            }))}
+            ${answered ? `
+              <div class="m-feedback ${isOk ? "is-ok" : "is-bad"}">${isOk ? "✓ Tepat!" : `✕ Jawaban: ${esc(cur.kana)} — ${esc(cur.arti)}`}</div>
+              <button type="button" class="m-btn-primary" id="btnMobMcqNext" style="width:100%;">${state.kotobaIdx + 1 < total ? "Lanjut →" : "Lihat Hasil →"}</button>
+            ` : ""}
+          </article>
+        `;
+      }
+    }
+
+    app.innerHTML = `${controlsHtml}${stageHtml}`;
+    wireKotobaDeckHeader(app, true);
+
     app.querySelectorAll("[data-kmcq]").forEach((b) => b.addEventListener("click", () => {
       if (state.kotobaMcqPicked !== null) return;
-      const cur = state.kotobaDeck[state.kotobaIdx];
+      const item = state.kotobaDeck[state.kotobaIdx];
       const pick = Number(b.dataset.kmcq);
       const ok = pick === state.kotobaMcqCorrectIdx;
       state.kotobaMcqPicked = pick;
-      markKotobaStatus(cur, ok, true);
-      if (state.kotobaAutoAudio && cur) speakText(cur.kana);
-      renderKotobaTab(app);
+      markKotobaStatus(item, ok, true);
+      if (state.kotobaAutoAudio && item) speakText(item.kana);
+      renderKotobaQuizTab(app);
     }));
     const btnMcqNext = document.getElementById("btnMobMcqNext");
     if (btnMcqNext) btnMcqNext.addEventListener("click", () => {
       state.kotobaIdx += 1;
       if (state.kotobaIdx >= state.kotobaDeck.length) saveKotobaChapterQuizScore(state.kotobaSessionKnown, state.kotobaDeck.length);
       else if (["mcq", "emoji"].includes(getActiveKotobaQuestionKind())) prepareKotobaMcqOptions();
-      renderKotobaTab(app);
+      renderKotobaQuizTab(app);
     });
     const recForm = document.getElementById("mKotobaRecallForm");
     if (recForm) recForm.addEventListener("submit", (e) => {
@@ -1314,15 +1318,15 @@
       const raw = inp ? inp.value : "";
       const cleaned = norm(raw);
       if (!cleaned) return;
-      const cur = state.kotobaDeck[state.kotobaIdx];
-      const acc = getAcceptedKotobaForms(cur);
+      const item = state.kotobaDeck[state.kotobaIdx];
+      const acc = getAcceptedKotobaForms(item);
       const ok = acc.some((a) => a === cleaned || a === cleaned.replace(/[\s-]+/g, ""));
       state.kotobaRecallInput = raw;
       state.kotobaRecallAnswered = true;
       state.kotobaRecallOk = ok;
-      markKotobaStatus(cur, ok, true);
-      if (state.kotobaAutoAudio && cur) speakText(cur.kana);
-      renderKotobaTab(app);
+      markKotobaStatus(item, ok, true);
+      if (state.kotobaAutoAudio && item) speakText(item.kana);
+      renderKotobaQuizTab(app);
     });
     const btnRecNext = document.getElementById("btnMobRecallNext");
     if (btnRecNext) btnRecNext.addEventListener("click", () => {
@@ -1332,20 +1336,283 @@
       state.kotobaRecallOk = false;
       if (state.kotobaIdx >= state.kotobaDeck.length) saveKotobaChapterQuizScore(state.kotobaSessionKnown, state.kotobaDeck.length);
       else if (["mcq", "emoji"].includes(getActiveKotobaQuestionKind())) prepareKotobaMcqOptions();
-      renderKotobaTab(app);
+      renderKotobaQuizTab(app);
     });
     const btnRetryW = document.getElementById("btnMobRetryWrong");
-    if (btnRetryW) btnRetryW.addEventListener("click", () => openKotobaMode(state.kotobaScope, state.kotobaMode, [...state.kotobaSessionWrongIds]));
+    if (btnRetryW) btnRetryW.addEventListener("click", () => startKotobaSession(state.kotobaScope, state.kquizMode, [...state.kotobaSessionWrongIds], "kquiz"));
     const btnRep = document.getElementById("btnMobReplay");
-    if (btnRep) btnRep.addEventListener("click", () => openKotobaMode(state.kotobaScope, state.kotobaMode));
+    if (btnRep) btnRep.addEventListener("click", () => startKotobaSession(state.kotobaScope, state.kquizMode, null, "kquiz"));
   }
 
-  // ===== TAB 2: KAIWA (FULL PC PARITY CONTROLS) =====
+  // ===== TAB 3: KUIS MODUL BAB 1–25 (BANK JSON ON-DEMAND + NOTICE MATERI PC) =====
+  function filterModulPoolBySection(bab, rawPool) {
+    const arr = Array.isArray(rawPool) ? rawPool : [];
+    if (Number(bab) !== 17 || state.mquizSection === "all") return arr;
+    return arr.filter((q) => q.section === state.mquizSection);
+  }
+
+  function getActiveModulTargetCount() {
+    if (state.mquizModeTag === "rapid") return state.mquizRapidCount === 25 ? 25 : 20;
+    return state.mquizFlashCount === 15 ? 15 : 10;
+  }
+
+  function startModulQuizSession(bab, modeTag, wrongPool) {
+    const rawPool = filterModulPoolBySection(bab, state.bankCache[bab] || []);
+    const prof = activeProfile();
+    const seenSet = new Set(Array.isArray(prof.seenBankIds[bab]) ? prof.seenBankIds[bab] : []);
+    const activeMode = modeTag === "rapid" || modeTag === "retry" ? modeTag : "flash";
+    state.mquizModeTag = activeMode;
+    let picked = [];
+
+    if (activeMode === "retry" && Array.isArray(wrongPool) && wrongPool.length > 0) {
+      picked = shuffleCopy(wrongPool);
+    } else {
+      const targetCount = getActiveModulTargetCount();
+      const unseen = shuffleCopy(rawPool.filter((q) => !seenSet.has(q.id)));
+      const seen = shuffleCopy(rawPool.filter((q) => seenSet.has(q.id)));
+      picked = [...unseen, ...seen].slice(0, Math.min(rawPool.length, targetCount));
+    }
+
+    state.mquizDeck = picked.map((q) => shuffleQuestionOptions(q, bab));
+    state.mquizIdx = 0;
+    state.mquizPicked = null;
+    state.mquizCorrectCount = 0;
+    state.mquizWrongList = [];
+  }
+
+  function loadModulBank(bab, autoStartMode) {
+    const targetBab = Number(bab) || 1;
+    state.mquizBab = targetBab;
+    if (targetBab !== 17) state.mquizSection = "all";
+    state.bankError = "";
+    const modeToUse = autoStartMode === "rapid" ? "rapid" : "flash";
+
+    if (Array.isArray(state.bankCache[targetBab])) {
+      state.bankLoading = false;
+      startModulQuizSession(targetBab, modeToUse);
+      renderCurrentTab();
+      return;
+    }
+
+    state.bankLoading = true;
+    renderCurrentTab();
+    const fileUrl = `../data/bank/bab-${String(targetBab).padStart(2, "0")}.json?v=${BANK_VERSION}`;
+    fetch(fileUrl)
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
+      .then((arr) => {
+        state.bankCache[targetBab] = Array.isArray(arr) ? arr : [];
+        state.bankLoading = false;
+        if (state.mquizBab === targetBab) {
+          startModulQuizSession(targetBab, modeToUse);
+          if (state.tab === "mquiz") renderCurrentTab();
+        }
+      })
+      .catch(() => {
+        state.bankLoading = false;
+        state.bankError = `Gagal memuat bank soal Bab ${targetBab}. Pastikan koneksi aktif atau buka offline cache.`;
+        if (state.tab === "mquiz") renderCurrentTab();
+      });
+  }
+
+  function markModulBankSeenAndSave(bab, qId, finished, correct, total) {
+    const prof = activeProfile();
+    const list = Array.isArray(prof.seenBankIds[bab]) ? [...prof.seenBankIds[bab]] : [];
+    if (qId && !list.includes(qId)) {
+      list.push(qId);
+      prof.seenBankIds[bab] = list;
+    }
+    if (finished && total > 0 && state.mquizModeTag !== "retry") {
+      const pct = Math.round((correct / total) * 100);
+      const prev = prof.chapters[bab];
+      if (!prev || total >= 10) {
+        prof.chapters[bab] = {
+          correct: !prev || pct >= prev.bestPct ? correct : prev.correct,
+          total: !prev || pct >= prev.bestPct ? total : prev.total,
+          bestPct: prev ? Math.max(prev.bestPct, pct) : pct,
+          attempts: (prev && prev.attempts ? prev.attempts : 0) + 1
+        };
+      }
+    }
+    persistProfile();
+  }
+
+  function renderModulQuizTab(app) {
+    const bab = state.mquizBab;
+    const prof = activeProfile();
+    const pool = state.bankCache[bab] || [];
+    const seenIds = Array.isArray(prof.seenBankIds[bab]) ? prof.seenBankIds[bab] : [];
+    const unseenCount = pool.filter((q) => !seenIds.includes(q.id)).length;
+    const saved = prof.chapters[bab];
+    const title = CHAPTER_TITLES[bab] || `Bab ${bab}`;
+    const isRapid = state.mquizModeTag === "rapid";
+    const activeCount = getActiveModulTargetCount();
+    const countChoices = isRapid ? [20, 25] : [10, 15];
+
+    const topHtml = `
+      ${renderBabRailHtml(String(bab), "mqbab", "mquiz")}
+      <section class="m-controls-card">
+        <div class="m-hud-row">
+          <span class="m-modul-status-pill">Bab ${bab} · ${pool.length || "…"} soal bank</span>
+          <span class="m-modul-status-pill">${saved ? `Rekor: ${saved.bestPct}%` : "Belum dicoba"} · Baru: ${unseenCount}/${pool.length}</span>
+        </div>
+        <div style="font-size:14.5px; font-weight:800; line-height:1.35;">${esc(title)}</div>
+        <div class="m-modul-pc-callout">
+          <p><strong>📖 Materi Pembahasan &amp; Rumus Cepat Bab ${bab}:</strong> Pembahasan tata bahasa, tabel konjugasi, &amp; Tes Akhir Gabungan 1–25 dibuka khusus di <strong>Versi PC</strong> agar fokus belajar tanpa distraksi layar kecil.</p>
+          <button type="button" class="m-btn-soft" id="btnModulGoPc" style="width:100%;">💻 Buka Materi Pembahasan Bab ${bab} di Versi PC</button>
+        </div>
+        ${bab === 17 ? `
+          <div class="m-chip-row" aria-label="Filter Tema Bab 17">
+            ${BAB17_SECTIONS.map((sec) => `
+              <button type="button" class="m-chip ${state.mquizSection === sec ? "is-active" : ""}" data-mqsec="${esc(sec)}">${sec === "all" ? "Semua Tema (A–D)" : esc(sec)}</button>
+            `).join("")}
+          </div>
+        ` : ""}
+        <div class="m-seg" role="tablist" aria-label="Mode Kuis Modul">
+          <button type="button" class="m-seg-btn ${!isRapid ? "is-active" : ""}" data-mqmode="flash">⚡ Flash (10–15)</button>
+          <button type="button" class="m-seg-btn ${isRapid ? "is-active" : ""}" data-mqmode="rapid">🚀 Rapid Menengah (20–25)</button>
+        </div>
+        <div class="m-chip-row">
+          <span class="m-setting-label" style="margin-right:4px;">Jumlah Soal:</span>
+          ${countChoices.map((cnt) => `
+            <button type="button" class="m-chip ${activeCount === cnt ? "is-active" : ""}" data-mqcount="${cnt}">${cnt} Soal</button>
+          `).join("")}
+        </div>
+      </section>
+    `;
+
+    let stageHtml = "";
+    if (state.bankLoading) {
+      stageHtml = `<div class="m-result-card"><p style="margin:0; font-weight:700;">⏳ Memuat bank soal Bab ${bab}...</p></div>`;
+    } else if (state.bankError) {
+      stageHtml = `
+        <div class="m-result-card">
+          <p style="margin:0; color:var(--zone-red-fg); font-weight:700;">${esc(state.bankError)}</p>
+          <button type="button" class="m-btn-primary" id="btnModulRetryFetch" style="width:100%;">🔄 Coba Muat Lagi</button>
+        </div>
+      `;
+    } else {
+      const deck = state.mquizDeck;
+      const total = deck.length;
+      const cur = deck[state.mquizIdx];
+      if (!cur) {
+        const actions = [
+          state.mquizWrongList.length > 0 ? `<button type="button" class="m-btn-primary" id="btnModulRetryWrong" style="flex:1;">🔁 Ulangi ${state.mquizWrongList.length} Salah</button>` : "",
+          `<button type="button" class="m-btn-soft" id="btnModulReplayNew" style="flex:1;">🎯 Lanjut ${activeCount} Soal Baru</button>`,
+          seenIds.length > 0 ? `<button type="button" class="m-btn-soft" id="btnModulResetSeen" style="width:100%;">🔄 Reset Riwayat Soal Bab ${bab}</button>` : ""
+        ].filter(Boolean).join("");
+        stageHtml = renderQuizResultCardHtml({
+          eyebrow: `HASIL KUIS MODUL BAB ${bab}`,
+          score: state.mquizCorrectCount,
+          total,
+          subtitle: `${total > 0 ? Math.round((state.mquizCorrectCount / total) * 100) : 0}% · Benar ${state.mquizCorrectCount}, Salah ${state.mquizWrongList.length}`,
+          actionsHtml: actions
+        });
+      } else {
+        const answered = state.mquizPicked !== null;
+        const isOk = answered && state.mquizPicked === cur.answer;
+        const pct = Math.round(((state.mquizIdx + (answered ? 1 : 0)) / Math.max(1, total)) * 100);
+        const speakTxt = extractSpeakablePrompt(cur.prompt);
+        stageHtml = `
+          <div class="m-hud-row">
+            <span>Soal ${state.mquizIdx + 1} / ${total}</span>
+            <span>Benar: ${state.mquizCorrectCount}</span>
+          </div>
+          <div class="m-progress-track"><div class="m-progress-fill" style="width:${pct}%"></div></div>
+          <article class="m-quiz-card">
+            <div class="m-hud-row">
+              <span>${esc(cur.badge || `Bab ${bab}`)}</span>
+              ${speakTxt ? `<button type="button" class="m-tts-btn" data-mspeak="${esc(speakTxt)}" aria-label="Audio soal">🔊</button>` : ""}
+            </div>
+            <div class="m-quiz-prompt" style="font-size:clamp(18px, 5vw, 22px);">${formatPromptHtml(cur.prompt)}</div>
+            ${cur.promptRomaji ? `<div class="m-book-romaji m-romaji">${formatRomajiHtml(cur.promptRomaji)}</div>` : ""}
+            ${cur.sub ? `<p class="m-quiz-sub">${esc(cur.sub)}</p>` : ""}
+            ${renderMcqOptionsHtml(cur.options || [], answered, state.mquizPicked, cur.answer, "data-mqopt", (opt) => ({
+              mainHtml: formatJpHtml(opt.jp),
+              subHtml: opt.romaji ? esc(opt.romaji) : ""
+            }))}
+            ${answered ? `
+              <div class="m-feedback ${isOk ? "is-ok" : "is-bad"}">${isOk ? "✓ Jawaban Tepat!" : `✕ Jawaban Benar: ${formatJpHtml((cur.options[cur.answer] || {}).jp || "")}`}</div>
+              ${cur.explain ? `<div class="m-explain-box">${formatJpHtml(cur.explain)}</div>` : ""}
+              <button type="button" class="m-btn-primary" id="btnModulNext" style="width:100%;">${state.mquizIdx + 1 < total ? "Lanjut →" : "Lihat Hasil →"}</button>
+            ` : ""}
+          </article>
+        `;
+      }
+    }
+
+    app.innerHTML = `${topHtml}${stageHtml}`;
+
+    const btnPc = document.getElementById("btnModulGoPc");
+    if (btnPc) btnPc.addEventListener("click", goPcDesktop);
+    app.querySelectorAll("[data-mqbab]").forEach((b) => b.addEventListener("click", () => loadModulBank(Number(b.dataset.mqbab), state.mquizModeTag)));
+    app.querySelectorAll("[data-mqsec]").forEach((b) => b.addEventListener("click", () => {
+      state.mquizSection = b.dataset.mqsec;
+      startModulQuizSession(bab, state.mquizModeTag);
+      renderModulQuizTab(app);
+    }));
+    app.querySelectorAll("[data-mqmode]").forEach((b) => b.addEventListener("click", () => {
+      const nextMode = b.dataset.mqmode === "rapid" ? "rapid" : "flash";
+      if (!Array.isArray(state.bankCache[bab])) loadModulBank(bab, nextMode);
+      else {
+        startModulQuizSession(bab, nextMode);
+        renderModulQuizTab(app);
+      }
+    }));
+    app.querySelectorAll("[data-mqcount]").forEach((b) => b.addEventListener("click", () => {
+      const val = Number(b.dataset.mqcount);
+      if (state.mquizModeTag === "rapid") state.mquizRapidCount = val === 25 ? 25 : 20;
+      else state.mquizFlashCount = val === 15 ? 15 : 10;
+      startModulQuizSession(bab, state.mquizModeTag === "rapid" ? "rapid" : "flash");
+      renderModulQuizTab(app);
+    }));
+    const btnRetryFetch = document.getElementById("btnModulRetryFetch");
+    if (btnRetryFetch) btnRetryFetch.addEventListener("click", () => loadModulBank(bab, state.mquizModeTag));
+
+    app.querySelectorAll("[data-mqopt]").forEach((b) => b.addEventListener("click", () => {
+      if (state.mquizPicked !== null) return;
+      const item = state.mquizDeck[state.mquizIdx];
+      const pick = Number(b.dataset.mqopt);
+      const ok = pick === item.answer;
+      state.mquizPicked = pick;
+      if (ok) state.mquizCorrectCount += 1;
+      else state.mquizWrongList.push(item);
+      const isLast = state.mquizIdx + 1 >= state.mquizDeck.length;
+      markModulBankSeenAndSave(bab, item.id, isLast, state.mquizCorrectCount, state.mquizDeck.length);
+      renderModulQuizTab(app);
+    }));
+    const btnNext = document.getElementById("btnModulNext");
+    if (btnNext) btnNext.addEventListener("click", () => {
+      state.mquizIdx += 1;
+      state.mquizPicked = null;
+      renderModulQuizTab(app);
+    });
+    const btnRetryW = document.getElementById("btnModulRetryWrong");
+    if (btnRetryW) btnRetryW.addEventListener("click", () => {
+      startModulQuizSession(bab, "retry", [...state.mquizWrongList]);
+      renderModulQuizTab(app);
+    });
+    const btnRepNew = document.getElementById("btnModulReplayNew");
+    if (btnRepNew) btnRepNew.addEventListener("click", () => {
+      startModulQuizSession(bab, state.mquizModeTag === "rapid" ? "rapid" : "flash");
+      renderModulQuizTab(app);
+    });
+    const btnResetSeen = document.getElementById("btnModulResetSeen");
+    if (btnResetSeen) btnResetSeen.addEventListener("click", () => {
+      if (prof.seenBankIds) delete prof.seenBankIds[bab];
+      persistProfile();
+      startModulQuizSession(bab, state.mquizModeTag === "rapid" ? "rapid" : "flash");
+      renderModulQuizTab(app);
+    });
+  }
+
+  // ===== TAB 4: KAIWA (FULL PC PARITY CONTROLS) =====
   function playKaiwaSequence(idx) {
     const dialog = KAIWA_DATA[state.kaiwaBab];
     if (!dialog) return;
     if (idx === -2) {
-      // Play Narrator Intro first when kaiwaWithIntro ON
       state.kaiwaPlaying = true;
       state.kaiwaLineIdx = -2;
       renderKaiwaTab(document.getElementById("mApp"));
@@ -1411,7 +1678,7 @@
     ].join("");
 
     app.innerHTML = `
-      ${renderBabRailHtml(String(state.kaiwaBab), "kwbab", false)}
+      ${renderBabRailHtml(String(state.kaiwaBab), "kwbab", "none")}
       <section class="m-kaiwa-meta">
         <div class="m-hud-row"><span>DIALOG BAB ${dialog.bab}</span><span>${dialog.lines.length} baris</span></div>
         <h2 class="m-kaiwa-title">${formatJpHtml(dialog.title)}</h2>
@@ -1509,7 +1776,7 @@
     if (mSelF) mSelF.addEventListener("change", () => { state.voiceFemaleURI = mSelF.value; persistPrefs(); });
   }
 
-  // ===== TAB 3: REFERENSI (11 KATEGORI + INTERACTIVE WIDGETS + KUIS) =====
+  // ===== TAB 5: REFERENSI (11 KATEGORI + INTERACTIVE WIDGETS + KUIS) =====
   function startRefQuiz(cat, isMix) {
     const pool = isMix ? shuffleCopy(REFERENCES.flatMap((r) => r.questions)).slice(0, 20) : [...(cat.questions || [])];
     state.refTab = "kuis";
@@ -1630,14 +1897,12 @@
           };
           persistProfile();
         }
-        bodyHtml = `
-          <div class="m-result-card">
-            <p class="m-eyebrow">${state.refQuizIsMix ? "HASIL KUIS ACAK REFERENSI" : `HASIL KUIS ${esc(cat.title.toUpperCase())}`}</p>
-            <div class="m-result-score">${state.refQuizCorrectCount} / ${total}</div>
-            <p style="margin:0; font-weight:700; color:var(--color-ink-muted);">${pct}% Tepat</p>
-            <button type="button" class="m-btn-primary" id="btnMobRefReplay" style="width:100%;">🎲 Ulangi Kuis</button>
-          </div>
-        `;
+        bodyHtml = renderQuizResultCardHtml({
+          eyebrow: state.refQuizIsMix ? "HASIL KUIS ACAK REFERENSI" : `HASIL KUIS ${esc(cat.title.toUpperCase())}`,
+          score: state.refQuizCorrectCount,
+          total,
+          actionsHtml: `<button type="button" class="m-btn-primary" id="btnMobRefReplay" style="width:100%;">🎲 Ulangi Kuis</button>`
+        });
       } else {
         const answered = state.refQuizAnswered;
         const pctBar = Math.round(((state.refQuizIdx + (answered ? 1 : 0)) / total) * 100);
@@ -1652,31 +1917,17 @@
             <div class="m-quiz-prompt" style="font-size:19px;">${formatJpHtml(cur.prompt)}</div>
             ${cur.promptRomaji ? `<div class="m-book-romaji m-romaji">${esc(cur.promptRomaji)}</div>` : ""}
             <p style="margin:0; font-size:13px; color:var(--color-ink-muted);">${esc(cur.sub || "")}</p>
-            ${cur.type === "mcq" ? `
-              <div class="m-quiz-options">
-                ${cur.options.map((opt, idx) => {
-                  let cls = "";
-                  if (answered) {
-                    if (idx === cur.answer) cls = "is-correct";
-                    else if (idx === state.refQuizPicked) cls = "is-wrong";
-                  }
-                  return `
-                    <button type="button" class="m-opt-btn ${cls}" data-ropt="${idx}" ${answered ? "disabled" : ""}>
-                      <span class="m-opt-key">${idx + 1}</span>
-                      <div class="m-opt-text">
-                        <span class="m-opt-main">${formatJpHtml(opt.jp)}</span>
-                        ${opt.romaji ? `<span class="m-opt-sub m-romaji">${esc(opt.romaji)}</span>` : ""}
-                      </div>
-                    </button>
-                  `;
-                }).join("")}
-              </div>
-            ` : `
-              <form class="m-recall-form" id="mRefInputForm">
-                <input type="text" class="m-text-input ${answered ? (state.refQuizOk ? "is-correct" : "is-wrong") : ""}" id="mRefTextInput" value="${esc(state.refQuizInput)}" placeholder="${esc(cur.placeholder || "Ketik jawaban...")}" autocomplete="off" ${answered ? "disabled" : ""}>
-                ${!answered ? `<button type="submit" class="m-btn-primary" style="width:100%;">Cek Jawaban</button>` : ""}
-              </form>
-            `}
+            ${cur.type === "mcq"
+              ? renderMcqOptionsHtml(cur.options, answered, state.refQuizPicked, cur.answer, "data-ropt", (opt) => ({
+                  mainHtml: formatJpHtml(opt.jp),
+                  subHtml: opt.romaji ? esc(opt.romaji) : ""
+                }))
+              : `
+                <form class="m-recall-form" id="mRefInputForm">
+                  <input type="text" class="m-text-input ${answered ? (state.refQuizOk ? "is-correct" : "is-wrong") : ""}" id="mRefTextInput" value="${esc(state.refQuizInput)}" placeholder="${esc(cur.placeholder || "Ketik jawaban...")}" autocomplete="off" ${answered ? "disabled" : ""}>
+                  ${!answered ? `<button type="submit" class="m-btn-primary" style="width:100%;">Cek Jawaban</button>` : ""}
+                </form>
+              `}
             ${answered ? `
               <div class="m-feedback ${state.refQuizOk ? "is-ok" : "is-bad"}">${esc(cur.explain || (state.refQuizOk ? "✓ Tepat!" : `✕ Jawaban: ${cur.displayAnswer || ""}`))}</div>
               <button type="button" class="m-btn-primary" id="btnMobRefNext" style="width:100%;">${state.refQuizIdx + 1 < total ? "Lanjut →" : "Lihat Hasil →"}</button>
@@ -1752,7 +2003,7 @@
     if (btnRefRep) btnRefRep.addEventListener("click", () => { startRefQuiz(cat, state.refQuizIsMix); renderRefsTab(app); });
   }
 
-  // ===== TAB 4: KANA PRACTICE =====
+  // ===== TAB 6: KANA PRACTICE =====
   function getKanaPool(setKey) {
     const extract = (rows, script) => (rows || []).flatMap((r) => (r.cells || []).filter(Boolean).map((c) => ({ ...c, script })));
     const hira = extract(KANA_DATA.hiraganaRows, "Hiragana");
@@ -1873,7 +2124,12 @@
       const cur = state.kanaQuizDeck[state.kanaQuizIdx];
       const dirRow = `<div class="m-pill-rail"><button type="button" class="m-rail-pill ${state.kanaDir === "jp2rom" ? "is-active" : ""}" data-kndir="jp2rom">あ → abc</button><button type="button" class="m-rail-pill ${state.kanaDir === "rom2jp" ? "is-active" : ""}" data-kndir="rom2jp">abc → あ</button></div>`;
       if (!cur) {
-        app.innerHTML = `${topBar}${dirRow}<div class="m-result-card"><div class="m-result-score">${state.kanaQuizCorrect} / ${total}</div><button type="button" class="m-btn-primary" id="btnKanaQuizReplay" style="width:100%;">🎲 Main 15 Huruf Lagi</button></div>`;
+        app.innerHTML = `${topBar}${dirRow}${renderQuizResultCardHtml({
+          eyebrow: "HASIL TEBAK HURUF",
+          score: state.kanaQuizCorrect,
+          total,
+          actionsHtml: `<button type="button" class="m-btn-primary" id="btnKanaQuizReplay" style="width:100%;">🎲 Main 15 Huruf Lagi</button>`
+        })}`;
         document.getElementById("btnKanaQuizReplay").addEventListener("click", () => { startKanaGuessQuiz(); renderKanaTab(app); });
       } else {
         const answered = state.kanaQuizPickedIdx !== null;
@@ -1885,13 +2141,10 @@
           <article class="m-quiz-card">
             <div class="m-hud-row"><span>${askGlyph ? "Huruf apa ini?" : "Pilih huruf:"}</span><button type="button" class="m-tts-btn" data-mspeak="${esc(cur.k)}">🔊</button></div>
             <div style="text-align:center;">${askGlyph ? `<div class="m-kana-glyph-xl">${esc(cur.k)}</div>` : `<div class="m-kana-glyph-xl" style="font-size:48px;">"${esc(cur.r)}"</div>`}</div>
-            <div class="m-quiz-options">
-              ${state.kanaQuizOptions.map((opt, idx) => {
-                let cls = "";
-                if (answered) { if (idx === state.kanaQuizCorrectIdx) cls = "is-correct"; else if (idx === state.kanaQuizPickedIdx) cls = "is-wrong"; }
-                return `<button type="button" class="m-opt-btn ${cls}" data-knopt="${idx}" ${answered ? "disabled" : ""}><span class="m-opt-key">${idx + 1}</span><span class="m-opt-main">${esc(askGlyph ? opt.r : opt.k)}</span></button>`;
-              }).join("")}
-            </div>
+            ${renderMcqOptionsHtml(state.kanaQuizOptions, answered, state.kanaQuizPickedIdx, state.kanaQuizCorrectIdx, "data-knopt", (opt) => ({
+              mainHtml: esc(askGlyph ? opt.r : opt.k),
+              subHtml: ""
+            }))}
             ${answered ? `<div class="m-feedback ${isOk ? "is-ok" : "is-bad"}">${esc(cur.k)} = "${esc(cur.r)}" (${esc(cur.w)})</div><button type="button" class="m-btn-primary" id="btnKanaGuessNext" style="width:100%;">Lanjut →</button>` : ""}
           </article>
         `;
@@ -1997,6 +2250,21 @@
   function switchTab(nextTab) {
     if (state.tab !== nextTab) stopKaiwaPlayback();
     state.tab = nextTab;
+    if (nextTab === "kotoba") {
+      startKotobaSession(state.kotobaScope, state.kotobaMemMode, null, "kotoba");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+    if (nextTab === "kquiz") {
+      startKotobaSession(state.kotobaScope, state.kquizMode, null, "kquiz");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+    if (nextTab === "mquiz") {
+      loadModulBank(state.mquizBab, state.mquizModeTag);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
     if (nextTab === "kana" && state.kanaDeck.length === 0) rebuildKanaDeck();
     renderCurrentTab();
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -2007,6 +2275,8 @@
     const app = document.getElementById("mApp");
     if (!app) return;
     if (state.tab === "kotoba") renderKotobaTab(app);
+    else if (state.tab === "kquiz") renderKotobaQuizTab(app);
+    else if (state.tab === "mquiz") renderModulQuizTab(app);
     else if (state.tab === "kaiwa") renderKaiwaTab(app);
     else if (state.tab === "refs") renderRefsTab(app);
     else if (state.tab === "kana") renderKanaTab(app);
@@ -2019,7 +2289,7 @@
       window.speechSynthesis.addEventListener("voiceschanged", detectJaVoices);
     }
 
-    openKotobaMode("1", "swipe");
+    startKotobaSession("1", "swipe", null, "kotoba");
     rebuildKanaDeck();
     renderCurrentTab();
 
@@ -2046,7 +2316,7 @@
     });
 
     if (typeof navigator !== "undefined" && "serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost" || location.hostname === "127.0.0.1")) {
-      navigator.serviceWorker.register("../sw.js?v=20261127-v28").catch(() => {});
+      navigator.serviceWorker.register(`../sw.js?v=${BANK_VERSION}`).catch(() => {});
     }
   }
 

@@ -243,34 +243,43 @@ rt {
   gap: 12px;
 }
 
-/* ===== TOP TAB BAR (KOTOBA · KUIS · KAIWA · KANA) ===== */
+/* ===== TOP TAB BAR (6-TAB GRID 3x2: KOTOBA · KUIS KOTOBA · KUIS MODUL · KAIWA · REFERENSI · KANA) ===== */
 .m-tabbar {
   max-width: 560px;
   margin: 0 auto;
   padding: 4px 10px 8px;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 5px;
 }
 
 .m-tab-btn {
-  min-height: 48px;
-  padding: 4px 4px;
-  border-radius: 12px;
-  border: 1px solid transparent;
+  min-height: 38px;
+  padding: 5px 6px;
+  border-radius: 11px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 2px;
+  gap: 5px;
   color: var(--color-ink-muted);
   font-size: 11.5px;
-  font-weight: 600;
+  font-weight: 700;
+  min-width: 0;
 }
 
 .m-tab-icon {
-  font-size: 19px;
-  line-height: 1.1;
+  font-size: 15px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.m-tab-lbl {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .m-tab-kana {
@@ -280,6 +289,7 @@ rt {
 
 .m-tab-btn.is-active {
   background: var(--color-accent-soft);
+  border-color: var(--color-accent);
   color: var(--color-accent);
   font-weight: 800;
 }
@@ -1366,6 +1376,113 @@ rt {
   gap: 8px;
 }
 .m-pc-focus-banner p { margin: 0; line-height: 1.5; }
+
+.m-eyebrow {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-ink-subtle);
+}
+
+.m-desktop-note {
+  padding: 11px 13px;
+  border-radius: 14px;
+  border: 1px solid var(--color-border);
+  background: var(--color-paper-muted);
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--color-ink-muted);
+}
+
+/* ===== KUIS MODUL BAB 1-25 & MULTI-LINE DIALOG ===== */
+.m-modul-pc-callout {
+  padding: 12px 14px;
+  border-radius: 16px;
+  border: 1px solid var(--color-accent);
+  background: var(--color-accent-soft);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.m-modul-pc-callout p {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--color-ink);
+}
+
+.m-modul-status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: var(--color-paper-muted);
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--color-ink-muted);
+}
+
+.m-quiz-sub {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--color-ink-muted);
+}
+
+.m-explain-box {
+  padding: 11px 13px;
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  background: var(--color-paper-muted);
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--color-ink);
+}
+
+.conv-block {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.conv-turn {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.conv-speaker {
+  flex-shrink: 0;
+  min-width: 22px;
+  height: 22px;
+  border-radius: 7px;
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 800;
+  display: inline-grid;
+  place-items: center;
+}
+
+.conv-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.conv-note {
+  font-size: 13.5px;
+  color: var(--color-ink-muted);
+}
+
+.conv-romaji-line {
+  display: block;
+}
 
 @media (prefers-reduced-motion: reduce) {
   .m-swipe-card,
