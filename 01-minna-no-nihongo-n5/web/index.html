@@ -14,6 +14,25 @@
   <script>
     (function () {
       try {
+        var ua = navigator.userAgent || "";
+        var isCoarse = !!(window.matchMedia && window.matchMedia("(pointer: coarse)").matches);
+        var minScreen = window.screen ? Math.min(window.screen.width || 9999, window.screen.height || 9999) : 9999;
+        var isPhoneUa = !!(
+          (navigator.userAgentData && navigator.userAgentData.mobile) ||
+          /iPhone|iPod|Windows Phone|Android.*Mobile|Mobile/i.test(ua)
+        );
+        var isHardPhone = isPhoneUa || (isCoarse && minScreen <= 640);
+        var isIpadDesktopUa = /Macintosh/i.test(ua) && (navigator.maxTouchPoints || 0) > 1;
+        var isTablet = !isHardPhone && (/iPad|Tablet|Android/i.test(ua) || isIpadDesktopUa);
+
+        // Khusus HP (termasuk jika menyalakan Desktop Site / ?mode=desktop): WAJIB override ke Mode Mobile
+        if (isHardPhone) {
+          localStorage.setItem("mnn_ui_mode", "mobile");
+          window.location.replace("./mobile/");
+          return;
+        }
+
+        // Tablet & PC diizinkan memilih 2 mode (Mobile / PC)
         var params = new URLSearchParams(window.location.search);
         var qMode = params.get("mode");
         if (qMode === "desktop" || qMode === "mobile") {
@@ -21,22 +40,19 @@
         }
         var pref = localStorage.getItem("mnn_ui_mode");
         if (pref === "desktop") return;
-        var ua = navigator.userAgent || "";
-        var isIpadDesktopUa = /Macintosh/i.test(ua) && navigator.maxTouchPoints > 1;
-        var isMobileOrTab = (navigator.userAgentData && navigator.userAgentData.mobile) || /Android|iPhone|iPad|iPod|Mobile|Tablet/i.test(ua) || isIpadDesktopUa;
-        if (pref === "mobile" || isMobileOrTab) {
+        if (pref === "mobile" || isTablet) {
           window.location.replace("./mobile/");
         }
       } catch (e) {}
     })();
   </script>
-  <link rel="manifest" href="./manifest.webmanifest?v=20261127-v29">
-  <link rel="icon" type="image/svg+xml" href="./icons/icon.svg?v=20261127-v29">
-  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png?v=20261127-v29">
+  <link rel="manifest" href="./manifest.webmanifest?v=20261127-v30">
+  <link rel="icon" type="image/svg+xml" href="./icons/icon.svg?v=20261127-v30">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png?v=20261127-v30">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Noto+Sans+JP:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=20261127-v29">
+  <link rel="stylesheet" href="./styles.css?v=20261127-v30">
 </head>
 <body>
   <header class="topbar" role="banner">
@@ -189,50 +205,50 @@
   <!-- Urutan Script: Bab 1–16, Bab 17 ASLI, Bab 18–25, Soal Ekstra, Kana, Kotoba, Referensi (11), Tes Akhir, Bank Bab 1-25, App -->
   <!-- Versi ?v=... wajib naik setiap kali file diubah agar browser tidak memakai cache lama. -->
   <script>window.MNN_MODULES = []; window.MNN_EXTRA_QUESTIONS = {}; window.MNN_BANK = {};</script>
-  <script src="./data/modul-01-05.js?v=20261127-v29"></script>
-  <script src="./data/modul-06-10.js?v=20261127-v29"></script>
-  <script src="./data/modul-11-16.js?v=20261127-v29"></script>
-  <script src="./data/bab-17.js?v=20261127-v29"></script>
-  <script src="./data/modul-18-25.js?v=20261127-v29"></script>
-  <script src="./data/soal-ekstra-merah-oranye.js?v=20261127-v29"></script>
-  <script src="./data/soal-ekstra-hijau.js?v=20261127-v29"></script>
-  <script src="./data/soal-ekstra-kuning-a.js?v=20261127-v29"></script>
-  <script src="./data/soal-ekstra-kuning-b.js?v=20261127-v29"></script>
-  <script src="./data/kana-dasar.js?v=20261127-v29"></script>
-  <script src="./data/kotoba-1-25.js?v=20261127-v29"></script>
-  <script src="./data/kaiwa-01-05.js?v=20261127-v29"></script>
-  <script src="./data/kaiwa-06-10.js?v=20261127-v29"></script>
-  <script src="./data/kaiwa-11-15.js?v=20261127-v29"></script>
-  <script src="./data/kaiwa-16-20.js?v=20261127-v29"></script>
-  <script src="./data/kaiwa-21-25.js?v=20261127-v29"></script>
-  <script src="./data/referensi-minna.js?v=20261127-v29"></script>
-  <script src="./data/tes-akhir-1-25.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-01.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-02.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-03.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-04.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-05.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-06.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-07.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-08.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-09.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-10.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-11.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-12.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-13.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-14.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-15.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-16.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-17.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-18.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-19.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-20.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-21.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-22.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-23.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-24.js?v=20261127-v29"></script>
-  <script src="./data/bank/bab-25.js?v=20261127-v29"></script>
-  <script src="./shared-core.js?v=20261127-v29"></script>
-  <script src="./app.js?v=20261127-v29"></script>
+  <script src="./data/modul-01-05.js?v=20261127-v30"></script>
+  <script src="./data/modul-06-10.js?v=20261127-v30"></script>
+  <script src="./data/modul-11-16.js?v=20261127-v30"></script>
+  <script src="./data/bab-17.js?v=20261127-v30"></script>
+  <script src="./data/modul-18-25.js?v=20261127-v30"></script>
+  <script src="./data/soal-ekstra-merah-oranye.js?v=20261127-v30"></script>
+  <script src="./data/soal-ekstra-hijau.js?v=20261127-v30"></script>
+  <script src="./data/soal-ekstra-kuning-a.js?v=20261127-v30"></script>
+  <script src="./data/soal-ekstra-kuning-b.js?v=20261127-v30"></script>
+  <script src="./data/kana-dasar.js?v=20261127-v30"></script>
+  <script src="./data/kotoba-1-25.js?v=20261127-v30"></script>
+  <script src="./data/kaiwa-01-05.js?v=20261127-v30"></script>
+  <script src="./data/kaiwa-06-10.js?v=20261127-v30"></script>
+  <script src="./data/kaiwa-11-15.js?v=20261127-v30"></script>
+  <script src="./data/kaiwa-16-20.js?v=20261127-v30"></script>
+  <script src="./data/kaiwa-21-25.js?v=20261127-v30"></script>
+  <script src="./data/referensi-minna.js?v=20261127-v30"></script>
+  <script src="./data/tes-akhir-1-25.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-01.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-02.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-03.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-04.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-05.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-06.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-07.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-08.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-09.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-10.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-11.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-12.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-13.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-14.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-15.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-16.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-17.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-18.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-19.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-20.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-21.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-22.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-23.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-24.js?v=20261127-v30"></script>
+  <script src="./data/bank/bab-25.js?v=20261127-v30"></script>
+  <script src="./shared-core.js?v=20261127-v30"></script>
+  <script src="./app.js?v=20261127-v30"></script>
 </body>
 </html>

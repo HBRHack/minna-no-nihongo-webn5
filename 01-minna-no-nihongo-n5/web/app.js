@@ -10,6 +10,7 @@
 
   const {
     FURIGANA_PAIR_RE,
+    detectDeviceProfile,
     esc,
     stripFuriganaMarkup,
     norm,
@@ -6121,10 +6122,14 @@
   function initPwa() {
     let deferredPrompt = null;
     const installBtn = document.getElementById("btnInstallPwa");
+    const dev = typeof detectDeviceProfile === "function" ? detectDeviceProfile() : { isHardPhone: false };
+
+    if (installBtn && dev.isHardPhone) installBtn.hidden = true;
 
     if (typeof window !== "undefined" && window.addEventListener) {
       window.addEventListener("beforeinstallprompt", (e) => {
         if (e && e.preventDefault) e.preventDefault();
+        if (dev.isHardPhone) return;
         deferredPrompt = e;
         if (installBtn) installBtn.hidden = false;
       });
@@ -6156,7 +6161,7 @@
       && (window.location.protocol === "https:" || window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
     ) {
       window.addEventListener("load", () => {
-        navigator.serviceWorker.register("./sw.js").catch(() => {});
+        navigator.serviceWorker.register("./sw.js?v=20261127-v30").catch(() => {});
       });
     }
   }

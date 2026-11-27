@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#141923">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="Minna N5">
+  <meta name="apple-mobile-web-app-title" content="Minna N5 Mobile">
   <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
   <title>Minna no Nihongo I · Mode Mobile</title>
   <script>
@@ -19,13 +19,13 @@
       } catch (e) {}
     })();
   </script>
-  <link rel="manifest" href="../manifest.webmanifest?v=20261127-v29">
-  <link rel="icon" type="image/svg+xml" href="../icons/icon.svg?v=20261127-v29">
-  <link rel="apple-touch-icon" href="../icons/apple-touch-icon.png?v=20261127-v29">
+  <link rel="manifest" href="./manifest.webmanifest?v=20261127-v30">
+  <link rel="icon" type="image/svg+xml" href="../icons/icon.svg?v=20261127-v30">
+  <link rel="apple-touch-icon" href="../icons/apple-touch-icon.png?v=20261127-v30">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./mobile.css?v=20261127-v29">
+  <link rel="stylesheet" href="./mobile.css?v=20261127-v30">
 </head>
 <body>
   <div class="m-header-wrap">
@@ -38,6 +38,7 @@
         </div>
       </div>
       <div class="m-top-actions">
+        <button type="button" class="m-top-pill m-top-pill-accent" id="btnMobInstallPwa" title="Pasang Aplikasi Mode Mobile (Offline)">📲 App</button>
         <button type="button" class="m-top-pill" id="btnMobTheme" title="Ganti Tema Gelap / Terang">🌙</button>
         <button type="button" class="m-top-pill" id="btnMobRomaji" title="Tampilkan / Sembunyikan Romaji">R:ON</button>
         <button type="button" class="m-top-pill" id="btnMobPcMode" title="Buka Versi PC untuk Materi Bab 1–25 &amp; Tes Akhir">💻 PC</button>
@@ -72,25 +73,27 @@
     </nav>
   </div>
 
+  <div class="m-install-hint" id="mInstallHint" hidden></div>
+
   <main class="m-main" id="mApp" aria-live="polite"></main>
 
   <footer class="m-pc-focus-banner">
     <p>
-      <strong>Fokus Mode Mobile:</strong> Kotoba, Kuis Kotoba, Kuis Modul, Kaiwa, Referensi (11), &amp; Kana. Untuk <strong>Materi Pembahasan Tata Bahasa, Rumus Cepat, &amp; Tes Akhir Gabungan Bab 1–25</strong>, buka <strong>Versi PC</strong>.
+      <strong>Fokus Mode Mobile:</strong> Kotoba, Kuis Kotoba, Kuis Modul (Flash/Rapid), Kaiwa, Referensi (11), &amp; Kana. Untuk <strong>Materi Pembahasan Tata Bahasa, Rumus Cepat, &amp; Tes Akhir Gabungan Bab 1–25</strong>, buka di <strong>PC / Laptop</strong>.
     </p>
     <button type="button" class="m-btn-soft" id="btnBannerGoPc" style="width:100%;">💻 Buka Versi PC</button>
   </footer>
 
   <!-- Data ringan khusus Mobile: Kuis Modul mengambil JSON bank per bab secara on-demand tanpa memuat Modul Tata Bahasa -->
-  <script src="../data/kana-dasar.js?v=20261127-v29"></script>
-  <script src="../data/kotoba-1-25.js?v=20261127-v29"></script>
-  <script src="../data/kaiwa-01-05.js?v=20261127-v29"></script>
-  <script src="../data/kaiwa-06-10.js?v=20261127-v29"></script>
-  <script src="../data/kaiwa-11-15.js?v=20261127-v29"></script>
-  <script src="../data/kaiwa-16-20.js?v=20261127-v29"></script>
-  <script src="../data/kaiwa-21-25.js?v=20261127-v29"></script>
-  <script src="../data/referensi-minna.js?v=20261127-v29"></script>
-  <script src="../shared-core.js?v=20261127-v29"></script>
-  <script src="./mobile.js?v=20261127-v29"></script>
+  <script src="../data/kana-dasar.js?v=20261127-v30"></script>
+  <script src="../data/kotoba-1-25.js?v=20261127-v30"></script>
+  <script src="../data/kaiwa-01-05.js?v=20261127-v30"></script>
+  <script src="../data/kaiwa-06-10.js?v=20261127-v30"></script>
+  <script src="../data/kaiwa-11-15.js?v=20261127-v30"></script>
+  <script src="../data/kaiwa-16-20.js?v=20261127-v30"></script>
+  <script src="../data/kaiwa-21-25.js?v=20261127-v30"></script>
+  <script src="../data/referensi-minna.js?v=20261127-v30"></script>
+  <script src="../shared-core.js?v=20261127-v30"></script>
+  <script src="./mobile.js?v=20261127-v30"></script>
 </body>
 </html>

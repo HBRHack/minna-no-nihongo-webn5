@@ -5,8 +5,29 @@
 (function (root) {
   "use strict";
 
-  const ASSET_VERSION = "20261127-v29";
+  const ASSET_VERSION = "20261127-v30";
   const FURIGANA_PAIR_RE = /([0-9０-９,]*[\u4e00-\u9faf々ヶ]+)\[([\u3040-\u309f\u30a0-\u30ffー]+)\]/g;
+
+  function detectDeviceProfile() {
+    const nav = typeof navigator !== "undefined" ? navigator : {};
+    const win = typeof window !== "undefined" ? window : {};
+    const ua = nav.userAgent || "";
+    const isCoarse = !!(win.matchMedia && win.matchMedia("(pointer: coarse)").matches);
+    const minScreen = win.screen ? Math.min(win.screen.width || 9999, win.screen.height || 9999) : 9999;
+    const isStandalone = !!(
+      (win.matchMedia && win.matchMedia("(display-mode: standalone)").matches) ||
+      nav.standalone === true
+    );
+    const isPhoneUa = !!(
+      (nav.userAgentData && nav.userAgentData.mobile) ||
+      /iPhone|iPod|Windows Phone|Android.*Mobile|Mobile/i.test(ua)
+    );
+    const isHardPhone = isPhoneUa || (isCoarse && minScreen <= 640);
+    const isIpadDesktopUa = /Macintosh/i.test(ua) && (nav.maxTouchPoints || 0) > 1;
+    const isTablet = !isHardPhone && (/iPad|Tablet|Android/i.test(ua) || isIpadDesktopUa);
+    const isIos = /iPhone|iPad|iPod/i.test(ua) || isIpadDesktopUa;
+    return { isHardPhone, isTablet, isMobileOrTablet: isHardPhone || isTablet, isStandalone, isIos };
+  }
 
   function esc(str) {
     return String(str === undefined || str === null ? "" : str)
@@ -289,6 +310,7 @@
   root.MNN_SHARED = {
     ASSET_VERSION,
     FURIGANA_PAIR_RE,
+    detectDeviceProfile,
     esc,
     stripFuriganaMarkup,
     norm,

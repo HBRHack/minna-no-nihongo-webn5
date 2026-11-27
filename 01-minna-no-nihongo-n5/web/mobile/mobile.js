@@ -12,6 +12,7 @@
 
   const {
     ASSET_VERSION,
+    detectDeviceProfile,
     esc,
     norm,
     hasJapaneseText,
@@ -409,7 +410,14 @@
   };
 
   // ===== SHARED UI BUILDERS (DRY INTERNAL HELPERS) =====
+  function getDeviceInfo() {
+    return typeof detectDeviceProfile === "function"
+      ? detectDeviceProfile()
+      : { isHardPhone: false, isTablet: false, isMobileOrTablet: false, isStandalone: false, isIos: false };
+  }
+
   function goPcDesktop() {
+    if (getDeviceInfo().isHardPhone) return;
     stopKaiwaPlayback();
     try { localStorage.setItem(STORAGE_UI_MODE, "desktop"); } catch {}
     window.location.href = "../?mode=desktop";
@@ -1460,8 +1468,8 @@
         </div>
         <div style="font-size:14.5px; font-weight:800; line-height:1.35;">${esc(title)}</div>
         <div class="m-modul-pc-callout">
-          <p><strong>📖 Materi Pembahasan &amp; Rumus Cepat Bab ${bab}:</strong> Pembahasan tata bahasa, tabel konjugasi, &amp; Tes Akhir Gabungan 1–25 dibuka khusus di <strong>Versi PC</strong> agar fokus belajar tanpa distraksi layar kecil.</p>
-          <button type="button" class="m-btn-soft" id="btnModulGoPc" style="width:100%;">💻 Buka Materi Pembahasan Bab ${bab} di Versi PC</button>
+          <p><strong>📖 Materi Pembahasan &amp; Rumus Cepat Bab ${bab}:</strong> Pembahasan tata bahasa, tabel konjugasi, &amp; Tes Akhir Gabungan 1–25 dibuka khusus di <strong>Versi PC / Tablet</strong> agar fokus belajar tanpa distraksi layar kecil.</p>
+          ${!getDeviceInfo().isHardPhone ? `<button type="button" class="m-btn-soft" id="btnModulGoPc" style="width:100%;">💻 Buka Materi Pembahasan Bab ${bab} di Versi PC</button>` : ""}
         </div>
         ${bab === 17 ? `
           <div class="m-chip-row" aria-label="Filter Tema Bab 17">
@@ -2282,6 +2290,62 @@
     else if (state.tab === "kana") renderKanaTab(app);
   }
 
+  function initMobilePwa() {
+    let deferredPrompt = null;
+    const btnInstall = document.getElementById("btnMobInstallPwa");
+    const hintEl = document.getElementById("mInstallHint");
+    const dev = getDeviceInfo();
+
+    if (btnInstall && dev.isStandalone) btnInstall.hidden = true;
+
+    const renderHint = (msgHtml) => {
+      if (!hintEl) return;
+      hintEl.innerHTML = `<div>${msgHtml}</div><button type="button" class="m-top-pill" id="btnCloseInstallHint" aria-label="Tutup">✕</button>`;
+      hintEl.hidden = false;
+      const closeBtn = document.getElementById("btnCloseInstallHint");
+      if (closeBtn) closeBtn.addEventListener("click", () => { hintEl.hidden = true; });
+    };
+
+    if (typeof window !== "undefined" && window.addEventListener) {
+      window.addEventListener("beforeinstallprompt", (e) => {
+        if (e && e.preventDefault) e.preventDefault();
+        deferredPrompt = e;
+        if (btnInstall && !dev.isStandalone) btnInstall.hidden = false;
+      });
+      window.addEventListener("appinstalled", () => {
+        deferredPrompt = null;
+        if (btnInstall) btnInstall.hidden = true;
+        if (hintEl) hintEl.hidden = true;
+      });
+    }
+
+    if (btnInstall) {
+      btnInstall.addEventListener("click", async () => {
+        if (deferredPrompt) {
+          try {
+            deferredPrompt.prompt();
+            if (deferredPrompt.userChoice) await deferredPrompt.userChoice;
+          } catch {}
+          deferredPrompt = null;
+          btnInstall.hidden = true;
+          if (hintEl) hintEl.hidden = true;
+          return;
+        }
+        if (hintEl && !hintEl.hidden) {
+          hintEl.hidden = true;
+          return;
+        }
+        const iosTip = "<strong>Pasang Aplikasi Mode Mobile (iOS Safari):</strong> Ketuk ikon <strong>Bagikan (⬆️)</strong> lalu pilih <strong>\"Tambah ke Layar Utama\"</strong>.";
+        const chromeTip = "<strong>Pasang Aplikasi Mode Mobile:</strong> Ketuk menu browser (<strong>⋮</strong>) di kanan atas lalu pilih <strong>\"Install aplikasi\"</strong> atau <strong>\"Tambahkan ke layar utama\"</strong> agar Mode Mobile terbuka offline.";
+        renderHint(dev.isIos ? iosTip : chromeTip);
+      });
+    }
+
+    if (typeof navigator !== "undefined" && "serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost" || location.hostname === "127.0.0.1")) {
+      navigator.serviceWorker.register(`../sw.js?v=${BANK_VERSION}`, { scope: "../" }).catch(() => {});
+    }
+  }
+
   function init() {
     applyTheme(state.theme);
     detectJaVoices();
@@ -2295,14 +2359,21 @@
 
     document.querySelectorAll("#mTabbar [data-mtab]").forEach((btn) => btn.addEventListener("click", () => switchTab(btn.dataset.mtab)));
 
+    const dev = getDeviceInfo();
     const bTheme = document.getElementById("btnMobTheme");
     if (bTheme) bTheme.addEventListener("click", () => { applyTheme(state.theme === "dark" ? "light" : "dark"); renderTopBarSync(); });
     const bRom = document.getElementById("btnMobRomaji");
     if (bRom) bRom.addEventListener("click", () => { state.showRomaji = !state.showRomaji; persistPrefs(); renderCurrentTab(); });
     const bPc = document.getElementById("btnMobPcMode");
-    if (bPc) bPc.addEventListener("click", goPcDesktop);
+    if (bPc) {
+      bPc.hidden = Boolean(dev.isHardPhone);
+      bPc.addEventListener("click", goPcDesktop);
+    }
     const bBannerPc = document.getElementById("btnBannerGoPc");
-    if (bBannerPc) bBannerPc.addEventListener("click", goPcDesktop);
+    if (bBannerPc) {
+      bBannerPc.hidden = Boolean(dev.isHardPhone);
+      bBannerPc.addEventListener("click", goPcDesktop);
+    }
 
     document.addEventListener("click", (e) => {
       const spBtn = e.target && e.target.closest ? e.target.closest("[data-mspeak]") : null;
@@ -2315,9 +2386,7 @@
       });
     });
 
-    if (typeof navigator !== "undefined" && "serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost" || location.hostname === "127.0.0.1")) {
-      navigator.serviceWorker.register(`../sw.js?v=${BANK_VERSION}`).catch(() => {});
-    }
+    initMobilePwa();
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);

@@ -1,5 +1,5 @@
 /* Service Worker — Minna no Nihongo I (Bab 1–25) + Mode Mobile PWA */
-const CACHE_VERSION = "20261127-v29";
+const CACHE_VERSION = "20261127-v30";
 const CACHE_NAME = `mnn-n5-${CACHE_VERSION}`;
 
 const CORE_DATA_JS = [
@@ -36,6 +36,7 @@ const PRECACHE_URLS = [
   "./index.html",
   "./mobile/",
   "./mobile/index.html",
+  `./mobile/manifest.webmanifest?v=${CACHE_VERSION}`,
   `./mobile/mobile.css?v=${CACHE_VERSION}`,
   `./mobile/mobile.js?v=${CACHE_VERSION}`,
   `./manifest.webmanifest?v=${CACHE_VERSION}`,
@@ -74,10 +75,11 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
 
-  const isMobileNav = url.pathname === "/mobile" || url.pathname.startsWith("/mobile/");
-  const isNavigation = req.mode === "navigate" || url.pathname === "/" || url.pathname.endsWith("/index.html") || isMobileNav;
+  const isMobilePage = url.pathname === "/mobile" || url.pathname === "/mobile/" || url.pathname.endsWith("/mobile/index.html");
+  const isRootPage = url.pathname === "/" || url.pathname.endsWith("/index.html");
+  const isNavigation = req.mode === "navigate" || isRootPage || isMobilePage;
   if (isNavigation) {
-    const shellKey = isMobileNav ? "./mobile/index.html" : "./index.html";
+    const shellKey = isMobilePage ? "./mobile/index.html" : "./index.html";
     event.respondWith(
       fetch(req)
         .then((res) => {
@@ -87,7 +89,7 @@ self.addEventListener("fetch", (event) => {
           }
           return res;
         })
-        .catch(() => caches.match(shellKey).then((cached) => cached || caches.match(isMobileNav ? "./mobile/" : "./")))
+        .catch(() => caches.match(shellKey).then((cached) => cached || caches.match(isMobilePage ? "./mobile/" : "./")))
     );
     return;
   }
