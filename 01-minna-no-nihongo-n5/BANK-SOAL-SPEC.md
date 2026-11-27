@@ -78,6 +78,9 @@ Untuk opsi yang berupa terjemahan Indonesia, `jp` diisi teks Indonesia dan `roma
 ## 5. Aturan Wajib Soal (STRICT)
 
 - Kuota tepat per bab: `50` soal (Bab 1–6), `75` soal (Bab 8, 9, 13), `100` soal (Bab 7, 10–12, 14–25).
+- **WAJIB KOSAKATA EDISI 2 (第2版):**
+  - Seluruh soal pada bank soal wajib memakai kosakata **Minna no Nihongo I Edisi 2**. Kosakata usang khusus Edisi 1 (`テレホンカード`, `カセット`, `テープレコーダー`, `ファクス`, `ワープロ`, `フィルム`, `チリソース`, `スパイス・コーナー`, `プレイガイド`, `ぼくじょう`, `パチンコ`, `サラリーマン`, `しばらくですね`, `そくたつ`, `かきとめ`, `とこや`, `がいこくじんとうろくしょう`, `ワゴンしゃ`) dilarang dipakai di bank soal dan wajib diganti kosakata pengganti Edisi 2.
+  - Aturan Kotoba di web/modul: kosakata **Edisi 2** selalu tampil paling atas dan menjadi bahan **Tes Akhir 1–25** serta **Kuis Akhir Kotoba**; kosakata khusus **Edisi 1** ditempatkan paling bawah sebagai **Arsip & Referensi** (penambah kosakata di daftar materi, Flashcard, dan kuis kosakata biasa, **dilarang masuk Tes Akhir**).
 - **WAJIB FULL FURIGANA dengan Kanji (`漢字[ふりがな]`):**
   - Setiap Kanji pada `prompt`, `options[].jp`, `explain`, dan `badge` **wajib** diberi furigana dengan format `漢字[ふりがな]` (termasuk gabungan angka + satuan seperti `20歳[はたち]`, `4時[よじ]`, `3,800円[さんぜんはっぴゃくえん]`) agar dirender sebagai `<ruby>漢字<rt>ふりがな</rt></ruby>` dan terbaca bersih oleh TTS.
   - **Satu-satunya pengecualian:** target kata yang sedang diuji cara bacanya di dalam `「...」` pada soal `よみかた` / `読み方` (misalnya `「20歳」の よみかたは どれですか。`) dibiarkan tanpa furigana di `prompt` agar tidak membocorkan jawaban, sedangkan bagian `explain` tetap wajib memakai furigana.
@@ -132,6 +135,7 @@ Validator memeriksa:
 - tidak ada opsi `jp` duplikat dalam satu soal;
 - **strict furigana:** nol Kanji tanpa `[ふりがな]` di `prompt` (kecuali target `「...」` pada soal `よみかた`), `options[].jp`, `explain`, dan `badge`;
 - **strict percakapan:** pembicara `A：` / `B：` terpisah baris (`\n`), tanpa pemisah `…` tunggal, dan `promptRomaji` multi-baris terpisah `\n`;
+- **strict Edisi 2:** nol kosakata usang khusus Edisi 1 (`テレホンカード`, `ファクス`, `プレイガイド`, `ワゴンしゃ`, `しばらくですね`, dll.) di bank soal;
 - `prompt` tidak duplikat dalam satu bab;
 - pasangan `prompt + jawaban` tidak duplikat antar-bab;
 - `prompt`, `promptRomaji`, `sub`, `explain` tidak kosong;

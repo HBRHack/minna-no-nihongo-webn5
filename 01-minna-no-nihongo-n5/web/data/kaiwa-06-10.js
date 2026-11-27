@@ -594,15 +594,15 @@ Object.assign(window.MNN_KAIWA, {
   },
   "10": {
     "bab": 10,
-    "title": "チリソースは ありませんか — Menanyakan Lokasi Toko & Barang",
-    "scene": "ミラー mencari アジアストア di jalan, bertanya kepada seorang 女の人, lalu di dalam toko menanyakan letak チリソース kepada 店の人.",
+    "title": "ナンプラーは ありませんか — Menanyakan Lokasi Toko & Barang",
+    "scene": "ミラー mencari アジアストア di jalan, bertanya kepada seorang 女の人, lalu di dalam toko menanyakan letak ナンプラー kepada 店の人.",
     "intro": {
       "speaker": "ナレーター (Narator CD)",
       "gender": "female",
       "tempo": "tenang",
-      "jp": "第[だい]10課[じゅっか]、会話[かいわ]。「チリソースは ありませんか」。ミラーさんは お店[みせ]の 場所[ばしょ]と 物[もの]の 場所[ばしょ]を 聞[き]きます。よく 聞[き]いて、まねして ください。",
-      "romaji": "Dai-jukka, Kaiwa. \"Chiri soosu wa arimasen ka.\" Miraa-san wa o-mise no basho to mono no basho o kikimasu. Yoku kiite, maneshite kudasai.",
-      "id": "Bab 10, Percakapan: \"Apakah ada saus sambal?\". Pak Miller menanyakan letak toko dan posisi barang. Dengarkan baik-baik, lalu tirukan."
+      "jp": "第[だい]10課[じゅっか]、会話[かいわ]。「ナンプラーは ありませんか」。ミラーさんは お店[みせ]の 場所[ばしょ]と 物[もの]の 場所[ばしょ]を 聞[き]きます。よく 聞[き]いて、まねして ください。",
+      "romaji": "Dai-jukka, Kaiwa. \"Nanpuraa wa arimasen ka.\" Miraa-san wa o-mise no basho to mono no basho o kikimasu. Yoku kiite, maneshite kudasai.",
+      "id": "Bab 10, Percakapan: \"Apakah ada kecap ikan (nam pla)?\". Pak Miller menanyakan letak toko dan posisi barang. Dengarkan baik-baik, lalu tirukan."
     },
     "outro": {
       "speaker": "ナレーター (Narator CD)",
@@ -679,20 +679,19 @@ Object.assign(window.MNN_KAIWA, {
         "speakerId": "miller",
         "speaker": "ミラー",
         "gender": "male",
-        "jp": "あのう、チリソースは ありませんか。",
-        "romaji": "Anou, chiri soosu wa arimasen ka.",
-        "id": "Permisi, apakah ada saus sambal (chili sauce)?",
+        "jp": "あのう、ナンプラーは ありませんか。",
+        "romaji": "Anou, nanpuraa wa arimasen ka.",
+        "id": "Permisi, apakah ada kecap ikan (nam pla)?",
         "note": "「～は ありませんか」 adalah cara sopan menanyakan ketersediaan barang di toko."
       },
       {
         "speakerId": "tenin",
         "speaker": "店[みせ]の人[ひと]",
         "gender": "male",
-        "jp": "はい。みぎの おくに スパイス・コーナーが あります。チリソースは したから 2だんめです。",
-        "romaji": "Hai. Migi no oku ni supaisu koonaa ga arimasu. Chiri soosu wa shita kara nidanme desu.",
-        "id": "Ada. Di bagian dalam sebelah kanan ada sudut rempah-rempah. Saus sambal ada di rak ke-2 dari bawah.",
-        "note": "Kosakata posisi Bab 10: 「みぎ」 (kanan), 「おく」 (bagian dalam/ujung), 「した」 (bawah). 「～だんめ」 = rak/tingkat ke-.",
-        "tts": "はい。みぎの おくに スパイス・コーナーが あります。チリソースは したから にだんめです。"
+        "jp": "はい。あちらの おくに アジアの りょうりの コーナーが あります。ナンプラーは いちばん したです。",
+        "romaji": "Hai. Achira no oku ni Ajia no ryouri no koonaa ga arimasu. Nanpuraa wa ichiban shita desu.",
+        "id": "Ada. Di bagian dalam sebelah sana ada pojok masakan Asia. Kecap ikan ada di rak paling bawah.",
+        "note": "Kosakata posisi Bab 10 (Edisi 2): 「あちら」 (sebelah sana), 「おく」 (bagian dalam), 「コーナー」 (pojok/bagian), 「いちばん した」 (paling bawah)."
       },
       {
         "speakerId": "miller",

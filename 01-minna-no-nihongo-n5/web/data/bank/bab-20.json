@@ -1285,8 +1285,8 @@
     "sub": "Periksa penggunaan だ dalam pertanyaan.",
     "options": [
       {
-        "jp": "その ひと、サラリーマンだ？",
-        "romaji": "Sono hito, sarariiman da?"
+        "jp": "その ひと、かいしゃいんだ？",
+        "romaji": "Sono hito, kaishain da?"
       },
       {
         "jp": "きのう どこへ いった？",
@@ -1302,7 +1302,7 @@
       }
     ],
     "answer": 0,
-    "explain": "Pada kalimat tanya kasual untuk kata benda/KS-な, だ wajib dibuang! Yang benar adalah その ひと、サラリーマン？"
+    "explain": "Pada kalimat tanya kasual untuk kata benda/KS-な, だ wajib dibuang! Yang benar adalah その ひと、かいしゃいん？"
   },
   {
     "id": "b20-46",
@@ -1976,29 +1976,29 @@
     "bab": 20,
     "type": "mcq",
     "badge": "Bab 20 · 普通形[ふつうけい] Kata Benda (Positif)",
-    "prompt": "ぼくの あには （　）。（サラリーマンです → 普通形[ふつうけい]）",
-    "promptRomaji": "Boku no ani wa _____. (sarariiman desu -> bentuk biasa)",
+    "prompt": "ぼくの あには （　）。（かいしゃいんです → 普通形[ふつうけい]）",
+    "promptRomaji": "Boku no ani wa _____. (kaishain desu -> bentuk biasa)",
     "sub": "Pilih bentuk biasa non-lampau positif Kata Benda.",
     "options": [
       {
-        "jp": "サラリーマンだった",
-        "romaji": "sarariiman datta"
+        "jp": "かいしゃいんだった",
+        "romaji": "kaishain datta"
       },
       {
-        "jp": "サラリーマンだ",
-        "romaji": "sarariiman da"
+        "jp": "かいしゃいんだ",
+        "romaji": "kaishain da"
       },
       {
-        "jp": "サラリーマンの",
-        "romaji": "sarariiman no"
+        "jp": "かいしゃいんの",
+        "romaji": "kaishain no"
       },
       {
-        "jp": "サラリーマンじゃない",
-        "romaji": "sarariiman janai"
+        "jp": "かいしゃいんじゃない",
+        "romaji": "kaishain janai"
       }
     ],
     "answer": 1,
-    "explain": "Pada kalimat pernyataan non-lampau positif, Kata Benda + です menjadi + だ → サラリーマンだ."
+    "explain": "Pada kalimat pernyataan non-lampau positif, Kata Benda + です menjadi + だ → かいしゃいんだ."
   },
   {
     "id": "b20-70",

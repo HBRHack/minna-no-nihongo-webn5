@@ -2412,30 +2412,30 @@ window.MNN_BANK[23] = [
     "id": "b23-84",
     "bab": 23,
     "type": "mcq",
-    "badge": "Bab 23 · Kosakata がいこくじんとうろくしょう",
-    "prompt": "「がいこくじんとうろくしょう」の いみは どれですか。",
-    "promptRomaji": "\"Gaikokujin tourokushou\" no imi wa dore desu ka.",
-    "sub": "Pilih arti kosakata Bab 23 yang tepat.",
+    "badge": "Bab 23 · Kosakata なんかいも",
+    "prompt": "「なんかいも」の いみは どれですか。",
+    "promptRomaji": "\"Nankai mo\" no imi wa dore desu ka.",
+    "sub": "Pilih arti kosakata Bab 23 (Edisi 2) yang tepat.",
     "options": [
       {
-        "jp": "Kartu registrasi penduduk asing",
+        "jp": "Berkali-kali / berulang kali",
         "romaji": ""
       },
       {
-        "jp": "Upacara kedewasaan",
+        "jp": "Sebentar lagi",
         "romaji": ""
       },
       {
-        "jp": "Pusat informasi kota",
+        "jp": "Sama sekali tidak",
         "romaji": ""
       },
       {
-        "jp": "Surat keterangan kerja",
+        "jp": "Kira-kira sekali",
         "romaji": ""
       }
     ],
     "answer": 0,
-    "explain": "がいこくじんとうろくしょう (外国人登録証[がいこくじんとうろくしょう]) berarti kartu registrasi penduduk asing."
+    "explain": "なんかいも (何回[なんかい]も) berarti \"berkali-kali\" atau \"berulang kali\"."
   },
   {
     "id": "b23-85",

@@ -806,9 +806,9 @@ window.MNN_MODULES.push(
       "arti": "aku (pria akrab) / kamu (akrab) / panggilan akrab pria/sebaya"
     },
     {
-      "jp": "うん / ううん / サラリーマン / ことば / ぶっか / 着物[きもの] / ビザ",
-      "romaji": "un / uun / sarariiman / kotoba / bukka / kimono / biza",
-      "arti": "ya / tidak / karyawan kantor / kosakata-bahasa / harga barang kebutuhan / kimono / visa"
+      "jp": "うん / ううん / かいしゃいん / ことば / ぶっか / 着物[きもの] / ビザ",
+      "romaji": "un / uun / kaishain / kotoba / bukka / kimono / biza",
+      "arti": "ya / tidak / karyawan perusahaan / kosakata-bahasa / harga barang kebutuhan / kimono / visa"
     },
     {
       "jp": "はじめ / おわり / こっち / そっち / あっち / どっち",

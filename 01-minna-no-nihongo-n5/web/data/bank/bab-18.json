@@ -1222,8 +1222,8 @@
     "bab": 18,
     "type": "mcq",
     "badge": "Bab 18 · Kata Keterangan ぜひ",
-    "prompt": "きょうとに いい ぼくじょうが あります。（　） いきたいです。 (Di Kyoto ada peternakan bagus. Saya sangat ingin pergi ke sana.)",
-    "promptRomaji": "Kyouto ni ii bokujou ga arimasu. _____ ikitai desu.",
+    "prompt": "あきはばらに おもしろい みせが あります。（　） いきたいです。 (Di Akihabara ada toko menarik. Saya sangat ingin pergi ke sana.)",
+    "promptRomaji": "Akihabara ni omoshiroi mise ga arimasu. _____ ikitai desu.",
     "sub": "Pilih kata keterangan untuk menyatakan harapan kuat ('sangat ingin / pastikan').",
     "options": [
       {
@@ -2788,16 +2788,16 @@
     "bab": 18,
     "type": "mcq",
     "badge": "Bab 18 · Kosakata",
-    "prompt": "「ぼくじょう」 dan 「こくさいくうこう」 masing-masing berarti...",
-    "promptRomaji": "\"bokujou\" & \"kokusai kuukou\"",
-    "sub": "Pilih arti kosakata Bab 18 ini.",
+    "prompt": "「ふるさと」 dan 「インターネット」 masing-masing berarti...",
+    "promptRomaji": "\"furusato\" & \"intaanetto\"",
+    "sub": "Pilih arti kosakata Bab 18 (Edisi 2) ini.",
     "options": [
       {
-        "jp": "pabrik dan stasiun besar",
+        "jp": "pabrik dan televisi",
         "romaji": ""
       },
       {
-        "jp": "peternakan dan bandara internasional",
+        "jp": "kampung halaman dan internet",
         "romaji": ""
       },
       {
@@ -2805,12 +2805,12 @@
         "romaji": ""
       },
       {
-        "jp": "kuil dan universitas",
+        "jp": "kuil dan surat kabar",
         "romaji": ""
       }
     ],
     "answer": 1,
-    "explain": "ぼくじょう (牧場[ぼくじょう]) adalah peternakan, dan こくさい～ (国際[こくさい]～) berarti internasional sehingga こくさいくうこう adalah bandara internasional."
+    "explain": "ふるさと (故郷[ふるさと]) berarti kampung halaman, dan インターネット berarti internet."
   },
   {
     "id": "b18-98",
@@ -2846,8 +2846,8 @@
     "bab": 18,
     "type": "mcq",
     "badge": "Bab 18 · Dialog Percakapan",
-    "prompt": "A：「ほっかいどうの ぼくじょうで うまに のる ことが できますよ。」\nB：「（　）。ぜひ いきたいです。」",
-    "promptRomaji": "A: Hokkaidou no bokujou de uma ni noru koto ga dekimasu yo.\nB: _____. Zehi ikitai desu.",
+    "prompt": "A：「わたしの ふるさとで うまに のる ことが できますよ。」\nB：「（　）。ぜひ いきたいです。」",
+    "promptRomaji": "A: Watashi no furusato de uma ni noru koto ga dekimasu yo.\nB: _____. Zehi ikitai desu.",
     "sub": "Pilih ungkapan terkejut/bertanya 'Benarkah?' dari Bab 18.",
     "options": [
       {

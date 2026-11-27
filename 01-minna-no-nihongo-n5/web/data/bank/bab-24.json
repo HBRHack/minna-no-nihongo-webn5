@@ -1670,8 +1670,8 @@
         "romaji": "obentou"
       },
       {
-        "jp": "ワゴンしゃ",
-        "romaji": "wagonsha"
+        "jp": "ホームステイ",
+        "romaji": "hoomusutei"
       },
       {
         "jp": "いみ",
@@ -1831,8 +1831,8 @@
     "bab": 24,
     "type": "mcq",
     "badge": "Bab 24 · Konjugasi V-て くれます (おくります)",
-    "prompt": "あにが わたしを ワゴンしゃで くうこうまで （　） くれました。",
-    "promptRomaji": "Ani ga watashi o wagonsha de kuukou made _____ kuremashita.",
+    "prompt": "あにが わたしを くるまで くうこうまで （　） くれました。",
+    "promptRomaji": "Ani ga watashi o kuruma de kuukou made _____ kuremashita.",
     "sub": "Lengkapi dengan bentuk-て dari おくります ('mengantar seseorang').",
     "options": [
       {
@@ -2353,29 +2353,29 @@
     "bab": 24,
     "type": "mcq",
     "badge": "Bab 24 · Pemahaman Kalimat",
-    "prompt": "「ひっこしの とき、やまださんが ワゴンしゃで にもつを もって いって くれました。」の いみは どれですか。",
-    "promptRomaji": "Hikkoshi no toki, Yamada-san ga wagonsha de nimotsu o motte itte kuremashita.",
+    "prompt": "「ひっこしの とき、やまださんが くるまで にもつを もって いって くれました。」の いみは どれですか。",
+    "promptRomaji": "Hikkoshi no toki, Yamada-san ga kuruma de nimotsu o motte itte kuremashita.",
     "sub": "Pilih terjemahan yang paling akurat.",
     "options": [
       {
-        "jp": "Saat pindah rumah, saya meminjam mobil station wagon milik Sdr. Yamada.",
+        "jp": "Saat pindah rumah, saya meminjam mobil milik Sdr. Yamada.",
         "romaji": ""
       },
       {
-        "jp": "Saat pindah rumah, Sdr. Yamada membawakan barang-barang saya dengan mobil station wagon.",
+        "jp": "Saat pindah rumah, Sdr. Yamada membawakan barang-barang saya dengan mobil.",
         "romaji": ""
       },
       {
-        "jp": "Saat Sdr. Yamada pindah rumah, saya mengantarnya dengan mobil station wagon.",
+        "jp": "Saat Sdr. Yamada pindah rumah, saya mengantarnya dengan mobil.",
         "romaji": ""
       },
       {
-        "jp": "Sebelum pindah rumah, Sdr. Yamada menjual mobil station wagon kepada saya.",
+        "jp": "Sebelum pindah rumah, Sdr. Yamada menjual mobil kepada saya.",
         "romaji": ""
       }
     ],
     "answer": 1,
-    "explain": "やまださんが (subjek) ワゴンしゃで にもつを もって いって くれました = Sdr. Yamada berbaik hati membawakan barang saya dengan mobil station wagon."
+    "explain": "やまださんが (subjek) くるまで にもつを もって いって くれました = Sdr. Yamada berbaik hati membawakan barang saya dengan mobil."
   },
   {
     "id": "b24-83",

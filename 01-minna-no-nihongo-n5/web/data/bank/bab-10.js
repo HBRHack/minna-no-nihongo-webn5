@@ -2094,9 +2094,9 @@ window.MNN_BANK[10] = [
     "bab": 10,
     "type": "mcq",
     "badge": "Bab 10 · Posisi おく",
-    "prompt": "スパイス・コーナーは みせの （　）に あります。",
-    "promptRomaji": "Supaisu koonaa wa mise no ( ) ni arimasu.",
-    "sub": "Pilih kata posisi 'bagian dalam/belakang'. (Bagian bumbu ada di bagian dalam toko.)",
+    "prompt": "アジアの りょうりの コーナーは みせの （　）に あります。",
+    "promptRomaji": "Ajia no ryouri no koonaa wa mise no ( ) ni arimasu.",
+    "sub": "Pilih kata posisi \"bagian dalam/belakang\". (Pojok masakan Asia ada di bagian dalam toko.)",
     "options": [
       {
         "jp": "あいだ",
@@ -2152,29 +2152,29 @@ window.MNN_BANK[10] = [
     "bab": 10,
     "type": "mcq",
     "badge": "Bab 10 · Arti いちばん した",
-    "prompt": "「いちばん したの たなに チリソースが あります。」の いみは どれですか。",
-    "promptRomaji": "“Ichiban shita no tana ni chirisoosu ga arimasu.” no imi wa dore desu ka.",
+    "prompt": "「いちばん したの たなに ナンプラーが あります。」の いみは どれですか。",
+    "promptRomaji": "\"Ichiban shita no tana ni nanpuraa ga arimasu.\" no imi wa dore desu ka.",
     "sub": "Pilih terjemahan yang tepat.",
     "options": [
       {
-        "jp": "Di rak paling bawah ada saus cabai.",
+        "jp": "Di rak paling bawah ada kecap ikan (nam pla).",
         "romaji": ""
       },
       {
-        "jp": "Di rak paling atas ada saus cabai.",
+        "jp": "Di rak paling atas ada kecap ikan (nam pla).",
         "romaji": ""
       },
       {
-        "jp": "Di sebelah rak ada saus cabai.",
+        "jp": "Di sebelah rak ada kecap ikan (nam pla).",
         "romaji": ""
       },
       {
-        "jp": "Di belakang rak ada saus cabai.",
+        "jp": "Di belakang rak ada kecap ikan (nam pla).",
         "romaji": ""
       }
     ],
     "answer": 0,
-    "explain": "いちばん したの たな berarti rak paling bawah."
+    "explain": "いちばん したの たな berarti rak paling bawah, dan ナンプラー adalah kecap ikan khas Asia Tenggara."
   },
   {
     "id": "b10-76",
@@ -2821,23 +2821,23 @@ window.MNN_BANK[10] = [
     "badge": "Bab 10 · Dialog di Toko",
     "prompt": "A：すみません、ナンプラーは どこに ありますか。\nB：（　）。",
     "promptRomaji": "A: Sumimasen, nanpuraa wa doko ni arimasu ka.\nB: ( ).",
-    "sub": "Pilih balasan pegawai toko yang tepat. (Ada di pojok bumbu.)",
+    "sub": "Pilih balasan pegawai toko yang tepat. (Ada di pojok sebelah sana.)",
     "options": [
       {
-        "jp": "スパイス・コーナーに います。",
-        "romaji": "Supaisu koonaa ni imasu."
+        "jp": "あちらの コーナーに います。",
+        "romaji": "Achira no koonaa ni imasu."
       },
       {
         "jp": "ナンプラーは ありませんでした。",
         "romaji": "Nanpuraa wa arimasen deshita."
       },
       {
-        "jp": "スパイス・コーナーを あります。",
-        "romaji": "Supaisu koonaa o arimasu."
+        "jp": "あちらの コーナーを あります。",
+        "romaji": "Achira no koonaa o arimasu."
       },
       {
-        "jp": "スパイス・コーナーに あります。",
-        "romaji": "Supaisu koonaa ni arimasu."
+        "jp": "あちらの コーナーに あります。",
+        "romaji": "Achira no koonaa ni arimasu."
       }
     ],
     "answer": 3,
@@ -2848,8 +2848,8 @@ window.MNN_BANK[10] = [
     "bab": 10,
     "type": "mcq",
     "badge": "Bab 10 · Dialog di Toko",
-    "prompt": "A：フィルムは どこに ありますか。\nB：あちらの コーナーの いちばん うえに あります。\nA：（　）。",
-    "promptRomaji": "A: Firumu wa doko ni arimasu ka.\nB: Achira no koonaa no ichiban ue ni arimasu. A: ( ).",
+    "prompt": "A：でんちは どこに ありますか。\nB：あちらの コーナーの いちばん したに あります。\nA：（　）。",
+    "promptRomaji": "A: Denchi wa doko ni arimasu ka.\nB: Achira no koonaa no ichiban shita ni arimasu.\nA: ( ).",
     "sub": "Pilih ungkapan terima kasih setelah diberitahu lokasi.",
     "options": [
       {

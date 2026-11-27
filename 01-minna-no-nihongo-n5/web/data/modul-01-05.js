@@ -479,9 +479,9 @@ window.MNN_MODULES.push(
       "explain": "Saat pertanyaan berpredikat kata benda dijawab singkat, kita bisa memakai そうです ('benar begitu') atau そうじゃ ありません ('bukan begitu'). Sedangkan そうですか dengan intonasi turun berarti 'Oh, begitu ya' (menerima informasi baru).",
       "examples": [
         {
-          "jp": "A：それは テレホンカードですか。\n\nB：いいえ、そうじゃ ありません。",
-          "romaji": "A: Sore wa terehonkaado desu ka.\nB: Iie, sou ja arimasen.",
-          "id": "Apakah itu kartu telepon? ...Bukan, bukan begitu."
+          "jp": "A：それは CDですか。\n\nB：いいえ、そうじゃ ありません。",
+          "romaji": "A: Sore wa CD desu ka.\nB: Iie, sou ja arimasen.",
+          "id": "Apakah itu CD? ...Bukan, bukan begitu."
         },
         {
           "jp": "A：この かさは あなたのですか。\n\nB：いいえ、ちがいます。シュミットさんのです。",

@@ -1491,9 +1491,9 @@ window.MNN_MODULES.push(
       "arti": "data dokumen / katalog / jadwal kereta / produk / perangkat lunak"
     },
     {
-      "jp": "はいしゃ / とこや / どくしん",
-      "romaji": "haisha / tokoya / dokushin",
-      "arti": "dokter gigi / salon pangkas rambut / bujangan, lajang"
+      "jp": "はいしゃ / でんしじしょ / しやくしょ / どくしん",
+      "romaji": "haisha / denshijisho / shiyakusho / dokushin",
+      "arti": "dokter gigi / kamus elektronik / balai kota / bujangan, lajang"
     },
     {
       "jp": "おもいだします",

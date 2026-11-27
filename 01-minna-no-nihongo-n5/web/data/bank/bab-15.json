@@ -322,30 +322,30 @@
     "id": "b15-12",
     "bab": 15,
     "type": "mcq",
-    "badge": "Bab 15 · Kosakata とこや",
-    "prompt": "「とこや」の いみは どれですか。",
-    "promptRomaji": "\"Tokoya\" no imi wa dore desu ka.",
-    "sub": "Pilih arti kata yang tepat.",
+    "badge": "Bab 15 · Kosakata でんしじしょ",
+    "prompt": "わたしは べんりな （　）を もって います。 (Saya memiliki kamus elektronik yang praktis.)",
+    "promptRomaji": "Watashi wa benri na ( ) o motte imasu.",
+    "sub": "Pilih kosakata Bab 15 (Edisi 2) yang berarti \"kamus elektronik\".",
     "options": [
       {
-        "jp": "toko pakaian",
-        "romaji": ""
+        "jp": "しやくしょ",
+        "romaji": "shiyakusho"
       },
       {
-        "jp": "agen penjualan tiket",
-        "romaji": ""
+        "jp": "でんしじしょ",
+        "romaji": "denshijisho"
       },
       {
-        "jp": "toko buku",
-        "romaji": ""
+        "jp": "けいざい",
+        "romaji": "keizai"
       },
       {
-        "jp": "tempat pangkas rambut / tukang cukur",
-        "romaji": ""
+        "jp": "はいしゃ",
+        "romaji": "haisha"
       }
     ],
-    "answer": 3,
-    "explain": "とこや berarti tempat pangkas rambut atau tukang cukur."
+    "answer": 1,
+    "explain": "でんしじしょ (電子辞書[でんしじしょ]) berarti kamus elektronik dan dipakai bersama もって います (memiliki)."
   },
   {
     "id": "b15-13",
@@ -1540,30 +1540,30 @@
     "id": "b15-54",
     "bab": 15,
     "type": "mcq",
-    "badge": "Bab 15 · Kosakata プレイガイド",
-    "prompt": "「プレイガイド」の いみは どれですか。",
-    "promptRomaji": "\"Pureigaido\" no imi wa dore desu ka.",
-    "sub": "Pilih arti kata yang tepat.",
+    "badge": "Bab 15 · Pola すんで います & しやくしょ",
+    "prompt": "わたしは しやくしょの ちかくに （　）。 (Saya tinggal di dekat balai kota.)",
+    "promptRomaji": "Watashi wa shiyakusho no chikaku ni ( ).",
+    "sub": "Lengkapi dengan bentuk V-て います dari すみます (tinggal).",
     "options": [
       {
-        "jp": "taman bermain",
-        "romaji": ""
+        "jp": "すんで います",
+        "romaji": "sunde imasu"
       },
       {
-        "jp": "agen penjualan tiket (konser/teater)",
-        "romaji": ""
+        "jp": "すって います",
+        "romaji": "sutte imasu"
       },
       {
-        "jp": "pemandu wisata",
-        "romaji": ""
+        "jp": "すいて います",
+        "romaji": "suite imasu"
       },
       {
-        "jp": "buku panduan kota",
-        "romaji": ""
+        "jp": "すみて います",
+        "romaji": "sumite imasu"
       }
     ],
-    "answer": 1,
-    "explain": "プレイガイド di Jepang merujuk pada loket atau agen penjualan tiket konser, teater, dan acara hiburan."
+    "answer": 0,
+    "explain": "すみます (Kelompok I berakhiran -み → んで) menjadi すんで います, dan しやくしょ (市役所[しやくしょ]) berarti kantor balai kota."
   },
   {
     "id": "b15-55",
@@ -2208,9 +2208,9 @@
     "bab": 15,
     "type": "mcq",
     "badge": "Bab 15 · Aktivitas Berulang",
-    "prompt": "あの プレイガイドで コンサートの チケットを （　）。",
-    "promptRomaji": "Ano pureigaido de konsaato no chiketto o _____.",
-    "sub": "Nyatakan barang yang rutin dijual di loket tersebut (うります).",
+    "prompt": "あの みせで でんしじしょを （　）。",
+    "promptRomaji": "Ano mise de denshijisho o _____.",
+    "sub": "Nyatakan barang yang rutin dijual di toko tersebut (うります).",
     "options": [
       {
         "jp": "うりて います",
@@ -2730,29 +2730,29 @@
     "bab": 15,
     "type": "mcq",
     "badge": "Bab 15 · Arti Kalimat",
-    "prompt": "「あには とこやで はたらいて います。」の いみは どれですか。",
-    "promptRomaji": "\"Ani wa tokoya de hataraite imasu.\" no imi wa dore desu ka.",
+    "prompt": "「あには しやくしょで はたらいて います。」の いみは どれですか。",
+    "promptRomaji": "\"Ani wa shiyakusho de hataraite imasu.\" no imi wa dore desu ka.",
     "sub": "Pilih terjemahan bahasa Indonesia yang tepat.",
     "options": [
       {
-        "jp": "Kakak laki-laki saya tinggal di tukang cukur.",
+        "jp": "Kakak laki-laki saya tinggal di kantor balai kota.",
         "romaji": ""
       },
       {
-        "jp": "Kakak laki-laki saya bekerja di tempat pangkas rambut.",
+        "jp": "Kakak laki-laki saya bekerja di kantor balai kota.",
         "romaji": ""
       },
       {
-        "jp": "Adik laki-laki saya bekerja di tempat pangkas rambut.",
+        "jp": "Adik laki-laki saya bekerja di kantor balai kota.",
         "romaji": ""
       },
       {
-        "jp": "Kakak laki-laki saya sedang memotong rambut.",
+        "jp": "Kakak laki-laki saya sedang belajar di kantor balai kota.",
         "romaji": ""
       }
     ],
     "answer": 1,
-    "explain": "あに = kakak laki-laki (sendiri), とこや = tempat pangkas rambut / tukang cukur, はたらいて います = bekerja."
+    "explain": "あに = kakak laki-laki (sendiri), しやくしょ (市役所[しやくしょ]) = kantor balai kota, はたらいて います = bekerja."
   },
   {
     "id": "b15-96",

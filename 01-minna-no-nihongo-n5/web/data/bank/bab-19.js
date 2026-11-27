@@ -1862,8 +1862,8 @@ window.MNN_BANK[19] = [
     "bab": 19,
     "type": "mcq",
     "badge": "Bab 19 · Pengalaman Negatif",
-    "prompt": "わたしは いちども パチンコを （　） ことが ありません。 (Saya sama sekali belum pernah bermain pachinko.)",
-    "promptRomaji": "Watashi wa ichido mo pachinko o _____ koto ga arimasen.",
+    "prompt": "わたしは いちども ゴルフを （　） ことが ありません。 (Saya sama sekali belum pernah bermain golf.)",
+    "promptRomaji": "Watashi wa ichido mo gorufu o _____ koto ga arimasen.",
     "sub": "Meskipun kalimat berakhir negatif ありません, kata kerja sebelum ことが tetap berbentuk -Ta.",
     "options": [
       {

@@ -557,9 +557,9 @@ window.MNN_BANK[2] = [
     "bab": 2,
     "type": "mcq",
     "badge": "Bab 2 · そうです",
-    "prompt": "A：それは テレホンカードですか。\nB：いいえ、（　） 。",
-    "promptRomaji": "A: Sore wa terehonkaado desu ka.\nB: Iie, ( ).",
-    "sub": "Apakah itu kartu telepon? ...Tidak, bukan.",
+    "prompt": "A：それは CDですか。\nB：いいえ、（　）。",
+    "promptRomaji": "A: Sore wa CD desu ka.\nB: Iie, ( ).",
+    "sub": "Apakah itu CD? ...Tidak, bukan.",
     "options": [
       {
         "jp": "そうじゃありません",

@@ -2759,13 +2759,13 @@
     "bab": 21,
     "type": "mcq",
     "badge": "Bab 21 · Ungkapan Sapaan",
-    "prompt": "A：「あ、サントスさん、（　）。」\nB：「おひさしぶりです。おげんきですか。」",
-    "promptRomaji": "A: A, Santosu-san, _____.\nB: Ohisashiburi desu. Ogenki desu ka.",
-    "sub": "Pilih ungkapan lain yang berarti 'Sudah lama tidak bertemu, ya' di Bab 21.",
+    "prompt": "A：「あ、サントスさん、（　）。」\nB：「ああ、ミラーさん。おげんきですか。」",
+    "promptRomaji": "A: A, Santosu-san, _____.\nB: Aa, Miraa-san. Ogenki desu ka.",
+    "sub": "Pilih ungkapan Bab 21 (Edisi 2) yang berarti \"Sudah lama tidak bertemu, ya\".",
     "options": [
       {
-        "jp": "しばらくですね",
-        "romaji": "shibaraku desu ne"
+        "jp": "ひさしぶりですね",
+        "romaji": "hisashiburi desu ne"
       },
       {
         "jp": "しかたが ありません",
@@ -2781,36 +2781,36 @@
       }
     ],
     "answer": 0,
-    "explain": "しばらくですね memiliki makna yang sama dengan ひさしぶりですね ('Sudah lama tidak bertemu, ya')."
+    "explain": "ひさしぶりですね (久[ひさ]しぶりですね) digunakan saat menyapa teman yang sudah lama tidak bertemu (\"Sudah lama ya\")."
   },
   {
     "id": "b21-97",
     "bab": 21,
     "type": "mcq",
-    "badge": "Bab 21 · Ungkapan みないと……",
-    "prompt": "あ、もう 9じですね。すきな アニメが はじまりますから、はやく テレビを （　）。",
-    "promptRomaji": "A, mou 9-ji desu ne. Suki na anime ga hajimarimasu kara, hayaku terebi o _____.",
-    "sub": "Pilih ungkapan Bab 21 yang berarti 'harus segera menontonnya...'.",
+    "badge": "Bab 21 · Ungkapan もう かえらないと……",
+    "prompt": "あ、もう 10じですね。あした しごとが ありますから、もう （　）。",
+    "promptRomaji": "A, mou 10-ji desu ne. Ashita shigoto ga arimasu kara, mou _____.",
+    "sub": "Pilih ungkapan Bab 21 (Edisi 2) yang berarti \"sudah harus pulang...\".",
     "options": [
       {
-        "jp": "みませんと……",
-        "romaji": "mimasen to......"
+        "jp": "かえりませんと……",
+        "romaji": "kaerimasen to......"
       },
       {
-        "jp": "みないと……",
-        "romaji": "minai to......"
+        "jp": "かえらないと……",
+        "romaji": "kaeranai to......"
       },
       {
-        "jp": "みると……",
-        "romaji": "miru to......"
+        "jp": "かえると……",
+        "romaji": "kaeru to......"
       },
       {
-        "jp": "みた と……",
-        "romaji": "mita to......"
+        "jp": "かえったと……",
+        "romaji": "kaetta to......"
       }
     ],
     "answer": 1,
-    "explain": "みないと…… (dari みないと いけません) dipakai dalam percakapan untuk menyatakan 'saya harus menontonnya...'."
+    "explain": "もう かえらないと…… (dari かえらないと いけません) dipakai dalam percakapan untuk menyatakan \"saya sudah harus pulang...\"."
   },
   {
     "id": "b21-98",

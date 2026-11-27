@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#141923">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Minna N5">
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+  <title>Minna no Nihongo I · Mode Mobile</title>
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("mnn_theme_mode_v1");
+        if (t === "light" || t === "dark") {
+          document.documentElement.setAttribute("data-theme", t);
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="manifest" href="../manifest.webmanifest?v=20261127-v28">
+  <link rel="icon" type="image/svg+xml" href="../icons/icon.svg?v=20261127-v28">
+  <link rel="apple-touch-icon" href="../icons/apple-touch-icon.png?v=20261127-v28">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./mobile.css?v=20261127-v28">
+</head>
+<body>
+  <div class="m-header-wrap">
+    <header class="m-topbar" role="banner">
+      <div class="m-brand">
+        <span class="m-brand-mark" aria-hidden="true">み</span>
+        <div class="m-brand-text">
+          <span class="m-brand-title">Minna N5 <span class="m-pill-mini">Mobile</span></span>
+          <span class="m-brand-sub" id="mHeaderSub">Kotoba · Swipe, Tabel, &amp; Kuis</span>
+        </div>
+      </div>
+      <div class="m-top-actions">
+        <button type="button" class="m-top-pill" id="btnMobTheme" title="Ganti Tema Gelap / Terang">🌙</button>
+        <button type="button" class="m-top-pill" id="btnMobRomaji" title="Tampilkan / Sembunyikan Romaji">R:ON</button>
+        <button type="button" class="m-top-pill" id="btnMobPcMode" title="Buka Versi PC untuk Materi Bab 1–25 &amp; Tes Akhir">💻 PC</button>
+      </div>
+    </header>
+
+    <nav class="m-tabbar" id="mTabbar" aria-label="Menu Utama Mobile">
+      <button type="button" class="m-tab-btn is-active" data-mtab="kotoba">
+        <span class="m-tab-icon" aria-hidden="true">🃏</span>
+        <span class="m-tab-lbl">Kotoba</span>
+      </button>
+      <button type="button" class="m-tab-btn" data-mtab="kaiwa">
+        <span class="m-tab-icon" aria-hidden="true">🎧</span>
+        <span class="m-tab-lbl">Kaiwa</span>
+      </button>
+      <button type="button" class="m-tab-btn" data-mtab="refs">
+        <span class="m-tab-icon" aria-hidden="true">🍱</span>
+        <span class="m-tab-lbl">Referensi</span>
+      </button>
+      <button type="button" class="m-tab-btn" data-mtab="kana">
+        <span class="m-tab-icon m-tab-kana" aria-hidden="true">あ</span>
+        <span class="m-tab-lbl">Kana</span>
+      </button>
+    </nav>
+  </div>
+
+  <main class="m-main" id="mApp" aria-live="polite"></main>
+
+  <footer class="m-pc-focus-banner">
+    <p>
+      <strong>Fokus Mode Mobile:</strong> Kotoba, Kaiwa, Referensi (11), &amp; Kana. Untuk <strong>Materi Tata Bahasa Bab 1–25, Pembahasan, &amp; Tes Akhir</strong>, gunakan <strong>Versi PC</strong>.
+    </p>
+    <button type="button" class="m-btn-soft" id="btnBannerGoPc" style="width:100%;">💻 Buka Versi PC</button>
+  </footer>
+
+  <!-- Data ringan khusus Mobile: tanpa Modul Tata Bahasa Bab 1-25 & tanpa Tes Akhir -->
+  <script src="../data/kana-dasar.js?v=20261127-v28"></script>
+  <script src="../data/kotoba-1-25.js?v=20261127-v28"></script>
+  <script src="../data/kaiwa-01-05.js?v=20261127-v28"></script>
+  <script src="../data/kaiwa-06-10.js?v=20261127-v28"></script>
+  <script src="../data/kaiwa-11-15.js?v=20261127-v28"></script>
+  <script src="../data/kaiwa-16-20.js?v=20261127-v28"></script>
+  <script src="../data/kaiwa-21-25.js?v=20261127-v28"></script>
+  <script src="../data/referensi-minna.js?v=20261127-v28"></script>
+  <script src="./mobile.js?v=20261127-v28"></script>
+</body>
+</html>

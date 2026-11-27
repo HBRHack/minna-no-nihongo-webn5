@@ -1632,11 +1632,11 @@ window.MNN_BANK[7] = [
     "badge": "Bab 7 · Kosakata sarana kirim",
     "prompt": "とうきょうの じむしょへ （　）で レポートを おくります。",
     "promptRomaji": "Toukyou no jimusho e ( ) de repooto o okurimasu.",
-    "sub": "Pilih sarana pengiriman laporan melalui mesin faks.",
+    "sub": "Pilih sarana pengiriman laporan melalui surat elektronik (email).",
     "options": [
       {
-        "jp": "ファクス",
-        "romaji": "fakusu"
+        "jp": "メール",
+        "romaji": "meeru"
       },
       {
         "jp": "はさみ",
@@ -1652,7 +1652,7 @@ window.MNN_BANK[7] = [
       }
     ],
     "answer": 0,
-    "explain": "ファクス berarti faks, dipakai dengan で untuk mengirim dokumen."
+    "explain": "メール berarti surel (email), dipakai dengan で untuk mengirim laporan atau pesan secara elektronik."
   },
   {
     "id": "b7-58",
@@ -2615,38 +2615,38 @@ window.MNN_BANK[7] = [
     "id": "b7-91",
     "bab": 7,
     "type": "mcq",
-    "badge": "Bab 7 · Ungkapan berkunjung",
-    "prompt": "ともだちの うちへ きました。「（　）。」",
-    "promptRomaji": "Tomodachi no uchi e kimashita. \"( ).\"",
-    "sub": "Pilih ucapan permisi yang diucapkan tamu saat tiba di rumah teman.",
+    "badge": "Bab 7 · Ungkapan いかがですか",
+    "prompt": "A：「コーヒーは （　）。」\nB：「ありがとうございます。いただきます。」",
+    "promptRomaji": "A: Koohii wa ( ).\nB: Arigatou gozaimasu. Itadakimasu.",
+    "sub": "Pilih ungkapan Bab 7 untuk menawarkan makanan atau minuman kepada tamu.",
     "options": [
       {
-        "jp": "ごめんください。",
-        "romaji": "Gomen kudasai."
+        "jp": "いかがですか",
+        "romaji": "ikaga desu ka"
       },
       {
-        "jp": "いらっしゃい。",
-        "romaji": "Irasshai."
+        "jp": "ごちそうさまでした",
+        "romaji": "gochisousama deshita"
       },
       {
-        "jp": "いただきます。",
-        "romaji": "Itadakimasu."
+        "jp": "しつれいします",
+        "romaji": "shitsureishimasu"
       },
       {
-        "jp": "ごちそうさまでした。",
-        "romaji": "Gochisousama deshita."
+        "jp": "おめでとうございます",
+        "romaji": "omedetou gozaimasu"
       }
     ],
     "answer": 0,
-    "explain": "ごめんください diucapkan tamu saat mengetuk atau tiba di depan pintu rumah orang lain."
+    "explain": "［～は］いかがですか dipakai saat menawarkan minuman atau makanan kepada tamu dengan sopan."
   },
   {
     "id": "b7-92",
     "bab": 7,
     "type": "mcq",
     "badge": "Bab 7 · Ungkapan tuan rumah",
-    "prompt": "A：「ごめんください。」\nB：「いらっしゃい。（　）。」",
-    "promptRomaji": "A: Gomen kudasai.\nB: Irasshai. ( ).",
+    "prompt": "A：「こんにちは。きょうは ありがとう ございます。」\nB：「いらっしゃい。（　）。」",
+    "promptRomaji": "A: Konnichiwa. Kyou wa arigatou gozaimasu.\nB: Irasshai. ( ).",
     "sub": "Pilih ucapan tuan rumah untuk mempersilakan tamu masuk.",
     "options": [
       {

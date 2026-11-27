@@ -17,6 +17,32 @@ const onlyBabs = babArg
 const JP_RE = /[\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]/;
 const FURIGANA_PAIR_RE = /([0-9０-９,]*[\u4e00-\u9faf々ヶ]+)\[([\u3040-\u309f\u30a0-\u30ffー]+)\]/g;
 const norm = (s) => String(s || "").replace(FURIGANA_PAIR_RE, "$1").replace(/\s+/g, " ").trim();
+const OBSOLETE_ED1_WORDS = [
+  "テレホンカード",
+  "カセット",
+  "テープレコーダー",
+  "ファクス",
+  "ワープロ",
+  "フィルム",
+  "チリソース",
+  "スパイス・コーナー",
+  "プレイガイド",
+  "ぼくじょう",
+  "牧場",
+  "パチンコ",
+  "がいこくじんとうろくしょう",
+  "外国人登録証",
+  "ワゴンしゃ",
+  "ワゴン車",
+  "しばらくですね",
+  "そくたつ",
+  "速達",
+  "かきとめ",
+  "書留",
+  "とこや",
+  "床屋",
+  "サラリーマン"
+];
 
 function findFuriganaIssues(str, { allowReadingTarget = false } = {}) {
   const raw = String(str || "");
@@ -94,6 +120,21 @@ for (let bab = 1; bab <= 25; bab++) {
       problems.push(`${where}: Bab 17 section "${q.section}" harus dimulai dengan "A ·", "B ·", "C ·", atau "D ·"`);
     }
     if (q.type !== "mcq") problems.push(`${where}: type harus "mcq"`);
+    if (q.archiveEd1 !== undefined && typeof q.archiveEd1 !== "boolean") {
+      problems.push(`${where}: archiveEd1 harus boolean jika diisi`);
+    }
+
+    const joinedNormalized = [
+      norm(q.prompt),
+      norm(q.explain),
+      norm(q.badge),
+      ...(Array.isArray(q.options) ? q.options.map((o) => norm(o && o.jp)) : [])
+    ].join(" ");
+    for (const obs of OBSOLETE_ED1_WORDS) {
+      if (joinedNormalized.includes(obs)) {
+        problems.push(`${where}: masih memakai kosakata usang Edisi 1 ("${obs}") — wajib diganti ke kosakata Edisi 2`);
+      }
+    }
 
     for (const field of ["prompt", "promptRomaji", "sub", "explain", "badge"]) {
       if (typeof q[field] !== "string" || !q[field].trim()) {

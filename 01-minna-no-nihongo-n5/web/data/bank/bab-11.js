@@ -1513,59 +1513,59 @@ window.MNN_BANK[11] = [
     "id": "b11-53",
     "bab": 11,
     "type": "mcq",
-    "badge": "Bab 11 · Kosakata そくたつ",
-    "prompt": "「そくたつ」の いみは どれですか。",
-    "promptRomaji": "\"Sokutatsu\" no imi wa dore desu ka.",
-    "sub": "Pilih arti yang tepat.",
+    "badge": "Bab 11 · Kosakata クラス",
+    "prompt": "わたしの （　）に りゅうがくせいが ３にん います。 (Di kelas saya ada 3 orang mahasiswa asing.)",
+    "promptRomaji": "Watashi no ( ) ni ryuugakusei ga san-nin imasu.",
+    "sub": "Pilih kata benda Bab 11 (Edisi 2) yang berarti \"kelas\".",
     "options": [
       {
-        "jp": "pos laut",
-        "romaji": ""
+        "jp": "クラス",
+        "romaji": "kurasu"
       },
       {
-        "jp": "pos tercatat",
-        "romaji": ""
+        "jp": "ガイド",
+        "romaji": "gaido"
       },
       {
-        "jp": "pos kilat / pengiriman cepat",
-        "romaji": ""
+        "jp": "エレベーター",
+        "romaji": "erebeetaa"
       },
       {
-        "jp": "kotak pos",
-        "romaji": ""
+        "jp": "デパート",
+        "romaji": "depaato"
       }
     ],
-    "answer": 2,
-    "explain": "そくたつ (速達[そくたつ]) berarti pos kilat atau pengiriman ekspres."
+    "answer": 0,
+    "explain": "クラス berarti kelas, dan りゅうがくせい (留学生[りゅうがくせい]) berarti mahasiswa asing (kosakata Edisi 2 Bab 11)."
   },
   {
     "id": "b11-54",
     "bab": 11,
     "type": "mcq",
-    "badge": "Bab 11 · Kosakata かきとめ",
-    "prompt": "「かきとめ」の いみは どれですか。",
-    "promptRomaji": "\"Kakitome\" no imi wa dore desu ka.",
-    "sub": "Pilih arti yang tepat.",
+    "badge": "Bab 11 · Ungkapan いって きます",
+    "prompt": "「いって きます。」は どんな ときに いいますか。",
+    "promptRomaji": "\"Itte kimasu.\" wa donna toki ni iimasu ka.",
+    "sub": "Pilih situasi pemakaian ungkapan Bab 11 (Edisi 2) yang tepat.",
     "options": [
       {
-        "jp": "pos kilat",
+        "jp": "Saat selesai makan",
         "romaji": ""
       },
       {
-        "jp": "pos udara",
+        "jp": "Saat berpamitan hendak pergi keluar rumah",
         "romaji": ""
       },
       {
-        "jp": "pos laut",
+        "jp": "Saat meminta maaf kepada guru",
         "romaji": ""
       },
       {
-        "jp": "pos tercatat",
+        "jp": "Saat menerima barang dari teman",
         "romaji": ""
       }
     ],
-    "answer": 3,
-    "explain": "かきとめ (書留[かきとめ]) berarti pos tercatat."
+    "answer": 1,
+    "explain": "いって きます (行[い]って きます) diucapkan saat berpamitan pergi keluar rumah (\"Saya pergi dulu\"), lalu dijawab いって らっしゃい."
   },
   {
     "id": "b11-55",
@@ -2828,8 +2828,8 @@ window.MNN_BANK[11] = [
         "romaji": "Odekake desu ka."
       },
       {
-        "jp": "いって まいります。",
-        "romaji": "Itte mairimasu."
+        "jp": "いって きます。",
+        "romaji": "Itte kimasu."
       },
       {
         "jp": "どう いたしまして。",

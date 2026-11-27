@@ -367,10 +367,10 @@ Object.assign(window.MNN_KAIWA, {
         "speakerId": "toshokan",
         "speaker": "図書館[としょかん]の人[ひと]",
         "gender": "male",
-        "jp": "じゃ、がいこくじんとうろくしょうを もって きて ください。",
-        "romaji": "Ja, gaikokujin tourokushou o motte kite kudasai.",
-        "id": "Kalau begitu, tolong bawa kartu registrasi orang asing (kartu izin tinggal) Anda.",
-        "note": "がいこくじんとうろくしょう = kartu registrasi orang asing; kini digantikan 在留[ざいりゅう]カード (kartu izin tinggal). もって きて = membawa datang."
+        "jp": "じゃ、ざいりゅうカードを もって きて ください。",
+        "romaji": "Ja, zairyuu kaado o motte kite kudasai.",
+        "id": "Kalau begitu, tolong bawa kartu izin tinggal (Zairyuu Card) Anda.",
+        "note": "ざいりゅうカード (在留[ざいりゅう]カード) = kartu izin tinggal warga negara asing di Jepang (pengganti kartu registrasi lama di Edisi 2). もって きて = membawa datang."
       },
       {
         "speakerId": "karina",
@@ -392,7 +392,7 @@ Object.assign(window.MNN_KAIWA, {
   "24": {
     "bab": 24,
     "title": "てつだって くれますか — Bantuan Pindahan Rumah",
-    "scene": "Karina menawarkan bantuan untuk pindahan rumah Wang besok pagi. Wang menjelaskan siapa saja yang datang membantu dan bahwa ia akan dipinjami mobil van oleh Yamada, lalu Karina mengusulkan membawakan bekal makan siang.",
+    "scene": "Karina menawarkan bantuan untuk pindahan rumah Wang besok pagi. Wang menjelaskan siapa saja yang datang membantu dan bahwa ia akan dipinjami mobil besar oleh Yamada, lalu Karina mengusulkan membawakan bekal makan siang.",
     "intro": {
       "speaker": "ナレーター (Narator CD)",
       "gender": "female",
@@ -478,9 +478,9 @@ Object.assign(window.MNN_KAIWA, {
         "speakerId": "wan",
         "speaker": "ワン",
         "gender": "male",
-        "jp": "やまださんに ワゴンしゃを かして もらいます。",
-        "romaji": "Yamada-san ni wagonsha o kashite moraimasu.",
-        "id": "Saya dipinjami (mendapat pinjaman) mobil van dari Pak Yamada.",
+        "jp": "やまださんに おおきい くるまを かして もらいます。",
+        "romaji": "Yamada-san ni ookii kuruma o kashite moraimasu.",
+        "id": "Saya dipinjami (mendapat pinjaman) mobil besar dari Pak Yamada.",
         "note": "[pemberi] に V-て もらいます = menerima bantuan/jasa dari seseorang. かして adalah bentuk-て dari かします (meminjamkan)."
       },
       {

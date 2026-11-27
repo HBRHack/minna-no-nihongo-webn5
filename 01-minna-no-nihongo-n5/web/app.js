@@ -118,17 +118,35 @@
     questions: []
   };
   const KOTOBA_BY_BAB = window.MNN_KOTOBA || {};
+  function isKotobaEd2(w) {
+    return !Array.isArray(w && w.ed) || w.ed.includes(2);
+  }
+  function isKotobaEd2New(w) {
+    return Array.isArray(w && w.ed) && w.ed.includes(2) && !w.ed.includes(1);
+  }
+  function isKotobaArchiveEd1(w) {
+    return Array.isArray(w && w.ed) && w.ed.includes(1) && !w.ed.includes(2);
+  }
+  function orderKotobaEd2First(list) {
+    const arr = Array.isArray(list) ? list : [];
+    return [...arr.filter(isKotobaEd2), ...arr.filter(isKotobaArchiveEd1)];
+  }
+  function kotobaEditionBadgeHtml(w) {
+    if (isKotobaArchiveEd1(w)) return `<span class="kotoba-ed-pill is-ed1">Arsip Ed. 1</span>`;
+    if (isKotobaEd2New(w)) return `<span class="kotoba-ed-pill is-ed2">Ed. 2</span>`;
+    return "";
+  }
   function getAllKotoba() {
     const out = [];
     for (let b = 1; b <= 25; b++) {
-      if (Array.isArray(KOTOBA_BY_BAB[b])) out.push(...KOTOBA_BY_BAB[b]);
+      if (Array.isArray(KOTOBA_BY_BAB[b])) out.push(...orderKotobaEd2First(KOTOBA_BY_BAB[b]));
     }
     return out;
   }
   const REFERENCES = window.MNN_REFERENCES || [];
   const KAIWA_BY_BAB = window.MNN_KAIWA || {};
   const FINAL_EXAM = window.FINAL_EXAM_1_25 || [];
-  const ASSET_VERSION = "20261126-v25";
+  const ASSET_VERSION = "20261127-v28";
   const FINAL_MAX_PER_BAB = 10;
   const FINAL_HARD_CAP = 250;
   const FINAL_BANK_CACHE = {};
@@ -226,6 +244,7 @@
       voiceSwapGender: false,
       voiceMaleURI: "",
       voiceFemaleURI: "",
+      showEd1Archive: false,
       finalSetup: defaultFinalSetup()
     };
     try {
@@ -244,6 +263,7 @@
         voiceSwapGender: typeof saved.voiceSwapGender === "boolean" ? saved.voiceSwapGender : false,
         voiceMaleURI: typeof saved.voiceMaleURI === "string" ? saved.voiceMaleURI : "",
         voiceFemaleURI: typeof saved.voiceFemaleURI === "string" ? saved.voiceFemaleURI : "",
+        showEd1Archive: typeof saved.showEd1Archive === "boolean" ? saved.showEd1Archive : false,
         finalSetup: sanitizeFinalSetup(saved.finalSetup)
       };
     } catch {
@@ -416,6 +436,7 @@
     quizModeLabel: "",
     quizIsWrongRetry: false,
     // Pengaturan & Sesi Tes Akhir Bab 1-25
+    showEd1Archive: Boolean(initialPrefs.showEd1Archive),
     finalSetup: initialPrefs.finalSetup,
     finalPhase: "setup", // 'setup' | 'running' | 'result'
     finalSession: null,
@@ -474,6 +495,7 @@
         voiceSwapGender: Boolean(state.voiceSwapGender),
         voiceMaleURI: state.voiceMaleURI || "",
         voiceFemaleURI: state.voiceFemaleURI || "",
+        showEd1Archive: Boolean(state.showEd1Archive),
         finalSetup: sanitizeFinalSetup(state.finalSetup)
       }));
     } catch {
@@ -522,17 +544,6 @@
   function updateTopProfileLabel() {
     const lbl = document.getElementById("topProfileLabel");
     if (lbl) lbl.textContent = activeProfile().name;
-  }
-
-  function syncMobileNav() {
-    const nav = document.getElementById("mobileBottomNav");
-    if (!nav) return;
-    const modal = document.getElementById("profileModal");
-    const modalOpen = modal && !modal.hidden;
-    const activeKey = modalOpen ? "profile" : (state.view === "chapter" ? "overview" : state.view);
-    nav.querySelectorAll("[data-mnav]").forEach((btn) => {
-      btn.classList.toggle("is-active", btn.dataset.mnav === activeKey);
-    });
   }
 
   function isMastered(num) {
@@ -1317,7 +1328,6 @@
     updateCheatButtonLabel();
     updateTopProfileLabel();
     renderSidebar();
-    syncMobileNav();
 
     const ws = document.getElementById("workspace");
     const prof = activeProfile();
@@ -1517,7 +1527,6 @@
     resetQuiz(indices, quizLabel, false);
     updateCheatButtonLabel();
     renderSidebar();
-    syncMobileNav();
     renderChapterView();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -2078,16 +2087,57 @@
         </article>
       `).join("");
 
-      const fullKotoba = Array.isArray(KOTOBA_BY_BAB[ch.num]) && KOTOBA_BY_BAB[ch.num].length > 0
+      const rawKotoba = Array.isArray(KOTOBA_BY_BAB[ch.num]) && KOTOBA_BY_BAB[ch.num].length > 0
         ? KOTOBA_BY_BAB[ch.num]
         : (ch.vocab || []).map((v, idx) => ({ id: `v${ch.num}_${idx}`, kana: v.jp, kanji: "", romaji: v.romaji, arti: v.arti }));
+      const fullKotoba = orderKotobaEd2First(rawKotoba);
+
+      const chKotobaArrPre = Array.isArray(KOTOBA_BY_BAB[ch.num]) ? KOTOBA_BY_BAB[ch.num] : (ch.vocab || []);
+      const chEd1TotalPre = chKotobaArrPre.filter(isKotobaArchiveEd1).length;
+      const chEd2TotalPre = chKotobaArrPre.filter(isKotobaEd2).length;
+      const includeEd1Materi = Boolean(state.showEd1Archive);
+
+      const renderChapterKotobaRows = (list, showArchiveEd1) => {
+        const ed2List = (list || []).filter(isKotobaEd2);
+        const ed1List = (list || []).filter(isKotobaArchiveEd1);
+        const rowHtml = (v, isEd1) => `
+          <tr class="${isEd1 ? "is-ed1-row" : ""}">
+            <td>
+              <div class="jp">${v.emoji ? `<span class="kotoba-emoji-inline" aria-hidden="true">${v.emoji}</span>` : ""}${esc(v.kana)} ${v.kanji ? `<span class="kanji-inline">(${esc(v.kanji)})</span>` : ""}${kotobaEditionBadgeHtml(v)}</div>
+            </td>
+            <td><div class="romaji">${esc(v.romaji)}</div></td>
+            <td>${esc(v.arti)}</td>
+            <td>${ttsBtnHtml(v.kana)}</td>
+          </tr>
+        `;
+        const parts = ed2List.map((v) => rowHtml(v, false));
+        if (showArchiveEd1 && ed1List.length > 0) {
+          parts.push(`
+            <tr class="vocab-archive-divider">
+              <td colspan="4">📚 Arsip &amp; Referensi · Edisi 1 (${ed1List.length} kata — penambah kosakata di Kuis, tidak masuk Tes Akhir)</td>
+            </tr>
+          `);
+          parts.push(...ed1List.map((v) => rowHtml(v, true)));
+        }
+        return parts.join("");
+      };
+
+      const toggleArchiveHtml = chEd1TotalPre > 0 ? `
+        <div class="vocab-archive-toggle-wrap">
+          <button type="button" class="pill-btn ${includeEd1Materi ? "is-active" : ""}" id="btnToggleChapterEd1">
+            ${includeEd1Materi
+              ? `📚 Sembunyikan Arsip Edisi 1 (${chEd1TotalPre} Kata) ▴`
+              : `📚 Tampilkan Arsip &amp; Referensi Edisi 1 (${chEd1TotalPre} Kata) ▾`}
+          </button>
+        </div>
+      ` : "";
 
       vocabHtml = `
         <div class="kotoba-search-row">
           <input type="search" class="profile-input" id="chapterKotobaSearch" placeholder="Cari kosakata Bab ${ch.num} (kana / kanji / romaji / arti)..." style="max-width: 340px;">
           <div style="display:flex; gap:8px; flex-wrap:wrap;">
             <button type="button" class="btn-secondary" id="btnChapterKotobaFlash">
-              🃏 Flashcard Kotoba (${fullKotoba.length})
+              🃏 Flashcard Kotoba (${includeEd1Materi ? fullKotoba.length : chEd2TotalPre})
             </button>
             <button type="button" class="btn-primary" id="btnChapterKotobaFinal">
               🏆 Kuis Akhir Kotoba Bab ${ch.num} →
@@ -2098,23 +2148,23 @@
           <table class="vocab-table">
             <thead><tr><th>Kana &amp; Kanji</th><th>Romaji</th><th>Arti Indonesia</th><th>Audio</th></tr></thead>
             <tbody id="chapterKotobaTbody">
-              ${fullKotoba.map((v) => `
-                <tr>
-                  <td>
-                    <div class="jp">${v.emoji ? `<span class="kotoba-emoji-inline" aria-hidden="true">${v.emoji}</span>` : ""}${esc(v.kana)} ${v.kanji ? `<span class="kanji-inline">(${esc(v.kanji)})</span>` : ""}</div>
-                  </td>
-                  <td><div class="romaji">${esc(v.romaji)}</div></td>
-                  <td>${esc(v.arti)}</td>
-                  <td>${ttsBtnHtml(v.kana)}</td>
-                </tr>
-              `).join("")}
+              ${renderChapterKotobaRows(fullKotoba, includeEd1Materi)}
             </tbody>
           </table>
         </div>
+        ${toggleArchiveHtml}
       `;
     }
 
-    const chKotobaCount = Array.isArray(KOTOBA_BY_BAB[ch.num]) ? KOTOBA_BY_BAB[ch.num].length : (ch.vocab || []).length;
+    const chKotobaArr = Array.isArray(KOTOBA_BY_BAB[ch.num]) ? KOTOBA_BY_BAB[ch.num] : (ch.vocab || []);
+    const chKotobaCount = chKotobaArr.length;
+    const chKotobaEd2Count = chKotobaArr.filter(isKotobaEd2).length;
+    const chKotobaEd1Count = chKotobaArr.filter(isKotobaArchiveEd1).length;
+    const chKotobaHeadingMeta = chKotobaEd1Count > 0
+      ? (state.showEd1Archive
+        ? `Edisi 2: ${chKotobaEd2Count} Kata · Arsip Ed. 1: ${chKotobaEd1Count} Kata`
+        : `Edisi 2 · ${chKotobaEd2Count} Kata`)
+      : `Kotoba · ${chKotobaCount} Kata`;
 
     body.innerHTML = `
       <section class="inline-cheatsheet">
@@ -2142,7 +2192,7 @@
       </section>
 
       <section class="study-section">
-        <h2 class="study-section-title">Kosakata Lengkap Bab ${ch.num} (Kotoba · ${chKotobaCount} Kata)</h2>
+        <h2 class="study-section-title">Kosakata Lengkap Bab ${ch.num} (${chKotobaHeadingMeta})</h2>
         ${ch.isMergedBab17 ? `
           <div style="margin-bottom: 12px; display:flex; gap:8px; flex-wrap:wrap;">
             <button type="button" class="btn-secondary" id="btnChapterKotobaFlash">
@@ -2181,6 +2231,14 @@
     if (btnKotobaFinal) {
       btnKotobaFinal.addEventListener("click", () => openKotobaFlashcard(String(ch.num), "final"));
     }
+    const btnToggleEd1 = document.getElementById("btnToggleChapterEd1");
+    if (btnToggleEd1) {
+      btnToggleEd1.addEventListener("click", () => {
+        state.showEd1Archive = !state.showEd1Archive;
+        persistPrefs();
+        renderChapterMateri(ch);
+      });
+    }
     const chSearch = document.getElementById("chapterKotobaSearch");
     if (chSearch) {
       chSearch.addEventListener("input", () => {
@@ -2196,14 +2254,27 @@
           : fullList;
         const tbody = document.getElementById("chapterKotobaTbody");
         if (tbody) {
-          tbody.innerHTML = filtered.map((v) => `
-            <tr>
-              <td><div class="jp">${v.emoji ? `<span class="kotoba-emoji-inline" aria-hidden="true">${v.emoji}</span>` : ""}${esc(v.kana)} ${v.kanji ? `<span class="kanji-inline">(${esc(v.kanji)})</span>` : ""}</div></td>
+          const ordered = orderKotobaEd2First(filtered);
+          const ed2Filtered = ordered.filter(isKotobaEd2);
+          const ed1Filtered = ordered.filter(isKotobaArchiveEd1);
+          const renderRow = (v, isEd1) => `
+            <tr class="${isEd1 ? "is-ed1-row" : ""}">
+              <td><div class="jp">${v.emoji ? `<span class="kotoba-emoji-inline" aria-hidden="true">${v.emoji}</span>` : ""}${esc(v.kana)} ${v.kanji ? `<span class="kanji-inline">(${esc(v.kanji)})</span>` : ""}${kotobaEditionBadgeHtml(v)}</div></td>
               <td><div class="romaji">${esc(v.romaji)}</div></td>
               <td>${esc(v.arti)}</td>
               <td>${ttsBtnHtml(v.kana)}</td>
             </tr>
-          `).join("") || `<tr><td colspan="4" style="text-align:center; color:var(--color-ink-subtle);">Tidak ada kata yang cocok dengan "${esc(q)}".</td></tr>`;
+          `;
+          const rows = ed2Filtered.map((v) => renderRow(v, false));
+          if (state.showEd1Archive && ed1Filtered.length > 0) {
+            rows.push(`
+              <tr class="vocab-archive-divider">
+                <td colspan="4">📚 Arsip &amp; Referensi · Edisi 1 (${ed1Filtered.length} kata — penambah kosakata di Kuis, tidak masuk Tes Akhir)</td>
+              </tr>
+            `);
+            rows.push(...ed1Filtered.map((v) => renderRow(v, true)));
+          }
+          tbody.innerHTML = rows.join("") || `<tr><td colspan="4" style="text-align:center; color:var(--color-ink-subtle);">Tidak ada kata yang cocok dengan "${esc(q)}".</td></tr>`;
         }
       });
     }
@@ -2344,7 +2415,6 @@
     }
     updateCheatButtonLabel();
     renderSidebar();
-    syncMobileNav();
     renderKanaView();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -2551,21 +2621,23 @@
     return copy;
   }
 
-  function getKotobaPool(scope) {
+  function getKotobaPool(scope, includeEd1 = false) {
     const prof = activeProfile();
     ensureProfileKotoba(prof);
     const all = getAllKotoba();
-    if (scope === "all") return shuffleCopy(all);
+    const baseAll = includeEd1 ? all : all.filter(isKotobaEd2);
+    if (scope === "all") return shuffleCopy(baseAll);
     if (scope === "review") {
       const revSet = new Set(prof.kotoba.reviewIds);
-      return shuffleCopy(all.filter((w) => revSet.has(w.id)));
+      return shuffleCopy(baseAll.filter((w) => revSet.has(w.id)));
     }
     if (/^\d+-\d+$/.test(scope)) {
       const [a, b] = scope.split("-").map(Number);
-      return shuffleCopy(all.filter((w) => w.bab >= a && w.bab <= b));
+      return shuffleCopy(baseAll.filter((w) => w.bab >= a && w.bab <= b));
     }
     const bNum = Number(scope) || 1;
-    return shuffleCopy(KOTOBA_BY_BAB[bNum] || all.slice(0, 40));
+    const babList = (KOTOBA_BY_BAB[bNum] || []).filter((w) => includeEd1 || isKotobaEd2(w));
+    return shuffleCopy(babList.length > 0 ? babList : baseAll.slice(0, 40));
   }
 
   function stripKotobaMeta(str) {
@@ -2630,8 +2702,9 @@
   function prepareKotobaMcqOptions() {
     const card = state.kotobaDeck[state.kotobaIdx];
     if (!card) return;
-    const sameBab = (KOTOBA_BY_BAB[card.bab] || []).filter((w) => w.id !== card.id && w.arti !== card.arti);
-    const wider = getAllKotoba().filter((w) => w.id !== card.id && w.arti !== card.arti);
+    const allowEd1 = state.kotobaMode !== "final" && Boolean(state.showEd1Archive);
+    const sameBab = (KOTOBA_BY_BAB[card.bab] || []).filter((w) => w.id !== card.id && w.arti !== card.arti && (allowEd1 || isKotobaEd2(w)));
+    const wider = getAllKotoba().filter((w) => w.id !== card.id && w.arti !== card.arti && (allowEd1 || isKotobaEd2(w)));
     const distractors = [];
     const seenArti = new Set([card.arti]);
     for (const cand of shuffleCopy(sameBab).concat(shuffleCopy(wider))) {
@@ -2679,13 +2752,18 @@
     const masteredSet = new Set(prof.kotoba.masteredIds);
 
     const all = getAllKotoba();
+    const allowEd1 = state.kotobaMode !== "final" && Boolean(state.showEd1Archive);
     let pool;
     if (Array.isArray(customIds) && customIds.length > 0) {
       const idSet = new Set(customIds);
-      pool = shuffleCopy(all.filter((w) => idSet.has(w.id)));
+      pool = shuffleCopy(all.filter((w) => idSet.has(w.id) && (allowEd1 || isKotobaEd2(w))));
       state.kotobaIsWrongRetry = true;
     } else {
-      pool = getKotobaPool(state.kotobaScope);
+      pool = getKotobaPool(state.kotobaScope, allowEd1);
+      if (state.kotobaMode === "final") {
+        // Kuis Akhir Kotoba khusus Edisi 2 (Arsip Edisi 1 tidak masuk Tes/Kuis Akhir)
+        pool = pool.filter(isKotobaEd2);
+      }
       state.kotobaIsWrongRetry = false;
     }
 
@@ -2698,9 +2776,17 @@
     }
 
     if (state.kotobaMode === "flip" && !state.kotobaIsWrongRetry) {
-      const unmastered = pool.filter((w) => !masteredSet.has(w.id));
-      const mastered = pool.filter((w) => masteredSet.has(w.id));
-      pool = [...unmastered, ...mastered];
+      // Edisi 2 selalu tampil paling atas; Arsip Edisi 1 selalu di paling bawah
+      const ed2 = pool.filter(isKotobaEd2);
+      const ed1 = pool.filter(isKotobaArchiveEd1);
+      pool = [
+        ...ed2.filter((w) => !masteredSet.has(w.id)),
+        ...ed2.filter((w) => masteredSet.has(w.id)),
+        ...ed1.filter((w) => !masteredSet.has(w.id)),
+        ...ed1.filter((w) => masteredSet.has(w.id))
+      ];
+    } else if (!state.kotobaIsWrongRetry) {
+      pool = orderKotobaEd2First(pool);
     }
 
     state.kotobaFullPool = pool;
@@ -2742,7 +2828,6 @@
     }
     updateCheatButtonLabel();
     renderSidebar();
-    syncMobileNav();
     renderKotobaView();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -2966,11 +3051,13 @@
           const emojiCls = state.kotobaEmojiSize === "large" ? "fc-emoji kotoba-card-emoji-lg" : "fc-emoji kotoba-card-emoji-md";
           const emojiHtml = w.emoji && state.kotobaEmojiSize !== "off" ? `<div class="${emojiCls}" aria-hidden="true">${w.emoji}</div>` : "";
           const badgeStatus = isMastered ? "✅ Hafal" : isReview ? "🔁 Ulang" : `Bab ${w.bab}`;
+          const edBadge = kotobaEditionBadgeHtml(w);
+          const isEd1Card = isKotobaArchiveEd1(w);
           return `
-            <article class="kotoba-multi-card ${isFlipped ? "is-flipped" : ""} ${isMastered ? "is-mastered" : isReview ? "is-review" : ""}">
+            <article class="kotoba-multi-card ${isFlipped ? "is-flipped" : ""} ${isMastered ? "is-mastered" : isReview ? "is-review" : ""} ${isEd1Card ? "is-ed1-archive" : ""}">
               <div class="kotoba-card-face" role="button" tabindex="0" data-kcard-flip="${esc(w.id)}" aria-pressed="${isFlipped}">
                 <div class="kotoba-card-top">
-                  <span class="kotoba-card-badge">${badgeStatus}</span>
+                  <span class="kotoba-card-badge">${badgeStatus}${edBadge}</span>
                   <span>${isFlipped ? "JAWABAN" : (frontIsJp ? "🇯🇵→🇮🇩" : "🇮🇩→🇯🇵")}</span>
                 </div>
                 <div class="kotoba-card-body">
@@ -3063,11 +3150,14 @@
     const ws = document.getElementById("workspace");
     const prof = activeProfile();
     ensureProfileKotoba(prof);
-    const allCount = getAllKotoba().length;
+    const allowEd1 = state.kotobaMode !== "final" && Boolean(state.showEd1Archive);
+    const activeAllKotoba = allowEd1 ? getAllKotoba() : getAllKotoba().filter(isKotobaEd2);
+    const allCount = activeAllKotoba.length;
     const deck = state.kotobaDeck;
     const total = deck.length;
     const cur = deck[state.kotobaIdx];
     const masteredSet = new Set(prof.kotoba.masteredIds);
+    const activeMasteredCount = activeAllKotoba.filter((w) => masteredSet.has(w.id)).length;
     const isSingleBab = /^\d+$/.test(state.kotobaScope);
     const curBabNum = isSingleBab ? Number(state.kotobaScope) : null;
     const curBabScore = curBabNum ? prof.kotoba.chapterScores[curBabNum] : null;
@@ -3083,7 +3173,7 @@
       `<option value="21-25" ${state.kotobaScope === "21-25" ? "selected" : ""}>Bab 21–25 (Kalimat Majemuk)</option>`,
       `<option value="review" ${state.kotobaScope === "review" ? "selected" : ""}>🔁 Belum Hafal Tersimpan (${prof.kotoba.reviewIds.length} kata)</option>`,
       ...Array.from({ length: 25 }, (_, i) => i + 1).map((b) => {
-        const len = (KOTOBA_BY_BAB[b] || []).length;
+        const len = (KOTOBA_BY_BAB[b] || []).filter((w) => allowEd1 || isKotobaEd2(w)).length;
         const sc = prof.kotoba.chapterScores[b];
         return `<option value="${b}" ${state.kotobaScope === String(b) ? "selected" : ""}>Bab ${b} (${len} kata${sc ? ` · ${sc.bestPct}%` : ""})</option>`;
       })
@@ -3178,7 +3268,7 @@
 
           <div class="quiz-card">
             <div class="quiz-tag-row">
-              <span class="quiz-type-badge">✍️ Tes Hafalan Ketik · Bab ${cur.bab}</span>
+              <span class="quiz-type-badge">✍️ Tes Hafalan Ketik · Bab ${cur.bab}${kotobaEditionBadgeHtml(cur)}</span>
               ${ttsBtnHtml(cur.kana)}
             </div>
             ${renderKotobaEmojiHtml(cur, state.kotobaEmojiSize !== "off" ? "fc-quiz-emoji" : "")}
@@ -3235,7 +3325,7 @@
 
           <div class="quiz-card">
             <div class="quiz-tag-row">
-              <span class="quiz-type-badge">${isEmojiMode ? `😀 Tebak dari Emot · Bab ${cur.bab}` : `${state.kotobaMode === "final" ? "🏆 Kuis Akhir Kotoba" : "⚡ Kuis Kotoba"} · Bab ${cur.bab}`}</span>
+              <span class="quiz-type-badge">${isEmojiMode ? `😀 Tebak dari Emot · Bab ${cur.bab}` : `${state.kotobaMode === "final" ? "🏆 Kuis Akhir Kotoba" : "⚡ Kuis Kotoba"} · Bab ${cur.bab}`}${kotobaEditionBadgeHtml(cur)}</span>
               ${askJp || isEmojiMode ? ttsBtnHtml(cur.kana) : ""}
             </div>
 
@@ -3303,11 +3393,13 @@
         <div class="chapter-header-top">
           <span class="zone-pill zone-green">KOTOBA ARENA · BAB 1–25 (${allCount} KATA)</span>
           ${curBabScore ? `<span class="zone-pill ${curBabScore.bestPct >= 80 ? "zone-green" : "zone-amber"}">${curBabScore.bestPct >= 80 ? "✓ Kotoba Tuntas" : "Skor Kotoba"} Bab ${curBabNum}: ${curBabScore.bestPct}%</span>` : ""}
-          <span class="zone-pill zone-neutral">Kuis Kotoba Tuntas: ${babTuntasCnt}/25 Bab · Hafal: ${prof.kotoba.masteredIds.length}/${allCount}</span>
+          <span class="zone-pill zone-neutral">Kuis Kotoba Tuntas: ${babTuntasCnt}/25 Bab · Hafal: ${activeMasteredCount}/${allCount}</span>
         </div>
         <h1 class="page-title">🃏 Kotoba Flashcard, Emot Visual, Tes Hafalan Ketik, &amp; Kuis Akhir</h1>
         <p class="page-lead">
-          Hafalkan <strong>${allCount} kosakata Bab 1–25</strong> dengan <strong>Emot Gede</strong> pada kata visual, atur jumlah soal bebas <strong>maksimal 50 soal</strong>, uji ingatan di <strong>Tes Hafalan Ketik</strong>, lalu tuntaskan <strong>Kuis Akhir Kotoba Per Bab</strong>!
+          ${state.showEd1Archive && state.kotobaMode !== "final"
+            ? `Menampilkan <strong>${allCount} kosakata Bab 1–25</strong>: <strong>Edisi 2 di paling atas</strong> + <strong>Arsip Edisi 1 di bawah</strong> (khusus referensi/latihan tambahan, tidak pernah masuk Kuis Akhir).`
+            : `Fokus penuh pada <strong>${allCount} kosakata resmi Edisi 2 (Bab 1–25)</strong> yang masuk Tes Akhir. Istilah usang Edisi 1 disembunyikan (bisa dibuka lewat tombol <em>Arsip Ed. 1</em> bila diperlukan).`}
         </p>
 
         <div class="kotoba-controls-card">
@@ -3326,7 +3418,7 @@
             <button type="button" class="kotoba-bab-pill ${state.kotobaScope === "all" ? "is-active" : ""}" data-kbab-pick="all">Semua</button>
             <button type="button" class="kotoba-bab-pill ${state.kotobaScope === "review" ? "is-active" : ""}" data-kbab-pick="review">🔁 Ulang (${prof.kotoba.reviewIds.length})</button>
             ${Array.from({ length: 25 }, (_, i) => i + 1).map((b) => {
-              const list = KOTOBA_BY_BAB[b] || [];
+              const list = (KOTOBA_BY_BAB[b] || []).filter((w) => allowEd1 || isKotobaEd2(w));
               const allKnown = list.length > 0 && list.every((w) => masteredSet.has(w.id));
               const sc = prof.kotoba.chapterScores[b];
               const isDone = allKnown || !!(sc && sc.bestPct >= 80);
@@ -3377,6 +3469,7 @@
                 <button type="button" class="filter-chip ${state.kotobaDir === "id2jp" ? "is-active" : ""}" data-kdir="id2jp">🇮🇩→🇯🇵</button>
                 <button type="button" class="filter-chip ${state.kotobaDir === "emoji" ? "is-active" : ""}" data-kdir="emoji">😀 Tebak Emot</button>
                 <button type="button" class="filter-chip ${state.kotobaAutoAudio ? "is-active" : ""}" id="btnKotobaAutoAudio">🔊 Auto: ${state.kotobaAutoAudio ? "ON" : "OFF"}</button>
+                <button type="button" class="filter-chip ${state.showEd1Archive ? "is-active" : ""}" id="btnToggleKotobaEd1" title="Tampilkan kosakata arsip Edisi 1 di paling bawah (tidak pernah masuk Kuis Akhir)">📚 Arsip Ed. 1: ${state.showEd1Archive ? "ON" : "OFF"}</button>
               </div>
             </div>
 
@@ -3481,6 +3574,14 @@
       persistPrefs();
       renderKotobaView();
     });
+    const btnToggleKotobaEd1 = document.getElementById("btnToggleKotobaEd1");
+    if (btnToggleKotobaEd1) {
+      btnToggleKotobaEd1.addEventListener("click", () => {
+        state.showEd1Archive = !state.showEd1Archive;
+        persistPrefs();
+        openKotobaFlashcard(state.kotobaScope, state.kotobaMode);
+      });
+    }
     document.getElementById("btnKotobaReshuffle").addEventListener("click", () => {
       openKotobaFlashcard(state.kotobaScope, state.kotobaMode);
     });
@@ -3703,7 +3804,6 @@
     resetQuiz(refCat.questions.map((_, i) => i), `Kuis ${refCat.title} (${refCat.questions.length} Soal)`, false);
     updateCheatButtonLabel();
     renderSidebar();
-    syncMobileNav();
     renderReferencesView();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -4065,7 +4165,8 @@
 
     let assigned = 0;
     order.forEach((bab, idx) => {
-      const poolLen = Array.isArray(poolsByBab[bab]) ? poolsByBab[bab].length : FINAL_MAX_PER_BAB;
+      const rawPool = Array.isArray(poolsByBab[bab]) ? poolsByBab[bab].filter((q) => !q.archiveEd1) : [];
+      const poolLen = Array.isArray(poolsByBab[bab]) ? rawPool.length : FINAL_MAX_PER_BAB;
       const cap = Math.min(FINAL_MAX_PER_BAB, poolLen);
       const want = base + (idx < rem ? 1 : 0);
       const take = Math.max(0, Math.min(cap, want));
@@ -4078,7 +4179,8 @@
     while (assigned < totalDesired && safety > 0) {
       safety--;
       const candidates = fisherYates(babs).filter((bab) => {
-        const poolLen = Array.isArray(poolsByBab[bab]) ? poolsByBab[bab].length : FINAL_MAX_PER_BAB;
+        const rawPool = Array.isArray(poolsByBab[bab]) ? poolsByBab[bab].filter((q) => !q.archiveEd1) : [];
+        const poolLen = Array.isArray(poolsByBab[bab]) ? rawPool.length : FINAL_MAX_PER_BAB;
         return (counts[bab] || 0) < Math.min(FINAL_MAX_PER_BAB, poolLen);
       });
       if (candidates.length === 0) break;
@@ -4107,12 +4209,17 @@
   }
 
   function buildFinalExamSet(selectedBabs, totalDesired, poolsByBab) {
-    const counts = allocateFinalExamCounts(selectedBabs, totalDesired, poolsByBab);
+    const ed2Pools = {};
+    selectedBabs.forEach((bab) => {
+      const raw = Array.isArray(poolsByBab[bab]) ? poolsByBab[bab] : [];
+      ed2Pools[bab] = raw.filter((q) => !q.archiveEd1);
+    });
+    const counts = allocateFinalExamCounts(selectedBabs, totalDesired, ed2Pools);
     const picked = [];
     selectedBabs.forEach((bab) => {
       const take = counts[bab] || 0;
       if (take <= 0) return;
-      const pool = Array.isArray(poolsByBab[bab]) ? poolsByBab[bab] : [];
+      const pool = ed2Pools[bab] || [];
       const sampled = fisherYates(pool).slice(0, take);
       sampled.forEach((q) => picked.push({ q, bab }));
     });
@@ -4211,8 +4318,6 @@
     state.finalReviewFilter = "all";
     updateCheatButtonLabel();
     renderSidebar();
-    syncMobileNav();
-
     const ws = document.getElementById("workspace");
     ws.innerHTML = `
       <section class="chapter-header" id="finalExamHeader"></section>
@@ -4347,7 +4452,7 @@
             <div class="final-setup-head">
               <div>
                 <h2 class="final-setup-title">1. Pilih Bab yang Diujikan (Custom Bab 1–25)</h2>
-                <p class="final-setup-sub">Centang bab mana saja sesuai keinginan, atau pakai preset cepat.</p>
+                <p class="final-setup-sub">Centang bab mana saja sesuai keinginan, atau pakai preset cepat. Tes Akhir 1–25 khusus menguji materi &amp; kosakata <strong>Edisi 2</strong> (soal Arsip Edisi 1 dikecualikan).</p>
               </div>
               <span class="zone-pill zone-neutral" id="finalBabCountBadge">${check.k} / 25 bab dipilih (maks ${check.k * FINAL_MAX_PER_BAB} soal)</span>
             </div>
@@ -5338,7 +5443,7 @@
 
         <div class="quiz-card">
           <div class="quiz-tag-row">
-            <span class="quiz-type-badge">${formatJpHtml(q.badge)}</span>
+            <span class="quiz-type-badge">${formatJpHtml(q.badge)}${q.archiveEd1 ? `<span class="kotoba-ed-pill is-ed1">Arsip Ed. 1 · Penambah Kosakata</span>` : ""}</span>
             <button type="button" class="link-btn" id="btnPeekCheat">${esc(peekText)}</button>
           </div>
 
@@ -5560,14 +5665,12 @@
     state.confirmResetArmed = false;
     detectJaVoices();
     document.getElementById("profileModal").hidden = false;
-    syncMobileNav();
     renderProfileModalBody();
   }
 
   function closeProfileModal() {
     document.getElementById("profileModal").hidden = true;
     state.confirmResetArmed = false;
-    syncMobileNav();
   }
 
   function refreshActiveView() {
@@ -6145,33 +6248,12 @@
       });
     });
 
-    // Mobile Bottom Nav Bar
-    const mnav = document.getElementById("mobileBottomNav");
-    if (mnav) {
-      mnav.querySelectorAll("[data-mnav]").forEach((btn) => {
-        btn.addEventListener("click", () => {
-          closeDrawer();
-          closeCheatModal();
-          const target = btn.dataset.mnav;
-          if (target === "profile") {
-            openProfileModal();
-            return;
-          }
-          closeProfileModal();
-          guardFinalExamExit(() => {
-            if (target === "overview") {
-              renderOverview();
-              window.scrollTo({ top: 0, behavior: "smooth" });
-            } else if (target === "kotoba") {
-              openKotobaFlashcard(state.kotobaScope || "1", state.kotobaMode);
-            } else if (target === "kana") {
-              openKana(state.kanaTab || "hiragana");
-            } else if (target === "references") {
-              openReferences(state.selectedRefId, "materi");
-            } else if (target === "final_exam") {
-              openFinalExam();
-            }
-          });
+    const btnSwitchMobile = document.getElementById("btnSwitchToMobile");
+    if (btnSwitchMobile) {
+      btnSwitchMobile.addEventListener("click", () => {
+        guardFinalExamExit(() => {
+          try { localStorage.setItem("mnn_ui_mode", "mobile"); } catch {}
+          window.location.href = "./mobile/";
         });
       });
     }

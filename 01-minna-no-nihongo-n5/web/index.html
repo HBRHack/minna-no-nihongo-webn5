@@ -11,13 +11,32 @@
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
   <title>Minna no Nihongo I (Bab 1–25) — Kana, Kotoba Flashcard, Materi Lengkap, &amp; Kuis</title>
-  <link rel="manifest" href="./manifest.webmanifest?v=20261126-v25">
-  <link rel="icon" type="image/svg+xml" href="./icons/icon.svg?v=20261126-v25">
-  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png?v=20261126-v25">
+  <script>
+    (function () {
+      try {
+        var params = new URLSearchParams(window.location.search);
+        var qMode = params.get("mode");
+        if (qMode === "desktop" || qMode === "mobile") {
+          localStorage.setItem("mnn_ui_mode", qMode);
+        }
+        var pref = localStorage.getItem("mnn_ui_mode");
+        if (pref === "desktop") return;
+        var ua = navigator.userAgent || "";
+        var isIpadDesktopUa = /Macintosh/i.test(ua) && navigator.maxTouchPoints > 1;
+        var isMobileOrTab = (navigator.userAgentData && navigator.userAgentData.mobile) || /Android|iPhone|iPad|iPod|Mobile|Tablet/i.test(ua) || isIpadDesktopUa;
+        if (pref === "mobile" || isMobileOrTab) {
+          window.location.replace("./mobile/");
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="manifest" href="./manifest.webmanifest?v=20261127-v28">
+  <link rel="icon" type="image/svg+xml" href="./icons/icon.svg?v=20261127-v28">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png?v=20261127-v28">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Noto+Sans+JP:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=20261126-v25">
+  <link rel="stylesheet" href="./styles.css?v=20261127-v28">
 </head>
 <body>
   <header class="topbar" role="banner">
@@ -42,31 +61,34 @@
       <button type="button" class="pill-btn pill-btn-accent" id="btnInstallPwa" hidden title="Pasang aplikasi ke layar utama (offline)">
         📲 Install App
       </button>
-      <button type="button" class="pill-btn desktop-nav-only" id="btnToggleRomaji" aria-pressed="true" title="Tampilkan atau sembunyikan Romaji">
+      <button type="button" class="pill-btn" id="btnToggleRomaji" aria-pressed="true" title="Tampilkan atau sembunyikan Romaji">
         <span class="dot" aria-hidden="true"></span>
         <span id="romajiLabel">Romaji: ON</span>
       </button>
       <button type="button" class="pill-btn pill-btn-accent" id="btnOpenCheatSheet">
         <span id="cheatBtnLabel">Rumus Cepat</span>
       </button>
-      <button type="button" class="pill-btn desktop-nav-only" id="btnOpenKana">
+      <button type="button" class="pill-btn" id="btnOpenKana">
         Kana (あ/ア)
       </button>
-      <button type="button" class="pill-btn desktop-nav-only" id="btnOpenKotoba">
+      <button type="button" class="pill-btn" id="btnOpenKotoba">
         🃏 Kotoba
       </button>
-      <button type="button" class="pill-btn desktop-nav-only" id="btnOpenRefs">
+      <button type="button" class="pill-btn" id="btnOpenRefs">
         Referensi (11)
       </button>
-      <button type="button" class="pill-btn desktop-nav-only" id="btnStartFinalExam">
+      <button type="button" class="pill-btn" id="btnStartFinalExam">
         Tes Akhir (1–25)
       </button>
-      <button type="button" class="pill-btn pill-btn-subtle desktop-nav-only" id="btnShowOverview">
+      <button type="button" class="pill-btn pill-btn-subtle" id="btnShowOverview">
         Peta Bab
       </button>
-      <button type="button" class="pill-btn desktop-nav-only" id="btnOpenProfile" title="Profil Belajar, Audio Jepang, &amp; Cadangan Skor">
+      <button type="button" class="pill-btn" id="btnOpenProfile" title="Profil Belajar, Audio Jepang, &amp; Cadangan Skor">
         <span aria-hidden="true">👤</span>
         <span id="topProfileLabel">Profil &amp; Audio</span>
+      </button>
+      <button type="button" class="pill-btn pill-btn-subtle" id="btnSwitchToMobile" title="Buka tampilan ringkas khusus HP &amp; Tablet">
+        📱 Mobile
       </button>
     </div>
   </header>
@@ -113,30 +135,6 @@
 
     <main class="workspace" id="workspace" tabindex="-1"></main>
   </div>
-
-  <!-- Navigasi Bawah Khusus Mobile (≤ 820px) -->
-  <nav class="mobile-bottom-nav" id="mobileBottomNav" aria-label="Navigasi utama layar HP">
-    <button type="button" class="mnav-btn is-active" data-mnav="overview">
-      <span class="mnav-icon" aria-hidden="true">🗺️</span>
-      <span class="mnav-label">Peta</span>
-    </button>
-    <button type="button" class="mnav-btn" data-mnav="kotoba">
-      <span class="mnav-icon" aria-hidden="true">🃏</span>
-      <span class="mnav-label">Kotoba</span>
-    </button>
-    <button type="button" class="mnav-btn" data-mnav="kana">
-      <span class="mnav-icon mnav-kana" aria-hidden="true">あ</span>
-      <span class="mnav-label">Kana</span>
-    </button>
-    <button type="button" class="mnav-btn" data-mnav="references">
-      <span class="mnav-icon" aria-hidden="true">🍱</span>
-      <span class="mnav-label">Referensi</span>
-    </button>
-    <button type="button" class="mnav-btn" data-mnav="profile">
-      <span class="mnav-icon" aria-hidden="true">👤</span>
-      <span class="mnav-label">Profil</span>
-    </button>
-  </nav>
 
   <!-- Modal Rumus Cepat (Berubah Otomatis Sesuai Bab yang Sedang Dibuka!) -->
   <div class="modal-overlay" id="cheatModal" hidden role="dialog" aria-modal="true" aria-labelledby="cheatModalTitle">
@@ -191,49 +189,49 @@
   <!-- Urutan Script: Bab 1–16, Bab 17 ASLI, Bab 18–25, Soal Ekstra, Kana, Kotoba, Referensi (11), Tes Akhir, Bank Bab 1-25, App -->
   <!-- Versi ?v=... wajib naik setiap kali file diubah agar browser tidak memakai cache lama. -->
   <script>window.MNN_MODULES = []; window.MNN_EXTRA_QUESTIONS = {}; window.MNN_BANK = {};</script>
-  <script src="./data/modul-01-05.js?v=20261126-v25"></script>
-  <script src="./data/modul-06-10.js?v=20261126-v25"></script>
-  <script src="./data/modul-11-16.js?v=20261126-v25"></script>
-  <script src="./data/bab-17.js?v=20261126-v25"></script>
-  <script src="./data/modul-18-25.js?v=20261126-v25"></script>
-  <script src="./data/soal-ekstra-merah-oranye.js?v=20261126-v25"></script>
-  <script src="./data/soal-ekstra-hijau.js?v=20261126-v25"></script>
-  <script src="./data/soal-ekstra-kuning-a.js?v=20261126-v25"></script>
-  <script src="./data/soal-ekstra-kuning-b.js?v=20261126-v25"></script>
-  <script src="./data/kana-dasar.js?v=20261126-v25"></script>
-  <script src="./data/kotoba-1-25.js?v=20261126-v25"></script>
-  <script src="./data/kaiwa-01-05.js?v=20261126-v25"></script>
-  <script src="./data/kaiwa-06-10.js?v=20261126-v25"></script>
-  <script src="./data/kaiwa-11-15.js?v=20261126-v25"></script>
-  <script src="./data/kaiwa-16-20.js?v=20261126-v25"></script>
-  <script src="./data/kaiwa-21-25.js?v=20261126-v25"></script>
-  <script src="./data/referensi-minna.js?v=20261126-v25"></script>
-  <script src="./data/tes-akhir-1-25.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-01.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-02.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-03.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-04.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-05.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-06.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-07.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-08.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-09.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-10.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-11.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-12.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-13.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-14.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-15.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-16.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-17.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-18.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-19.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-20.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-21.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-22.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-23.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-24.js?v=20261126-v25"></script>
-  <script src="./data/bank/bab-25.js?v=20261126-v25"></script>
-  <script src="./app.js?v=20261126-v25"></script>
+  <script src="./data/modul-01-05.js?v=20261127-v28"></script>
+  <script src="./data/modul-06-10.js?v=20261127-v28"></script>
+  <script src="./data/modul-11-16.js?v=20261127-v28"></script>
+  <script src="./data/bab-17.js?v=20261127-v28"></script>
+  <script src="./data/modul-18-25.js?v=20261127-v28"></script>
+  <script src="./data/soal-ekstra-merah-oranye.js?v=20261127-v28"></script>
+  <script src="./data/soal-ekstra-hijau.js?v=20261127-v28"></script>
+  <script src="./data/soal-ekstra-kuning-a.js?v=20261127-v28"></script>
+  <script src="./data/soal-ekstra-kuning-b.js?v=20261127-v28"></script>
+  <script src="./data/kana-dasar.js?v=20261127-v28"></script>
+  <script src="./data/kotoba-1-25.js?v=20261127-v28"></script>
+  <script src="./data/kaiwa-01-05.js?v=20261127-v28"></script>
+  <script src="./data/kaiwa-06-10.js?v=20261127-v28"></script>
+  <script src="./data/kaiwa-11-15.js?v=20261127-v28"></script>
+  <script src="./data/kaiwa-16-20.js?v=20261127-v28"></script>
+  <script src="./data/kaiwa-21-25.js?v=20261127-v28"></script>
+  <script src="./data/referensi-minna.js?v=20261127-v28"></script>
+  <script src="./data/tes-akhir-1-25.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-01.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-02.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-03.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-04.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-05.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-06.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-07.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-08.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-09.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-10.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-11.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-12.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-13.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-14.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-15.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-16.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-17.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-18.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-19.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-20.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-21.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-22.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-23.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-24.js?v=20261127-v28"></script>
+  <script src="./data/bank/bab-25.js?v=20261127-v28"></script>
+  <script src="./app.js?v=20261127-v28"></script>
 </body>
 </html>
